@@ -1,0 +1,497 @@
+{
+  "identity": {
+    "bacteriumName": "Klebsiella sp. (rhinoscleromatis, ozaenae)",
+    "aliases": [
+      "Klebsiella rhinoscleromatis/ozaenae"
+    ],
+    "lastUpdated": "2024-09-09",
+    "clsiCategory": "Enterobacterales (excluding Salmonella/Shigella)",
+    "classification": {
+      "gramStain": "Gram-negative",
+      "morphology": "rod",
+      "respiration": "Facultative anaerobe",
+      "notes": [
+        "non-motile",
+        "encapsulated",
+        "Biochemically very inert compared to Klebsiella pneumoniae"
+      ]
+    },
+    "strainDetails": [
+      {
+        "type": "Subspecies",
+        "value": "Klebsiella rhinoscleromatis",
+        "notes": "Causative agent of Rhinoscleroma."
+      },
+      {
+        "type": "Subspecies",
+        "value": "Klebsiella ozaenae",
+        "notes": "Associated with Ozena (atrophic rhinitis)."
+      }
+    ],
+    "biochemicalTests": "Gram-negative rod, non-motile, encapsulated. Biochemically very inert compared to K. pneumoniae. Typically indole –, citrate –, urease –, lysine –."
+  },
+  "clinicalProfile": {
+    "summary": "Causes two main chronic granulomatous diseases of the upper respiratory tract. Rhinoscleroma is a progressive disease more common in specific geographic regions (Africa, Eastern Europe, South America, Southeast Asia) and presents with purulent nasal discharge and nodule formation leading to obstruction. Ozena, or chronic atrophic rhinitis, typically affects elderly patients and presents with a classic triad of fetid nasal discharge, crusting, and nasal atrophy.",
+    "pathophysiologyPearls": [],
+    "keySignsAndSymptoms": [],
+    "clinicalSyndromes": [
+      {
+        "syndromeName": "Rhinoscleroma",
+        "description": "A chronic granulomatous disease of the upper respiratory tract, presenting with purulent nasal discharge and nodule formation with obstruction."
+      },
+      {
+        "syndromeName": "Ozena (Atrophic Rhinitis)",
+        "description": "Chronic atrophic rhinitis or sinusitis, characterized by a triad of fetid nasal discharge, crusting, and atrophy. K. ozaenae is often isolated from affected patients."
+      }
+    ],
+    "stagesOfIllness": [],
+    "highRiskPopulations": [
+      "Individuals in or from Africa, Eastern Europe, South America, and Southeast Asia (for Rhinoscleroma)",
+      "Elderly patients (for Ozena)"
+    ],
+    "transmissionVectors": [],
+    "prognosisNotes": [
+      "Relapses can occur in Rhinoscleroma, even after prolonged treatment.",
+      "The causative role of K. ozaenae in ozena is controversial."
+    ]
+  },
+  "resistanceProfile": {
+    "groupIntrinsicResistance": [
+       {
+        "drugOrClass": "Ampicillin",
+        "notes": "Most Klebsiella species possess a chromosomal SHV-1 β-lactamase conferring intrinsic resistance to ampicillin, amoxicillin, ticarcillin, and carbenicillin."
+      }
+    ],
+    "intrinsicResistance": [],
+    "majorMechanisms": [],
+    "clinicalAlerts": [
+      {
+        "alertTitle": "Potential for Relapse",
+        "details": "Relapses can occur in Rhinoscleroma even after a long course of antibiotic therapy."
+      }
+    ]
+  },
+  "treatment": {
+    "generalNotes": [
+      "For Ozena, the role of infection is controversial. Topical moistening agents and nasal irrigation are recommended as initial therapy, with antibiotics reserved for documented superinfection."
+    ],
+    "drugsToAvoid": [],
+    "adjunctiveTherapies": [],
+    "regimens": [
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Rhinoscleroma",
+          "patientPopulation": [
+            "Adults"
+          ],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "2-3 months",
+                "drugs": [
+                  {
+                    "drugName": "Ciprofloxacin",
+                    "dose": "750 mg",
+                    "route": "po",
+                    "frequency": "bid",
+                    "comments": null
+                  }
+                ]
+              }
+            ],
+            "notes": []
+          },
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "2-3 months",
+                "drugs": [
+                  {
+                    "drugName": "Levofloxacin",
+                    "dose": "750 mg",
+                    "route": "po",
+                    "frequency": "once daily",
+                    "comments": null
+                  }
+                ]
+              }
+            ],
+            "notes": [
+              "Relapses can occur after treatment is complete."
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Ozena (for superinfection)",
+          "patientPopulation": [
+            "Elderly Patients"
+          ],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "8 weeks",
+                "drugs": [
+                  {
+                    "drugName": "Ciprofloxacin",
+                    "dose": "750 mg",
+                    "route": "po",
+                    "frequency": "bid",
+                    "comments": null
+                  }
+                ]
+              }
+            ],
+            "notes": []
+          },
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "8 weeks",
+                "drugs": [
+                  {
+                    "drugName": "Levofloxacin",
+                    "dose": "750 mg",
+                    "route": "po",
+                    "frequency": "once daily",
+                    "comments": null
+                  }
+                ]
+              }
+            ],
+            "notes": [
+              "The role of infection in ozena is controversial; topical moistening agents are recommended as initial therapy, with antibiotics reserved for superinfection."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "laboratoryProfile": {
+    "testingIndications": [
+      "Isolation of the organism via culture from nasal specimens is required for diagnosis.",
+      "For Rhinoscleroma, histological examination of biopsy specimens is crucial to identify characteristic Mikulicz cells."
+    ],
+    "methodologyNotes": [],
+    "recommendedPanel": [],
+    "specialTests": [],
+    "reportingRules": [],
+    "antimicrobialBreakpoints": [
+      {
+        "tier": 1,
+        "tierDescription": "Appropriate for routine, primary testing and reporting.",
+        "agents": [
+          {
+            "agentName": "Ampicillin",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "10 µg",
+                  "s_breakpoint": "≥ 17 mm",
+                  "i_breakpoint": "14–16 mm",
+                  "r_breakpoint": "≤ 13 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8 µg/mL",
+                  "i_breakpoint": "16 µg/mL",
+                  "r_breakpoint": "≥ 32 µg/mL"
+                },
+                "comments": [
+                  "Results of ampicillin testing can be used to predict results for amoxicillin."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Cefazolin",
+            "breakpointSets": [
+              {
+                "condition": "Urine Only - Uncomplicated UTI",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 15 mm",
+                  "i_breakpoint": null,
+                  "r_breakpoint": "≤ 14 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 16 µg/mL",
+                  "i_breakpoint": null,
+                  "r_breakpoint": "≥ 32 µg/mL"
+                },
+                "comments": [
+                  "Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Amoxicillin-clavulanate",
+            "breakpointSets": [
+              {
+                "condition": "Urine Only - Uncomplicated UTI",
+                "diskDiffusion": {
+                  "diskContent": "20/10 µg",
+                  "s_breakpoint": "≥ 18 mm",
+                  "i_breakpoint": null,
+                  "r_breakpoint": "≤ 17 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8/4 µg/mL",
+                  "i_breakpoint": "16/4 µg/mL",
+                  "r_breakpoint": "≥ 32/4 µg/mL"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Piperacillin-tazobactam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "100/10 µg",
+                  "s_breakpoint": "≥ 25 mm",
+                  "i_breakpoint": "21–24 mm",
+                  "r_breakpoint": "≤ 20 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8/4 µg/mL",
+                  "i_breakpoint": "16/4 µg/mL",
+                  "r_breakpoint": "≥ 32/4 µg/mL"
+                },
+                "comments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules.",
+        "agents": [
+          {
+            "agentName": "Cefepime",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 25 mm",
+                  "i_breakpoint": "19–24 mm",
+                  "r_breakpoint": "≤ 18 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 4 µg/mL",
+                  "i_breakpoint": "8 µg/mL",
+                  "r_breakpoint": "≥ 16 µg/mL"
+                },
+                "comments": [
+                  "Cefepime S/SDD results should be suppressed or reported as resistant for isolates that demonstrate carbapenemase production."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Ertapenem",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "10 µg",
+                  "s_breakpoint": "≥ 22 mm",
+                  "i_breakpoint": "19–21 mm",
+                  "r_breakpoint": "≤ 18 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 0.5 µg/mL",
+                  "i_breakpoint": "1 µg/mL",
+                  "r_breakpoint": "≥ 2 µg/mL"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Meropenem",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "10 µg",
+                  "s_breakpoint": "≥ 23 mm",
+                  "i_breakpoint": "20–22 mm",
+                  "r_breakpoint": "≤ 19 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 1 µg/mL",
+                  "i_breakpoint": "2 µg/mL",
+                  "r_breakpoint": "≥ 4 µg/mL"
+                },
+                "comments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting.",
+        "agents": [
+          {
+            "agentName": "Ceftazidime-avibactam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30/20 µg",
+                  "s_breakpoint": "≥ 21 mm",
+                  "i_breakpoint": null,
+                  "r_breakpoint": "≤ 20 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8/4 µg/mL",
+                  "i_breakpoint": null,
+                  "r_breakpoint": "≥ 16/4 µg/mL"
+                },
+                "comments": [
+                  "Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Meropenem-vaborbactam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "20/10 µg",
+                  "s_breakpoint": "≥ 18 mm",
+                  "i_breakpoint": "15–17 mm",
+                  "r_breakpoint": "≤ 14 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 4/8 µg/mL",
+                  "i_breakpoint": "8/8 µg/mL",
+                  "r_breakpoint": "≥ 16/8 µg/mL"
+                },
+                "comments": [
+                  "If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available.",
+        "agents": [
+          {
+            "agentName": "Aztreonam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 21 mm",
+                  "i_breakpoint": "18–20 mm",
+                  "r_breakpoint": "≤ 17 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 4 µg/mL",
+                  "i_breakpoint": "8 µg/mL",
+                  "r_breakpoint": "≥ 16 µg/mL"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Ceftriaxone",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 26 mm",
+                  "i_breakpoint": "20–22 mm",
+                  "r_breakpoint": "≤ 19 mm"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 1 µg/mL",
+                  "i_breakpoint": "2 µg/mL",
+                  "r_breakpoint": "≥ 4 µg/mL"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Colistin or Polymyxin B",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": null,
+                "mic": {
+                  "s_breakpoint": "≤ 2 µg/mL",
+                  "i_breakpoint": null,
+                  "r_breakpoint": "≥ 4 µg/mL"
+                },
+                "comments": [
+                  "Disk diffusion and gradient diffusion methods should not be performed."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "additionalInformation": {
+    "diagnosticNotes": {
+      "summary": "Diagnosis is confirmed by isolation of the organism via culture from the upper respiratory tract. For Rhinoscleroma, histopathology showing Mikulicz cells is characteristic.",
+      "biosafetyWarning": null,
+      "methods": [
+        {
+          "methodName": "Culture",
+          "details": "Isolation from purulent nasal discharge or tissue biopsy."
+        },
+        {
+          "methodName": "Histology",
+          "details": "For Rhinoscleroma, biopsy showing chronic granulomatous inflammation with numerous plasma cells and characteristic large vacuolated macrophages (Mikulicz cells) containing the bacteria."
+        }
+      ]
+    },
+    "preventionAndScreening": [],
+    "treatmentLifecycle": [],
+    "antimicrobialStewardship": [
+      "In cases of Ozena, antibiotics should be reserved for superinfection. Initial therapy should focus on topical moistening agents and nasal irrigation to manage crusting and atrophy."
+    ],
+    "drugSpecificPearls": [],
+    "guidelineReferences": []
+  }
+}

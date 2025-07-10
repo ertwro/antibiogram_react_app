@@ -1,0 +1,549 @@
+{
+  "bacterial_categories": [
+    {
+      "category_name": "Enterobacterales (excluding Salmonella/Shigella)",
+      "description": "This broad group includes many common clinically significant bacteria. Testing for these organisms often involves a tiered approach for various antimicrobial agents.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Escherichia coli",
+          "notes": [
+            "Includes E. coli Enteroaggregative.",
+            "For isolates from the urinary tract, nitrofurantoin should be reported if susceptible.",
+            "Cefazolin is a surrogate for uncomplicated UTIs due to E. coli."
+          ]
+        },
+        {
+          "name": "Enterobacter cloacae complex",
+          "notes": [
+            "Cefepime should be considered a Tier 1 agent for testing and/or reporting."
+          ]
+        },
+        {
+          "name": "Klebsiella sp.",
+          "notes": [
+            "Includes K. oxytoca, K. pneumoniae, K. variicola, K. aerogenes, K. rhinoscleromatis, and K. ozaenae.",
+            "Cefepime is a Tier 1 agent for certain Klebsiella species.",
+            "Cefazolin is a surrogate for uncomplicated UTIs due to K. pneumoniae."
+          ]
+        },
+        {
+          "name": "Morganella morganii",
+          "notes": [
+            "Cefepime is a Tier 1 agent for M. morganii."
+          ]
+        },
+        {
+          "name": "Citrobacter sp.",
+          "notes": [
+            "Includes Citrobacter freundii and Citrobacter koseri.",
+            "Cefepime is a Tier 1 agent for C. freundii complex."
+          ]
+        },
+        {
+          "name": "Serratia marcescens",
+          "notes": [
+            "Cefepime is a Tier 1 agent for S. marcescens."
+          ]
+        },
+        {
+          "name": "Proteus sp.",
+          "notes": [
+            "Includes P. mirabilis, P. penneri, and P. vulgaris.",
+            "Cefazolin is a surrogate for uncomplicated UTIs due to P. mirabilis."
+          ]
+        },
+        {
+          "name": "Providencia sp.",
+          "notes": [
+            "Includes P. stuartii, P. rettgeri, and P. alcalificiens.",
+            "Cefepime is a Tier 1 agent for Providencia spp."
+          ]
+        },
+        {
+          "name": "Hafnia alvei",
+          "notes": []
+        },
+        {
+          "name": "Yersinia enterocolitica",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Salmonella and Shigella spp.",
+      "description": "Antimicrobial susceptibility testing results for these organisms are important for guiding treatment.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Shigella sp.",
+          "notes": [
+            "Routine susceptibility testing is not indicated; however, susceptibility testing is indicated for all Shigella isolates.",
+            "Ampicillin, a fluoroquinolone, and trimethoprim-sulfamethoxazole should be reported routinely."
+          ]
+        },
+        {
+          "name": "Salmonella sp.",
+          "notes": [
+            "For non-typhoidal Salmonella spp., routine susceptibility testing is not indicated.",
+            "Susceptibility testing is indicated for typhoidal Salmonella (S. enterica ser. Typhi and S. enterica ser. Paratyphi A-C).",
+            "Azithromycin disk diffusion zone sizes and MIC data are limited for S. enterica ser. Typhi."
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Pseudomonas aeruginosa",
+      "description": "This organism can develop resistance during therapy, making susceptibility testing important.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Pseudomonas aeruginosa",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Acinetobacter spp.",
+      "description": "Testing for Acinetobacter species is crucial due to potential multidrug resistance.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Acinetobacter baumannii-calcoaceticus complex",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Burkholderia cepacia complex",
+      "description": "Testing for this complex often requires specific methods, as disk diffusion tests can be unreliable.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Burkholderia cepacia",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Stenotrophomonas maltophilia",
+      "description": "This organism is known for its intrinsic resistance to certain antibiotics.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Stenotrophomonas maltophilia",
+          "notes": [
+            "Levofloxacin and Trimethoprim-sulfamethoxazole should not be used alone for antimicrobial therapy."
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Other Non-Enterobacterales",
+      "description": "This category includes various Gram-negative bacilli. For some organisms in this group, MIC testing is preferred due to unreliable disk diffusion results.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Vibrio spp.",
+          "notes": [
+            "Includes V. cholerae, V. parahaemolyticus, V. vulnificus, V. alginolyticus, and V. damsela."
+          ]
+        },
+        {
+          "name": "Burkholderia pseudomallei",
+          "notes": []
+        },
+        {
+          "name": "Moraxella catarrhalis",
+          "notes": []
+        },
+        {
+          "name": "Campylobacter spp.",
+          "notes": [
+            "Includes C. jejuni, C. coli, and C. fetus."
+          ]
+        },
+        {
+          "name": "Listeria monocytogenes",
+          "notes": []
+        },
+        {
+          "name": "Aggregatibacter aphrophilus",
+          "notes": []
+        },
+        {
+          "name": "Kingella kingae",
+          "notes": []
+        },
+        {
+          "name": "Aeromonas sp.",
+          "notes": []
+        },
+        {
+          "name": "Capnocytophaga species",
+          "notes": []
+        },
+        {
+          "name": "Erysipelothrix rhusiopathiae",
+          "notes": []
+        },
+        {
+          "name": "Eikenella corrodens",
+          "notes": []
+        },
+        {
+          "name": "Pasteurella multocida",
+          "notes": []
+        },
+        {
+          "name": "Aerococcus spp.",
+          "notes": [
+            "Includes A. urinae and A. sanguinicola."
+          ]
+        },
+        {
+          "name": "Gemella spp.",
+          "notes": [
+            "Includes G. mobillorum."
+          ]
+        },
+        {
+          "name": "Plesiomonas shigelloides",
+          "notes": []
+        },
+        {
+          "name": "Aggregatibacter actinomycetemcomitans",
+          "notes": []
+        },
+        {
+          "name": "Cardiobacterium spp.",
+          "notes": []
+        },
+        {
+          "name": "Rothia mucilaginosa",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Staphylococcus spp.",
+      "description": "This group requires careful consideration for methicillin resistance and inducible clindamycin resistance.",
+      "category_notes": [
+        "For staphylococci that are susceptible to clindamycin but resistant to erythromycin, testing for inducible clindamycin resistance (D-zone test) is required."
+      ],
+      "pathogens": [
+        {
+          "name": "Staphylococcus aureus",
+          "notes": [
+            "Detection of methicillin (oxacillin) resistance (MRSA) is critical and can be done using cefoxitin or oxacillin.",
+            "For S. aureus with vancomycin MIC >= 8 µg/mL, further testing at a referral laboratory is recommended."
+          ]
+        },
+        {
+          "name": "Coagulase-negative Staphylococcus",
+          "notes": [
+            "Includes S. haemolyticus, S. epidermidis, S. saprophyticus, S. lugdunensis, and others.",
+            "Detection of methicillin (oxacillin) resistance is important."
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Enterococcus spp.",
+      "description": "Susceptibility testing for enterococci often involves high-level aminoglycoside resistance (HLAR) testing.",
+      "category_notes": [
+        "Routine reporting of organisms from the lower respiratory tract is not typically done for Enterococcus spp."
+      ],
+      "pathogens": [
+        {
+          "name": "Enterococcus faecium",
+          "notes": [
+            "Ampicillin results can predict susceptibility to amoxicillin-clavulanate, ampicillin-sulbactam, and piperacillin-tazobactam for non-β-lactamase-producing enterococci.",
+            "The breakpoint for susceptible-dose dependent (SDD) is intended for serious infections.",
+            "Consultation with an infectious diseases specialist is recommended.",
+            "Vancomycin susceptibility testing should predict resistance for E. faecalis."
+          ]
+        },
+        {
+          "name": "Enterococcus faecalis",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Haemophilus influenzae and Haemophilus parainfluenzae",
+      "description": "Beta-lactamase testing is crucial for determining ampicillin and amoxicillin resistance in these species.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Haemophilus influenzae",
+          "notes": []
+        },
+        {
+          "name": "Haemophilus ducreyi",
+          "notes": [
+            "Also known as Chancroid.",
+            "Susceptibility tests with antimicrobial agents are not routinely necessary for managing individual patients."
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Neisseria gonorrhoeae",
+      "description": "Susceptibility testing is recommended in cases of treatment failure.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Neisseria gonorrhoeae",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Streptococcus pneumoniae",
+      "description": "Testing considerations for penicillin and cephalosporins vary based on the isolate's source (e.g., CSF vs. non-meningitis isolates).",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Streptococcus pneumoniae",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Streptococcus spp. Beta-Hemolytic Group",
+      "description": "This group includes clinically important pathogens like Streptococcus pyogenes (Group A Strep) and Streptococcus agalactiae (Group B Strep).",
+      "category_notes": [
+        "For intrapartum prophylaxis for Group B Streptococcus in penicillin-allergic women at high risk for anaphylaxis, testing for clindamycin or vancomycin susceptibility may be needed.",
+        "If an isolate is susceptible to clindamycin but resistant to erythromycin, inducible clindamycin resistance (ICR) should be tested."
+      ],
+      "pathogens": [
+        {
+          "name": "Streptococcus pyogenes",
+          "notes": [
+            "Includes Beta hemolytic Groups A, C, F, G Strep."
+          ]
+        },
+        {
+          "name": "Streptococcus agalactiae",
+          "notes": [
+            "Also known as Group B Strep."
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Streptococcus spp. Viridans Group",
+      "description": "This group encompasses various species, some of which may require penicillin-aminoglycoside combination therapy.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Streptococcus, viridans group",
+          "notes": []
+        },
+        {
+          "name": "Streptococcus anginosus group",
+          "notes": []
+        },
+        {
+          "name": "Abiotrophia spp.",
+          "notes": [
+            "Formerly nutritionally variant streptococci, and are generally excluded from primary susceptibility testing tables as per CLSI guidance [4]."
+          ]
+        },
+        {
+          "name": "Granulicatella spp.",
+          "notes": [
+            "Formerly nutritionally variant streptococci, and are generally excluded from primary susceptibility testing tables as per CLSI guidance [4]."
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Neisseria meningitidis",
+      "description": "Specific safety precautions are recommended when performing AST for N. meningitidis due to the risk of laboratory-acquired infection.",
+      "category_notes": [
+        "Prophylaxis for meningococcal case contacts is mentioned.",
+        "Breakpoints may not apply to therapy of patients with invasive meningococcal disease."
+      ],
+      "pathogens": [
+        {
+          "name": "Neisseria meningitidis",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "category_name": "Anaerobes",
+      "description": "For anaerobes, specific testing methods and interpretive criteria are provided.",
+      "category_notes": [],
+      "pathogens": [
+        {
+          "name": "Dialister pneumosintes",
+          "notes": []
+        },
+        {
+          "name": "Clostridium tetani",
+          "notes": []
+        },
+        {
+          "name": "Campylobacter gracilis",
+          "notes": []
+        },
+        {
+          "name": "Fusobacterium spp.",
+          "notes": [
+            "Includes F. necrophorum and F. nucleatum."
+          ]
+        },
+        {
+          "name": "Clostridium perfringens",
+          "notes": []
+        },
+        {
+          "name": "Bacteroides and Parabacteroides spp.",
+          "notes": [
+            "Includes Bacteroides sp., Prevotella sp., and Bacteroides fragilis."
+          ]
+        },
+        {
+          "name": "Actinomyces sp.",
+          "notes": []
+        },
+        {
+          "name": "Clostridioides difficile",
+          "notes": []
+        },
+        {
+          "name": "Porphyromonas endodontalis",
+          "notes": []
+        },
+        {
+          "name": "Clostridium bifermentans",
+          "notes": []
+        },
+        {
+          "name": "Peptoniphilus sp. and Finegoldia sp.",
+          "notes": [
+            "These organisms, along with Parvimonas spp., are often excluded from routine AST, though MIC breakpoints may be available elsewhere."
+          ]
+        },
+        {
+          "name": "Clostridium septicum",
+          "notes": []
+        },
+        {
+          "name": "Paeniclostridium sordellii",
+          "notes": []
+        },
+        {
+          "name": "Eggerthella lenta",
+          "notes": [
+            "Formerly Eubacterium lentum."
+          ]
+        }
+      ]
+    }
+  ],
+  "uncategorized_pathogens": {
+    "description": "These bacteria are not specifically included in the routine antimicrobial susceptibility testing tables in the CLSI document, or AST is complex/not well-defined, and may require specialized testing or clinical consultation.",
+    "pathogens": [
+      {
+        "name": "Nocardia sp."
+      },
+      {
+        "name": "Leuconostoc sp."
+      },
+      {
+        "name": "Lactobacillus sp."
+      },
+      {
+        "name": "Francisella tularensis"
+      },
+      {
+        "name": "Coxiella burnetii"
+      },
+      {
+        "name": "Achromobacter xylosoxidans"
+      },
+      {
+        "name": "Chlamydia pneumoniae"
+      },
+      {
+        "name": "Leptospira sp."
+      },
+      {
+        "name": "Rhodococcus hoagii"
+      },
+      {
+        "name": "Helicobacter pylori"
+      },
+      {
+        "name": "Ureaplasma urealyticum"
+      },
+      {
+        "name": "Bartonella sp."
+      },
+      {
+        "name": "Mycoplasma hominis"
+      },
+      {
+        "name": "Chlamydia psittaci"
+      },
+      {
+        "name": "Bacillus sp. (not B. anthracis)"
+      },
+      {
+        "name": "Corynebacterium spp.",
+        "notes": [
+          "Includes C. urealyticum, C. jeikeium, and C. diphtheriae."
+        ]
+      },
+      {
+        "name": "Streptobacillus moniliformis"
+      },
+      {
+        "name": "Chlamydia trachomatis"
+      },
+      {
+        "name": "Borrelia sp."
+      },
+      {
+        "name": "Gardnerella vaginalis"
+      },
+      {
+        "name": "Arcanobacterium haemolyticum"
+      },
+      {
+        "name": "Mycoplasma pneumoniae"
+      },
+      {
+        "name": "Mycoplasma genitalium"
+      },
+      {
+        "name": "Bordetella pertussis"
+      },
+      {
+        "name": "Neoehrlichia mikurensis"
+      },
+      {
+        "name": "Legionella sp."
+      },
+      {
+        "name": "Elizabethkingia meningoseptica"
+      },
+      {
+        "name": "Cutibacterium acnes"
+      },
+      {
+        "name": "Brucella sp."
+      },
+      {
+        "name": "Treponema pallidum"
+      },
+      {
+        "name": "Pediococcus spp."
+      }
+    ]
+  }
+}

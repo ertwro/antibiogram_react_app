@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "bacteriumName": "Morganella morganii",
+    "aliases": [
+      "Morganella sp."
+    ],
+    "lastUpdated": "2025-01-17",
+    "clsiCategory": "Enterobacterales (excluding Salmonella/Shigella)",
+    "classification": {
+      "gramStain": "Gram negative",
+      "morphology": "Bacilli",
+      "respiration": "Facultative anaerobe",
+      "notes": [
+        "Enteric bacterium."
+      ]
+    },
+    "strainDetails": [],
+    "biochemicalTests": "Gram-negative rod, motile, lactose –, H2S –, indole +, citrate –, urease +, phenylalanine deaminase +, ornithine decarboxylase +."
+  },
+  "clinicalProfile": {
+    "summary": "Morganella morganii can cause various infections, but it is most commonly identified as the cause of urinary tract and post-operative wound infections. It is typically a nosocomial pathogen.",
+    "pathophysiologyPearls": [
+      "Like other SPACE-M organisms, M. morganii may initially test susceptible to third-generation cephalosporins but can become resistant during therapy due to derepression of an inducible AmpC β-lactamase.",
+      "The risk of AmpC derepression during therapy is noted as less frequent for M. morganii compared to other organisms like Enterobacter cloacae complex or Citrobacter freundii complex."
+    ],
+    "keySignsAndSymptoms": [],
+    "clinicalSyndromes": [
+      {
+        "syndromeName": "Urinary Tract Infections (UTI)",
+        "description": "A common manifestation, particularly in hospital settings. For UTIs, it's crucial to remove indwelling Foley catheters if possible and ensure no urinary obstruction."
+      },
+      {
+        "syndromeName": "Post-operative Wound Infections",
+        "description": "Infections occurring at the site of a surgical incision."
+      }
+    ],
+    "stagesOfIllness": [],
+    "highRiskPopulations": [
+      "Hospitalized patients (nosocomial infections)"
+    ],
+    "transmissionVectors": [],
+    "prognosisNotes": []
+  },
+  "resistanceProfile": {
+    "groupIntrinsicResistance": [],
+    "intrinsicResistance": [
+      {
+        "drugOrClass": "Polymyxins (Colistin, Polymyxin B)",
+        "notes": "Isolates are intrinsically resistant."
+      },
+      {
+        "drugOrClass": "Penicillins (Penicillin, Ampicillin, Amoxicillin-clavulanate)",
+        "notes": "Isolates are intrinsically resistant."
+      },
+      {
+        "drugOrClass": "Ampicillin/sulbactam",
+        "notes": "Isolates are intrinsically resistant."
+      },
+      {
+        "drugOrClass": "1st and 2nd Generation Cephalosporins",
+        "notes": "Isolates are intrinsically resistant."
+      },
+      {
+        "drugOrClass": "Nitrofurantoin",
+        "notes": "Isolates are intrinsically resistant."
+      },
+      {
+        "drugOrClass": "Fosfomycin",
+        "notes": "Isolates are intrinsically resistant."
+      }
+    ],
+    "majorMechanisms": [
+      {
+        "mechanismName": "Inducible AmpC β-lactamase",
+        "mechanismType": "Enzymatic Inactivation",
+        "description": "M. morganii possesses an inducible AmpC gene that can be derepressed during therapy with third-generation cephalosporins, leading to resistance, although this is less frequent than in other AmpC-producers."
+      },
+      {
+        "mechanismName": "Carbapenemase Production",
+        "mechanismType": "Enzymatic Inactivation",
+        "description": "Isolates may produce carbapenemases, including serine-carbapenemases (like KPC) or metallo-beta-lactamases (MBLs)."
+      },
+      {
+        "mechanismName": "Plasmid-mediated Resistance",
+        "mechanismType": "Various",
+        "description": "Strains may acquire plasmid-mediated resistance to aminoglycosides and fluoroquinolones."
+      }
+    ],
+    "clinicalAlerts": [
+      {
+        "alertTitle": "Potential for Inducible AmpC Resistance",
+        "details": "Although the risk is lower than with other organisms, M. morganii can develop resistance to third-generation cephalosporins during treatment. For high-inoculum infections, Cefepime may be a more stable option than Ceftriaxone."
+      }
+    ]
+  },
+  "treatment": {
+    "generalNotes": [
+      "Recommendations are generally for moderately severe or severe infections.",
+      "For uncomplicated infections with susceptible strains, options can include fluoroquinolones and third-generation cephalosporins.",
+      "TMP-SMX is an option only if the strain is susceptible, as resistance is common.",
+      "Imipenem is noted to be less active than other carbapenems against M. morganii."
+    ],
+    "drugsToAvoid": [],
+    "adjunctiveTherapies": [],
+    "regimens": [
+      {
+        "context": {
+          "type": "Empiric",
+          "condition": "Suspected Morganella sp. infection, susceptibility pending",
+          "patientPopulation": ["Local ESBL rate <10-15%"],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [{"drugName": "Piperacillin-tazobactam", "dose": "4.5 gm", "route": "IV", "frequency": "q8h", "comments": "Infuse over 4 hours."}]}
+            ]
+          },
+          {
+            "preference": "Alternative",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Ceftriaxone", "dose": "1-2 gm", "route": "IV", "frequency": "q24h", "comments": ""},
+                  {"drugName": "Cefepime", "dose": "1-2 gm", "route": "IV", "frequency": "q8h-q12h", "comments": ""},
+                  {"drugName": "Aztreonam", "dose": "2 gm", "route": "IV", "frequency": "q8h", "comments": ""},
+                  {"drugName": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "comments": ""},
+                  {"drugName": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "once daily", "comments": ""}
+              ]}
+            ]
+          },
+          {
+            "preference": "For Life-Threatening Illness",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [{"drugName": "Meropenem", "dose": "1-2 gm", "route": "IV", "frequency": "q8h", "comments": ""}]}
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Empiric",
+          "condition": "Suspected Morganella sp. infection, susceptibility pending",
+          "patientPopulation": ["Local ESBL rate >15%"],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Meropenem", "dose": "1-2 gm", "route": "IV", "frequency": "q8h", "comments": ""},
+                  {"drugName": "Ertapenem", "dose": "1 gm", "route": "IV", "frequency": "q24h", "comments": ""}
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "No ESBL or constitutive AmpC production",
+          "patientPopulation": ["Isolate susceptible to 3rd-gen cephalosporins, TMP-SMX, fluoroquinolones"],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Ceftriaxone", "dose": "1-2 gm", "route": "IV", "frequency": "q24h", "comments": ""},
+                  {"drugName": "Cefepime", "dose": "1-2 gm", "route": "IV", "frequency": "q8h-q12h", "comments": "May be preferred over Ceftriaxone for high inoculum infections."},
+                  {"drugName": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "comments": ""},
+                  {"drugName": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "once daily", "comments": ""},
+                  {"drugName": "TMP-SMX", "dose": "10 mg/kg/day (TMP component)", "route": "IV", "frequency": "in 2-3 divided doses", "comments": ""}
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "ESBL and/or AmpC overproduction",
+          "patientPopulation": ["Isolate resistant to aztreonam, ceftriaxone, cefotaxime, ceftazidime"],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Meropenem", "dose": "1-2 gm", "route": "IV", "frequency": "q8h", "comments": ""},
+                  {"drugName": "Ertapenem", "dose": "1 gm", "route": "IV", "frequency": "q24h", "comments": ""}
+              ]}
+            ]
+          },
+          {
+            "preference": "Alternative (if susceptible)",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "comments": ""},
+                  {"drugName": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "once daily", "comments": ""},
+                  {"drugName": "TMP-SMX", "dose": "10 mg/kg/day (TMP component)", "route": "IV", "frequency": "in 2-3 divided doses", "comments": ""}
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Serine-carbapenemase (e.g., KPC) producer",
+          "patientPopulation": ["Resistant to carbapenems but susceptible to newer beta-lactamase inhibitor combos"],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Ceftazidime-avibactam", "dose": "2.5 gm", "route": "IV", "frequency": "q8h", "comments": "Infuse over 3 hours. Use if susceptible in vitro."},
+                  {"drugName": "Meropenem-vaborbactam", "dose": "4 gm", "route": "IV", "frequency": "q8h", "comments": "Infuse over 3 hours."}
+              ]}
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Metallo-beta-lactamase (MBL) producer",
+          "patientPopulation": ["Pan-resistant to most tested beta-lactams and other agents"],
+          "isolateSource": null
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [
+                  {"drugName": "Ceftazidime-avibactam", "dose": "2.5 gm", "route": "IV", "frequency": "q8h", "comments": "Infuse over 3 hours."},
+                  {"drugName": "Aztreonam", "dose": "2 gm", "route": "IV", "frequency": "q6h", "comments": "Infuse over 3 hours. Must be given with Ceftazidime-avibactam."}
+              ]}
+            ]
+          },
+          {
+            "preference": "Alternative",
+            "strategy": "Concurrent",
+            "steps": [
+              {"step": 1, "duration": "Variable", "drugs": [{"drugName": "Cefiderocol", "dose": "2 gm", "route": "IV", "frequency": "q8h", "comments": "Infuse over 3 hours."}]}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "laboratoryProfile": {
+    "testingIndications": [
+      "If resistance to third-generation cephalosporins develops during therapy, subsequent testing of the isolate may be clinically warranted to guide further treatment."
+    ],
+    "methodologyNotes": [
+      "The approach to testing and reporting AST results for organisms with inducible resistance, like M. morganii, should be determined in consultation with the institutional antimicrobial stewardship team."
+    ],
+    "recommendedPanel": [],
+    "specialTests": [],
+    "reportingRules": [
+      {
+        "ruleType": "Exception",
+        "drug": "Imipenem-relebactam",
+        "condition": "Isolate is identified as a member of the family Morganellaceae (Morganella, Proteus, Providencia).",
+        "details": "The defined CLSI breakpoints for Imipenem-relebactam do not apply to Morganella morganii. This agent should not be reported using these breakpoints for this organism."
+      }
+    ],
+    "antimicrobialBreakpoints": [
+      {
+        "tier": 1,
+        "tierDescription": "Appropriate for routine, primary testing and reporting.",
+        "agents": [
+          {"agentName": "Piperacillin-tazobactam", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "100/10 µg", "s_breakpoint": "≥ 22 mm", "i_breakpoint": "18–21 mm", "r_breakpoint": "≤ 17 mm"}, "mic": {"s_breakpoint": "≤ 16/4 µg/mL", "i_breakpoint": "32/4 µg/mL", "r_breakpoint": "≥ 64/4 µg/mL"}, "comments": ["Note: These breakpoints are specific to Morganella, Proteus, and Providencia species and differ from other Enterobacterales."]}]},
+          {"agentName": "Gentamicin", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "10 µg", "s_breakpoint": "≥ 18 mm", "i_breakpoint": "15–17 mm", "r_breakpoint": "≤ 14 mm"}, "mic": {"s_breakpoint": "≤ 4 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 8 µg/mL"}, "comments": []}]},
+          {"agentName": "Tobramycin", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "10 µg", "s_breakpoint": "≥ 17 mm", "i_breakpoint": "13–16 mm", "r_breakpoint": "≤ 12 mm"}, "mic": {"s_breakpoint": "≤ 4 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 8 µg/mL"}, "comments": []}]},
+          {"agentName": "Amikacin", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 19 mm", "i_breakpoint": "17–18 mm", "r_breakpoint": "≤ 16 mm"}, "mic": {"s_breakpoint": "≤ 16 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 32 µg/mL"}, "comments": []}]},
+          {"agentName": "Ciprofloxacin", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "5 µg", "s_breakpoint": "≥ 26 mm", "i_breakpoint": "22–25 mm", "r_breakpoint": "≤ 21 mm"}, "mic": {"s_breakpoint": "≤ 0.25 µg/mL", "i_breakpoint": "0.5 µg/mL", "r_breakpoint": "≥ 1 µg/mL"}, "comments": []}]},
+          {"agentName": "Levofloxacin", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "5 µg", "s_breakpoint": "≥ 21 mm", "i_breakpoint": "17–20 mm", "r_breakpoint": "≤ 16 mm"}, "mic": {"s_breakpoint": "≤ 0.5 µg/mL", "i_breakpoint": "1 µg/mL", "r_breakpoint": "≥ 2 µg/mL"}, "comments": []}]},
+          {"agentName": "Trimethoprim-sulfamethoxazole", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "1.25/23.75 µg", "s_breakpoint": "≥ 16 mm", "i_breakpoint": "11–15 mm", "r_breakpoint": "≤ 10 mm"}, "mic": {"s_breakpoint": "≤ 2/38 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 4/76 µg/mL"}, "comments": []}]}
+        ]
+      },
+      {
+        "tier": 2,
+        "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules.",
+        "agents": [
+          {"agentName": "Cefepime", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 25 mm", "i_breakpoint": "19–24 mm", "r_breakpoint": "≤ 18 mm"}, "mic": {"s_breakpoint": "≤ 4 µg/mL", "i_breakpoint": "8 µg/mL", "r_breakpoint": "≥ 16 µg/mL"}, "comments": ["Cefepime S/SDD results should be suppressed or reported as resistant for isolates demonstrating carbapenemase production."]}]},
+          {"agentName": "Ertapenem", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "10 µg", "s_breakpoint": "≥ 22 mm", "i_breakpoint": "19–21 mm", "r_breakpoint": "≤ 18 mm"}, "mic": {"s_breakpoint": "≤ 0.5 µg/mL", "i_breakpoint": "1 µg/mL", "r_breakpoint": "≥ 2 µg/mL"}, "comments": []}]},
+          {"agentName": "Imipenem", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "10 µg", "s_breakpoint": "≥ 23 mm", "i_breakpoint": "20–22 mm", "r_breakpoint": "≤ 19 mm"}, "mic": {"s_breakpoint": "≤ 1 µg/mL", "i_breakpoint": "2 µg/mL", "r_breakpoint": "≥ 4 µg/mL"}, "comments": []}]},
+          {"agentName": "Meropenem", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "10 µg", "s_breakpoint": "≥ 23 mm", "i_breakpoint": "20–22 mm", "r_breakpoint": "≤ 19 mm"}, "mic": {"s_breakpoint": "≤ 1 µg/mL", "i_breakpoint": "2 µg/mL", "r_breakpoint": "≥ 4 µg/mL"}, "comments": []}]}
+        ]
+      },
+      {
+        "tier": 3,
+        "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting.",
+        "agents": [
+          {"agentName": "Cefiderocol", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 20 mm", "i_breakpoint": "9–15 mm", "r_breakpoint": "≤ 8 mm"}, "mic": {"s_breakpoint": "≤ 4 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 8 µg/mL"}, "comments": []}]},
+          {"agentName": "Ceftazidime-avibactam", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30/20 µg", "s_breakpoint": "≥ 21 mm", "i_breakpoint": "—", "r_breakpoint": "≤ 20 mm"}, "mic": {"s_breakpoint": "≤ 8/4 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 16/4 µg/mL"}, "comments": ["Confirmatory MIC testing is indicated for isolates with disk diffusion zones of 20–22 mm."]}]},
+          {"agentName": "Meropenem-vaborbactam", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "20/10 µg", "s_breakpoint": "≥ 18 mm", "i_breakpoint": "15–17 mm", "r_breakpoint": "≤ 14 mm"}, "mic": {"s_breakpoint": "≤ 4/8 µg/mL", "i_breakpoint": "8/8 µg/mL", "r_breakpoint": "≥ 16/8 µg/mL"}, "comments": ["If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."]}]},
+          {"agentName": "Plazomicin", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 18 mm", "i_breakpoint": "15–17 mm", "r_breakpoint": "≤ 14 mm"}, "mic": {"s_breakpoint": "≤ 2 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 4 µg/mL"}, "comments": []}]}
+        ]
+      },
+      {
+        "tier": 4,
+        "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available.",
+        "agents": [
+          {"agentName": "Aztreonam", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 21 mm", "i_breakpoint": "18–20 mm", "r_breakpoint": "≤ 17 mm"}, "mic": {"s_breakpoint": "≤ 4 µg/mL", "i_breakpoint": "8 µg/mL", "r_breakpoint": "≥ 16 µg/mL"}, "comments": []}]},
+          {"agentName": "Ceftriaxone", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 26 mm", "i_breakpoint": "20–22 mm", "r_breakpoint": "≤ 19 mm"}, "mic": {"s_breakpoint": "≤ 1 µg/mL", "i_breakpoint": "2 µg/mL", "r_breakpoint": "≥ 4 µg/mL"}, "comments": []}]},
+          {"agentName": "Ceftazidime", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30 µg", "s_breakpoint": "≥ 21 mm", "i_breakpoint": "18–20 mm", "r_breakpoint": "≤ 17 mm"}, "mic": {"s_breakpoint": "≤ 8 µg/mL", "i_breakpoint": "16 µg/mL", "r_breakpoint": "≥ 32 µg/mL"}, "comments": []}]},
+          {"agentName": "Ceftolozane-tazobactam", "breakpointSets": [{"condition": "Standard", "diskDiffusion": {"diskContent": "30/10 µg", "s_breakpoint": "≥ 22 mm", "i_breakpoint": "19–21 mm", "r_breakpoint": "≤ 18 mm"}, "mic": {"s_breakpoint": "≤ 2/4 µg/mL", "i_breakpoint": "—", "r_breakpoint": "≥ 4/4 µg/mL"}, "comments": ["Note: These breakpoints are specific to Morganella, Proteus, and Providencia species and differ from other Enterobacterales."]}]}
+        ]
+      }
+    ]
+  },
+  "additionalInformation": {
+    "diagnosticNotes": {
+      "summary": "For UTIs, remove indwelling Foley catheter if possible and ensure no urinary obstruction. Note the intrinsic lack of activity of nitrofurantoin and fosfomycin.",
+      "biosafetyWarning": "",
+      "methods": []
+    },
+    "preventionAndScreening": [],
+    "treatmentLifecycle": [],
+    "antimicrobialStewardship": [
+      "For ESBL-producing strains, Piperacillin-tazobactam should be avoided even if it is reported as susceptible in vitro.",
+      "Susceptibility should be checked for all carbapenems individually; resistance to imipenem does not predict resistance to meropenem.",
+      "Tigecycline may show in vitro activity against MDR/XDR strains, but its clinical efficacy is questionable due to low serum levels.",
+      "For metallo-beta-lactamase (MBL) producers, Aztreonam is not hydrolyzed by the MBL enzyme, but co-production of other beta-lactamases that can hydrolyze it is common. Combining Ceftazidime-avibactam with Aztreonam can protect Aztreonam and has been successful in case reports."
+    ],
+    "drugSpecificPearls": [
+      {
+        "drugName": "Cefiderocol",
+        "pearl": "This drug is FDA-approved for complicated UTIs with limited or no other treatment options. In one trial, 28-day mortality was 24.8% for cefiderocol vs 18.4% for the best available therapy, a difference that was not statistically significant."
+      }
+    ],
+    "guidelineReferences": [
+      {
+        "source": "IDSA",
+        "citation": "Updated 2024 IDSA Guideline on treatment of ESBL, AmpC, and carbapenemase producers.",
+        "summaryOrNote": "Provides comprehensive guidance for treating infections caused by resistant gram-negative organisms."
+      }
+    ]
+  }
+}

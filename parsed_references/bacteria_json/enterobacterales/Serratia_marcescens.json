@@ -1,0 +1,928 @@
+{
+  "identity": {
+    "bacteriumName": "Serratia marcescens",
+    "aliases": [
+      "Serratia sp."
+    ],
+    "lastUpdated": "2025-01-08",
+    "clsiCategory": "Enterobacterales (excluding Salmonella/Shigella)",
+    "classification": {
+      "gramStain": "Gram-negative",
+      "morphology": "Bacilli",
+      "respiration": "Facultative anaerobe",
+      "notes": [
+        "Motile",
+        "May produce a characteristic red pigment (prodigiosin), especially at room temperature."
+      ]
+    },
+    "strainDetails": [],
+    "biochemicalTests": "Gram-negative rod, motile, lactose – (or slow), ONPG +, oxidase –, catalase +, citrate +, VP +, DNase +, gelatinase +, lysine +, ornithine +, esculin +, urease variable, may produce red pigment (prodigiosin) at room temperature."
+  },
+  "clinicalProfile": {
+    "summary": "Serratia marcescens is an opportunistic pathogen that causes a variety of nosocomial and healthcare-associated infections, including urinary tract infections, pneumonia, bloodstream infections, and surgical site infections. Both immunocompetent and immunocompromised individuals can be affected. The increasing prevalence of multi-drug resistant (MDR) strains poses a significant therapeutic challenge.",
+    "pathophysiologyPearls": [
+      "Produces several virulence factors including proteases, lipases, and DNase, which contribute to tissue damage.",
+      "The red pigment, prodigiosin, has immunosuppressive and cytotoxic properties.",
+      "Forms biofilms on medical devices, contributing to catheter-related infections and antibiotic resistance."
+    ],
+    "keySignsAndSymptoms": [
+      "Fever, chills, and leukocytosis in cases of bacteremia.",
+      "Dysuria, frequency, and urgency in urinary tract infections.",
+      "Cough, dyspnea, and purulent sputum in pneumonia.",
+      "Erythema, purulent discharge, and pain at surgical or wound sites."
+    ],
+    "clinicalSyndromes": [
+      {
+        "syndromeName": "Catheter-Associated Urinary Tract Infection (CAUTI)",
+        "description": "One of the most common infections caused by S. marcescens, often associated with indwelling urinary catheters."
+      },
+      {
+        "syndromeName": "Ventilator-Associated Pneumonia (VAP)",
+        "description": "A significant cause of nosocomial pneumonia in intubated patients in intensive care units."
+      },
+      {
+        "syndromeName": "Catheter-Related Bloodstream Infection (CRBSI)",
+        "description": "Often linked to central venous catheters, particularly in patients receiving parenteral nutrition."
+      },
+      {
+        "syndromeName": "Surgical Site Infection (SSI)",
+        "description": "Can contaminate surgical wounds, leading to postoperative infections."
+      },
+      {
+        "syndromeName": "Neonatal Sepsis and Meningitis",
+        "description": "Causes outbreaks in neonatal intensive care units (NICUs), leading to severe systemic infections."
+      }
+    ],
+    "stagesOfIllness": [],
+    "highRiskPopulations": [
+      "Hospitalized patients, especially in intensive care units (ICUs)",
+      "Neonates",
+      "Immunocompromised individuals",
+      "Patients with indwelling medical devices (e.g., catheters, ventilators)",
+      "Intravenous drug users"
+    ],
+    "transmissionVectors": [
+      "Contaminated medical equipment and solutions",
+      "Hands of healthcare workers",
+      "Person-to-person transmission in hospital settings"
+    ],
+    "prognosisNotes": [
+      "The prevalence of multi-drug resistant (MDR) strains is increasing, which can complicate treatment and worsen outcomes.",
+      "Infections with carbapenemase-producing strains are associated with high mortality rates."
+    ]
+  },
+  "resistanceProfile": {
+    "groupIntrinsicResistance": [],
+    "intrinsicResistance": [
+      {
+        "drugOrClass": "Polymyxins (Colistin)",
+        "notes": "Chromosomally-mediated resistance."
+      },
+      {
+        "drugOrClass": "Ampicillin",
+        "notes": ""
+      },
+      {
+        "drugOrClass": "Ampicillin-sulbactam",
+        "notes": ""
+      },
+      {
+        "drugOrClass": "Amoxicillin-clavulanate",
+        "notes": ""
+      },
+      {
+        "drugOrClass": "Cefazolin",
+        "notes": ""
+      },
+      {
+        "drugOrClass": "Cephamycins (e.g., Cefoxitin, Cefotetan)",
+        "notes": ""
+      },
+      {
+        "drugOrClass": "Nitrofurantoin",
+        "notes": ""
+      }
+    ],
+    "majorMechanisms": [
+      {
+        "mechanismName": "AmpC Beta-Lactamase",
+        "mechanismType": "Enzymatic Inactivation",
+        "description": "Serratia marcescens possesses a chromosomal AmpC beta-lactamase that is typically inducible but can be constitutively overexpressed, conferring resistance to penicillins, early-generation cephalosporins, and cephamycins. Clinical significance of induction is less common than in Enterobacter."
+      },
+      {
+        "mechanismName": "Extended-Spectrum Beta-Lactamases (ESBLs)",
+        "mechanismType": "Enzymatic Inactivation",
+        "description": "Acquired plasmid-mediated enzymes (e.g., CTX-M, SHV, TEM) that hydrolyze most penicillins and cephalosporins, including 3rd and 4th generation cephalosporins, and aztreonam."
+      },
+      {
+        "mechanismName": "Carbapenemases",
+        "mechanismType": "Enzymatic Inactivation",
+        "description": "Can acquire genes for serine carbapenemases (e.g., KPC) or metallo-beta-lactamases (e.g., NDM, VIM, IMP), leading to resistance to nearly all beta-lactam agents, including carbapenems."
+      },
+      {
+        "mechanismName": "Aminoglycoside-Modifying Enzymes",
+        "mechanismType": "Enzymatic Inactivation",
+        "description": "Enzymes that acetylate, phosphorylate, or adenylate aminoglycosides, preventing them from binding to the ribosome."
+      }
+    ],
+    "clinicalAlerts": [
+      {
+        "alertTitle": "Potential for Multi-Drug Resistance",
+        "details": "Serratia marcescens frequently acquires resistance genes, leading to ESBL, AmpC, and carbapenemase production. Susceptibility testing is essential to guide therapy."
+      },
+      {
+        "alertTitle": "AmpC Stability Considerations",
+        "details": "For serious infections, cefepime may be preferred over third-generation cephalosporins (e.g., ceftriaxone) due to its greater stability against hydrolysis by AmpC beta-lactamases, particularly in high-inoculum infections."
+      }
+    ]
+  },
+  "treatment": {
+    "generalNotes": [
+      "The following recommendations are for moderately severe or severe infections. For uncomplicated infections, options may include second and third-generation cephalosporins if susceptible.",
+      "TMP-SMX is a viable option if the isolate is proven susceptible.",
+      "Serratia marcescens is intrinsically resistant to Nitrofurantoin.",
+      "Susceptibility to Fosfomycin is variable and requires testing."
+    ],
+    "drugsToAvoid": [
+      {
+        "drugOrClass": "Polymyxins (Colistin)",
+        "condition": "All infections",
+        "reason": "Intrinsic resistance."
+      },
+      {
+        "drugOrClass": "Ampicillin, Amoxicillin-clavulanate, Cefazolin, Cephamycins",
+        "condition": "All infections",
+        "reason": "Intrinsic resistance."
+      }
+    ],
+    "adjunctiveTherapies": [],
+    "regimens": [
+      {
+        "context": {
+          "type": "Empiric",
+          "condition": "Suspected Serratia marcescens infection",
+          "patientPopulation": [
+            "Areas with local resistance rates <10-15% to 3rd-generation cephalosporins"
+          ]
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Piperacillin-tazobactam",
+                    "dose": "4.5 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "infused over 4 hr"
+                  },
+                  {
+                    "drugName": "Cefepime",
+                    "dose": "1-2 gm",
+                    "route": "IV",
+                    "frequency": "q8h-q12h",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Ceftriaxone",
+                    "dose": "1-2 gm",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Aztreonam",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Ciprofloxacin",
+                    "dose": "400 mg",
+                    "route": "IV",
+                    "frequency": "q12h",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Levofloxacin",
+                    "dose": "750 mg",
+                    "route": "IV",
+                    "frequency": "once daily",
+                    "comments": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Empiric",
+          "condition": "Suspected Serratia marcescens infection, severe illness",
+          "patientPopulation": [
+            "Areas with local resistance rates >15% to 3rd-generation cephalosporins",
+            "Critically ill patients",
+            "Recent antibiotic exposure"
+          ]
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Meropenem",
+                    "dose": "1-2 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Ertapenem",
+                    "dose": "1 gm",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "comments": "Not for Pseudomonas coverage if a mixed infection is suspected."
+                  }
+                ]
+              }
+            ],
+            "notes": ["Reserve carbapenems for mixed infections or for documented ESBL-producing strains."]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Serratia marcescens infection, susceptible to 3rd-generation cephalosporins",
+          "patientPopulation": [
+            "All"
+          ],
+          "isolateSource": "Any"
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Ceftriaxone",
+                    "dose": "1-2 gm",
+                    "route": "IV",
+                    "frequency": "once daily",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Cefepime",
+                    "dose": "1-2 gm",
+                    "route": "IV",
+                    "frequency": "q8h-q12h",
+                    "comments": ""
+                  },
+                   {
+                    "drugName": "Piperacillin-tazobactam",
+                    "dose": "Dose based on susceptibility report",
+                    "route": "IV",
+                    "frequency": "",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Ciprofloxacin",
+                    "dose": "400 mg",
+                    "route": "IV",
+                    "frequency": "q12h",
+                    "comments": "If susceptible."
+                  },
+                  {
+                    "drugName": "Levofloxacin",
+                    "dose": "750 mg",
+                    "route": "IV",
+                    "frequency": "once daily",
+                    "comments": "If susceptible."
+                  },
+                  {
+                    "drugName": "TMP-SMX",
+                    "dose": "8-10 mg/kg/day (TMP component)",
+                    "route": "IV",
+                    "frequency": "divided q6h",
+                    "comments": "If susceptible."
+                  }
+                ]
+              }
+            ],
+            "notes": [ "IDSA guidance suggests selecting treatment based on AST results. Cefepime may be preferred over Ceftriaxone for high inoculum infections due to its greater stability to AmpC." ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "ESBL and/or AmpC-producing Serratia marcescens infection",
+          "patientPopulation": [
+            "All"
+          ],
+          "isolateSource": "Any"
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Meropenem",
+                    "dose": "1-2 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": ""
+                  },
+                  {
+                    "drugName": "Ertapenem",
+                    "dose": "1 gm",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "comments": "Not for Pseudomonas coverage or CNS infections."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "preference": "Alternative",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Ciprofloxacin",
+                    "dose": "400 mg IV q12h or 750 mg po bid",
+                    "route": "IV/PO",
+                    "frequency": "q12h/bid",
+                    "comments": "Only if susceptible."
+                  },
+                  {
+                    "drugName": "Levofloxacin",
+                    "dose": "750 mg",
+                    "route": "IV/PO",
+                    "frequency": "once daily",
+                    "comments": "Only if susceptible."
+                  },
+                  {
+                    "drugName": "TMP-SMX",
+                    "dose": "8-10 mg/kg/day (TMP component)",
+                    "route": "IV",
+                    "frequency": "divided q6h",
+                    "comments": "Only if susceptible."
+                  },
+                  {
+                    "drugName": "Ceftolozane-tazobactam",
+                    "dose": "1.5 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "infused over 3h; limited clinical data vs Serratia"
+                  },
+                  {
+                    "drugName": "Temocillin",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q12h",
+                    "comments": "Where available"
+                  },
+                   {
+                    "drugName": "Cefepime",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "For mild/moderate infection with controlled source and MIC <=2 mcg/mL."
+                  }
+                ]
+              }
+            ],
+            "notes": [ "Ceftazidime-avibactam has in vitro activity but limited clinical data for this specific resistance pattern." ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "KPC-producing carbapenem-resistant Serratia marcescens infection",
+          "patientPopulation": [
+            "All"
+          ],
+          "isolateSource": "Any"
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Ceftazidime-avibactam",
+                    "dose": "2.5 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "infused over 3 hrs"
+                  },
+                  {
+                    "drugName": "Meropenem-vaborbactam",
+                    "dose": "4 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "infused over 3 hrs"
+                  }
+                ]
+              }
+            ],
+            "notes": [ "Infectious diseases consultation recommended." ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Metallo-beta-lactamase (MBL)-producing carbapenem-resistant Serratia marcescens infection",
+          "patientPopulation": [
+            "All"
+          ],
+          "isolateSource": "Any"
+        },
+        "recommendations": [
+          {
+            "preference": "Primary",
+            "strategy": "Concurrent",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Ceftazidime-avibactam",
+                    "dose": "2.5 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "infused over 3 hrs"
+                  },
+                  {
+                    "drugName": "Aztreonam",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q6h",
+                    "comments": "infused over 3h"
+                  }
+                ]
+              }
+            ],
+            "notes": ["Aztreonam is stable to MBLs, while avibactam protects aztreonam from co-produced ESBLs/AmpC."]
+          },
+          {
+            "preference": "Alternative",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Cefiderocol",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "comments": "infused over 3 hrs"
+                  },
+                   {
+                    "drugName": "Plazomicin",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "frequency": "once daily",
+                    "comments": "For complicated UTI only, if available."
+                  }
+                ]
+              }
+            ],
+            "notes": [ "Infectious diseases consultation is essential as there is no proven effective therapy." ]
+          }
+        ]
+      },
+      {
+        "context": {
+          "type": "Directed",
+          "condition": "Serratia marcescens infection",
+          "patientPopulation": [
+            "Severe IgE-mediated beta-lactam allergy"
+          ]
+        },
+        "recommendations": [
+          {
+            "preference": "Alternative",
+            "strategy": "Monotherapy",
+            "steps": [
+              {
+                "step": 1,
+                "duration": "Variable",
+                "drugs": [
+                  {
+                    "drugName": "Aztreonam",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q6h",
+                    "comments": "Generally safe, but check for cross-reactivity if allergy is to ceftazidime."
+                  },
+                  {
+                    "drugName": "Ciprofloxacin",
+                    "dose": "400 mg IV or 750 mg po",
+                    "route": "IV/PO",
+                    "frequency": "q12h/bid",
+                    "comments": "If susceptible."
+                  },
+                  {
+                    "drugName": "Levofloxacin",
+                    "dose": "750 mg",
+                    "route": "IV/PO",
+                    "frequency": "once daily",
+                    "comments": "If susceptible."
+                  },
+                  {
+                    "drugName": "Gentamicin or Tobramycin",
+                    "dose": "7 mg/kg loading dose then 5.1 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "comments": "Therapeutic drug monitoring required."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "laboratoryProfile": {
+    "testingIndications": ["Susceptibility testing should be performed on all clinically significant isolates of Serratia marcescens."],
+    "methodologyNotes": ["Broth microdilution is the recommended method for susceptibility testing, especially for critical agents like polymyxins. Disk diffusion may be unreliable for some agent/organism combinations."],
+    "recommendedPanel": ["Primary panel should include agents from Tier 1 and Tier 2. Tier 3 and 4 agents should be tested based on institutional epidemiology, patient risk factors, or on isolates resistant to primary agents."],
+    "specialTests": [
+        {
+            "testName": "Carbapenemase Production Test (e.g., mCIM, CarbaNP)",
+            "trigger": "Resistance to one or more carbapenems (ertapenem, meropenem).",
+            "purpose": "To detect the presence of carbapenemase enzymes, which has significant therapeutic and infection control implications."
+        },
+        {
+            "testName": "ESBL Phenotypic Test",
+            "trigger": "Elevated MICs to ceftazidime or ceftriaxone, though often performed reflexively.",
+            "purpose": "To detect the presence of ESBL enzymes."
+        }
+    ],
+    "reportingRules": [
+        {
+            "ruleType": "Conditional",
+            "drug": "Cefepime",
+            "condition": "Isolate demonstrates carbapenemase production.",
+            "details": "Cefepime Susceptible/SDD results should be suppressed or edited and reported as Resistant."
+        }
+    ],
+    "antimicrobialBreakpoints": [
+      {
+        "tier": 1,
+        "tierDescription": "Appropriate for routine, primary testing and reporting",
+        "agents": [
+          {
+            "agentName": "Ampicillin",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "10 µg",
+                  "s_breakpoint": "≥ 17",
+                  "i_breakpoint": "14–16",
+                  "r_breakpoint": "≤ 13"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8",
+                  "i_breakpoint": "16",
+                  "r_breakpoint": "≥ 32"
+                },
+                "comments": [
+                  "Results of ampicillin testing can be used to predict results for amoxicillin."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Cefazolin",
+            "breakpointSets": [
+              {
+                "condition": "Urine Only (Uncomplicated UTI)",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 15",
+                  "i_breakpoint": "—",
+                  "r_breakpoint": "≤ 14"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 16",
+                  "i_breakpoint": "—",
+                  "r_breakpoint": "≥ 32"
+                },
+                "comments": [
+                  "Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis. Note: Serratia is intrinsically resistant to cefazolin for systemic infections."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Amoxicillin-clavulanate",
+            "breakpointSets": [
+              {
+                "condition": "Uncomplicated UTI only",
+                "diskDiffusion": {
+                  "diskContent": "20/10 µg",
+                  "s_breakpoint": "≥ 18",
+                  "i_breakpoint": "—",
+                  "r_breakpoint": "≤ 17"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8/4",
+                  "i_breakpoint": "16/4",
+                  "r_breakpoint": "≥ 32/4"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Piperacillin-tazobactam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "100/10 µg",
+                  "s_breakpoint": "≥ 25",
+                  "i_breakpoint": "21–24",
+                  "r_breakpoint": "≤ 20"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8/4",
+                  "i_breakpoint": "16/4",
+                  "r_breakpoint": "≥ 32/4"
+                },
+                "comments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules",
+        "agents": [
+          {
+            "agentName": "Cefepime",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 25",
+                  "i_breakpoint": "19–24",
+                  "r_breakpoint": "≤ 18"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 4",
+                  "i_breakpoint": "8",
+                  "r_breakpoint": "≥ 16"
+                },
+                "comments": [
+                  "Cefepime S/SDD results should be suppressed or edited and reported as resistant for isolates that demonstrate carbapenemase production."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Ertapenem",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "10 µg",
+                  "s_breakpoint": "≥ 22",
+                  "i_breakpoint": "19–21",
+                  "r_breakpoint": "≤ 18"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 0.5",
+                  "i_breakpoint": "1",
+                  "r_breakpoint": "≥ 2"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Meropenem",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "10 µg",
+                  "s_breakpoint": "≥ 23",
+                  "i_breakpoint": "20–22",
+                  "r_breakpoint": "≤ 19"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 1",
+                  "i_breakpoint": "2",
+                  "r_breakpoint": "≥ 4"
+                },
+                "comments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting",
+        "agents": [
+          {
+            "agentName": "Ceftazidime-avibactam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30/20 µg",
+                  "s_breakpoint": "≥ 21",
+                  "i_breakpoint": "—",
+                  "r_breakpoint": "≤ 20"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 8/4",
+                  "i_breakpoint": "—",
+                  "r_breakpoint": "≥ 16/4"
+                },
+                "comments": [
+                  "Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm."
+                ]
+              }
+            ]
+          },
+          {
+            "agentName": "Meropenem-vaborbactam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "20/10 µg",
+                  "s_breakpoint": "≥ 18",
+                  "i_breakpoint": "15–17",
+                  "r_breakpoint": "≤ 14"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 4/8",
+                  "i_breakpoint": "8/8",
+                  "r_breakpoint": "≥ 16/8"
+                },
+                "comments": [
+                  "If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available",
+        "agents": [
+          {
+            "agentName": "Aztreonam",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 21",
+                  "i_breakpoint": "18–20",
+                  "r_breakpoint": "≤ 17"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 4",
+                  "i_breakpoint": "8",
+                  "r_breakpoint": "≥ 16"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Ceftriaxone",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": {
+                  "diskContent": "30 µg",
+                  "s_breakpoint": "≥ 26",
+                  "i_breakpoint": "20–22",
+                  "r_breakpoint": "≤ 19"
+                },
+                "mic": {
+                  "s_breakpoint": "≤ 1",
+                  "i_breakpoint": "2",
+                  "r_breakpoint": "≥ 4"
+                },
+                "comments": []
+              }
+            ]
+          },
+          {
+            "agentName": "Colistin or Polymyxin B",
+            "breakpointSets": [
+              {
+                "condition": "Standard",
+                "diskDiffusion": null,
+                "mic": {
+                  "s_breakpoint": "≤ 2",
+                  "i_breakpoint": "—",
+                  "r_breakpoint": "≥ 4"
+                },
+                "comments": [
+                  "Disk diffusion and gradient diffusion methods should not be performed.",
+                  "Serratia is intrinsically resistant to polymyxins; testing is generally not indicated."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "additionalInformation": {
+    "diagnosticNotes": {
+      "summary": "Identification is typically performed using automated systems (e.g., VITEK, MicroScan) or MALDI-TOF MS. Conventional biochemical tests confirm identity. The ability to produce red pigment (prodigiosin) is a classic but variable characteristic. Non-pigmented strains are common in clinical settings.",
+      "biosafetyWarning": "BSL-2: Serratia marcescens is a Biosafety Level 2 organism. Standard laboratory precautions should be followed.",
+      "methods": [
+        {
+          "methodName": "Culture",
+          "details": "Grows well on standard laboratory media like Blood Agar and MacConkey Agar. Colonies are non-lactose fermenting (or slow) and may show red pigmentation, especially after incubation at room temperature (22-25°C)."
+        },
+        {
+          "methodName": "MALDI-TOF Mass Spectrometry",
+          "details": "Provides rapid and accurate identification to the species level."
+        }
+      ]
+    },
+    "preventionAndScreening": [
+      {
+        "type": "Infection Control",
+        "details": "Strict adherence to hand hygiene is paramount. Contact precautions are recommended for patients colonized or infected with MDR strains. Environmental cleaning and disinfection are crucial to prevent outbreaks.",
+        "targetPopulation": "Healthcare facilities, especially ICUs and NICUs"
+      }
+    ],
+    "treatmentLifecycle": [],
+    "antimicrobialStewardship": [
+      "Reserve carbapenems for documented mixed infections or for infections due to confirmed ESBL-producing strains to limit selective pressure for carbapenem resistance.",
+      "Reserve Meropenem-vaborbactam and Ceftazidime-avibactam for documented KPC-producing CRE infections.",
+      "Avoid using polymyxins (colistin) due to intrinsic resistance."
+    ],
+    "drugSpecificPearls": [
+      {
+        "drugName": "Aztreonam + Ceftazidime-avibactam",
+        "pearl": "This combination is a key strategy for MBL-producing CRE. Aztreonam is not hydrolyzed by metallo-carbapenemases but is inactivated by co-produced ESBLs and AmpC; avibactam protects aztreonam by inhibiting these other beta-lactamases."
+      },
+      {
+        "drugName": "Cefiderocol",
+        "pearl": "A siderophore cephalosporin used as a last-line agent for CRE. In a trial of severely ill patients with carbapenem-resistant infections, all-cause mortality was numerically higher in the cefiderocol arm compared to the best available therapy arm (24.8% vs 18.4%), although this was not statistically significant. Use should be reserved for patients with limited or no other treatment options."
+      }
+    ],
+    "guidelineReferences": [
+      {
+        "source": "IDSA",
+        "citation": "Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections (2024 Update or latest version)",
+        "summaryOrNote": "Provides evidence-based recommendations for the management of infections caused by ESBL-producing, AmpC-producing, and carbapenem-resistant Enterobacterales."
+      }
+    ]
+  }
+}
