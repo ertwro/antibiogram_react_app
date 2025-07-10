@@ -6,7 +6,7 @@ const SyndromesApp = ({ onBackToLanding }) => {
     const [resistanceChart, setResistanceChart] = useState(null);
     const [topPathogensChart, setTopPathogensChart] = useState(null);
 
-    // Data from antibiogram.html
+    // Complete data from antibiogram.html
     const appData = {
         topPathogens: {
             labels: ["E. coli", "S. aureus", "K. pneumoniae", "P. aeruginosa", "A. baumannii"],
@@ -21,6 +21,9 @@ const SyndromesApp = ({ onBackToLanding }) => {
                     datasets: [{
                         label: "% Resistencia",
                         data: [35, 30, 30, 28, 28, 30, 30],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
                         sources: ["GREBO 2018-21 (aumento sig.)", "GREBO 2001-03 (>30%)", "GREBO 2001-03 (>30%)", "INS 2022 (23.9-27.9%)", "INS 2022 (23.9-27.9%)", "GREBO 2001-03 (>30%)", "GREBO 2001-03 (>30%)"],
                     }],
                 },
@@ -35,6 +38,9 @@ const SyndromesApp = ({ onBackToLanding }) => {
                     datasets: [{
                         label: "% Resistencia",
                         data: [28.6, 25],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
                         sources: ["INS 2022 (28.6%)", "GREBO 2001-03 (>20%)"],
                     }],
                 },
@@ -49,25 +55,31 @@ const SyndromesApp = ({ onBackToLanding }) => {
                     datasets: [{
                         label: "% Resistencia",
                         data: [31, 15],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
                         sources: ["Expertos 2022 (31%) / GREBO 2001-03 (>30%)", "INS/GREBO (variable, creciente)"],
                     }],
                 },
                 intrinsic: ["Ampicilina"],
                 considerations: "La resistencia a carbapenems es una amenaza crítica y creciente a nivel nacional, a menudo mediada por carbapenemasas como KPC, cuya diseminación en Bogotá fue documentada desde 2008.",
             },
-            s_aureus: {
-                name: "Staphylococcus aureus",
-                burden: "2da causa de muerte por RAM en Colombia (3,100 muertes en 2019). Constituye 10-11% de todos los aislados bacterianos.",
+            e_cloacae: {
+                name: "Enterobacter cloacae complex",
+                burden: "Causa frecuente de infecciones nosocomiales, especialmente en inmunocomprometidos. No está en el top 5 de mortalidad, pero es un patógeno de alta preocupación por su resistencia.",
                 resistance: {
-                    labels: ["Oxacilina (SARM)"],
+                    labels: ["Ceftriaxona", "Cefepime", "Pip/Tazo", "Meropenem", "Ciprofloxacina"],
                     datasets: [{
-                        label: "% Resistencia",
-                        data: [43, 62, 20],
-                        sources: ["Infección Clínica (Expertos 2022)", "UCI Bogotá (GREBO 2001-03)", "Portadores Sanos (Expertos 2022)"],
+                        label: "% Resistencia (GREBO 2023)",
+                        data: [38, 28.6, 35.7, 11.9, 30.8],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
+                        sources: ["GREBO 2023", "GREBO 2023", "GREBO 2023", "GREBO 2023", "GREBO 2023"],
                     }],
                 },
-                intrinsic: ["Aztreonam", "Polimixinas"],
-                considerations: "La prevalencia de SARM es alta y depende del contexto: 43% en infecciones clínicas, pero puede superar el 60% en UCI. Esto requiere el uso empírico de terapias alternativas como vancomicina en pacientes críticos.",
+                intrinsic: ["Ampicilina", "Amoxi/Clav", "Cefalosp. 1ra Gen", "Cefoxitina"],
+                considerations: "La principal característica es la presencia de una β-lactamasa AmpC cromosómica inducible. La exposición a cefalosporinas de 1ra/2da/3ra gen puede seleccionar mutantes hiperproductoras, causando fracaso terapéutico. Cefepime es el agente de elección si es susceptible.",
             },
             a_baumannii: {
                 name: "Acinetobacter baumannii",
@@ -77,11 +89,65 @@ const SyndromesApp = ({ onBackToLanding }) => {
                     datasets: [{
                         label: "% Resistencia",
                         data: [45],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
                         sources: ["INS 2022 (UCI Adultos)"],
                     }],
                 },
                 intrinsic: ["Ampicilina", "Cefalosp. 1ra/2da gen", "Ertapenem"],
                 considerations: "Patógeno nosocomial con tasas de resistencia a carbapenémicos extremadamente altas (>45%), lo que limita severamente las opciones terapéuticas y lo convierte en una amenaza crítica.",
+            },
+            s_aureus: {
+                name: "Staphylococcus aureus",
+                burden: "2da causa de muerte por RAM en Colombia (3,100 muertes en 2019). Constituye 10-11% de todos los aislados bacterianos.",
+                resistance: {
+                    labels: ["Oxacilina (SARM)", "Oxacilina (SARM)", "Oxacilina (SARM)"],
+                    datasets: [{
+                        label: "% Resistencia",
+                        data: [43, 62, 20],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
+                        sources: ["Infección Clínica (Expertos 2022)", "UCI Bogotá (GREBO 2001-03)", "Portadores Sanos (Expertos 2022)"],
+                    }],
+                },
+                intrinsic: ["Aztreonam", "Polimixinas"],
+                considerations: "La prevalencia de SARM es alta y depende del contexto: 43% en infecciones clínicas, pero puede superar el 60% en UCI. Esto requiere el uso empírico de terapias alternativas como vancomicina en pacientes críticos.",
+            },
+            e_faecium: {
+                name: "Enterococcus faecium",
+                burden: "Patógeno de alta preocupación en UCI, especialmente por VRE.",
+                resistance: {
+                    labels: ["Vancomicina (ERV)", "Vancomicina (ERV)"],
+                    datasets: [{
+                        label: "% Resistencia",
+                        data: [40.1, 54.5],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
+                        sources: ["UCI Adultos (INS 2022)", "UCI Neonatal (INS 2022)"],
+                    }],
+                },
+                intrinsic: ["Cefalosporinas", "Clindamicina", "TMP/SMX"],
+                considerations: "La resistencia a vancomicina (ERV) es muy preocupante, especialmente en E. faecium, superando el 40% en UCI de adultos y un alarmante 54% en UCI neonatales.",
+            },
+            s_pneumoniae: {
+                name: "Streptococcus pneumoniae",
+                burden: "Principal causa de Neumonía Adquirida en la Comunidad, meningitis y bacteriemia. La resistencia complica el tratamiento de la enfermedad invasiva.",
+                resistance: {
+                    labels: ["Penicilina (Meningeo)", "Ceftriaxona (Meningeo)", "Penicilina (No Meningeo)", "Ceftriaxona (No Meningeo)"],
+                    datasets: [{
+                        label: "% Resistencia o Susc. Disminuida",
+                        data: [41.3, 21.7, 28.2, 24.2],
+                        backgroundColor: "rgba(13, 148, 136, 0.6)",
+                        borderColor: "rgba(13, 148, 136, 1)",
+                        borderWidth: 1,
+                        sources: ["IPD Pediátrica 2017-22", "IPD Pediátrica 2017-22", "IPD Pediátrica 2017-22", "IPD Pediátrica 2017-22"],
+                    }],
+                },
+                intrinsic: ["Aminoglucósidos (bajo nivel)"],
+                considerations: "La resistencia está fuertemente ligada al serotipo 19A, no cubierto por la vacuna PCV10. Estos datos de vigilancia impulsaron el cambio de política nacional a la vacuna PCV13 para mejorar la cobertura.",
             },
         },
         crossResistanceData: [
@@ -193,7 +259,7 @@ const SyndromesApp = ({ onBackToLanding }) => {
                         tooltip: {
                             callbacks: {
                                 label: (c) => ` ${c.dataset.label || ""}: ${c.raw}%`,
-                                afterLabel: (c) => `Fuente: ${c.dataset.sources[c.dataIndex]}`,
+                                afterLabel: (c) => `Fuente: ${c.dataset.sources ? c.dataset.sources[c.dataIndex] : ''}`,
                             },
                         },
                     },
@@ -313,8 +379,11 @@ const SyndromesApp = ({ onBackToLanding }) => {
                     <option value="p_aeruginosa">Pseudomonas aeruginosa</option>
                     <option value="e_coli">Escherichia coli</option>
                     <option value="k_pneumoniae">Klebsiella pneumoniae</option>
-                    <option value="s_aureus">Staphylococcus aureus</option>
+                    <option value="e_cloacae">Enterobacter cloacae complex</option>
                     <option value="a_baumannii">Acinetobacter baumannii</option>
+                    <option value="s_aureus">Staphylococcus aureus</option>
+                    <option value="e_faecium">Enterococcus faecium</option>
+                    <option value="s_pneumoniae">Streptococcus pneumoniae</option>
                 </select>
             </div>
 
