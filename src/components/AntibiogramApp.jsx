@@ -961,6 +961,31 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
         
         return false;
     };
+
+    // Helper function to get resistance pattern information
+    const getResistancePatternInfo = () => {
+        const bacteriumName = selectedBacteriumData.identity?.bacteriumName || selectedBacteriumData.name;
+        const taxonomy = selectedBacteriumData.taxonomy;
+        
+        // Get intrinsic resistance patterns
+        const intrinsicResistance = selectedBacteriumData.resistanceProfile?.intrinsicResistance || [];
+        
+        // Get common resistance mechanisms
+        const resistanceMechanisms = selectedBacteriumData.resistanceProfile?.resistanceMechanisms || [];
+        
+        // Get epidemiological data
+        const epidemiology = selectedBacteriumData.clinicalSignificance?.epidemiology || {};
+        
+        return {
+            bacteriumName,
+            taxonomy,
+            intrinsicResistance,
+            resistanceMechanisms,
+            epidemiology
+        };
+    };
+
+    const resistanceInfo = getResistancePatternInfo();
     
     return (
         <div className="space-y-6">
@@ -971,6 +996,265 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                 <p className="text-sm text-gray-600 mb-4">
                     Ingrese valores MIC (se interpreta automáticamente) o seleccione S/I/R directamente. Los niveles superiores se desbloquean según CLSI M100.
                 </p>
+            </div>
+
+            {/* Pathogen-Specific Resistance Profile */}
+            <div className="bg-blue-50 rounded-lg border border-blue-200 p-6">
+                <h4 className="text-lg font-semibold text-blue-900 mb-4 flex items-center">
+                    <span className="text-xl mr-2">🧬</span>
+                    Perfil de Resistencia Específico del Patógeno
+                </h4>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Intrinsic Resistance */}
+                    <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-gray-800 mb-3 flex items-center">
+                            <span className="text-orange-500 mr-2">🔒</span>
+                            Resistencia Intrínseca
+                        </h5>
+                        {resistanceInfo.intrinsicResistance.length > 0 ? (
+                            <div className="space-y-2">
+                                {resistanceInfo.intrinsicResistance.map((resistance, idx) => (
+                                    <div key={idx} className="flex items-center">
+                                        <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
+                                        <span className="text-sm text-gray-700">{resistance}</span>
+                                    </div>
+                                ))}
+                                <div className="mt-3 p-2 bg-orange-50 rounded text-xs text-orange-700">
+                                    💡 Estos antibióticos no son efectivos independientemente del resultado del antibiograma
+                                </div>
+                            </div>
+                        ) : (
+                            <p className="text-sm text-gray-500">Sin resistencia intrínseca conocida</p>
+                        )}
+                    </div>
+
+                    {/* Resistance Mechanisms */}
+                    <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-gray-800 mb-3 flex items-center">
+                            <span className="text-red-500 mr-2">⚙️</span>
+                            Mecanismos de Resistencia Comunes
+                        </h5>
+                        {resistanceInfo.resistanceMechanisms.length > 0 ? (
+                            <div className="space-y-2">
+                                {resistanceInfo.resistanceMechanisms.slice(0, 3).map((mechanism, idx) => (
+                                    <div key={idx} className="flex items-start">
+                                        <span className="w-2 h-2 bg-red-400 rounded-full mr-2 mt-1"></span>
+                                        <div>
+                                            <span className="text-sm font-medium text-gray-800">{mechanism.mechanism}</span>
+                                            {mechanism.description && (
+                                                <div className="text-xs text-gray-600 mt-1">{mechanism.description}</div>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                                <div className="mt-3 p-2 bg-red-50 rounded text-xs text-red-700">
+                                    🔍 Considere estas resistencias al interpretar patrones inusuales
+                                </div>
+                            </div>
+                        ) : (
+                            <p className="text-sm text-gray-500">Información de mecanismos no disponible</p>
+                        )}
+                    </div>
+                </div>
+
+                {/* Epidemiological Context */}
+                {resistanceInfo.epidemiology && Object.keys(resistanceInfo.epidemiology).length > 0 && (
+                    <div className="mt-4 bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-gray-800 mb-3 flex items-center">
+                            <span className="text-teal-500 mr-2">📊</span>
+                            Contexto Epidemiológico
+                        </h5>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {resistanceInfo.epidemiology.prevalence && (
+                                <div className="text-sm">
+                                    <span className="font-medium text-gray-700">Prevalencia:</span>
+                                    <span className="ml-2 text-gray-600">{resistanceInfo.epidemiology.prevalence}</span>
+                                </div>
+                            )}
+                            {resistanceInfo.epidemiology.riskFactors && (
+                                <div className="text-sm">
+                                    <span className="font-medium text-gray-700">Factores de Riesgo:</span>
+                                    <span className="ml-2 text-gray-600">{resistanceInfo.epidemiology.riskFactors}</span>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                )}
+            </div>
+
+            {/* Cross-Resistance Pattern Detection and Education */}
+            <div className="bg-purple-50 rounded-lg border border-purple-200 p-6">
+                <h4 className="text-lg font-semibold text-purple-900 mb-4 flex items-center">
+                    <span className="text-xl mr-2">🔗</span>
+                    Detección de Patrones de Resistencia Cruzada
+                </h4>
+                
+                <div className="space-y-4">
+                    {/* ESBL Pattern Detection */}
+                    {(() => {
+                        const esblPattern = (
+                            data.susceptibilityResults['Ceftriaxone'] === 'R' || 
+                            data.susceptibilityResults['Ceftazidime'] === 'R' || 
+                            data.susceptibilityResults['Cefotaxime'] === 'R'
+                        );
+                        
+                        if (esblPattern) {
+                            return (
+                                <div className="bg-red-100 p-4 rounded-lg border border-red-300">
+                                    <h5 className="font-semibold text-red-800 mb-2 flex items-center">
+                                        <span className="text-red-500 mr-2">🧬</span>
+                                        Patrón ESBL (Beta-lactamasa de Espectro Extendido) Detectado
+                                    </h5>
+                                    <div className="text-sm text-red-700 space-y-2">
+                                        <p><strong>Resistencia cruzada implícita:</strong> Todas las penicilinas, cefalosporinas (1ra-4ta gen), y aztreonam</p>
+                                        <p><strong>Opciones terapéuticas:</strong> Carbapenémicos, cefepime (si susceptible), piperacilina-tazobactam (evaluar con precaución)</p>
+                                        <p><strong>Recomendación:</strong> Reportar como resistente a todos los beta-lactámicos excepto carbapenémicos</p>
+                                    </div>
+                                </div>
+                            );
+                        }
+                    })()}
+
+                    {/* Carbapenemase Pattern Detection */}
+                    {(() => {
+                        const carbapenemasePattern = (
+                            data.susceptibilityResults['Meropenem'] === 'R' || 
+                            data.susceptibilityResults['Imipenem'] === 'R' ||
+                            data.susceptibilityResults['Ertapenem'] === 'R'
+                        );
+                        
+                        if (carbapenemasePattern) {
+                            return (
+                                <div className="bg-red-100 p-4 rounded-lg border border-red-300">
+                                    <h5 className="font-semibold text-red-800 mb-2 flex items-center">
+                                        <span className="text-red-500 mr-2">🚨</span>
+                                        Patrón de Resistencia a Carbapenémicos Detectado
+                                    </h5>
+                                    <div className="text-sm text-red-700 space-y-2">
+                                        <p><strong>Resistencia cruzada implícita:</strong> Todos los beta-lactámicos (penicilinas, cefalosporinas, carbapenémicos)</p>
+                                        <p><strong>Opciones terapéuticas:</strong> Colistina, ceftazidima-avibactam, meropenem-vaborbactam, fosfomicina (según pruebas)</p>
+                                        <p><strong>Alerta de salud pública:</strong> Reportar inmediatamente al laboratorio de referencia</p>
+                                    </div>
+                                </div>
+                            );
+                        }
+                    })()}
+
+                    {/* AmpC Pattern Detection */}
+                    {(() => {
+                        const ampCPattern = (
+                            (data.susceptibilityResults['Ceftriaxone'] === 'R' || data.susceptibilityResults['Ceftazidime'] === 'R') &&
+                            data.susceptibilityResults['Cefepime'] === 'S' &&
+                            (resistanceInfo.taxonomy?.family === 'Enterobacteriaceae' || resistanceInfo.bacteriumName?.includes('Enterobacter'))
+                        );
+                        
+                        if (ampCPattern) {
+                            return (
+                                <div className="bg-orange-100 p-4 rounded-lg border border-orange-300">
+                                    <h5 className="font-semibold text-orange-800 mb-2 flex items-center">
+                                        <span className="text-orange-500 mr-2">⚠️</span>
+                                        Patrón AmpC Cromosómica Detectado
+                                    </h5>
+                                    <div className="text-sm text-orange-700 space-y-2">
+                                        <p><strong>Resistencia cruzada implícita:</strong> Ampicilina, amoxicilina-clavulánico, cefalosporinas 1ra-3ra gen</p>
+                                        <p><strong>Opciones terapéuticas:</strong> Cefepime, carbapenémicos, fluoroquinolonas (si susceptible)</p>
+                                        <p><strong>Precaución:</strong> Puede desarrollar resistencia inducible durante el tratamiento</p>
+                                    </div>
+                                </div>
+                            );
+                        }
+                    })()}
+
+                    {/* Fluoroquinolone Cross-Resistance */}
+                    {(() => {
+                        const fluoroquinolonePattern = (
+                            data.susceptibilityResults['Ciprofloxacin'] === 'R' || 
+                            data.susceptibilityResults['Levofloxacin'] === 'R'
+                        );
+                        
+                        if (fluoroquinolonePattern) {
+                            return (
+                                <div className="bg-yellow-100 p-4 rounded-lg border border-yellow-300">
+                                    <h5 className="font-semibold text-yellow-800 mb-2 flex items-center">
+                                        <span className="text-yellow-500 mr-2">🔄</span>
+                                        Resistencia Cruzada a Fluoroquinolonas
+                                    </h5>
+                                    <div className="text-sm text-yellow-700 space-y-2">
+                                        <p><strong>Resistencia cruzada implícita:</strong> Alta probabilidad para todas las fluoroquinolonas</p>
+                                        <p><strong>Recomendación:</strong> No probar fluoroquinolonas adicionales</p>
+                                        <p><strong>Opciones alternativas:</strong> Beta-lactámicos, aminoglucósidos, otros según patrón</p>
+                                    </div>
+                                </div>
+                            );
+                        }
+                    })()}
+
+                    {/* MRSA Pattern Detection */}
+                    {(() => {
+                        const mrsaPattern = (
+                            data.susceptibilityResults['Cefoxitin'] === 'R' ||
+                            data.susceptibilityResults['Oxacillin'] === 'R'
+                        ) && resistanceInfo.bacteriumName?.includes('Staphylococcus aureus');
+                        
+                        if (mrsaPattern) {
+                            return (
+                                <div className="bg-red-100 p-4 rounded-lg border border-red-300">
+                                    <h5 className="font-semibold text-red-800 mb-2 flex items-center">
+                                        <span className="text-red-500 mr-2">🦠</span>
+                                        S. aureus Resistente a Meticilina (MRSA) Detectado
+                                    </h5>
+                                    <div className="text-sm text-red-700 space-y-2">
+                                        <p><strong>Resistencia cruzada implícita:</strong> Todos los beta-lactámicos (excepto ceftarolina)</p>
+                                        <p><strong>Opciones terapéuticas:</strong> Vancomicina, daptomicina, linezolid, ceftarolina</p>
+                                        <p><strong>Recomendación:</strong> Reportar como resistente a todos los beta-lactámicos</p>
+                                    </div>
+                                </div>
+                            );
+                        }
+                    })()}
+
+                    {/* Educational Message when no patterns detected */}
+                    {(() => {
+                        const hasAnyResults = Object.keys(data.susceptibilityResults || {}).length > 0;
+                        const hasPatterns = (
+                            data.susceptibilityResults['Ceftriaxone'] === 'R' || 
+                            data.susceptibilityResults['Ceftazidime'] === 'R' ||
+                            data.susceptibilityResults['Meropenem'] === 'R' ||
+                            data.susceptibilityResults['Ciprofloxacin'] === 'R' ||
+                            data.susceptibilityResults['Cefoxitin'] === 'R'
+                        );
+                        
+                        if (hasAnyResults && !hasPatterns) {
+                            return (
+                                <div className="bg-green-100 p-4 rounded-lg border border-green-300">
+                                    <h5 className="font-semibold text-green-800 mb-2 flex items-center">
+                                        <span className="text-green-500 mr-2">✅</span>
+                                        No se detectaron patrones de resistencia cruzada
+                                    </h5>
+                                    <p className="text-sm text-green-700">
+                                        Continue ingresando resultados. Los patrones de resistencia cruzada se detectarán automáticamente.
+                                    </p>
+                                </div>
+                            );
+                        }
+                        
+                        if (!hasAnyResults) {
+                            return (
+                                <div className="bg-blue-100 p-4 rounded-lg border border-blue-300">
+                                    <h5 className="font-semibold text-blue-800 mb-2 flex items-center">
+                                        <span className="text-blue-500 mr-2">📚</span>
+                                        Sistema de Detección de Resistencia Cruzada
+                                    </h5>
+                                    <p className="text-sm text-blue-700">
+                                        Este sistema detecta automáticamente patrones de resistencia cruzada como ESBL, AmpC, carbapenemasas, y MRSA. 
+                                        Comience ingresando los resultados del antibiograma para obtener interpretaciones inteligentes.
+                                    </p>
+                                </div>
+                            );
+                        }
+                    })()}
+                </div>
             </div>
 
             {antibiogramTiers.map((tier, tierIdx) => {
@@ -1066,6 +1350,22 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                                                         </div>
                                                                     );
                                                                 })()}
+                                                                {/* Intrinsic Resistance Indicator */}
+                                                                {(() => {
+                                                                    const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
+                                                                    const isIntrinsicallyResistant = intrinsicResistance.some(resistance => 
+                                                                        resistance.toLowerCase().includes(antibioticName.toLowerCase()) ||
+                                                                        antibioticName.toLowerCase().includes(resistance.toLowerCase().replace(/[^a-z]/g, ''))
+                                                                    );
+                                                                    
+                                                                    if (isIntrinsicallyResistant) {
+                                                                        return (
+                                                                            <div className="text-xs text-red-600 mt-1 bg-red-50 p-1 rounded">
+                                                                                🔒 Resistencia intrínseca - No reportar
+                                                                            </div>
+                                                                        );
+                                                                    }
+                                                                })()}
                                                                 {/* PK/PD indicator */}
                                                                 {interpretation === 'S' && micValue && (
                                                                     <div className="text-xs text-blue-600 mt-1">
@@ -1100,22 +1400,37 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                                                 
                                                                 {/* Quick buttons */}
                                                                 <div className="flex space-x-1">
-                                                                    {['S', 'SDD', 'I', 'R'].map((interp) => (
-                                                                        <button
-                                                                            key={interp}
-                                                                            onClick={() => handleQuickInterpretation(antibioticName, interp)}
-                                                                            className={`px-2 py-1 text-xs rounded transition-colors ${
-                                                                                interpretation === interp
-                                                                                    ? interp === 'S' ? 'bg-green-600 text-white border border-green-600'
-                                                                                      : interp === 'SDD' ? 'bg-blue-600 text-white border border-blue-600'
-                                                                                      : interp === 'I' ? 'bg-yellow-500 text-white border border-yellow-500'
-                                                                                      : 'bg-red-600 text-white border border-red-600'
-                                                                                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-300'
-                                                                            }`}
-                                                                        >
-                                                                            {interp}
-                                                                        </button>
-                                                                    ))}
+                                                                    {['S', 'SDD', 'I', 'R'].map((interp) => {
+                                                                        const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
+                                                                        const isIntrinsicallyResistant = intrinsicResistance.some(resistance => 
+                                                                            resistance.toLowerCase().includes(antibioticName.toLowerCase()) ||
+                                                                            antibioticName.toLowerCase().includes(resistance.toLowerCase().replace(/[^a-z]/g, ''))
+                                                                        );
+                                                                        
+                                                                        // Disable S/SDD/I buttons for intrinsically resistant antibiotics
+                                                                        const isDisabled = isIntrinsicallyResistant && (interp === 'S' || interp === 'SDD' || interp === 'I');
+                                                                        
+                                                                        return (
+                                                                            <button
+                                                                                key={interp}
+                                                                                onClick={() => !isDisabled && handleQuickInterpretation(antibioticName, interp)}
+                                                                                disabled={isDisabled}
+                                                                                className={`px-2 py-1 text-xs rounded transition-colors ${
+                                                                                    isDisabled 
+                                                                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed border border-gray-300'
+                                                                                        : interpretation === interp
+                                                                                            ? interp === 'S' ? 'bg-green-600 text-white border border-green-600'
+                                                                                              : interp === 'SDD' ? 'bg-blue-600 text-white border border-blue-600'
+                                                                                              : interp === 'I' ? 'bg-yellow-500 text-white border border-yellow-500'
+                                                                                              : 'bg-red-600 text-white border border-red-600'
+                                                                                            : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-300'
+                                                                                }`}
+                                                                                title={isDisabled ? 'Resistencia intrínseca - No seleccionar' : ''}
+                                                                            >
+                                                                                {interp}
+                                                                            </button>
+                                                                        );
+                                                                    })}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -1143,9 +1458,106 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
 const HypersensitivityStep = ({ data, onChange }) => { const allergies = ["Penicilinas", "Cefalosporinas", "Carbapenémicos", "Quinolonas", "Sulfas", "Macrólidos", "Glicopéptidos", "Aminoglucósidos", "Lincosamidas"]; return (<div><h3 className="text-xl font-semibold text-gray-800 mb-4">Hipersensibilidad del Paciente</h3><fieldset className="space-y-2"><legend className="text-base font-medium text-gray-900">Marque las alergias conocidas:</legend>{allergies.map(allergy => (<div key={allergy} className="relative flex items-start"><div className="flex items-center h-5"><input id={allergy} name="hypersensitivities" type="checkbox" value={allergy} checked={data.hypersensitivities.includes(allergy)} onChange={onChange} className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"/></div><div className="ml-3 text-sm"><label htmlFor={allergy} className="font-medium text-gray-700">{allergy}</label></div></div>))}</fieldset></div>);};
 const RecommendationStep = ({ data, calculations, recommendation, alternatives, clinicalAnalysis }) => {
     const [copySuccess, setCopySuccess] = useState('');
+    const [treatmentCopySuccess, setTreatmentCopySuccess] = useState('');
+    // Helper function to get full infection name
+    const getInfectionName = (locationValue) => {
+        const syndromeCategories = {
+            'CNS': {
+                label: 'Sistema Nervioso Central',
+                options: [
+                    { value: 'CNS_meningitis', label: 'Meningitis bacteriana' },
+                    { value: 'CNS_encephalitis', label: 'Encefalitis' },
+                    { value: 'CNS_brain_abscess', label: 'Absceso cerebral' },
+                    { value: 'CNS_subdural_empyema', label: 'Empiema subdural' },
+                    { value: 'CNS_epidural_abscess', label: 'Absceso epidural' },
+                    { value: 'CNS_shunt_infection', label: 'Infección de derivación' },
+                ]
+            },
+            'Respiratory': {
+                label: 'Respiratorio',
+                options: [
+                    { value: 'RESP_pneumonia', label: 'Neumonía adquirida en la comunidad' },
+                    { value: 'RESP_hospital_pneumonia', label: 'Neumonía nosocomial' },
+                    { value: 'RESP_VAP', label: 'Neumonía asociada a ventilador' },
+                    { value: 'RESP_empyema', label: 'Empiema pleural' },
+                    { value: 'RESP_lung_abscess', label: 'Absceso pulmonar' },
+                    { value: 'RESP_bronchiectasis', label: 'Bronquiectasias infectadas' },
+                ]
+            },
+            'Cardiovascular': {
+                label: 'Cardiovascular',
+                options: [
+                    { value: 'CV_endocarditis', label: 'Endocarditis' },
+                    { value: 'CV_pericarditis', label: 'Pericarditis' },
+                    { value: 'CV_myocarditis', label: 'Miocarditis' },
+                    { value: 'CV_vascular_graft', label: 'Infección de injerto vascular' },
+                    { value: 'CV_CLABSI', label: 'Bacteriemia asociada a catéter' },
+                ]
+            },
+            'Urogenital': {
+                label: 'Urogenital',
+                options: [
+                    { value: 'UTI_cystitis', label: 'Cistitis' },
+                    { value: 'UTI_pyelonephritis', label: 'Pielonefritis' },
+                    { value: 'UTI_prostatitis', label: 'Prostatitis' },
+                    { value: 'UTI_epididymitis', label: 'Epididimitis' },
+                    { value: 'UTI_catheter', label: 'ITU asociada a catéter' },
+                ]
+            },
+            'Gastrointestinal': {
+                label: 'Gastrointestinal',
+                options: [
+                    { value: 'GI_gastroenteritis', label: 'Gastroenteritis' },
+                    { value: 'GI_cholangitis', label: 'Colangitis' },
+                    { value: 'GI_peritonitis', label: 'Peritonitis' },
+                    { value: 'GI_liver_abscess', label: 'Absceso hepático' },
+                    { value: 'GI_intra_abdominal', label: 'Infección intraabdominal' },
+                ]
+            },
+            'Skin': {
+                label: 'Piel y Tejidos Blandos',
+                options: [
+                    { value: 'SKIN_cellulitis', label: 'Celulitis' },
+                    { value: 'SKIN_abscess', label: 'Absceso cutáneo' },
+                    { value: 'SKIN_necrotizing', label: 'Fascitis necrotizante' },
+                    { value: 'SKIN_wound', label: 'Infección de herida' },
+                    { value: 'SKIN_diabetic_foot', label: 'Pie diabético' },
+                ]
+            },
+            'Bone': {
+                label: 'Hueso y Articulaciones',
+                options: [
+                    { value: 'BONE_osteomyelitis', label: 'Osteomielitis' },
+                    { value: 'BONE_septic_arthritis', label: 'Artritis séptica' },
+                    { value: 'BONE_prosthetic', label: 'Infección de prótesis' },
+                    { value: 'BONE_diabetic_foot', label: 'Osteomielitis de pie diabético' },
+                ]
+            },
+            'Bloodstream': {
+                label: 'Torrente Sanguíneo',
+                options: [
+                    { value: 'BSI_primary', label: 'Bacteriemia primaria' },
+                    { value: 'BSI_secondary', label: 'Bacteriemia secundaria' },
+                    { value: 'BSI_catheter', label: 'Bacteriemia relacionada con catéter' },
+                ]
+            }
+        };
+        
+        for (const category of Object.values(syndromeCategories)) {
+            const option = category.options.find(opt => opt.value === locationValue);
+            if (option) {
+                return option.label;
+            }
+        }
+        return locationValue || 'No especificada';
+    };
+
     const handleCopy = () => {
         const bacterium = data.bacteriumId ? getBacteriaDatabase()[data.bacteriumId] : null;
-        const textToCopy = `** RESUMEN DE CASO CLÍNICO **\n---------------------------------\nPACIENTE: ${data.age||'N/A'} años, Sexo: ${data.gender === 'Female' ? 'Femenino' : 'Masculino'}, ${data.weight||'N/A'} kg, ${data.height||'N/A'} cm.\nCÁLCULOS:\n  - TFG: ${calculations.tfg?`${calculations.tfg.value} mL/min/1.73m² (${calculations.tfg.formula})`:'N/A'}\n  - IMC: ${calculations.bmi||'N/A'} (${calculations.obesityClass||'N/A'})\n  - Child-Pugh: ${data.hasHepaticDisease&&calculations.childPugh?`${calculations.childPugh.score} (Clase ${calculations.childPugh.class})`:'No aplica'}\n---------------------------------\nINFECCIÓN:\n  - Localización: ${data.location||'No especificada'}.\n  - Microorganismo: ${bacterium?bacterium.name:'No especificado'}.\n---------------------------------\nRESULTADOS:\n  - Alergias: ${data.hypersensitivities.length>0?data.hypersensitivities.join(', '):'Ninguna'}.\n  - TRATAMIENTO RECOMENDADO: ${recommendation.antibiotic||'Ninguno adecuado'} (${recommendation.tier||'N/A'})\n  - Alternativas viables: ${alternatives.length > 0 ? alternatives.join(', ') : 'Ninguna'}\n---------------------------------`;
+        const bacteriumName = bacterium ? (bacterium.identity?.bacteriumName || bacterium.name) : 'No especificado';
+        const infectionName = getInfectionName(data.location);
+        
+        const textToCopy = `** RESUMEN DE CASO CLÍNICO **\n---------------------------------\nPACIENTE: ${data.age||'N/A'} años, Sexo: ${data.gender === 'Female' ? 'Femenino' : 'Masculino'}, ${data.weight||'N/A'} kg, ${data.height||'N/A'} cm.\nCÁLCULOS:\n  - TFG: ${calculations.tfg?`${calculations.tfg.value} mL/min/1.73m² (${calculations.tfg.formula})`:'N/A'}\n  - IMC: ${calculations.bmi||'N/A'} (${calculations.obesityClass||'N/A'})\n  - Child-Pugh: ${data.hasHepaticDisease&&calculations.childPugh?`${calculations.childPugh.score} (Clase ${calculations.childPugh.class})`:'No aplica'}\n---------------------------------\nINFECCIÓN:\n  - Localización: ${infectionName}\n  - Microorganismo: ${bacteriumName}\n---------------------------------\nRESULTADOS:\n  - Alergias: ${data.hypersensitivities.length>0?data.hypersensitivities.join(', '):'Ninguna'}.\n  - TRATAMIENTO RECOMENDADO: ${recommendation.antibiotic||'Ninguno adecuado'} (${recommendation.tier||'N/A'})\n  - Alternativas viables: ${alternatives.length > 0 ? alternatives.join(', ') : 'Ninguna'}\n---------------------------------`;
         const textArea = document.createElement("textarea");
         textArea.value = textToCopy;
         textArea.style.position = 'fixed'; textArea.style.left = '-9999px';
@@ -1163,18 +1575,58 @@ const RecommendationStep = ({ data, calculations, recommendation, alternatives, 
 
     return (
         <div className="space-y-6">
-            <div className="flex justify-between items-start"><h3 className="text-xl font-semibold text-gray-800">Resumen y Recomendación Automática</h3><button onClick={handleCopy} className="bg-gray-200 text-gray-800 font-semibold py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-300">{copySuccess || 'Copiar Resumen'}</button></div>
+            <div className="flex justify-between items-start">
+                <h3 className="text-xl font-semibold text-gray-800">Resumen y Recomendación Automática</h3>
+                <button 
+                    onClick={handleCopy} 
+                    className="flex items-center gap-2 bg-gray-200 text-gray-800 font-semibold py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-300"
+                >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                    {copySuccess || 'Copiar Resumen'}
+                </button>
+            </div>
              <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-md space-y-3">
                 <h4 className="font-bold text-blue-800">Resumen del Caso Completo</h4>
                 <p><strong>Paciente:</strong> {data.age || 'N/A'} años, Sexo: {data.gender === 'Female' ? 'Femenino' : 'Masculino'}, {data.weight || 'N/A'} kg, {data.height || 'N/A'} cm.</p>
                 <p><strong>Valores Calculados:</strong> TFG: {calculations.tfg ? `${calculations.tfg.value} mL/min/1.73m²` : 'N/A'} ({calculations.tfg ? calculations.tfg.formula : 'N/A'}), IMC: {calculations.bmi || 'N/A'} ({calculations.obesityClass || 'N/A'}).</p>
                 {data.hasHepaticDisease && <p><strong>Enf. Hepática:</strong> Child-Pugh {calculations.childPugh ? `${calculations.childPugh.score} (Clase ${calculations.childPugh.class})` : 'Datos incompletos'}</p>}
-                <p><strong>Infección:</strong> {data.location || 'No especificada'}.</p>
-                <p><strong>Microorganismo:</strong> {data.bacteriumId ? getBacteriaDatabase()[data.bacteriumId].name : 'No especificado'}.</p>
+                <p><strong>Infección:</strong> {getInfectionName(data.location)}.</p>
+                <p><strong>Microorganismo:</strong> {data.bacteriumId ? (getBacteriaDatabase()[data.bacteriumId].identity?.bacteriumName || getBacteriaDatabase()[data.bacteriumId].name) : 'No especificado'}.</p>
                 <p><strong>Alergias:</strong> {data.hypersensitivities.length > 0 ? data.hypersensitivities.join(', ') : 'Ninguna reportada'}.</p>
             </div>
             <div className="p-4 rounded-lg bg-indigo-50 border border-indigo-200">
-                <h4 className="text-lg font-semibold text-indigo-800">Tratamiento Sugerido por Guía</h4>
+                <div className="flex justify-between items-start">
+                    <h4 className="text-lg font-semibold text-indigo-800">Tratamiento Sugerido por Guía</h4>
+                    {recommendation.antibiotic && (
+                        <button
+                            onClick={() => {
+                                const treatmentText = `${recommendation.antibiotic}\n${recommendation.tier}\n${recommendedDosage}`;
+                                navigator.clipboard.writeText(treatmentText).then(() => {
+                                    setTreatmentCopySuccess('¡Copiado!');
+                                    setTimeout(() => setTreatmentCopySuccess(''), 2000);
+                                }).catch(() => {
+                                    setTreatmentCopySuccess('Error');
+                                    setTimeout(() => setTreatmentCopySuccess(''), 2000);
+                                });
+                            }}
+                            className={`flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                                treatmentCopySuccess 
+                                    ? treatmentCopySuccess === 'Error' 
+                                        ? 'bg-red-600 text-white' 
+                                        : 'bg-green-600 text-white'
+                                    : 'bg-indigo-600 text-white hover:bg-indigo-700'
+                            }`}
+                            title="Copiar tratamiento"
+                        >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                            {treatmentCopySuccess || 'Copiar'}
+                        </button>
+                    )}
+                </div>
                 {recommendation.antibiotic ? (
                     <div>
                         <p className="text-2xl font-bold text-indigo-600 mt-2">{recommendation.antibiotic}</p>
@@ -1266,6 +1718,135 @@ const RecommendationStep = ({ data, calculations, recommendation, alternatives, 
                     </div>
                 </div>
             )}
+            
+            {/* Stewardship Guidelines */}
+            <div className="p-4 rounded-lg bg-teal-50 border border-teal-200">
+                <h4 className="text-lg font-semibold text-teal-800 mb-4 flex items-center">
+                    <span className="text-xl mr-2">🛡️</span>
+                    Principios de Stewardship Antimicrobiano
+                </h4>
+                
+                <div className="space-y-4">
+                    {/* De-escalation Recommendations */}
+                    <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-teal-700 mb-2 flex items-center">
+                            <span className="text-teal-500 mr-2">🎯</span>
+                            Recomendaciones de De-escalación
+                        </h5>
+                        <div className="text-sm text-teal-600 space-y-2">
+                            {(() => {
+                                const hasESBL = data.susceptibilityResults['Ceftriaxone'] === 'R' || data.susceptibilityResults['Ceftazidime'] === 'R';
+                                const hasCarbapenemResistance = data.susceptibilityResults['Meropenem'] === 'R' || data.susceptibilityResults['Imipenem'] === 'R';
+                                const hasNarrowSpectrumOptions = data.susceptibilityResults['Ampicillin'] === 'S' || data.susceptibilityResults['Penicillin'] === 'S';
+                                
+                                if (hasCarbapenemResistance) {
+                                    return (
+                                        <div className="p-3 bg-red-50 border border-red-200 rounded">
+                                            <p className="text-red-700 font-medium">⚠️ Resistencia a carbapenémicos detectada</p>
+                                            <p className="text-red-600 text-xs mt-1">
+                                                • Consultar con infectología para terapia combinada<br/>
+                                                • Considerar colistina, ceftazidima-avibactam o fosfomicina<br/>
+                                                • Evaluar necesidad de aislamiento de contacto
+                                            </p>
+                                        </div>
+                                    );
+                                } else if (hasESBL) {
+                                    return (
+                                        <div className="p-3 bg-orange-50 border border-orange-200 rounded">
+                                            <p className="text-orange-700 font-medium">🧬 Patrón ESBL detectado</p>
+                                            <p className="text-orange-600 text-xs mt-1">
+                                                • Evitar cefalosporinas y piperacilina-tazobactam<br/>
+                                                • Priorizar carbapenémicos para infecciones graves<br/>
+                                                • Considerar fosfomicina o nitrofurantoína para ITU
+                                            </p>
+                                        </div>
+                                    );
+                                } else if (hasNarrowSpectrumOptions) {
+                                    return (
+                                        <div className="p-3 bg-green-50 border border-green-200 rounded">
+                                            <p className="text-green-700 font-medium">✅ Opciones de espectro estrecho disponibles</p>
+                                            <p className="text-green-600 text-xs mt-1">
+                                                • Priorizar agentes de espectro estrecho cuando sea posible<br/>
+                                                • Evitar uso innecesario de carbapenémicos<br/>
+                                                • Considerar cambio a vía oral cuando sea apropiado
+                                            </p>
+                                        </div>
+                                    );
+                                } else {
+                                    return (
+                                        <div className="p-3 bg-blue-50 border border-blue-200 rounded">
+                                            <p className="text-blue-700 font-medium">📋 Evaluación de de-escalación</p>
+                                            <p className="text-blue-600 text-xs mt-1">
+                                                • Revisar resultados de susceptibilidad completamente<br/>
+                                                • Evaluar evolución clínica a las 48-72 horas<br/>
+                                                • Considerar cambio a agente más específico si es posible
+                                            </p>
+                                        </div>
+                                    );
+                                }
+                            })()}
+                        </div>
+                    </div>
+
+                    {/* Duration and Monitoring */}
+                    <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-teal-700 mb-2 flex items-center">
+                            <span className="text-teal-500 mr-2">⏱️</span>
+                            Duración y Monitoreo
+                        </h5>
+                        <div className="text-sm text-teal-600 space-y-2">
+                            <p>• <strong>Duración:</strong> Usar la menor duración efectiva según guías clínicas</p>
+                            <p>• <strong>Monitoreo:</strong> Evaluar respuesta clínica y microbiológica</p>
+                            <p>• <strong>Revisión:</strong> Reevaluar necesidad de antibiótico cada 48-72 horas</p>
+                            {recAbxData?.therapeuticDrugMonitoring && (
+                                <p>• <strong>Niveles:</strong> {recAbxData.therapeuticDrugMonitoring.monitoring} (Objetivo: {recAbxData.therapeuticDrugMonitoring.target})</p>
+                            )}
+                        </div>
+                    </div>
+
+                    {/* Combination Therapy Considerations */}
+                    {(() => {
+                        const needsCombinationTherapy = (
+                            data.susceptibilityResults['Meropenem'] === 'R' || 
+                            data.susceptibilityResults['Imipenem'] === 'R' ||
+                            data.location?.includes('Endocarditis') ||
+                            data.location?.includes('Meningitis') ||
+                            data.isICU
+                        );
+                        
+                        if (needsCombinationTherapy) {
+                            return (
+                                <div className="bg-white p-4 rounded-lg border">
+                                    <h5 className="font-semibold text-teal-700 mb-2 flex items-center">
+                                        <span className="text-teal-500 mr-2">🔄</span>
+                                        Consideraciones de Terapia Combinada
+                                    </h5>
+                                    <div className="text-sm text-teal-600 space-y-2">
+                                        <p>• <strong>Indicaciones:</strong> Infección grave, resistencia extrema, o sinergia requerida</p>
+                                        <p>• <strong>Evaluación:</strong> Evaluar beneficio vs. riesgo de toxicidad</p>
+                                        <p>• <strong>Monitoreo:</strong> Seguimiento estrecho de efectos adversos</p>
+                                        <p>• <strong>Duración:</strong> Limitar al período mínimo necesario</p>
+                                    </div>
+                                </div>
+                            );
+                        }
+                    })()}
+
+                    {/* Resistance Prevention */}
+                    <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-teal-700 mb-2 flex items-center">
+                            <span className="text-teal-500 mr-2">🔒</span>
+                            Prevención de Resistencia
+                        </h5>
+                        <div className="text-sm text-teal-600 space-y-2">
+                            <p>• <strong>Dosis óptima:</strong> Usar dosis máximas recomendadas para infecciones graves</p>
+                            <p>• <strong>Cumplimiento:</strong> Asegurar adherencia completa al tratamiento</p>
+                            <p>• <strong>Combinaciones:</strong> Evitar monoterapia en infecciones por P. aeruginosa grave</p>
+                            <p>• <strong>Rotación:</strong> Considerar políticas de rotación de antibióticos institucionales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
