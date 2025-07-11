@@ -2318,7 +2318,7 @@ const AntibiogramApp = ({ onBackToLanding }) => {
         }
     };
     return (
-        <div className="bg-gray-100 min-h-screen font-sans">
+        <div className="bg-gray-100 min-h-full font-sans">
             {/* Header with back button */}
             <div className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-10">
                 <div className="max-w-4xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between">

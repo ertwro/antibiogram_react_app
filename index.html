@@ -14,9 +14,28 @@
     />
     <title>Guía Interactiva de Resistencia Antimicrobiana - Colombia (Alpha)</title>
     <style>
-      body {
+      html, body {
         font-family: "Inter", sans-serif;
-        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: auto;
+      }
+      
+      /* Iframe-specific styles */
+      body {
+        box-sizing: border-box;
+      }
+      
+      #root {
+        height: 100vh;
+        overflow: auto;
+        box-sizing: border-box;
+      }
+      
+      /* Ensure content is scrollable in iframe */
+      * {
+        box-sizing: border-box;
       }
       .chart-container {
         position: relative;

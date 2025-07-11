@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        .iframe-container {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .iframe-container h2 {
+            margin-top: 0;
+            color: #666;
+        }
+        
+        iframe {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: block;
+        }
+        
+        .info {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 10px 0;
+            border-left: 4px solid #0d9488;
+        }
+        
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Antibiogram App - Iframe Integration Test</h1>
+        
+        <div class="info">
+            <p><strong>Test Instructions:</strong></p>
+            <p>1. Start the dev server: <code>npm run dev</code></p>
+            <p>2. Update the iframe src below to point to your local development server (usually http://localhost:5173)</p>
+            <p>3. Check that the entire app is accessible and scrollable within the iframe</p>
+            <p>4. Test navigation between different sections (Landing Page, Antibiogram Tool, Syndromes Guide)</p>
+        </div>
+        
+        <div class="iframe-container">
+            <h2>Large Iframe (800x600)</h2>
+            <iframe src="http://localhost:5173" width="800" height="600"></iframe>
+        </div>
+        
+        <div class="iframe-container">
+            <h2>Medium Iframe (600x400)</h2>
+            <iframe src="http://localhost:5173" width="600" height="400"></iframe>
+        </div>
+        
+        <div class="iframe-container">
+            <h2>Small Iframe (400x300)</h2>
+            <iframe src="http://localhost:5173" width="400" height="300"></iframe>
+        </div>
+        
+        <div class="iframe-container">
+            <h2>Responsive Iframe (100% width, 500px height)</h2>
+            <iframe src="http://localhost:5173" height="500"></iframe>
+        </div>
+    </div>
+</body>
+</html>
