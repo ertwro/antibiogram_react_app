@@ -102,9 +102,9 @@ const SyndromesApp = ({ onBackToLanding }) => {
                 name: "Staphylococcus aureus",
                 burden: "2da causa de muerte por RAM en Colombia (3,100 muertes en 2019). Constituye 10-11% de todos los aislados bacterianos.",
                 resistance: {
-                    labels: ["Oxacilina (SARM)", "Oxacilina (SARM)", "Oxacilina (SARM)"],
+                    labels: ["Infección Clínica", "UCI Bogotá", "Portadores Sanos"],
                     datasets: [{
-                        label: "% Resistencia",
+                        label: "% Resistencia SARM",
                         data: [43, 62, 20],
                         backgroundColor: "rgba(13, 148, 136, 0.6)",
                         borderColor: "rgba(13, 148, 136, 1)",
@@ -179,6 +179,23 @@ const SyndromesApp = ({ onBackToLanding }) => {
         if (typeof window !== 'undefined' && window.Chart) {
             initializeCharts();
         }
+        
+        // Handle URL hash navigation
+        const handleHashChange = () => {
+            const hash = window.location.hash.replace('#', '');
+            if (['resumen', 'patogenos', 'principios'].includes(hash)) {
+                setCurrentView(hash);
+            }
+        };
+        
+        window.addEventListener('hashchange', handleHashChange);
+        
+        // Handle initial load
+        handleHashChange();
+        
+        return () => {
+            window.removeEventListener('hashchange', handleHashChange);
+        };
     }, [currentView]);
 
     const initializeCharts = () => {
@@ -273,6 +290,16 @@ const SyndromesApp = ({ onBackToLanding }) => {
         if (currentView === 'patogenos' && selectedPathogen) {
             updateResistanceChart();
         }
+        
+        // Cleanup charts on unmount
+        return () => {
+            if (resistanceChart) {
+                resistanceChart.destroy();
+            }
+            if (topPathogensChart) {
+                topPathogensChart.destroy();
+            }
+        };
     }, [selectedPathogen]);
 
     const renderResumenView = () => (
@@ -558,7 +585,10 @@ const SyndromesApp = ({ onBackToLanding }) => {
                 <aside className="w-full md:w-64 bg-white md:border-r border-slate-200 p-4">
                     <nav className="flex flex-row md:flex-col gap-2">
                         <button
-                            onClick={() => setCurrentView('resumen')}
+                            onClick={() => {
+                                setCurrentView('resumen');
+                                window.history.pushState(null, '', '#resumen');
+                            }}
                             className={`nav-link flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all ${
                                 currentView === 'resumen' 
                                     ? 'bg-teal-600 text-white' 
@@ -569,7 +599,10 @@ const SyndromesApp = ({ onBackToLanding }) => {
                             <span>Resumen Nacional</span>
                         </button>
                         <button
-                            onClick={() => setCurrentView('patogenos')}
+                            onClick={() => {
+                                setCurrentView('patogenos');
+                                window.history.pushState(null, '', '#patogenos');
+                            }}
                             className={`nav-link flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all ${
                                 currentView === 'patogenos' 
                                     ? 'bg-teal-600 text-white' 
@@ -580,7 +613,10 @@ const SyndromesApp = ({ onBackToLanding }) => {
                             <span>Perfiles de Patógenos</span>
                         </button>
                         <button
-                            onClick={() => setCurrentView('principios')}
+                            onClick={() => {
+                                setCurrentView('principios');
+                                window.history.pushState(null, '', '#principios');
+                            }}
                             className={`nav-link flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all ${
                                 currentView === 'principios' 
                                     ? 'bg-teal-600 text-white' 
@@ -595,9 +631,24 @@ const SyndromesApp = ({ onBackToLanding }) => {
 
                 {/* Main Content */}
                 <main className="flex-1 p-4 sm:p-6 lg:p-8">
-                    {currentView === 'resumen' && renderResumenView()}
-                    {currentView === 'patogenos' && renderPatogenosView()}
-                    {currentView === 'principios' && renderPrincipiosView()}
+                    <div className={`view ${currentView === 'resumen' ? 'active' : ''}`} style={{
+                        display: currentView === 'resumen' ? 'block' : 'none',
+                        animation: currentView === 'resumen' ? 'fadeIn 0.5s' : 'none'
+                    }}>
+                        {currentView === 'resumen' && renderResumenView()}
+                    </div>
+                    <div className={`view ${currentView === 'patogenos' ? 'active' : ''}`} style={{
+                        display: currentView === 'patogenos' ? 'block' : 'none',
+                        animation: currentView === 'patogenos' ? 'fadeIn 0.5s' : 'none'
+                    }}>
+                        {currentView === 'patogenos' && renderPatogenosView()}
+                    </div>
+                    <div className={`view ${currentView === 'principios' ? 'active' : ''}`} style={{
+                        display: currentView === 'principios' ? 'block' : 'none',
+                        animation: currentView === 'principios' ? 'fadeIn 0.5s' : 'none'
+                    }}>
+                        {currentView === 'principios' && renderPrincipiosView()}
+                    </div>
                 </main>
             </div>
         </div>
@@ -607,11 +658,21 @@ const SyndromesApp = ({ onBackToLanding }) => {
 // Accordion component for cross-resistance
 const AccordionItem = ({ title, content }) => {
     const [isOpen, setIsOpen] = useState(false);
+    const [maxHeight, setMaxHeight] = useState('0');
+
+    const toggleAccordion = () => {
+        setIsOpen(!isOpen);
+        if (!isOpen) {
+            setMaxHeight('200px'); // Adjust based on content
+        } else {
+            setMaxHeight('0');
+        }
+    };
 
     return (
         <div className="border border-slate-200 rounded-lg">
             <button
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={toggleAccordion}
                 className="w-full text-left p-4 bg-slate-100 hover:bg-slate-200 rounded-lg font-semibold flex justify-between items-center"
             >
                 <span>{title}</span>
@@ -619,11 +680,14 @@ const AccordionItem = ({ title, content }) => {
                     ▼
                 </span>
             </button>
-            {isOpen && (
-                <div className="p-4 border-t border-slate-200">
+            <div 
+                className="accordion-content bg-white border-t border-slate-200 rounded-b-lg overflow-hidden"
+                style={{ maxHeight: maxHeight }}
+            >
+                <div className="p-4">
                     <div className="text-sm text-slate-700" dangerouslySetInnerHTML={{ __html: content }} />
                 </div>
-            )}
+            </div>
         </div>
     );
 };
