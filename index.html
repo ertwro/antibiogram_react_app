@@ -13,6 +13,35 @@
       rel="stylesheet"
     />
     <title>Guía Interactiva de Resistencia Antimicrobiana - Colombia (Alpha)</title>
+    <style>
+      /* Ensure proper scrolling in iframes */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: auto !important;
+        min-height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      
+      #root {
+        height: auto !important;
+        min-height: 100vh;
+      }
+      
+      /* Iframe-specific fixes */
+      @media screen {
+        html {
+          overflow-y: scroll !important;
+        }
+        
+        body {
+          position: relative !important;
+          height: auto !important;
+          overflow: visible !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>

@@ -2334,7 +2334,7 @@ const AntibiogramApp = ({ onBackToLanding }) => {
         }
     };
     return (
-        <div className="bg-gray-100 min-h-full font-sans">
+        <div className="bg-gray-100 font-sans" style={{ minHeight: '100vh', paddingBottom: '2rem' }}>
             {/* Header with back button */}
             <div className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-10">
                 <div className="max-w-4xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between">
@@ -2354,10 +2354,8 @@ const AntibiogramApp = ({ onBackToLanding }) => {
             </div>
             
             {/* Main antibiogram content */}
-            <div className="p-4 sm:p-8 flex flex-col items-center justify-center">
-                <div className="w-full max-w-4xl">
-                    <h1 className="text-4xl font-extrabold text-center mb-2 text-gray-800">Guía de Antibiograma V12</h1>
-                    <p className="text-center text-gray-600 mb-8">Herramienta de Soporte a la Decisión Clínica</p>
+            <div className="p-4 sm:p-8 flex flex-col items-center" style={{ minHeight: 'calc(100vh - 100px)' }}>
+                <div className="w-full max-w-4xl pb-8">
                     <ProgressBar current={currentStep} total={totalSteps} />
                     <Card title={stepTitles[currentStep-1]}>
                         <form onSubmit={(e) => e.preventDefault()}>
