@@ -41,6 +41,38 @@
           overflow: visible !important;
         }
       }
+      
+      /* Mobile-specific improvements */
+      @media (max-width: 768px) {
+        * {
+          /* Improve touch scrolling on mobile */
+          -webkit-overflow-scrolling: touch;
+        }
+        
+        /* Ensure tables can scroll horizontally on mobile */
+        .overflow-x-auto {
+          scrollbar-width: thin;
+          scrollbar-color: #CBD5E0 #F7FAFC;
+        }
+        
+        .overflow-x-auto::-webkit-scrollbar {
+          height: 6px;
+        }
+        
+        .overflow-x-auto::-webkit-scrollbar-track {
+          background: #F7FAFC;
+          border-radius: 3px;
+        }
+        
+        .overflow-x-auto::-webkit-scrollbar-thumb {
+          background: #CBD5E0;
+          border-radius: 3px;
+        }
+        
+        .overflow-x-auto::-webkit-scrollbar-thumb:hover {
+          background: #A0AEC0;
+        }
+      }
     </style>
   </head>
   <body>
