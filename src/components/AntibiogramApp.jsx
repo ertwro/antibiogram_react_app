@@ -4,6 +4,102 @@ import {
     getSearchableList
 } from '../data/microbiologyData.js';
 import { getIntelligentTreatmentRecommendation } from '../utils/clinicalDecisionSupport.js';
+
+// Shared syndrome categories definition
+const SYNDROME_CATEGORIES = {
+    'CNS': {
+        label: 'Sistema Nervioso Central',
+        color: 'bg-red-50 border-red-200',
+        options: [
+            { value: 'CNS_meningitis', label: 'Meningitis bacteriana', penetration: 'CNS_critical', severity: 3 },
+            { value: 'CNS_encephalitis', label: 'Encefalitis', penetration: 'CNS_critical', severity: 3 },
+            { value: 'CNS_brain_abscess', label: 'Absceso cerebral', penetration: 'CNS_critical', severity: 3 },
+            { value: 'CNS_subdural_empyema', label: 'Empiema subdural', penetration: 'CNS_critical', severity: 3 }
+        ]
+    },
+    'Cardiovascular': {
+        label: 'Cardiovascular',
+        color: 'bg-purple-50 border-purple-200',
+        options: [
+            { value: 'CV_endocarditis_native', label: 'Endocarditis válvula nativa', penetration: 'moderate', severity: 3 },
+            { value: 'CV_endocarditis_prosthetic', label: 'Endocarditis válvula protésica', penetration: 'moderate', severity: 3 },
+            { value: 'CV_endocarditis_CIED', label: 'Infección dispositivo cardiaco (CIED)', penetration: 'moderate', severity: 3 },
+            { value: 'CV_pericarditis', label: 'Pericarditis bacteriana', penetration: 'moderate', severity: 2 },
+            { value: 'CV_mycotic_aneurysm', label: 'Aneurisma micótico', penetration: 'moderate', severity: 3 }
+        ]
+    },
+    'Respiratory': {
+        label: 'Respiratorio',
+        color: 'bg-blue-50 border-blue-200',
+        options: [
+            { value: 'RESP_CAP', label: 'Neumonía adquirida en comunidad (NAC)', penetration: 'good', severity: 2 },
+            { value: 'RESP_HAP', label: 'Neumonía nosocomial (NAH)', penetration: 'good', severity: 2 },
+            { value: 'RESP_VAP', label: 'Neumonía asociada a ventilador (NAV)', penetration: 'good', severity: 3 },
+            { value: 'RESP_empyema', label: 'Empiema pleural', penetration: 'good', severity: 2 },
+            { value: 'RESP_lung_abscess', label: 'Absceso pulmonar', penetration: 'good', severity: 2 },
+            { value: 'RESP_bronchitis_acute', label: 'Bronquitis aguda', penetration: 'good', severity: 1 }
+        ]
+    },
+    'GU': {
+        label: 'Genitourinario',
+        color: 'bg-green-50 border-green-200',
+        options: [
+            { value: 'GU_UTI_uncomplicated', label: 'ITU no complicada (mujer)', penetration: 'urinary_specific', severity: 1 },
+            { value: 'GU_UTI_complicated', label: 'ITU complicada', penetration: 'systemic', severity: 2 },
+            { value: 'GU_UTI_catheter', label: 'ITU asociada a catéter', penetration: 'systemic', severity: 2 },
+            { value: 'GU_pyelonephritis', label: 'Pielonefritis aguda', penetration: 'systemic', severity: 2 },
+            { value: 'GU_prostatitis_acute', label: 'Prostatitis aguda', penetration: 'prostate_specific', severity: 2 },
+            { value: 'GU_prostatitis_chronic', label: 'Prostatitis crónica', penetration: 'prostate_specific', severity: 1 }
+        ]
+    },
+    'Skin_Soft_Tissue': {
+        label: 'Piel y Tejidos Blandos',
+        color: 'bg-yellow-50 border-yellow-200',
+        options: [
+            { value: 'SST_cellulitis_simple', label: 'Celulitis simple', penetration: 'good', severity: 1 },
+            { value: 'SST_cellulitis_severe', label: 'Celulitis severa/eritema', penetration: 'good', severity: 2 },
+            { value: 'SST_necrotizing_fasciitis', label: 'Fascitis necrotizante', penetration: 'good', severity: 3 },
+            { value: 'SST_abscess', label: 'Absceso cutáneo', penetration: 'good', severity: 1 },
+            { value: 'SST_diabetic_foot', label: 'Pie diabético infectado', penetration: 'moderate', severity: 2 },
+            { value: 'SST_surgical_site', label: 'Infección sitio quirúrgico', penetration: 'good', severity: 2 }
+        ]
+    },
+    'Bone_Joint': {
+        label: 'Hueso y Articulaciones',
+        color: 'bg-orange-50 border-orange-200',
+        options: [
+            { value: 'BJ_osteomyelitis_acute', label: 'Osteomielitis aguda', penetration: 'bone_specific', severity: 2 },
+            { value: 'BJ_osteomyelitis_chronic', label: 'Osteomielitis crónica', penetration: 'bone_specific', severity: 2 },
+            { value: 'BJ_prosthetic_joint', label: 'Infección prótesis articular', penetration: 'bone_specific', severity: 2 },
+            { value: 'BJ_septic_arthritis', label: 'Artritis séptica', penetration: 'good', severity: 2 },
+            { value: 'BJ_vertebral_osteomyelitis', label: 'Osteomielitis vertebral', penetration: 'bone_specific', severity: 2 },
+            { value: 'BJ_diabetic_foot_osteo', label: 'Osteomielitis pie diabético', penetration: 'bone_specific', severity: 2 }
+        ]
+    },
+    'Intra_Abdominal': {
+        label: 'Intraabdominal',
+        color: 'bg-indigo-50 border-indigo-200',
+        options: [
+            { value: 'IA_peritonitis_secondary', label: 'Peritonitis secundaria', penetration: 'good', severity: 2 },
+            { value: 'IA_peritonitis_primary', label: 'Peritonitis primaria/espontánea', penetration: 'good', severity: 2 },
+            { value: 'IA_intra_abdominal', label: 'Infección intraabdominal complicada', penetration: 'good', severity: 2 },
+            { value: 'IA_cholangitis', label: 'Colangitis', penetration: 'good', severity: 2 },
+            { value: 'IA_liver_abscess', label: 'Absceso hepático', penetration: 'good', severity: 2 },
+            { value: 'IA_appendicitis', label: 'Apendicitis complicada', penetration: 'good', severity: 2 }
+        ]
+    },
+    'Bacteremia_Sepsis': {
+        label: 'Bacteriemia y Sepsis',
+        color: 'bg-red-50 border-red-200',
+        options: [
+            { value: 'BS_bacteremia_primary', label: 'Bacteriemia primaria', penetration: 'systemic', severity: 2 },
+            { value: 'BS_CLABSI', label: 'Bacteriemia asociada a catéter central', penetration: 'systemic', severity: 2 },
+            { value: 'BS_sepsis', label: 'Sepsis', penetration: 'systemic', severity: 3 },
+            { value: 'BS_septic_shock', label: 'Shock séptico', penetration: 'systemic', severity: 3 },
+            { value: 'BS_neutropenic_fever', label: 'Fiebre neutropénica', penetration: 'systemic', severity: 2 }
+        ]
+    }
+};
 import { antibioticsData } from '../data/antibiotics.js';
 
 // --- HELPER COMPONENTS ---
@@ -248,106 +344,11 @@ const PatientDataStep = ({ data, onChange, calculations }) => (
 const InfectionLocationStep = ({ data, onChange }) => {
     const [expandedCategory, setExpandedCategory] = useState(null);
 
-    const syndromeCategories = {
-        'CNS': {
-            label: 'Sistema Nervioso Central',
-            color: 'bg-red-50 border-red-200',
-            options: [
-                { value: 'CNS_meningitis', label: 'Meningitis bacteriana', penetration: 'CNS_critical', severity: 3 },
-                { value: 'CNS_encephalitis', label: 'Encefalitis', penetration: 'CNS_critical', severity: 3 },
-                { value: 'CNS_brain_abscess', label: 'Absceso cerebral', penetration: 'CNS_critical', severity: 3 },
-                { value: 'CNS_subdural_empyema', label: 'Empiema subdural', penetration: 'CNS_critical', severity: 3 }
-            ]
-        },
-        'Cardiovascular': {
-            label: 'Cardiovascular',
-            color: 'bg-purple-50 border-purple-200',
-            options: [
-                { value: 'CV_endocarditis_native', label: 'Endocarditis válvula nativa', penetration: 'moderate', severity: 3 },
-                { value: 'CV_endocarditis_prosthetic', label: 'Endocarditis válvula protésica', penetration: 'moderate', severity: 3 },
-                { value: 'CV_endocarditis_CIED', label: 'Infección dispositivo cardiaco (CIED)', penetration: 'moderate', severity: 3 },
-                { value: 'CV_pericarditis', label: 'Pericarditis bacteriana', penetration: 'moderate', severity: 2 },
-                { value: 'CV_mycotic_aneurysm', label: 'Aneurisma micótico', penetration: 'moderate', severity: 3 }
-            ]
-        },
-        'Respiratory': {
-            label: 'Respiratorio',
-            color: 'bg-blue-50 border-blue-200',
-            options: [
-                { value: 'RESP_CAP', label: 'Neumonía adquirida en comunidad (NAC)', penetration: 'good', severity: 2 },
-                { value: 'RESP_HAP', label: 'Neumonía nosocomial (NAH)', penetration: 'good', severity: 2 },
-                { value: 'RESP_VAP', label: 'Neumonía asociada a ventilador (NAV)', penetration: 'good', severity: 3 },
-                { value: 'RESP_empyema', label: 'Empiema pleural', penetration: 'good', severity: 2 },
-                { value: 'RESP_lung_abscess', label: 'Absceso pulmonar', penetration: 'good', severity: 2 },
-                { value: 'RESP_bronchitis_acute', label: 'Bronquitis aguda', penetration: 'good', severity: 1 }
-            ]
-        },
-        'GU': {
-            label: 'Genitourinario',
-            color: 'bg-green-50 border-green-200',
-            options: [
-                { value: 'GU_UTI_uncomplicated', label: 'ITU no complicada (mujer)', penetration: 'urinary_specific', severity: 1 },
-                { value: 'GU_UTI_complicated', label: 'ITU complicada', penetration: 'systemic', severity: 2 },
-                { value: 'GU_UTI_catheter', label: 'ITU asociada a catéter', penetration: 'systemic', severity: 2 },
-                { value: 'GU_pyelonephritis', label: 'Pielonefritis aguda', penetration: 'systemic', severity: 2 },
-                { value: 'GU_prostatitis_acute', label: 'Prostatitis aguda', penetration: 'prostate_specific', severity: 2 },
-                { value: 'GU_prostatitis_chronic', label: 'Prostatitis crónica', penetration: 'prostate_specific', severity: 1 }
-            ]
-        },
-        'Skin_Soft_Tissue': {
-            label: 'Piel y Tejidos Blandos',
-            color: 'bg-yellow-50 border-yellow-200',
-            options: [
-                { value: 'SST_cellulitis_simple', label: 'Celulitis simple', penetration: 'good', severity: 1 },
-                { value: 'SST_cellulitis_severe', label: 'Celulitis severa/eritema', penetration: 'good', severity: 2 },
-                { value: 'SST_necrotizing_fasciitis', label: 'Fascitis necrotizante', penetration: 'good', severity: 3 },
-                { value: 'SST_abscess', label: 'Absceso cutáneo', penetration: 'good', severity: 1 },
-                { value: 'SST_diabetic_foot', label: 'Pie diabético infectado', penetration: 'moderate', severity: 2 },
-                { value: 'SST_surgical_site', label: 'Infección sitio quirúrgico', penetration: 'good', severity: 2 }
-            ]
-        },
-        'Bone_Joint': {
-            label: 'Hueso y Articulaciones',
-            color: 'bg-orange-50 border-orange-200',
-            options: [
-                { value: 'BJ_osteomyelitis_acute', label: 'Osteomielitis aguda', penetration: 'bone_specific', severity: 2 },
-                { value: 'BJ_osteomyelitis_chronic', label: 'Osteomielitis crónica', penetration: 'bone_specific', severity: 2 },
-                { value: 'BJ_prosthetic_joint', label: 'Infección prótesis articular', penetration: 'bone_specific', severity: 2 },
-                { value: 'BJ_septic_arthritis', label: 'Artritis séptica', penetration: 'good', severity: 2 },
-                { value: 'BJ_vertebral_osteomyelitis', label: 'Osteomielitis vertebral', penetration: 'bone_specific', severity: 2 },
-                { value: 'BJ_diabetic_foot_osteo', label: 'Osteomielitis pie diabético', penetration: 'bone_specific', severity: 2 }
-            ]
-        },
-        'Intra_Abdominal': {
-            label: 'Intraabdominal',
-            color: 'bg-indigo-50 border-indigo-200',
-            options: [
-                { value: 'IA_peritonitis_secondary', label: 'Peritonitis secundaria', penetration: 'good', severity: 2 },
-                { value: 'IA_peritonitis_primary', label: 'Peritonitis primaria/espontánea', penetration: 'good', severity: 2 },
-                { value: 'IA_intra_abdominal', label: 'Infección intraabdominal complicada', penetration: 'good', severity: 2 },
-                { value: 'IA_cholangitis', label: 'Colangitis', penetration: 'good', severity: 2 },
-                { value: 'IA_liver_abscess', label: 'Absceso hepático', penetration: 'good', severity: 2 },
-                { value: 'IA_appendicitis', label: 'Apendicitis complicada', penetration: 'good', severity: 2 }
-            ]
-        },
-        'Bacteremia_Sepsis': {
-            label: 'Bacteriemia y Sepsis',
-            color: 'bg-red-50 border-red-200',
-            options: [
-                { value: 'BS_bacteremia_primary', label: 'Bacteriemia primaria', penetration: 'systemic', severity: 2 },
-                { value: 'BS_CLABSI', label: 'Bacteriemia asociada a catéter central', penetration: 'systemic', severity: 2 },
-                { value: 'BS_sepsis', label: 'Sepsis', penetration: 'systemic', severity: 3 },
-                { value: 'BS_septic_shock', label: 'Shock séptico', penetration: 'systemic', severity: 3 },
-                { value: 'BS_neutropenic_fever', label: 'Fiebre neutropénica', penetration: 'systemic', severity: 2 }
-            ]
-        }
-    };
-
     // Auto-expand category if syndrome is already selected
     useEffect(() => {
         if (data.location && data.location.includes('_')) {
-            const categoryKey = Object.keys(syndromeCategories).find(cat => 
-                syndromeCategories[cat].options.some(opt => opt.value === data.location)
+            const categoryKey = Object.keys(SYNDROME_CATEGORIES).find(cat => 
+                SYNDROME_CATEGORIES[cat].options.some(opt => opt.value === data.location)
             );
             if (categoryKey) {
                 setExpandedCategory(categoryKey);
@@ -372,7 +373,7 @@ const InfectionLocationStep = ({ data, onChange }) => {
             )}
             
             <div className="space-y-3">
-                {Object.entries(syndromeCategories).map(([categoryKey, category]) => {
+                {Object.entries(SYNDROME_CATEGORIES).map(([categoryKey, category]) => {
                     const isExpanded = expandedCategory === categoryKey;
                     const isSelected = category.options.some(opt => opt.value === data.location);
                     
@@ -458,11 +459,11 @@ const InfectionLocationStep = ({ data, onChange }) => {
                 <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
                     <h4 className="font-semibold text-blue-800 mb-2">Consideraciones Clínicas</h4>
                     <div className="text-sm text-blue-700">
-                        {syndromeCategories[Object.keys(syndromeCategories).find(cat => 
-                            syndromeCategories[cat].options.some(opt => opt.value === data.location)
+                        {SYNDROME_CATEGORIES[Object.keys(SYNDROME_CATEGORIES).find(cat => 
+                            SYNDROME_CATEGORIES[cat].options.some(opt => opt.value === data.location)
                         )]?.options.find(opt => opt.value === data.location) && (() => {
-                            const selectedSyndrome = syndromeCategories[Object.keys(syndromeCategories).find(cat => 
-                                syndromeCategories[cat].options.some(opt => opt.value === data.location)
+                            const selectedSyndrome = SYNDROME_CATEGORIES[Object.keys(SYNDROME_CATEGORIES).find(cat => 
+                                SYNDROME_CATEGORIES[cat].options.some(opt => opt.value === data.location)
                             )].options.find(opt => opt.value === data.location);
                             
                             const clinicalConsiderations = {
@@ -1017,7 +1018,7 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                 {resistanceInfo.intrinsicResistance.map((resistance, idx) => (
                                     <div key={idx} className="flex items-center">
                                         <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-                                        <span className="text-sm text-gray-700">{resistance}</span>
+                                        <span className="text-sm text-gray-700">{resistance.drugOrClass || resistance}</span>
                                     </div>
                                 ))}
                                 <div className="mt-3 p-2 bg-orange-50 rounded text-xs text-orange-700">
@@ -1353,10 +1354,12 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                                                 {/* Intrinsic Resistance Indicator */}
                                                                 {(() => {
                                                                     const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
-                                                                    const isIntrinsicallyResistant = intrinsicResistance.some(resistance => 
-                                                                        resistance.toLowerCase().includes(antibioticName.toLowerCase()) ||
-                                                                        antibioticName.toLowerCase().includes(resistance.toLowerCase().replace(/[^a-z]/g, ''))
-                                                                    );
+                                                                    const isIntrinsicallyResistant = intrinsicResistance.some(resistance => {
+                                                                        const drugName = resistance.drugOrClass || resistance;
+                                                                        if (typeof drugName !== 'string') return false;
+                                                                        return drugName.toLowerCase().includes(antibioticName.toLowerCase()) ||
+                                                                               antibioticName.toLowerCase().includes(drugName.toLowerCase().replace(/[^a-z]/g, ''));
+                                                                    });
                                                                     
                                                                     if (isIntrinsicallyResistant) {
                                                                         return (
@@ -1402,10 +1405,12 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                                                 <div className="flex space-x-1">
                                                                     {['S', 'SDD', 'I', 'R'].map((interp) => {
                                                                         const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
-                                                                        const isIntrinsicallyResistant = intrinsicResistance.some(resistance => 
-                                                                            resistance.toLowerCase().includes(antibioticName.toLowerCase()) ||
-                                                                            antibioticName.toLowerCase().includes(resistance.toLowerCase().replace(/[^a-z]/g, ''))
-                                                                        );
+                                                                        const isIntrinsicallyResistant = intrinsicResistance.some(resistance => {
+                                                                            const drugName = resistance.drugOrClass || resistance;
+                                                                            if (typeof drugName !== 'string') return false;
+                                                                            return drugName.toLowerCase().includes(antibioticName.toLowerCase()) ||
+                                                                                   antibioticName.toLowerCase().includes(drugName.toLowerCase().replace(/[^a-z]/g, ''));
+                                                                        });
                                                                         
                                                                         // Disable S/SDD/I buttons for intrinsically resistant antibiotics
                                                                         const isDisabled = isIntrinsicallyResistant && (interp === 'S' || interp === 'SDD' || interp === 'I');
@@ -1461,89 +1466,8 @@ const RecommendationStep = ({ data, calculations, recommendation, alternatives, 
     const [treatmentCopySuccess, setTreatmentCopySuccess] = useState('');
     // Helper function to get full infection name
     const getInfectionName = (locationValue) => {
-        const syndromeCategories = {
-            'CNS': {
-                label: 'Sistema Nervioso Central',
-                options: [
-                    { value: 'CNS_meningitis', label: 'Meningitis bacteriana' },
-                    { value: 'CNS_encephalitis', label: 'Encefalitis' },
-                    { value: 'CNS_brain_abscess', label: 'Absceso cerebral' },
-                    { value: 'CNS_subdural_empyema', label: 'Empiema subdural' },
-                    { value: 'CNS_epidural_abscess', label: 'Absceso epidural' },
-                    { value: 'CNS_shunt_infection', label: 'Infección de derivación' },
-                ]
-            },
-            'Respiratory': {
-                label: 'Respiratorio',
-                options: [
-                    { value: 'RESP_pneumonia', label: 'Neumonía adquirida en la comunidad' },
-                    { value: 'RESP_hospital_pneumonia', label: 'Neumonía nosocomial' },
-                    { value: 'RESP_VAP', label: 'Neumonía asociada a ventilador' },
-                    { value: 'RESP_empyema', label: 'Empiema pleural' },
-                    { value: 'RESP_lung_abscess', label: 'Absceso pulmonar' },
-                    { value: 'RESP_bronchiectasis', label: 'Bronquiectasias infectadas' },
-                ]
-            },
-            'Cardiovascular': {
-                label: 'Cardiovascular',
-                options: [
-                    { value: 'CV_endocarditis', label: 'Endocarditis' },
-                    { value: 'CV_pericarditis', label: 'Pericarditis' },
-                    { value: 'CV_myocarditis', label: 'Miocarditis' },
-                    { value: 'CV_vascular_graft', label: 'Infección de injerto vascular' },
-                    { value: 'CV_CLABSI', label: 'Bacteriemia asociada a catéter' },
-                ]
-            },
-            'Urogenital': {
-                label: 'Urogenital',
-                options: [
-                    { value: 'UTI_cystitis', label: 'Cistitis' },
-                    { value: 'UTI_pyelonephritis', label: 'Pielonefritis' },
-                    { value: 'UTI_prostatitis', label: 'Prostatitis' },
-                    { value: 'UTI_epididymitis', label: 'Epididimitis' },
-                    { value: 'UTI_catheter', label: 'ITU asociada a catéter' },
-                ]
-            },
-            'Gastrointestinal': {
-                label: 'Gastrointestinal',
-                options: [
-                    { value: 'GI_gastroenteritis', label: 'Gastroenteritis' },
-                    { value: 'GI_cholangitis', label: 'Colangitis' },
-                    { value: 'GI_peritonitis', label: 'Peritonitis' },
-                    { value: 'GI_liver_abscess', label: 'Absceso hepático' },
-                    { value: 'GI_intra_abdominal', label: 'Infección intraabdominal' },
-                ]
-            },
-            'Skin': {
-                label: 'Piel y Tejidos Blandos',
-                options: [
-                    { value: 'SKIN_cellulitis', label: 'Celulitis' },
-                    { value: 'SKIN_abscess', label: 'Absceso cutáneo' },
-                    { value: 'SKIN_necrotizing', label: 'Fascitis necrotizante' },
-                    { value: 'SKIN_wound', label: 'Infección de herida' },
-                    { value: 'SKIN_diabetic_foot', label: 'Pie diabético' },
-                ]
-            },
-            'Bone': {
-                label: 'Hueso y Articulaciones',
-                options: [
-                    { value: 'BONE_osteomyelitis', label: 'Osteomielitis' },
-                    { value: 'BONE_septic_arthritis', label: 'Artritis séptica' },
-                    { value: 'BONE_prosthetic', label: 'Infección de prótesis' },
-                    { value: 'BONE_diabetic_foot', label: 'Osteomielitis de pie diabético' },
-                ]
-            },
-            'Bloodstream': {
-                label: 'Torrente Sanguíneo',
-                options: [
-                    { value: 'BSI_primary', label: 'Bacteriemia primaria' },
-                    { value: 'BSI_secondary', label: 'Bacteriemia secundaria' },
-                    { value: 'BSI_catheter', label: 'Bacteriemia relacionada con catéter' },
-                ]
-            }
-        };
-        
-        for (const category of Object.values(syndromeCategories)) {
+        // Use the shared syndrome categories to avoid duplication
+        for (const category of Object.values(SYNDROME_CATEGORIES)) {
             const option = category.options.find(opt => opt.value === locationValue);
             if (option) {
                 return option.label;
@@ -1557,7 +1481,56 @@ const RecommendationStep = ({ data, calculations, recommendation, alternatives, 
         const bacteriumName = bacterium ? (bacterium.identity?.bacteriumName || bacterium.name) : 'No especificado';
         const infectionName = getInfectionName(data.location);
         
-        const textToCopy = `** RESUMEN DE CASO CLÍNICO **\n---------------------------------\nPACIENTE: ${data.age||'N/A'} años, Sexo: ${data.gender === 'Female' ? 'Femenino' : 'Masculino'}, ${data.weight||'N/A'} kg, ${data.height||'N/A'} cm.\nCÁLCULOS:\n  - TFG: ${calculations.tfg?`${calculations.tfg.value} mL/min/1.73m² (${calculations.tfg.formula})`:'N/A'}\n  - IMC: ${calculations.bmi||'N/A'} (${calculations.obesityClass||'N/A'})\n  - Child-Pugh: ${data.hasHepaticDisease&&calculations.childPugh?`${calculations.childPugh.score} (Clase ${calculations.childPugh.class})`:'No aplica'}\n---------------------------------\nINFECCIÓN:\n  - Localización: ${infectionName}\n  - Microorganismo: ${bacteriumName}\n---------------------------------\nRESULTADOS:\n  - Alergias: ${data.hypersensitivities.length>0?data.hypersensitivities.join(', '):'Ninguna'}.\n  - TRATAMIENTO RECOMENDADO: ${recommendation.antibiotic||'Ninguno adecuado'} (${recommendation.tier||'N/A'})\n  - Alternativas viables: ${alternatives.length > 0 ? alternatives.join(', ') : 'Ninguna'}\n---------------------------------`;
+        // Build enhanced clinical summary
+        let clinicalFactors = [];
+        
+        // Renal information
+        if (data.rrt && data.rrt !== 'None') {
+            clinicalFactors.push(`TRR: ${data.rrt}`);
+        }
+        
+        // Hepatic disease
+        if (data.hasHepaticDisease) {
+            const childPughInfo = calculations.childPugh ? `Child-Pugh ${calculations.childPugh.score} (Clase ${calculations.childPugh.class})` : 'Datos incompletos';
+            clinicalFactors.push(`Enf. Hepática: ${childPughInfo}`);
+        }
+        
+        // Pregnancy status
+        if (data.isPregnantOrFertile) {
+            clinicalFactors.push('Embarazo/Fertilidad: Sí');
+        }
+        
+        // Severity factors
+        if (data.showSeverityAssessment) {
+            let severityFactors = [];
+            if (data.isICU) severityFactors.push('UCI');
+            if (data.isImmunocompromised) severityFactors.push('Inmunocomprometido');
+            if (data.priorAntibiotics) severityFactors.push('ATB previos');
+            if (data.hasOrganDysfunction) severityFactors.push('Disfunción orgánica');
+            if (data.hasSepsis) severityFactors.push('Sepsis');
+            if (data.hemodynamicStatus) severityFactors.push(`Estado hemodinámico: ${data.hemodynamicStatus}`);
+            if (data.respiratoryStatus) severityFactors.push(`Estado respiratorio: ${data.respiratoryStatus}`);
+            
+            if (severityFactors.length > 0) {
+                clinicalFactors.push(`Severidad: ${severityFactors.join(', ')}`);
+            }
+        }
+        
+        // Epidemiological data
+        if (data.showEpidemiologyData) {
+            let epidemFactors = [];
+            if (data.localESBLRate) epidemFactors.push(`ESBL local: ${data.localESBLRate}%`);
+            if (data.localCarbapenemResistance) epidemFactors.push(`Carbapenem resist. local: ${data.localCarbapenemResistance}%`);
+            if (data.institutionType) epidemFactors.push(`Institución: ${data.institutionType}`);
+            
+            if (epidemFactors.length > 0) {
+                clinicalFactors.push(`Epidemiología: ${epidemFactors.join(', ')}`);
+            }
+        }
+        
+        const clinicalSection = clinicalFactors.length > 0 ? `\nFACTORES CLÍNICOS:\n  - ${clinicalFactors.join('\n  - ')}\n` : '\n';
+        
+        const textToCopy = `** RESUMEN DE CASO CLÍNICO **\n---------------------------------\nPACIENTE: ${data.age||'N/A'} años, Sexo: ${data.gender === 'Female' ? 'Femenino' : 'Masculino'}, ${data.weight||'N/A'} kg, ${data.height||'N/A'} cm.\nCÁLCULOS:\n  - TFG: ${calculations.tfg?`${calculations.tfg.value} mL/min/1.73m² (${calculations.tfg.formula})`:'N/A'}\n  - IMC: ${calculations.bmi||'N/A'} (${calculations.obesityClass||'N/A'})${clinicalSection}---------------------------------\nINFECCIÓN:\n  - Localización: ${infectionName}\n  - Microorganismo: ${bacteriumName}\n---------------------------------\nRESULTADOS:\n  - Alergias: ${data.hypersensitivities.length>0?data.hypersensitivities.join(', '):'Ninguna'}.\n  - TRATAMIENTO RECOMENDADO: ${recommendation.antibiotic||'Ninguno adecuado'} (${recommendation.tier||'N/A'})\n  - Alternativas viables: ${alternatives.length > 0 ? alternatives.join(', ') : 'Ninguna'}\n---------------------------------`;
         const textArea = document.createElement("textarea");
         textArea.value = textToCopy;
         textArea.style.position = 'fixed'; textArea.style.left = '-9999px';
@@ -1591,7 +1564,40 @@ const RecommendationStep = ({ data, calculations, recommendation, alternatives, 
                 <h4 className="font-bold text-blue-800">Resumen del Caso Completo</h4>
                 <p><strong>Paciente:</strong> {data.age || 'N/A'} años, Sexo: {data.gender === 'Female' ? 'Femenino' : 'Masculino'}, {data.weight || 'N/A'} kg, {data.height || 'N/A'} cm.</p>
                 <p><strong>Valores Calculados:</strong> TFG: {calculations.tfg ? `${calculations.tfg.value} mL/min/1.73m²` : 'N/A'} ({calculations.tfg ? calculations.tfg.formula : 'N/A'}), IMC: {calculations.bmi || 'N/A'} ({calculations.obesityClass || 'N/A'}).</p>
+                
+                {/* Renal Replacement Therapy */}
+                {data.rrt && data.rrt !== 'None' && <p><strong>Terapia de Reemplazo Renal:</strong> {data.rrt}</p>}
+                
+                {/* Hepatic Disease */}
                 {data.hasHepaticDisease && <p><strong>Enf. Hepática:</strong> Child-Pugh {calculations.childPugh ? `${calculations.childPugh.score} (Clase ${calculations.childPugh.class})` : 'Datos incompletos'}</p>}
+                
+                {/* Pregnancy/Fertility */}
+                {data.isPregnantOrFertile && <p><strong>Embarazo/Fertilidad:</strong> Consideraciones especiales requeridas</p>}
+                
+                {/* Severity Assessment */}
+                {data.showSeverityAssessment && (() => {
+                    let severityFactors = [];
+                    if (data.isICU) severityFactors.push('UCI');
+                    if (data.isImmunocompromised) severityFactors.push('Inmunocomprometido');
+                    if (data.priorAntibiotics) severityFactors.push('ATB previos');
+                    if (data.hasOrganDysfunction) severityFactors.push('Disfunción orgánica');
+                    if (data.hasSepsis) severityFactors.push('Sepsis');
+                    if (data.hemodynamicStatus) severityFactors.push(`Est. hemodinámico: ${data.hemodynamicStatus}`);
+                    if (data.respiratoryStatus) severityFactors.push(`Est. respiratorio: ${data.respiratoryStatus}`);
+                    
+                    return severityFactors.length > 0 ? <p><strong>Factores de Severidad:</strong> {severityFactors.join(', ')}</p> : null;
+                })()}
+                
+                {/* Epidemiological Data */}
+                {data.showEpidemiologyData && (() => {
+                    let epidemFactors = [];
+                    if (data.localESBLRate) epidemFactors.push(`ESBL local: ${data.localESBLRate}%`);
+                    if (data.localCarbapenemResistance) epidemFactors.push(`Carbapenem resistencia local: ${data.localCarbapenemResistance}%`);
+                    if (data.institutionType) epidemFactors.push(`Institución: ${data.institutionType}`);
+                    
+                    return epidemFactors.length > 0 ? <p><strong>Datos Epidemiológicos:</strong> {epidemFactors.join(', ')}</p> : null;
+                })()}
+                
                 <p><strong>Infección:</strong> {getInfectionName(data.location)}.</p>
                 <p><strong>Microorganismo:</strong> {data.bacteriumId ? (getBacteriaDatabase()[data.bacteriumId].identity?.bacteriumName || getBacteriaDatabase()[data.bacteriumId].name) : 'No especificado'}.</p>
                 <p><strong>Alergias:</strong> {data.hypersensitivities.length > 0 ? data.hypersensitivities.join(', ') : 'Ninguna reportada'}.</p>
@@ -1860,7 +1866,17 @@ const AntibiogramApp = ({ onBackToLanding }) => {
     const nextStep = () => setCurrentStep(prev => Math.min(prev + 1, totalSteps));
     const prevStep = () => setCurrentStep(prev => Math.max(prev - 1, 1));
     const resetForm = () => { setFormData({age: '', weight: '', height: '', creatinine: '', gender: 'Female', useCystatinC: false, cystatinC: '', isPregnantOrFertile: false, hasHepaticDisease: false, bilirubin: '', albumin: '', inr: '1', ascites: '1', encephalopathy: '1', location: '', rrt: 'None', bacteriumId: '', susceptibilityResults: {}, micValues: {}, hypersensitivities: [], showSeverityAssessment: false, isICU: false, isImmunocompromised: false, priorAntibiotics: false, hasOrganDysfunction: false, hasSepsis: false, hemodynamicStatus: '', respiratoryStatus: '', showEpidemiologyData: false, localESBLRate: '', localCarbapenemResistance: '', institutionType: ''}); setCurrentStep(1); };
-    const handleInputChange = (e) => { const { name, value, type, checked } = e.target; if (name === 'susceptibilityResults' || name === 'micValues' || name === 'bacteriumId') {setFormData(prev => ({ ...prev, [name]: value }));} else if (name === 'hypersensitivities') {setFormData(prev => ({ ...prev, hypersensitivities: checked ? [...prev.hypersensitivities, value] : prev.hypersensitivities.filter(item => item !== value) }));} else {const newValue = type === 'checkbox' ? checked : value; setFormData(prev => ({ ...prev, [name]: newValue }));}};
+    const handleInputChange = (e) => { 
+        const { name, value, type, checked } = e.target; 
+        if (name === 'susceptibilityResults' || name === 'micValues' || name === 'bacteriumId') {
+            setFormData(prev => ({ ...prev, [name]: value }));
+        } else if (name === 'hypersensitivities') {
+            setFormData(prev => ({ ...prev, hypersensitivities: checked ? [...prev.hypersensitivities, value] : prev.hypersensitivities.filter(item => item !== value) }));
+        } else {
+            const newValue = type === 'checkbox' ? checked : value; 
+            setFormData(prev => ({ ...prev, [name]: newValue }));
+        }
+    };
 
     // WHO BMI z-score calculation functions
     const calculateWHOBMIZScore = (bmi, ageMonths, gender) => {
