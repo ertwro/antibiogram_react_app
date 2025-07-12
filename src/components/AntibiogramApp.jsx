@@ -1309,112 +1309,128 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                         </div>
                         
                         {/* Tier Content */}
-                        <div className="p-6">
+                        <div className="p-4 sm:p-6">
                             {isUnlocked ? (
-                                <div className="overflow-x-auto -mx-6 px-6 sm:mx-0 sm:px-0" style={{ 
-                                    WebkitOverflowScrolling: 'touch',
-                                    scrollbarWidth: 'thin'
-                                }}>
-                                    <table className="w-full min-w-full" style={{ minWidth: '600px' }}>
-                                        <thead className="bg-gray-50">
-                                            <tr>
-                                                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider min-w-0">
-                                                    <div className="truncate">Antibiótico</div>
-                                                </th>
-                                                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider min-w-0">
-                                                    <div className="truncate">Resultado (MIC o S/I/R)</div>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody className="bg-white divide-y divide-gray-200">
-                                            {tier.agents.map((agent, agentIdx) => {
-                                                const antibioticName = agent.agentName;
-                                                const interpretation = data.susceptibilityResults?.[antibioticName];
-                                                const micValue = data.micValues?.[antibioticName];
-                                                
-                                                return (
-                                                    <tr key={agentIdx} className="hover:bg-gray-50">
-                                                        <td className="px-2 sm:px-4 py-3">
-                                                            <div>
-                                                                <div className="text-sm font-medium text-gray-900">
-                                                                    {antibioticName}
+                                <div className="space-y-4">
+                                    {tier.agents.map((agent, agentIdx) => {
+                                        const antibioticName = agent.agentName;
+                                        const interpretation = data.susceptibilityResults?.[antibioticName];
+                                        const micValue = data.micValues?.[antibioticName];
+                                        
+                                        return (
+                                            <div key={agentIdx} className="bg-white border border-gray-200 rounded-lg p-4 hover:border-gray-300 transition-colors">
+                                                {/* Antibiotic Header */}
+                                                <div className="flex flex-col space-y-3">
+                                                    <div className="flex items-start justify-between">
+                                                        <div className="flex-1">
+                                                            <h5 className="text-lg font-semibold text-gray-900 mb-1">
+                                                                {antibioticName}
+                                                            </h5>
+                                                            
+                                                            {/* CLSI condition */}
+                                                            {agent.breakpointSets?.[0]?.condition && agent.breakpointSets[0].condition !== 'Standard' && (
+                                                                <div className="text-sm text-orange-600 mb-1 flex items-center">
+                                                                    <span className="mr-1">📋</span>
+                                                                    {agent.breakpointSets[0].condition}
                                                                 </div>
-                                                                {/* CLSI condition (UTI only, etc.) */}
-                                                                {agent.breakpointSets?.[0]?.condition && agent.breakpointSets[0].condition !== 'Standard' && (
-                                                                    <div className="text-xs text-orange-600 mt-1">
-                                                                        {agent.breakpointSets[0].condition}
+                                                            )}
+                                                            
+                                                            {/* Clinical Significance */}
+                                                            {(() => {
+                                                                const clinicalSig = getClinicalSignificance(agent);
+                                                                return clinicalSig && (clinicalSig.comments.length > 0 || clinicalSig.condition) && (
+                                                                    <div className="text-sm text-blue-700 space-y-1 mb-2">
+                                                                        {clinicalSig.condition && (
+                                                                            <div className="text-orange-600 flex items-center">
+                                                                                <span className="mr-1">📋</span>
+                                                                                {clinicalSig.condition}
+                                                                            </div>
+                                                                        )}
+                                                                        {clinicalSig.comments.map((comment, idx) => (
+                                                                            <div key={idx} className="text-blue-600 flex items-center">
+                                                                                <span className="mr-1">💡</span>
+                                                                                {comment}
+                                                                            </div>
+                                                                        ))}
                                                                     </div>
-                                                                )}
-                                                                {/* Clinical Significance */}
-                                                                {(() => {
-                                                                    const clinicalSig = getClinicalSignificance(agent);
-                                                                    return clinicalSig && (clinicalSig.comments.length > 0 || clinicalSig.condition) && (
-                                                                        <div className="text-xs text-blue-700 mt-1 space-y-1">
-                                                                            {clinicalSig.condition && (
-                                                                                <div className="text-orange-600">
-                                                                                    📋 {clinicalSig.condition}
-                                                                                </div>
-                                                                            )}
-                                                                            {clinicalSig.comments.map((comment, idx) => (
-                                                                                <div key={idx} className="text-blue-600">
-                                                                                    💡 {comment}
-                                                                                </div>
-                                                                            ))}
+                                                                );
+                                                            })()}
+                                                            
+                                                            {/* Intrinsic Resistance Indicator */}
+                                                            {(() => {
+                                                                const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
+                                                                const isIntrinsicallyResistant = intrinsicResistance.some(resistance => {
+                                                                    const drugName = resistance.drugOrClass || resistance;
+                                                                    if (typeof drugName !== 'string') return false;
+                                                                    return drugName.toLowerCase().includes(antibioticName.toLowerCase()) ||
+                                                                           antibioticName.toLowerCase().includes(drugName.toLowerCase().replace(/[^a-z]/g, ''));
+                                                                });
+                                                                
+                                                                if (isIntrinsicallyResistant) {
+                                                                    return (
+                                                                        <div className="text-sm text-red-600 bg-red-50 p-2 rounded border border-red-200 flex items-center">
+                                                                            <span className="mr-2">🔒</span>
+                                                                            <span className="font-medium">Resistencia intrínseca - No reportar</span>
                                                                         </div>
                                                                     );
-                                                                })()}
-                                                                {/* Intrinsic Resistance Indicator */}
-                                                                {(() => {
-                                                                    const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
-                                                                    const isIntrinsicallyResistant = intrinsicResistance.some(resistance => {
-                                                                        const drugName = resistance.drugOrClass || resistance;
-                                                                        if (typeof drugName !== 'string') return false;
-                                                                        return drugName.toLowerCase().includes(antibioticName.toLowerCase()) ||
-                                                                               antibioticName.toLowerCase().includes(drugName.toLowerCase().replace(/[^a-z]/g, ''));
-                                                                    });
-                                                                    
-                                                                    if (isIntrinsicallyResistant) {
-                                                                        return (
-                                                                            <div className="text-xs text-red-600 mt-1 bg-red-50 p-1 rounded">
-                                                                                🔒 Resistencia intrínseca - No reportar
-                                                                            </div>
-                                                                        );
-                                                                    }
-                                                                })()}
-                                                                {/* PK/PD indicator */}
-                                                                {interpretation === 'S' && micValue && (
-                                                                    <div className="text-xs text-blue-600 mt-1">
-                                                                        🎯 PK/PD optimizable
-                                                                    </div>
-                                                                )}
+                                                                }
+                                                            })()}
+                                                            
+                                                            {/* PK/PD indicator */}
+                                                            {interpretation === 'S' && micValue && (
+                                                                <div className="text-sm text-blue-600 bg-blue-50 p-2 rounded border border-blue-200 flex items-center">
+                                                                    <span className="mr-2">🎯</span>
+                                                                    <span className="font-medium">PK/PD optimizable</span>
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                        
+                                                        {/* Current Result Status Indicator */}
+                                                        {interpretation && (
+                                                            <div className={`px-3 py-2 rounded-full text-sm font-bold border-2 ${
+                                                                interpretation === 'S' ? 'bg-green-100 text-green-800 border-green-300'
+                                                                : interpretation === 'SDD' ? 'bg-blue-100 text-blue-800 border-blue-300'
+                                                                : interpretation === 'I' ? 'bg-yellow-100 text-yellow-800 border-yellow-300'
+                                                                : 'bg-red-100 text-red-800 border-red-300'
+                                                            }`}>
+                                                                {interpretation}
                                                             </div>
-                                                        </td>
-                                                        <td className="px-2 sm:px-4 py-3">
-                                                            <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-2">
-                                                                {/* MIC Input with smart placeholder */}
+                                                        )}
+                                                    </div>
+                                                    
+                                                    {/* Input Section */}
+                                                    <div className="bg-gray-50 p-4 rounded-lg">
+                                                        <div className="flex flex-col space-y-3">
+                                                            <div>
+                                                                <label className="block text-sm font-medium text-gray-700 mb-2">
+                                                                    Valor MIC (μg/mL)
+                                                                </label>
                                                                 <input
                                                                     type="text"
                                                                     placeholder={
                                                                         micValue 
-                                                                            ? "MIC" 
+                                                                            ? "Ingrese valor MIC" 
                                                                             : interpretation 
-                                                                                ? getMICRangeForInterpretation(agent, interpretation) || "MIC"
-                                                                                : "MIC"
+                                                                                ? `Rango típico: ${getMICRangeForInterpretation(agent, interpretation) || "Ver CLSI"}`
+                                                                                : "Ej: ≤0.25, 4, >16"
                                                                     }
                                                                     value={micValue || ''}
                                                                     onChange={(e) => handleMICChange(antibioticName, e.target.value)}
-                                                                    className={`w-20 sm:w-24 px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-indigo-500 ${
-                                                                        !micValue && interpretation 
-                                                                            ? 'placeholder-gray-400 italic' 
-                                                                            : ''
-                                                                    }`}
+                                                                    className="w-full px-3 py-2 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                                                                 />
-                                                                
-                                                                {/* OR separator */}
-                                                                <span className="text-xs text-gray-400">or</span>
-                                                                
-                                                                {/* Quick buttons */}
-                                                                <div className="flex flex-wrap gap-1">
+                                                            </div>
+                                                            
+                                                            <div className="flex items-center justify-center">
+                                                                <span className="text-sm text-gray-500 bg-white px-3 py-1 rounded-full border">
+                                                                    o seleccione interpretación directa
+                                                                </span>
+                                                            </div>
+                                                            
+                                                            <div>
+                                                                <label className="block text-sm font-medium text-gray-700 mb-2">
+                                                                    Interpretación Rápida
+                                                                </label>
+                                                                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                                                                     {['S', 'SDD', 'I', 'R'].map((interp) => {
                                                                         const intrinsicResistance = resistanceInfo.intrinsicResistance || [];
                                                                         const isIntrinsicallyResistant = intrinsicResistance.some(resistance => {
@@ -1424,7 +1440,6 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                                                                    antibioticName.toLowerCase().includes(drugName.toLowerCase().replace(/[^a-z]/g, ''));
                                                                         });
                                                                         
-                                                                        // Disable S/SDD/I buttons for intrinsically resistant antibiotics
                                                                         const isDisabled = isIntrinsicallyResistant && (interp === 'S' || interp === 'SDD' || interp === 'I');
                                                                         
                                                                         return (
@@ -1432,30 +1447,38 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                                                                                 key={interp}
                                                                                 onClick={() => !isDisabled && handleQuickInterpretation(antibioticName, interp)}
                                                                                 disabled={isDisabled}
-                                                                                className={`px-2 py-1 text-xs rounded transition-colors ${
+                                                                                className={`px-4 py-3 text-base font-semibold rounded-md transition-all duration-200 ${
                                                                                     isDisabled 
-                                                                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed border border-gray-300'
+                                                                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed border-2 border-gray-300'
                                                                                         : interpretation === interp
-                                                                                            ? interp === 'S' ? 'bg-green-600 text-white border border-green-600'
-                                                                                              : interp === 'SDD' ? 'bg-blue-600 text-white border border-blue-600'
-                                                                                              : interp === 'I' ? 'bg-yellow-500 text-white border border-yellow-500'
-                                                                                              : 'bg-red-600 text-white border border-red-600'
-                                                                                            : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-300'
+                                                                                            ? interp === 'S' ? 'bg-green-600 text-white border-2 border-green-600 shadow-lg'
+                                                                                              : interp === 'SDD' ? 'bg-blue-600 text-white border-2 border-blue-600 shadow-lg'
+                                                                                              : interp === 'I' ? 'bg-yellow-500 text-white border-2 border-yellow-500 shadow-lg'
+                                                                                              : 'bg-red-600 text-white border-2 border-red-600 shadow-lg'
+                                                                                            : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-300 hover:border-gray-400'
                                                                                 }`}
-                                                                                title={isDisabled ? 'Resistencia intrínseca - No seleccionar' : ''}
+                                                                                title={isDisabled ? 'Resistencia intrínseca - No seleccionar' : `Marcar como ${interp}`}
                                                                             >
-                                                                                {interp}
+                                                                                <div className="text-center">
+                                                                                    <div className="font-bold">{interp}</div>
+                                                                                    <div className="text-xs mt-1">
+                                                                                        {interp === 'S' && 'Sensible'}
+                                                                                        {interp === 'SDD' && 'Dosis Dependiente'}
+                                                                                        {interp === 'I' && 'Intermedio'}
+                                                                                        {interp === 'R' && 'Resistente'}
+                                                                                    </div>
+                                                                                </div>
                                                                             </button>
                                                                         );
                                                                     })}
                                                                 </div>
                                                             </div>
-                                                        </td>
-                                                    </tr>
-                                                );
-                                            })}
-                                        </tbody>
-                                    </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
                                 </div>
                             ) : (
                                 <div className="text-center py-8">
