@@ -125,7 +125,7 @@ function generateIndexFile() {
         
         return `  '${id}': {
     id: '${id}',
-    filePath: '/antibiogram_react_app/syndromes_json/${file.replace(/\\/g, '/')}',
+    filePath: './syndromes_json/${file.replace(/\\/g, '/')}',
     category: '${category}',
     subcategory: ${subcategory ? `'${subcategory}'` : 'null'},
     filename: '${filename}',
@@ -188,15 +188,28 @@ export async function searchSyndromes(searchTerm) {
   );
 }
 
+// Dynamically resolve the correct base path
+function resolveBasePath() {
+  // Check if we're on GitHub Pages
+  if (window.location.hostname === 'ertwro.github.io' && window.location.pathname.startsWith('/antibiogram_react_app')) {
+    return '/antibiogram_react_app';
+  }
+  // Otherwise use relative paths
+  return '.';
+}
+
 // Load all syndromes data asynchronously
 async function loadAllSyndromes() {
   if (isLoading) return;
   isLoading = true;
   
   try {
+    const basePath = resolveBasePath();
     const loadPromises = Object.entries(syndromeFilePaths).map(async ([id, syndromeInfo]) => {
       try {
-        const response = await fetch(syndromeInfo.filePath);
+        // Resolve the full path based on current context
+        const fullPath = syndromeInfo.filePath.replace('./', \`\${basePath}/\`);
+        const response = await fetch(fullPath);
         if (response.ok) {
           const data = await response.json();
           return {
@@ -206,7 +219,7 @@ async function loadAllSyndromes() {
             loaded: true
           };
         } else {
-          console.warn(\`Failed to load syndrome: \${syndromeInfo.filePath}\`);
+          console.warn(\`Failed to load syndrome: \${fullPath}\`);
           return {
             id,
             ...syndromeInfo,

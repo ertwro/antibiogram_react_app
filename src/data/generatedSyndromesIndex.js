@@ -5,7 +5,7 @@
 const syndromeFilePaths = {
   'CNS_brain_abscess_brain_abscess_bacterial': {
     id: 'CNS_brain_abscess_brain_abscess_bacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/brain_abscess/brain_abscess_bacterial.json',
+    filePath: './syndromes_json/CNS/brain_abscess/brain_abscess_bacterial.json',
     category: 'CNS',
     subcategory: 'brain_abscess',
     filename: 'brain_abscess_bacterial',
@@ -15,7 +15,7 @@ const syndromeFilePaths = {
   },
   'CNS_brain_abscess_brain_abscess_nocardia': {
     id: 'CNS_brain_abscess_brain_abscess_nocardia',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/brain_abscess/brain_abscess_nocardia.json',
+    filePath: './syndromes_json/CNS/brain_abscess/brain_abscess_nocardia.json',
     category: 'CNS',
     subcategory: 'brain_abscess',
     filename: 'brain_abscess_nocardia',
@@ -25,7 +25,7 @@ const syndromeFilePaths = {
   },
   'CNS_brain_abscess_brain_abscess_post_traumatic_or_post_surgical': {
     id: 'CNS_brain_abscess_brain_abscess_post_traumatic_or_post_surgical',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/brain_abscess/brain_abscess_post-traumatic_or_post-surgical.json',
+    filePath: './syndromes_json/CNS/brain_abscess/brain_abscess_post-traumatic_or_post-surgical.json',
     category: 'CNS',
     subcategory: 'brain_abscess',
     filename: 'brain_abscess_post-traumatic_or_post-surgical',
@@ -35,7 +35,7 @@ const syndromeFilePaths = {
   },
   'CNS_brain_abscess_toxoplasmosis_hiv_aids': {
     id: 'CNS_brain_abscess_toxoplasmosis_hiv_aids',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/brain_abscess/toxoplasmosis_hiv_aids.json',
+    filePath: './syndromes_json/CNS/brain_abscess/toxoplasmosis_hiv_aids.json',
     category: 'CNS',
     subcategory: 'brain_abscess',
     filename: 'toxoplasmosis_hiv_aids',
@@ -45,7 +45,7 @@ const syndromeFilePaths = {
   },
   'CNS_encephalitis_encephalopathy': {
     id: 'CNS_encephalitis_encephalopathy',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/encephalitis_encephalopathy.json',
+    filePath: './syndromes_json/CNS/encephalitis_encephalopathy.json',
     category: 'CNS',
     subcategory: null,
     filename: 'encephalitis_encephalopathy',
@@ -55,7 +55,7 @@ const syndromeFilePaths = {
   },
   'CNS_lyme_lyme_disease_facial_nerve_paralysis': {
     id: 'CNS_lyme_lyme_disease_facial_nerve_paralysis',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/lyme/lyme_disease_facial_nerve_paralysis.json',
+    filePath: './syndromes_json/CNS/lyme/lyme_disease_facial_nerve_paralysis.json',
     category: 'CNS',
     subcategory: 'lyme',
     filename: 'lyme_disease_facial_nerve_paralysis',
@@ -65,7 +65,7 @@ const syndromeFilePaths = {
   },
   'CNS_lyme_lyme_disease_meningitis_encephalitis': {
     id: 'CNS_lyme_lyme_disease_meningitis_encephalitis',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/lyme/lyme_disease_meningitis_encephalitis.json',
+    filePath: './syndromes_json/CNS/lyme/lyme_disease_meningitis_encephalitis.json',
     category: 'CNS',
     subcategory: 'lyme',
     filename: 'lyme_disease_meningitis_encephalitis',
@@ -75,7 +75,7 @@ const syndromeFilePaths = {
   },
   'CNS_lyme_lyme_disease_post_lyme_syndrome_ptlds': {
     id: 'CNS_lyme_lyme_disease_post_lyme_syndrome_ptlds',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/lyme/lyme_disease_post-lyme_syndrome_ptlds.json',
+    filePath: './syndromes_json/CNS/lyme/lyme_disease_post-lyme_syndrome_ptlds.json',
     category: 'CNS',
     subcategory: 'lyme',
     filename: 'lyme_disease_post-lyme_syndrome_ptlds',
@@ -85,7 +85,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_age_1_mo_to_50_years': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_age_1_mo_to_50_years',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_age_1_mo_to_50_years.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_age_1_mo_to_50_years.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_age_1_mo_to_50_years',
@@ -95,7 +95,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_age_gt_50_years': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_age_gt_50_years',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_age_gt_50_years.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_age_gt_50_years.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_age_gt_50_years',
@@ -105,7 +105,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_bacterial_positive_gram_stain': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_bacterial_positive_gram_stain',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_bacterial_positive_gram_stain.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_bacterial_positive_gram_stain.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_bacterial_positive_gram_stain',
@@ -115,7 +115,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_bacterial_preterm_to_age_1_month': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_bacterial_preterm_to_age_1_month',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_bacterial_preterm_to_age_1_month.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_bacterial_preterm_to_age_1_month.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_bacterial_preterm_to_age_1_month',
@@ -125,7 +125,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_catheter_shunt_related': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_catheter_shunt_related',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_catheter_shunt_related.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_catheter_shunt_related.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_catheter_shunt_related',
@@ -135,7 +135,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_chemoprophylaxis': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_chemoprophylaxis',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_chemoprophylaxis.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_chemoprophylaxis.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_chemoprophylaxis',
@@ -145,7 +145,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_post_trauma_or_post_neurosurgery': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_post_trauma_or_post_neurosurgery',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_post-trauma_or_post-neurosurgery.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_post-trauma_or_post-neurosurgery.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_post-trauma_or_post-neurosurgery',
@@ -155,7 +155,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_empiric_therapy_meningitis_post_basilar_skull_fracture': {
     id: 'CNS_meningitis_empiric_therapy_meningitis_post_basilar_skull_fracture',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/empiric_therapy/meningitis_post_basilar_skull_fracture.json',
+    filePath: './syndromes_json/CNS/meningitis/empiric_therapy/meningitis_post_basilar_skull_fracture.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_post_basilar_skull_fracture',
@@ -165,7 +165,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_meningitis_overview': {
     id: 'CNS_meningitis_meningitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/meningitis_overview.json',
+    filePath: './syndromes_json/CNS/meningitis/meningitis_overview.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_overview',
@@ -175,7 +175,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_specific_therapy_lyme_disease_meningitis_encephalitis': {
     id: 'CNS_meningitis_specific_therapy_lyme_disease_meningitis_encephalitis',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/specific_therapy/lyme_disease_meningitis_encephalitis.json',
+    filePath: './syndromes_json/CNS/meningitis/specific_therapy/lyme_disease_meningitis_encephalitis.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'lyme_disease_meningitis_encephalitis',
@@ -185,7 +185,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_specific_therapy_meningitis_gram_negative_bacilli': {
     id: 'CNS_meningitis_specific_therapy_meningitis_gram_negative_bacilli',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/specific_therapy/meningitis_gram-negative_bacilli.json',
+    filePath: './syndromes_json/CNS/meningitis/specific_therapy/meningitis_gram-negative_bacilli.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_gram-negative_bacilli',
@@ -195,7 +195,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_specific_therapy_meningitis_haemophilus_influenzae': {
     id: 'CNS_meningitis_specific_therapy_meningitis_haemophilus_influenzae',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/specific_therapy/meningitis_haemophilus_influenzae.json',
+    filePath: './syndromes_json/CNS/meningitis/specific_therapy/meningitis_haemophilus_influenzae.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_haemophilus_influenzae',
@@ -205,7 +205,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_specific_therapy_meningitis_listeria_monocytogenes': {
     id: 'CNS_meningitis_specific_therapy_meningitis_listeria_monocytogenes',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/specific_therapy/meningitis_listeria_monocytogenes.json',
+    filePath: './syndromes_json/CNS/meningitis/specific_therapy/meningitis_listeria_monocytogenes.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_listeria_monocytogenes',
@@ -215,7 +215,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_specific_therapy_meningitis_neisseria_meningitidis': {
     id: 'CNS_meningitis_specific_therapy_meningitis_neisseria_meningitidis',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/specific_therapy/meningitis_neisseria_meningitidis.json',
+    filePath: './syndromes_json/CNS/meningitis/specific_therapy/meningitis_neisseria_meningitidis.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_neisseria_meningitidis',
@@ -225,7 +225,7 @@ const syndromeFilePaths = {
   },
   'CNS_meningitis_specific_therapy_meningitis_streptococcus_pneumoniae': {
     id: 'CNS_meningitis_specific_therapy_meningitis_streptococcus_pneumoniae',
-    filePath: '/antibiogram_react_app/syndromes_json/CNS/meningitis/specific_therapy/meningitis_streptococcus_pneumoniae.json',
+    filePath: './syndromes_json/CNS/meningitis/specific_therapy/meningitis_streptococcus_pneumoniae.json',
     category: 'CNS',
     subcategory: 'meningitis',
     filename: 'meningitis_streptococcus_pneumoniae',
@@ -235,7 +235,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_erythema_migrans_lyme_disease_early': {
     id: 'Lyme_disease_erythema_migrans_lyme_disease_early',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/erythema_migrans_lyme_disease_early.json',
+    filePath: './syndromes_json/Lyme_disease/erythema_migrans_lyme_disease_early.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'erythema_migrans_lyme_disease_early',
@@ -245,7 +245,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_arthritis': {
     id: 'Lyme_disease_lyme_disease_arthritis',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_arthritis.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_arthritis.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_arthritis',
@@ -255,7 +255,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_carditis': {
     id: 'Lyme_disease_lyme_disease_carditis',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_carditis.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_carditis.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_carditis',
@@ -265,7 +265,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_diagnosis': {
     id: 'Lyme_disease_lyme_disease_diagnosis',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_diagnosis.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_diagnosis.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_diagnosis',
@@ -275,7 +275,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_facial_nerve_paralysis': {
     id: 'Lyme_disease_lyme_disease_facial_nerve_paralysis',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_facial_nerve_paralysis.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_facial_nerve_paralysis.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_facial_nerve_paralysis',
@@ -285,7 +285,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_meningitis_encephalitis': {
     id: 'Lyme_disease_lyme_disease_meningitis_encephalitis',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_meningitis_encephalitis.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_meningitis_encephalitis.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_meningitis_encephalitis',
@@ -295,7 +295,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_overview': {
     id: 'Lyme_disease_lyme_disease_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_overview.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_overview.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_overview',
@@ -305,7 +305,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_post_exposure_prophylaxis': {
     id: 'Lyme_disease_lyme_disease_post_exposure_prophylaxis',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_post-exposure_prophylaxis.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_post-exposure_prophylaxis.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_post-exposure_prophylaxis',
@@ -315,7 +315,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_lyme_disease_post_lyme_syndrome_ptlds': {
     id: 'Lyme_disease_lyme_disease_post_lyme_syndrome_ptlds',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/lyme_disease_post-lyme_syndrome_ptlds.json',
+    filePath: './syndromes_json/Lyme_disease/lyme_disease_post-lyme_syndrome_ptlds.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'lyme_disease_post-lyme_syndrome_ptlds',
@@ -325,7 +325,7 @@ const syndromeFilePaths = {
   },
   'Lyme_disease_tick_borne_illness_overview': {
     id: 'Lyme_disease_tick_borne_illness_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/Lyme_disease/tick-borne_illness_overview.json',
+    filePath: './syndromes_json/Lyme_disease/tick-borne_illness_overview.json',
     category: 'Lyme_disease',
     subcategory: null,
     filename: 'tick-borne_illness_overview',
@@ -335,7 +335,7 @@ const syndromeFilePaths = {
   },
   'Toxin_mediated_botulism': {
     id: 'Toxin_mediated_botulism',
-    filePath: '/antibiogram_react_app/syndromes_json/Toxin_mediated/botulism.json',
+    filePath: './syndromes_json/Toxin_mediated/botulism.json',
     category: 'Toxin_mediated',
     subcategory: null,
     filename: 'botulism',
@@ -345,7 +345,7 @@ const syndromeFilePaths = {
   },
   'Toxin_mediated_corynebacterium_diphtheriae': {
     id: 'Toxin_mediated_corynebacterium_diphtheriae',
-    filePath: '/antibiogram_react_app/syndromes_json/Toxin_mediated/corynebacterium_diphtheriae.json',
+    filePath: './syndromes_json/Toxin_mediated/corynebacterium_diphtheriae.json',
     category: 'Toxin_mediated',
     subcategory: null,
     filename: 'corynebacterium_diphtheriae',
@@ -355,7 +355,7 @@ const syndromeFilePaths = {
   },
   'Toxin_mediated_tetanus_treatment': {
     id: 'Toxin_mediated_tetanus_treatment',
-    filePath: '/antibiogram_react_app/syndromes_json/Toxin_mediated/tetanus_treatment.json',
+    filePath: './syndromes_json/Toxin_mediated/tetanus_treatment.json',
     category: 'Toxin_mediated',
     subcategory: null,
     filename: 'tetanus_treatment',
@@ -365,7 +365,7 @@ const syndromeFilePaths = {
   },
   'Toxin_mediated_toxic_shock_syndrome_staphylococcal': {
     id: 'Toxin_mediated_toxic_shock_syndrome_staphylococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/Toxin_mediated/toxic_shock_syndrome_staphylococcal.json',
+    filePath: './syndromes_json/Toxin_mediated/toxic_shock_syndrome_staphylococcal.json',
     category: 'Toxin_mediated',
     subcategory: null,
     filename: 'toxic_shock_syndrome_staphylococcal',
@@ -375,7 +375,7 @@ const syndromeFilePaths = {
   },
   'Toxin_mediated_toxic_shock_syndrome_streptococcal': {
     id: 'Toxin_mediated_toxic_shock_syndrome_streptococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/Toxin_mediated/toxic_shock_syndrome_streptococcal.json',
+    filePath: './syndromes_json/Toxin_mediated/toxic_shock_syndrome_streptococcal.json',
     category: 'Toxin_mediated',
     subcategory: null,
     filename: 'toxic_shock_syndrome_streptococcal',
@@ -385,7 +385,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_acute_rheumatic_fever_empiric_therapy': {
     id: 'cardiovascular_acute_rheumatic_fever_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/acute_rheumatic_fever_empiric_therapy.json',
+    filePath: './syndromes_json/cardiovascular/acute_rheumatic_fever_empiric_therapy.json',
     category: 'cardiovascular',
     subcategory: null,
     filename: 'acute_rheumatic_fever_empiric_therapy',
@@ -395,7 +395,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_cardiac_implantable_electronic_device_infections': {
     id: 'cardiovascular_cardiac_implantable_electronic_device_infections',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/cardiac_implantable_electronic_device_infections.json',
+    filePath: './syndromes_json/cardiovascular/cardiac_implantable_electronic_device_infections.json',
     category: 'cardiovascular',
     subcategory: null,
     filename: 'cardiac_implantable_electronic_device_infections',
@@ -405,7 +405,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_candida': {
     id: 'cardiovascular_endocarditis_endocarditis_candida',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_candida.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_candida.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_candida',
@@ -415,7 +415,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_cardiac_implantable_electronic_device_cied': {
     id: 'cardiovascular_endocarditis_endocarditis_cardiac_implantable_electronic_device_cied',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_cardiac_implantable_electronic_device_cied.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_cardiac_implantable_electronic_device_cied.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_cardiac_implantable_electronic_device_cied',
@@ -425,7 +425,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_culture_negative': {
     id: 'cardiovascular_endocarditis_endocarditis_culture_negative',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_culture_negative.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_culture_negative.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_culture_negative',
@@ -435,7 +435,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_native_valve_empiric_therapy': {
     id: 'cardiovascular_endocarditis_endocarditis_native_valve_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_native_valve_empiric_therapy.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_native_valve_empiric_therapy.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_native_valve_empiric_therapy',
@@ -445,7 +445,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_overview': {
     id: 'cardiovascular_endocarditis_endocarditis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_overview.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_overview.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_overview',
@@ -455,7 +455,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_prosthetic_valve_empiric_therapy': {
     id: 'cardiovascular_endocarditis_endocarditis_prosthetic_valve_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_prosthetic_valve_empiric_therapy.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_prosthetic_valve_empiric_therapy.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_prosthetic_valve_empiric_therapy',
@@ -465,7 +465,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_endocarditis_transcatheter_valve_replacement': {
     id: 'cardiovascular_endocarditis_endocarditis_transcatheter_valve_replacement',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/endocarditis_transcatheter_valve_replacement.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/endocarditis_transcatheter_valve_replacement.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_transcatheter_valve_replacement',
@@ -475,7 +475,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_bartonella_sp': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_bartonella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_bartonella_sp.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_bartonella_sp.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_bartonella_sp',
@@ -485,7 +485,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_chlamydial': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_chlamydial',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_chlamydial.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_chlamydial.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_chlamydial',
@@ -495,7 +495,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_coagulase_negative_staphylococci': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_coagulase_negative_staphylococci',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_coagulase-negative_staphylococci.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_coagulase-negative_staphylococci.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_coagulase-negative_staphylococci',
@@ -505,7 +505,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_enterococcus_sp': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_enterococcus_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_enterococcus_sp.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_enterococcus_sp.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_enterococcus_sp',
@@ -515,7 +515,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_gonococcal': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_gonococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_gonococcal.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_gonococcal.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_gonococcal',
@@ -525,7 +525,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_gram_negative_bacilli': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_gram_negative_bacilli',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_gram-negative_bacilli.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_gram-negative_bacilli.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_gram-negative_bacilli',
@@ -535,7 +535,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_hacek_habcek': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_hacek_habcek',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_hacek_habcek.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_hacek_habcek.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_hacek_habcek',
@@ -545,7 +545,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_legionella': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_legionella',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_legionella.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_legionella.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_legionella',
@@ -555,7 +555,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_nutritionally_variant_gram_positive_species': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_nutritionally_variant_gram_positive_species',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_nutritionally_variant_gram-positive_species.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_nutritionally_variant_gram-positive_species.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_nutritionally_variant_gram-positive_species',
@@ -565,7 +565,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_q_fever': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_q_fever',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_q_fever.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_q_fever.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_q_fever',
@@ -575,7 +575,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_staph_aureus': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_staph_aureus.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_staph_aureus.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_staph_aureus',
@@ -585,7 +585,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_tropheryma_whipplei': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_tropheryma_whipplei',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_tropheryma_whipplei.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_tropheryma_whipplei.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_tropheryma_whipplei',
@@ -595,7 +595,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_specific_therapy_endocarditis_viridans_group_streptococci': {
     id: 'cardiovascular_endocarditis_specific_therapy_endocarditis_viridans_group_streptococci',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_viridans_group_streptococci.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis/specific_therapy/endocarditis_viridans_group_streptococci.json',
     category: 'cardiovascular',
     subcategory: 'endocarditis',
     filename: 'endocarditis_viridans_group_streptococci',
@@ -605,7 +605,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_endocarditis_prevention_dental_procedures': {
     id: 'cardiovascular_endocarditis_prevention_dental_procedures',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/endocarditis_prevention_dental_procedures.json',
+    filePath: './syndromes_json/cardiovascular/endocarditis_prevention_dental_procedures.json',
     category: 'cardiovascular',
     subcategory: null,
     filename: 'endocarditis_prevention_dental_procedures',
@@ -615,7 +615,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_lyme_disease_carditis': {
     id: 'cardiovascular_lyme_disease_carditis',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/lyme_disease_carditis.json',
+    filePath: './syndromes_json/cardiovascular/lyme_disease_carditis.json',
     category: 'cardiovascular',
     subcategory: null,
     filename: 'lyme_disease_carditis',
@@ -625,7 +625,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_mycotic_aneurysm': {
     id: 'cardiovascular_mycotic_aneurysm',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/mycotic_aneurysm.json',
+    filePath: './syndromes_json/cardiovascular/mycotic_aneurysm.json',
     category: 'cardiovascular',
     subcategory: null,
     filename: 'mycotic_aneurysm',
@@ -635,7 +635,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_pericarditis_histoplasmosis_pericarditis': {
     id: 'cardiovascular_pericarditis_histoplasmosis_pericarditis',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/pericarditis/histoplasmosis_pericarditis.json',
+    filePath: './syndromes_json/cardiovascular/pericarditis/histoplasmosis_pericarditis.json',
     category: 'cardiovascular',
     subcategory: 'pericarditis',
     filename: 'histoplasmosis_pericarditis',
@@ -645,7 +645,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_pericarditis_pericarditis_bacterial': {
     id: 'cardiovascular_pericarditis_pericarditis_bacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/pericarditis/pericarditis_bacterial.json',
+    filePath: './syndromes_json/cardiovascular/pericarditis/pericarditis_bacterial.json',
     category: 'cardiovascular',
     subcategory: 'pericarditis',
     filename: 'pericarditis_bacterial',
@@ -655,7 +655,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_pericarditis_tuberculosis_extrapulmonary': {
     id: 'cardiovascular_pericarditis_tuberculosis_extrapulmonary',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/pericarditis/tuberculosis_extrapulmonary.json',
+    filePath: './syndromes_json/cardiovascular/pericarditis/tuberculosis_extrapulmonary.json',
     category: 'cardiovascular',
     subcategory: 'pericarditis',
     filename: 'tuberculosis_extrapulmonary',
@@ -665,7 +665,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_cavernous_sinus_suppurative_septic_thrombophlebitis': {
     id: 'cardiovascular_vascular_cavernous_sinus_suppurative_septic_thrombophlebitis',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/cavernous_sinus_suppurative_septic_thrombophlebitis.json',
+    filePath: './syndromes_json/cardiovascular/vascular/cavernous_sinus_suppurative_septic_thrombophlebitis.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'cavernous_sinus_suppurative_septic_thrombophlebitis',
@@ -675,7 +675,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_iv_line_infection_catheter_related_bloodstream_infections': {
     id: 'cardiovascular_vascular_iv_line_infection_catheter_related_bloodstream_infections',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/iv_line_infection_catheter-related_bloodstream_infections.json',
+    filePath: './syndromes_json/cardiovascular/vascular/iv_line_infection_catheter-related_bloodstream_infections.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'iv_line_infection_catheter-related_bloodstream_infections',
@@ -685,7 +685,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_iv_line_infection_tunneled_catheters': {
     id: 'cardiovascular_vascular_iv_line_infection_tunneled_catheters',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/iv_line_infection_tunneled_catheters.json',
+    filePath: './syndromes_json/cardiovascular/vascular/iv_line_infection_tunneled_catheters.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'iv_line_infection_tunneled_catheters',
@@ -695,7 +695,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_pelvic_vein_thrombophlebitis_suppurative_septic': {
     id: 'cardiovascular_vascular_pelvic_vein_thrombophlebitis_suppurative_septic',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/pelvic_vein_thrombophlebitis_suppurative_septic.json',
+    filePath: './syndromes_json/cardiovascular/vascular/pelvic_vein_thrombophlebitis_suppurative_septic.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'pelvic_vein_thrombophlebitis_suppurative_septic',
@@ -705,7 +705,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_portal_vein_suppurative_septic_thrombophlebitis': {
     id: 'cardiovascular_vascular_portal_vein_suppurative_septic_thrombophlebitis',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/portal_vein_suppurative_septic_thrombophlebitis.json',
+    filePath: './syndromes_json/cardiovascular/vascular/portal_vein_suppurative_septic_thrombophlebitis.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'portal_vein_suppurative_septic_thrombophlebitis',
@@ -715,7 +715,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_suppurative_septic_thrombophlebitis_overview': {
     id: 'cardiovascular_vascular_suppurative_septic_thrombophlebitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/suppurative_septic_thrombophlebitis_overview.json',
+    filePath: './syndromes_json/cardiovascular/vascular/suppurative_septic_thrombophlebitis_overview.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'suppurative_septic_thrombophlebitis_overview',
@@ -725,7 +725,7 @@ const syndromeFilePaths = {
   },
   'cardiovascular_vascular_ventricular_assist_device_infection': {
     id: 'cardiovascular_vascular_ventricular_assist_device_infection',
-    filePath: '/antibiogram_react_app/syndromes_json/cardiovascular/vascular/ventricular_assist_device_infection.json',
+    filePath: './syndromes_json/cardiovascular/vascular/ventricular_assist_device_infection.json',
     category: 'cardiovascular',
     subcategory: 'vascular',
     filename: 'ventricular_assist_device_infection',
@@ -735,7 +735,7 @@ const syndromeFilePaths = {
   },
   'duration_of_therapy_antibacterial': {
     id: 'duration_of_therapy_antibacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/duration_of_therapy_antibacterial.json',
+    filePath: './syndromes_json/duration_of_therapy_antibacterial.json',
     category: 'duration_of_therapy_antibacterial.json',
     subcategory: null,
     filename: 'duration_of_therapy_antibacterial',
@@ -745,7 +745,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_chancroid': {
     id: 'genitourinary_STDS_chancroid',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/chancroid.json',
+    filePath: './syndromes_json/genitourinary/STDS/chancroid.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'chancroid',
@@ -755,7 +755,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_gonorrhea_overview': {
     id: 'genitourinary_STDS_gonorrhea_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/gonorrhea_overview.json',
+    filePath: './syndromes_json/genitourinary/STDS/gonorrhea_overview.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'gonorrhea_overview',
@@ -765,7 +765,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_gonorrhea_urethritis_cervicitis_proctitis': {
     id: 'genitourinary_STDS_gonorrhea_urethritis_cervicitis_proctitis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/gonorrhea_urethritis_cervicitis_proctitis.json',
+    filePath: './syndromes_json/genitourinary/STDS/gonorrhea_urethritis_cervicitis_proctitis.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'gonorrhea_urethritis_cervicitis_proctitis',
@@ -775,7 +775,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_granuloma_inguinale_donovanosis': {
     id: 'genitourinary_STDS_granuloma_inguinale_donovanosis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/granuloma_inguinale_donovanosis.json',
+    filePath: './syndromes_json/genitourinary/STDS/granuloma_inguinale_donovanosis.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'granuloma_inguinale_donovanosis',
@@ -785,7 +785,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_herpes_simplex_genital': {
     id: 'genitourinary_STDS_herpes_simplex_genital',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/herpes_simplex_genital.json',
+    filePath: './syndromes_json/genitourinary/STDS/herpes_simplex_genital.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'herpes_simplex_genital',
@@ -795,7 +795,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_lymphogranuloma_venereum': {
     id: 'genitourinary_STDS_lymphogranuloma_venereum',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/lymphogranuloma_venereum.json',
+    filePath: './syndromes_json/genitourinary/STDS/lymphogranuloma_venereum.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'lymphogranuloma_venereum',
@@ -805,7 +805,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_pelvic_inflammatory_disease': {
     id: 'genitourinary_STDS_pelvic_inflammatory_disease',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/pelvic_inflammatory_disease.json',
+    filePath: './syndromes_json/genitourinary/STDS/pelvic_inflammatory_disease.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'pelvic_inflammatory_disease',
@@ -815,7 +815,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_STDS_urethritis_cervicitis_chlamydial': {
     id: 'genitourinary_STDS_urethritis_cervicitis_chlamydial',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/STDS/urethritis_cervicitis_chlamydial.json',
+    filePath: './syndromes_json/genitourinary/STDS/urethritis_cervicitis_chlamydial.json',
     category: 'genitourinary',
     subcategory: 'STDS',
     filename: 'urethritis_cervicitis_chlamydial',
@@ -825,7 +825,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_amnionitis_chorioamnionitis_septic_abortion': {
     id: 'genitourinary_amnionitis_chorioamnionitis_septic_abortion',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/amnionitis_chorioamnionitis_septic_abortion.json',
+    filePath: './syndromes_json/genitourinary/amnionitis_chorioamnionitis_septic_abortion.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'amnionitis_chorioamnionitis_septic_abortion',
@@ -835,7 +835,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_bacteriuria_asymptomatic': {
     id: 'genitourinary_bacteriuria_asymptomatic',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/bacteriuria_asymptomatic.json',
+    filePath: './syndromes_json/genitourinary/bacteriuria_asymptomatic.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'bacteriuria_asymptomatic',
@@ -845,7 +845,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_balanitis': {
     id: 'genitourinary_balanitis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/balanitis.json',
+    filePath: './syndromes_json/genitourinary/balanitis.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'balanitis',
@@ -855,7 +855,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_bartholins_gland_abscess': {
     id: 'genitourinary_bartholins_gland_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/bartholins_gland_abscess.json',
+    filePath: './syndromes_json/genitourinary/bartholins_gland_abscess.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'bartholins_gland_abscess',
@@ -865,7 +865,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cervicitis_mucopurulent': {
     id: 'genitourinary_cervicitis_mucopurulent',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cervicitis_mucopurulent.json',
+    filePath: './syndromes_json/genitourinary/cervicitis_mucopurulent.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'cervicitis_mucopurulent',
@@ -875,7 +875,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cystitis_UTI_Acute_Child_Age_2_months': {
     id: 'genitourinary_cystitis_UTI_Acute_Child_Age_2_months',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cystitis/UTI, Acute, Child, Age < 2 months.json',
+    filePath: './syndromes_json/genitourinary/cystitis/UTI, Acute, Child, Age < 2 months.json',
     category: 'genitourinary',
     subcategory: 'cystitis',
     filename: 'UTI, Acute, Child, Age < 2 months',
@@ -885,7 +885,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cystitis_prevention_of_recurrent_uti_female': {
     id: 'genitourinary_cystitis_prevention_of_recurrent_uti_female',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cystitis/prevention_of_recurrent_uti_female.json',
+    filePath: './syndromes_json/genitourinary/cystitis/prevention_of_recurrent_uti_female.json',
     category: 'genitourinary',
     subcategory: 'cystitis',
     filename: 'prevention_of_recurrent_uti_female',
@@ -895,7 +895,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cystitis_uti_acute_child_age_2_months': {
     id: 'genitourinary_cystitis_uti_acute_child_age_2_months',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cystitis/uti_acute_child_age_2_months.json',
+    filePath: './syndromes_json/genitourinary/cystitis/uti_acute_child_age_2_months.json',
     category: 'genitourinary',
     subcategory: 'cystitis',
     filename: 'uti_acute_child_age_2_months',
@@ -905,7 +905,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cystitis_uti_acute_uncomplicated_adult_female': {
     id: 'genitourinary_cystitis_uti_acute_uncomplicated_adult_female',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cystitis/uti_acute_uncomplicated_adult_female.json',
+    filePath: './syndromes_json/genitourinary/cystitis/uti_acute_uncomplicated_adult_female.json',
     category: 'genitourinary',
     subcategory: 'cystitis',
     filename: 'uti_acute_uncomplicated_adult_female',
@@ -915,7 +915,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cystitis_uti_adult_male': {
     id: 'genitourinary_cystitis_uti_adult_male',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cystitis/uti_adult_male.json',
+    filePath: './syndromes_json/genitourinary/cystitis/uti_adult_male.json',
     category: 'genitourinary',
     subcategory: 'cystitis',
     filename: 'uti_adult_male',
@@ -925,7 +925,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_cystitis_uti_complicated_or_catheter_related': {
     id: 'genitourinary_cystitis_uti_complicated_or_catheter_related',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/cystitis/uti_complicated_or_catheter-related.json',
+    filePath: './syndromes_json/genitourinary/cystitis/uti_complicated_or_catheter-related.json',
     category: 'genitourinary',
     subcategory: 'cystitis',
     filename: 'uti_complicated_or_catheter-related',
@@ -935,7 +935,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_epididymo_orchitis': {
     id: 'genitourinary_epididymo_orchitis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/epididymo-orchitis.json',
+    filePath: './syndromes_json/genitourinary/epididymo-orchitis.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'epididymo-orchitis',
@@ -945,7 +945,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_genital_ulcer': {
     id: 'genitourinary_genital_ulcer',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/genital_ulcer.json',
+    filePath: './syndromes_json/genitourinary/genital_ulcer.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'genital_ulcer',
@@ -955,7 +955,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_herpes_simplex_genital': {
     id: 'genitourinary_herpes_simplex_genital',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/herpes_simplex_genital.json',
+    filePath: './syndromes_json/genitourinary/herpes_simplex_genital.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'herpes_simplex_genital',
@@ -965,7 +965,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_lice_pubic': {
     id: 'genitourinary_lice_pubic',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/lice_pubic.json',
+    filePath: './syndromes_json/genitourinary/lice_pubic.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'lice_pubic',
@@ -975,7 +975,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_malakoplakia': {
     id: 'genitourinary_malakoplakia',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/malakoplakia.json',
+    filePath: './syndromes_json/genitourinary/malakoplakia.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'malakoplakia',
@@ -985,7 +985,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_pelvic_pelvic_inflammatory_disease': {
     id: 'genitourinary_pelvic_pelvic_inflammatory_disease',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/pelvic/pelvic_inflammatory_disease.json',
+    filePath: './syndromes_json/genitourinary/pelvic/pelvic_inflammatory_disease.json',
     category: 'genitourinary',
     subcategory: 'pelvic',
     filename: 'pelvic_inflammatory_disease',
@@ -995,7 +995,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_pelvic_pelvic_vein_suppurative_septic_thrombophlebitis': {
     id: 'genitourinary_pelvic_pelvic_vein_suppurative_septic_thrombophlebitis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/pelvic/pelvic_vein_suppurative_septic_thrombophlebitis.json',
+    filePath: './syndromes_json/genitourinary/pelvic/pelvic_vein_suppurative_septic_thrombophlebitis.json',
     category: 'genitourinary',
     subcategory: 'pelvic',
     filename: 'pelvic_vein_suppurative_septic_thrombophlebitis',
@@ -1005,7 +1005,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_perinephric_abscess': {
     id: 'genitourinary_perinephric_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/perinephric_abscess.json',
+    filePath: './syndromes_json/genitourinary/perinephric_abscess.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'perinephric_abscess',
@@ -1015,7 +1015,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_postpartum_endometritis_endomyometritis': {
     id: 'genitourinary_postpartum_endometritis_endomyometritis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/postpartum_endometritis_endomyometritis.json',
+    filePath: './syndromes_json/genitourinary/postpartum_endometritis_endomyometritis.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'postpartum_endometritis_endomyometritis',
@@ -1025,7 +1025,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_prostatitis_prostatitis_bacterial_acute': {
     id: 'genitourinary_prostatitis_prostatitis_bacterial_acute',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/prostatitis/prostatitis_bacterial_acute.json',
+    filePath: './syndromes_json/genitourinary/prostatitis/prostatitis_bacterial_acute.json',
     category: 'genitourinary',
     subcategory: 'prostatitis',
     filename: 'prostatitis_bacterial_acute',
@@ -1035,7 +1035,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_prostatitis_prostatitis_bacterial_chronic': {
     id: 'genitourinary_prostatitis_prostatitis_bacterial_chronic',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/prostatitis/prostatitis_bacterial_chronic.json',
+    filePath: './syndromes_json/genitourinary/prostatitis/prostatitis_bacterial_chronic.json',
     category: 'genitourinary',
     subcategory: 'prostatitis',
     filename: 'prostatitis_bacterial_chronic',
@@ -1045,7 +1045,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_pyelonephritis_candidiasis_urinary_tract_infections': {
     id: 'genitourinary_pyelonephritis_candidiasis_urinary_tract_infections',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/pyelonephritis/candidiasis_urinary_tract_infections.json',
+    filePath: './syndromes_json/genitourinary/pyelonephritis/candidiasis_urinary_tract_infections.json',
     category: 'genitourinary',
     subcategory: 'pyelonephritis',
     filename: 'candidiasis_urinary_tract_infections',
@@ -1055,7 +1055,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_pyelonephritis_pyelonephritis_acute': {
     id: 'genitourinary_pyelonephritis_pyelonephritis_acute',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/pyelonephritis/pyelonephritis_acute.json',
+    filePath: './syndromes_json/genitourinary/pyelonephritis/pyelonephritis_acute.json',
     category: 'genitourinary',
     subcategory: 'pyelonephritis',
     filename: 'pyelonephritis_acute',
@@ -1065,7 +1065,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_bacterial_vaginosis': {
     id: 'genitourinary_syphilis_bacterial_vaginosis',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/bacterial_vaginosis.json',
+    filePath: './syndromes_json/genitourinary/syphilis/bacterial_vaginosis.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'bacterial_vaginosis',
@@ -1075,7 +1075,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_papillomavirus_warts': {
     id: 'genitourinary_syphilis_papillomavirus_warts',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/papillomavirus_warts.json',
+    filePath: './syndromes_json/genitourinary/syphilis/papillomavirus_warts.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'papillomavirus_warts',
@@ -1085,7 +1085,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_cns': {
     id: 'genitourinary_syphilis_syphilis_cns',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_cns.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_cns.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_cns',
@@ -1095,7 +1095,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_congenital': {
     id: 'genitourinary_syphilis_syphilis_congenital',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_congenital.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_congenital.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_congenital',
@@ -1105,7 +1105,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_early_latent': {
     id: 'genitourinary_syphilis_syphilis_early_latent',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_early_latent.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_early_latent.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_early_latent',
@@ -1115,7 +1115,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_hiv_aids': {
     id: 'genitourinary_syphilis_syphilis_hiv_aids',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_hiv_aids.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_hiv_aids.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_hiv_aids',
@@ -1125,7 +1125,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_late_latent': {
     id: 'genitourinary_syphilis_syphilis_late_latent',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_late_latent.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_late_latent.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_late_latent',
@@ -1135,7 +1135,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_pregnancy': {
     id: 'genitourinary_syphilis_syphilis_pregnancy',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_pregnancy.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_pregnancy.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_pregnancy',
@@ -1145,7 +1145,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_primary': {
     id: 'genitourinary_syphilis_syphilis_primary',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_primary.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_primary.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_primary',
@@ -1155,7 +1155,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_syphilis_syphilis_secondary': {
     id: 'genitourinary_syphilis_syphilis_secondary',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/syphilis/syphilis_secondary.json',
+    filePath: './syndromes_json/genitourinary/syphilis/syphilis_secondary.json',
     category: 'genitourinary',
     subcategory: 'syphilis',
     filename: 'syphilis_secondary',
@@ -1165,7 +1165,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_urethritis_recurrent_persistent': {
     id: 'genitourinary_urethritis_recurrent_persistent',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/urethritis_recurrent_persistent.json',
+    filePath: './syndromes_json/genitourinary/urethritis_recurrent_persistent.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'urethritis_recurrent_persistent',
@@ -1175,7 +1175,7 @@ const syndromeFilePaths = {
   },
   'genitourinary_urinary_tract_infections_overview': {
     id: 'genitourinary_urinary_tract_infections_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/genitourinary/urinary_tract_infections_overview.json',
+    filePath: './syndromes_json/genitourinary/urinary_tract_infections_overview.json',
     category: 'genitourinary',
     subcategory: null,
     filename: 'urinary_tract_infections_overview',
@@ -1185,7 +1185,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_candidiasis_oropharyngeal': {
     id: 'head_and_neck_candidiasis_oropharyngeal',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/candidiasis_oropharyngeal.json',
+    filePath: './syndromes_json/head_and_neck/candidiasis_oropharyngeal.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'candidiasis_oropharyngeal',
@@ -1195,7 +1195,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_cellulitis_buccal': {
     id: 'head_and_neck_cellulitis_buccal',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/cellulitis_buccal.json',
+    filePath: './syndromes_json/head_and_neck/cellulitis_buccal.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'cellulitis_buccal',
@@ -1205,7 +1205,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_cellulitis_erysipelas_facial': {
     id: 'head_and_neck_cellulitis_erysipelas_facial',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/cellulitis_erysipelas_facial.json',
+    filePath: './syndromes_json/head_and_neck/cellulitis_erysipelas_facial.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'cellulitis_erysipelas_facial',
@@ -1215,7 +1215,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_mastoiditis_mastoiditis_chronic': {
     id: 'head_and_neck_mastoiditis_mastoiditis_chronic',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/mastoiditis/mastoiditis_chronic.json',
+    filePath: './syndromes_json/head_and_neck/mastoiditis/mastoiditis_chronic.json',
     category: 'head_and_neck',
     subcategory: 'mastoiditis',
     filename: 'mastoiditis_chronic',
@@ -1225,7 +1225,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_mouth_adjacent_spaces_cellulitis_buccal': {
     id: 'head_and_neck_mouth_adjacent_spaces_cellulitis_buccal',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/mouth_adjacent_spaces/cellulitis_buccal.json',
+    filePath: './syndromes_json/head_and_neck/mouth_adjacent_spaces/cellulitis_buccal.json',
     category: 'head_and_neck',
     subcategory: 'mouth_adjacent_spaces',
     filename: 'cellulitis_buccal',
@@ -1235,7 +1235,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_mouth_adjacent_spaces_herpes_simplex_oral_lesions_mouth_lips': {
     id: 'head_and_neck_mouth_adjacent_spaces_herpes_simplex_oral_lesions_mouth_lips',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/mouth_adjacent_spaces/herpes_simplex_oral_lesions_mouth_lips.json',
+    filePath: './syndromes_json/head_and_neck/mouth_adjacent_spaces/herpes_simplex_oral_lesions_mouth_lips.json',
     category: 'head_and_neck',
     subcategory: 'mouth_adjacent_spaces',
     filename: 'herpes_simplex_oral_lesions_mouth_lips',
@@ -1245,7 +1245,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_mouth_adjacent_spaces_tooth_odontogenic_infection_ludwigs_angina': {
     id: 'head_and_neck_mouth_adjacent_spaces_tooth_odontogenic_infection_ludwigs_angina',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/mouth_adjacent_spaces/tooth_odontogenic_infection_ludwigs_angina.json',
+    filePath: './syndromes_json/head_and_neck/mouth_adjacent_spaces/tooth_odontogenic_infection_ludwigs_angina.json',
     category: 'head_and_neck',
     subcategory: 'mouth_adjacent_spaces',
     filename: 'tooth_odontogenic_infection_ludwigs_angina',
@@ -1255,7 +1255,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_mouth_adjacent_spaces_vincents_angina_necrotizing_gingivitis_trench_mouth': {
     id: 'head_and_neck_mouth_adjacent_spaces_vincents_angina_necrotizing_gingivitis_trench_mouth',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/mouth_adjacent_spaces/vincents_angina_necrotizing_gingivitis_trench_mouth.json',
+    filePath: './syndromes_json/head_and_neck/mouth_adjacent_spaces/vincents_angina_necrotizing_gingivitis_trench_mouth.json',
     category: 'head_and_neck',
     subcategory: 'mouth_adjacent_spaces',
     filename: 'vincents_angina_necrotizing_gingivitis_trench_mouth',
@@ -1265,7 +1265,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_mouth_parapharyngeal_space_infection': {
     id: 'head_and_neck_mouth_parapharyngeal_space_infection',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/mouth_parapharyngeal_space_infection.json',
+    filePath: './syndromes_json/head_and_neck/mouth_parapharyngeal_space_infection.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'mouth_parapharyngeal_space_infection',
@@ -1275,7 +1275,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_orbital_cellulitis_periorbital_cellulitis': {
     id: 'head_and_neck_orbital_cellulitis_periorbital_cellulitis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/orbital_cellulitis_periorbital_cellulitis.json',
+    filePath: './syndromes_json/head_and_neck/orbital_cellulitis_periorbital_cellulitis.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'orbital_cellulitis_periorbital_cellulitis',
@@ -1285,7 +1285,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_externa_malignant_otitis_externa_perichondritis': {
     id: 'head_and_neck_otitis_externa_malignant_otitis_externa_perichondritis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_externa/malignant_otitis_externa_perichondritis.json',
+    filePath: './syndromes_json/head_and_neck/otitis_externa/malignant_otitis_externa_perichondritis.json',
     category: 'head_and_neck',
     subcategory: 'otitis_externa',
     filename: 'malignant_otitis_externa_perichondritis',
@@ -1295,7 +1295,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_externa_otitis_externa_chronic': {
     id: 'head_and_neck_otitis_externa_otitis_externa_chronic',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_externa/otitis_externa_chronic.json',
+    filePath: './syndromes_json/head_and_neck/otitis_externa/otitis_externa_chronic.json',
     category: 'head_and_neck',
     subcategory: 'otitis_externa',
     filename: 'otitis_externa_chronic',
@@ -1305,7 +1305,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_externa_otitis_externa_fungal_otomycosis': {
     id: 'head_and_neck_otitis_externa_otitis_externa_fungal_otomycosis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_externa/otitis_externa_fungal_otomycosis.json',
+    filePath: './syndromes_json/head_and_neck/otitis_externa/otitis_externa_fungal_otomycosis.json',
     category: 'head_and_neck',
     subcategory: 'otitis_externa',
     filename: 'otitis_externa_fungal_otomycosis',
@@ -1315,7 +1315,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_externa_otitis_externa_swimmers_ear': {
     id: 'head_and_neck_otitis_externa_otitis_externa_swimmers_ear',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_externa/otitis_externa_swimmers_ear.json',
+    filePath: './syndromes_json/head_and_neck/otitis_externa/otitis_externa_swimmers_ear.json',
     category: 'head_and_neck',
     subcategory: 'otitis_externa',
     filename: 'otitis_externa_swimmers_ear',
@@ -1325,7 +1325,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_media_otitis_media_acute_empiric_therapy': {
     id: 'head_and_neck_otitis_media_otitis_media_acute_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_media/otitis_media_acute_empiric_therapy.json',
+    filePath: './syndromes_json/head_and_neck/otitis_media/otitis_media_acute_empiric_therapy.json',
     category: 'head_and_neck',
     subcategory: 'otitis_media',
     filename: 'otitis_media_acute_empiric_therapy',
@@ -1335,7 +1335,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_media_otitis_media_post_intubation': {
     id: 'head_and_neck_otitis_media_otitis_media_post_intubation',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_media/otitis_media_post-intubation.json',
+    filePath: './syndromes_json/head_and_neck/otitis_media/otitis_media_post-intubation.json',
     category: 'head_and_neck',
     subcategory: 'otitis_media',
     filename: 'otitis_media_post-intubation',
@@ -1345,7 +1345,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_media_otitis_media_prophylaxis': {
     id: 'head_and_neck_otitis_media_otitis_media_prophylaxis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_media/otitis_media_prophylaxis.json',
+    filePath: './syndromes_json/head_and_neck/otitis_media/otitis_media_prophylaxis.json',
     category: 'head_and_neck',
     subcategory: 'otitis_media',
     filename: 'otitis_media_prophylaxis',
@@ -1355,7 +1355,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_otitis_media_otitis_media_treatment_failure': {
     id: 'head_and_neck_otitis_media_otitis_media_treatment_failure',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/otitis_media/otitis_media_treatment_failure.json',
+    filePath: './syndromes_json/head_and_neck/otitis_media/otitis_media_treatment_failure.json',
     category: 'head_and_neck',
     subcategory: 'otitis_media',
     filename: 'otitis_media_treatment_failure',
@@ -1365,7 +1365,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_parotid_swelling_parotitis': {
     id: 'head_and_neck_parotid_swelling_parotitis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/parotid_swelling_parotitis.json',
+    filePath: './syndromes_json/head_and_neck/parotid_swelling_parotitis.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'parotid_swelling_parotitis',
@@ -1375,7 +1375,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_peritonsillar_abscess': {
     id: 'head_and_neck_peritonsillar_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/peritonsillar_abscess.json',
+    filePath: './syndromes_json/head_and_neck/peritonsillar_abscess.json',
     category: 'head_and_neck',
     subcategory: null,
     filename: 'peritonsillar_abscess',
@@ -1385,7 +1385,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_pharyngitis_diphtheria': {
     id: 'head_and_neck_pharyngitis_diphtheria',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/pharyngitis/diphtheria.json',
+    filePath: './syndromes_json/head_and_neck/pharyngitis/diphtheria.json',
     category: 'head_and_neck',
     subcategory: 'pharyngitis',
     filename: 'diphtheria',
@@ -1395,7 +1395,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_pharyngitis_epiglottitis_supraglottitis': {
     id: 'head_and_neck_pharyngitis_epiglottitis_supraglottitis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/pharyngitis/epiglottitis_supraglottitis.json',
+    filePath: './syndromes_json/head_and_neck/pharyngitis/epiglottitis_supraglottitis.json',
     category: 'head_and_neck',
     subcategory: 'pharyngitis',
     filename: 'epiglottitis_supraglottitis',
@@ -1405,7 +1405,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_pharyngitis_jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome': {
     id: 'head_and_neck_pharyngitis_jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/pharyngitis/jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome.json',
+    filePath: './syndromes_json/head_and_neck/pharyngitis/jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome.json',
     category: 'head_and_neck',
     subcategory: 'pharyngitis',
     filename: 'jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome',
@@ -1415,7 +1415,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_pharyngitis_laryngitis_acute': {
     id: 'head_and_neck_pharyngitis_laryngitis_acute',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/pharyngitis/laryngitis_acute.json',
+    filePath: './syndromes_json/head_and_neck/pharyngitis/laryngitis_acute.json',
     category: 'head_and_neck',
     subcategory: 'pharyngitis',
     filename: 'laryngitis_acute',
@@ -1425,7 +1425,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_pharyngitis_mouth_parapharyngeal_space_infection': {
     id: 'head_and_neck_pharyngitis_mouth_parapharyngeal_space_infection',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/pharyngitis/mouth_parapharyngeal_space_infection.json',
+    filePath: './syndromes_json/head_and_neck/pharyngitis/mouth_parapharyngeal_space_infection.json',
     category: 'head_and_neck',
     subcategory: 'pharyngitis',
     filename: 'mouth_parapharyngeal_space_infection',
@@ -1435,7 +1435,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_pharyngitis_pharyngitis_tonsillitis': {
     id: 'head_and_neck_pharyngitis_pharyngitis_tonsillitis',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/pharyngitis/pharyngitis_tonsillitis.json',
+    filePath: './syndromes_json/head_and_neck/pharyngitis/pharyngitis_tonsillitis.json',
     category: 'head_and_neck',
     subcategory: 'pharyngitis',
     filename: 'pharyngitis_tonsillitis',
@@ -1445,7 +1445,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_empyema_subdural': {
     id: 'head_and_neck_rhinosinusitis_empyema_subdural',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/empyema_subdural.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/empyema_subdural.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'empyema_subdural',
@@ -1455,7 +1455,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_sinusitis_acute_failure_of_empiric_therapy': {
     id: 'head_and_neck_rhinosinusitis_sinusitis_acute_failure_of_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/sinusitis_acute_failure_of_empiric_therapy.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/sinusitis_acute_failure_of_empiric_therapy.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'sinusitis_acute_failure_of_empiric_therapy',
@@ -1465,7 +1465,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_sinusitis_intubation_associated': {
     id: 'head_and_neck_rhinosinusitis_sinusitis_intubation_associated',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/sinusitis_intubation_associated.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/sinusitis_intubation_associated.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'sinusitis_intubation_associated',
@@ -1475,7 +1475,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_acute': {
     id: 'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_acute',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_acute.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_acute.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'sinusitis_rhinosinusitis_acute',
@@ -1485,7 +1485,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_atrophic': {
     id: 'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_atrophic',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_atrophic.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_atrophic.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'sinusitis_rhinosinusitis_atrophic',
@@ -1495,7 +1495,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_chronic': {
     id: 'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_chronic',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_chronic.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_chronic.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'sinusitis_rhinosinusitis_chronic',
@@ -1505,7 +1505,7 @@ const syndromeFilePaths = {
   },
   'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_overview': {
     id: 'head_and_neck_rhinosinusitis_sinusitis_rhinosinusitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_overview.json',
+    filePath: './syndromes_json/head_and_neck/rhinosinusitis/sinusitis_rhinosinusitis_overview.json',
     category: 'head_and_neck',
     subcategory: 'rhinosinusitis',
     filename: 'sinusitis_rhinosinusitis_overview',
@@ -1515,7 +1515,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_anaplasmosis_human': {
     id: 'infectious_syndromes_anaplasmosis_human',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/anaplasmosis_human.json',
+    filePath: './syndromes_json/infectious_syndromes/anaplasmosis_human.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'anaplasmosis_human',
@@ -1525,7 +1525,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_babesiosis': {
     id: 'infectious_syndromes_babesiosis',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/babesiosis.json',
+    filePath: './syndromes_json/infectious_syndromes/babesiosis.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'babesiosis',
@@ -1535,7 +1535,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bacteremia_salmonella_sp': {
     id: 'infectious_syndromes_bacteremia_salmonella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bacteremia_salmonella_sp.json',
+    filePath: './syndromes_json/infectious_syndromes/bacteremia_salmonella_sp.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'bacteremia_salmonella_sp',
@@ -1545,7 +1545,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_bacillary_angiomatosis_peliosis': {
     id: 'infectious_syndromes_bartonella_bacillary_angiomatosis_peliosis',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/bacillary_angiomatosis_peliosis.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/bacillary_angiomatosis_peliosis.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'bacillary_angiomatosis_peliosis',
@@ -1555,7 +1555,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_bacteremia_asymptomatic_bartonella_sp': {
     id: 'infectious_syndromes_bartonella_bacteremia_asymptomatic_bartonella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/bacteremia_asymptomatic_bartonella_sp.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/bacteremia_asymptomatic_bartonella_sp.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'bacteremia_asymptomatic_bartonella_sp',
@@ -1565,7 +1565,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_brucella_sp_brucellosis_febrile_illness': {
     id: 'infectious_syndromes_bartonella_brucella_sp_brucellosis_febrile_illness',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/brucella_sp_brucellosis_febrile_illness.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/brucella_sp_brucellosis_febrile_illness.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'brucella_sp_brucellosis_febrile_illness',
@@ -1575,7 +1575,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_cat_scratch_disease_csd': {
     id: 'infectious_syndromes_bartonella_cat_scratch_disease_csd',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/cat-scratch_disease_csd.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/cat-scratch_disease_csd.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'cat-scratch_disease_csd',
@@ -1585,7 +1585,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_endocarditis_bartonella_sp': {
     id: 'infectious_syndromes_bartonella_endocarditis_bartonella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/endocarditis_bartonella_sp.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/endocarditis_bartonella_sp.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'endocarditis_bartonella_sp',
@@ -1595,7 +1595,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_oroya_fever_verruga_peruana_south_american_bartonellosis': {
     id: 'infectious_syndromes_bartonella_oroya_fever_verruga_peruana_south_american_bartonellosis',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/oroya_fever_verruga_peruana_south_american_bartonellosis.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/oroya_fever_verruga_peruana_south_american_bartonellosis.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'oroya_fever_verruga_peruana_south_american_bartonellosis',
@@ -1605,7 +1605,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_bartonella_trench_fever_bartonella_quintana': {
     id: 'infectious_syndromes_bartonella_trench_fever_bartonella_quintana',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/bartonella/trench_fever_bartonella_quintana.json',
+    filePath: './syndromes_json/infectious_syndromes/bartonella/trench_fever_bartonella_quintana.json',
     category: 'infectious_syndromes',
     subcategory: 'bartonella',
     filename: 'trench_fever_bartonella_quintana',
@@ -1615,7 +1615,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_ehrlichiosis_human_monocytic_ehrlichiosis_hme': {
     id: 'infectious_syndromes_ehrlichiosis_human_monocytic_ehrlichiosis_hme',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/ehrlichiosis_human_monocytic_ehrlichiosis_hme.json',
+    filePath: './syndromes_json/infectious_syndromes/ehrlichiosis_human_monocytic_ehrlichiosis_hme.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'ehrlichiosis_human_monocytic_ehrlichiosis_hme',
@@ -1625,7 +1625,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_febrile_infant_neonatal_sepsis': {
     id: 'infectious_syndromes_febrile_infant_neonatal_sepsis',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/febrile_infant_neonatal_sepsis.json',
+    filePath: './syndromes_json/infectious_syndromes/febrile_infant_neonatal_sepsis.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'febrile_infant_neonatal_sepsis',
@@ -1635,7 +1635,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_francisella_tularensis_tularemia': {
     id: 'infectious_syndromes_francisella_tularensis_tularemia',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/francisella_tularensis_tularemia.json',
+    filePath: './syndromes_json/infectious_syndromes/francisella_tularensis_tularemia.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'francisella_tularensis_tularemia',
@@ -1645,7 +1645,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_kawasaki_disease_kawasaki_syndrome': {
     id: 'infectious_syndromes_kawasaki_disease_kawasaki_syndrome',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/kawasaki_disease_kawasaki_syndrome.json',
+    filePath: './syndromes_json/infectious_syndromes/kawasaki_disease_kawasaki_syndrome.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'kawasaki_disease_kawasaki_syndrome',
@@ -1655,7 +1655,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_leptospira_sp_leptospirosis': {
     id: 'infectious_syndromes_leptospira_sp_leptospirosis',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/leptospira_sp_leptospirosis.json',
+    filePath: './syndromes_json/infectious_syndromes/leptospira_sp_leptospirosis.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'leptospira_sp_leptospirosis',
@@ -1665,7 +1665,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_neutropenia_neutropenia_chemotherapy_induced_prophylaxis': {
     id: 'infectious_syndromes_neutropenia_neutropenia_chemotherapy_induced_prophylaxis',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/neutropenia/neutropenia_chemotherapy-induced_prophylaxis.json',
+    filePath: './syndromes_json/infectious_syndromes/neutropenia/neutropenia_chemotherapy-induced_prophylaxis.json',
     category: 'infectious_syndromes',
     subcategory: 'neutropenia',
     filename: 'neutropenia_chemotherapy-induced_prophylaxis',
@@ -1675,7 +1675,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_neutropenia_neutropenia_febrile_high_risk': {
     id: 'infectious_syndromes_neutropenia_neutropenia_febrile_high_risk',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/neutropenia/neutropenia_febrile_high-risk.json',
+    filePath: './syndromes_json/infectious_syndromes/neutropenia/neutropenia_febrile_high-risk.json',
     category: 'infectious_syndromes',
     subcategory: 'neutropenia',
     filename: 'neutropenia_febrile_high-risk',
@@ -1685,7 +1685,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_neutropenia_neutropenia_febrile_low_risk': {
     id: 'infectious_syndromes_neutropenia_neutropenia_febrile_low_risk',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/neutropenia/neutropenia_febrile_low-risk.json',
+    filePath: './syndromes_json/infectious_syndromes/neutropenia/neutropenia_febrile_low-risk.json',
     category: 'infectious_syndromes',
     subcategory: 'neutropenia',
     filename: 'neutropenia_febrile_low-risk',
@@ -1695,7 +1695,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_relapsing_fever': {
     id: 'infectious_syndromes_relapsing_fever',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/relapsing_fever.json',
+    filePath: './syndromes_json/infectious_syndromes/relapsing_fever.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'relapsing_fever',
@@ -1705,7 +1705,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_ricketsial_diseases_other_rickettsiae_spotted_fevers': {
     id: 'infectious_syndromes_ricketsial_diseases_other_rickettsiae_spotted_fevers',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/ricketsial_diseases/other_rickettsiae_spotted_fevers.json',
+    filePath: './syndromes_json/infectious_syndromes/ricketsial_diseases/other_rickettsiae_spotted_fevers.json',
     category: 'infectious_syndromes',
     subcategory: 'ricketsial_diseases',
     filename: 'other_rickettsiae_spotted_fevers',
@@ -1715,7 +1715,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_ricketsial_diseases_rocky_mountain_spotted_fever': {
     id: 'infectious_syndromes_ricketsial_diseases_rocky_mountain_spotted_fever',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/ricketsial_diseases/rocky_mountain_spotted_fever.json',
+    filePath: './syndromes_json/infectious_syndromes/ricketsial_diseases/rocky_mountain_spotted_fever.json',
     category: 'infectious_syndromes',
     subcategory: 'ricketsial_diseases',
     filename: 'rocky_mountain_spotted_fever',
@@ -1725,7 +1725,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_ricketsial_diseases_thyphus_typhus_louse_borne': {
     id: 'infectious_syndromes_ricketsial_diseases_thyphus_typhus_louse_borne',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/ricketsial_diseases/thyphus/typhus_louse-borne.json',
+    filePath: './syndromes_json/infectious_syndromes/ricketsial_diseases/thyphus/typhus_louse-borne.json',
     category: 'infectious_syndromes',
     subcategory: 'ricketsial_diseases',
     filename: 'typhus_louse-borne',
@@ -1735,7 +1735,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_ricketsial_diseases_thyphus_typhus_murine': {
     id: 'infectious_syndromes_ricketsial_diseases_thyphus_typhus_murine',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/ricketsial_diseases/thyphus/typhus_murine.json',
+    filePath: './syndromes_json/infectious_syndromes/ricketsial_diseases/thyphus/typhus_murine.json',
     category: 'infectious_syndromes',
     subcategory: 'ricketsial_diseases',
     filename: 'typhus_murine',
@@ -1745,7 +1745,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_sepsis_adult': {
     id: 'infectious_syndromes_septic_shock_sepsis_adult',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/sepsis_adult.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/sepsis_adult.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'sepsis_adult',
@@ -1755,7 +1755,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_sepsis_child_age_1_mo': {
     id: 'infectious_syndromes_septic_shock_sepsis_child_age_1_mo',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/sepsis_child_age_1_mo.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/sepsis_child_age_1_mo.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'sepsis_child_age_1_mo',
@@ -1765,7 +1765,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_sepsis_neonatal': {
     id: 'infectious_syndromes_septic_shock_sepsis_neonatal',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/sepsis_neonatal.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/sepsis_neonatal.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'sepsis_neonatal',
@@ -1775,7 +1775,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_shock_post_splenectomy': {
     id: 'infectious_syndromes_septic_shock_shock_post_splenectomy',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/shock_post-splenectomy.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/shock_post-splenectomy.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'shock_post-splenectomy',
@@ -1785,7 +1785,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_shock_septic_bacteremic_endotoxin': {
     id: 'infectious_syndromes_septic_shock_shock_septic_bacteremic_endotoxin',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/shock_septic_bacteremic_endotoxin.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/shock_septic_bacteremic_endotoxin.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'shock_septic_bacteremic_endotoxin',
@@ -1795,7 +1795,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_toxic_shock_syndrome_tss_clostridial': {
     id: 'infectious_syndromes_septic_shock_toxic_shock_syndrome_tss_clostridial',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/toxic_shock_syndrome_tss_clostridial.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/toxic_shock_syndrome_tss_clostridial.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'toxic_shock_syndrome_tss_clostridial',
@@ -1805,7 +1805,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_toxic_shock_syndrome_tss_staphylococcal': {
     id: 'infectious_syndromes_septic_shock_toxic_shock_syndrome_tss_staphylococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/toxic_shock_syndrome_tss_staphylococcal.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/toxic_shock_syndrome_tss_staphylococcal.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'toxic_shock_syndrome_tss_staphylococcal',
@@ -1815,7 +1815,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_septic_shock_toxic_shock_syndrome_tss_streptococcal': {
     id: 'infectious_syndromes_septic_shock_toxic_shock_syndrome_tss_streptococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/septic_shock/toxic_shock_syndrome_tss_streptococcal.json',
+    filePath: './syndromes_json/infectious_syndromes/septic_shock/toxic_shock_syndrome_tss_streptococcal.json',
     category: 'infectious_syndromes',
     subcategory: 'septic_shock',
     filename: 'toxic_shock_syndrome_tss_streptococcal',
@@ -1825,7 +1825,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_toxic_shock_syndrome': {
     id: 'infectious_syndromes_toxic_shock_syndrome',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/toxic_shock_syndrome.json',
+    filePath: './syndromes_json/infectious_syndromes/toxic_shock_syndrome.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'toxic_shock_syndrome',
@@ -1835,7 +1835,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_trench_fever': {
     id: 'infectious_syndromes_trench_fever',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/trench_fever.json',
+    filePath: './syndromes_json/infectious_syndromes/trench_fever.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'trench_fever',
@@ -1845,7 +1845,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_tuberculosis_disseminated_miliary': {
     id: 'infectious_syndromes_tuberculosis_disseminated_miliary',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/tuberculosis_disseminated_miliary.json',
+    filePath: './syndromes_json/infectious_syndromes/tuberculosis_disseminated_miliary.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'tuberculosis_disseminated_miliary',
@@ -1855,7 +1855,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_tuberculosis_extrapulmonary': {
     id: 'infectious_syndromes_tuberculosis_extrapulmonary',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/tuberculosis_extrapulmonary.json',
+    filePath: './syndromes_json/infectious_syndromes/tuberculosis_extrapulmonary.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'tuberculosis_extrapulmonary',
@@ -1865,7 +1865,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_tuberculosis_latent': {
     id: 'infectious_syndromes_tuberculosis_latent',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/tuberculosis_latent.json',
+    filePath: './syndromes_json/infectious_syndromes/tuberculosis_latent.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'tuberculosis_latent',
@@ -1875,7 +1875,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_tuberculosis_pulmonary': {
     id: 'infectious_syndromes_tuberculosis_pulmonary',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/tuberculosis_pulmonary.json',
+    filePath: './syndromes_json/infectious_syndromes/tuberculosis_pulmonary.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'tuberculosis_pulmonary',
@@ -1885,7 +1885,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_tularemia': {
     id: 'infectious_syndromes_tularemia',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/tularemia.json',
+    filePath: './syndromes_json/infectious_syndromes/tularemia.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'tularemia',
@@ -1895,7 +1895,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_typhoid_fever': {
     id: 'infectious_syndromes_typhoid_fever',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/typhoid_fever.json',
+    filePath: './syndromes_json/infectious_syndromes/typhoid_fever.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'typhoid_fever',
@@ -1905,7 +1905,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_typhoid_fever_enteric_fever': {
     id: 'infectious_syndromes_typhoid_fever_enteric_fever',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/typhoid_fever_enteric_fever.json',
+    filePath: './syndromes_json/infectious_syndromes/typhoid_fever_enteric_fever.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'typhoid_fever_enteric_fever',
@@ -1915,7 +1915,7 @@ const syndromeFilePaths = {
   },
   'infectious_syndromes_whipples_disease': {
     id: 'infectious_syndromes_whipples_disease',
-    filePath: '/antibiogram_react_app/syndromes_json/infectious_syndromes/whipples_disease.json',
+    filePath: './syndromes_json/infectious_syndromes/whipples_disease.json',
     category: 'infectious_syndromes',
     subcategory: null,
     filename: 'whipples_disease',
@@ -1925,7 +1925,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_actinomycosis': {
     id: 'intra_abdominal_actinomycosis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/actinomycosis.json',
+    filePath: './syndromes_json/intra-abdominal/actinomycosis.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'actinomycosis',
@@ -1935,7 +1935,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_clostridioides_difficile_c_diff': {
     id: 'intra_abdominal_clostridioides_difficile_c_diff',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/clostridioides_difficile_c_diff.json',
+    filePath: './syndromes_json/intra-abdominal/clostridioides_difficile_c_diff.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'clostridioides_difficile_c_diff',
@@ -1945,7 +1945,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_cytomegalovirus_gastrointestinal_disease': {
     id: 'intra_abdominal_cytomegalovirus_gastrointestinal_disease',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/cytomegalovirus_gastrointestinal_disease.json',
+    filePath: './syndromes_json/intra-abdominal/cytomegalovirus_gastrointestinal_disease.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'cytomegalovirus_gastrointestinal_disease',
@@ -1955,7 +1955,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_diverticulitis_perirectal_abscess': {
     id: 'intra_abdominal_diverticulitis_perirectal_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/diverticulitis_perirectal_abscess.json',
+    filePath: './syndromes_json/intra-abdominal/diverticulitis_perirectal_abscess.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'diverticulitis_perirectal_abscess',
@@ -1965,7 +1965,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gallbladder_biliary_tract_cholangitis': {
     id: 'intra_abdominal_gallbladder_biliary_tract_cholangitis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gallbladder_biliary_tract_cholangitis.json',
+    filePath: './syndromes_json/intra-abdominal/gallbladder_biliary_tract_cholangitis.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'gallbladder_biliary_tract_cholangitis',
@@ -1975,7 +1975,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastric_duodenal_ulcer_helicobacter_pylori': {
     id: 'intra_abdominal_gastric_duodenal_ulcer_helicobacter_pylori',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastric_duodenal_ulcer_helicobacter_pylori.json',
+    filePath: './syndromes_json/intra-abdominal/gastric_duodenal_ulcer_helicobacter_pylori.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'gastric_duodenal_ulcer_helicobacter_pylori',
@@ -1985,7 +1985,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_empiric_theraphy_gastroenteritis_empiric_therapy': {
     id: 'intra_abdominal_gastroenteritis_empiric_theraphy_gastroenteritis_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/gastroenteritis_empiric_therapy.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/gastroenteritis_empiric_therapy.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_empiric_therapy',
@@ -1995,7 +1995,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_empiric_theraphy_gastroenteritis_premature_infant_necrotizing_enterocolitis': {
     id: 'intra_abdominal_gastroenteritis_empiric_theraphy_gastroenteritis_premature_infant_necrotizing_enterocolitis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/gastroenteritis_premature_infant_necrotizing_enterocolitis.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/gastroenteritis_premature_infant_necrotizing_enterocolitis.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_premature_infant_necrotizing_enterocolitis',
@@ -2005,7 +2005,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_empiric_theraphy_norovirus': {
     id: 'intra_abdominal_gastroenteritis_empiric_theraphy_norovirus',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/norovirus.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/norovirus.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'norovirus',
@@ -2015,7 +2015,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_empiric_theraphy_rotavirus': {
     id: 'intra_abdominal_gastroenteritis_empiric_theraphy_rotavirus',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/rotavirus.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/rotavirus.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'rotavirus',
@@ -2025,7 +2025,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_empiric_theraphy_travelers_diarrhea': {
     id: 'intra_abdominal_gastroenteritis_empiric_theraphy_travelers_diarrhea',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/travelers_diarrhea.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/empiric_theraphy/travelers_diarrhea.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'travelers_diarrhea',
@@ -2035,7 +2035,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_gastroenteritis_diarrhea_overview': {
     id: 'intra_abdominal_gastroenteritis_gastroenteritis_diarrhea_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/gastroenteritis_diarrhea_overview.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/gastroenteritis_diarrhea_overview.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_diarrhea_overview',
@@ -2045,7 +2045,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_gastroenteritis_parasitic_overview': {
     id: 'intra_abdominal_gastroenteritis_gastroenteritis_parasitic_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/gastroenteritis_parasitic_overview.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/gastroenteritis_parasitic_overview.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_parasitic_overview',
@@ -2055,7 +2055,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_clostridioides_difficile_c_diff': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_clostridioides_difficile_c_diff',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/clostridioides_difficile_c_diff.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/clostridioides_difficile_c_diff.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'clostridioides_difficile_c_diff',
@@ -2065,7 +2065,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_e_coli_shiga_toxin_producing_stec': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_e_coli_shiga_toxin_producing_stec',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/e_coli_shiga_toxin-producing_stec.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/e_coli_shiga_toxin-producing_stec.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'e_coli_shiga_toxin-producing_stec',
@@ -2075,7 +2075,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_campylobacter_fetus': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_campylobacter_fetus',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_campylobacter_fetus.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_campylobacter_fetus.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_campylobacter_fetus',
@@ -2085,7 +2085,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_campylobacter_jejuni': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_campylobacter_jejuni',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_campylobacter_jejuni.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_campylobacter_jejuni.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_campylobacter_jejuni',
@@ -2095,7 +2095,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_intestinal_spirochetosis': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_intestinal_spirochetosis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_intestinal_spirochetosis.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_intestinal_spirochetosis.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_intestinal_spirochetosis',
@@ -2105,7 +2105,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_klebsiella_oxytoca': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_klebsiella_oxytoca',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_klebsiella_oxytoca.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_klebsiella_oxytoca.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_klebsiella_oxytoca',
@@ -2115,7 +2115,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_salmonella_non_typhi': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_salmonella_non_typhi',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_salmonella_non-typhi.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_salmonella_non-typhi.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_salmonella_non-typhi',
@@ -2125,7 +2125,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_shigella': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_shigella',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_shigella.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_shigella.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_shigella',
@@ -2135,7 +2135,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_staph_aureus': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_staph_aureus.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_staph_aureus.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_staph_aureus',
@@ -2145,7 +2145,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_vibrio_cholerae': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_vibrio_cholerae',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_vibrio_cholerae.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_vibrio_cholerae.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_vibrio_cholerae',
@@ -2155,7 +2155,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_vibrio_sp': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_gastroenteritis_vibrio_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_vibrio_sp.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/gastroenteritis_vibrio_sp.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'gastroenteritis_vibrio_sp',
@@ -2165,7 +2165,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_listeria_monocytogenes_gastroenteritis': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_listeria_monocytogenes_gastroenteritis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/listeria_monocytogenes_gastroenteritis.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/listeria_monocytogenes_gastroenteritis.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'listeria_monocytogenes_gastroenteritis',
@@ -2175,7 +2175,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_gastroenteritis_specific_therapy_vibrio_vulnificus_v_alginolyticus_v_damsela': {
     id: 'intra_abdominal_gastroenteritis_specific_therapy_vibrio_vulnificus_v_alginolyticus_v_damsela',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/vibrio_vulnificus_v_alginolyticus_v_damsela.json',
+    filePath: './syndromes_json/intra-abdominal/gastroenteritis/specific_therapy/vibrio_vulnificus_v_alginolyticus_v_damsela.json',
     category: 'intra-abdominal',
     subcategory: 'gastroenteritis',
     filename: 'vibrio_vulnificus_v_alginolyticus_v_damsela',
@@ -2185,7 +2185,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_bacillary_angiomatosis_peliosis': {
     id: 'intra_abdominal_liver_nonviral_bacillary_angiomatosis_peliosis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/bacillary_angiomatosis_peliosis.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/bacillary_angiomatosis_peliosis.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'bacillary_angiomatosis_peliosis',
@@ -2195,7 +2195,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_cirrhosis_variceal_bleeding': {
     id: 'intra_abdominal_liver_nonviral_cirrhosis_variceal_bleeding',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/cirrhosis_variceal_bleeding.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/cirrhosis_variceal_bleeding.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'cirrhosis_variceal_bleeding',
@@ -2205,7 +2205,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_gallbladder_biliary_tract_cholangitis': {
     id: 'intra_abdominal_liver_nonviral_gallbladder_biliary_tract_cholangitis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/gallbladder_biliary_tract_cholangitis.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/gallbladder_biliary_tract_cholangitis.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'gallbladder_biliary_tract_cholangitis',
@@ -2215,7 +2215,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_hepatic_abscess_empiric_therapy': {
     id: 'intra_abdominal_liver_nonviral_hepatic_abscess_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/hepatic_abscess_empiric_therapy.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/hepatic_abscess_empiric_therapy.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'hepatic_abscess_empiric_therapy',
@@ -2225,7 +2225,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_hepatic_abscess_liver_abscess_bacterial': {
     id: 'intra_abdominal_liver_nonviral_hepatic_abscess_liver_abscess_bacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/hepatic_abscess_liver_abscess_bacterial.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/hepatic_abscess_liver_abscess_bacterial.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'hepatic_abscess_liver_abscess_bacterial',
@@ -2235,7 +2235,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_leptospira_sp_leptospirosis': {
     id: 'intra_abdominal_liver_nonviral_leptospira_sp_leptospirosis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/leptospira_sp_leptospirosis.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/leptospira_sp_leptospirosis.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'leptospira_sp_leptospirosis',
@@ -2245,7 +2245,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_liver_nonviral_post_liver_transplant_biloma': {
     id: 'intra_abdominal_liver_nonviral_post_liver_transplant_biloma',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/liver-nonviral/post-liver_transplant_biloma.json',
+    filePath: './syndromes_json/intra-abdominal/liver-nonviral/post-liver_transplant_biloma.json',
     category: 'intra-abdominal',
     subcategory: 'liver-nonviral',
     filename: 'post-liver_transplant_biloma',
@@ -2255,7 +2255,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_neutropenic_enterocolitis_typhlitis': {
     id: 'intra_abdominal_neutropenic_enterocolitis_typhlitis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/neutropenic_enterocolitis_typhlitis.json',
+    filePath: './syndromes_json/intra-abdominal/neutropenic_enterocolitis_typhlitis.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'neutropenic_enterocolitis_typhlitis',
@@ -2265,7 +2265,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_pancreatitis': {
     id: 'intra_abdominal_pancreatitis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/pancreatitis.json',
+    filePath: './syndromes_json/intra-abdominal/pancreatitis.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'pancreatitis',
@@ -2275,7 +2275,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_peritonitis_appendicitis': {
     id: 'intra_abdominal_peritonitis_appendicitis',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/peritonitis/appendicitis.json',
+    filePath: './syndromes_json/intra-abdominal/peritonitis/appendicitis.json',
     category: 'intra-abdominal',
     subcategory: 'peritonitis',
     filename: 'appendicitis',
@@ -2285,7 +2285,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_peritonitis_peritonitis_dialysis_capd_associated': {
     id: 'intra_abdominal_peritonitis_peritonitis_dialysis_capd_associated',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/peritonitis/peritonitis_dialysis_capd_associated.json',
+    filePath: './syndromes_json/intra-abdominal/peritonitis/peritonitis_dialysis_capd_associated.json',
     category: 'intra-abdominal',
     subcategory: 'peritonitis',
     filename: 'peritonitis_dialysis_capd_associated',
@@ -2295,7 +2295,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_peritonitis_peritonitis_primary_spontaneous_bacterial': {
     id: 'intra_abdominal_peritonitis_peritonitis_primary_spontaneous_bacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/peritonitis/peritonitis_primary_spontaneous_bacterial.json',
+    filePath: './syndromes_json/intra-abdominal/peritonitis/peritonitis_primary_spontaneous_bacterial.json',
     category: 'intra-abdominal',
     subcategory: 'peritonitis',
     filename: 'peritonitis_primary_spontaneous_bacterial',
@@ -2305,7 +2305,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_peritonitis_peritonitis_rupture_perforation_abscess': {
     id: 'intra_abdominal_peritonitis_peritonitis_rupture_perforation_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/peritonitis/peritonitis_rupture_perforation_abscess.json',
+    filePath: './syndromes_json/intra-abdominal/peritonitis/peritonitis_rupture_perforation_abscess.json',
     category: 'intra-abdominal',
     subcategory: 'peritonitis',
     filename: 'peritonitis_rupture_perforation_abscess',
@@ -2315,7 +2315,7 @@ const syndromeFilePaths = {
   },
   'intra_abdominal_whipples_disease': {
     id: 'intra_abdominal_whipples_disease',
-    filePath: '/antibiogram_react_app/syndromes_json/intra-abdominal/whipples_disease.json',
+    filePath: './syndromes_json/intra-abdominal/whipples_disease.json',
     category: 'intra-abdominal',
     subcategory: null,
     filename: 'whipples_disease',
@@ -2325,7 +2325,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_aspergillosis_chronic_cavitary_pulmonary': {
     id: 'lower_respiratory_abscess_aspergillosis_chronic_cavitary_pulmonary',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/aspergillosis_chronic_cavitary_pulmonary.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/aspergillosis_chronic_cavitary_pulmonary.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'aspergillosis_chronic_cavitary_pulmonary',
@@ -2335,7 +2335,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_empyema_pleural_overview': {
     id: 'lower_respiratory_abscess_empyema_pleural_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/empyema_pleural_overview.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/empyema_pleural_overview.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'empyema_pleural_overview',
@@ -2345,7 +2345,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_m_tuberculosis_overview': {
     id: 'lower_respiratory_abscess_m_tuberculosis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/m_tuberculosis_overview.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/m_tuberculosis_overview.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'm_tuberculosis_overview',
@@ -2355,7 +2355,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_pneumonia_anaerobic_or_aspiration': {
     id: 'lower_respiratory_abscess_pneumonia_anaerobic_or_aspiration',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/pneumonia_anaerobic_or_aspiration.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/pneumonia_anaerobic_or_aspiration.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'pneumonia_anaerobic_or_aspiration',
@@ -2365,7 +2365,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_pneumonia_klebsiella_sp': {
     id: 'lower_respiratory_abscess_pneumonia_klebsiella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/pneumonia_klebsiella_sp.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/pneumonia_klebsiella_sp.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'pneumonia_klebsiella_sp',
@@ -2375,7 +2375,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_pneumonia_melioidosis': {
     id: 'lower_respiratory_abscess_pneumonia_melioidosis',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/pneumonia_melioidosis.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/pneumonia_melioidosis.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'pneumonia_melioidosis',
@@ -2385,7 +2385,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_pneumonia_nocardia_sp': {
     id: 'lower_respiratory_abscess_pneumonia_nocardia_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/pneumonia_nocardia_sp.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/pneumonia_nocardia_sp.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'pneumonia_nocardia_sp',
@@ -2395,7 +2395,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_pneumonia_staph_aureus': {
     id: 'lower_respiratory_abscess_pneumonia_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/pneumonia_staph_aureus.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/pneumonia_staph_aureus.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'pneumonia_staph_aureus',
@@ -2405,7 +2405,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_abscess_rhodococcus_hoagii': {
     id: 'lower_respiratory_abscess_rhodococcus_hoagii',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/abscess/rhodococcus_hoagii.json',
+    filePath: './syndromes_json/lower_respiratory/abscess/rhodococcus_hoagii.json',
     category: 'lower_respiratory',
     subcategory: 'abscess',
     filename: 'rhodococcus_hoagii',
@@ -2415,7 +2415,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_anthrax_anthrax_post_exposure_prophylaxis': {
     id: 'lower_respiratory_anthrax_anthrax_post_exposure_prophylaxis',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/anthrax/anthrax_post_exposure_prophylaxis.json',
+    filePath: './syndromes_json/lower_respiratory/anthrax/anthrax_post_exposure_prophylaxis.json',
     category: 'lower_respiratory',
     subcategory: 'anthrax',
     filename: 'anthrax_post_exposure_prophylaxis',
@@ -2425,7 +2425,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_anthrax_anthrax_systemic': {
     id: 'lower_respiratory_anthrax_anthrax_systemic',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/anthrax/anthrax_systemic.json',
+    filePath: './syndromes_json/lower_respiratory/anthrax/anthrax_systemic.json',
     category: 'lower_respiratory',
     subcategory: 'anthrax',
     filename: 'anthrax_systemic',
@@ -2435,7 +2435,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_brochitis_bordetella_pertussis': {
     id: 'lower_respiratory_brochitis_bordetella_pertussis',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/brochitis/bordetella_pertussis.json',
+    filePath: './syndromes_json/lower_respiratory/brochitis/bordetella_pertussis.json',
     category: 'lower_respiratory',
     subcategory: 'brochitis',
     filename: 'bordetella_pertussis',
@@ -2445,7 +2445,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_brochitis_bronchiectasis': {
     id: 'lower_respiratory_brochitis_bronchiectasis',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/brochitis/bronchiectasis.json',
+    filePath: './syndromes_json/lower_respiratory/brochitis/bronchiectasis.json',
     category: 'lower_respiratory',
     subcategory: 'brochitis',
     filename: 'bronchiectasis',
@@ -2455,7 +2455,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_brochitis_bronchitis_acute_age_gt_5_years': {
     id: 'lower_respiratory_brochitis_bronchitis_acute_age_gt_5_years',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/brochitis/bronchitis_acute_age_gt_5_years.json',
+    filePath: './syndromes_json/lower_respiratory/brochitis/bronchitis_acute_age_gt_5_years.json',
     category: 'lower_respiratory',
     subcategory: 'brochitis',
     filename: 'bronchitis_acute_age_gt_5_years',
@@ -2465,7 +2465,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_brochitis_bronchitis_chronic_with_acute_exacerbation': {
     id: 'lower_respiratory_brochitis_bronchitis_chronic_with_acute_exacerbation',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/brochitis/bronchitis_chronic_with_acute_exacerbation.json',
+    filePath: './syndromes_json/lower_respiratory/brochitis/bronchitis_chronic_with_acute_exacerbation.json',
     category: 'lower_respiratory',
     subcategory: 'brochitis',
     filename: 'bronchitis_chronic_with_acute_exacerbation',
@@ -2475,7 +2475,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_brochitis_bronchitis_infants_children': {
     id: 'lower_respiratory_brochitis_bronchitis_infants_children',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/brochitis/bronchitis_infants_children.json',
+    filePath: './syndromes_json/lower_respiratory/brochitis/bronchitis_infants_children.json',
     category: 'lower_respiratory',
     subcategory: 'brochitis',
     filename: 'bronchitis_infants_children',
@@ -2485,7 +2485,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_bronchiolitis_bronchiolitis': {
     id: 'lower_respiratory_bronchiolitis_bronchiolitis',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/bronchiolitis/bronchiolitis.json',
+    filePath: './syndromes_json/lower_respiratory/bronchiolitis/bronchiolitis.json',
     category: 'lower_respiratory',
     subcategory: 'bronchiolitis',
     filename: 'bronchiolitis',
@@ -2495,7 +2495,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_cystic_fibrosis': {
     id: 'lower_respiratory_cystic_fibrosis',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/cystic_fibrosis.json',
+    filePath: './syndromes_json/lower_respiratory/cystic_fibrosis.json',
     category: 'lower_respiratory',
     subcategory: null,
     filename: 'cystic_fibrosis',
@@ -2505,7 +2505,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_empyema_empyema_adult_child_gt_5_yrs': {
     id: 'lower_respiratory_empyema_empyema_adult_child_gt_5_yrs',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/empyema/empyema_adult_child_gt_5_yrs.json',
+    filePath: './syndromes_json/lower_respiratory/empyema/empyema_adult_child_gt_5_yrs.json',
     category: 'lower_respiratory',
     subcategory: 'empyema',
     filename: 'empyema_adult_child_gt_5_yrs',
@@ -2515,7 +2515,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_empyema_empyema_infants_children': {
     id: 'lower_respiratory_empyema_empyema_infants_children',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/empyema/empyema_infants_children.json',
+    filePath: './syndromes_json/lower_respiratory/empyema/empyema_infants_children.json',
     category: 'lower_respiratory',
     subcategory: 'empyema',
     filename: 'empyema_infants_children',
@@ -2525,7 +2525,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_empyema_empyema_neonatal': {
     id: 'lower_respiratory_empyema_empyema_neonatal',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/empyema/empyema_neonatal.json',
+    filePath: './syndromes_json/lower_respiratory/empyema/empyema_neonatal.json',
     category: 'lower_respiratory',
     subcategory: 'empyema',
     filename: 'empyema_neonatal',
@@ -2535,7 +2535,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_empyema_empyema_subdural': {
     id: 'lower_respiratory_empyema_empyema_subdural',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/empyema/empyema_subdural.json',
+    filePath: './syndromes_json/lower_respiratory/empyema/empyema_subdural.json',
     category: 'lower_respiratory',
     subcategory: 'empyema',
     filename: 'empyema_subdural',
@@ -2545,7 +2545,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_children_age_gt_3_months': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_children_age_gt_3_months',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_children_age_gt_3_months.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_children_age_gt_3_months.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_children_age_gt_3_months',
@@ -2555,7 +2555,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_community_acquired_overview': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_community_acquired_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_community-acquired_overview.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_community-acquired_overview.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_community-acquired_overview',
@@ -2565,7 +2565,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_community_acquired_adult_in_patient': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_community_acquired_adult_in_patient',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_community_acquired_adult_in_patient.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_community_acquired_adult_in_patient.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_community_acquired_adult_in_patient',
@@ -2575,7 +2575,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_community_acquired_adult_out_patient': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_community_acquired_adult_out_patient',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_community_acquired_adult_out_patient.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_community_acquired_adult_out_patient.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_community_acquired_adult_out_patient',
@@ -2585,7 +2585,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_infants_age_1_3_months': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_infants_age_1_3_months',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_infants_age_1-3_months.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_infants_age_1-3_months.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_infants_age_1-3_months',
@@ -2595,7 +2595,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_neonates_age_lt_1_month': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_pneumonia_neonates_age_lt_1_month',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_neonates_age_lt_1_month.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/pneumonia_neonates_age_lt_1_month.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_neonates_age_lt_1_month',
@@ -2605,7 +2605,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_community_acquired_respiratory_syncytial_virus_rsv': {
     id: 'lower_respiratory_pneumonia_empiric_community_acquired_respiratory_syncytial_virus_rsv',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/respiratory_syncytial_virus_rsv.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/community_acquired/respiratory_syncytial_virus_rsv.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'respiratory_syncytial_virus_rsv',
@@ -2615,7 +2615,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_community_acquired_adult_in_patient': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_community_acquired_adult_in_patient',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_community_acquired_adult_in_patient.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_community_acquired_adult_in_patient.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_community_acquired_adult_in_patient',
@@ -2625,7 +2625,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_community_acquired_adult_out_patient': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_community_acquired_adult_out_patient',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_community_acquired_adult_out_patient.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_community_acquired_adult_out_patient.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_community_acquired_adult_out_patient',
@@ -2635,7 +2635,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_gram_negative_icu': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_gram_negative_icu',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_gram_negative_icu.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_gram_negative_icu.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_gram_negative_icu',
@@ -2645,7 +2645,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_hospital_acquired': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_hospital_acquired',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_hospital_acquired.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_hospital_acquired.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_hospital_acquired',
@@ -2655,7 +2655,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_neutropenic_patient': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_neutropenic_patient',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_neutropenic_patient.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_neutropenic_patient.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_neutropenic_patient',
@@ -2665,7 +2665,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_ventilator_associated': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_empiric_treatment_pneumonia_ventilator_associated',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_ventilator_associated.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/empiric_treatment/pneumonia_ventilator_associated.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_ventilator_associated',
@@ -2675,7 +2675,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_concomitant_or_post_influenza': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_concomitant_or_post_influenza',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_concomitant_or_post_influenza.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_concomitant_or_post_influenza.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_concomitant_or_post_influenza',
@@ -2685,7 +2685,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_hospital_acquired': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_hospital_acquired',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_hospital-acquired.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_hospital-acquired.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_hospital-acquired',
@@ -2695,7 +2695,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_hospital_acquired_overview': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_hospital_acquired_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_hospital-acquired_overview.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_hospital-acquired_overview.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_hospital-acquired_overview',
@@ -2705,7 +2705,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_neutropenic_patient': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_neutropenic_patient',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_neutropenic_patient.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_neutropenic_patient.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_neutropenic_patient',
@@ -2715,7 +2715,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_ventilator_associated': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_pneumonia_ventilator_associated',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_ventilator-associated.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/pneumonia_ventilator-associated.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_ventilator-associated',
@@ -2725,7 +2725,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_acinetobacter_sp': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_acinetobacter_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_acinetobacter_sp.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_acinetobacter_sp.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_acinetobacter_sp',
@@ -2735,7 +2735,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_klebsiella_sp': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_klebsiella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_klebsiella_sp.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_klebsiella_sp.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_klebsiella_sp',
@@ -2745,7 +2745,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_legionella_sp': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_legionella_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_legionella_sp.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_legionella_sp.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_legionella_sp',
@@ -2755,7 +2755,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_pseudomonas_aeruginosa': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_pseudomonas_aeruginosa',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_pseudomonas_aeruginosa.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_pseudomonas_aeruginosa.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_pseudomonas_aeruginosa',
@@ -2765,7 +2765,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_stenotrophomonas_maltophilia': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_stenotrophomonas_maltophilia',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_stenotrophomonas_maltophilia.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_stenotrophomonas_maltophilia.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_stenotrophomonas_maltophilia',
@@ -2775,7 +2775,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_streptococcus_pneumoniae': {
     id: 'lower_respiratory_pneumonia_empiric_hospital_acquired_specific_treatment_pneumonia_streptococcus_pneumoniae',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_streptococcus_pneumoniae.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/hospital_acquired/specific_treatment/pneumonia_streptococcus_pneumoniae.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_streptococcus_pneumoniae',
@@ -2785,7 +2785,7 @@ const syndromeFilePaths = {
   },
   'lower_respiratory_pneumonia_empiric_pneumonia_healthcare_associated': {
     id: 'lower_respiratory_pneumonia_empiric_pneumonia_healthcare_associated',
-    filePath: '/antibiogram_react_app/syndromes_json/lower_respiratory/pneumonia_empiric/pneumonia_healthcare_associated.json',
+    filePath: './syndromes_json/lower_respiratory/pneumonia_empiric/pneumonia_healthcare_associated.json',
     category: 'lower_respiratory',
     subcategory: 'pneumonia_empiric',
     filename: 'pneumonia_healthcare_associated',
@@ -2795,7 +2795,7 @@ const syndromeFilePaths = {
   },
   'lymph_nodes_spleen_lymphadenitis_bubonic_plague': {
     id: 'lymph_nodes_spleen_lymphadenitis_bubonic_plague',
-    filePath: '/antibiogram_react_app/syndromes_json/lymph_nodes-spleen/lymphadenitis/bubonic_plague.json',
+    filePath: './syndromes_json/lymph_nodes-spleen/lymphadenitis/bubonic_plague.json',
     category: 'lymph_nodes-spleen',
     subcategory: 'lymphadenitis',
     filename: 'bubonic_plague',
@@ -2805,7 +2805,7 @@ const syndromeFilePaths = {
   },
   'lymph_nodes_spleen_lymphadenitis_cat_scratch_disease_csd': {
     id: 'lymph_nodes_spleen_lymphadenitis_cat_scratch_disease_csd',
-    filePath: '/antibiogram_react_app/syndromes_json/lymph_nodes-spleen/lymphadenitis/cat_scratch_disease_csd.json',
+    filePath: './syndromes_json/lymph_nodes-spleen/lymphadenitis/cat_scratch_disease_csd.json',
     category: 'lymph_nodes-spleen',
     subcategory: 'lymphadenitis',
     filename: 'cat_scratch_disease_csd',
@@ -2815,7 +2815,7 @@ const syndromeFilePaths = {
   },
   'lymph_nodes_spleen_lymphadenitis_francisella_tularensis_tularemia': {
     id: 'lymph_nodes_spleen_lymphadenitis_francisella_tularensis_tularemia',
-    filePath: '/antibiogram_react_app/syndromes_json/lymph_nodes-spleen/lymphadenitis/francisella_tularensis_tularemia.json',
+    filePath: './syndromes_json/lymph_nodes-spleen/lymphadenitis/francisella_tularensis_tularemia.json',
     category: 'lymph_nodes-spleen',
     subcategory: 'lymphadenitis',
     filename: 'francisella_tularensis_tularemia',
@@ -2825,7 +2825,7 @@ const syndromeFilePaths = {
   },
   'lymph_nodes_spleen_lymphadenitis_lymphadenitis_nocardia': {
     id: 'lymph_nodes_spleen_lymphadenitis_lymphadenitis_nocardia',
-    filePath: '/antibiogram_react_app/syndromes_json/lymph_nodes-spleen/lymphadenitis/lymphadenitis_nocardia.json',
+    filePath: './syndromes_json/lymph_nodes-spleen/lymphadenitis/lymphadenitis_nocardia.json',
     category: 'lymph_nodes-spleen',
     subcategory: 'lymphadenitis',
     filename: 'lymphadenitis_nocardia',
@@ -2835,7 +2835,7 @@ const syndromeFilePaths = {
   },
   'lymph_nodes_spleen_lymphadenitis_yersinia_pestis_plague': {
     id: 'lymph_nodes_spleen_lymphadenitis_yersinia_pestis_plague',
-    filePath: '/antibiogram_react_app/syndromes_json/lymph_nodes-spleen/lymphadenitis/yersinia_pestis_plague.json',
+    filePath: './syndromes_json/lymph_nodes-spleen/lymphadenitis/yersinia_pestis_plague.json',
     category: 'lymph_nodes-spleen',
     subcategory: 'lymphadenitis',
     filename: 'yersinia_pestis_plague',
@@ -2845,7 +2845,7 @@ const syndromeFilePaths = {
   },
   'lymph_nodes_spleen_splenic_abscess': {
     id: 'lymph_nodes_spleen_splenic_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/lymph_nodes-spleen/splenic_abscess.json',
+    filePath: './syndromes_json/lymph_nodes-spleen/splenic_abscess.json',
     category: 'lymph_nodes-spleen',
     subcategory: null,
     filename: 'splenic_abscess',
@@ -2855,7 +2855,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_candida': {
     id: 'musculoskeletal_bone_osteomyelitis_candida',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_candida.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_candida.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_candida',
@@ -2865,7 +2865,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_contiguous_focus': {
     id: 'musculoskeletal_bone_osteomyelitis_contiguous_focus',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_contiguous_focus.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_contiguous_focus.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_contiguous_focus',
@@ -2875,7 +2875,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_foot_bone': {
     id: 'musculoskeletal_bone_osteomyelitis_foot_bone',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_foot_bone.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_foot_bone.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_foot_bone',
@@ -2885,7 +2885,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_hematogenous': {
     id: 'musculoskeletal_bone_osteomyelitis_hematogenous',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_hematogenous.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_hematogenous.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_hematogenous',
@@ -2895,7 +2895,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_hemoglobinopathy': {
     id: 'musculoskeletal_bone_osteomyelitis_hemoglobinopathy',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_hemoglobinopathy.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_hemoglobinopathy.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_hemoglobinopathy',
@@ -2905,7 +2905,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_overview': {
     id: 'musculoskeletal_bone_osteomyelitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_overview.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_overview.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_overview',
@@ -2915,7 +2915,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_spinal_implant': {
     id: 'musculoskeletal_bone_osteomyelitis_spinal_implant',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_spinal_implant.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_spinal_implant.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_spinal_implant',
@@ -2925,7 +2925,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_staph_aureus': {
     id: 'musculoskeletal_bone_osteomyelitis_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_staph_aureus.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_staph_aureus.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_staph_aureus',
@@ -2935,7 +2935,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_sternal': {
     id: 'musculoskeletal_bone_osteomyelitis_sternal',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_sternal.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_sternal.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_sternal',
@@ -2945,7 +2945,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_vascular_insufficiency': {
     id: 'musculoskeletal_bone_osteomyelitis_vascular_insufficiency',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_vascular_insufficiency.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_vascular_insufficiency.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_vascular_insufficiency',
@@ -2955,7 +2955,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteomyelitis_vertebral': {
     id: 'musculoskeletal_bone_osteomyelitis_vertebral',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteomyelitis_vertebral.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteomyelitis_vertebral.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteomyelitis_vertebral',
@@ -2965,7 +2965,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_osteonecrosis_jaw': {
     id: 'musculoskeletal_bone_osteonecrosis_jaw',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/osteonecrosis_jaw.json',
+    filePath: './syndromes_json/musculoskeletal/bone/osteonecrosis_jaw.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'osteonecrosis_jaw',
@@ -2975,7 +2975,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_bone_puncture_wound_foot': {
     id: 'musculoskeletal_bone_puncture_wound_foot',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/bone/puncture_wound_foot.json',
+    filePath: './syndromes_json/musculoskeletal/bone/puncture_wound_foot.json',
     category: 'musculoskeletal',
     subcategory: 'bone',
     filename: 'puncture_wound_foot',
@@ -2985,7 +2985,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_foot_onychomycosis': {
     id: 'musculoskeletal_foot_onychomycosis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/foot/onychomycosis.json',
+    filePath: './syndromes_json/musculoskeletal/foot/onychomycosis.json',
     category: 'musculoskeletal',
     subcategory: 'foot',
     filename: 'onychomycosis',
@@ -2995,7 +2995,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_foot_osteomyelitis_foot_bone': {
     id: 'musculoskeletal_foot_osteomyelitis_foot_bone',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/foot/osteomyelitis_foot_bone.json',
+    filePath: './syndromes_json/musculoskeletal/foot/osteomyelitis_foot_bone.json',
     category: 'musculoskeletal',
     subcategory: 'foot',
     filename: 'osteomyelitis_foot_bone',
@@ -3005,7 +3005,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_foot_puncture_wound_foot': {
     id: 'musculoskeletal_foot_puncture_wound_foot',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/foot/puncture_wound_foot.json',
+    filePath: './syndromes_json/musculoskeletal/foot/puncture_wound_foot.json',
     category: 'musculoskeletal',
     subcategory: 'foot',
     filename: 'puncture_wound_foot',
@@ -3015,7 +3015,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_hand_paronychia': {
     id: 'musculoskeletal_hand_paronychia',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/hand/paronychia.json',
+    filePath: './syndromes_json/musculoskeletal/hand/paronychia.json',
     category: 'musculoskeletal',
     subcategory: 'hand',
     filename: 'paronychia',
@@ -3025,7 +3025,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_bursitis_septic': {
     id: 'musculoskeletal_joint_bursitis_septic',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/bursitis_septic.json',
+    filePath: './syndromes_json/musculoskeletal/joint/bursitis_septic.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'bursitis_septic',
@@ -3035,7 +3035,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_lyme_disease_arthritis': {
     id: 'musculoskeletal_joint_lyme_disease_arthritis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/lyme_disease_arthritis.json',
+    filePath: './syndromes_json/musculoskeletal/joint/lyme_disease_arthritis.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'lyme_disease_arthritis',
@@ -3045,7 +3045,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_prosthetic_joint_infection': {
     id: 'musculoskeletal_joint_prosthetic_joint_infection',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/prosthetic_joint_infection.json',
+    filePath: './syndromes_json/musculoskeletal/joint/prosthetic_joint_infection.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'prosthetic_joint_infection',
@@ -3055,7 +3055,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_reactive_arthritis_arthritis_post_streptococcal': {
     id: 'musculoskeletal_joint_reactive_arthritis_arthritis_post_streptococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/reactive_arthritis/arthritis_post-streptococcal.json',
+    filePath: './syndromes_json/musculoskeletal/joint/reactive_arthritis/arthritis_post-streptococcal.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_post-streptococcal',
@@ -3065,7 +3065,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_reactive_arthritis_reactive_arthritis': {
     id: 'musculoskeletal_joint_reactive_arthritis_reactive_arthritis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/reactive_arthritis/reactive_arthritis.json',
+    filePath: './syndromes_json/musculoskeletal/joint/reactive_arthritis/reactive_arthritis.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'reactive_arthritis',
@@ -3075,7 +3075,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_empiric_arthritis_septic_adult': {
     id: 'musculoskeletal_joint_septic_arthritis_empiric_arthritis_septic_adult',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_empiric/arthritis_septic_adult.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_empiric/arthritis_septic_adult.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_adult',
@@ -3085,7 +3085,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_empiric_arthritis_septic_child': {
     id: 'musculoskeletal_joint_septic_arthritis_empiric_arthritis_septic_child',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_empiric/arthritis_septic_child.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_empiric/arthritis_septic_child.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_child',
@@ -3095,7 +3095,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_empiric_arthritis_septic_infant': {
     id: 'musculoskeletal_joint_septic_arthritis_empiric_arthritis_septic_infant',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_empiric/arthritis_septic_infant.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_empiric/arthritis_septic_infant.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_infant',
@@ -3105,7 +3105,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_arthritis_m_tuberculosis': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_arthritis_m_tuberculosis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_m_tuberculosis.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_m_tuberculosis.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_m_tuberculosis',
@@ -3115,7 +3115,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_pneumococcal': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_pneumococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_pneumococcal.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_pneumococcal.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_pneumococcal',
@@ -3125,7 +3125,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_post_intra_articular_injection_post_arthroscopy': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_post_intra_articular_injection_post_arthroscopy',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_post_intra-articular_injection_post-arthroscopy.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_post_intra-articular_injection_post-arthroscopy.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_post_intra-articular_injection_post-arthroscopy',
@@ -3135,7 +3135,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_staph_aureus': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_staph_aureus.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_staph_aureus.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_staph_aureus',
@@ -3145,7 +3145,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_streptococcal': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_arthritis_septic_streptococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_streptococcal.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/arthritis_septic_streptococcal.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'arthritis_septic_streptococcal',
@@ -3155,7 +3155,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_brucella_sp_arthritis': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_brucella_sp_arthritis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/brucella_sp_arthritis.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/brucella_sp_arthritis.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'brucella_sp_arthritis',
@@ -3165,7 +3165,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_gonorrhea_disseminated_gonococcal_infection': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_gonorrhea_disseminated_gonococcal_infection',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/gonorrhea_disseminated_gonococcal_infection.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/gonorrhea_disseminated_gonococcal_infection.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'gonorrhea_disseminated_gonococcal_infection',
@@ -3175,7 +3175,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_histoplasmosis_mediastinal': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_histoplasmosis_mediastinal',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/histoplasmosis_mediastinal.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/histoplasmosis_mediastinal.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'histoplasmosis_mediastinal',
@@ -3185,7 +3185,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_joint_septic_arthritis_specific_lyme_disease_arthritis': {
     id: 'musculoskeletal_joint_septic_arthritis_specific_lyme_disease_arthritis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/joint/septic_arthritis_specific/lyme_disease_arthritis.json',
+    filePath: './syndromes_json/musculoskeletal/joint/septic_arthritis_specific/lyme_disease_arthritis.json',
     category: 'musculoskeletal',
     subcategory: 'joint',
     filename: 'lyme_disease_arthritis',
@@ -3195,7 +3195,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_muscle_gangrene_muscle': {
     id: 'musculoskeletal_muscle_gangrene_muscle',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/muscle/gangrene_muscle.json',
+    filePath: './syndromes_json/musculoskeletal/muscle/gangrene_muscle.json',
     category: 'musculoskeletal',
     subcategory: 'muscle',
     filename: 'gangrene_muscle',
@@ -3205,7 +3205,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_clostridia_sp': {
     id: 'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_clostridia_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_clostridia_sp.json',
+    filePath: './syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_clostridia_sp.json',
     category: 'musculoskeletal',
     subcategory: 'muscle',
     filename: 'necrotizing_fasciitis_clostridia_sp',
@@ -3215,7 +3215,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_staph_aureus': {
     id: 'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_staph_aureus.json',
+    filePath: './syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_staph_aureus.json',
     category: 'musculoskeletal',
     subcategory: 'muscle',
     filename: 'necrotizing_fasciitis_staph_aureus',
@@ -3225,7 +3225,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_streptococcal': {
     id: 'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_streptococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_streptococcal.json',
+    filePath: './syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_streptococcal.json',
     category: 'musculoskeletal',
     subcategory: 'muscle',
     filename: 'necrotizing_fasciitis_streptococcal',
@@ -3235,7 +3235,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_synergistic': {
     id: 'musculoskeletal_muscle_necrotizing_fascitis_necrotizing_fasciitis_synergistic',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_synergistic.json',
+    filePath: './syndromes_json/musculoskeletal/muscle/necrotizing_fascitis/necrotizing_fasciitis_synergistic.json',
     category: 'musculoskeletal',
     subcategory: 'muscle',
     filename: 'necrotizing_fasciitis_synergistic',
@@ -3245,7 +3245,7 @@ const syndromeFilePaths = {
   },
   'musculoskeletal_muscle_pyomyositis': {
     id: 'musculoskeletal_muscle_pyomyositis',
-    filePath: '/antibiogram_react_app/syndromes_json/musculoskeletal/muscle/pyomyositis.json',
+    filePath: './syndromes_json/musculoskeletal/muscle/pyomyositis.json',
     category: 'musculoskeletal',
     subcategory: 'muscle',
     filename: 'pyomyositis',
@@ -3255,7 +3255,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_conjunctivitis_bacterial': {
     id: 'ocular_conjunctivitis_conjunctivitis_bacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/conjunctivitis_bacterial.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/conjunctivitis_bacterial.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'conjunctivitis_bacterial',
@@ -3265,7 +3265,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_conjunctivitis_gonococcal': {
     id: 'ocular_conjunctivitis_conjunctivitis_gonococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/conjunctivitis_gonococcal.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/conjunctivitis_gonococcal.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'conjunctivitis_gonococcal',
@@ -3275,7 +3275,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_conjunctivitis_inclusion': {
     id: 'ocular_conjunctivitis_conjunctivitis_inclusion',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/conjunctivitis_inclusion.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/conjunctivitis_inclusion.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'conjunctivitis_inclusion',
@@ -3285,7 +3285,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_conjunctivitis_newborn': {
     id: 'ocular_conjunctivitis_conjunctivitis_newborn',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/conjunctivitis_newborn.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/conjunctivitis_newborn.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'conjunctivitis_newborn',
@@ -3295,7 +3295,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_conjunctivitis_trachoma': {
     id: 'ocular_conjunctivitis_conjunctivitis_trachoma',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/conjunctivitis_trachoma.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/conjunctivitis_trachoma.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'conjunctivitis_trachoma',
@@ -3305,7 +3305,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_conjunctivitis_viral_pink_eye': {
     id: 'ocular_conjunctivitis_conjunctivitis_viral_pink_eye',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/conjunctivitis_viral_pink_eye.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/conjunctivitis_viral_pink_eye.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'conjunctivitis_viral_pink_eye',
@@ -3315,7 +3315,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_keratitis_acanthamoeba': {
     id: 'ocular_conjunctivitis_keratitis_acanthamoeba',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/keratitis_acanthamoeba.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/keratitis_acanthamoeba.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'keratitis_acanthamoeba',
@@ -3325,7 +3325,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_keratitis_bacterial': {
     id: 'ocular_conjunctivitis_keratitis_bacterial',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/keratitis_bacterial.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/keratitis_bacterial.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'keratitis_bacterial',
@@ -3335,7 +3335,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_keratitis_fungal': {
     id: 'ocular_conjunctivitis_keratitis_fungal',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/keratitis_fungal.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/keratitis_fungal.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'keratitis_fungal',
@@ -3345,7 +3345,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_keratitis_mycobacterial_non_tuberculous': {
     id: 'ocular_conjunctivitis_keratitis_mycobacterial_non_tuberculous',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/keratitis_mycobacterial_non-tuberculous.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/keratitis_mycobacterial_non-tuberculous.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'keratitis_mycobacterial_non-tuberculous',
@@ -3355,7 +3355,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_keratitis_overview': {
     id: 'ocular_conjunctivitis_keratitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/keratitis_overview.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/keratitis_overview.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'keratitis_overview',
@@ -3365,7 +3365,7 @@ const syndromeFilePaths = {
   },
   'ocular_conjunctivitis_keratitis_viral': {
     id: 'ocular_conjunctivitis_keratitis_viral',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/conjunctivitis/keratitis_viral.json',
+    filePath: './syndromes_json/ocular/conjunctivitis/keratitis_viral.json',
     category: 'ocular',
     subcategory: 'conjunctivitis',
     filename: 'keratitis_viral',
@@ -3375,7 +3375,7 @@ const syndromeFilePaths = {
   },
   'ocular_endophtalmitis_endophthalmitis_candida': {
     id: 'ocular_endophtalmitis_endophthalmitis_candida',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/endophtalmitis/endophthalmitis_candida.json',
+    filePath: './syndromes_json/ocular/endophtalmitis/endophthalmitis_candida.json',
     category: 'ocular',
     subcategory: 'endophtalmitis',
     filename: 'endophthalmitis_candida',
@@ -3385,7 +3385,7 @@ const syndromeFilePaths = {
   },
   'ocular_endophtalmitis_endophthalmitis_glaucoma': {
     id: 'ocular_endophtalmitis_endophthalmitis_glaucoma',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/endophtalmitis/endophthalmitis_glaucoma.json',
+    filePath: './syndromes_json/ocular/endophtalmitis/endophthalmitis_glaucoma.json',
     category: 'ocular',
     subcategory: 'endophtalmitis',
     filename: 'endophthalmitis_glaucoma',
@@ -3395,7 +3395,7 @@ const syndromeFilePaths = {
   },
   'ocular_endophtalmitis_endophthalmitis_hematogenous_or_endogenous': {
     id: 'ocular_endophtalmitis_endophthalmitis_hematogenous_or_endogenous',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/endophtalmitis/endophthalmitis_hematogenous_or_endogenous.json',
+    filePath: './syndromes_json/ocular/endophtalmitis/endophthalmitis_hematogenous_or_endogenous.json',
     category: 'ocular',
     subcategory: 'endophtalmitis',
     filename: 'endophthalmitis_hematogenous_or_endogenous',
@@ -3405,7 +3405,7 @@ const syndromeFilePaths = {
   },
   'ocular_endophtalmitis_endophthalmitis_overview': {
     id: 'ocular_endophtalmitis_endophthalmitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/endophtalmitis/endophthalmitis_overview.json',
+    filePath: './syndromes_json/ocular/endophtalmitis/endophthalmitis_overview.json',
     category: 'ocular',
     subcategory: 'endophtalmitis',
     filename: 'endophthalmitis_overview',
@@ -3415,7 +3415,7 @@ const syndromeFilePaths = {
   },
   'ocular_endophtalmitis_endophthalmitis_post_surgical_or_post_injection': {
     id: 'ocular_endophtalmitis_endophthalmitis_post_surgical_or_post_injection',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/endophtalmitis/endophthalmitis_post-surgical_or_post-injection.json',
+    filePath: './syndromes_json/ocular/endophtalmitis/endophthalmitis_post-surgical_or_post-injection.json',
     category: 'ocular',
     subcategory: 'endophtalmitis',
     filename: 'endophthalmitis_post-surgical_or_post-injection',
@@ -3425,7 +3425,7 @@ const syndromeFilePaths = {
   },
   'ocular_endophtalmitis_endophthalmitis_post_traumatic': {
     id: 'ocular_endophtalmitis_endophthalmitis_post_traumatic',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/endophtalmitis/endophthalmitis_post-traumatic.json',
+    filePath: './syndromes_json/ocular/endophtalmitis/endophthalmitis_post-traumatic.json',
     category: 'ocular',
     subcategory: 'endophtalmitis',
     filename: 'endophthalmitis_post-traumatic',
@@ -3435,7 +3435,7 @@ const syndromeFilePaths = {
   },
   'ocular_eyelid_blepharitis': {
     id: 'ocular_eyelid_blepharitis',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/eyelid/blepharitis.json',
+    filePath: './syndromes_json/ocular/eyelid/blepharitis.json',
     category: 'ocular',
     subcategory: 'eyelid',
     filename: 'blepharitis',
@@ -3445,7 +3445,7 @@ const syndromeFilePaths = {
   },
   'ocular_eyelid_hordeolum_stye': {
     id: 'ocular_eyelid_hordeolum_stye',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/eyelid/hordeolum_stye.json',
+    filePath: './syndromes_json/ocular/eyelid/hordeolum_stye.json',
     category: 'ocular',
     subcategory: 'eyelid',
     filename: 'hordeolum_stye',
@@ -3455,7 +3455,7 @@ const syndromeFilePaths = {
   },
   'ocular_lacrimal_canaliculitis': {
     id: 'ocular_lacrimal_canaliculitis',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/lacrimal/canaliculitis.json',
+    filePath: './syndromes_json/ocular/lacrimal/canaliculitis.json',
     category: 'ocular',
     subcategory: 'lacrimal',
     filename: 'canaliculitis',
@@ -3465,7 +3465,7 @@ const syndromeFilePaths = {
   },
   'ocular_lacrimal_dacryocystitis': {
     id: 'ocular_lacrimal_dacryocystitis',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/lacrimal/dacryocystitis.json',
+    filePath: './syndromes_json/ocular/lacrimal/dacryocystitis.json',
     category: 'ocular',
     subcategory: 'lacrimal',
     filename: 'dacryocystitis',
@@ -3475,7 +3475,7 @@ const syndromeFilePaths = {
   },
   'ocular_orbital_cellulitis_periorbital_cellulitis': {
     id: 'ocular_orbital_cellulitis_periorbital_cellulitis',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/orbital_cellulitis_periorbital_cellulitis.json',
+    filePath: './syndromes_json/ocular/orbital_cellulitis_periorbital_cellulitis.json',
     category: 'ocular',
     subcategory: null,
     filename: 'orbital_cellulitis_periorbital_cellulitis',
@@ -3485,7 +3485,7 @@ const syndromeFilePaths = {
   },
   'ocular_retinitis_acute_retinal_necrosis': {
     id: 'ocular_retinitis_acute_retinal_necrosis',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/retinitis/acute_retinal_necrosis.json',
+    filePath: './syndromes_json/ocular/retinitis/acute_retinal_necrosis.json',
     category: 'ocular',
     subcategory: 'retinitis',
     filename: 'acute_retinal_necrosis',
@@ -3495,7 +3495,7 @@ const syndromeFilePaths = {
   },
   'ocular_retinitis_retinitis_cytomegalovirus': {
     id: 'ocular_retinitis_retinitis_cytomegalovirus',
-    filePath: '/antibiogram_react_app/syndromes_json/ocular/retinitis/retinitis_cytomegalovirus.json',
+    filePath: './syndromes_json/ocular/retinitis/retinitis_cytomegalovirus.json',
     category: 'ocular',
     subcategory: 'retinitis',
     filename: 'retinitis_cytomegalovirus',
@@ -3505,7 +3505,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Celulitis_cellulitis_erysipelas_diabetes_mellitus': {
     id: 'skin_and_soft_tissues_Celulitis_cellulitis_erysipelas_diabetes_mellitus',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Celulitis/cellulitis_erysipelas_diabetes_mellitus.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Celulitis/cellulitis_erysipelas_diabetes_mellitus.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Celulitis',
     filename: 'cellulitis_erysipelas_diabetes_mellitus',
@@ -3515,7 +3515,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Celulitis_cellulitis_erysipelas_extremities': {
     id: 'skin_and_soft_tissues_Celulitis_cellulitis_erysipelas_extremities',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Celulitis/cellulitis_erysipelas_extremities.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Celulitis/cellulitis_erysipelas_extremities.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Celulitis',
     filename: 'cellulitis_erysipelas_extremities',
@@ -3525,7 +3525,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Celulitis_cellulitis_erysipelas_facial': {
     id: 'skin_and_soft_tissues_Celulitis_cellulitis_erysipelas_facial',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Celulitis/cellulitis_erysipelas_facial.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Celulitis/cellulitis_erysipelas_facial.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Celulitis',
     filename: 'cellulitis_erysipelas_facial',
@@ -3535,7 +3535,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Celulitis_erysipelas_recurrent_lymphedema': {
     id: 'skin_and_soft_tissues_Celulitis_erysipelas_recurrent_lymphedema',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Celulitis/erysipelas_recurrent_lymphedema.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Celulitis/erysipelas_recurrent_lymphedema.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Celulitis',
     filename: 'erysipelas_recurrent_lymphedema',
@@ -3545,7 +3545,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Celulitis_orbital_cellulitis_periorbital_cellulitis': {
     id: 'skin_and_soft_tissues_Celulitis_orbital_cellulitis_periorbital_cellulitis',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Celulitis/orbital_cellulitis_periorbital_cellulitis.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Celulitis/orbital_cellulitis_periorbital_cellulitis.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Celulitis',
     filename: 'orbital_cellulitis_periorbital_cellulitis',
@@ -3555,7 +3555,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Herpetic_herpes_simplex_bells_palsy': {
     id: 'skin_and_soft_tissues_Herpetic_herpes_simplex_bells_palsy',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Herpetic/herpes_simplex_bells_palsy.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Herpetic/herpes_simplex_bells_palsy.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Herpetic',
     filename: 'herpes_simplex_bells_palsy',
@@ -3565,7 +3565,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Herpetic_herpes_zoster_shingles': {
     id: 'skin_and_soft_tissues_Herpetic_herpes_zoster_shingles',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Herpetic/herpes_zoster_shingles.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Herpetic/herpes_zoster_shingles.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Herpetic',
     filename: 'herpes_zoster_shingles',
@@ -3575,7 +3575,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Herpetic_varicella_zoster_virus_chickenpox': {
     id: 'skin_and_soft_tissues_Herpetic_varicella_zoster_virus_chickenpox',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Herpetic/varicella-zoster_virus_chickenpox.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Herpetic/varicella-zoster_virus_chickenpox.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Herpetic',
     filename: 'varicella-zoster_virus_chickenpox',
@@ -3585,7 +3585,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Impetigo_impetigo': {
     id: 'skin_and_soft_tissues_Impetigo_impetigo',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Impetigo/impetigo.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Impetigo/impetigo.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Impetigo',
     filename: 'impetigo',
@@ -3595,7 +3595,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Lyme_erythema_migrans_lyme_disease_early': {
     id: 'skin_and_soft_tissues_Lyme_erythema_migrans_lyme_disease_early',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Lyme/erythema_migrans_lyme_disease_early.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Lyme/erythema_migrans_lyme_disease_early.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Lyme',
     filename: 'erythema_migrans_lyme_disease_early',
@@ -3605,7 +3605,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Lyme_lyme_disease_post_lyme_syndrome_ptlds': {
     id: 'skin_and_soft_tissues_Lyme_lyme_disease_post_lyme_syndrome_ptlds',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Lyme/lyme_disease_post-lyme_syndrome_ptlds.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Lyme/lyme_disease_post-lyme_syndrome_ptlds.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Lyme',
     filename: 'lyme_disease_post-lyme_syndrome_ptlds',
@@ -3615,7 +3615,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_clostridia_sp': {
     id: 'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_clostridia_sp',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_clostridia_sp.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_clostridia_sp.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Necrotizing_fascitis',
     filename: 'necrotizing_fasciitis_clostridia_sp',
@@ -3625,7 +3625,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_staph_aureus': {
     id: 'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_staph_aureus',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_staph_aureus.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_staph_aureus.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Necrotizing_fascitis',
     filename: 'necrotizing_fasciitis_staph_aureus',
@@ -3635,7 +3635,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_streptococcal': {
     id: 'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_streptococcal',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_streptococcal.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_streptococcal.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Necrotizing_fascitis',
     filename: 'necrotizing_fasciitis_streptococcal',
@@ -3645,7 +3645,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_synergistic': {
     id: 'skin_and_soft_tissues_Necrotizing_fascitis_necrotizing_fasciitis_synergistic',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_synergistic.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Necrotizing_fascitis/necrotizing_fasciitis_synergistic.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Necrotizing_fascitis',
     filename: 'necrotizing_fasciitis_synergistic',
@@ -3655,7 +3655,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Orf_ectyma_orf_ecthyma_contagiosum': {
     id: 'skin_and_soft_tissues_Orf_ectyma_orf_ecthyma_contagiosum',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Orf-ectyma/orf_ecthyma_contagiosum.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Orf-ectyma/orf_ecthyma_contagiosum.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Orf-ectyma',
     filename: 'orf_ecthyma_contagiosum',
@@ -3665,7 +3665,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Superficial_corynebacterium_minutissimum': {
     id: 'skin_and_soft_tissues_Superficial_corynebacterium_minutissimum',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Superficial/corynebacterium_minutissimum.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Superficial/corynebacterium_minutissimum.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Superficial',
     filename: 'corynebacterium_minutissimum',
@@ -3675,7 +3675,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Superficial_folliculitis': {
     id: 'skin_and_soft_tissues_Superficial_folliculitis',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Superficial/folliculitis.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Superficial/folliculitis.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Superficial',
     filename: 'folliculitis',
@@ -3685,7 +3685,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Wound_vibrio_vulnificus_v_alginolyticus_v_damsela': {
     id: 'skin_and_soft_tissues_Wound_vibrio_vulnificus_v_alginolyticus_v_damsela',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Wound/vibrio_vulnificus_v_alginolyticus_v_damsela.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Wound/vibrio_vulnificus_v_alginolyticus_v_damsela.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Wound',
     filename: 'vibrio_vulnificus_v_alginolyticus_v_damsela',
@@ -3695,7 +3695,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Wound_wound_infection_post_operative_negative_gram_stain': {
     id: 'skin_and_soft_tissues_Wound_wound_infection_post_operative_negative_gram_stain',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Wound/wound_infection_post-operative_negative_gram_stain.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Wound/wound_infection_post-operative_negative_gram_stain.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Wound',
     filename: 'wound_infection_post-operative_negative_gram_stain',
@@ -3705,7 +3705,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Wound_wound_infection_post_operative_positive_gram_stain': {
     id: 'skin_and_soft_tissues_Wound_wound_infection_post_operative_positive_gram_stain',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Wound/wound_infection_post-operative_positive_gram_stain.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Wound/wound_infection_post-operative_positive_gram_stain.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Wound',
     filename: 'wound_infection_post-operative_positive_gram_stain',
@@ -3715,7 +3715,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_Wound_wound_infection_post_trauma': {
     id: 'skin_and_soft_tissues_Wound_wound_infection_post_trauma',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/Wound/wound_infection_post-trauma.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/Wound/wound_infection_post-trauma.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'Wound',
     filename: 'wound_infection_post-trauma',
@@ -3725,7 +3725,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_abscess_furunculosis_recurrent': {
     id: 'skin_and_soft_tissues_abscess_furunculosis_recurrent',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/abscess/furunculosis_recurrent.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/abscess/furunculosis_recurrent.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'abscess',
     filename: 'furunculosis_recurrent',
@@ -3735,7 +3735,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_abscess_pilonidal_cyst_pilonidal_abscess': {
     id: 'skin_and_soft_tissues_abscess_pilonidal_cyst_pilonidal_abscess',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/abscess/pilonidal_cyst_pilonidal_abscess.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/abscess/pilonidal_cyst_pilonidal_abscess.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'abscess',
     filename: 'pilonidal_cyst_pilonidal_abscess',
@@ -3745,7 +3745,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_abscess_skin_abscess_boils_furuncles': {
     id: 'skin_and_soft_tissues_abscess_skin_abscess_boils_furuncles',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/abscess/skin_abscess_boils_furuncles.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/abscess/skin_abscess_boils_furuncles.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'abscess',
     filename: 'skin_abscess_boils_furuncles',
@@ -3755,7 +3755,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_anthrax_cutaneous': {
     id: 'skin_and_soft_tissues_anthrax_cutaneous',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/anthrax_cutaneous.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/anthrax_cutaneous.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'anthrax_cutaneous',
@@ -3765,7 +3765,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bacillary_angiomatosis_peliosis': {
     id: 'skin_and_soft_tissues_bacillary_angiomatosis_peliosis',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bacillary_angiomatosis_peliosis.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bacillary_angiomatosis_peliosis.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'bacillary_angiomatosis_peliosis',
@@ -3775,7 +3775,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_alligator_crocodile': {
     id: 'skin_and_soft_tissues_bites_bite_alligator_crocodile',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_alligator_crocodile.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_alligator_crocodile.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_alligator_crocodile',
@@ -3785,7 +3785,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_bat_raccoon_skunk': {
     id: 'skin_and_soft_tissues_bites_bite_bat_raccoon_skunk',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_bat_raccoon_skunk.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_bat_raccoon_skunk.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_bat_raccoon_skunk',
@@ -3795,7 +3795,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_bear': {
     id: 'skin_and_soft_tissues_bites_bite_bear',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_bear.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_bear.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_bear',
@@ -3805,7 +3805,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_camel': {
     id: 'skin_and_soft_tissues_bites_bite_camel',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_camel.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_camel.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_camel',
@@ -3815,7 +3815,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_cat': {
     id: 'skin_and_soft_tissues_bites_bite_cat',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_cat.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_cat.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_cat',
@@ -3825,7 +3825,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_dog': {
     id: 'skin_and_soft_tissues_bites_bite_dog',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_dog.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_dog.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_dog',
@@ -3835,7 +3835,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_horse': {
     id: 'skin_and_soft_tissues_bites_bite_horse',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_horse.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_horse.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_horse',
@@ -3845,7 +3845,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_human': {
     id: 'skin_and_soft_tissues_bites_bite_human',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_human.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_human.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_human',
@@ -3855,7 +3855,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_komodo_dragon': {
     id: 'skin_and_soft_tissues_bites_bite_komodo_dragon',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_komodo_dragon.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_komodo_dragon.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_komodo_dragon',
@@ -3865,7 +3865,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_lizard_iguana': {
     id: 'skin_and_soft_tissues_bites_bite_lizard_iguana',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_lizard_iguana.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_lizard_iguana.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_lizard_iguana',
@@ -3875,7 +3875,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_monkey_other_primates': {
     id: 'skin_and_soft_tissues_bites_bite_monkey_other_primates',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_monkey_other_primates.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_monkey_other_primates.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_monkey_other_primates',
@@ -3885,7 +3885,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_pig_swine': {
     id: 'skin_and_soft_tissues_bites_bite_pig_swine',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_pig_swine.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_pig_swine.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_pig_swine',
@@ -3895,7 +3895,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_prairie_dog': {
     id: 'skin_and_soft_tissues_bites_bite_prairie_dog',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_prairie_dog.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_prairie_dog.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_prairie_dog',
@@ -3905,7 +3905,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_rat': {
     id: 'skin_and_soft_tissues_bites_bite_rat',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_rat.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_rat.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_rat',
@@ -3915,7 +3915,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_seal': {
     id: 'skin_and_soft_tissues_bites_bite_seal',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_seal.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_seal.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_seal',
@@ -3925,7 +3925,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_shark': {
     id: 'skin_and_soft_tissues_bites_bite_shark',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_shark.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_shark.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_shark',
@@ -3935,7 +3935,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_spider': {
     id: 'skin_and_soft_tissues_bites_bite_spider',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_spider.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_spider.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_spider',
@@ -3945,7 +3945,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_swan': {
     id: 'skin_and_soft_tissues_bites_bite_swan',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_swan.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_swan.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_swan',
@@ -3955,7 +3955,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_tasmanian_devil': {
     id: 'skin_and_soft_tissues_bites_bite_tasmanian_devil',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_tasmanian_devil.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_tasmanian_devil.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_tasmanian_devil',
@@ -3965,7 +3965,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_bite_venomous_snake': {
     id: 'skin_and_soft_tissues_bites_bite_venomous_snake',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/bite_venomous_snake.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/bite_venomous_snake.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'bite_venomous_snake',
@@ -3975,7 +3975,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bites_catfish_sting': {
     id: 'skin_and_soft_tissues_bites_catfish_sting',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bites/catfish_sting.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bites/catfish_sting.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bites',
     filename: 'catfish_sting',
@@ -3985,7 +3985,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_breasts_mastitis_breast_implant': {
     id: 'skin_and_soft_tissues_breasts_mastitis_breast_implant',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/breasts/mastitis_breast_implant.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/breasts/mastitis_breast_implant.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'breasts',
     filename: 'mastitis_breast_implant',
@@ -3995,7 +3995,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_breasts_mastitis_non_puerperal': {
     id: 'skin_and_soft_tissues_breasts_mastitis_non_puerperal',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/breasts/mastitis_non-puerperal.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/breasts/mastitis_non-puerperal.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'breasts',
     filename: 'mastitis_non-puerperal',
@@ -4005,7 +4005,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_breasts_mastitis_overview': {
     id: 'skin_and_soft_tissues_breasts_mastitis_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/breasts/mastitis_overview.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/breasts/mastitis_overview.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'breasts',
     filename: 'mastitis_overview',
@@ -4015,7 +4015,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_breasts_mastitis_postpartum': {
     id: 'skin_and_soft_tissues_breasts_mastitis_postpartum',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/breasts/mastitis_postpartum.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/breasts/mastitis_postpartum.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'breasts',
     filename: 'mastitis_postpartum',
@@ -4025,7 +4025,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bullous_or_vesicular_herpes_zoster_shingles': {
     id: 'skin_and_soft_tissues_bullous_or_vesicular_herpes_zoster_shingles',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/herpes_zoster_shingles.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/herpes_zoster_shingles.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bullous_or_vesicular',
     filename: 'herpes_zoster_shingles',
@@ -4035,7 +4035,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bullous_or_vesicular_impetigo': {
     id: 'skin_and_soft_tissues_bullous_or_vesicular_impetigo',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/impetigo.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/impetigo.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bullous_or_vesicular',
     filename: 'impetigo',
@@ -4045,7 +4045,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bullous_or_vesicular_staphylococcal_scalded_skin_syndrome': {
     id: 'skin_and_soft_tissues_bullous_or_vesicular_staphylococcal_scalded_skin_syndrome',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/staphylococcal_scalded_skin_syndrome.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/staphylococcal_scalded_skin_syndrome.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bullous_or_vesicular',
     filename: 'staphylococcal_scalded_skin_syndrome',
@@ -4055,7 +4055,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bullous_or_vesicular_varicella_zoster_virus_chickenpox': {
     id: 'skin_and_soft_tissues_bullous_or_vesicular_varicella_zoster_virus_chickenpox',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/varicella-zoster_virus_chickenpox.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/varicella-zoster_virus_chickenpox.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bullous_or_vesicular',
     filename: 'varicella-zoster_virus_chickenpox',
@@ -4065,7 +4065,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_bullous_or_vesicular_vibrio_vulnificus_v_alginolyticus_v_damsela': {
     id: 'skin_and_soft_tissues_bullous_or_vesicular_vibrio_vulnificus_v_alginolyticus_v_damsela',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/vibrio_vulnificus_v_alginolyticus_v_damsela.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/bullous_or_vesicular/vibrio_vulnificus_v_alginolyticus_v_damsela.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'bullous_or_vesicular',
     filename: 'vibrio_vulnificus_v_alginolyticus_v_damsela',
@@ -4075,7 +4075,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_burns_burns_infected_wound': {
     id: 'skin_and_soft_tissues_burns_burns_infected_wound',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/burns/burns_infected_wound.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/burns/burns_infected_wound.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'burns',
     filename: 'burns_infected_wound',
@@ -4085,7 +4085,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_burns_burns_non_infected': {
     id: 'skin_and_soft_tissues_burns_burns_non_infected',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/burns/burns_non-infected.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/burns/burns_non-infected.json',
     category: 'skin_and_soft_tissues',
     subcategory: 'burns',
     filename: 'burns_non-infected',
@@ -4095,7 +4095,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_erythema_migrans_lyme_disease_early': {
     id: 'skin_and_soft_tissues_erythema_migrans_lyme_disease_early',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/erythema_migrans_lyme_disease_early.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/erythema_migrans_lyme_disease_early.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'erythema_migrans_lyme_disease_early',
@@ -4105,7 +4105,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_erythema_nodosum': {
     id: 'skin_and_soft_tissues_erythema_nodosum',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/erythema_nodosum.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/erythema_nodosum.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'erythema_nodosum',
@@ -4115,7 +4115,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_orf_ecthyma_contagiosum': {
     id: 'skin_and_soft_tissues_orf_ecthyma_contagiosum',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/orf_ecthyma_contagiosum.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/orf_ecthyma_contagiosum.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'orf_ecthyma_contagiosum',
@@ -4125,7 +4125,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_skin_soft_tissue_infections_overview': {
     id: 'skin_and_soft_tissues_skin_soft_tissue_infections_overview',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/skin_soft_tissue_infections_overview.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/skin_soft_tissue_infections_overview.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'skin_soft_tissue_infections_overview',
@@ -4135,7 +4135,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_ulcerated_skin_venous_arterial_insufficiency_pressure_decubuti': {
     id: 'skin_and_soft_tissues_ulcerated_skin_venous_arterial_insufficiency_pressure_decubuti',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/ulcerated_skin_venous_arterial_insufficiency_pressure_decubuti.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/ulcerated_skin_venous_arterial_insufficiency_pressure_decubuti.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'ulcerated_skin_venous_arterial_insufficiency_pressure_decubuti',
@@ -4145,7 +4145,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_wound_leeches_medicinal': {
     id: 'skin_and_soft_tissues_wound_leeches_medicinal',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/wound_leeches_medicinal.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/wound_leeches_medicinal.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'wound_leeches_medicinal',
@@ -4155,7 +4155,7 @@ const syndromeFilePaths = {
   },
   'skin_and_soft_tissues_yaws': {
     id: 'skin_and_soft_tissues_yaws',
-    filePath: '/antibiogram_react_app/syndromes_json/skin_and_soft_tissues/yaws.json',
+    filePath: './syndromes_json/skin_and_soft_tissues/yaws.json',
     category: 'skin_and_soft_tissues',
     subcategory: null,
     filename: 'yaws',
@@ -4165,7 +4165,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_otitis_media_otitis_media_acute_empiric_therapy': {
     id: 'upper_respiratory_otitis_media_otitis_media_acute_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/otitis_media/otitis_media_acute_empiric_therapy.json',
+    filePath: './syndromes_json/upper_respiratory/otitis_media/otitis_media_acute_empiric_therapy.json',
     category: 'upper_respiratory',
     subcategory: 'otitis_media',
     filename: 'otitis_media_acute_empiric_therapy',
@@ -4175,7 +4175,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_otitis_media_otitis_media_post_intubation': {
     id: 'upper_respiratory_otitis_media_otitis_media_post_intubation',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/otitis_media/otitis_media_post_intubation.json',
+    filePath: './syndromes_json/upper_respiratory/otitis_media/otitis_media_post_intubation.json',
     category: 'upper_respiratory',
     subcategory: 'otitis_media',
     filename: 'otitis_media_post_intubation',
@@ -4185,7 +4185,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_otitis_media_otitis_media_prophylaxis': {
     id: 'upper_respiratory_otitis_media_otitis_media_prophylaxis',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/otitis_media/otitis_media_prophylaxis.json',
+    filePath: './syndromes_json/upper_respiratory/otitis_media/otitis_media_prophylaxis.json',
     category: 'upper_respiratory',
     subcategory: 'otitis_media',
     filename: 'otitis_media_prophylaxis',
@@ -4195,7 +4195,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_pharyngitis_epiglottitis_supraglottitis': {
     id: 'upper_respiratory_pharyngitis_epiglottitis_supraglottitis',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/pharyngitis/epiglottitis_supraglottitis.json',
+    filePath: './syndromes_json/upper_respiratory/pharyngitis/epiglottitis_supraglottitis.json',
     category: 'upper_respiratory',
     subcategory: 'pharyngitis',
     filename: 'epiglottitis_supraglottitis',
@@ -4205,7 +4205,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_pharyngitis_jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome': {
     id: 'upper_respiratory_pharyngitis_jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/pharyngitis/jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome.json',
+    filePath: './syndromes_json/upper_respiratory/pharyngitis/jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome.json',
     category: 'upper_respiratory',
     subcategory: 'pharyngitis',
     filename: 'jugular_vein_suppurative_septic_thrombophlebitis_lemierres_syndrome',
@@ -4215,7 +4215,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_pharyngitis_laryngitis_acute': {
     id: 'upper_respiratory_pharyngitis_laryngitis_acute',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/pharyngitis/laryngitis_acute.json',
+    filePath: './syndromes_json/upper_respiratory/pharyngitis/laryngitis_acute.json',
     category: 'upper_respiratory',
     subcategory: 'pharyngitis',
     filename: 'laryngitis_acute',
@@ -4225,7 +4225,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_pharyngitis_mouth_parapharyngeal_space_infection': {
     id: 'upper_respiratory_pharyngitis_mouth_parapharyngeal_space_infection',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/pharyngitis/mouth_parapharyngeal_space_infection.json',
+    filePath: './syndromes_json/upper_respiratory/pharyngitis/mouth_parapharyngeal_space_infection.json',
     category: 'upper_respiratory',
     subcategory: 'pharyngitis',
     filename: 'mouth_parapharyngeal_space_infection',
@@ -4235,7 +4235,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_pharyngitis_pharyngitis_tonsillitis': {
     id: 'upper_respiratory_pharyngitis_pharyngitis_tonsillitis',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/pharyngitis/pharyngitis_tonsillitis.json',
+    filePath: './syndromes_json/upper_respiratory/pharyngitis/pharyngitis_tonsillitis.json',
     category: 'upper_respiratory',
     subcategory: 'pharyngitis',
     filename: 'pharyngitis_tonsillitis',
@@ -4245,7 +4245,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_pharyngitis_streptococcal_pharyngitis': {
     id: 'upper_respiratory_pharyngitis_streptococcal_pharyngitis',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/pharyngitis/streptococcal_pharyngitis.json',
+    filePath: './syndromes_json/upper_respiratory/pharyngitis/streptococcal_pharyngitis.json',
     category: 'upper_respiratory',
     subcategory: 'pharyngitis',
     filename: 'streptococcal_pharyngitis',
@@ -4255,7 +4255,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_sinusitis_empyema_subdural': {
     id: 'upper_respiratory_sinusitis_empyema_subdural',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/sinusitis/empyema_subdural.json',
+    filePath: './syndromes_json/upper_respiratory/sinusitis/empyema_subdural.json',
     category: 'upper_respiratory',
     subcategory: 'sinusitis',
     filename: 'empyema_subdural',
@@ -4265,7 +4265,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_sinusitis_sinusitis_acute_failure_of_empiric_therapy': {
     id: 'upper_respiratory_sinusitis_sinusitis_acute_failure_of_empiric_therapy',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/sinusitis/sinusitis_acute_failure_of_empiric_therapy.json',
+    filePath: './syndromes_json/upper_respiratory/sinusitis/sinusitis_acute_failure_of_empiric_therapy.json',
     category: 'upper_respiratory',
     subcategory: 'sinusitis',
     filename: 'sinusitis_acute_failure_of_empiric_therapy',
@@ -4275,7 +4275,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_sinusitis_sinusitis_intubation_associated': {
     id: 'upper_respiratory_sinusitis_sinusitis_intubation_associated',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/sinusitis/sinusitis_intubation_associated.json',
+    filePath: './syndromes_json/upper_respiratory/sinusitis/sinusitis_intubation_associated.json',
     category: 'upper_respiratory',
     subcategory: 'sinusitis',
     filename: 'sinusitis_intubation_associated',
@@ -4285,7 +4285,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_sinusitis_sinusitis_rhinosinusitis_acute': {
     id: 'upper_respiratory_sinusitis_sinusitis_rhinosinusitis_acute',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/sinusitis/sinusitis_rhinosinusitis_acute.json',
+    filePath: './syndromes_json/upper_respiratory/sinusitis/sinusitis_rhinosinusitis_acute.json',
     category: 'upper_respiratory',
     subcategory: 'sinusitis',
     filename: 'sinusitis_rhinosinusitis_acute',
@@ -4295,7 +4295,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_sinusitis_sinusitis_rhinosinusitis_chronic': {
     id: 'upper_respiratory_sinusitis_sinusitis_rhinosinusitis_chronic',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/sinusitis/sinusitis_rhinosinusitis_chronic.json',
+    filePath: './syndromes_json/upper_respiratory/sinusitis/sinusitis_rhinosinusitis_chronic.json',
     category: 'upper_respiratory',
     subcategory: 'sinusitis',
     filename: 'sinusitis_rhinosinusitis_chronic',
@@ -4305,7 +4305,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_stomatitis_cellulitis_buccal': {
     id: 'upper_respiratory_stomatitis_cellulitis_buccal',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/stomatitis/cellulitis_buccal.json',
+    filePath: './syndromes_json/upper_respiratory/stomatitis/cellulitis_buccal.json',
     category: 'upper_respiratory',
     subcategory: 'stomatitis',
     filename: 'cellulitis_buccal',
@@ -4315,7 +4315,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_stomatitis_herpes_simplex_oral_lesions_mouth_lips': {
     id: 'upper_respiratory_stomatitis_herpes_simplex_oral_lesions_mouth_lips',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/stomatitis/herpes_simplex_oral_lesions_mouth_lips.json',
+    filePath: './syndromes_json/upper_respiratory/stomatitis/herpes_simplex_oral_lesions_mouth_lips.json',
     category: 'upper_respiratory',
     subcategory: 'stomatitis',
     filename: 'herpes_simplex_oral_lesions_mouth_lips',
@@ -4325,7 +4325,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_stomatitis_tooth_odontogenic_infection_ludwigs_angina': {
     id: 'upper_respiratory_stomatitis_tooth_odontogenic_infection_ludwigs_angina',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/stomatitis/tooth_odontogenic_infection_ludwigs_angina.json',
+    filePath: './syndromes_json/upper_respiratory/stomatitis/tooth_odontogenic_infection_ludwigs_angina.json',
     category: 'upper_respiratory',
     subcategory: 'stomatitis',
     filename: 'tooth_odontogenic_infection_ludwigs_angina',
@@ -4335,7 +4335,7 @@ const syndromeFilePaths = {
   },
   'upper_respiratory_stomatitis_vincents_angina_necrotizing_gingivitis_trench_mouth': {
     id: 'upper_respiratory_stomatitis_vincents_angina_necrotizing_gingivitis_trench_mouth',
-    filePath: '/antibiogram_react_app/syndromes_json/upper_respiratory/stomatitis/vincents_angina_necrotizing_gingivitis_trench_mouth.json',
+    filePath: './syndromes_json/upper_respiratory/stomatitis/vincents_angina_necrotizing_gingivitis_trench_mouth.json',
     category: 'upper_respiratory',
     subcategory: 'stomatitis',
     filename: 'vincents_angina_necrotizing_gingivitis_trench_mouth',
@@ -4398,15 +4398,28 @@ export async function searchSyndromes(searchTerm) {
   );
 }
 
+// Dynamically resolve the correct base path
+function resolveBasePath() {
+  // Check if we're on GitHub Pages
+  if (window.location.hostname === 'ertwro.github.io' && window.location.pathname.startsWith('/antibiogram_react_app')) {
+    return '/antibiogram_react_app';
+  }
+  // Otherwise use relative paths
+  return '.';
+}
+
 // Load all syndromes data asynchronously
 async function loadAllSyndromes() {
   if (isLoading) return;
   isLoading = true;
   
   try {
+    const basePath = resolveBasePath();
     const loadPromises = Object.entries(syndromeFilePaths).map(async ([id, syndromeInfo]) => {
       try {
-        const response = await fetch(syndromeInfo.filePath);
+        // Resolve the full path based on current context
+        const fullPath = syndromeInfo.filePath.replace('./', `${basePath}/`);
+        const response = await fetch(fullPath);
         if (response.ok) {
           const data = await response.json();
           return {
@@ -4416,7 +4429,7 @@ async function loadAllSyndromes() {
             loaded: true
           };
         } else {
-          console.warn(`Failed to load syndrome: ${syndromeInfo.filePath}`);
+          console.warn(`Failed to load syndrome: ${fullPath}`);
           return {
             id,
             ...syndromeInfo,
