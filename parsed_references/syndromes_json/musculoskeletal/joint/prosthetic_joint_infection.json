@@ -1,7 +1,7 @@
 {
   "documentMetadata": {
     "title": "Prosthetic Joint Infection",
-    "lastUpdated": "2023-11-08",
+    "lastUpdated": "2025-07-21",
     "sourceFile": "Prosthetic Joint Infection.pdf"
   },
   "content": [
@@ -53,6 +53,19 @@
       "type": "list",
       "items": [
         "Criteria for diagnosis of hip or knee periprosthetic joint infection: New Engl J Med. 2023;388: 251"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Radiologic and Other Diagnostic Findings"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Radiographs may show periprosthetic radiolucency (>2 mm), rapidly progressive osteolysis, or periosteal reaction, but can be normal in early infection.",
+        "CT and MRI can better define bone changes, soft tissue abscesses, and sinus tracts, though metal artifact can be a limitation.",
+        "When other imaging is inconclusive, labeled leukocyte scintigraphy or FDG-PET/CT can help identify sites of inflammation and infection."
       ]
     },
     {
