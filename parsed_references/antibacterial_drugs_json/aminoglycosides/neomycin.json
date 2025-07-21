@@ -1,0 +1,71 @@
+{
+  "drug_name": "Neomycin",
+  "usage_and_dosing": {
+    "description": "Neomycin is an oral aminoglycoside used as bowel preparation pre-operatively for resectional GI surgery and for treatment of hepatic encephalopathy. Systemic absorption can occur and lead to ototoxicity, neurotoxicity or nephrotoxicity (Black Box Warning). Low concentration in non-prescription topical creams and ointments. Active in vitro vs. staphylococci and most aerobic Gram-negative bacteria; resistant to streptococci and Gram-positive bacilli",
+    "adult_dose": [
+      {
+        "route": "Bowel preparation, pre-GI surgery",
+        "dose": "1 gm at 1, 2 and 11 pm on day preceding surgery + Erythromycin 1 gm po at the same times + mechanical cleansing"
+      },
+      {
+        "route": "Hepatic encephalopathy",
+        "dose": "500-2000 mg q6-8h for 5-6 days; seek safer alternative for longer use"
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "HE: 50-100 mg/kg/day (divided q6-8hr) x5-6 days. Seek safer alternative for longer use."
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "2-3 hrs",
+    "half_life_esrd": "30-70 hrs",
+    "dose_renal_function_normal": "1 gm po x3 (prior to surgery)",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "No significant adverse effects"
+  ],
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Aerobic gram-negative bacilli"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Tab (500 mg)",
+    "food_rec_po_drugs": "Tab + food",
+    "oral_absorption": "<3%",
+    "tmax": "No data",
+    "peak_serum_conc": "No data",
+    "peak_urine_conc": "No data",
+    "protein_binding": "No data",
+    "volume_of_distribution": "No data",
+    "avg_serum_t1_2": "No data",
+    "elimination": "Negligible absorption",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "No data"
+  },
+  "major_drug_interactions": [
+    "None significant"
+  ],
+  "comments": [
+    "Avoid concomitant agents and factors that enhance oto-, neuro- or nephrotoxicity",
+    "For treatment of hepatic encephalopathy, considered an alternative agent; safer agents are available (Hepatology 60: 715, 2014).",
+    "Review: Clin Micro Review 30(3): 827, 2017."
+  ]
+}

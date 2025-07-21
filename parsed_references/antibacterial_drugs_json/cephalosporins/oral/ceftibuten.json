@@ -1,0 +1,66 @@
+{
+  "drug_name": "Ceftibuten",
+  "tradename": "Cedax",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftibuten is a 3rd-generation oral cephalosporin used to treat AECB, otitis media and Streptococcus pyogenes tonsillitis/pharyngitis. It has poor activity against staphylococci and is only active against penicillin-susceptible strains of Strep. pneumoniae.",
+      "Where available. No longer marketed in the U.S.",
+      "For Penicillin cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview. See also Penicillin (Beta Lactam) Allergy Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "400 mg po q24h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "9 mg/kg/day (divided q12-24h)",
+      "max_day": "1 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2.5",
+    "half_life_esrd": "13",
+    "dose_renal_function_normal": "400 mg po q24h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 200 mg q24h. CrCl <10: 100 mg q24h",
+    "hemodialysis": "100 mg q24h (dose AD on dialysis days)",
+    "capd": "100 mg po q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (2%), rash (rare), eosinophilia (5%), thrombocytopenia (rare), GI (6%), nausea/vomiting (2%), diarrhea (3%), C. difficile colitis, increased LFTs (rare), increased BUN/Creatinine (rare), headache (rare).",
+    "For class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (400 mg), oral susp (90 mg/5 mL, 180 mg/5 mL)",
+    "food_recommendation": "All preps no food",
+    "oral_absorption_percent": "80",
+    "tmax_hr": "2.6",
+    "peak_serum_conc_ug_ml": "15 (400 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "65",
+    "volume_of_distribution_vd_l_kg_vf": "0.21 L/kg (V/F)",
+    "avg_serum_half_life_hr": "2.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "73.7 (400 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ]
+}

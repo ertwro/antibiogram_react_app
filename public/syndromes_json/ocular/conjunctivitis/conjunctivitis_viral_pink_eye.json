@@ -1,0 +1,124 @@
+
+{
+  "documentMetadata": {
+    "title": "Viral Conjunctivitis (Pink Eye)",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Conjunctivitis, Viral (Pink Eye).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Viral conjunctivitis is the most common cause of infectious conjunctivitis. It is highly contagious and often caused by adenovirus. Other viral causes include herpes simplex virus (HSV), varicella-zoster virus (VZV), and enterovirus. It typically presents as part of a viral upper respiratory syndrome and spreads rapidly through direct contact with infected secretions."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Acute onset of redness, watery discharge (tearing), foreign body sensation, and photophobia. Often starts in one eye and spreads to the other within days."
+        },
+        {
+          "key": "Signs",
+          "value": "Conjunctival injection, watery or serous discharge, follicular conjunctivitis (small bumps on the tarsal conjunctiva), and tender preauricular lymphadenopathy. Corneal involvement (keratitis) can occur, presenting as subepithelial infiltrates which may affect vision."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Specific Syndromes"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "keyValuePairs",
+          "pairs": [
+            {
+              "key": "Pharyngoconjunctival Fever (PCF)",
+              "value": "Caused by adenovirus. Characterized by the triad of fever, pharyngitis, and a non-purulent follicular conjunctivitis."
+            },
+            {
+              "key": "Epidemic Keratoconjunctivitis (EKC)",
+              "value": "Also caused by adenovirus (specific serotypes). More severe, with significant corneal involvement (keratitis) that can lead to vision loss from subepithelial infiltrates. Highly contagious."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management is primarily supportive as most cases are self-limiting, resolving within 1-3 weeks. There is no specific antiviral therapy for adenoviral conjunctivitis."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Supportive Care"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Artificial tears for lubrication and symptomatic relief.",
+            "Cold compresses to reduce swelling and discomfort.",
+            "Strict hygiene measures (hand washing, not sharing towels) to prevent transmission.",
+            "Topical antihistamines/decongestants for itching and redness (use with caution)."
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Pharmacologic Therapy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Topical steroids may be used by an ophthalmologist to treat severe inflammation and vision-impairing subepithelial infiltrates in EKC, but they can prolong viral shedding and are not for routine use. Topical antibiotics are not indicated unless a bacterial co-infection is suspected."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Differential Diagnosis"
+    },
+    {
+      "type": "differentialDiagnosis",
+      "differentialData": {
+        "conditions": [
+          {
+            "conditionName": "Bacterial Conjunctivitis",
+            "differentiatingFeatures": "Typically has a purulent or mucopurulent discharge, and eyelids are often matted shut upon waking. Preauricular lymphadenopathy is less common."
+          },
+          {
+            "conditionName": "Allergic Conjunctivitis",
+            "differentiatingFeatures": "Itching is the predominant symptom. Often associated with a personal or family history of atopy. Discharge is typically watery or stringy."
+          }
+        ]
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Conjunctivitis, Bacterial",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Conjunctivitis, Bacterial"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "drug_name": "Sulbactam-durlobactam",
+  "tradename": "Xacduro",
+  "usage_and_dosing": {
+    "general_info": [
+      "Sulbactam-durlobactam is a co-packaged product approved for the treatment of hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia (HABP/VABP) caused by susceptible isolates of Acinetobacter baumannii-calcoaceticus complex in patients ≥18 years of age.",
+      "Sulbactam is a penicillanic acid sulfone. Besides functioning as an Ambler Class A beta-lactamase inhibitor, it has intrinsic antibacterial activity against Acinetobacter baumannii-calcoaceticus complex (via inhibition of PBP1a, PBP1b, and PBP3). Note that beta-lactamases of all four Ambler classes are able to degrade sulbactam (Front Microbiol 2021;12:709974).",
+      "Durlobactam is a diazabicyclooctane beta-lactamase inhibitor with broad-spectrum activity against Class A, C, and D enzymes, including Class D OXA carbapenemases that are prevalent in Acinetobacter baumannii. Durlobactam alone has no antibacterial activity against Acinetobacter baumannii-calcoaceticus complex isolates.",
+      "Reviews:",
+      "Expert Rev Anti Infect Ther 2025;23:67; Pharmacotherapy 2023;43:502.",
+      "Drug development: Clin Infect Dis 2023;76(Suppl 2):S163."
+    ],
+    "adult_dose": [
+      "(1 gm of sulbactam and 1 gm of durlobactam) IV (over 3 hr) q6h.",
+      "Compatible with NS. Compatibility with other solutions not established.",
+      "Recommended duration of treatment 7-14 days, guided by patient clinical status."
+    ],
+    "pediatric_dose": [
+      {
+        "guidance": "AMR gram-negative guidance: J Pediatric Infect Dis Soc 2025;14:piaf004",
+        "fda": "Per FDA: Safety and efficacy not established",
+        "amr_guidance": "Per AMR gram-negative guidance: Infants/children: 200 mg/kg/day (of sulbactam), divided q4-6h Adolescents: use adult dosing",
+        "max_day": "6 gm (of sulbactam)"
+      }
+    ],
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": "Sulbactam 2.15, Durlobactam 2.52",
+      "half_life_hrs_esrd": "No data",
+      "dose_renal_function_normal": "(Sul 1 gm + Durlo 1 gm) IV q6h",
+      "crcl_or_egfr": [
+        "CrCl ≥130: (Sul 1 gm + Durlo 1 gm) q4h",
+        "CrCl 45-129: No dosage adjustment",
+        "CrCl 30-44: (Sul 1 gm + Durlo 1 gm) q8h",
+        "CrCl 15-29: (Sul 1 gm + Durlo 1 gm) q12h",
+        "CrCl <15: (Sul 1 gm + Durlo 1 gm) q12h x3 doses, then q24h"
+      ],
+      "hemodialysis": "Use CrCl <15 dosing (dose AD on dialysis days)",
+      "capd": "No data",
+      "crrt": "No data",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Hypersensitivity reactions",
+    "C. difficile-associated diarrhea",
+    "Liver function test abnormalities",
+    "Anemia",
+    "Hypokalemia"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Sulbactam: no evidence of toxicity in humans or animals. Durlobactam: no human data, evidence of skeletal variations in mice.",
+    "use_during_lactation": "No data regarding effects on the breastfed infant or milk production. Sulbactam is present in milk in low concentrations; no data for durlobactam."
+  },
+  "pharmacology": {
+    "pk_pd_index": "Sulbactam: T>MIC, Durlobactam: 24h-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection",
+    "peak_serum_conc_mcg_ml": "Sulbactam: 32.4 (1 gm q6h, SS), Durlobactam: 29.2 (1 gm q6h, SS)",
+    "protein_binding_percent": "Sulbactam: 38, Durlobactam: 10",
+    "volume_of_distribution_vd": "Sulbactam: 25.4 L (Vss), Durlobactam: 30.3 L (Vss)",
+    "avg_serum_t1_2_hr": "Sulbactam: 2.15, Durlobactam: 2.52",
+    "elimination": "Sulbactam: renal, Durlobactam: renal",
+    "auc_mcg_hr_ml": "Sulbactam: 515 (1 gm q6h, 0-24h), Durlobactam: 471 (1 gm q6h, 0-24h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "transporters_that_drug_is_a_substrate_for": "Sulbactam: OAT1, OAT3",
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "↑ sulbactam",
+      "suggested_management": "Avoid co-administration"
+    }
+  ]
+}

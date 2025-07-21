@@ -1,0 +1,253 @@
+{
+  "documentMetadata": {
+    "title": "Varicella-Zoster Virus (Chickenpox)",
+    "lastUpdated": "2025-02-10",
+    "sourceFile": "Varicella-Zoster Virus (Chickenpox).pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vaccination has markedly reduced the incidence of varicella zoster virus (VZV) infections and associated morbidity (N Engl J Med 352:450, 2005; N Engl J Med 356:1338, 2007).",
+            "Guidelines for varicella vaccination.",
+            "Immunization schedules: adult, child age 7-18, child age 0-6.",
+            "Transmission: Very contagious, via aerosolized droplets from nasopharynx",
+            "Incubation period: 10-21 days",
+            "Clinical syndromes (worse disease in late adolescents and adults):",
+            "Chickenpox",
+            "Shingles (single dermatomal or multiple dermatomes). See also, Herpes Zoster (Shingles).",
+            "Disseminated VZV disease/organ involvement",
+            "Emerging data suggests VZV may cause vasculopathy of cerebral, temporal, and other arteries. Suggested as possible cause of Giant Cell arteritis. Raises treatment possibilities. Need more data. Refs: Neurology 84:1948, 2015; J Infect Dis 212:S37, 2015."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Varicella-zoster virus (VZV)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Immunocompetent host, chickenpox"
+            },
+            "components": [],
+            "notes": "No treatment is an option for mild-moderate disease in children"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Valacyclovir",
+                "dose": "20 mg/kg",
+                "route": "po tid",
+                "connector": "or"
+              },
+              {
+                "drug": "Acyclovir",
+                "dose": "20 mg/kg",
+                "route": "po qid",
+                "frequency": "x 5 days",
+                "notes": "(start within 24 hrs of rash) for patients at increased risk of moderate or severe varicella; chronic cutaneous or pulmonary diseases; chronic salicylate treatment (increased risk of Reye's syndrome)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Acyclovir",
+                "dose": "800 mg",
+                "route": "po 5x/day",
+                "frequency": "x 5-7 days",
+                "notes": "(start within 24 hrs of rash)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "ValacyclovirNAI",
+                "dose": "1000 mg",
+                "route": "po tid",
+                "frequency": "x 5-7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "FamciclovirNAI",
+                "dose": "500 mg",
+                "route": "po tid",
+                "notes": "(probably effective but data lacking)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Acyclovir",
+                "dose": "800 mg",
+                "route": "po 5x/day",
+                "connector": "or"
+              },
+              {
+                "drug": "Acyclovir",
+                "dose": "10 mg/kg",
+                "route": "IV q8h",
+                "frequency": "x 5 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Child age 2-12 years"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adolescent, young adults"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pregnancy (3rd trimester), pneumonia"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Immunocompromised"
+            },
+            "components": [
+              {
+                "drug": "Acyclovir",
+                "dose": "10-12 mg/kg (500 mg/M2)",
+                "route": "IV (infused over 1 hour) q8h",
+                "frequency": "x 7 days"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "None"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Prevention"
+        },
+        {
+          "type": "list",
+          "items": [
+            "See Varicella, Vaccine for indications, available products, dosing, and vaccine characteristics for pre- and post-exposure prevention.",
+            "Prevention, post-exposure prophylaxis:",
+            "Vaccinate all non-immune exposed persons; VZIG may be necessary in some situations."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Acyclovir slowed development and reduced number of new lesions and reduced duration of disease in children: 9 to 7.6 days (Ped Infect Dis J 21:739, 2002). Oral dose of acyclovir in children should not exceed 80 mg/kg/day or 3200 mg/day. Acyclovir decreased duration of fever, time to healing, and symptoms (Ann Intern Med 130:922, 1999).",
+            "Varicella pneumonia associated with 41% mortality in pregnancy, acyclovir decreased incidence and severity (J Infect Dis 185:422, 2002). If varicella-susceptible mother exposed and respiratory symptoms develop within 10 days after exposure, start IV acyclovir.",
+            "Immunocompromised patients. Disseminated primary varicella infection reported during infliximab therapy of rheumatoid arthritis (J Rheum 31:2517, 2004). Continuous infusion of high-dose acyclovir (2 mg/kg/hr) successful in 1 patient with severe hemorrhagic varicella. (N Engl J Med 336:732, 1997). Mortality high (43%) in AIDS patients (Int J Inf Dis 6:6, 2002).",
+            "Review of therapeutics: Molecules 26: 1132, 2021",
+            "Several new drugs in development: FV-100 (bicyclic nucleoside), ASP2151 (helices-primase inhibitor), valomaciclovir (acyclic guanosine H2G prodrug). Review (Adv Pharmacol 67:107, 2013)."
+          ]
+        }
+      ]
+    }
+  ]
+}

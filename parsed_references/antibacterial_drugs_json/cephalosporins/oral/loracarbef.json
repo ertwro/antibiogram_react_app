@@ -1,0 +1,63 @@
+{
+  "drug_name": "Loracarbef",
+  "usage_and_dosing": {
+    "general": [
+      "A carbacephem antibiotic; Loracarbef activity is similar to Cefaclor.",
+      "The drug is no longer available in the U.S., but may be available in other regions.",
+      "There are no generic versions produced"
+    ],
+    "adult_dose": {
+      "usual_dose": "200 mg once daily to 400 mg po twice daily"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "15-30 mg/kg/day (divided q12h)",
+      "max_day": "800 mg"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.2",
+    "half_life_esrd": "32",
+    "dose_renal_function_normal": "200-400 mg po q12h",
+    "crcl_or_egfr": "CrCl ≥50: No dosage adjustment. CrCl 10-49: 200-400 mg q24h. CrCl <10: 200-400 mg q3-5 days",
+    "hemodialysis": "200-400 mg q3-5 days (give extra 200-400 mg AD)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "No data"
+  },
+  "adverse_effects": [
+    "For class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "full_comparative_spectrum_of_activity": true
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (200, 400 mg), Oral susp (100 mg/5 mL, 200 mg/5 mL)",
+    "food_recommendation": "All preps no food",
+    "oral_absorption_percent": "90",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "8 (200 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "25",
+    "volume_of_distribution_vd_l_kg_vf": "0.33 L/kg (V/F)",
+    "avg_serum_half_life_hr": "1.2",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "10.6 (200 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "None reported"
+  ]
+}

@@ -1,0 +1,175 @@
+
+{
+  "documentMetadata": {
+    "title": "Gallbladder, Biliary Tract, Cholangitis",
+    "lastUpdated": "2025-04-09",
+    "sourceFile": "syndromes/intra-abdominal/Gallbladder, Biliary Tract, Cholangitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute cholecystitis is usually due to gallstones in the setting of cystic duct obstruction; acalculous cholecystitis accounts for 5-10% of cases.",
+        "Manifestations of gallbladder infection include common duct obstruction, cholecystitis, cholangitis, biliary sepsis, gangrenous cholecystitis and perforation.",
+        "Secondary bacterial infection reported in up to 20% of patients: World J Surg 2021; 45:2426.",
+        "For review, see JAMA 2022;327:965."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterobacterales",
+        "Enterococci (see Comments)",
+        "Bacteroides sp.",
+        "Clostridium sp.",
+        "Candida sp. (rare)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics should be considered a component of supportive therapy. Definitive treatment is cholecystectomy or for patients at high surgical risk, percutaneous drainage of the gallbladder."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Less severe, low-risk community-acquired infections"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Piperacillin-tazobactam", "dose": "4.5 gm", "route": "IV (over 4 hr)", "frequency": "q8h", "connector": "or" },
+              { "drug": "Ertapenem", "dose": "1 gm", "route": "IV", "frequency": "q24h" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If life-threatening or high-risk infection (e.g., elderly patient, immunocompromised, hemodynamic instability, poor source control, sepsis with organ dysfunction); healthcare associated"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Imipenem-cilastatin", "dose": "0.5 gm", "route": "IV", "frequency": "q6h", "connector": "or" },
+              { "drug": "Meropenem", "dose": "1 gm", "route": "IV", "frequency": "q8h" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Low risk, community-acquired"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Ceftriaxone", "dose": "2 gm", "route": "IV", "frequency": "q24h", "connector": "or" },
+              { "drug": "Metronidazole", "dose": "1 gm", "route": "IV", "frequency": "q12h" }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "connector": "or" },
+              { "drug": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "q24h", "connector": "or" },
+              { "drug": "Metronidazole", "notes": "as above" }
+            ],
+            "notes": "See Antimicrobial Stewardship"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "High risk, healthcare associated"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Cefepime", "dose": "2 gm", "route": "IV", "frequency": "q8h", "connector": "or" },
+              { "drug": "Metronidazole", "dose": "1 gm", "route": "IV", "frequency": "q12h" }
+            ],
+            "notes": "see Comments regarding enterococcal coverage"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Routine post-operative antibiotics do not improve outcome of uncomplicated cholecystitis.",
+        "Increasing fluoroquinolone resistant E. coli limits utility of FQ regimens for empiric therapy. Choice should be guided by local susceptibility profiles.",
+        "Avoid ampicillin-sulbactam due to high levels of resistance among E. coli isolates.",
+        "Outcomes with shorter courses of antimicrobial therapy (< 7 days) are similar to those of longer durations (> 7 days) in patients treated with percutaneous cholecystostomy (World J Surg 2017 41:1239).",
+        "Risk of treatment failure, relatively low in biliary tract surgery compared to other sites, is not reduced by prolonged courses of antimicrobial therapy (> 7days) provided there is adequate source control (Surg Infect (Larchmt) 2017;18:659).",
+        "Ertapenem does not have activity against pseudomonas or enterococci (see Comments)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The role of enterococci in biliary tract and intraabdominal infections more generally is not well defined. Regimens lacking coverage for enterococci (e.g., ertapenem, cephalosporin + metronidazole) are highly effective. Selecting an agent with activity against enterococci may be important when this is predominant organism or in healthcare-associated infections. Meropenem, Imipenem, and Piperacillin-tazobactam all have good anti-enterococcal activity so additional coverage for this organism is not needed with certain exceptions such as 1) in a liver transplant patient, or 2) in a high-risk patient patient from whom vancomycin-resistant enterococci (VRE) was previously isolated in culture, in which case adding linezolid to the regimen should be considered. Third generation cephalosporins do not have anti-enterococcal activity and if this agent is used, the addition of linezolid to the regimen may be considered in high-risk patients or those with healthcare associated infections.",
+        "In severely ill patients, antibiotic therapy complements adequate biliary drainage. Early laparoscopic cholecystectomy (within 2 days of presentation) associated with improved outcomes compared to delayed laparoscopic cholecystectomy (JAMA Surg 150:129, 2015). 15-30% patients will require decompression: surgical, percutaneous or ERCP-placed stent; early percutaneous cholecystostomy of benefit in poor operative candidates (Medicine (Baltimore) 2015; 94:e1096.",
+        "Regimen should take into account local resistance patterns.",
+        "See Tokyo consensus conference guidelines: J Hepatobiliary Pancreat. Sci 2018;25:3.",
+        "Reference on microbial etiologies: Arch Surg 1996:131:389."
+      ]
+    }
+  ]
+}

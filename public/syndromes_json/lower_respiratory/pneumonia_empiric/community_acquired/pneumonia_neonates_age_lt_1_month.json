@@ -1,0 +1,225 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia in neonates, age < 1 month",
+    "sourceFile": "Pneumonia, Neonates, Age lt 1 month.pdf",
+    "lastUpdated": "2025-05-05"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tachypnea with or without signs of increased work of breathing (grunting, nasal flaring, retractions) is the key symptom of pneumonia in infants age < 1 month.",
+        "The bacterial etiologies of pneumonia in neonates mirror those of neonatal sepsis.",
+        "Febrile neonates <30 days should be evaluated as for neonatal sepsis with blood culture, lumbar puncture and CBC. Tests for RSV, influenza and other respiratory viruses useful especially during fall and winter.",
+        "Afebrile pneumonia syndrome usually seen after 2-4 weeks of age due to C. trachomatis, Mycoplasma hominis, Ureaplasma urealyticum and occasionally CMV or Pneumocystis jirovecii.",
+        "This does not address ventilator associated pneumonia in intubated premature infant"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Early illness:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Group B Streptococcus",
+            "Escherichia coli",
+            "Streptococcus pneumoniae",
+            "RSV",
+            "Less commonly other respiratory virus",
+            "Staph aureus",
+            "CMV",
+            "Treponema pallidum",
+            "Listeria monocytogenes",
+            "Toxoplasma gondii"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Later illness:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Streptococcus pneumoniae",
+            "Group B Streptococcus",
+            "C. trachomatis",
+            "Mycoplasma hominis",
+            "Ureaplasma urealyticum",
+            "RSV",
+            "Influenza",
+            "Human metapneumovirus",
+            "Pneumocyctis jiroveci"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "75-100 mg/kg/day",
+            "frequency": "once daily",
+            "notes": "may be used in term infants without hyperbilirubinemia"
+          },
+          {
+            "drug": "Ampicillin",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "connector": "+"
+          },
+          {
+            "drug": "Cefotaxime",
+            "notes": "(where available)."
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "If methicillin-resistant Staph. aureus (MRSA) is a concern",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "60-80 mg/kg",
+            "route": "IV",
+            "frequency": "divided 3-4 times a day",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)."
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "For C. trachomatis",
+        "components": [
+          {
+            "drug": "Erythromycin",
+            "dose": "12.5 mg/kg",
+            "route": "po or IV",
+            "frequency": "qid x 14 days",
+            "connector": "or"
+          },
+          {
+            "drug": "Azithromycin",
+            "dose": "10 mg/kg",
+            "route": "po or IV",
+            "frequency": "on day one then 5 mg/kg po or IV once daily for 4 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Body Wt", "Age", "Dose"],
+        "rows": [
+          ["< 2000 gm", "≤ 7 days", "Ampicillin 50 mg/kg IV q12h"],
+          ["", "", "Gentamicin 2.5 mg/kg IV q18-24h"],
+          ["", "", "Cefotaxime* 50 mg/kg IV q12h"],
+          ["", "7-28 days", "Ampicillin 50 mg/kg IV q8h"],
+          ["", "", "Gentamicin 2.5 mg/kg IV q12h"],
+          ["", "", "Cefotaxime* 50 mg/kg IV q8h"],
+          ["≥ 2000 gm", "≤ 7 days", "Ampicillin 50 mg/kg IV q8h"],
+          ["", "", "Gentamicin 2.5 mg/kg IV q12h"],
+          ["", "", "Cefotaxime* 50 mg/kg IV q12h"],
+          ["", "7-28 days", "Ampicillin 50 mg/kg IV q6h"],
+          ["", "", "Gentamicin 2.5 mg/kg IV q 12h"],
+          ["", "", "Cefotaxime* 50 mg/kg IV q8h"]
+        ]
+      },
+      "notes": "* where available"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "150 mg/kg/day",
+            "frequency": "div q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "If MRSA is documented, Vancomycin as above, Clindamycin, and Linezolid 10 mg/kg q8h are alternatives."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dosing is weight- and/or age-based. See Comments."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Limited data suggest low procalcitonin has high negative predictive value for bacterial pneumonia",
+        "If viral infection is demonstrated and patient is improving, antibiotics can be discontinued",
+        "Oseltamivir is indicated for treatment of influenza associated pneumonia in this age group"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vancomycin: traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020",
+        "Optimal duration of therapy is unknown. Short course therapy effective in adults; no good data in children",
+        "Ceftriaxone is contraindicated in neonates if they require (or are expected to require) treatment with calcium-containing IV solutions, including continuous calcium-containing infusions such as total parenteral nutrition"
+      ]
+    }
+  ]
+}

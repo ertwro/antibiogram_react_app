@@ -1,0 +1,226 @@
+{
+  "documentMetadata": {
+    "title": "Epiglottitis, Supraglottitis",
+    "sourceFile": "Epiglottitis, Supraglottitis.pdf",
+    "lastUpdated": "2025-03-24"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Inflammation of the epiglottis and surrounding structures.",
+        "Primarily due to infection but caustic ingestion and foreign body can cause epiglottitis",
+        "Can progress rapidly to airway obstruction",
+        "Have tracheostomy set \"at bedside\" due to risk of airway obstruction.",
+        "Young children may present with drooling, anxiety and sniffing posture (leaning forward, neck extended)",
+        "Older children and adults complain of severe sore throat, difficulty swallowing, drooling, hoarse voice",
+        "Presence of Stridor raises likelihood but may be absent"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Immunocompetent children and adults:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Haemophilous influenzae type B (Once predominant cause, now rare in vaccinated populations)",
+            "Beta hemolytic streptococci (Groups A, B, C,F, G)",
+            "Staphylococcus. aureus (including MRSA)",
+            "Streptococcus pneumoniae",
+            "Other H. influenzae capsular types and non-typeable strains",
+            "Neisseria meningitidis",
+            "Pasteurella multocida",
+            "Moraxella catarrhalis",
+            "Rarely coliforms: e.g., Enterobacter sp., E. coli, Klebsiella sp.",
+            "Variety of viruses: Respiratory (influenza, parainfluenza), H. simplex, Varicella zoster, EBV, SARS-CoV-2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Immunocompromised children and adults:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pseudomonas. aeruginosa",
+            "Candida sp."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Culture blood and airway secretions",
+        "Main objective is airway management. Involve ENT or anesthesia immediately if possible. Video laryngoscope should be used if attempting intubation. Tracheostomy or cricothyroidotomy may be needed if intubation fails"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Pediatric"
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "75 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "cefotaxime",
+            "notes": "where available",
+            "connector": "or"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "60-80 mg/kg",
+            "route": "IV",
+            "frequency": "divided 3-4 times a day",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL; see Comments).",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Adult"
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4-8h",
+            "notes": "where available",
+            "connector": "or"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+        "type": "paragraph",
+        "text": "Variable duration. Continue therapy until sufficient resolution of airway edema and endotracheal tube safely removed."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For severe IgE-mediated Penicillin allergy"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Pediatric"
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "16-20 mg/kg/day",
+            "frequency": "divided q12h",
+            "notes": "(see Comment), max 750 mg/day"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "7.5 mg/kg",
+            "route": "IV",
+            "frequency": "q6h",
+            "notes": "(see Comment)",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Adult"
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "600-900 mg",
+            "route": "IV",
+            "frequency": "q6-8h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Note traditional Vancomycin dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020",
+        "Reference: Emerg Med Clin North Am 2021; 39:661"
+      ]
+    }
+  ]
+}

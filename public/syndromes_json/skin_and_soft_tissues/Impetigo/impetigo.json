@@ -1,0 +1,247 @@
+{
+  "documentMetadata": {
+    "title": "Impetigo",
+    "lastUpdated": "2021-04-06",
+    "sourceFile": "Impetigo.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Superficial bacterial infection of the skin due to Streptococcus pyogenes or Staphylococcus aureus. Most frequently occurs in children in hot, humid environments.",
+            "Strep. pyogenes infection manifests as papules that progress to vesicles and then rupture to form \"honey crust\" lesions. If deeper into the epidermis, i.e., \"punched out\" ulcers. it is called ecthyma contagiosum (See Comments).",
+            "Complications of Strep. impetigo include post-streptococcal glomerulonephritis and rheumatic fever.",
+            "Toxin-producing strains of Staph. aureus cause flaccid fragile exudate filled bullae: bullous impetigo.",
+            "IDSA Guideline on skin and soft tissue infections: Clin Infect Dis 59:147, 2014."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Streptococcus sp. (Group A causes honey crust impetigo) (Group B, C, G are less common)",
+            "Staph. aureus (MSSA and MRSA) that produce exfoliative toxin A (leads to loss of cell adhesion) cause bullous impetigo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "paragraph",
+          "text": "For Streptococcal impetigo:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "With few lesions"
+            },
+            "components": [
+              {
+                "drug": "Mupirocin ointment",
+                "dose": "2%",
+                "route": "tid",
+                "connector": "or"
+              },
+              {
+                "drug": "Fusidic acid",
+                "dose": "2% cream",
+                "frequency": "x 5 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "With few lesions"
+            },
+            "components": [
+              {
+                "drug": "Retapamulin",
+                "dose": "1% ointment",
+                "route": "bid",
+                "frequency": "x 5 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "With many lesions and oral therapy deemed desirable"
+            },
+            "components": [
+              {
+                "drug": "Penicillin VK",
+                "dose": "250-500 mg",
+                "route": "po qid",
+                "frequency": "x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "With many lesions and oral therapy deemed desirable"
+            },
+            "components": [
+              {
+                "drug": "TMP-SMX DS",
+                "dose": "one tab",
+                "route": "po bid",
+                "frequency": "x 7 days"
+              }
+            ],
+            "notes": "Note: Reports of in vitro resistance probably result of lab methods used (J Clin Micro 2012; 50:4067)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "With many lesions and oral therapy deemed desirable"
+            },
+            "components": [
+              {
+                "drug": "Benzathine Penicillin G",
+                "dose": "600,000 to 1,200,000 units",
+                "route": "IM",
+                "frequency": "x one dose"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "For MSSA bullous impetigo:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Mupirocin ointment",
+                "connector": "or"
+              },
+              {
+                "drug": "Retapamulin ointment",
+                "connector": "or"
+              },
+              {
+                "drug": "Dicloxacillin",
+                "route": "po",
+                "connector": "or"
+              },
+              {
+                "drug": "Cephalexin",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "Seven days"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "For MRSA bullous impetigo:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Mupirocin ointment",
+                "route": "tid",
+                "connector": "or"
+              },
+              {
+                "drug": "TMP-SMX DS",
+                "route": "tab po bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "Seven days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For Streptococcal impetigo: Should not need oral antibiotics as topical therapy, unless large number of lesions, is as effective unless large number of lesions.",
+            "For MRSA bullous impetigo (all po regimens): TMP-SMX-DS OR (Doxycycline or Minocycline) OR (Clindamycin)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "OTC triple antibiotic ointment: not as efffective as Mupirocin (Ped Infect Dis J 16:708, 1997).",
+            "Watch out for macrolide resistance of both Staph. aureus and Streptococcal species.",
+            "Mupirocin: 46% of USA-300 CA-MRSA isolates carry gene encoding resistance to Mupirocin, Lancet 367:731, 2006",
+            "Ecthyma contagiousum:",
+            "A varient of Streptococcal impetigo. Instead of \"honey crusts\", infected skin has the appearance of fish scales because infection is deeper in the epidermis.",
+            "Military outbreaks reported: S. pyogenes, Clin Infect Dis 48:1213, 2009; Clin Infect Dis 48:1220, 2009 (good images).",
+            "Treatment is as for Streptococcal impetigo.",
+            "Most cases of post-streptococcal impetigo glomerulonephritis are sequelae from impetigo as opposed to streptococcal sore throat. Not clear if impetigo treatment reduces the risk."
+          ]
+        }
+      ]
+    }
+  ]
+}

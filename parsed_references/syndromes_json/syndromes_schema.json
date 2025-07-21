@@ -1,0 +1,261 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Medical Document Schema (v10 - Enhanced)",
+  "description": "A comprehensive schema for medical document content, enhanced to structurally represent comparative treatment durations and levels of evidence, based on analysis of complex clinical guidelines.",
+  "type": "object",
+  "properties": {
+    "documentMetadata": {
+      "description": "Information about the document itself.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "The main title of the document." },
+        "lastUpdated": { "type": "string", "description": "The date the document was last updated.", "format": "date" },
+        "sourceFile": { "type": "string", "description": "The name of the original PDF file." }
+      },
+      "required": ["title", "sourceFile"]
+    },
+    "content": {
+      "description": "An array of content blocks that make up the body of the document.",
+      "type": "array",
+      "items": { "$ref": "#/definitions/contentBlock" }
+    }
+  },
+  "required": ["documentMetadata", "content"],
+  "definitions": {
+    "contentBlock": {
+      "description": "A generic content block representing a piece of content like a header, paragraph, or a more complex element.",
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The type of the content block.",
+          "enum": ["header", "paragraph", "list", "table", "image", "keyValuePairs", "nestedContent", "drugRegimen", "crossReference", "procedure", "diagnosticTest", "differentialDiagnosis", "publicHealthStrategy", "partnerManagement"]
+        },
+        "level": { "type": "integer", "description": "The heading level (e.g., 1 for H1, 2 for H2), for 'header' type." },
+        "text": { "type": "string", "description": "Text content for 'header' and 'paragraph' types. Can include simple Markdown for formatting." },
+        "items": { "type": "array", "description": "An array of strings for 'list' type. Each string can contain simple Markdown.", "items": { "type": "string" } },
+        "tableData": { "$ref": "#/definitions/table" },
+        "imageData": { "$ref": "#/definitions/image" },
+        "pairs": { "$ref": "#/definitions/keyValuePairArray" },
+        "content": { "type": "array", "description": "An array of content blocks for 'nestedContent' type, allowing for recursion.", "items": { "$ref": "#/definitions/contentBlock" } },
+        "regimenData": { "$ref": "#/definitions/regimen" },
+        "referenceData": { "$ref": "#/definitions/crossReference" },
+        "procedureData": { "$ref": "#/definitions/procedure" },
+        "diagnosticTestData": { "$ref": "#/definitions/diagnosticTest" },
+        "differentialData": { "$ref": "#/definitions/differentialDiagnosis" },
+        "publicHealthData": { "$ref": "#/definitions/publicHealthStrategy" },
+        "partnerManagementData": { "$ref": "#/definitions/partnerManagement" }
+      },
+      "required": ["type"]
+    },
+    "patientPopulation": {
+        "description": "Defines a specific patient population based on a set of criteria.",
+        "type": "object",
+        "properties": {
+            "description": { "type": "string", "description": "A human-readable description of the population (e.g., 'Children < 4 months', 'Adult, acute')."},
+            "criteria": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "parameter": { "type": "string", "description": "The characteristic used for stratification (e.g., 'age', 'comorbidity', 'severity')."},
+                        "value": { "type": "string", "description": "The specific value of the characteristic (e.g., '< 4 months', 'immunocompromised', 'acute')."}
+                    }
+                }
+            }
+        },
+        "required": ["description"]
+    },
+    "table": {
+      "type": "object",
+      "properties": {
+        "headers": { "type": "array", "items": { "type": "string" } },
+        "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+      },
+      "required": ["headers", "rows"]
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "src": { "type": "string", "description": "The source URL or a base64 representation of the image." },
+        "caption": { "type": "string", "description": "A caption for the image." }
+      },
+      "required": ["src"]
+    },
+    "keyValuePairArray": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": { "type": "string" },
+          "value": { "type": "string" }
+        },
+        "required": ["key", "value"]
+      }
+    },
+    "regimen": {
+      "description": "A structured representation of a therapeutic drug regimen.",
+      "type": "object",
+      "properties": {
+        "intent": { "type": "string", "enum": ["treatment", "prophylaxis", "suppression", "symptomRelief", "eradication"], "description": "The clinical goal of the regimen." },
+        "appliesTo": { "$ref": "#/definitions/patientPopulation" },
+        "strengthOfRecommendation": { "type": "string", "description": "The strength of the recommendation (e.g., 'Recommended', 'Alternative', 'Not Recommended')." },
+        "condition": { "type": "string", "description": "The clinical condition or criteria for this regimen (e.g., 'Penicillin G MIC < 0.1 µg/mL')." },
+        "components": {
+          "type": "array",
+          "description": "The sequence of drugs in the regimen.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "drug": { "type": "string" },
+              "dose": { "type": "string" },
+              "route": { "type": "string" },
+              "frequency": { "type": "string" },
+              "connector": { "type": "string", "enum": ["+", "or"], "description": "How this component connects to the next one." }
+            },
+            "required": ["drug"]
+          }
+        },
+        "durationDetail": { "$ref": "#/definitions/durationDetail", "description": "NEW: A structured object for therapy duration." },
+        "evidence": { "$ref": "#/definitions/evidence", "description": "NEW: A structured object for the supporting evidence." },
+        "efficacy": { "type": "string", "description": "Reported efficacy rate for the regimen (e.g., '79%', '60-70%')." },
+        "notes": { "type": "string", "description": "Additional notes, such as target trough levels or source control requirements." }
+      }
+    },
+    "durationDetail": {
+        "description": "NEW: A detailed structure for therapy duration, allowing for fixed, comparative, or criteria-based specifications. Use the property that best fits the source data.",
+        "type": "object",
+        "properties": {
+            "fixedDuration": { "type": "string", "description": "A single, fixed duration (e.g., '14 days', '6 weeks')." },
+            "comparativeDurations": {
+                "type": "array",
+                "description": "Used when comparing two or more durations (e.g., '5 days vs 10 days').",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "duration": { "type": "string" },
+                        "comparator": { "type": "string" }
+                    }
+                }
+            },
+            "criteriaBasedDuration": {
+                "type": "object",
+                "description": "Used when duration is determined by clinical or lab endpoints.",
+                "properties": {
+                    "description": { "type": "string", "description": "A human-readable summary of the criteria (e.g., 'Until afebrile for 2 days')." },
+                    "criteria": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "metric": { "type": "string", "description": "The metric being monitored (e.g., 'Fever', 'Biomarkers', 'ESR')." },
+                                "target": { "type": "string", "description": "The target value or state (e.g., 'absent', 'normalized')." },
+                                "timeAtTarget": { "type": "string", "description": "How long the target state must be maintained (e.g., '48 hours')." }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "evidence": {
+        "description": "NEW: A structured representation of the evidence supporting a recommendation.",
+        "type": "object",
+        "properties": {
+            "studyType": { "type": "string", "enum": ["RCT", "Meta-analysis", "Observational", "Expert Opinion", "Guideline", "Database Review"], "description": "The primary type of study or evidence." },
+            "studyCount": { "type": "integer", "description": "The number of studies of that type (e.g., the '8' in '8 RCTs')." },
+            "outcomeSummary": { "type": "string", "description": "A brief summary of the findings (e.g., 'Equal efficacy', 'Non-inferior')." },
+            "references": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "A list of identifiers for the evidence, such as DOIs or PubMed IDs."
+            }
+        }
+    },
+    "crossReference": {
+      "description": "A reference to another document, section, or external resource.",
+      "type": "object",
+      "properties": {
+        "text": { "type": "string", "description": "The display text for the reference." },
+        "targetType": { "type": "string", "enum": ["internalDocument", "externalURL"], "description": "The type of resource being referenced." },
+        "targetIdentifier": { "type": "string", "description": "The unique identifier for the target, such as a document title or a URL." }
+      },
+      "required": ["text", "targetType", "targetIdentifier"]
+    },
+    "procedure": {
+      "description": "A structured representation of a clinical procedure or non-pharmacologic intervention.",
+      "type": "object",
+      "properties": {
+        "appliesTo": { "$ref": "#/definitions/patientPopulation" },
+        "strengthOfRecommendation": { "type": "string" },
+        "name": { "type": "string", "description": "The name of the procedure (e.g., 'Surgical Debridement')." },
+        "indication": { "type": "string", "description": "The reason for the procedure (e.g., 'Diagnosis', 'Hemodynamic compromise')." },
+        "timing": { "type": "string", "description": "When the procedure should be performed (e.g., 'Urgent')." },
+        "notes": { "type": "string", "description": "Additional details about the procedure." }
+      },
+      "required": ["name"]
+    },
+    "diagnosticTest": {
+        "description": "A structured representation of a diagnostic test.",
+        "type": "object",
+        "properties": {
+            "appliesTo": { "$ref": "#/definitions/patientPopulation" },
+            "strengthOfRecommendation": { "type": "string" },
+            "name": { "type": "string", "description": "The name of the test (e.g., 'MRI', 'Blood Culture')." },
+            "analyte": { "type": "string", "description": "The substance or parameter being measured (e.g., 'alpha-defensin', 'WBC count')." },
+            "sampleType": { "type": "string", "description": "The type of sample required (e.g., 'Synovial fluid', 'Blood')." },
+            "interpretation": { "type": "string", "description": "How to interpret the test results, including thresholds for a positive result." },
+            "sensitivity": { "type": "number", "minimum": 0, "maximum": 1 },
+            "specificity": { "type": "number", "minimum": 0, "maximum": 1 },
+            "notes": { "type": "string", "description": "Additional details about the test." }
+        },
+        "required": ["name"]
+    },
+    "differentialDiagnosis": {
+        "description": "A structured list of differential diagnoses.",
+        "type": "object",
+        "properties": {
+            "conditions": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "conditionName": { "type": "string" },
+                        "differentiatingFeatures": { "type": "string", "description": "Key features that help distinguish this condition." }
+                    },
+                    "required": ["conditionName"]
+                }
+            }
+        }
+    },
+    "publicHealthStrategy": {
+        "description": "A structured representation of a public health intervention or strategy.",
+        "type": "object",
+        "properties": {
+            "name": { "type": "string", "description": "The name of the strategy (e.g., 'WHO SAFE strategy')." },
+            "components": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "componentName": { "type": "string", "description": "The name of the component (e.g., 'Surgery', 'Antibiotics')." },
+                        "description": { "type": "string", "description": "A brief description of the component." }
+                    }
+                }
+            }
+        },
+        "required": ["name"]
+    },
+    "partnerManagement": {
+        "description": "A structured representation of recommendations for managing sexual partners.",
+        "type": "object",
+        "properties": {
+            "lookBackPeriod": { "type": "string", "description": "The time frame for identifying partners for evaluation (e.g., '60 days')." },
+            "action": { "type": "string", "description": "The recommended action for partners (e.g., 'examine and treat', 'treat presumptively')." },
+            "partnerRegimen": { "$ref": "#/definitions/regimen" }
+        },
+        "required": ["lookBackPeriod", "action"]
+    }
+  }
+}
+

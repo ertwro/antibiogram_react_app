@@ -1,0 +1,212 @@
+{
+  "documentMetadata": {
+    "title": "Mastoiditis, Acute",
+    "sourceFile": "Mastoiditis, Acute.pdf",
+    "lastUpdated": "2024-09-16"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acute mastoiditis is usually a complication of acute otitis media, much more common in children than adults."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics plus drainage of the middle ear are cornerstones of therapy and sufficient in most cases",
+        "Chronic otitis media may include cholesteatoma (keratoma) formation that predisposes to obstruction of ear drainage and predisposes to acute and/or chronic mastoiditis.",
+        "Look for suppurative complications: osteomyelitis, suppurative (septic) thrombophlebitis of the lateral venous sinus, epidural or subdural abscess, bacterial meningitis, contiguous brain abscess."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Suggestive clinical findings include tenderness, erythema and swelling over mastoid prominence, protrusion of the ear",
+        "Abnormalities (e.g., air cell opacification, bony destruction) on CT or MRI"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If complication of 1st episode of acute otitis media:",
+        "Streptococcus pneumoniae (most common)",
+        "Streptococcus pyogenes",
+        "Hemophilus influenza",
+        "Less common, more likely to be seen in children treated with antibiotics prior to diagnosis of acute mastoiditis",
+        "Staphylococcus aureus, including MRSA",
+        "Fusobacterium necrophorum",
+        "Streptococcus intermedius",
+        "Pseudomonas aeruginosa",
+        "If secondary to chronic otitis media:",
+        "Staphylococcus aureus, including MRSA",
+        "Pseudomonas aeruginosa"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "ENT consultation strongly recommended to evaluate need for surgical debridement",
+        "Recommendations are for empiric therapy pending culture results",
+        "Obtain cultures of auditory canal or middle ear fluid (preferred)",
+        "1st episode: medical management, uncomplicated disease (uncommon in adults, suspect complicated disease), no antibiotic treatment prior to diagnosis, pediatric dosing as follows:"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ampicillin-sulbactam",
+            "dose": "200 mg/kg/d",
+            "route": "IV",
+            "frequency": "in 4 divided doses, max dose 12 gm/day"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "50-100 mg/kg",
+            "route": "IV",
+            "frequency": "in 2 divided doses, max dose 4 gm/day"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute exacerbation of chronic otitis media/chronic mastoiditis, prior therapy before diagnosis of mastoiditis, complicated infection (e.g, subperiosteal abscess, osteomyelitis):",
+        "ENT surgical consultation/surgical debridement"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "notes": "Child: 60-80 mg/kg IV divided 2-4 times a day to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL. Adult: 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+          },
+          {
+            "drug": "Cefepime",
+            "notes": "Child: 150 mg/kg/d IV in 3 divided doses, max dose 2 gm. Adult: 2 gm IV q8h",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "notes": "Child: 22.5 mg/kg/d IV in 3 divided doses, max dose 750 mg. Adult: 750 mg IV q8h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1st episode: medical management, uncomplicated disease"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "notes": "as above"
+          },
+          {
+            "drug": "Linezolid",
+            "notes": "(Child: Age < 12 years, 30 mg/kg/d in 3 divided doses, max dose 600 mg per dose; Age > 12 years, 10 mg/kg q12h, max dose 600 mg per dose; Adult: 600 mg IV/po q12h)",
+            "connector": "or"
+          },
+          {
+            "drug": "Piperacillin-tazobactam",
+            "notes": "Child: 300 mg/kg/d of piperacillin component in 4 divided doses, max dose 16 gm/d. Adult: 4.5 gm IV q6h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute exacerbation of chronic otitis media/chronic mastoiditis, complicated infection (e.g, subperiosteal abscess, osteomyelitis), severe beta-lactam allergy",
+        "ENT surgical consultation/surgical debridement"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin or Linezolid",
+            "notes": "as above"
+          },
+          {
+            "drug": "Aztreonam",
+            "notes": "(Child: 30 mg/kg IV q6h; Adult: 2 gm IV q6h)",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "notes": "(Child: 22.5 mg/kg/d IV in 3 divided doses, max dose 750 mg; Adult 750 mg IV q8h)",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",n      "items": [
+        "Duration of therapy",
+        "Guided by severity of disease, longer courses for more complicated disease",
+        "7-10 days IV, then transition to oral therapy based on results of culture and susceptibility data to complete a 4-week course",
+        "Consider a longer course of therapy for more severe or complicated disease",
+        "De-escalate, modify regimen based on results of culture and susceptibility data",
+        "No need to include MRSA coverage if the PCR nasal swab is negative for MRSA"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unusual causes of mastoiditis, which is usually chronic include: Nocardia spp., Mycobacterium tuberculosis, Actinomyces.",
+        "Reviews: Pediatr Rev. 2018; 39:267, J Laryngol Otol. 2018; 132:96, Int J Pediatr Otorhinolaryngol. 2019;125:187."
+      ]
+    }
+  ]
+}

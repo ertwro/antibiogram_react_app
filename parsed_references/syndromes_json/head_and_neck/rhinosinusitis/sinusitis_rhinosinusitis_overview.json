@@ -1,0 +1,40 @@
+{
+  "documentMetadata": {
+    "title": "Sinusitis, Rhinosinusitis, Overview",
+    "sourceFile": "Sinusitis, Rhinosinusitis, Overview.pdf",
+    "lastUpdated": "2023-12-15"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infection of the paranasal sinuses",
+        "Often concomitant inflammation of mucosa of nasal passage and sinuses, hence, the term rhinosinusitis. is preferred",
+        "Applies to all the cranial sinuses: sphenoid, frontal, maxillary and ethmoid",
+        "Infection may be viral (most common), bacterial, fungal or a combination",
+        "May be primary and independent of concomitant factors",
+        "May be secondary to concomitant illness (immunosuppression) or mechanical obstruction of sinus ostia"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sinusitis, rhinosinusitis, acute - empiric therapy",
+        "Sinusitis, rhinosinusitis, acute, treatment failure",
+        "Sinusitis, rhinosinusitis, atrophic",
+        "Sinusitis, rhinosinusitis, chronic",
+        "Allergic chronic relapsing aspergillosis"
+      ]
+    }
+  ]
+}

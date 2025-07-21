@@ -1,0 +1,292 @@
+{
+  "_originalData": {
+    "title": "Fusobacterium necrophorum",
+    "lastUpdated": "Jan 6, 2025",
+    "clinicalInfo": {
+      "links": [
+        "Lemierre's Syndrome (suppurative jugular vein phlebitis often with systemic emboli)",
+        "Pharyngitis, Tonsillitis",
+        "Hepatic Abscess",
+        "Brain Abscess, Bacterial",
+        "Sinusitis, chronic",
+        "Actinomycosis, cervico-facial",
+        "Bite: Dog"
+      ],
+      "treatmentBasis": {
+        "title": "The basis of treatment of F. necrophorum is based on scant recent phenotypic susceptibility tests and small clinical observational case series",
+        "notes": [
+          "Clinical response is key as phenotypic in vitro susceptibility testing may not be done",
+          "Only a few labs can, or will, do whole genome sequencing to detect resistance genes",
+          "Earlier reports detected the production of penicillinase in 20% of strains; the beta-lactamases are inhibited by the clavulanate in amoxicillin-clavulanate and the tazobactam in piperacillin-tazobactam",
+          "All Fusobacterium species are resistant to macrolide antibiotics",
+          "All Fusobacterium species are sensitive to the carbapenems",
+          "A few strains of F. necrophorum reported resistant in vitro to metronidazole"
+        ]
+      }
+    },
+    "classification": {
+      "description": "Gram negative bacillus, anaerobic"
+    },
+    "regimens": {
+      "primary": {
+        "notes": [
+          "Often need surgical drainage and debridement"
+        ],
+        "options": [
+          "Metronidazole 500 mg IV/po q8h + Ceftriaxone 2 gm IV q24h",
+          "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h"
+        ]
+      },
+      "alternative": {
+        "options": [
+          "Imipenem-cilastatin 500 mg IV q6h or Meropenem 0.5-1 gm IV q8h",
+          "Clindamycin 600-900 mg IV q8h"
+        ]
+      }
+    },
+    "comments": [
+      "Fusobacterium sp. are part of normal flora of mouth (primarily), GI tract, female GU tract.",
+      "Found (often with other mouth flora) in dental abscesses, peritonsillar abscesses and other forms of oro-pharyngeal sepsis.",
+      "Striking propensity (usually as complication of peritonsillar abscess) to cause septic jugular thrombosis with bacteremia and metastatic abscesses (Lemierre's syndrome) (Lancet Infect Dis 12:808, 2012).",
+      "4-23% produce ß-lactamase (Ped Infect Dis J 12:532, 1993).",
+      "Pharyngitis/tonsillitis: in one study, infection with F. necrophorum was twice as common as Group A strep.; clinically resembles streptococcal pharyngitis (Ann Intern Med 162:241, 2015).",
+      "Detected by PCR but, at present, no commercial assay available",
+      "Like GpA streptococcus, can be present in asymptomatic carriage state",
+      "Re: potential role as a pathogen, see Ann Intern Med 162:876, 2015; PLoS ONE 13:e0189423. 2018; J Clin Micro 2017;55:1147",
+      "Treatment for patient with severe IgE mediated anaphylaxis to beta-lactams: metronidazole OR clindamycin; in vitro resistance to either is very rare (Perry, M et al. Anaerobe.2023 Apr; 80: 102717)",
+      "Review: Anaerobe 2016; 42:89"
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "lastUpdated",
+      "clinicalInfo",
+      "classification",
+      "regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:45:00.000Z",
+    "sourceFormat": "legacy_reference"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": ["title"],
+      "value": "Fusobacterium necrophorum"
+    },
+    "aliases": {
+      "sources": ["aliases"],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": ["lastUpdated"],
+      "value": "Jan 6, 2025"
+    },
+    "classification": {
+      "sources": ["classification"],
+      "value": {
+        "description": "Gram negative bacillus, anaerobic"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "summary": {
+      "sources": ["clinicalInfo.links"],
+      "value": "Associated with Lemierre's Syndrome, pharyngitis, hepatic abscess, brain abscess, sinusitis, and other infections"
+    },
+    "clinicalSetting": {
+      "sources": ["clinicalInfo"],
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "links": [
+            "Lemierre's Syndrome (suppurative jugular vein phlebitis often with systemic emboli)",
+            "Pharyngitis, Tonsillitis",
+            "Hepatic Abscess",
+            "Brain Abscess, Bacterial",
+            "Sinusitis, chronic",
+            "Actinomycosis, cervico-facial",
+            "Bite: Dog"
+          ],
+          "treatmentBasis": {
+            "title": "The basis of treatment of F. necrophorum is based on scant recent phenotypic susceptibility tests and small clinical observational case series",
+            "notes": [
+              "Clinical response is key as phenotypic in vitro susceptibility testing may not be done",
+              "Only a few labs can, or will, do whole genome sequencing to detect resistance genes",
+              "Earlier reports detected the production of penicillinase in 20% of strains; the beta-lactamases are inhibited by the clavulanate in amoxicillin-clavulanate and the tazobactam in piperacillin-tazobactam",
+              "All Fusobacterium species are resistant to macrolide antibiotics",
+              "All Fusobacterium species are sensitive to the carbapenems",
+              "A few strains of F. necrophorum reported resistant in vitro to metronidazole"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_reference",
+      "hasComplexCombinations": true,
+      "hasOptionsArray": true
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "primary-combination-1",
+        "extractedFrom": "regimens.primary.options[0]",
+        "context": {
+          "type": "directed",
+          "condition": "Primary treatment for Fusobacterium necrophorum infection"
+        },
+        "preference": "primary",
+        "strategy": "combination",
+        "drugs": [
+          {
+            "drugName": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV/po",
+            "frequency": "q8h",
+            "originalText": "Metronidazole 500 mg IV/po q8h"
+          },
+          {
+            "drugName": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "originalText": "Ceftriaxone 2 gm IV q24h"
+          }
+        ],
+        "clinicalNotes": [
+          "Often need surgical drainage and debridement"
+        ],
+        "originalFormat": {
+          "type": "combination_option",
+          "preservedContent": "Metronidazole 500 mg IV/po q8h + Ceftriaxone 2 gm IV q24h"
+        }
+      },
+      {
+        "regimenId": "primary-single-1",
+        "extractedFrom": "regimens.primary.options[1]",
+        "context": {
+          "type": "directed",
+          "condition": "Primary treatment for Fusobacterium necrophorum infection"
+        },
+        "preference": "primary",
+        "strategy": "monotherapy",
+        "drugs": [
+          {
+            "drugName": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "administrationNotes": "over 4 hr",
+            "originalText": "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h"
+          }
+        ],
+        "clinicalNotes": [
+          "Often need surgical drainage and debridement"
+        ],
+        "originalFormat": {
+          "type": "single_option",
+          "preservedContent": "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h"
+        }
+      },
+      {
+        "regimenId": "alternative-carbapenem-1",
+        "extractedFrom": "regimens.alternative.options[0]",
+        "context": {
+          "type": "directed",
+          "condition": "Alternative treatment for Fusobacterium necrophorum infection"
+        },
+        "preference": "alternative",
+        "strategy": "choice",
+        "drugChoices": [
+          {
+            "drugName": "Imipenem-cilastatin",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6h",
+            "originalText": "Imipenem-cilastatin 500 mg IV q6h"
+          },
+          {
+            "drugName": "Meropenem",
+            "dose": "0.5-1 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "originalText": "Meropenem 0.5-1 gm IV q8h"
+          }
+        ],
+        "originalFormat": {
+          "type": "choice_option",
+          "preservedContent": "Imipenem-cilastatin 500 mg IV q6h or Meropenem 0.5-1 gm IV q8h"
+        }
+      },
+      {
+        "regimenId": "alternative-single-1",
+        "extractedFrom": "regimens.alternative.options[1]",
+        "context": {
+          "type": "directed",
+          "condition": "Alternative treatment for Fusobacterium necrophorum infection"
+        },
+        "preference": "alternative",
+        "strategy": "monotherapy",
+        "drugs": [
+          {
+            "drugName": "Clindamycin",
+            "dose": "600-900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "originalText": "Clindamycin 600-900 mg IV q8h"
+          }
+        ],
+        "originalFormat": {
+          "type": "single_option",
+          "preservedContent": "Clindamycin 600-900 mg IV q8h"
+        }
+      }
+    ],
+    "referenceBasedTreatments": {
+      "primaryRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "notes": [
+            "Often need surgical drainage and debridement"
+          ],
+          "options": [
+            "Metronidazole 500 mg IV/po q8h + Ceftriaxone 2 gm IV q24h",
+            "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h"
+          ]
+        }
+      },
+      "alternativeRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "options": [
+            "Imipenem-cilastatin 500 mg IV q6h or Meropenem 0.5-1 gm IV q8h",
+            "Clindamycin 600-900 mg IV q8h"
+          ]
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "comments": {
+      "sources": ["comments"],
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "Fusobacterium sp. are part of normal flora of mouth (primarily), GI tract, female GU tract.",
+          "Found (often with other mouth flora) in dental abscesses, peritonsillar abscesses and other forms of oro-pharyngeal sepsis.",
+          "Striking propensity (usually as complication of peritonsillar abscess) to cause septic jugular thrombosis with bacteremia and metastatic abscesses (Lemierre's syndrome) (Lancet Infect Dis 12:808, 2012).",
+          "4-23% produce ß-lactamase (Ped Infect Dis J 12:532, 1993).",
+          "Pharyngitis/tonsillitis: in one study, infection with F. necrophorum was twice as common as Group A strep.; clinically resembles streptococcal pharyngitis (Ann Intern Med 162:241, 2015).",
+          "Detected by PCR but, at present, no commercial assay available",
+          "Like GpA streptococcus, can be present in asymptomatic carriage state",
+          "Re: potential role as a pathogen, see Ann Intern Med 162:876, 2015; PLoS ONE 13:e0189423. 2018; J Clin Micro 2017;55:1147",
+          "Treatment for patient with severe IgE mediated anaphylaxis to beta-lactams: metronidazole OR clindamycin; in vitro resistance to either is very rare (Perry, M et al. Anaerobe.2023 Apr; 80: 102717)",
+          "Review: Anaerobe 2016; 42:89"
+        ]
+      }
+    },
+    "allOtherKeys": {}
+  }
+}

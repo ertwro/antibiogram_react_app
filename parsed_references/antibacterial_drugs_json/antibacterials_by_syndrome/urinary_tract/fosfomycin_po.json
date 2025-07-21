@@ -1,0 +1,111 @@
+{
+  "drug_name": "Fosfomycin po",
+  "tradename": "Monurol",
+  "usage_and_dosing": {
+    "description": [
+      "Fosfomycin is a low molecular weight (138) phosphonic acid derivative, available for over 20 years.",
+      "Oral preparation is a tromethamine prodrug. The IV preparation is Fosfomycin disodium, see Fosfomycin IV.",
+      "Unique mechanism of action: Inhibition of the synthesis of cell wall peptidoglycan, a key constituent of both gram-positive and gram-negative bacteria. Considered bactericidal with time-dependent killing.",
+      "In vitro activity:",
+      "In vitro activity includes ESBL-producing and carbapenem-resistant Enterobacteriaceae: Int J Antimicrob Ag 37:415, 2011. Some clinical success for UTIs reported: Antimicrob Agts Chemother 56:5744, 2012.",
+      "Activity often enhanced when tested in combination: e.g., carbapenems increased Fosfomycin activity vs Ps. aeruginosa in a hollow-fiber infection model (Antimicrob Agents Chemother 2018; 62:e01682-18).",
+      "Acinetobacter sp. and Bacteroides sp. are resistant.",
+      "Gram-positive bacteria: Staph. aureus (including MRSA), Staph. epidermidis, Strep. pneumoniae, E. faecalis and VRE.",
+      "Gram-negative bacteria: E. coli, Proteus species, Klebsiella/Enterobacter sp., Serratia sp., Salmonella sp., Citrobacter sp., Providencia sp.",
+      "Resistance primarily chromosomal; rare plasmid-mediated resistance.",
+      "Mechanisms: decrease in drug transport across the cell wall or enzymatic alteration of the drug (e.g., adding a glutathione).",
+      "Cross resistance to other classes of antibiotics is rare.",
+      "Clinical use:",
+      "Most common: oral therapy for urinary tract infections (UTI).",
+      "Availability:",
+      "Oral formulation is widely available in Europe, U.S., Canada, South America, Japan and Australia."
+    ],
+    "adult_dose": {
+      "uncomplicated_uti": "Fosfomycin tromethamine 3 gm po x1 dose",
+      "complicated_uti": "Fosfomycin tromethamine 3 gm po q2-3 days x3 doses",
+      "prostatitis": "Fosfomycin tromethamine 3 gm po q3 days x7 doses"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "2 gm once",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "guidance": [
+        "Body weight and Creatinine Clearance calculations",
+        "CrCl = Creatinine clearance (mL/min)",
+        "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+        "CRRT = Continuous Renal Replacement Therapy",
+        "AD = after hemodialysis",
+        "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "5.7",
+    "half_life_hrs_esrd": "50",
+    "dose_renal_function_normal": "3 gm po x1",
+    "crcl_or_egfr": "CrCl 
+10: no dosage adjustment
+CrCl <10: Avoid use (poor urinary excretion)",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No data",
+    "moderate_impairment_child_pugh_class_b": "No data",
+    "severe_impairment_child_pugh_class_c": "No data"
+  },
+  "adverse_effects": [
+    "Diarrhea in 9% compared to 6% of patients given nitrofurantoin and 2.3% given TMP-SMX.",
+    "Headache reported in 4-10% of patients."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "B",
+    "use_during_lactation": "Probably safe with monitoring, but data limited"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["None"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "3 gm sachet",
+    "food_rec_po_drugs": "Sachet + food",
+    "oral_absorption_percent": "trometh 40",
+    "tmax_hr": "2",
+    "peak_serum_conc_ug_ml": "26.1 (3 gm po, SD)",
+    "peak_urine_conc_ug_ml": "1053-4415 (4 hr after 3 gm)",
+    "protein_binding_percent": "Negligible",
+    "volume_of_distribution_vd": "136.1 L (Vss/F)",
+    "avg_serum_t1_2_hr": "5.7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "20-50",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "145-193 (3 gm po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Metoclopramide",
+      "effect_on_concentration": "
+ fosfomycin (serum conc)",
+      "suggested_management": "Avoid co-administra"
+    },
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "
+ fosfomycin urinary excretion",
+      "suggested_management": "Avoid co-administra"
+    }
+  ],
+  "comments": [
+    "Homologues of the fosA resistance gene have been found in chromosomes of a large proportion of isolates from various gram-negative species (mBio 8: e00749-17, 2017).",
+    "For in vitro activity (vs US bacterial isolates), see Diagn Microbiol Infect Dis 2019;93:143. Note low level of activity and/or variable activity vs:",
+    "Acinetobacter baumannii",
+    "Morganella species",
+    "Pseudomonas aeruginosa",
+    "Stenotrophomonas maltophilia",
+    "Bacteroides fragilis",
+    "Fusobacterium species"
+  ]
+}

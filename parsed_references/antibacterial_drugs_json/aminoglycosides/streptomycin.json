@@ -1,0 +1,131 @@
+{
+  "drug_name": "Streptomycin",
+  "usage_and_dosing": {
+    "description": "Streptomycin is an aminoglycoside used clinically as a second-line agent for treatment of M. tuberculosis. It is also used, in combination therapy, for treatment of viridans group streptococci and enterococcal endocarditis. Major toxicity is cochlear. Potential for renal and vestibular toxicity as well.",
+    "adult_dose": [
+      {
+        "route": "M. tuberculosis",
+        "dose": "15 mg/kg IM q24h, OR 25-30 mg/kg IM 2x/week, OR 25-30 mg/kg IM 3x/week"
+      },
+      {
+        "route": "Brucellosis",
+        "dose": "1 gm IM/IV daily x14-21 days + Doxycycline"
+      },
+      {
+        "route": "Plague",
+        "dose": "15 mg/kg IM/IV q12h x10 days"
+      },
+      {
+        "route": "Tularemia",
+        "dose": "10-15 mg/kg IM/IV q12h x7-10 days"
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": "≥2 yrs",
+        "dose": "20-40 mg/kg/day (once daily)",
+        "max_day": "1 gm"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "2-3 hrs",
+    "half_life_esrd": "30-70 hrs",
+    "dose_renal_function_normal": "15 mg/kg (max 1 gm) IM q24h",
+    "crcl_or_egfr": {
+      "crcl_>50": "No dosage adjustment",
+      "crcl_10_50": "15 mg/kg q24-72h",
+      "crcl_<10": "15 mg/kg q72-96h"
+    },
+    "hemodialysis": "15 mg/kg q72-96h (+ extra 7.5 mg/kg AD)",
+    "capd": "20-40 mg lost per L of dialysate/day",
+    "crrt": "15 mg/kg q24-72h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "obesity": "See Obesity Dosing Adjustments table."
+  },
+  "adverse_effects": [
+    "Ototoxicity: vestibular dysfunction (vertigo); paresthesias; dizziness & nausea (all less in patients receiving 2-3 doses/week); tinnitus and high frequency loss (1%).",
+    "Nephrotoxicity (rare).",
+    "Peripheral neuropathy (rare).",
+    "Allergic skin rashes (4-5%)",
+    "Drug fever.",
+    "Toxicity similar with q24h vs q8h dosing (Clin Infect Dis 38:1538, 2004)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Associated with fetal harm, especially 1st TM use. Reports of irreversible ototoxicity. Avoid in pregnancy.",
+    "use_during_lactation": "Probably safe, monitor infant for GI toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "full_spectrum_link": "Full comparative spectrum of activity"
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "25-50 (15 mg/kg IM, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "0-10%",
+    "volume_of_distribution": "0.26 L/kg",
+    "avg_serum_t1_2": "2-3 hr",
+    "elimination": "Renal",
+    "bile_penetration": "10-60%",
+    "csf_blood": "0-30%",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "No data"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Amphotericin B",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Cisplatin",
+      "effect": "↑ nephrotoxicity, ↑ ototoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Furosemide",
+      "effect": "↑ ototoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Neuromuscular blocking agents",
+      "effect": "↑ apnea or respiratory paralysis",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "NSAIDS",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Piperacillin-tazobactam",
+      "effect": "Possible streptomycin inactivation",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Radiographic contrast",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Vancomycin",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    }
+  ]
+}

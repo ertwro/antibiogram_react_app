@@ -1,0 +1,132 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, CNS",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, CNS.pdf",
+    "lastUpdated": "2024-07-01"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clinical evidence of neurologic involvement with syphilis:",
+        "  Cognitive dysfunction",
+        "  Motor or sensory deficits",
+        "  Ophthalmic or auditory symptoms: ANY eye or ear involvement is considered neurosyphilis, and should be treated as such even if LP is normal!",
+        "  Cranial nerve palsies",
+        "  Symptoms or signs of meningitis",
+        "Diagnosis: cannot depend on screen with RPR/VDRL as 25% can spontaneously becomes negative after 5 years or more. Screen with FTA-ABS. (Ann Int Med 104:368,1986)",
+        "Patients with these symptoms or presentation need a CSF exam unless isolated ocular or otic symptoms.",
+        "If isolated ocular signs and symptoms with reactive serological studies, diagnostic CSF not required (about 40% ocular will have normal CSF) though would consider exam when symptoms present with normal exam.",
+        "If isolated otic signs and symptoms with reactive serological studies, diagnostic CSF not required (about 90% will have normal CSF)",
+        "CSF VDRL very specific but not sensitive. If suggestive clinical picture, negative CSF VDRL, but presence of > 20 WBCs, treat as neurosyphilis: Sex Trans Dis 39:291, 2012."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "3-4 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Procaine Penicillin G",
+            "dose": "2.4 million units",
+            "route": "IM",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Probenecid",
+            "dose": "0.5 gm",
+            "route": "po",
+            "frequency": "qid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "(Clin Infect Dis 2020;71:267)"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1-2 gm",
+            "route": "IV or IM",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "(Retrospective study in France supportive: Lancet Inf Dis 21:1441, 2021)."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Ceftriaxone recommended as an alternative in European 2020 Syphilis Guidelines but not 2021 CDC STD Guidelines MMWR Recomm Rep 70:1, 2021"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For penicillin allergy: either desensitize the patient to penicillin or obtain infectious diseases consultation. See methods for Parenteral Penicillin Desensitization.",
+        "Serologic criteria for response to treatment: 4-fold or greater decrease in VDRL titer over 6-12 months: Clin Infect Dis 2015 61:S818.",
+        "Repeat LP not needed if responsive by serological and clinical criteria",
+        "Syphilis references, JAMA 312:1905, 2014, Lancet Infect Dis 4:456, 2004; Lancet 2017 389:1550.",
+        "See 2021 CDC STD Guidelines MMWR Recomm Rep 70:1, 2021 or European 2020 Syphilis Guidelines",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022",
+        "General references on neurosyphilis: N Engl J Med 2019;381:1358; Clin. Infect. Dis. 2024;78:1085"
+      ]
+    }
+  ]
+}

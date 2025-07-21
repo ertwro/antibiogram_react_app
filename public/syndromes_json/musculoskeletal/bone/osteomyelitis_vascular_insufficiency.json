@@ -1,0 +1,91 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Vascular Insufficiency",
+    "lastUpdated": "2024-04-12",
+    "sourceFile": "Osteomyelitis, Vascular Insufficiency.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Diabetics with peripheral neuropathy and infected skin ulcers",
+        "Peripheral vascular disease",
+        "Diagnosis",
+        "Culture of bone biopsy; swab cultures unreliable (Clin Infect Dis 42:57, 2006).",
+        "Osteomyelitis is more likely if ulcer >2 cm², positive probe to bone, ESR >70 and abnormal plain x-ray (JAMA 299:806, 2008).",
+        "See also Diabetic Foot."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus",
+        "Streptococci",
+        "Anaerobes (Gram-positive and Gram-negative)",
+        "Gram-negative bacilli",
+        "Polymicrobial"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Debride overlying ulcer and submit bone for histology and culture.",
+        "Select antibiotic based on culture results and treat for 6 weeks if unresected, infected bone and 2-5 days with definitive radical resection of infected bone.",
+        "Empirical therapy pending culture data (NOT recommended unless patient is acutely ill)",
+        "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) + Ertapenem 1 gm q24h OR",
+        "Vancomycin as above + Moxifloxacin 400 mg IV/po once daily",
+        "See also: Diabetic Foot.",
+        "Revascularization if possible."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral agent(s) with good bioavailability (e.g., TMP-SMX, a fluoroquinolone, Doxycycline, Linezolid, Amoxicillin-clavulanate, Clindamycin) that have activity against bone isolates are suitable alternatives to parenteral therapy (See Expert Opin Pharmacother. 2017; 18:759)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If possible avoid empiric therapy prior to obtaining cultures to maximize yield of microbiological studies.",
+        "De-escalate and refine regimen based on microbiological data."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA Guidelines for diabetic foot infection: Clin Infect Dis. 2023 Oct 2:ciad527."
+      ]
+    }
+  ]
+}

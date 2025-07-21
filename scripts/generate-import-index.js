@@ -60,6 +60,10 @@ ${exports.join(',\n')}
 
 // Generate keys from bacterium names dynamically
 const generateBacteriumKey = (bacteriumName) => {
+    if (typeof bacteriumName !== 'string') {
+        console.warn('generateBacteriumKey: bacteriumName is not a string:', bacteriumName);
+        return '';
+    }
     return bacteriumName
         .toLowerCase()
         .replace(/[^a-z0-9\\s]/g, '') // Remove special characters
@@ -71,9 +75,15 @@ const generateBacteriumKey = (bacteriumName) => {
 // Create name-based index for dynamic lookup
 export const bacteriaByName = {};
 Object.values(bacteriaDatabase).forEach(organism => {
-    if (organism.identity?.bacteriumName) {
-        const key = generateBacteriumKey(organism.identity.bacteriumName);
-        bacteriaByName[key] = organism;
+    // Check both possible data structures
+    const bacteriumName = organism._originalData?.identity?.bacteriumName || 
+                         organism.identity?.bacteriumName;
+    
+    if (bacteriumName && typeof bacteriumName === 'string') {
+        const key = generateBacteriumKey(bacteriumName);
+        if (key) {
+            bacteriaByName[key] = organism;
+        }
     }
 });
 

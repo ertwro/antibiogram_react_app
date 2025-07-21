@@ -1,0 +1,68 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Melioidosis",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Pneumonia, Melioidosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pneumonia with or without septic shock or deep tissue abscess formation (Clin Infect Dis. 2012; 54:362).",
+        "Endemic regions: tropical climates including Southeast Asia, Northern Australia, South Pacific, Africa, India, China, South America, the Caribbean (Puerto Rico: Clin Infect Dis. 2015; 60:243).",
+        "Greatest number of cases reported from Thailand."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Burkholderia pseudomallei"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Burkholderia pseudomallei"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reviews: Aust J Gen Pract. 2019; 48:327, Clin Microbiol Rev. 2020;33:e00006, Curr Opin Infect Dis. 2022; 35:517.",
+        "Even with compliance, relapse rate is 10%; TMP-SMX with lowest relapse rate."
+      ]
+    }
+  ]
+}

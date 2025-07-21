@@ -1,0 +1,138 @@
+{
+  "_originalData": {
+    "aliases": [
+      "Clostridium perfringens"
+    ],
+    "updated": "2024-03-06",
+    "clinical_setting": [
+      "Specific therapy",
+      "For related topics, see",
+      "Necrotizing fasciitis, Clostridium sp.",
+      "Gangrene, Muscle",
+      "Shock, Toxic, Clostridia",
+      "Also a cause of biliary tract infections, anaerobic lung infection and empyema, intraabdominal infection, female genital tract infections (C. sordellii [now Paeniclostridium sordellii] has been associated with medical or surgical abortion), and self-limited food poisoning (often associated with improperly cooked meat and gravy)."
+    ],
+    "classification": [
+      "Anaerobic, spore-forming Gram positive bacilli"
+    ],
+    "primary_regimens": [
+      "Prompt surgical debridment for gas gangrene",
+      "Penicillin G + Clindamycin (see Comments)",
+      "Hyperbaric oxygen is not recommended for treatment of clostridial gas gangrene and myonecrosis, as no proven benefit and arrangements for HBO may delay needed surgical debridement.",
+      "Rehydration for C. perfringens food poisoning; antibiotics not indicated."
+    ],
+    "alternative_regimens": [
+      "Doxycycline"
+    ],
+    "comments": [
+      "Penicillin is the drug of choice with the addition of Clindamycin for the theoretical benefit of inhibition of toxin production.",
+      "Remains susceptible to most front-line antibiotics: Erythromycin, Chloramphenicol, Cefazolin, Cefoxitin, Ceftriaxone, Piperacillin, Carbapenem, Metronidazole, Vancomycin, Linezolid.",
+      "Clinical practice guideline: Clin Infect Dis 59:147, 2014.",
+      "Review: N Engl J Med 377(23): 2253, 2017"
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "aliases",
+      "updated",
+      "clinical_setting",
+      "classification",
+      "primary_regimens",
+      "alternative_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.256Z",
+    "sourceFormat": "legacy_cdiff"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": [
+        "Clostridium perfringens"
+      ]
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinical_setting"
+    ],
+    "value": [
+      "Specific therapy",
+      "For related topics, see",
+      "Necrotizing fasciitis, Clostridium sp.",
+      "Gangrene, Muscle",
+      "Shock, Toxic, Clostridia",
+      "Also a cause of biliary tract infections, anaerobic lung infection and empyema, intraabdominal infection, female genital tract infections (C. sordellii [now Paeniclostridium sordellii] has been associated with medical or surgical abortion), and self-limited food poisoning (often associated with improperly cooked meat and gravy)."
+    ]
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_cdiff",
+      "hasMixedContent": true,
+      "hasTaperingRegimens": false
+    },
+    "standardizedRegimens": [],
+    "narrativeTreatments": {
+      "primaryRegimens": {
+        "sources": [
+          "primary_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Prompt surgical debridment for gas gangrene",
+          "Penicillin G + Clindamycin (see Comments)",
+          "Hyperbaric oxygen is not recommended for treatment of clostridial gas gangrene and myonecrosis, as no proven benefit and arrangements for HBO may delay needed surgical debridement.",
+          "Rehydration for C. perfringens food poisoning; antibiotics not indicated."
+        ]
+      },
+      "alternativeRegimens": {
+        "sources": [
+          "alternative_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Doxycycline"
+        ]
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "Penicillin is the drug of choice with the addition of Clindamycin for the theoretical benefit of inhibition of toxin production.",
+          "Remains susceptible to most front-line antibiotics: Erythromycin, Chloramphenicol, Cefazolin, Cefoxitin, Ceftriaxone, Piperacillin, Carbapenem, Metronidazole, Vancomycin, Linezolid.",
+          "Clinical practice guideline: Clin Infect Dis 59:147, 2014.",
+          "Review: N Engl J Med 377(23): 2253, 2017"
+        ]
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "updated": "2024-03-06"
+    }
+  }
+}

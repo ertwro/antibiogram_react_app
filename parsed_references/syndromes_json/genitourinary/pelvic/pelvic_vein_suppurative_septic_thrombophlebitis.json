@@ -1,0 +1,241 @@
+{
+  "documentMetadata": {
+    "title": "Pelvic Vein Suppurative (Septic) Thrombophlebitis",
+    "sourceFile": "Pelvic Vein Suppurative (Septic) Thrombophlebitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infection of clotted ovarian or deep pelvic veins",
+        "Usually postpartum (either vaginal or C-section delivery). Can complicate postpartum endometritis (endomyometritis) or pelvic inflammatory disease.",
+        "Much less common associations: post-hysterectomy, underlying malignancy, hormonal stimulation"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Infection of ovarian vein:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "One week postpartum with fever and focal pain;",
+            "Infection of deep pelvic veins presents 3-5 days postpartum with fever but no localizing pain.",
+            "Deep pelvic vein infection complicated by pulmonary emboli in 2% (usually small).",
+            "For post-operative infections in obstetrics and gynecological setting, see Clin Obst Gyn 2012; 55:904."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "CT scan or MRI"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacteroides sp., Prevotella bivia, other anaerobes (e.g., Clostridium species)",
+        "Streptococcus sp. (Group A, B)",
+        "Enterobacteriaceae: E. coli, Klebsiella species and others"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment is a combination of effective antibiotics and anticoagulation",
+        "No clear role for surgery on infected veins"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If low prevalence of multi-drug resistant gram negative bacilli (MDR GNB):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 4 hr"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1-2 gm",
+                "route": "IV",
+                "frequency": "q24h"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Heparin"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Discontinue antibiotic(s) when WBC and differential normal and afebrile for 48 hrs",
+            "Then switch from heparin to warfarin and continue for 6 weeks."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If high prevalence (≥ 20%) of MDR GNB:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Imipenem-cilastatin",
+                "dose": "0.5 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              }
+            ],
+            "notes": "to ensure adequate therapy vs ESBL producing aerobic GNB"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If severe IgE-mediated beta-lactam antibiotic allergy, could use:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q12h"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Heparin"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Discontinue antibiotics after WBC and differential normal and afebrile for 48 hrs",
+            "Then switch from heparin to warfarin and continue for 6 weeks."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also, Amnionitis/Septic Abortion.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Amnionitis/Septic Abortion"
+      }
+    }
+  ]
+}

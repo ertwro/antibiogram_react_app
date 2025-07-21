@@ -1,0 +1,487 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Haemophilus ducreyi",
+      "aliases": [
+        "Chancroid"
+      ],
+      "lastUpdated": "2024-04-29",
+      "clsiCategory": "Haemophilus influenzae and Haemophilus parainfluenzae",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Arranged in 'school of fish' chains"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative coccobacillus arranged in 'school of fish' chains, requires X factor but not V factor, fastidious, oxidase variable, catalase –, asaccharolytic. Diagnosis is often clinical or by NAAT."
+    },
+    "clinicalProfile": {
+      "summary": "Haemophilus ducreyi is the causative agent of chancroid, a sexually transmitted infection characterized by painful genital ulcers and inguinal lymphadenopathy. It is more prevalent in developing countries and is associated with contact with sex workers. It is also recognized as a cause of skin ulcers in children.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Painful genital ulcers",
+        "Tender inguinal lymphadenopathy (buboes)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Chancroid",
+          "description": "A sexually transmitted infection causing genital ulcers."
+        },
+        {
+          "syndromeName": "Cutaneous ulcers",
+          "description": "Non-genital skin ulcers, particularly in children."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals with multiple sexual partners",
+        "Sex workers",
+        "Children in endemic areas (for skin ulcers)"
+      ],
+      "transmissionVectors": [
+        "Sexual contact"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Tetracycline",
+          "notes": "Most strains are resistant."
+        },
+        {
+          "drugOrClass": "Amoxicillin",
+          "notes": "Most strains are resistant."
+        },
+        {
+          "drugOrClass": "Trimethoprim-Sulfamethoxazole",
+          "notes": "Most strains are resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Intermediate Resistance",
+          "details": "Intermediate resistance to Ciprofloxacin or Erythromycin has been reported."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Diagnosis is often empiric after excluding other causes of genital ulcers."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Chancroid",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "1 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "250 mg",
+                      "route": "IM",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Erythromycin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Requires special growth medium.",
+        "Positive PCR assay (not FDA approved but available in some clinical labs)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is often made empirically after excluding other causes of genital ulcers, such as syphilis and herpes simplex virus.",
+        "biosafetyWarning": "",
+        "methods": [
+          {
+            "methodName": "Culture",
+            "details": "Requires special growth medium and is not widely available."
+          },
+          {
+            "methodName": "PCR",
+            "details": "Not FDA approved but may be available in some clinical labs."
+          }
+        ]
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Curr Opin Infect Dis",
+          "citation": "29:52, 2016",
+          "summaryOrNote": "Review of chancroid epidemiology."
+        },
+        {
+          "source": "Emerg Infect Dis",
+          "citation": "2016 Jan;22(1):1-8",
+          "summaryOrNote": "Recognition of H. ducreyi as a cause of skin ulcers in children."
+        },
+        {
+          "source": "Cochrane Database Syst Rev",
+          "citation": "2017 12:CD012492",
+          "summaryOrNote": "Review of treatment efficacy for chancroid."
+        },
+        {
+          "source": "CDC 2021 STD Guidelines: MMWR Recomm Rep",
+          "citation": "70 (RR-4):1 2021",
+          "summaryOrNote": "CDC treatment guidelines for sexually transmitted diseases."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.317Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Haemophilus ducreyi"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Chancroid"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-04-29"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Arranged in 'school of fish' chains"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Haemophilus ducreyi is the causative agent of chancroid, a sexually transmitted infection characterized by painful genital ulcers and inguinal lymphadenopathy. It is more prevalent in developing countries and is associated with contact with sex workers. It is also recognized as a cause of skin ulcers in children.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Painful genital ulcers",
+        "Tender inguinal lymphadenopathy (buboes)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Chancroid",
+          "description": "A sexually transmitted infection causing genital ulcers."
+        },
+        {
+          "syndromeName": "Cutaneous ulcers",
+          "description": "Non-genital skin ulcers, particularly in children."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals with multiple sexual partners",
+        "Sex workers",
+        "Children in endemic areas (for skin ulcers)"
+      ],
+      "transmissionVectors": [
+        "Sexual contact"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Tetracycline",
+          "notes": "Most strains are resistant."
+        },
+        {
+          "drugOrClass": "Amoxicillin",
+          "notes": "Most strains are resistant."
+        },
+        {
+          "drugOrClass": "Trimethoprim-Sulfamethoxazole",
+          "notes": "Most strains are resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Intermediate Resistance",
+          "details": "Intermediate resistance to Ciprofloxacin or Erythromycin has been reported."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Chancroid",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "1 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 1 gm PO single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Chancroid",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "250 mg",
+              "route": "IM",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Ceftriaxone 250 mg IM single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Chancroid",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Erythromycin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "q8h",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Erythromycin 500 mg PO q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Chancroid",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 500 mg PO q12h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Requires special growth medium.",
+        "Positive PCR assay (not FDA approved but available in some clinical labs)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

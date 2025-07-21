@@ -1,0 +1,103 @@
+
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Gonococcal",
+    "lastUpdated": "2023-11-14",
+    "sourceFile": "Endocarditis_ Gonococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for endocarditis with positive blood cultures for N. gonorrhoeae.",
+        "Signs and symptoms of endocarditis.",
+        "Gonococcal endocarditis may occur in the absence of concomitant urogenital symptoms (Infection 42:425, 2014).",
+        "Pharyngeal and rectal infection may be asymptomatic and difficult to eradicate (test for cure in cases of pharyngeal infection)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neisseria gonorrhoeae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks"
+        }
+      }
+    },
+    {
+        "type": "partnerManagement",
+        "partnerManagementData": {
+            "action": "Treat sex partners"
+        }
+    },
+    {
+        "type": "diagnosticTest",
+        "diagnosticTestData": {
+            "name": "Test patient for HIV, syphilis and Chlamydia"
+        }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ceftriaxone resistance in N. gonorrhoeae has been reported (Antimicrob Agents Chemother 55:3538, 2011; Emerg Infect Dis 2018; 24:735, 2018); determine susceptibility of any isolate recovered.",
+        "For extensively resistant species Ertapenem treatment can be considered (European 2020 IUSTI guidelines)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Severe valve destruction may occur.",
+        "2021 CDC STD treatment recommendations MMWR Recomm Rep 70 (RR-4):1 2021 are for Ceftriaxone 1-2 gm IV every 12 hours for at least 4 weeks but few studies to determine optimal treatment.",
+        "As of 2020 (MMWR 69:1911 2020) CDC no longer recommends treating gonococcal infections presumptively for Chlamydia"
+      ]
+    }
+  ]
+}

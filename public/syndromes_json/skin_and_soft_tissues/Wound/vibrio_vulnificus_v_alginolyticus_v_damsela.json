@@ -1,0 +1,92 @@
+
+{
+  "documentMetadata": {
+    "title": "Vibrio vulnificus, V. alginolyticus, V. damsela",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Wound/Vibrio vulnificus, V. alginolyticus, V. damsela.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recommendations are for treatment of severe soft tissue infection and sepsis.",
+        "Vibrio vulnificus is a gram-negative bacillus that can cause diarrhea, wound infections, and bacteremia. It is the number one cause of shellfish-associated deaths in the U.S. (Eur J Clin Microbiol Infect Dis 2019;38:1999).",
+        "Organisms live in salt water marine environments: seawater and estuaries; wound infections result from exposure of a wound to seawater or brackish water containing the organism. Exposure can result from recreational water activities, oyster shucking, sea urchin harvesting, fish fin punctures or handling seafood.",
+        "Wound infections are most common during the summer months when the density of organisms is greatest and can progress to necrotizing fasciitis (J Antimicrob Chemother 67:488, 2012).",
+        "Highest risk factors for life-threatening infection:",
+        "Cirrhosis due to alcohol or chronic viral hepatitis, alcoholism, hemochromatosis, diabetes mellitus, thalassemia major, chronic renal disease, use of TNF inhibitors, and lymphoma (Clin Infect Dis 46:970, 2008).",
+        "General references: N Engl J Med 2018;379:375 (image of hemorrhagic bullae); N Engl J Med 2016;375:1780"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Vibrio vulnificus",
+        "Vibrio alginolyticus",
+        "Vibrio damsela (aka Photobacterium damselae)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Adult: (Doxycycline or Minocycline 100 mg IV/po bid) + (Ceftriaxone 2 gm IV once daily or Ceftazidime 1 gm IV q8h)",
+        "Child: Doxycycline 4.4 mg/kg/day div bid (max 200 mg/day) + Ceftazidime 150-200 mg/kg/d divided q8h",
+        "NOTE: Doxycycline can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015).",
+        "Severe infections may require surgical debridement: Am J Surg 206: 32, 2013."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Levofloxacin 750 mg IV/po once daily or Ciprofloxacin 750 mg po bid or 400 mg IV bid can be substituted for Doxycycline or Minocycline (See Comments)",
+        "Minor infections can be treated with a single agent."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy based on clinical response."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Retrospective surveillance study found higher mortality with \u00df-lactam alone compared to fluoroquinolone alone or combination of fluoroquinolone or a tetracycline plus \u00df-lactam (BMC Infect Dis. 5:226, 2015).",
+        "Due to the potential severity of disease, it is suggested that with the appropriate risk factors (ingestion of raw seafood, exposure to salt-water environment) empiric therapy for wound and septic patients include drugs active against V. vulnificus.",
+        "Roughly 75% of patients have bullous skin lesions.",
+        "Sepsis and septic shock in immunocompromised individuals, including hematological disease, malignancy, and liver disease (Epidemiol Infect 142:877, 2014).",
+        "Review comparing different Vibrio infections (Nat Rev Dis Primers 4:8 2018).",
+        "Reference: StatPearls; 2023 Jan. 2023 Jan 10."
+      ]
+    }
+  ]
+}

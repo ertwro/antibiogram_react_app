@@ -1,0 +1,527 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Shigella sp.",
+      "aliases": [],
+      "lastUpdated": "2022-09-20",
+      "clsiCategory": "Salmonella and Shigella spp.",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      },
+      "strainDetails": [
+        {
+          "type": "Serogroup",
+          "value": "Shigella dysenteriae (A)",
+          "notes": ""
+        },
+        {
+          "type": "Serogroup",
+          "value": "Shigella flexneri (B)",
+          "notes": ""
+        },
+        {
+          "type": "Serogroup",
+          "value": "Shigella boydii (C)",
+          "notes": ""
+        },
+        {
+          "type": "Serogroup",
+          "value": "Shigella sonnei (D)",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-negative rod, non-motile, lactose –, H2S –, urease –, lysine decarboxylase –. Biochemically very similar to E. coli."
+    },
+    "clinicalProfile": {
+      "summary": "Causes shigellosis, an acute, self-limited febrile diarrhea that typically lasts 7 days if untreated. It is an important cause of morbidity and mortality in young children in low- and middle-income countries. Outbreaks, often with resistant strains, are linked to international travel and occur in specific populations like MSM.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea (often bloody)",
+        "Fever",
+        "Stomach cramps",
+        "Tenesmus"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Shigellosis (Bacillary Dysentery)",
+          "description": "An acute intestinal infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Young children in low- and middle-income countries",
+        "Travelers to endemic areas",
+        "Men who have sex with men (MSM)"
+      ],
+      "transmissionVectors": [
+        "Fecal-oral route",
+        "Contaminated food or water",
+        "Sexual contact"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Fluoroquinolone Resistance Concern",
+          "details": "Isolates with ciprofloxacin MICs of 0.12 to 1.0 µg/mL may be reported as susceptible but are associated with resistance genes. Fluoroquinolones should be avoided if the ciprofloxacin MIC is >0.12 µg/mL. Resistance to nalidixic acid is associated with treatment failure or relapse with a fluoroquinolone."
+        },
+        {
+          "alertTitle": "MDR/XDR Outbreaks",
+          "details": "Outbreaks of MDR/XDR Shigella have been reported frequently, including in retirement facilities and among MSM. An extensively drug-resistant (XDR) ESBL Shigella sonnei outbreak has been associated with MSM in the UK."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Routine therapy for uncomplicated gastroenteritis is not recommended as it only shortens the illness by 1-2 days, may promote resistance, and may prolong shedding.",
+        "Antibiotic treatment is recommended for immunocompromised patients, those with severe illness, or to control outbreaks.",
+        "For food handlers, stool cultures become negative after a minimum of 48 hours of effective therapy."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Ampicillin",
+          "condition": "All infections",
+          "reason": "High frequency of resistance."
+        },
+        {
+          "drugOrClass": "Amoxicillin",
+          "condition": "All infections",
+          "reason": "High frequency of resistance."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Shigellosis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500 mg bid or 750 mg once daily",
+                      "route": "PO",
+                      "frequency": "bid or qd",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": "Recommended for infection acquired in Asia or other locales with high resistance."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Shigellosis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": "Use if sensitive."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX-DS",
+                      "dose": "1 tab",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": "Use only if confirmed susceptible in vitro."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Stool culture and in vitro susceptibility should be performed, as specific therapy is dictated by these results."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "CDC",
+          "citation": "",
+          "summaryOrNote": "The CDC has an advisory about resistance breakpoints."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.344Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Shigella sp."
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2022-09-20"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Causes shigellosis, an acute, self-limited febrile diarrhea that typically lasts 7 days if untreated. It is an important cause of morbidity and mortality in young children in low- and middle-income countries. Outbreaks, often with resistant strains, are linked to international travel and occur in specific populations like MSM.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea (often bloody)",
+        "Fever",
+        "Stomach cramps",
+        "Tenesmus"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Shigellosis (Bacillary Dysentery)",
+          "description": "An acute intestinal infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Young children in low- and middle-income countries",
+        "Travelers to endemic areas",
+        "Men who have sex with men (MSM)"
+      ],
+      "transmissionVectors": [
+        "Fecal-oral route",
+        "Contaminated food or water",
+        "Sexual contact"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Fluoroquinolone Resistance Concern",
+          "details": "Isolates with ciprofloxacin MICs of 0.12 to 1.0 µg/mL may be reported as susceptible but are associated with resistance genes. Fluoroquinolones should be avoided if the ciprofloxacin MIC is >0.12 µg/mL. Resistance to nalidixic acid is associated with treatment failure or relapse with a fluoroquinolone."
+        },
+        {
+          "alertTitle": "MDR/XDR Outbreaks",
+          "details": "Outbreaks of MDR/XDR Shigella have been reported frequently, including in retirement facilities and among MSM. An extensively drug-resistant (XDR) ESBL Shigella sonnei outbreak has been associated with MSM in the UK."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Shigellosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500 mg bid or 750 mg once daily",
+              "route": "PO",
+              "frequency": "bid or qd",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 500 mg bid or 750 mg once daily PO bid or qd"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Shigellosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Levofloxacin 500 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Shigellosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "5 days",
+              "comments": "Recommended for infection acquired in Asia or other locales with high resistance.",
+              "originalText": "Ceftriaxone 1-2 gm IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Shigellosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "3 days",
+              "comments": "Use if sensitive.",
+              "originalText": "Azithromycin 500 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Shigellosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX-DS",
+              "dose": "1 tab",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "5 days",
+              "comments": "Use only if confirmed susceptible in vitro.",
+              "originalText": "TMP-SMX-DS 1 tab PO bid"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Stool culture and in vitro susceptibility should be performed, as specific therapy is dictated by these results."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

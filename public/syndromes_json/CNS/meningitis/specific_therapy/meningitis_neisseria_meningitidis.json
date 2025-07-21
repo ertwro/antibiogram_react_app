@@ -1,0 +1,55 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Neisseria meningitidis",
+    "sourceFile": "Meningitis, Neisseria meningitidis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Neisseria meningitidis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neisseria meningitidis is a leading cause of bacterial meningitis, especially in children and young adults."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "4 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        },
+        "notes": "Only if susceptible."
+      }
+    }
+  ]
+}

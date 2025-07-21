@@ -1,0 +1,142 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from bear",
+    "sourceFile": "Bite_ Bear.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bite wound from bear"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "S. aureus",
+        "Coagulase-negative Staphylococcus",
+        "Viridans streptococci",
+        "Enterobacteriacaeae",
+        "Aeromonas spp.",
+        "B. cereus",
+        "Neisseria spp.",
+        "E. durans"
+      ]
+    },
+    {
+        "type": "crossReference",
+        "referenceData": {
+            "text": "See Clin Microbiol Rev 24: 231, 2011",
+            "targetType": "externalURL",
+            "targetIdentifier": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3122495/"
+        }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "over 4 hr"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "connector": "+",
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "connector": "or",
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "connector": "+",
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "oral",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "connector": "+",
+            "drug": "Ciprofloxacin",
+            "dose": "500-750 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Injuries often result in hospital level care.",
+        "Infection with Mycobacterium fortuitum reported (J Clin Micro 43:1009, 2005).",
+        "Rabies reported in bears (MMWR 48:761, 1999).",
+        "Bites caused by bears, uncommonly require initiation of PEP.",
+        "Consultation with local public health is advised.",
+        "See Rabies, Vaccines and PEP for detailed evaluation procedure and recommendations"
+      ]
+    }
+  ]
+}

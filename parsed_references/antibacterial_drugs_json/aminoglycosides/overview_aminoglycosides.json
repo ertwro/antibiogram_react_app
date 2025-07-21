@@ -1,0 +1,63 @@
+{
+  "drug_name": "Aminoglycosides, Overview",
+  "usage_and_spectrum_of_activity": {
+    "description": "Aminoglycosides are used to treat infections caused by aerobic gram-negative bacilli, including P. aeruginosa. Some agents have useful activity against mycobacteria. No activity against anaerobic organisms. Poor activity in a low pH environment (e.g., abscess). Because aminoglycosides don't penetrate lung secretions well and the low pH of an infected lung is bad for them, dosing for pneumonia should be aggressive. This increases the risk for toxicity. An alternative antibiotic for drug resistant genotypes. Mechanism of action: Aminoglycosides bind to the 30S ribosome, causing misreading of mRNA codons which results in error-prone protein synthesis. They also interfere with the attachment of tRNA to the A (aminoacyl) site on the ribosome. Aminoglycosides are considered bactericidal drugs, with classic concentration-dependent killing. They also have a prolonged postantibiotic effect. Staph. aureus may be susceptible in vitro but, when used alone, resistant small colony variants frequently emerge rapidly. Aminoglycosides are often used in combination with other antibiotics.",
+    "adverse_effects": {
+      "description": "All aminoglycosides have potential to cause renal proximal tubular necrosis and renal failure, deafness due to cochlear toxicity, vertigo due to damage to vestibular organs, and rarely neuromuscular blockade. Nephrotoxicity, and probably ototoxicity, is the result of cumulative uptake in the cells of the proximal renal tubules and inner ear. Data show that even in septic patients, increased risk of acute renal injury requires at least 3 days of therapy (Antimicrob Agents Chemother 2014;58:7468).",
+      "risk_factors_for_nephrotoxicity": "Risk factors for nephrotoxicity include advanced age, dehydration, duration of therapy, liver disease, and concomitant use of other nephrotoxic drugs (e.g., cyclosporine, vancomycin, amphotericin B, radiocontrast). These same factors probably influence risk of ototoxicity.",
+      "risk_of_nephrotoxicity_decreased_by": "Risk of nephrotoxicity is decreased by concomitant antipseudomonal penicillins, and perhaps by the once-daily dosing method (especially if baseline renal function normal).",
+      "cochlear_toxicity": "Initial damage is to high frequency hair cells, hence may not be appreciated by the patient. One in 500 patients (Europe) have mitochondrial mutation that predicts cochlear toxicity (N Engl J Med 2009;360:640; N Engl J Med 2009;360:642).",
+      "vestibular_toxicity": "May be more common than hearing loss. Usually bilateral, may be unilateral. Symptoms include imbalance, oscillopsia (a perceived bobbing of the visual field), and difficulty with coordination."
+    }
+  },
+  "dosing_and_monitoring": {
+    "extended_interval_dosing": {
+      "description": "For gram-negative infection, extended-interval dosing is preferred in most situations. The clinical trial data of extended-interval aminoglycosides have been reviewed extensively by meta-analysis: Clin Infect Dis 1997;24:816. PK/PD analysis: Antimicrob Agents Chemother 2011;55:2528. The Hartford Hospital method is described here (Antimicrob Agents Chemother 1995;39:650).",
+      "initial_dose": "Initial dose is 7 mg/kg if using gentamicin or tobramycin, 15-20 mg/kg if using amikacin. Dosage interval is chosen based on estimated CrCl:",
+      "dosage_interval": {
+        "crcl_>60": "q24h",
+        "crcl_40_59": "q36h",
+        "crcl_20_39": "q48h",
+        "crcl_<20": "Conventional dosing suggested"
+      },
+      "monitoring": "Draw a single level 6-14 hours after the initial dose. Fit the result onto the nomogram below to confirm (or modify) the chosen dosage interval. IMPORTANT: The y-axis is only valid for a 7 mg/kg dose of gentamicin or tobramycin. If a different dose was used, such as 5 mg/kg, then the measured concentration must be multiplied by 7/5 to use the nomogram. If amikacin 15 mg/kg was used, the measured concentration must be halved to use the nomogram."
+    },
+    "gram_positive_infection": {
+      "description": "For gram-positive infection, a lower dose of gentamicin (in combination with one or more agents) is used. The method of administration depends on the situation:",
+      "invasive_enterococcal_infection": "1 mg/kg IV q8h",
+      "staphylococcal_prosthetic_valve_endocarditis": "1 mg/kg IV q8h",
+      "streptococcal_endocarditis": "3 mg/kg IV q24h"
+    },
+    "serum_concentration_monitoring": {
+      "description": "Peak and trough monitoring at steady state is performed with conventional dosing. In critically ill patients, consider measuring peak serum concentration after the first dose, as volume of distribution and renal function may change rapidly.",
+      "timing": {
+        "trough": "Immediately prior to a dose.",
+        "peak": "Early studies suggested that drug distribution is complete 60 minutes after the beginning of an aminoglycoside infusion. More recent data suggest that with conventional dosing, distribution will be complete about 1.5 hours after the beginning of an infusion, meaning 30 minutes after a 60 minute infusion (Antimicrob Agents Chemother 1997;41:1115)."
+      },
+      "targets": {
+        "conventional_dosing_gram_negative_infection": {
+          "gentamicin_tobramycin": "peak 6-10 µg/mL, trough <2 µg/mL",
+          "amikacin": "peak 20-30 µg/mL, trough 5-10 µg/mL"
+        },
+        "gram_positive_synergy_gentamicin": "peak 3-4 µg/mL, trough <1 µg/mL"
+      }
+    },
+    "body_weight_used_for_dosing": {
+      "below_ideal_bw": "use actual body weight",
+      "ideal_bw_to_130_ideal_bw": "use ideal BW",
+      ">130_ideal_bw": "use adjusted body weight (Adjusted body weight = ideal BW + 0.4 x (actual BW - ideal BW))"
+    }
+  },
+  "specific_agents": [
+    "Amikacin",
+    "Gentamicin",
+    "Kanamycin",
+    "Netilmicin",
+    "Neomycin",
+    "Paromomycin",
+    "Plazomicin",
+    "Spectinomycin",
+    "Streptomycin",
+    "Tobramycin"
+  ]
+}

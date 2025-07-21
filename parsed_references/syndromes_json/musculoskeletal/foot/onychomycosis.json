@@ -1,0 +1,159 @@
+{
+  "documentMetadata": {
+    "title": "Onychomycosis",
+    "lastUpdated": "2024-03-27",
+    "sourceFile": "Onychomycosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fungal infection of the fingernail or toenail.",
+        "Main patterns of onychomycosis include distolateral subungual, proximal subungual (associated with immunosuppressive condition, HIV), superficial and total dystrophic.",
+        "Diagnosis confirmed by microscopic evaluation and culture of nail clippings."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dermatophytes (Trichophyton rubrum and T. mentagrophytes) account for most of cases",
+        "Rarely candida and molds can cause disease"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fingernail, adult:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Terbinafine 250 mg po q24h x 6 weeks (79% effective)",
+            "Itraconazole (~ 60-70% effective)",
+            "200 mg po q24h x 3 months OR",
+            "200 mg po bid x 1 week/month x 2 months"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fingernail, pediatric:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "10-20 kg: Terbinafine 62.5 mg po q24h x6 weeks",
+            "20-40 kg: Terbinafine 125 mg po q24h x6 weeks",
+            ">40 kg: adult Terbinafine dose"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toenail, adult:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Terbinafine 250 mg po q24h x 12 weeks (66-76% effective)",
+            "Itraconazole (~ 60% effective)",
+            "200 mg po q24h x 3 months OR",
+            "200 mg bid x 1 wk/mo x 3–4 months"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toenail, pediatric:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "10-20 kg: Terbinafine 62.5 mg po q24h x12 weeks",
+            "20-40 kg: Terbinafine 125 mg po q24h x12 weeks",
+            ">40 kg: adult Terbinafine dose"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fingernail:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fluconazole 150-300 mg po q wk x 3-6 months (~50% effective)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toenail:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fluconazole 150–300 mg po q wk x 6–12 months (~50% effective)",
+            "Efinaconazole (Jublia) 10% solution applied once daily for 48 weeks for the topical treatment of toenail onychomycosis due to T. rubrum and T. mentagrophytes. Complete or almost complete cure, 23-26% (package insert).",
+            "Tavaborole (Kerydin) 5% solution applied once daily for 48 weeks. Complete or almost complete cure rates of 15-18%. Ref.: Med Lett Drugs Ther 57:35, 2015."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Terbinafine was associated with a higher cure rate for toenail fungal infections than azoles in a meta-analysis (JAMA 319: 397, 2018). Terbinafine: serious but rare cases of hepatic failure have been reported; avoid in those with chronic or active liver disease.",
+        "The role of nail removal in treatment is unclear and may add benefit in cases due to drug-resistant fungi.",
+        "FDA has approved laser therapy that is temporarily effective. Reported expense of each treatment: $300 - $1000 (Med Lett Drugs Ther 55:15, 2013)."
+      ]
+    }
+  ]
+}

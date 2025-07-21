@@ -1,0 +1,139 @@
+{
+  "documentMetadata": {
+    "title": "Yersinia pestis, Plague",
+    "sourceFile": "lymph_nodes-spleen/lymphadenitis/Yersinia pestis, Plague.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Plague (Yersinia pestis) is transmitted by the bite of infected fleas or in the case of pneumonic plague, by inhalation of droplets."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "There are 3 clinical presentations of plague:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bubonic plague: most common, 80-95% of cases. An acute painful non-fluctuant lymphadenitis. Bubo comes from the Greek for \"groin\".",
+            "Septicemic or Bacteremic plague: 10-20% of plague patients. Occurs with or without bubonic plague. Early in the course, G-I symptoms occur; late in the course, hypotension, DIC, and multiorgan failure occur.",
+            "Pneumonic plague: haematogenous seeding or inhalation of infected droplets. Rare with a mortality rate of 60% or higher."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Classification"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Yersinia pestis, Gram-negative bacilli (may have closed safety pin appearance)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Initiate contact isolation; plus droplet isolation if respiratory symptoms"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Streptomycin"
+          },
+          {
+            "drug": "Gentamicin",
+            "connector": "or"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "connector": "or"
+          },
+          {
+            "drug": "Doxycycline",
+            "connector": "or"
+          }
+        ],
+        "notes": "Are drugs of choice"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Severe pneumonic or septicemic plague and patients infected after intentional release of Yersinia pestis",
+        "components": [
+          {
+            "drug": "Ciprofloxacin"
+          },
+          {
+            "drug": "Gentamicin",
+            "connector": "+"
+          }
+        ],
+        "notes": "Dual therapy with two distinct classes of antimicrobials"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprehensive reviews of antibacterial therapy options: MMWR. Recommendations and Reports, July 16, 2021/70(3);1–27."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "See above."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Prevention"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In the past vaccination has been thought to protect against plague in the long term,",
+        "No currently approved licensed vaccine is available",
+        "WHO does not recommend immunisation with old generation (killed whole cell) plague vaccines",
+        "A systematic review was unable to quantify the efficacy of older vaccines nor their long-term safety (Curr Res Immunol 2023 Nov 1;4:100072)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In a mass casualty situation, may have to treat with oral drugs.",
+        "Isolate patients with plague pneumonia during the first 48 hours of treatment.",
+        "Notify Clinical Microbiology of possible plague to avoid occupational exposure.",
+        "References: StatPearls; 2022 Jan. 2022 Aug 8 and Clin Infect Dis 2020;70(suppl1): S1-S60."
+      ]
+    }
+  ]
+}

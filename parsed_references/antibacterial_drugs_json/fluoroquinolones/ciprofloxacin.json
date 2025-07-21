@@ -1,0 +1,156 @@
+{
+  "drug_name": "Ciprofloxacin",
+  "tradename": "Cipro",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2023-01-13",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Ciprofloxacin is the fluoroquinolone with the greatest potency vs. aerobic gram-negative bacilli.",
+      "Ciprofloxacin is often used to treat UTI, bone and joint infections, and infectious diarrhea caused by susceptible organisms.",
+      "Often used in combination with metronidazole to treat intra-abdominal infections, or combined with an extended-spectrum penicillin in febrile neutropenic patients.",
+      "Used in the treatment of, and post-exposure to, inhalational Bacillus anthracis (anthrax).",
+      "See Fluoroquinolones, Overview for class-wide issues, including usage, resistance mechanisms, adverse effects, pharmacology.",
+      "Pediatric use is limited to certain indications in children <16 years due to potential for injury to joint cartilage.",
+      "Concomitant administration with enteral feeding (EF) may diminish both AUC and Cmax, related to chelation by divalent cations. Literature data conflict regarding how long EF should be held during ciprofloxacin administration. Recent review suggests holding EF for 1 hr before to 2 hr after administration (J Oncol Pharm Pract 2023;29:413).",
+      "Caution: numerous drug interactions (see chart below, not all-inclusive)."
+    ],
+    "adult_dose": {
+      "oral_non_xr": "250-750 mg po q12h",
+      "oral_xr": "Cystitis: 500 mg po q24h x3 days. Complicated UTI, pyelonephritis: 1 gm po q24h x7-14 days",
+      "intravenous": "200-400 mg IV q8-12h"
+    },
+    "po_iv_auc_equivalency": {
+        "250_po_q12h": "200 mg IV q12h",
+        "500_po_q12h": "400 mg IV q12h",
+        "750_po_q12h": "400 mg IV q8h"
+    }
+  },
+  "pediatric_dose": {
+      "approved_for": "Approved only for CF, anthrax, and complicated UTI",
+      "po": "20-40 mg/kg/day (divided q12h)",
+      "iv": "20-30 mg/kg/day (divided q12h)",
+      "max_day_po": "1.5 gm",
+      "max_day_iv": "1.2 gm"
+  },
+  "renal_adjustment": {
+    "half_life_normal": "3-4",
+    "half_life_esrd": "6-9",
+    "dose_renal_function_normal": "Varies with formulation and indication",
+    "crcl_or_egfr": {
+        "tablets_non_xr": "CrCl >50: No dosage adjustment. CrCl 30-50: 250-500 mg q12h. CrCl 5-29: 250-500 mg q18h",
+        "tablets_xr_uncomplicated_uti": "No dosage adjustment for renal impairment",
+        "tablets_xr_comp_uti_acute_pyelo": "CrCl >30: No dosage adjustment. CrCl ≤30: 500 mg q24h",
+        "injection": "CrCl ≥30: No dosage adjustment. CrCl 5-29: 200-400 mg q18-24h"
+    },
+    "hemodialysis": {
+        "tablets_non_xr": "250-500 mg q24h (AD on dialysis days)",
+        "tablets_xr_comp_uti_acute_pyelo": "500 mg q24h (AD on dialysis days)",
+        "injection": "200-400 mg q24h (AD on dialysis days)"
+    },
+    "capd": {
+        "tablets_non_xr": "250-500 mg q12h",
+        "tablets_xr_comp_uti_acute_pyelo": "500 mg q24h",
+        "injection": "200-400 mg q24h"
+    },
+    "crrt": {
+        "tablets_non_xr": "250-500 mg q12h",
+        "tablets_xr_uncomplicated_uti": "500 mg q24h",
+        "tablets_xr_comp_uti_acute_pyelo": "No data",
+        "injection": "200-400 mg q12h"
+    },
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment page.",
+    "Obesity: See Obesity Dosing Adjustments page."
+  ],
+  "adverse_effects": [
+    "For class-wide adverse effects, see Fluoroquinolones, Overview.",
+    "Any of the fluoroquinolones may exacerbate muscle weakness in persons with myasthenia gravis.",
+    "In randomized study of critically ill patients, use of ciprofloxacin associated with a reduction in the absolute platelet count (PLoS 2013;8(11):e81477). Thrombocytopenia believed due to drug-induced immune thrombocytopenia (J Thromb Haemost 2013;11:169)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "Avoid breastfeeding for 3-4 hrs after a dose, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Francisella tularensis",
+        "Haemophilus ducreyi",
+        "Klebsiella granulomatis (granuloma inguinale)",
+        "Legionella sp.",
+        "Shigella sp.",
+        "Yersinia enterocolitica"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (250, 500, 750 mg), Ext-rel (ER) tab (500, 1000 mg), Oral susp (50 mg/mL, 100 mg/mL), 0.3% oph soln, 0.3% oph ointment, 0.2% otic soln, 6% otic susp (intratympanic), Cipro 0.3%/dex 0.1% otic susp, Cipro 0.3%/fluocin 0.025% otic soln, Cipro 0.2%/hc 1% otic susp",
+    "food_recommendation": "All preps + food (no dairy products)",
+    "oral_absorption_percent": "70",
+    "tmax_hr": "Tab, susp: 1-2, ER tab: 1-4",
+    "peak_serum_conc_ug_ml": "3.6 (750 mg po q12h, SS), 1.6-3.1 (500-1000 mg ER po q24h, SS), 4.6 (400 mg IV q12h, SS)",
+    "peak_urine_conc_ug_ml": "394 (500 mg po, SD)",
+    "protein_binding_percent": "20-40",
+    "volume_of_distribution_vd_l_kg": "2.4 L/kg",
+    "avg_serum_half_life_hr": "4 (ER tab 6.6)",
+    "elimination": "Renal, some biliary",
+    "bile_penetration_percent": "2800-4500",
+    "csf_blood_percent": "26",
+    "therapeutic_levels_in_csf": "Consider for gram-negative meningitis (use high dose) 17",
+    "auc_ug_hr_ml": "31.6 (750 mg po q12h, 0-24 hr), 8 (500 mg ER po q24h, 0-24 hr), 25.4 (400 mg IV q12h, 0-24 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP1A2 (major)", "CYP3A4 (minor)"],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Ca, Mg)", "effect": "↓ ciprofloxacin", "management": "Give cipro 2 hr before or 6 hr"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-administration"},
+      {"drug": "Caffeine", "effect": "↑ caffeine", "management": "Monitor, adjust dosage"},
+      {"drug": "Calcium supplements", "effect": "↓ ciprofloxacin", "management": "Give cipro 2 hr before or 6 hr"},
+      {"drug": "Clozapine", "effect": "↑ clozapine", "management": "Monitor, adjust dosage"},
+      {"drug": "Cyclosporine", "effect": "↑ cyclosporine", "management": "Monitor, adjust dosage"},
+      {"drug": "Didanosine", "effect": "↓ ciprofloxacin", "management": "Give cipro 2 hr before or 6 hr"},
+      {"drug": "Duloxetine", "effect": "↑ duloxetine", "management": "Monitor or avoid"},
+      {"drug": "Fentanyl", "effect": "↑ fentanyl", "management": "Monitor, adjust dosage, or av"},
+      {"drug": "Insulin", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Iron supplements", "effect": "↓ ciprofloxacin", "management": "Give cipro 2 hr before or 6 hr"},
+      {"drug": "Methotrexate", "effect": "↑ methotrexate", "management": "Monitor or avoid"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or avoid"},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Phenytoin", "effect": "↑↓ phenytoin", "management": "Monitor, adjust dosage"},
+      {"drug": "Probenecid", "effect": "↑ ciprofloxacin", "management": "Monitor or avoid"},
+      {"drug": "Ropinirole", "effect": "↑ ropinirole", "management": "Monitor, adjust dosage"},
+      {"drug": "Sildenafil", "effect": "↑ sildenafil", "management": "Monitor"},
+      {"drug": "Sucralfate", "effect": "↓ ciprofloxacin", "management": "Give cipro 2 hr before or 6 hr"},
+      {"drug": "Theophylline", "effect": "↑ theophylline", "management": "Monitor or avoid"},
+      {"drug": "Tizanidine", "effect": "↑ tizanidine", "management": "Contraindicated"},
+      {"drug": "Warfarin", "effect": "↑ warfarin, ↑ INR", "management": "Monitor INR, adjust dosag"},
+      {"drug": "Zinc", "effect": "↓ ciprofloxacin", "management": "Give cipro 2 hr before or 6 hr"}
+  ],
+  "comments": [
+      "Ciprofloxacin is used as second-line therapy for M. tuberculosis, but is not FDA-approved for this indication. Desired Ciprofloxacin serum levels 4–6 µg/mL, requires median dose 800 mg. Discontinuation rates 6-7%. Drug is well tolerated (Am J Respir Crit Care Med 1995;151:2006).",
+      "Emergence of fluoroquinolone-resistant M. tuberculosis in New York City (Lancet 1995;345:1148)."
+  ]
+}

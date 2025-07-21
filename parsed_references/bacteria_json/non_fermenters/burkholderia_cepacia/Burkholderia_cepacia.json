@@ -1,0 +1,610 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Burkholderia cepacia",
+      "aliases": [
+        "B. cepacia"
+      ],
+      "lastUpdated": "2025-04-24",
+      "clsiCategory": "Burkholderia cepacia complex",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Aerobic",
+        "notes": []
+      },
+      "strainDetails": [
+        {
+          "type": "Complex Member",
+          "value": "B. cenocepacia",
+          "notes": ""
+        },
+        {
+          "type": "Complex Member",
+          "value": "B. multivorans",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-negative rod, oxidase variable (usually weak + or –), catalase +, motile, non-lactose fermenter, oxidizes glucose, lysine decarboxylase +, ONPG +."
+    },
+    "clinicalProfile": {
+      "summary": "Burkholderia cepacia complex is a group of bacteria that are important pulmonary pathogens, particularly in hospitalized patients and individuals with cystic fibrosis. They are known for their intrinsic resistance to multiple antibiotics, which complicates treatment.",
+      "pathophysiologyPearls": [
+        "The B. cepacia complex includes numerous distinct species, making precise identification important for predicting susceptibility.",
+        "Infection is a significant cause of morbidity and mortality in cystic fibrosis patients."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cough",
+        "Shortness of breath",
+        "Increased sputum production"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Hospital-acquired or ventilator-associated pneumonia."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Often associated with contaminated medical devices or solutions."
+        },
+        {
+          "syndromeName": "Cystic Fibrosis Pulmonary Exacerbation",
+          "description": "Acute worsening of respiratory symptoms in patients with CF."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with cystic fibrosis",
+        "Immunocompromised patients",
+        "Patients on mechanical ventilation"
+      ],
+      "transmissionVectors": [
+        "Contaminated medical equipment",
+        "Person-to-person contact among CF patients"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Usually resistant."
+        },
+        {
+          "drugOrClass": "Colistin",
+          "notes": "Intrinsically resistant."
+        },
+        {
+          "drugOrClass": "Polymyxin B",
+          "notes": "Intrinsically resistant."
+        }
+      ],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Multiple",
+          "mechanismType": "Various",
+          "description": "Multiple mechanisms of antibiotic resistance are variably expressed, complicating recommendations for empiric therapy."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Antimicrobial therapy should be selected based on in vitro susceptibility.",
+        "Consider combination therapy with two active drugs for more severe pulmonary infection."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "General Infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Trimethoprim-Sulfamethoxazole",
+                      "dose": "8-10 mg/kg/day",
+                      "route": "IV",
+                      "frequency": "q6h or q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Minocycline",
+                      "dose": "200 mg loading dose, then 100 mg",
+                      "route": "IV/PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftazidime",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "See drug-specific pearls."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Susceptibility is highly variable and differs from species to species."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "Susceptibility highly variable and differs from species to species; antimicrobial therapy should be selected based on in vitro susceptibility.",
+        "Consider combination therapy with two active drugs for more severe pulmonary infection."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Ceftazidime-avibactam",
+          "pearl": "May have in vitro activity against multiple drug resistant strains, including those resistant to Ceftazidime. In patient with persistent B. cepacia complex bacteremia, Ceftazidime-avibactam therapy cleared the bacteremia."
+        },
+        {
+          "drugName": "Imipenem-relebactam",
+          "pearl": "Active in vitro against Ceftazidime-resistant strains."
+        },
+        {
+          "drugName": "Meropenem-vaborbactam",
+          "pearl": "May be active against meropenem-resistant strains."
+        },
+        {
+          "drugName": "Cefiderocol",
+          "pearl": "Active in vitro but clinical data supporting efficacy are lacking; may be a reasonable option, particularly for infections caused by highly drug-resistant strains."
+        },
+        {
+          "drugName": "Delafloxacin",
+          "pearl": "Active in vitro."
+        },
+        {
+          "drugName": "Temocillin",
+          "pearl": "Demonstrates potent inhibitory activity vs. MDR Burkholderia species including strains that produce AmpC and ESBLs."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Syst Appl Microbiol",
+          "citation": "34:87, 2011",
+          "summaryOrNote": "Taxonomy of B. cepacia complex."
+        },
+        {
+          "source": "Clin Microbiol Infect",
+          "citation": "16:821, 2010",
+          "summaryOrNote": "Clinical significance of B. cepacia complex."
+        },
+        {
+          "source": "ACS Infect Dis",
+          "citation": "2017;3:502",
+          "summaryOrNote": "Ceftazidime-avibactam activity."
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "2018;62:e02213-17",
+          "summaryOrNote": "Ceftazidime-avibactam clinical case."
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "2021 Oct 18;65(11):e0133221",
+          "summaryOrNote": "Imipenem-relebactam activity."
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "2023; 67(12):e0034623",
+          "summaryOrNote": "Meropenem-vaborbactam and Cefiderocol activity."
+        },
+        {
+          "source": "Future Microbiol",
+          "citation": "2023; Jan:18:117",
+          "summaryOrNote": "Meropenem-vaborbactam and Delafloxacin activity."
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "2021; 65:e0217120",
+          "summaryOrNote": "Cefiderocol activity."
+        },
+        {
+          "source": "Antimicrob Agt Chemother",
+          "citation": "2019; 63: e02315-18",
+          "summaryOrNote": "Temocillin activity."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.261Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Burkholderia cepacia"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "B. cepacia"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-24"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Aerobic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Burkholderia cepacia complex is a group of bacteria that are important pulmonary pathogens, particularly in hospitalized patients and individuals with cystic fibrosis. They are known for their intrinsic resistance to multiple antibiotics, which complicates treatment.",
+      "pathophysiologyPearls": [
+        "The B. cepacia complex includes numerous distinct species, making precise identification important for predicting susceptibility.",
+        "Infection is a significant cause of morbidity and mortality in cystic fibrosis patients."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cough",
+        "Shortness of breath",
+        "Increased sputum production"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Hospital-acquired or ventilator-associated pneumonia."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Often associated with contaminated medical devices or solutions."
+        },
+        {
+          "syndromeName": "Cystic Fibrosis Pulmonary Exacerbation",
+          "description": "Acute worsening of respiratory symptoms in patients with CF."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with cystic fibrosis",
+        "Immunocompromised patients",
+        "Patients on mechanical ventilation"
+      ],
+      "transmissionVectors": [
+        "Contaminated medical equipment",
+        "Person-to-person contact among CF patients"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Usually resistant."
+        },
+        {
+          "drugOrClass": "Colistin",
+          "notes": "Intrinsically resistant."
+        },
+        {
+          "drugOrClass": "Polymyxin B",
+          "notes": "Intrinsically resistant."
+        }
+      ],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Multiple",
+          "mechanismType": "Various",
+          "description": "Multiple mechanisms of antibiotic resistance are variably expressed, complicating recommendations for empiric therapy."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "General Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Trimethoprim-Sulfamethoxazole",
+              "dose": "8-10 mg/kg/day",
+              "route": "IV",
+              "frequency": "q6h or q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Trimethoprim-Sulfamethoxazole 8-10 mg/kg/day IV q6h or q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "General Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Levofloxacin 750 mg IV/PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "General Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Minocycline",
+              "dose": "200 mg loading dose, then 100 mg",
+              "route": "IV/PO",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Minocycline 200 mg loading dose, then 100 mg IV/PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "General Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Meropenem",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Meropenem 2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "General Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ceftazidime",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "See drug-specific pearls.",
+              "originalText": "Ceftazidime 2 gm IV q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Susceptibility is highly variable and differs from species to species."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

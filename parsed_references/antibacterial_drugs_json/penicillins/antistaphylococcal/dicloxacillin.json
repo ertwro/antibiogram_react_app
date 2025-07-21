@@ -1,0 +1,85 @@
+{
+  "drug_name": "Dicloxacillin",
+  "tradename": "Dynapen",
+  "drug_shortage_info": {
+    "prep": "250, 500 mg caps",
+    "started_at": "2021-08-18",
+    "notes": ""
+  },
+  "usage_and_dosing": {
+    "general_info": [
+      "Dicloxacillin is an oral anti-staphylococcal penicillinase-resistant penicillin.",
+      "Efficacious against Methicillin-sensitive Staph. aureus (MSSA) but not Methicillin-resistant Staph. aureus (MRSA).",
+      "Similar to Cloxacillin, but Dicloxacillin blood levels are twice as high. Hence, Dicloxacillin is preferred for oral therapy."
+    ],
+    "adult_dose": "125-500 mg po q6h; take 1h before or 2h following meals",
+    "pediatric_dose": [
+      {
+        "condition": "mild-moderate infection",
+        "dose": "12.5-25 mg/kg/day (divided q6h)"
+      },
+      {
+        "condition": "osteoarticular infection",
+        "dose": "100 mg/kg/day (divided q6h)"
+      }
+    ],
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": 0.7,
+      "half_life_hrs_esrd": "No change",
+      "dose_renal_function_normal": "125-500 mg po q6h",
+      "crcl_or_egfr": "No dosage adjustment for renal impairment",
+      "hemodialysis": "No data",
+      "capd": "No data",
+      "crrt": "No data",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Fever, rash (4%), eosinophilia, nausea/vomiting, diarrhea, C. difficile colitis (rare), increased BUN/Creatinine (rare).",
+    "Acute hemorrhagic cystitis reported; also reports of acute abdominal pain and GI bleeding."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Staphylococcus aureus, methicillin-sensitive (MSSA)",
+      "Staphylococcus epidermidis, methicillin-susceptible (MSSE)",
+      "Staphylococcus lugdunensis",
+      "Staphylococcus sp., coagulase-negative (Methicillin susceptible); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Cap (250, 500 mg)",
+    "food_rec_po_drugs": "Cap no food",
+    "oral_absorption_percent": 37,
+    "tmax_hr": "1-1.5",
+    "peak_serum_conc_mcg_ml": "10-17 (500 mg po, SD)",
+    "protein_binding_percent": 98,
+    "volume_of_distribution_vd": "0.1 L/kg",
+    "avg_serum_t1_2_hr": 0.7,
+    "elimination": "Renal, biliary",
+    "bile_penetration_percent": "5-8"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_induced_by_drug": "CYP2C9, CYP2C19, CYP3A4",
+    "transporters_induced_by_drug": "PGP (intestinal)",
+    "impact_on_serum_drug_concentrations": "↓"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "↑ dicloxacillin",
+      "suggested_management": "Monitor, adjust dose"
+    },
+    {
+      "drug": "Warfarin",
+      "effect_on_concentration": "↓ warfarin (↓ INR)",
+      "suggested_management": "Monitor INR, adjust dose"
+    }
+  ]
+}

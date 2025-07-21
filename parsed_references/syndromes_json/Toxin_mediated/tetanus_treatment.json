@@ -1,0 +1,181 @@
+{
+  "documentMetadata": {
+    "title": "Tetanus, Treatment",
+    "sourceFile": "Toxin_mediated/Tetanus, Treatment.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spasm of musculature caused by tetanospasmin toxin of the anaerobic bacteria Clostridium tetani. Primary tetanus infection, a clinical diagnosis (cultures often are negative):"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Generalized and persistent, tonic muscle spasms and paroxysms (risus sardonicus, trismus, lockjaw).",
+        "Neonatal: generalized weakness, failure to nurse, progression to muscle spasms. May result from rubbing spore-containing dirt on the umbilical stump.",
+        "6 treatment steps are outlined below."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clostridium tetani (tetanospasmin toxin)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "6 Steps:"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Urgent endotracheal intubation to protect the airway. Laryngeal spasm is common. Early tracheostomy."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "symptomRelief",
+            "components": [
+              {
+                "drug": "diazepam",
+                "dose": "20 mg/kg/day",
+                "route": "IV"
+              },
+              {
+                "drug": "midazolam",
+                "connector": "or"
+              }
+            ],
+            "notes": "Reports of benefit combining diazepam with magnesium sulfate (Ln 368:1436, 2006). Worst cases: need neuromuscular blockade with vecuronium."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Human hyperimmune globulin",
+                "route": "IM"
+              },
+              {
+                "drug": "tetanus toxoid immunization",
+                "connector": "+"
+              }
+            ],
+            "notes": "Neutralize toxin. No immunity from clinical tetanus."
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Surgically debride infected source tissue."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q6h"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "1000 mg",
+                "route": "IV",
+                "frequency": "q12h",
+                "connector": "or"
+              },
+              {
+                "drug": "aqueous Penicillin G",
+                "dose": "3 million units",
+                "route": "IV",
+                "frequency": "q4h",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            },
+            "notes": "See Comment."
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Avoid light as may precipitate muscle spasms."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "symptomRelief",
+            "components": [
+              {
+                "drug": "beta blockers, e.g., short acting esmolol"
+              }
+            ],
+            "notes": "To control sympathetic hyperactivity."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-10 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference: Ann Intern Med 154: 329, 2011 (recommends Metronidazole for 10-14 days); Lancet 393: 1657, 2019."
+      ]
+    }
+  ]
+}

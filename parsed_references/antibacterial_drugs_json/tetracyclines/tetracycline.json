@@ -1,0 +1,147 @@
+{
+  "drug_name": "Tetracycline",
+  "usage_and_dosing": {
+    "description": "Tetracycline has a broad spectrum of activity that includes Rickettsia, Chlamydia, Mycoplasma and many others.",
+    "notes": [
+      "The derivatives Doxycycline and Minocycline are more convenient, often more active and, hence, used more often than Tetracycline.",
+      "Alternative therapy for early syphilis or gonorrhea in the penicillin-allergic patient.",
+      "Part of combination therapy for Helicobacter pylori chronic gastritis.",
+      "Therapy for mild-moderate tularemia (Clinical Infectious Diseases 59(2): e10-e52)",
+      "Resistance: efflux pumps, change in ribosomal target, porin closure, and enzymatic alteration all possible.",
+      "Use caution in pregnancy: many adverse effects and drug-drug interactions.",
+      "IV preparation is rarely used; Doxycycline instead.",
+      "Use as sclerosing agent in pleural space to control malignant effusion.",
+      "IV dosage over 2 gm/day in pregnancy may be associated with fatal hepatotoxicity (J Antimicrob Chemother 66:1431, 2011)."
+    ],
+    "adult_dose": {
+      "usual_dose": "250-500 mg po q6h",
+      "acne": "500mg po twice daily",
+      "h_pylori": "500mg q6h in combination therapy",
+      "tularemia": "500mg q6h x at least 14 days"
+    },
+    "pediatric_dose": {
+      "age_gt_8_yrs": "25-50 mg/kg/day (divided q6h)",
+      "max_day": "2 gm"
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": "6-12",
+    "half_life_esrd": "57-108",
+    "dose_renal_function_normal": "250-500 mg po q6h",
+    "crcl_or_egfr": [
+      {
+        "range": ">90",
+        "adjustment": "No dosage adjustment"
+      },
+      {
+        "range": ">50-90",
+        "adjustment": "250-500 mg q8-12h"
+      },
+      {
+        "range": "10-50",
+        "adjustment": "250-500 mg q12-24h"
+      },
+      {
+        "range": "<10",
+        "adjustment": "250-500 mg q24h"
+      }
+    ],
+    "hemodialysis": "250-500 mg q24h",
+    "capd": "250-500 mg q24h",
+    "crrt": "250-500 mg q12-24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Tetracyclines have an anti-anabolic effect that can manifest as an increase in BUN. If associated with impaired renal function can aggravate azotemia, elevate serum phosphorous levels and promote acidosis. Drug accumulation can be toxic to the liver.",
+    "Superinfection with Candida (vaginitis).",
+    "Use during last half of pregnancy, in infancy, or in childhood to age of 8, can cause permanent discoloration of the teeth (yellow-gray-brown).",
+    "Photosensitivity. Can persist for days after last dose.",
+    "Toxic to human embryos (mental retardation and impaired skeletal development).",
+    "Drug Rash with Eosinophilia and Systemic Symptoms (DRESS) reported.",
+    "Lightheadedness, dizziness, or vertigo reported, perhaps more often with minocycline.",
+    "Clostridioides difficile colitis can occur.",
+    "Intracranial hypertension (pseudotumor cerebri) associated with tetracyclines."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "D",
+    "lactation": "Short-term use safe, monitor infant for GI toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Mycoplasma pneumoniae"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Cap (250, 500 mg)",
+    "food_recs": "Cap no food",
+    "oral_absorption": "No data",
+    "tmax_hr": "2-4",
+    "peak_serum_conc": "1.5-2.2 (250 mg po, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "20-65",
+    "volume_of_distribution": "1.3 L/kg",
+    "avg_serum_t1_2": "6-12",
+    "elimination": "Biliary, renal",
+    "bile_penetration": "200-3200",
+    "csf_blood": "Poor"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Antacids (Al, Mg)",
+      "effect": "↓ tetracycline",
+      "suggestion": "Give tetracycline 2 hr pre or 6 hr post"
+    },
+    {
+      "drug": "Atovaquone",
+      "effect": "↓ atovaquone",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Bismuth salt",
+      "effect": "↓ tetracycline",
+      "suggestion": "Give tetracycline 2 hr pre or 6 hr post"
+    },
+    {
+      "drug": "Didanosine",
+      "effect": "↓ tetracycline",
+      "suggestion": "Give tetracycline 2 hr pre or 6 hr post"
+    },
+    {
+      "drug": "Digoxin",
+      "effect": "↑ digoxin",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Iron products",
+      "effect": "↓ tetracycline",
+      "suggestion": "Give tetracycline 2 hr pre or 6 hr post"
+    },
+    {
+      "drug": "Methoxyflurane",
+      "effect": "↑ methoxyflurane",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Sucralfate",
+      "effect": "↓ tetracycline",
+      "suggestion": "Give tetracycline 2 hr pre or 6 hr post"
+    },
+    {
+      "drug": "Zinc",
+      "effect": "↓ tetracycline",
+      "suggestion": "Give tetracycline 2 hr pre or 6 hr post"
+    }
+  ],
+  "comments": [
+    "General reference, Clin Infect Dis 36:462, 2003.",
+    "Demeclocycline is similar to Tetracycline but, in addition, is sometimes used in treatment of patients with inappropriate secretion of antidiuretic hormone (SIADH) (N Engl J Med 298:173, 1978)."
+  ]
+}

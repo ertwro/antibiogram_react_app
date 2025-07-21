@@ -1,0 +1,131 @@
+{
+  "drug_name": "Tigecycline",
+  "tradename": "Tygacil",
+  "usage_and_dosing": {
+    "general": [
+      "Tigecycline is a derivative of Minocycline. The drug resists efflux by several bacterial pumps and also circumvents ribosomal protection mechanisms, thus expanding the antibacterial spectrum to include multi-drug resistant bacteria like Acinetobacter baumannii, carbapenemase-producing E. coli and Klebsiella sp. Tigecycline is also active against MRSA in vitro but other agents are preferred and in general it should be avoided unless there are no other options.",
+      "Tigecycline has no useful activity against P. aeruginosa.",
+      "Licensed for the treatment of skin, skin structure and intra-abdominal infections and community-acquired pneumonia. Use for resistant bacteria is not FDA-approved.",
+      "Black Box Warning: FDA analysis showed higher risk of death among patients given Tigecycline as compared to other antibacterial drugs: 2.5% vs 1.8%. Recommendation from FDA: \"...reserve Tigecycline for use in situations when alternative treatments are not suitable.\"",
+      "Tigecycline was inferior to Imipenem in clinical trial of hospital-acquired pneumonia: Diagnostic Micro Infect Dis 68:140, 2010.",
+      "Multiple meta-analyses, Tigecycline often inferior to comparator with more adverse effects: Lancet Infect Dis 11:804, 2011; Lancet Infect Dis 11:834, 2011. Latest meta-analysis of great concern: One excess death for every 143 patients treated; one infection treatment failure for every 34 patients treated when used as a single agent (Clin Infect Dis 54:1699, 2012); editorial commentary (Clin Infect Dis 54:1710, 2012).",
+      "Reason for failures believed low serum levels resulting in unfavorable ratio of AUC/MIC: Antimicrob Agts Chemother 56:1065, 2012 & Antimicrobi Agts Chemother 56:1466, 2012.",
+      "High dose regimens of Tigecycline were compared to Imipenem in patients with hospital-acquired pneumonia: Antimicrob Agts Chemother 57:1756, 2013. Tigecycline regimens: 150 mg load and then 75 mg q12h vs 200 mg load and then 100 mg q12h. Higher dose achieved best serum levels and superior in efficacy to lower Tigecycline dose but also had the highest frequency of GI side effects.",
+      "Hence, for MDR gram-negative bacilli where there are few if any options, there may be an occasion for high dose Tigecycline as part of combination therapy. Users should realize that safety and efficacy of high dose Tigecycline is essentially unknown.",
+      "Tigecycline may reduce risk of selecting Polymyxin-resistant subpopulations of aerobic gram-negative bacilli.",
+      "Second Black-Box Warning: some Tigecycline formulations contain maltose. Avoid glucose testing methods affected by maltose in patients receiving such a formulation, otherwise unrecognized hypoglycemia or inappropriate insulin administration may result."
+    ],
+    "adult_dose": {
+      "usual_dose": "100 mg IV initially, then 50 mg IV q12h"
+    },
+    "pediatric_dose": {
+        "notes": "Avoid, but if necessary:",
+        "age_8_11_yrs": "1.2 mg/kg q12h",
+        "age_12_17_yrs": "50 mg q12h",
+        "max_day": "100 mg"
+    }
+  },
+  "renal_adjustment": {
+    "notes": [
+        "Body weight and Creatinine Clearance calculations",
+        "CrCl = Creatinine clearance (mL/min)",
+        "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+        "CRRT = Continuous Renal Replacement Therapy",
+        "AD = after hemodialysis",
+        "SLED = sustained low efficiency dialysis",
+        "Dosage adjustment may be required in hepatic disease."
+    ],
+    "half_life_normal": "42",
+    "half_life_esrd": "Unchanged",
+    "dose_normal_function": "100 mg, then 50 mg IV q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "100 mg IV, then 25 mg IV q12h"
+  },
+  "other_adjustment": [
+      "ECMO: See ECMO Drug Dosing Adjustment.",
+      "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": [
+    "High incidence of nausea (25%) & vomiting (20%) but only 1% of patients discontinued therapy due to an adverse event. Details on AEs in J Antimicrob Chemother 62(Suppl 1):i17, 2008.",
+    "Like other tetracyclines, may cause photosensitivity, pseudotumor cerebri, pancreatitis, a catabolic state (elevated BUN) and maybe hyperpigmentation (Clin Infect Dis 45:136, 2007). Tetracycline, Minocycline & Tigecycline associated with acute pancreatitis (Int J Antimicrob Agents 34:486, 2009).",
+    "Significant fall in fibrinogen levels in 20 of 20 patients with severe infections (Antimicrob Agts Chemother 59:1650, 2015).",
+    "Overall treatment stopped due to adverse effects in 5%.",
+    "Frequency of other adverse effects: local phlebitis (2%), fever (7%), rash (2.4%), photosensitivity, increased PT/PTT (4%), nausea (30%), vomiting (20%), diarrhea (13%), increased LFTs (4%), increased BUN/creatinine (2%), dizziness/lightheadedness (3.5%)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": {
+        "humans": "possible fetal toxicity",
+        "animals": "fetal toxicity"
+    },
+    "lactation": "Milk concentrations low, poor absorption of drug expected (calcium in milk). Short-term use safe, monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "0.62 (50 mg q12h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "71-89",
+    "volume_of_distribution_vd_l_kg": "7-9 L/kg (Vss)",
+    "avg_serum_half_life_hr": "42",
+    "elimination": "Biliary, renal",
+    "bile_penetration_percent": "138",
+    "csf_blood_percent": "5.9-10.6",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "4.7 (50 mg q12h, 0-24h)"
+  },
+  "enzyme_interactions": {
+    "cyp450_substrate": [],
+    "transporter_substrate": ["PGP"],
+    "ugt_substrate": [],
+    "cyp450_inhibited": [],
+    "transporters_inhibited": [],
+    "ugts_inhibited": [],
+    "cyp450_induced": [],
+    "transporters_induced": [],
+    "ugts_induced": [],
+    "serum_drug_concentration_impact": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Cyclosporine",
+          "effect": "↑ cyclosporine",
+          "management": "Monitor, adj"
+      },
+      {
+          "drug": "Digoxin",
+          "effect": "↓ digoxin (slight effect)",
+          "management": "Mor"
+      },
+      {
+          "drug": "Oral contraceptives",
+          "effect": "↓ efficacy of oral contraceptives",
+          "management": "Use alternat"
+      },
+      {
+          "drug": "Tacrolimus",
+          "effect": "↑ tacrolimus (Nephrology 2020;25:99)",
+          "management": "Monitor, adj"
+      },
+      {
+          "drug": "Warfarin",
+          "effect": "↑ R-warfarin, ↑ S-warfarin",
+          "management": "Monito"
+      }
+  ]
+}

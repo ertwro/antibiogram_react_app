@@ -1,0 +1,70 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from swan",
+    "sourceFile": "Bite_ Swan.pdf",
+    "lastUpdated": "2024-03-27"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bite wound from swan"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pseudomonas aeruginosa"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Case report of P. aeruginosa infection (Lancet 350: 340, 1997). However, other aquatic organisms or host skin organisms have potential to cause infection.",
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "See: Clin Infect Dis 2014;59(2):e10-52"
+      ]
+    }
+  ]
+}

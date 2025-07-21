@@ -1,0 +1,94 @@
+
+{
+  "documentMetadata": {
+    "title": "Erythema Nodosum",
+    "lastUpdated": "2025-02-06",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Erythema Nodosum.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Erythema nodosum is a delayed hypersensitivity reaction to antigens, typically from infectious pathogens.",
+        "Manifests as red/violet tender subcutaneous nodules, most often in skin of pretibial region.",
+        "Biopsy demonstrates inflammation of subcutaneous fat.",
+        "Common associated infections and conditions:"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Sarcoidosis",
+            "Streptococcal pharyngitis (most common infectious cause)",
+            "Tuberculosis",
+            "Leprosy",
+            "Coccidioidomycosis",
+            "Hodgkin's lymphoma",
+            "Whipple's disease",
+            "Histoplasmosis",
+            "Blastomycosis",
+            "Bacterial gastroenteritis",
+            "Inflammatory bowel disease",
+            "Bechet's disease",
+            "Oral contraceptives",
+            "Inflammatory bowel disease",
+            "Covid-19 vaccination",
+            "Many other rheumatologic and infectious processes, plus idiopathic"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Many, see above"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Self-limited process usually requiring no therapy that resolves once triggering condition is addressed, but a non-steroidal anti-inflammatory agent (NSAID) may be prescribed"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference: Reumatologia 54:79, 2016."
+      ]
+    }
+  ]
+}

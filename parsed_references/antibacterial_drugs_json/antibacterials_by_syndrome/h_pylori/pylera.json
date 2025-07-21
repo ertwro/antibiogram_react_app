@@ -1,0 +1,197 @@
+
+{
+  "drug_name": "Pylera",
+  "tradename": "Pylera",
+  "usage_and_dosing": {
+    "description": "Three-drug combination of bismuth subcitrate potassium, metronidazole, and tetracycline, indicated for use (in combination with omeprazole) for the treatment of adults with H. pylori infection.",
+    "capsule_contents": {
+      "bismuth_subcitrate_potassium": "140 mg",
+      "metronidazole": "125 mg",
+      "tetracycline_hcl": "125 mg"
+    },
+    "adult_dose": {
+      "dose": "3 capsules four times a day (after meals and at bedtime) x10 days.",
+      "instructions": "Swallow capsules with a full glass of water to reduce risk of esophageal irritation (from tetracycline). Administer with omeprazole 20 mg twice daily."
+    },
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": {
+      "bismuth": "120 hrs",
+      "metronidazole": "6-14 hrs",
+      "tetracycline": "6-12 hrs"
+    },
+    "half_life_esrd": {
+      "bismuth": ">120 hrs",
+      "metronidazole": "7-21 hrs",
+      "tetracycline": "57-108 hrs"
+    },
+    "dose_renal_function_normal": "3 caps q6h x10 days",
+    "crcl_or_egfr": {
+      "crcl_>30": "No dosage adjustment",
+      "crcl_<30": "Contraindicated"
+    },
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "Use not recommended"
+  },
+  "adverse_effects": [
+    "Aseptic meningitis",
+    "Black hairy tongue",
+    "Black stools",
+    "C. difficile-associated diarrhea",
+    "Dizziness",
+    "Elevated BUN",
+    "Gastrointestinal (nausea, vomiting, diarrhea, abdominal pain)",
+    "Hypersensitivity reactions (including SJS, TEN, DRESS)",
+    "Intracranial hypertension (including pseudotumor cerebri)",
+    "Leukopenia (mild, reversible)",
+    "Metallic taste",
+    "Neuropathy (optic, peripheral)",
+    "Photosensitivity",
+    "Teeth discoloration (patients <8 years of age)",
+    "Urine discoloration (dark red-brown)",
+    "Vaginal candidiasis"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Contraindicated",
+    "use_during_lactation": "Safety not established, avoid use"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Helicobacter pylori"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": {
+      "bismuth": "no data",
+      "metronidazole": "24-hr AUC/MIC",
+      "tetracycline": "24-hr AUC/MIC"
+    },
+    "pharmaceutical_preparations": "Cap (Bismuth subcitrate K 140 mg, metronidazole 125 mg, tetracycline 125 mg)",
+    "food_rec_po_drugs": "Cap after meals, qhs",
+    "oral_absorption": {
+      "bismuth": "no data",
+      "metronidazole": "good",
+      "tetracycline": "60-90%"
+    },
+    "tmax": {
+      "bismuth": "no data",
+      "metronidazole": "1-2 hrs",
+      "tetracycline": "no data"
+    },
+    "peak_serum_conc": {
+      "bismuth": "0.017 (420 mg, SD)",
+      "metronidazole": "8.7 (375 mg, SD)",
+      "tetracycline": "0.77 (375 mg, SD)"
+    },
+    "peak_urine_conc": "No data",
+    "protein_binding": {
+      "bismuth": ">90%",
+      "metronidazole": "<20%",
+      "tetracycline": "20-65%"
+    },
+    "volume_of_distribution": {
+      "bismuth": "no data",
+      "metronidazole": "0.6-0.85 L/kg",
+      "tetracycline": "1.3 L/kg"
+    },
+    "avg_serum_t1_2": {
+      "bismuth": "120 hrs",
+      "metronidazole": "6-14 hrs",
+      "tetracycline": "6-12 hrs"
+    },
+    "elimination": {
+      "bismuth": "biliary, renal",
+      "metronidazole": "metabolism, some renal",
+      "tetracycline": "biliary, renal"
+    },
+    "bile_penetration": {
+      "bismuth": "no data",
+      "metronidazole": "100%",
+      "tetracycline": "200-3200%"
+    },
+    "csf_blood": {
+      "bismuth": "no data",
+      "metronidazole": "45-89%",
+      "tetracycline": "poor"
+    },
+    "therapeutic_levels_in_csf": {
+      "bismuth": "no data",
+      "metronidazole": "no data",
+      "tetracycline": "no"
+    },
+    "auc": {
+      "bismuth": "0.057 (420 mg, 0-inf)",
+      "metronidazole": "84.4 (375 mg, 0-inf)",
+      "tetracycline": "10 (375 mg, 0-inf)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_inhibited_by_drug": "Metronidazole: CYP2C9"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Al, Mg, Ca antacids",
+      "effect": "↓ tetracycline absorption",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Alcohol",
+      "effect": "Disulfiram-like reaction",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Busulfan",
+      "effect": "↑ busulfan",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Disulfiram",
+      "effect": "Possible psychotic reactions",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Iron preparations",
+      "effect": "↓ tetracycline absorption",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Lithium",
+      "effect": "↑ lithium",
+      "suggestion": "Monitor, adjust dosage, or avoid"
+    },
+    {
+      "drug": "Methoxyflurane",
+      "effect": "Possible nephrotoxicity",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Oral contraceptives",
+      "effect": "↓ effectiveness of OCs",
+      "suggestion": "Use non-hormonal method"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑↓ INR",
+      "suggestion": "Monitor INR, adjust warfarin dosage"
+    },
+    {
+      "drug": "Zinc preparations",
+      "effect": "↓ tetracycline absorption",
+      "suggestion": "Avoid co-administration"
+    }
+  ]
+}

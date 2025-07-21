@@ -1,0 +1,115 @@
+{
+  "drug_name": "Eravacycline",
+  "tradename": "Xerava",
+  "usage_and_dosing": {
+    "description": "Eravacycline, FDA-approved in 2018, is a synthetic fluorocycline antibiotic within the tetracycline class indicated for the treatment of complicated intra-abdominal infections (cIAI) caused by certain susceptible bacteria in adults.",
+    "mechanism_of_action": "Disruption of protein synthesis by binding to the 30S ribosomal subunit, preventing incorporation of amino acid residues into elongating peptide chains.",
+    "in_vitro_activity": "In vitro activity is very broad and similar to tigecycline, but MICs are often twofold lower than tigecycline (J Antibiot (Tokyo) 2016;69:600; Antimicrob Agents Chemother 2013;57:5548)",
+    "clinical_trial": {
+      "summary": "Eravacycline was non-inferior to ertapenem or meropenem in a phase III, randomized, double-blind clinical trial of patients with appendicitis, cholecystitis, diverticulitis, gastric or duodenal perforation, and peritonitis (JAMA Surg 2017;152:224; Clin Infect Dis 2019;69:921).",
+      "treatment_duration": "4-14 days.",
+      "included_patients": "Included patients infected with ESBL-producing organisms."
+    },
+    "adult_dose": {
+      "usual_dose": "1 mg/kg IV (infused over 60 min) q12h.",
+      "dosing_notes": [
+        "Use actual body weight for dosing.",
+        "Reconstituted drug should be further diluted for IV infusion to a target concentration of 0.2-0.6 mg/mL in normal saline. Compatibility in other infusion solutions has not been established.",
+        "Recommended duration of therapy for cIAI: 4 to 14 days.",
+        "Increase dose to 1.5 mg/kg IV q12h if co-administered with a strong CYP3A inducer, e.g., rifampin, carbamazepine. No dosage adjustment is necessary if co-administered with a weak or moderate CYP3A inducer."
+      ]
+    },
+    "pediatric_dose": {
+      "safety_and_efficacy_not_established": true
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "note": "Dosage adjustment may be required in hepatic disease.",
+    "half_life_normal": "20",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "1 mg/kg IV q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "1 mg/kg q12h day 1, then 1 mg/kg q24h"
+  },
+  "other_adjustment": {
+    "obesity": "See Obesity Dosing Adjustments."
+  },
+  "adverse_effects": {
+    "contraindications": "Use in patients with known hypersensitivity to eravacycline, tetracycline-class antibacterial drugs, or to any of the excipients.",
+    "warnings_and_precautions": {
+      "hypersensitivity": "Life-threatening hypersensitivity reactions (anaphylaxis)",
+      "pregnancy_and_pediatric": {
+        "title": "Pregnancy (2nd & 3rd trimester), infancy, and childhood to age 8 years:",
+        "effects": [
+          "Permanent tooth discoloration (yellow-grey-brown) and enamel hypoplasia",
+          "Inhibition of bone growth (reversible)"
+        ]
+      },
+      "cdiff": "C. difficile antibiotic-associated colitis",
+      "tetracycline_class_reactions": "Potential for tetracycline-class adverse reactions: Photosensitivity, fixed drug eruption, pseudotumor cerebri, and anti-anabolic action which has led to increased BUN, azotemia, acidosis, hyperphosphatemia, pancreatitis, and abnormal liver function tests."
+    },
+    "common_effects": [
+      "Infusion site reactions (7.7%)",
+      "Nausea (6.5%)",
+      "Vomiting (3.7%)",
+      "Diarrhea (2.3%)",
+      "Hypotension (1.3%)",
+      "Wound dehiscence (1.3%)"
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid during 2nd and 3rd trimesters",
+    "lactation": "Mfr suggests no breastfeeding during treatment and for 4 days after last dose. However, milk conc are likely low and absorption inhibited by calcium in breast milk. Short-term use is acceptable in nursing mothers; monitor infant for GI toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "notes": [
+      "Eravacycline in vitro antibacterial activity is not influenced by ESBL or AmpC enzymes from Enterobacterales, KPCs, or metallo-carbapenemases.",
+      "No controlled clinical data for use of eravacycline, alone or in combination, against resistant Enterobacterales, Pseudomonas aeruginosa, or Stenotrophomonas maltophilia.",
+      "Exception is success vs ESBLs in eravacycline vs meropenem trial for patients with peritonitis: Clin Infect Dis 2019;69:921."
+    ],
+    "resistance_mechanisms": [
+      "Efflux pumps",
+      "Target site modifications"
+    ]
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "peak_serum_conc": "1.825 (1 mg/kg IV q12h, SS)",
+    "protein_binding": "79-90",
+    "volume_of_distribution": "321 L (Vss)",
+    "avg_serum_t1_2": "20",
+    "elimination": "Metabolized",
+    "auc": "6.31 (1 mg/kg IV q12h, 0-12 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_substrate": [
+      "CYP3A4"
+    ],
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Strong CYP3A inducer",
+      "effect": "↓ eravacycline",
+      "suggestion": "↑ dose"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ INR",
+      "suggestion": "Monitor"
+    }
+  ],
+  "comments": [
+    "Review: Med Lett Drugs Ther 2019;61:61."
+  ]
+}

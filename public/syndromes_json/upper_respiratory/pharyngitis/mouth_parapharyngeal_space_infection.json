@@ -1,0 +1,251 @@
+{
+  "documentMetadata": {
+    "title": "Mouth, Parapharyngeal Space Infection",
+    "sourceFile": "Mouth, Parapharyngeal Space Infection.pdf",
+    "lastUpdated": "2023-08-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infections in the mouth and adjacent spaces. Consequence of septic focus in the teeth, tonsils, parotid gland, middle ear, or sinuses."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "There are a variety of parapharyngeal spaces that can become infected:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sublingual, submandibular (Ludwig's angina if bilateral), lateral pharyngeal, retropharyngeal, pretracheal",
+            "Most severe is necrotizing mediastinitis (Infection 2016;44:77; Otolaryngol Head Neck Surg 2016; 155:155)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can result from poor dental hygiene, dental extractions, foreign bodies (e.g., toothpicks, fish bones).",
+        "Close observation of airway indicated, 1/3 require intubation."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "MRI or CT to identify abscess; if present, surgical drainage is indicated",
+        "FDG PET CT even better at detection and extent of the infection. Medicine 2020;99:e21353"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Polymicrobic and represent the normal flora of the adjacent mucosal surfaces from which the infection originated",
+        "On average 5-6 organisms cultured with anaerobic bacteria outnumbering aerobes by a ratio of 10:1.",
+        "Polymicrobic:",
+        "S. aureus, especially in children",
+        "Streptococcus sp., especially viridans streptococci (including S. anginosis group)",
+        "Anaerobes (predominant):",
+        "Peptostreptococci (now Peptoniphilus sp.)",
+        "Fusobacterium sp.",
+        "Prevotella sp.",
+        "Actinomyces sp.",
+        "Others encountered less frequently: MRSA, aerobic gram-negative bacilli including P. aeruginosa. Latter in high risk groups: illicit drug use, diabetes mellitus, neutropenia, post-trauma."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Emergent surgical drainage to include aerobic and anaerobic cultures. Empiric therapy does not address possible infection with S. aureus or P. aeruginosa: see Directed/Specific Therapy"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q24 h",
+                "connector": "+"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "Clindamycin",
+                "dose": "600 mg",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ampicillin-sulbactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ],
+            "notes": "(Note: Increasing incidence of resistant E.coli)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Directed/Specific Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Surgical drainage cultures positive and/or immunocompromised patient and /or high risk co-morbidity"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Positive culture or high risk for S. aureus",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Positive culture or high risk for P. aeruginosa",
+            "components": [
+              {
+                "drug": "Pipercillin-tazobactam",
+                "dose": "4.5 gm IV loading dose then, 4 hrs later, start 4.5 gm IV infused over 4 hrs and repeat q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment 2-3 weeks depending on source control and patient's clinical response."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    }
+  ]
+}

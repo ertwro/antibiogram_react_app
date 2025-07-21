@@ -1,0 +1,813 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Haemophilus influenzae",
+      "aliases": [
+        "H. influenzae"
+      ],
+      "lastUpdated": "2023-10-05",
+      "clsiCategory": "Haemophilus influenzae and Haemophilus parainfluenzae",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      },
+      "strainDetails": [
+        {
+          "type": "Serotype",
+          "value": "Type B (HiB)",
+          "notes": "Encapsulated strain, typically causes more invasive disease. Preventable by vaccination."
+        },
+        {
+          "type": "Serotype",
+          "value": "Nontypeable (NTHi)",
+          "notes": "Causes most disease in adults and vaccinated children."
+        }
+      ],
+      "biochemicalTests": "Gram-negative coccobacillus, requires both X factor (hemin) and V factor (NAD) for growth on chocolate agar, non-motile, catalase +, oxidase +."
+    },
+    "clinicalProfile": {
+      "summary": "Haemophilus influenzae is a frequent colonizer of the respiratory tract that can cause a wide range of diseases, from mild upper respiratory infections to severe invasive diseases like meningitis and epiglottitis. The choice of treatment regimen depends on the severity and site of infection.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cough",
+        "Headache",
+        "Stiff neck (meningitis)",
+        "Sore throat (epiglottitis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Meningitis",
+          "description": "Inflammation of the membranes surrounding the brain and spinal cord."
+        },
+        {
+          "syndromeName": "Epiglottitis/Supraglottitis",
+          "description": "Inflammation of the epiglottis, which can lead to life-threatening airway obstruction."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Infection of the lungs."
+        },
+        {
+          "syndromeName": "Bacteremia/Sepsis",
+          "description": "Presence of bacteria in the bloodstream, potentially leading to a systemic inflammatory response."
+        },
+        {
+          "syndromeName": "Acute Otitis Media",
+          "description": "Infection of the middle ear."
+        },
+        {
+          "syndromeName": "Bronchitis",
+          "description": "Inflammation of the bronchial tubes."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Unvaccinated children",
+        "Elderly adults",
+        "Patients with asplenia",
+        "Immunocompromised individuals"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase production",
+          "mechanismType": "Enzymatic inactivation",
+          "description": "Up to 40% of nontypeable strains produce beta-lactamase, conferring resistance to ampicillin and amoxicillin."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "TMP-SMX Resistance",
+          "details": "Resistance to Trimethoprim-Sulfamethoxazole is found in up to 25% of strains in the U.S."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Empiric therapy should cover for ß-lactamase positive strains until susceptibility is confirmed."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Meningitis, epiglottitis, or other life-threatening illness",
+            "patientPopulation": [
+              "Adults",
+              "Pediatrics"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm (Adults) or 100 mg/kg/day (Pediatrics)",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Cefotaxime",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "Where available outside the US."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Non-life-threatening illness",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "875/125 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Cefprozil",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Cefuroxime axetil",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Cefdinir",
+                      "dose": "600 mg",
+                      "route": "PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Moxifloxacin",
+                      "dose": "400 mg",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Non-life-threatening illness, Beta-lactamase negative",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin",
+                      "dose": "1 gm",
+                      "route": "PO",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Vaccination",
+          "details": "Routine pediatric Hib vaccine is part of the standard immunization schedule. A single dose is recommended for adults with anatomical or functional asplenia. A 3-dose series is recommended for hematopoietic stem cell transplant (HSCT) recipients.",
+          "targetPopulation": "Children, Adults with asplenia, HSCT recipients"
+        }
+      ],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "For pneumonia and sinusitis, a 5-7 day course of therapy is recommended.",
+        "Patients can be switched from IV to PO therapy when they are clinically improving and able to tolerate oral medications.",
+        "In patients with pneumonia, antibiotics can be safely discontinued after 5 days if the patient has been afebrile for at least 48 hours and has no more than one sign of clinical instability (hypotension, tachycardia, tachypnea, or hypoxemia)."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "StatPearls",
+          "citation": "Jan 2023",
+          "summaryOrNote": "General reference for Haemophilus influenzae."
+        },
+        {
+          "source": "N Engl J Med",
+          "citation": "370:543, 2014",
+          "summaryOrNote": "Reference for duration of therapy."
+        },
+        {
+          "source": "JAMA Intern Med",
+          "citation": "2016;176:1257",
+          "summaryOrNote": "Reference for criteria for discontinuing antibiotics."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.318Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Haemophilus influenzae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "H. influenzae"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-10-05"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Haemophilus influenzae is a frequent colonizer of the respiratory tract that can cause a wide range of diseases, from mild upper respiratory infections to severe invasive diseases like meningitis and epiglottitis. The choice of treatment regimen depends on the severity and site of infection.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cough",
+        "Headache",
+        "Stiff neck (meningitis)",
+        "Sore throat (epiglottitis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Meningitis",
+          "description": "Inflammation of the membranes surrounding the brain and spinal cord."
+        },
+        {
+          "syndromeName": "Epiglottitis/Supraglottitis",
+          "description": "Inflammation of the epiglottis, which can lead to life-threatening airway obstruction."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Infection of the lungs."
+        },
+        {
+          "syndromeName": "Bacteremia/Sepsis",
+          "description": "Presence of bacteria in the bloodstream, potentially leading to a systemic inflammatory response."
+        },
+        {
+          "syndromeName": "Acute Otitis Media",
+          "description": "Infection of the middle ear."
+        },
+        {
+          "syndromeName": "Bronchitis",
+          "description": "Inflammation of the bronchial tubes."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Unvaccinated children",
+        "Elderly adults",
+        "Patients with asplenia",
+        "Immunocompromised individuals"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase production",
+          "mechanismType": "Enzymatic inactivation",
+          "description": "Up to 40% of nontypeable strains produce beta-lactamase, conferring resistance to ampicillin and amoxicillin."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "TMP-SMX Resistance",
+          "details": "Resistance to Trimethoprim-Sulfamethoxazole is found in up to 25% of strains in the U.S."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Meningitis, epiglottitis, or other life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm (Adults) or 100 mg/kg/day (Pediatrics)",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm (Adults) or 100 mg/kg/day (Pediatrics) IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Meningitis, epiglottitis, or other life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefotaxime",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "Variable",
+              "comments": "Where available outside the US.",
+              "originalText": "Cefotaxime 2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Non-life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "875/125 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Amoxicillin-clavulanate 875/125 mg PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Non-life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefprozil",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Cefprozil 500 mg PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-2-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[2].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Non-life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefuroxime axetil",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Cefuroxime axetil 500 mg PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-3-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[3].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Non-life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefdinir",
+              "dose": "600 mg",
+              "route": "PO",
+              "frequency": "q24h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Cefdinir 600 mg PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-4-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[4].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Non-life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Levofloxacin 750 mg IV/PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-5-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[5].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Non-life-threatening illness",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Moxifloxacin",
+              "dose": "400 mg",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Moxifloxacin 400 mg IV/PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Non-life-threatening illness, Beta-lactamase negative",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ampicillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Ampicillin 2 gm IV q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-1-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Non-life-threatening illness, Beta-lactamase negative",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin",
+              "dose": "1 gm",
+              "route": "PO",
+              "frequency": "q8h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Amoxicillin 1 gm PO q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

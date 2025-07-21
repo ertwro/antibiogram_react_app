@@ -1,0 +1,303 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Streptococcus anginosus group",
+      "aliases": [
+        "Strep. milleri group"
+      ],
+      "lastUpdated": "2025-01-31",
+      "clsiCategory": "Streptococcus spp. Viridans Group",
+      "classification": {
+        "gramStain": "Gram positive",
+        "morphology": "coccus in chains",
+        "notes": [
+          "Colonies often produce a butterscotch or caramel odor."
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Streptococcus intermedius"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus anginosus"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus constellatus"
+        }
+      ],
+      "biochemicalTests": "Gram-positive cocci in pairs/chains, catalase –, variable hemolysis (alpha, beta, or gamma), may have a butterscotch odor, VP +, arginine dihydrolase +."
+    },
+    "clinicalProfile": {
+      "summary": "The Streptococus anginosus group, formerly the Streptococcus milleri group, is composed of three distinct species of viridans streptococci: S. anginosus, S. intermedius, and S. constellatus. They are part of the normal flora of the mouth and GI tract.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Head and neck infections"
+        },
+        {
+          "syndromeName": "Peritonsillar abscess"
+        },
+        {
+          "syndromeName": "Brain abscess"
+        },
+        {
+          "syndromeName": "Sinus abscess"
+        },
+        {
+          "syndromeName": "Lung abscess"
+        },
+        {
+          "syndromeName": "Liver abscess"
+        },
+        {
+          "syndromeName": "Pleural empyema"
+        },
+        {
+          "syndromeName": "Mediastinitis"
+        },
+        {
+          "syndromeName": "Pericarditis"
+        },
+        {
+          "syndromeName": "Streptococcal endocarditis",
+          "description": "Uncommon cause"
+        }
+      ],
+      "prognosisNotes": [
+        "This tendency to produce abscesses clinically distinguishes them from other viridans streptococci."
+      ]
+    },
+    "resistanceProfile": {
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Emerging Macrolide Resistance",
+          "details": "There is evidence of emerging macrolide resistance."
+        },
+        {
+          "alertTitle": "Aminoglycoside Resistance",
+          "details": "Many strains are resistant to aminoglycosides."
+        },
+        {
+          "alertTitle": "Sulfonamide Inactivity",
+          "details": "Sulfonamides are not active."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Susceptible to beta-lactams including penicillins (though resistance has been reported), cephalosporins, and carbapenems.",
+        "Dose and selection depend on the site and severity of infection."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Daptomycin",
+          "reason": "Avoid due to the potential for emergence of resistance on therapy."
+        },
+        {
+          "drugOrClass": "Fluoroquinolones",
+          "reason": "Not considered first-line therapy due to the ease of resistance development."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Dental abscess"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "notes": [
+                "Responds to surgical drainage and Penicillin VK 500 mg po qid."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Brain abscess"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "notes": [
+                "Requires high dose Penicillin G (18-24 million units divided q4-6h IV) or Ceftriaxone 2 gm IV q12h."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Vancomycin",
+                  "comments": "It is active and a reasonable alternative."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.359Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Streptococcus anginosus group"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Strep. milleri group"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-31"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram positive",
+        "morphology": "coccus in chains",
+        "notes": [
+          "Colonies often produce a butterscotch or caramel odor."
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "The Streptococus anginosus group, formerly the Streptococcus milleri group, is composed of three distinct species of viridans streptococci: S. anginosus, S. intermedius, and S. constellatus. They are part of the normal flora of the mouth and GI tract.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Head and neck infections"
+        },
+        {
+          "syndromeName": "Peritonsillar abscess"
+        },
+        {
+          "syndromeName": "Brain abscess"
+        },
+        {
+          "syndromeName": "Sinus abscess"
+        },
+        {
+          "syndromeName": "Lung abscess"
+        },
+        {
+          "syndromeName": "Liver abscess"
+        },
+        {
+          "syndromeName": "Pleural empyema"
+        },
+        {
+          "syndromeName": "Mediastinitis"
+        },
+        {
+          "syndromeName": "Pericarditis"
+        },
+        {
+          "syndromeName": "Streptococcal endocarditis",
+          "description": "Uncommon cause"
+        }
+      ],
+      "prognosisNotes": [
+        "This tendency to produce abscesses clinically distinguishes them from other viridans streptococci."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Emerging Macrolide Resistance",
+          "details": "There is evidence of emerging macrolide resistance."
+        },
+        {
+          "alertTitle": "Aminoglycoside Resistance",
+          "details": "Many strains are resistant to aminoglycosides."
+        },
+        {
+          "alertTitle": "Sulfonamide Inactivity",
+          "details": "Sulfonamides are not active."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

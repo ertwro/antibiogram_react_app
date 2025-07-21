@@ -1,0 +1,86 @@
+{
+  "documentMetadata": {
+    "title": "Post-Streptococcal Reactive Arthritis",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Arthritis, Post-Streptococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Immunologic reaction after streptococcal pharyngitis, usually in children.",
+        "Post-streptococcal reactive arthritis (PSRA) is a distinct entity from Acute Rheumatic Fever (ARF)",
+        "Onset of PSRA occurs about 10 days after pharyngitis (14-21 days in ARF)",
+        "Arthritis of PSRA is cumulative, persistent, involves large, small, and axial joints (arthritis of ARF is migratory, transient, involves large joints)",
+        "PSRA responds less well to aspirin, whereas arthritis of ARF responds rapidly",
+        "Increased HLA DRB1*01 expression",
+        "Aseptic arthritis with evidence of prior streptococcal infection.",
+        "Elevated ESR, CRP",
+        "Synovial fluid WBC < 50,000",
+        "Blood and synovial fluid cultures sterile",
+        "May be polyarticular, involve large, small, and axial joints",
+        "Jones criteria for ARF not met and other causes are excluded (e.g., Lyme disease, rheumatoid arthritis)",
+        "Symptoms may last for months."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Group A Streptococcus (S. pyogenes) (throat culture positive in about half of cases)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Treat as for Streptococcal pharyngitis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Streptococcal pharyngitis"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Then, manage with NSAIDs ± prednisone (may be required in some patients)"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Secondary prophylaxis",
+        "Cardiac involvement rare: Clin Exp Rheumatol 33:578, 2015.",
+        "The patient should be followed for several months for evidence of carditis, which if observed the patient should be reclassified as having ARF and should receive secondary prophylaxis.",
+        "Although one year of secondary prophylaxis is recommended by some, its utility are not well established: Circulation 2009; 119:154.",
+        "Reference: Pediatr Emerg Care 28:1185, 2012; BMJ Case Reports 2016; Curr Rheumatol Rep. 2021 Feb 10;23(3):19"
+      ]
+    }
+  ]
+}

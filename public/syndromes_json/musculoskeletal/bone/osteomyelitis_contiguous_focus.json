@@ -1,0 +1,125 @@
+
+{
+  "documentMetadata": {
+    "title": "Contiguous Focus Osteomyelitis",
+    "sourceFile": "syndromes/musculoskeletal/bone/Osteomyelitis, Contiguous Focus.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contiguous focus osteomyelitis occurs when microorganisms spread to the bone from an adjacent source of infection. This is a common mechanism for osteomyelitis in adults. It can be divided into two main categories: osteomyelitis without vascular insufficiency, and osteomyelitis with vascular insufficiency (most commonly seen in diabetic foot infections). This document focuses on cases without significant vascular compromise."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies and Common Scenarios"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Post-traumatic: Following open fractures where the bone is exposed to the environment.",
+        "Post-operative: After orthopedic procedures, especially those involving hardware (e.g., plates, screws, prosthetic joints). This is often referred to as implant-associated osteomyelitis.",
+        "Spread from adjacent soft tissue infection: For example, a deep pressure ulcer or decubitus ulcer eroding down to underlying bone (e.g., sacrum, hip).",
+        "Direct extension from dental infections into the mandible or maxilla.",
+        "Spread from sinus infections into the frontal bone (Pott's puffy tumor)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Microbiology"
+    },
+    {
+      "type": "paragraph",
+      "text": "The microbiology is often polymicrobial, reflecting the source of the infection. However, Staphylococcus aureus (including MRSA) is the most common pathogen overall. Other important organisms include:",
+      "items": [
+        "Coagulase-negative staphylococci (especially S. epidermidis in implant-associated infections).",
+        "Aerobic gram-negative bacilli (e.g., Pseudomonas aeruginosa, E. coli, Enterobacter species), particularly in post-traumatic and nosocomial infections.",
+        "Anaerobes (e.g., Bacteroides, Peptostreptococcus), common in infections secondary to pressure sores or dental sources.",
+        "Streptococcus species."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation and Diagnosis"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Localized pain, swelling, and erythema over the affected area. A draining sinus tract may be present, which is highly suggestive of underlying chronic osteomyelitis."
+        },
+        {
+          "key": "Diagnosis",
+          "value": "The diagnostic approach is similar to other forms of osteomyelitis. A combination of imaging (X-ray, CT, MRI) and, most importantly, a bone biopsy for culture and histopathology is required. Superficial wound or sinus tract cultures are not reliable for guiding therapy."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A combined medical-surgical approach is almost always necessary."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical Debridement"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Surgical Debridement and Hardware Removal",
+            "indication": "The cornerstone of treatment.",
+            "description": "All infected and necrotic bone and soft tissue must be surgically removed. If orthopedic hardware is present, it typically must be removed for the infection to be cured, as bacteria form a biofilm on the implant surface that is impenetrable to antibiotics. In some cases of stable fixation, the hardware may be retained if the infection is suppressed with long-term antibiotics."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Antibiotic Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Required",
+            "appliesTo": {
+              "description": "Following adequate surgical debridement"
+            },
+            "components": [
+              {
+                "drug": "Pathogen-directed therapy based on bone culture results."
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4-6 weeks"
+            },
+            "notes": "Initial empiric therapy should be broad-spectrum, covering both gram-positive (including MRSA) and gram-negative organisms, tailored to the clinical context. For example, Vancomycin plus a broad-spectrum beta-lactam like Piperacillin-tazobactam or Cefepime."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Osteomyelitis, Chronic; Prosthetic Joint Infection; Osteomyelitis, Vascular Insufficiency",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Osteomyelitis, Chronic"
+      }
+    }
+  ]
+}

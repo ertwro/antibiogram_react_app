@@ -1,0 +1,242 @@
+{
+  "documentMetadata": {
+    "title": "Acute Uncomplicated Urinary Tract Infection in Adult Women",
+    "sourceFile": "UTI, Acute, Uncomplicated, Adult, Female.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute uncomplicated urinary tract infection (UTI) (cystitis, urethritis) in adult women without signs and symptoms of upper urinary tract infection.",
+        "Urine culture should be considered in persons with recent UTI or in areas of high antimicrobial resistance.",
+        "If sexually transmitted disease (STD) risk and symptoms of urethritis, consider treatment for chlamydia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E. coli (75% - 95%)",
+        "Klebsiella sp.",
+        "S. saprophyticus",
+        "Enterococci and/or Streptococcus agalactiae (GpB Strep) in midstream urine cultures often produce false positive results: N Engl J Med 369:1883, 2013; N Engl J Med 369:1959, 2013."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "If local prevalence of resistance to TMP-SMX is < 20%",
+        "components": [
+          {
+            "drug": "TMP-SMX-DS",
+            "dose": "1 tab",
+            "frequency": "bid",
+            "duration": "3 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Nitrofurantoin (Macrobid)",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "5 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "notes": "1st line recommendation per 2011 IDSA guidelines but less effective than Nitrofurantoin in a RCT: JAMA 2018;319:1781",
+        "components": [
+          {
+            "drug": "Fosfomycin",
+            "dose": "3 gm",
+            "route": "po",
+            "duration": "1 dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "250 mg",
+            "frequency": "bid",
+            "duration": "3 days"
+          },
+          {
+            "drug": "Ciprofloxacin extended release",
+            "dose": "500 mg",
+            "frequency": "q24h",
+            "duration": "3 days",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "250 mg",
+            "frequency": "q24h",
+            "duration": "3 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "frequency": "bid",
+            "duration": "5-7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cephalexin",
+            "dose": "500 mg",
+            "frequency": "bid",
+            "duration": "5-7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cefdinir",
+            "dose": "300 mg",
+            "frequency": "bid",
+            "duration": "3-7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "where available",
+        "components": [
+          {
+            "drug": "Pivmecillinam",
+            "dose": "400 mg",
+            "frequency": "bid",
+            "duration": "3-7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Gepotidacin",
+            "dose": "1500 mg",
+            "frequency": "bid",
+            "duration": "5 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Asymptomatic bacteriuria (ASB) should not be treated in most patient populations. ASB is commonly associated with pyuria and the presence of WBC does not warrant treatment. ASB screening and treatment is only recommended in pregnancy and persons undergoing invasive urological procedures.",
+        "Key is to treat patients with recommended regimens for proper duration. Despite the roll out of the 2011 IDSA Guidelines, providers continue to treat patients with incorrect regimens for prolonged durations. (Open Forum Infect Dis. 2015; 26)",
+        "E. coli resistance is increasing to both TMP/SMX and Fluoroquinolones. Review of management of MDR uropathogens: Clin Infect Dis 2016;63:960.",
+        "ESBL producers are often susceptible to fosfomycin and ertapenem",
+        "Treatment of extended spectrum beta-lactamase (ESBL)-producing E. coli and Klebsiella sp. problematic because of multiple drug resistance.",
+        "If failure on 3-day course, culture and treat for 2 weeks.",
+        "See E. coli and Gram Negative Bacilli, Drug Resistance, Overview for further discussion of resistance issues and treatment options."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pregnancy (ACOG Guidelines, Obstet Gynecol 142:235, 2023):",
+        "5-7-day therapy recommended",
+        "Nitrofurantoin and TMP-SMX can be used as first-line in 2nd and 3rd trimesters, consider other options in 1st trimester and at term but can still be considered when other options are not available",
+        "Avoid fluoroquinolones throughout pregnancy",
+        "Phenazopyridine (Pyridium) 200 mg po tid x 2 days to above regimens to reduce symptoms",
+        "ESBL E. coli isolates are likely to be susceptible to the following oral agents, Fosfomycin, Pivmecillinam, and Gepotidacin. Dosing for Fosfomycin for ESBL E. coli cystitis is often 3 gm po every other day for 3 doses (not an FDA approved dosing). Open Forum Infect Dis. 2020.",
+        "IDSA guidelines for treatment of acute, uncomplicated cystitis and pyelonephritis: Clin Infect Dis 52:e103, 2011.",
+        "Reviews: N Engl J Med 366:1028, 2012; Clin Infect Dis 57:719, 2013.",
+        "Cefpodoxime inferior to Ciprofloxacin for uncomplicated cystitis (JAMA 307:583, 2012)."
+      ]
+    }
+  ]
+}

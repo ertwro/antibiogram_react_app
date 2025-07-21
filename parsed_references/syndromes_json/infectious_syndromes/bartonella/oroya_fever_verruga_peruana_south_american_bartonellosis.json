@@ -1,0 +1,105 @@
+{
+  "documentMetadata": {
+    "title": "Oroya Fever, Verruga Peruana, South American Bartonellosis",
+    "lastUpdated": "2024-04-24",
+    "sourceFile": "Oroya Fever, Verruga Peruana, South American Bartonellosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "South American Bartonellosis (aka Carrion's Disease) is a bacterial infection caused by Bartonella bacilliformis.",
+        "Transmitted by nocturnal sand flies",
+        "Endemic in inter-Andean valleys between 500-3200 meters elevation exclusively in Peru and Ecuador.",
+        "Epidemiology: PloS Negl Trop Dis 6(10):e1819, 2012",
+        "Biphasic illness. The two stages of the disease are driven by the disease pathogenesis:",
+        "  - Oroya Fever is the acute initial phase: febrile illness with positive blood cultures; reflects initial bacteremia with infection of erythrocytes and endothelial cells",
+        "    - When critical mass reached, massive hemolysis can occur",
+        "    - 1/3 of patients suffer opportunistic infection due to suppression of CD4 lymphocytes",
+        "    - Untreated, mortality can reach 40%",
+        "  - Verruga peruana (Peruvian wart) is the late cutaneous manifestation; reflects infection of endothelial cells stimulates new vessel formation with subsequent appearance of vascular skin papules and nodules"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella bacilliformis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oroya fever: Intra-erythrocytic bacilli visible on giemsa-stained blood film (36%)",
+        "Positive blood cultures: Grows slowly over 1-2 weeks in blood cultures and requires special agar and lower incubation temperature",
+        "IFA ultimately positive in 86%",
+        "Blood PCR is increasingly available",
+        "Verruga peruana: Diagnosis is largely clinical. Can do skin biopsy if in doubt."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment suggestions based on observational studies and case reports. No clinical trial data available",
+        "Oroya fever, adults:",
+        "  - Uncomplicated, adult: Ciprofloxacin 500 mg po bid x 14 days. Can be combined with Ceftriaxone 1 gm IV once daily for more severe infections.",
+        "  - Complicated, more severe infection, adult:",
+        "    - Chloramphenicol 50-75 mg/kg/day (max 3 gm) po or IV in 4 divided doses x 14 days in combination with Ceftriaxone 1 gm IV once per day x 10-14 days",
+        "Verruga peruana, adult:",
+        "  - Uncomplicated: Azithromycin 500 mg po once daily x 7 days",
+        "  - Complicated: Ciprofloxacin 500 mg po/IV bid x 7-10 days",
+        "  - Note: Chloramphenicol is not active",
+        "Oroya fever, children:",
+        "  - Uncomplicated: Ciprofloxacin 20 mg/kg po in 2 divided doses x 14 days (max 1 gm/day)",
+        "  - Complicated/severe: Chloramphenicol 50-75 mg/kg/day (max 2 gm/day), po/IV, in 4 divided doses x 10-14 days in combination with Ceftriaxone 50-75 mg/kg (max 1 gm/day) IV once daily x 10-14 days",
+        "Verruga peruana, pregnancy: Azithromycin 500 mg/kg po once daily x 7 days",
+        "Verruga peruana, children:",
+        "  - Azithromycin 10 mg/kg (max 500 mg/day) po once daily x 7 days",
+        "  - Ciprofloxacin 20 mg/kg (max 1 gm/day) po in 2 divided doses x 14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Poor activity reported: Vancomycin, Clindamycin, aminoglycosides, Imipenem-cilastatin",
+        "Treatment alternatives discussed in: Intl J Antimicrob Agents 44:16, 2014",
+        "General references: Parasit Vectors 2019; 12:141; Pediatrics 2011;128:e1034"
+      ]
+    }
+  ]
+}

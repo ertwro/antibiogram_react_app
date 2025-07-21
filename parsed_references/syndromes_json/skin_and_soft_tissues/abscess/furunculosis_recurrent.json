@@ -1,0 +1,44 @@
+{
+  "name": "Recurrent Furunculosis",
+  "summary": "This document outlines decolonization strategies to prevent recurrent furunculosis (abscesses, boils) caused by Staphylococcus aureus in otherwise healthy individuals. It details primary and alternative treatment regimens, along with important clinical considerations and comments on the current state of treatment.",
+  "description": "The document focuses on preventing recurrent Staphylococcus aureus infections. It emphasizes the need for culturing multiple sites to accurately identify colonization. Various decolonization protocols are presented, including combined chlorhexidine and mupirocin regimens, as well as bleach baths. The document also notes the lack of a \"gold standard\" treatment and the high rates of recolonization.",
+  "syndromes": [
+    {
+      "name": "Recurrent Furunculosis",
+      "description": "A condition characterized by repeated episodes of furuncles (boils) or abscesses."
+    }
+  ],
+  "special_considerations": [
+    "Need to culture multiple sites (nose, throat, inguinal area) for accurate detection of S. aureus colonization, as nares-only cultures can miss up to half of colonized individuals.",
+    "No \"gold standard\" regimen for decolonization currently exists, and the optimal regimen and duration of treatment are uncertain.",
+    "Rates of recolonization and recurrent infections remain high even after decolonization treatment."
+  ],
+  "pathogens": [
+    {
+      "name": "Staphylococcus aureus",
+      "summary": "The causative agent of furunculosis. Both Methicillin-Susceptible (MSSA) and Methicillin-Resistant (MRSA) strains are implicated."
+    }
+  ],
+  "references": [
+    {
+        "title": "Nasal-only cultures miss up to half of individuals colonized with Staphylococcus aureus.",
+        "url": "Clin Infect Dis 54:1523, 2012"
+    },
+    {
+        "title": "A combined regimen of chlorhexidine and mupirocin significantly reduced post-discharge MRSA infections.",
+        "url": "N Engl J Med. 2019; 380:638-650"
+    },
+    {
+        "title": "Comparison of index patient vs. whole household decolonization for S. aureus.",
+        "url": "Clin Infect Dis 54:743, 2012"
+    },
+    {
+        "title": "Comparison of bleach baths plus mupirocin vs. chlorhexidine body wash plus mupirocin for S. aureus decolonization.",
+        "url": "Infect Control Hosp Epidemiol 32:872, 2011"
+    },
+    {
+        "title": "Review of decolonization strategies for S. aureus.",
+        "url": "Infect Dis Clin North Am. 2021;35:107-133"
+    }
+  ]
+}

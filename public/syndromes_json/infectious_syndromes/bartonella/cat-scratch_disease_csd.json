@@ -1,0 +1,133 @@
+{
+  "documentMetadata": {
+    "title": "Cat-scratch Disease (CSD)",
+    "lastUpdated": "2024-04-24",
+    "sourceFile": "Cat-scratch Disease (CSD).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Most common clinical syndrome is self-limited regional lymphadenitis after contact between an immunocompetent patient and a cat, especially a young feral or domestic cat. Occurs with or without disseminated infection.",
+        "Other clinical manifestations:",
+        "  - Disseminated cat-scratch disease:",
+        "    - Hepatosplenic cat-scratch infection",
+        "    - Neurologic cat-scratch infection",
+        "      - Encephalopathy most common",
+        "      - Transverse myelitis, radiculitis, cerebellar ataxia all reported",
+        "  - Ocular cat scratch infection",
+        "    - Parinaud's ocular glandular syndrome",
+        "    - Optic neuritis, neuroretinitis",
+        "  - Other manifestations: fever of unknown origin (FUO) (rare) (Clin Infect Dis 2020, 71:2818), culture negative endocarditis, arthritis, osteomyelitis",
+        "Recommend treatment of all patients in order to shorten duration of illness and reduce risk of complications.",
+        "Distribution of inflamed nodes:",
+        "  - Axillary/epitrochlear (46%)",
+        "  - Neck (26%)",
+        "  - Inguinal (17%)",
+        "  - Suppuration (10%)",
+        "Disseminated disease manifestations occur in 14% of patients."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "History of cat or cat-flea contact",
+        "Positive antibody test for Bartonella henselae. Titer ≥ 1:512",
+        "Other rarely used diagnostic methods:",
+        "  - PCR on node aspirate or biopsy with granulomas",
+        "  - Warthin-Starry silver stain."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella henselae:",
+        "  - Slow growing fastidious gram-negative bacillus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lymphadenitis in immunocompetent patient.",
+        "  - Often resolves without treatment.",
+        "  - Adult: Azithromycin 500 mg po x 1 dose, then 250 mg po/day x 4 days",
+        "  - Child (Weight < 45 kg): Azithromycin oral solution 10 mg/kg po x 1 dose, then 5 mg/kg/day po x 4 days",
+        "  - If intolerant to Azithromycin, can treat symptoms and avoid anti-infectives.",
+        "Pain relief: needle aspiration of purulent exudate from suppurative nodes",
+        "Hepatosplenic or disseminated infection:",
+        "  - Adult, preferred regimen:",
+        "    - (Rifampin 300 mg IV/po bid + Azithromycin 500 mg po x one dose, then 250 mg/day) x 10-14 days.",
+        "    - Alternative: (Rifampin 300 mg IV/po bid + Gentamicin 2 mg/kg x one dose and then 1.5 mg/kg q8h) X 10-14 days",
+        "    - Consider adjunctive corticosteroids for severe or persistent infection",
+        "Neurologic and/or ocular (neuroretinitis) infection: collaborative care with ophthalmology",
+        "  - Adult preferred regimen:",
+        "    - (Doxycycline 100 mg IV/po bid + Rifampin 300 mg IV/po bid together for 4-6 weeks) (Ref: Intl J Antimicrob Agents 44:16, 2014)",
+        "  - Alternatives:",
+        "    - Rifampin + Azithromycin (as above) x 4-6 weeks",
+        "    - Rifampin (as above) + TMP-SMX -DS, one po bid x 4-6 weeks",
+        "  - Child (age < 8 yrs): (Azithromycin 10 mg/kg on day 1, then 5 mg/kg/day OR TMP-SMX 8 mg/kg/day (TMP comp) in 2 divided doses) + Rifampin 10 mg/kg q12h (max 600 mg/day) x 4-6 weeks",
+        "  - Recommend adjunctive corticosteroids",
+        "    - Prednisone: 1 mg/kg/day po x 2 weeks and then taper over the following 4 weeks"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lymphadentis. Other drugs with in vitro activity:",
+        "  - Clarithromycin 500 mg po bid x 7-10 days",
+        "  - Rifampin 300 mg po bid x 7-10 days. Remember to check for drug-drug interactions.",
+        "  - TMP-SMX DS, one po bid x 7-10 days",
+        "  - Ciprofloxacin 500 mg po bid x 7-10 day"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Uncomplicated adenitis in children usually resolves without treatment, although one study showed faster resolution with azithromycin (Ped Infect Dis J 1998; 17:447). Joint decision making about benefits and downsides of treatment is reasonable."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jarisch-Herxheimer reactions have occurred after the first few doses of antibiotic.",
+        "Remember to check for drug-drug interactions in patients given Rifampin.",
+        "Review: Pediatr Infect Dis J 2021,40:S11."
+      ]
+    }
+  ]
+}

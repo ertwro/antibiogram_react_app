@@ -1,0 +1,533 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus saprophyticus",
+      "aliases": [
+        "Coagulase-negative staphylococcus"
+      ],
+      "lastUpdated": "2024-07-30",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci in clusters, catalase +, coagulase –, urease +, Novobiocin resistant."
+    },
+    "clinicalProfile": {
+      "summary": "Causes uncomplicated urinary tract infection (UTI) and, less frequently, upper tract infection. It is the second most common cause of uncomplicated UTI after E. coli.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Dysuria",
+        "Urinary frequency",
+        "Urinary urgency"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Uncomplicated Urinary Tract Infection (Cystitis)",
+          "description": "Infection of the lower urinary tract."
+        },
+        {
+          "syndromeName": "Pyelonephritis",
+          "description": "Infection of the upper urinary tract (kidneys)."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Sexually active young women"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Fosfomycin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Novobiocin",
+          "notes": "Resistant (used for identification)"
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Susceptible to most agents used for the treatment of urinary tract infections."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Uncomplicated UTI (Lower Tract)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "160/800 mg",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "Nitrofurantoin",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": "For lower tract infection only."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Cephalexin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "qid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "875/125 mg",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Upper Tract Infection (Pyelonephritis)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Fluoroquinolone",
+                      "dose": "",
+                      "route": "PO/IV",
+                      "frequency": "",
+                      "comments": "e.g., Levofloxacin"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.351Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus saprophyticus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Coagulase-negative staphylococcus"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-07-30"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Causes uncomplicated urinary tract infection (UTI) and, less frequently, upper tract infection. It is the second most common cause of uncomplicated UTI after E. coli.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Dysuria",
+        "Urinary frequency",
+        "Urinary urgency"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Uncomplicated Urinary Tract Infection (Cystitis)",
+          "description": "Infection of the lower urinary tract."
+        },
+        {
+          "syndromeName": "Pyelonephritis",
+          "description": "Infection of the upper urinary tract (kidneys)."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Sexually active young women"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Fosfomycin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Novobiocin",
+          "notes": "Resistant (used for identification)"
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated UTI (Lower Tract)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "160/800 mg",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "TMP-SMX 160/800 mg PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated UTI (Lower Tract)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Nitrofurantoin",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "5 days",
+              "comments": "For lower tract infection only.",
+              "originalText": "Nitrofurantoin 100 mg PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated UTI (Lower Tract)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Levofloxacin 500 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated UTI (Lower Tract)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cephalexin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "qid",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Cephalexin 500 mg PO qid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated UTI (Lower Tract)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "875/125 mg",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Amoxicillin-clavulanate 875/125 mg PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Upper Tract Infection (Pyelonephritis)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Fluoroquinolone",
+              "dose": "",
+              "route": "PO/IV",
+              "frequency": "",
+              "duration": "7-10 days",
+              "comments": "e.g., Levofloxacin",
+              "originalText": "Fluoroquinolone  PO/IV "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Streptococcus pneumoniae",
+      "lastUpdated": "2023-01-13",
+      "clsiCategory": "Streptococcus pneumoniae",
+      "classification": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci in pairs, chains"
+      },
+      "biochemicalTests": "Gram-positive lancet-shaped diplococci, catalase –, alpha-hemolytic, Optochin (P disk) susceptible, bile soluble."
+    },
+    "clinicalProfile": {
+      "summary": "Isolation of Streptococcus pneumoniae, which may display in vitro resistance to penicillin, macrolides, and/or TMP-SMX.",
+      "prognosisNotes": [
+        "Criteria for resistance vary depending on whether the target is effective concentrations in the CSF or non-CSF sites of infection."
+      ]
+    },
+    "treatment": {
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Non-meningeal infections",
+            "isolateSource": "Penicillin G Susceptible (MIC < 2 µg/mL)"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G",
+                  "dose": "2 million units",
+                  "route": "IV",
+                  "frequency": "q4h"
+                },
+                {
+                  "drugName": "Ceftriaxone",
+                  "dose": "1-2 gm",
+                  "route": "IV",
+                  "frequency": "q24h"
+                },
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "600 mg",
+                  "route": "IV",
+                  "frequency": "q8h"
+                },
+                {
+                  "drugName": "Moxifloxacin",
+                  "dose": "400 mg",
+                  "route": "IV",
+                  "frequency": "q24h"
+                },
+                {
+                  "drugName": "Levofloxacin",
+                  "dose": "750 mg",
+                  "route": "IV",
+                  "frequency": "q24h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Non-meningeal infections",
+            "isolateSource": "Intermediate (MIC = 4 µg/mL)"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "notes": [
+                "Few data exist. Penicillin, ampicillin, or amoxicillin may be effective for less serious infections, but for more serious infections, the drugs listed for penicillin-resistant infections are preferred."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Non-meningeal infections",
+            "isolateSource": "Resistant to Penicillin G (MIC ≥ 8.0 µg/mL)"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Ceftriaxone",
+                  "dose": "2 gm",
+                  "route": "IV",
+                  "frequency": "q24h"
+                },
+                {
+                  "drugName": "Moxifloxacin",
+                  "dose": "400 mg",
+                  "route": "IV",
+                  "frequency": "q24h"
+                },
+                {
+                  "drugName": "Levofloxacin",
+                  "dose": "750 mg",
+                  "route": "IV",
+                  "frequency": "q24h"
+                },
+                {
+                  "drugName": "Vancomycin",
+                  "dose": "15-20 mg/kg",
+                  "route": "IV",
+                  "frequency": "q8-12h",
+                  "comments": "to achieve a trough concentration of 15-20 µg/mL"
+                },
+                {
+                  "drugName": "Linezolid",
+                  "dose": "600 mg",
+                  "route": "IV",
+                  "frequency": "q12h"
+                },
+                {
+                  "drugName": "Ceftaroline",
+                  "dose": "600 mg",
+                  "route": "IV",
+                  "frequency": "q12h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Meningeal infection"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "notes": [
+                "See Meningitis, Streptococcus pneumoniae"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "preventionAndScreening": [
+        {
+          "type": "Vaccination",
+          "details": "For indications, available products, dosing, and vaccine characteristics for pre-exposure prevention, see Pneumococcal, Vaccines, Adult. A single dose of Prevnar 20 (PCV20) has de facto replaced previous vaccines (PCV13, PPSV23) and is less cumbersome than sequential dosing."
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "antimicrobialBreakpoints": [
+        {
+          "tier": 1,
+          "tierDescription": "Penicillin G Breakpoints",
+          "agents": [
+            {
+              "agentName": "Penicillin G",
+              "breakpointSets": [
+                {
+                  "condition": "Meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤0.1",
+                    "i_breakpoint": "0.1-1.0",
+                    "r_breakpoint": "≥2.0"
+                  }
+                },
+                {
+                  "condition": "Non-meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤2.0",
+                    "i_breakpoint": "4.0",
+                    "r_breakpoint": "≥8.0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "tierDescription": "Ceftriaxone Breakpoints",
+          "agents": [
+            {
+              "agentName": "Ceftriaxone",
+              "breakpointSets": [
+                {
+                  "condition": "Meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤0.5",
+                    "i_breakpoint": ">0.5 and <1.0",
+                    "r_breakpoint": "≥1.0"
+                  }
+                },
+                {
+                  "condition": "Non-meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤1.0",
+                    "i_breakpoint": ">1 and <2.0",
+                    "r_breakpoint": "≥2.0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "treatment",
+      "additionalInformation",
+      "laboratoryProfile"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.357Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Streptococcus pneumoniae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases",
+        "aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-01-13"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci in pairs, chains"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Isolation of Streptococcus pneumoniae, which may display in vitro resistance to penicillin, macrolides, and/or TMP-SMX.",
+      "prognosisNotes": [
+        "Criteria for resistance vary depending on whether the target is effective concentrations in the CSF or non-CSF sites of infection."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile",
+      "resistance"
+    ],
+    "value": {}
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "antimicrobialBreakpoints": [
+        {
+          "tier": 1,
+          "tierDescription": "Penicillin G Breakpoints",
+          "agents": [
+            {
+              "agentName": "Penicillin G",
+              "breakpointSets": [
+                {
+                  "condition": "Meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤0.1",
+                    "i_breakpoint": "0.1-1.0",
+                    "r_breakpoint": "≥2.0"
+                  }
+                },
+                {
+                  "condition": "Non-meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤2.0",
+                    "i_breakpoint": "4.0",
+                    "r_breakpoint": "≥8.0"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "tierDescription": "Ceftriaxone Breakpoints",
+          "agents": [
+            {
+              "agentName": "Ceftriaxone",
+              "breakpointSets": [
+                {
+                  "condition": "Meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤0.5",
+                    "i_breakpoint": ">0.5 and <1.0",
+                    "r_breakpoint": "≥1.0"
+                  }
+                },
+                {
+                  "condition": "Non-meningeal isolates",
+                  "mic": {
+                    "s_breakpoint": "≤1.0",
+                    "i_breakpoint": ">1 and <2.0",
+                    "r_breakpoint": "≥2.0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

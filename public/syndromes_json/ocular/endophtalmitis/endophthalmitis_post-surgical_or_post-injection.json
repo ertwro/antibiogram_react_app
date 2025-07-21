@@ -1,0 +1,118 @@
+
+{
+  "documentMetadata": {
+    "title": "Post-Surgical & Post-Injection Endophthalmitis",
+    "sourceFile": "syndromes/ocular/endophtalmitis/Endophthalmitis, Post-surgical or Post-injection.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Acute Post-Operative Endophthalmitis"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the most common form of endophthalmitis, occurring typically within 6 weeks following intraocular surgery, most frequently after cataract surgery. It results from the inoculation of microorganisms, usually from the patient's own ocular surface flora, into the eye at the time of surgery."
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Incidence",
+          "value": "Approximately 0.04% to 0.2% after cataract surgery."
+        },
+        {
+          "key": "Timing",
+          "value": "Most cases present within the first week after surgery."
+        },
+        {
+          "key": "Microbiology",
+          "value": "Gram-positive bacteria predominate. Coagulase-negative staphylococci (e.g., S. epidermidis) account for ~70% of cases. More virulent organisms like S. aureus, Streptococcus species, and gram-negative bacteria are less common but cause more severe inflammation and have worse outcomes."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Endophthalmitis After Intravitreal Injection"
+    },
+    {
+      "type": "paragraph",
+      "text": "With the widespread use of intravitreal injections to treat retinal diseases (e.g., anti-VEGF therapy for macular degeneration), post-injection endophthalmitis has become more common. The pathophysiology is similar to post-operative endophthalmitis."
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Incidence",
+          "value": "Approximately 0.02% to 0.05% per injection."
+        },
+        {
+          "key": "Microbiology",
+          "value": "The spectrum is similar to post-cataract surgery cases, but oral flora, particularly Streptococcus species, are more frequently implicated. Viridans group streptococci are associated with particularly poor visual outcomes."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis and Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The clinical presentation includes acute onset of pain, vision loss, red eye, hypopyon, and vitritis. Management is urgent and follows the principles established by the Endophthalmitis Vitrectomy Study (EVS)."
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Vitreous/Aqueous Tap and Intravitreal Antibiotic Injection",
+            "indication": "Standard initial procedure for all suspected cases.",
+            "description": "An intraocular fluid sample is obtained for culture. This is immediately followed by injection of broad-spectrum antibiotics into the vitreous.",
+            "notes": "Standard injection is Vancomycin (1 mg/0.1 mL) for gram-positive coverage and Ceftazidime (2.25 mg/0.1 mL) for gram-negative coverage."
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Pars Plana Vitrectomy (PPV)",
+            "indication": "The EVS established a clear benefit for immediate PPV in patients presenting with light perception (LP) only vision. For patients with better than LP vision, initial tap/inject was equivalent to initial PPV.",
+            "notes": "PPV may be considered for patients with better than LP vision if they have a particularly virulent organism, rapidly worsening inflammation, or fail to improve after initial injection."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Chronic Post-Operative Endophthalmitis"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is an indolent, low-grade inflammation occurring more than 6 weeks after surgery. It is often caused by less virulent organisms sequestered within the capsular bag, such as Propionibacterium acnes, or fungi."
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Presentation",
+          "value": "Characterized by persistent, granulomatous uveitis, often with large keratic precipitates and plaques on the intraocular lens, that responds to steroids but recurs when they are tapered."
+        },
+        {
+          "key": "Management",
+          "value": "Requires intraocular fluid culture. Treatment often involves vitrectomy with partial or total capsulectomy and injection of intravitreal antibiotics."
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Endophthalmitis, Overview",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Endophthalmitis, Overview"
+      }
+    }
+  ]
+}

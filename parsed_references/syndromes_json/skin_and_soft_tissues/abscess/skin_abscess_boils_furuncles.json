@@ -1,0 +1,43 @@
+{
+  "name": "Skin Abscess, Boils, Furuncles",
+  "summary": "This document provides clinical guidance on the management of purulent skin lesions such as abscesses, boils, and furuncles. It covers diagnosis, etiology, and detailed primary and alternative treatment regimens for both outpatient and inpatient settings.",
+  "description": "The document emphasizes that incision and drainage are the primary treatment for these skin infections. It provides detailed antibiotic recommendations based on the suspicion of MRSA, severity of the infection, and patient setting (outpatient vs. inpatient). It also discusses antimicrobial stewardship, advocating for shorter courses of therapy and the use of MSSA-specific antibiotics when appropriate.",
+  "syndromes": [
+    {
+      "name": "Acute Bacterial Skin and Skin Structure Infection (ABSSSI)",
+      "description": "Purulent skin lesions including boils, furuncles, carbuncles, and abscesses."
+    }
+  ],
+  "special_considerations": [
+    "Incision and drainage is the mainstay of therapy; needle aspiration is inadequate.",
+    "If diagnostic uncertainty and/or to assess adequacy of drainage, ultrasonography can help.",
+    "If no response after 2-3 days of treatment, look for an undrained abscess.",
+    "For obese patients (BMI > 40), higher doses of TMP-SMX and Clindamycin may be required.",
+    "Recent studies indicate that shorter courses of therapy (5-7 days) are as effective as longer courses (10-14 days).",
+    "Avoid fluoroquinolones unless the isolate is known to be susceptible in vitro."
+  ],
+  "pathogens": [
+    {
+      "name": "Staphylococcus aureus",
+      "summary": "The primary causative agent, including both Methicillin-sensitive (MSSA) and Methicillin-resistant (MRSA) strains."
+    }
+  ],
+  "references": [
+    {
+      "title": "Management of skin and soft tissue infections.",
+      "url": "N Engl J Med 370:1039, 2014"
+    },
+    {
+      "title": "Benefit of antibiotics for small abscesses.",
+      "url": "N Engl J Med 2016; 374:823-32"
+    },
+    {
+      "title": "Benefit of antibiotics for small abscesses.",
+      "url": "N Engl J Med 2017; 376:2545-2555"
+    },
+    {
+      "title": "Obesity and treatment failure in skin and soft tissue infections.",
+      "url": "J Infect 65:128, 2012"
+    }
+  ]
+}

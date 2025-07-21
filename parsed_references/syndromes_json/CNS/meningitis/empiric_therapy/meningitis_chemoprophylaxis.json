@@ -1,0 +1,82 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Chemoprophylaxis",
+    "sourceFile": "Meningitis, Chemoprophylaxis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Chemoprophylaxis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chemoprophylaxis is recommended for close contacts of individuals with invasive disease due to Neisseria meningitidis or Haemophilus influenzae type b."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Neisseria meningitidis contact",
+        "components": [
+          {
+            "drug": "Rifampin",
+            "dose": "600 mg",
+            "route": "PO",
+            "frequency": "q12h for 2 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "Neisseria meningitidis contact",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "500 mg",
+            "route": "PO",
+            "frequency": "once"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "Neisseria meningitidis contact",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "250 mg",
+            "route": "IM",
+            "frequency": "once"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Haemophilus influenzae type b contact",
+        "components": [
+          {
+            "drug": "Rifampin",
+            "dose": "20 mg/kg (max 600 mg)",
+            "route": "PO",
+            "frequency": "daily for 4 days"
+          }
+        ]
+      }
+    }
+  ]
+}

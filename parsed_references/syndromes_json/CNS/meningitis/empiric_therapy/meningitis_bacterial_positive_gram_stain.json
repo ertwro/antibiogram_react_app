@@ -1,0 +1,96 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Bacterial, Positive Gram Stain",
+    "sourceFile": "Meningitis, Bacterial, Positive Gram Stain.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Bacterial, Positive Gram Stain"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the Gram stain of cerebrospinal fluid (CSF) is positive, empiric therapy can be tailored to the likely pathogen."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Gram-positive cocci",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Gram-negative cocci",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Gram-positive bacilli",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Gram-negative bacilli",
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    }
+  ]
+}

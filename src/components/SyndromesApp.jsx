@@ -33,9 +33,9 @@ const SyndromesApp = ({ onBackToLanding }) => {
     syndromes.forEach(syndrome => {
       if (!syndrome.filePath) return;
       
-      // Extract path parts from filePath: ./syndromes_json/category/subcategory/file.json
+      // Extract path parts from filePath: /antibiogram_react_app/syndromes_json/category/subcategory/file.json
       const pathParts = syndrome.filePath
-        .replace('./syndromes_json/', '')
+        .replace('/antibiogram_react_app/syndromes_json/', '')
         .split('/')
         .filter(part => part && !part.endsWith('.json'));
       

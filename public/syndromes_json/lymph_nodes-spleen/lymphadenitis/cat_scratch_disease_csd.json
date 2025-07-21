@@ -1,0 +1,475 @@
+{
+  "documentMetadata": {
+    "title": "Cat-scratch Disease (CSD)",
+    "sourceFile": "lymph_nodes-spleen/lymphadenitis/Cat-scratch Disease (CSD).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most common clinical syndrome is self-limited regional lymphadenitis after contact between an immunocompetent patient and a cat, especially a young feral or domestic cat. Occurs with or without disseminated infection."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Other clinical manifestations:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Disseminated cat-scratch disease: Hepatosplenic cat-scratch infection",
+            "Neurologic cat-scratch infection: Encephalopathy most common, Transverse myelitis, radiculitis, cerebellar ataxia all reported",
+            "Ocular cat scratch infection: Parinaud's ocular glandular syndrome, Optic neuritis, neuroretinitis",
+            "Other manifestations: fever of unknown origin (FUO) (rare) (Clin Infect Dis 2020, 71:2818), culture negative endocarditis, arthritis, osteomyelitis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Recommend treatment of all patients in order to shorten duration of illness and reduce risk of complications."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Distribution of inflamed nodes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Axillary/epitrochlear (46%)",
+            "Neck (26%)",
+            "Inguinal (17%)",
+            "Suppuration (10%)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Disseminated disease manifestations occur in 14% of patients."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "History of cat or cat-flea contact",
+        "Positive antibody test for Bartonella henselae. Titer ≥ 1:512"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Other rarely used diagnostic methods:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "PCR on node aspirate or biopsy with granulomas",
+            "Warthin-Starry silver stain."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella henselae: Slow growing fastidious gram-negative bacillus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Lymphadenitis in immunocompetent patient."
+        },
+        {
+          "type": "paragraph",
+          "text": "Often resolves without treatment."
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "x 1 dose, then 250 mg po/day"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Child (Weight < 45 kg)"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin oral solution",
+                "dose": "10 mg/kg",
+                "route": "po",
+                "frequency": "x 1 dose, then 5 mg/kg/day po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4 days"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "If intolerant to Azithromycin, can treat symptoms and avoid anti-infectives."
+        }
+      ]
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Needle aspiration of purulent exudate from suppurative nodes",
+        "indication": "Pain relief"
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Hepatosplenic or disseminated infection:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult, preferred regimen"
+            },
+            "components": [
+              {
+                "drug": "Rifampin",
+                "dose": "300 mg",
+                "route": "IV/po",
+                "frequency": "bid"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "x one dose, then 250 mg/day",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult, alternative regimen"
+            },
+            "components": [
+              {
+                "drug": "Rifampin",
+                "dose": "300 mg",
+                "route": "IV/po",
+                "frequency": "bid"
+              },
+              {
+                "drug": "Gentamicin",
+                "dose": "2 mg/kg",
+                "frequency": "x one dose and then 1.5 mg/kg q8h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider adjunctive corticosteroids for severe or persistent infection"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Neurologic and/or ocular (neuroretinitis) infection: collaborative care with ophthalmology"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult preferred regimen"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "IV/po",
+                "frequency": "bid"
+              },
+              {
+                "drug": "Rifampin",
+                "dose": "300 mg",
+                "route": "IV/po",
+                "frequency": "bid",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4-6 weeks"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult, alternatives"
+            },
+            "components": [
+              {
+                "drug": "Rifampin"
+              },
+              {
+                "drug": "Azithromycin",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4-6 weeks"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult, alternatives"
+            },
+            "components": [
+              {
+                "drug": "Rifampin"
+              },
+              {
+                "drug": "TMP-SMX-DS",
+                "dose": "one",
+                "route": "po",
+                "frequency": "bid",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4-6 weeks"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Child (age < 8 yrs)"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg on day 1, then 5 mg/kg/day"
+              },
+              {
+                "drug": "TMP-SMX",
+                "dose": "8 mg/kg/day (TMP comp) in 2 divided doses",
+                "connector": "or"
+              },
+              {
+                "drug": "Rifampin",
+                "dose": "10 mg/kg",
+                "frequency": "q12h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4-6 weeks"
+            },
+            "notes": "(max 600 mg/day)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Prednisone",
+                "dose": "1 mg/kg/day",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2 weeks and then taper over the following 4 weeks"
+            },
+            "notes": "Recommend adjunctive corticosteroids"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Lymphadentis. Other drugs with in vitro activity:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Clarithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Rifampin",
+                "dose": "300 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            },
+            "notes": "Remember to check for drug-drug interactions."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "TMP-SMX DS",
+                "dose": "one",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 day"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uncomplicated adenitis in children usually resolves without treatment, although one study showed faster resolution with azithromycin (Ped Infect Dis J 1998; 17:447). Joint decision making about benefits and downsides of treatment is reasonable."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jarisch-Herxheimer reactions have occurred after the first few doses of antibiotic.",
+        "Remember to check for drug-drug interactions in patients given Rifampin.",
+        "Review: Pediatr Infect Dis J 2021,40:S11."
+      ]
+    }
+  ]
+}

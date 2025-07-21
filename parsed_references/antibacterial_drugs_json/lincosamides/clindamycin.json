@@ -1,0 +1,114 @@
+{
+  "drug_name": "Clindamycin",
+  "tradename": "Cleocin, Clindagel, Clinda Max, Clinda Reach, Evoclin, Xaciato",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2015-06-25",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Clindamycin, approved in 1970, is a versatile antimicrobial agent with a spectrum that includes aerobic and anaerobic bacteria, and certain protozoa.",
+      "Clindamycin binds to the 50S ribosomal subunit at a site very close to the macrolide binding site. Protein synthesis is inhibited, probably because of interference with transpeptidation. Clindamycin may also promote tRNA dissociation from the ribosome.",
+      "Activity against Bacteroides fragilis has been declining, and rates of resistance world-wide approach 60% (Clin Infect Dis 2014;59:698). Accordingly, clindamycin is no longer recommended for treatment of intraabdominal infections.",
+      "Clindamycin remains active against roughly 80% of isolates of Clostridium, Peptostreptococcus, and Fusobacterium although there can be wide geographic differences in susceptibility.",
+      "Useful for treatment of infections due to anaerobic bacteria involving the head, neck, and lungs. Active vs. Actinomycetes spp. and peptostreptococci (both metronidazole-resistant).",
+      "MRSA: Community strains often susceptible, hospital strains generally resistant. No activity vs. enterococci.",
+      "Other uses (alone or in combination), not all-inclusive:",
+      "Acne vulgaris (N Engl J Med 2018;379:1343).",
+      "Babesiosis",
+      "Bacterial vaginosis",
+      "Malaria",
+      "Pneumocystis jirovecii pneumonia",
+      "Toxoplasmosis",
+      "Suppresses bacterial toxin production. See Necrotizing Fasciitis, Streptococcal page for details.",
+      "Allergy: Protocol for Clindamycin desensitization."
+    ],
+    "adult_dose": {
+      "usual_dose_range": {
+          "oral": "150-450 mg po q6-8h",
+          "parenteral": "600-900 mg IV q8h"
+      },
+      "syndrome_pages": "Refer to syndrome pages for additional dosage details."
+    },
+    "pediatric_dose": {
+      "po": "30-40 mg/kg/day (divided q6-8h)",
+      "iv": "20-40 mg/kg/day (divided q6-8h)"
+    }
+  },
+  "renal_adjustment": {
+    "notes": "Dosage adjustment may be required in hepatic disease.",
+    "half_life_normal": "2.4",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "900 mg IV q8h, 150-450 mg po q6h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "Consider dosage reduction"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": {
+      "cutaneous": "Cutaneous reactions (many): delayed maculopapular eruptions, urticaria, erythema multiforme, fixed drug eruption, DRESS, SJS, TEN, AGEP.",
+      "gastrointestinal": "Diarrhea, up to 20% of patients. Severe C. difficile infection. Taste disturbance (rare): Br J Clin Pharmacol 2007;64:542.",
+      "esophageal_injury": "Esophageal injury (rare): Clin Med Insights Case Rep 2019;12:1179547619884055.",
+      "hepatic": "Minor reversible elevations in AST, ALT. Rare progression to severe liver injury.",
+      "hematologic": "Reversible neutropenia, thrombocytopenia, and eosinophilia."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Humans: no evidence of toxicity with 2nd or 3rd trimester use. Insufficient data with 1st trimester use. Animals: no evidence of toxicity.",
+    "lactation": "Avoid use if possible, otherwise monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Actinomyces sp.",
+        "Arcanobacterium sp.",
+        "Capnocytophaga sp."
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Topical (gel, cream, lotion), Vaginal suppository, Vaginal gel, Injection, Cap (75, 150, 300 mg), Oral soln (75 mg/5 mL)",
+    "food_recommendation": "Cap/soln ± food",
+    "oral_absorption_percent": "90",
+    "tmax_hr": "0.75",
+    "peak_serum_conc_ug_ml": "2.5 (150 mg po, SD), 14.1 (900 mg IV q8h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "85-94",
+    "volume_of_distribution_vd_l_kg": "1.1 L/kg",
+    "avg_serum_half_life_hr": "2.4",
+    "elimination": "Metabolized",
+    "bile_penetration_percent": "250-300",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": ["CYP3A4"],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Neuromuscular blocking agents", "effect": "↑ neuromuscular blockade", "management": "Avoid co-administ"},
+      {"drug": "Rifampin", "effect": "↓ clindamycin (J Infect 2015;71:200)", "management": "Monitor, adjust do"},
+      {"drug": "St. John's Wort", "effect": "↓ clindamycin", "management": "Monitor, adjust do"}
+  ]
+}

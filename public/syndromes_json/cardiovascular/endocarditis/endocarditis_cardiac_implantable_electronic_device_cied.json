@@ -1,0 +1,79 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Cardiac Implantable Electronic Device (CIED)",
+    "lastUpdated": "2025-01-27",
+    "sourceFile": "Endocarditis, Cardiac Implantable Electronic Device (CIED).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Positive blood cultures in the patient with a cardiac implantable cardiac device (CIED) (see Circulation. 2024;149:e201 and Circulation. 2010;121:458).",
+        "Two or more positive blood cultures for Staphylococcus aureus or the same strain of coagulase-negative staphylococci with no alternative source PLUS a transesophageal echocardiogram (TEE) with findings of echodensity on the device lead or valvular vegetations OR 18F-FDG PET/CT with findings of abnormal heterogeneous activity along leads, or native or prosthetic heart valves.",
+        "Persistent (>72 h) bacteremia due to non-staphylococcal organism despite adequate pathogen-directed therapy, with no alternative source of infection with imaging findings as above or equivocal findings OR septic pulmonary emboli is supportive of CIED infection.",
+        "If negative blood cultures, fever, systemic inflammatory response syndrome, no defined source of infection and 18F-FDG PET/CT with findings of abnormal heterogeneous activity along leads, or native or prosthetic heart valves is suggestive of CIED infection"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Most common (60% or more of cases)",
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Less common: streptococci, enterococci, Gram-negative bacilli"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Complete device removal is recommended to achieve cure.",
+        "Empirical therapy pending culture results: Same as Empirical Therapy for Prosthetic Valve Endocarditis"
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Links to recommendations for pathogen-directed therapy once culture and susceptibility results are available: Staphylococcus aureus, viridans group streptococci or S. gallolyticus, coagulase-negative staphylococci, enterococci",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Staphylococcus aureus, viridans group streptococci or S. gallolyticus, coagulase-negative staphylococci, enterococci"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For patients in whom device removal is not feasible, e.g., those with major co-morbid illness, high risk for poor outcome from the extraction procedure, limited life expectancy, complete a course of therapy as for prosthetic valve endocarditis followed by pathogen-directed, life-long oral suppressive antibiotic therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Optimal timing of new device replacement is undefined, but implantation after 14 days from the first negative blood culture is reasonable."
+      ]
+    }
+  ]
+}

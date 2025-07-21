@@ -1,0 +1,564 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Eikenella corrodens",
+      "aliases": [],
+      "lastUpdated": "2023-02-28",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacilli",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Member of the HACEK group",
+          "Approximately 50% of strains pit or \"corrode\" the agar surface",
+          "Has a characteristic bleach-like odor"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative coccobacillus, facultative anaerobe, requires CO2, oxidase +, catalase –, non-motile, pits the agar, characteristic bleach-like odor, asaccharolytic."
+    },
+    "clinicalProfile": {
+      "summary": "Eikenella corrodens is a fastidious, gram-negative coccobacillus that is part of the normal human oral flora. It is classically associated with human bite wounds and closed-fist injuries, and is one of the HACEK organisms known to cause culture-negative endocarditis.",
+      "pathophysiologyPearls": [
+        "Infections are often polymicrobial, involving other oral flora.",
+        "It has a predilection for causing infections of the head, neck, and respiratory tract, in addition to bite wounds and endocarditis."
+      ],
+      "keySignsAndSymptoms": [
+        "Pain, swelling, and purulent discharge at the site of a bite or injury",
+        "Fever",
+        "New or changing heart murmur (in endocarditis)",
+        "Embolic phenomena (in endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Human Bite Wound Infections",
+          "description": "A common etiology in infections resulting from human bites or clenched-fist injuries where teeth penetrate the skin."
+        },
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A classic HACEK organism causing subacute, culture-negative endocarditis, often in patients with pre-existing valvular disease."
+        },
+        {
+          "syndromeName": "Head and Neck Infections",
+          "description": "Can cause sinusitis, otitis media, mastoiditis, and brain abscesses."
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": "Can occur, particularly in the mandible or other bones secondary to contiguous spread."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals involved in fights (clenched-fist injuries)",
+        "Victims of human bites",
+        "Patients with poor dental hygiene",
+        "Intravenous drug users (for endocarditis)"
+      ],
+      "transmissionVectors": [
+        "Human bites",
+        "Endogenous oral flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Metronidazole",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Macrolides (e.g., Erythromycin)",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "First-generation cephalosporins (Cefazolin, Cephalexin)",
+          "notes": "Usually resistant."
+        },
+        {
+          "drugOrClass": "Antistaphylococcal Penicillins (Dicloxacillin, Oxacillin, Nafcillin)",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Predictably resistant."
+        }
+      ],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Rare strains produce beta-lactamases, conferring resistance to penicillins."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Usually susceptible to penicillin, but due to rare beta-lactamase producers, a combination with a beta-lactamase inhibitor is preferred.",
+        "Ceftriaxone and fluoroquinolones are active in vitro.",
+        "Avoid combination therapy with gentamicin due to toxicity."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Infected Human Bite Wound",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies based on severity",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "875/125",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies based on severity",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": "For penicillin-allergic patients."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Infective Endocarditis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ampicillin-sulbactam",
+                      "dose": "3",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Recommendations are a distillate of activity vs. E. corrodens plus guideline-based suggested treatment for HACEK microorganisms."
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Culture from wound or blood is necessary for diagnosis.",
+        "Blood cultures should be held for an extended period if HACEK endocarditis is suspected."
+      ],
+      "methodologyNotes": [
+        "Eikenella corrodens is a slow-growing, fastidious organism that requires a CO2-enriched atmosphere."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Circulation",
+          "citation": "Circulation 111:e394, 2005",
+          "summaryOrNote": "AHA guidelines for infective endocarditis."
+        },
+        {
+          "source": "Journal of Antimicrobial Chemotherapy",
+          "citation": "J Antimicrob Chemother 67:269, 2012",
+          "summaryOrNote": "Information on antimicrobial susceptibility."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.329Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Eikenella corrodens"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-02-28"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacilli",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Member of the HACEK group",
+          "Approximately 50% of strains pit or \"corrode\" the agar surface",
+          "Has a characteristic bleach-like odor"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Eikenella corrodens is a fastidious, gram-negative coccobacillus that is part of the normal human oral flora. It is classically associated with human bite wounds and closed-fist injuries, and is one of the HACEK organisms known to cause culture-negative endocarditis.",
+      "pathophysiologyPearls": [
+        "Infections are often polymicrobial, involving other oral flora.",
+        "It has a predilection for causing infections of the head, neck, and respiratory tract, in addition to bite wounds and endocarditis."
+      ],
+      "keySignsAndSymptoms": [
+        "Pain, swelling, and purulent discharge at the site of a bite or injury",
+        "Fever",
+        "New or changing heart murmur (in endocarditis)",
+        "Embolic phenomena (in endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Human Bite Wound Infections",
+          "description": "A common etiology in infections resulting from human bites or clenched-fist injuries where teeth penetrate the skin."
+        },
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A classic HACEK organism causing subacute, culture-negative endocarditis, often in patients with pre-existing valvular disease."
+        },
+        {
+          "syndromeName": "Head and Neck Infections",
+          "description": "Can cause sinusitis, otitis media, mastoiditis, and brain abscesses."
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": "Can occur, particularly in the mandible or other bones secondary to contiguous spread."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals involved in fights (clenched-fist injuries)",
+        "Victims of human bites",
+        "Patients with poor dental hygiene",
+        "Intravenous drug users (for endocarditis)"
+      ],
+      "transmissionVectors": [
+        "Human bites",
+        "Endogenous oral flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Metronidazole",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Macrolides (e.g., Erythromycin)",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "First-generation cephalosporins (Cefazolin, Cephalexin)",
+          "notes": "Usually resistant."
+        },
+        {
+          "drugOrClass": "Antistaphylococcal Penicillins (Dicloxacillin, Oxacillin, Nafcillin)",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Predictably resistant."
+        }
+      ],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Rare strains produce beta-lactamases, conferring resistance to penicillins."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Infected Human Bite Wound",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "875/125",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "Varies based on severity",
+              "comments": "",
+              "originalText": "Amoxicillin-clavulanate 875/125 PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Infected Human Bite Wound",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "Varies based on severity",
+              "comments": "For penicillin-allergic patients.",
+              "originalText": "Levofloxacin 750 PO daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Infective Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "4 weeks",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 IV daily"
+            },
+            {
+              "drugName": "Ampicillin-sulbactam",
+              "dose": "3",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "4 weeks",
+              "comments": "",
+              "originalText": "Ampicillin-sulbactam 3 IV q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Infective Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "4 weeks",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400 IV q12h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Culture from wound or blood is necessary for diagnosis.",
+        "Blood cultures should be held for an extended period if HACEK endocarditis is suspected."
+      ],
+      "methodologyNotes": [
+        "Eikenella corrodens is a slow-growing, fastidious organism that requires a CO2-enriched atmosphere."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

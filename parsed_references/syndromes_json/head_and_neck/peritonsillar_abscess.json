@@ -1,0 +1,106 @@
+{
+  "documentMetadata": {
+    "title": "Peritonsillar Abscess",
+    "sourceFile": "Peritonsillar Abscess.pdf",
+    "lastUpdated": "2024-09-30"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Peritonsillar abscess, \"quinsy\", is one type of deep neck infection manifest as an abscess between the tonsil and capsule of the tonsil."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Other deep neck infections: retropharyngeal abscess, parapharyngeal space abscess",
+        "It can develop as a complication of acute tonsillitis or spontaneously, in the absence of acute disease, in patients with poor oral hygiene, immunodeficiency, or excessive tobacco use (J Antimicrob Chemother 68:1941, 2013).",
+        "Diagnosis: physical examination with confirmation by CT scan.",
+        "Peritonsillar abscess microbiology: Eur J of Microbiol Infect Dis 2015; 34:549"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Physical examination with confirmation by CT scan."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus pyogenes",
+        "Fusobacterium necrophorum",
+        "Streptococcus anginosus group",
+        "Rare isolates:",
+        "S. aureus",
+        "Nocardia spp.",
+        "Haemophilus influenzae",
+        "Arcanobacterium haemolyticum",
+        "Streptococcus pneumoniae",
+        "Multidrug-resistant aerobic gram-negative bacilli are unusual but have been reported",
+        "Other anaerobic bacteria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical drainage and debridement often required; obtain surgical consultation",
+        "Empiric: Ampicillin-sulbactam 3 gm IV q6h",
+        "See Antimicrobial Stewardship re de-escalation"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Metronidazole 500 mg IV q6-8 h or 1 gm IV q12h + Ceftriaxone 2 gm IV once daily",
+        "If severe penicillin allergy: Clindamycin 600 - 900 mg IV q8h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Avoid Azithromycin as Fusobacterium sp. are resistant"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Potential serious complications include: jugular vein suppurative phlebitis (Lemierre's syndrome) and/or erosion into the carotid artery with subsequent hemorrhage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+
+{
+  "documentMetadata": {
+    "title": "Overview of Keratitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Keratitis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Keratitis: An Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keratitis is inflammation of the cornea, the transparent front part of the eye that covers the iris, pupil, and anterior chamber. It can be infectious or non-infectious. Infectious keratitis is an ophthalmic emergency that can lead to significant scarring, corneal perforation, and permanent vision loss if not diagnosed and treated promptly. This overview focuses on the differential diagnosis of major types of infectious keratitis."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Key Differentiating Features of Infectious Keratitis"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Feature", "Bacterial Keratitis", "Fungal Keratitis", "Herpes Simplex (HSV) Keratitis", "Acanthamoeba Keratitis"],
+        "rows": [
+          ["Typical Onset", "Hyperacute to acute (hours to days)", "Subacute to chronic (days to weeks)", "Variable, often recurrent", "Subacute to chronic (weeks)"],
+          ["Key Risk Factors", "Contact lens wear, trauma, ocular surface disease", "Trauma with vegetable matter, topical steroid use", "History of prior herpetic disease, stress, fever", "Contact lens wear (especially with water exposure), trauma with soil/water"],
+          ["Pain Level", "Moderate to severe", "Mild to moderate (can be indolent)", "Variable, may have decreased corneal sensation", "Severe pain, often out of proportion to clinical signs"],
+          ["Discharge", "Purulent (pus-filled)", "Minimal, watery", "Watery", "Watery"],
+          ["Classic Signs", "Focal stromal infiltrate/ulcer, hypopyon", "Feathery borders, satellite lesions, endothelial plaque", "Dendritic ulcer (epithelial), disciform edema (endothelial), stromal haze", "Radial keratoneuritis, ring infiltrate, pseudodendrites"],
+          ["Stains/Cultures", "Gram stain, standard bacterial cultures", "GMS/calcofluor white stain, Sabouraud agar", "Viral culture/PCR, Giemsa stain (multinucleated giant cells)", "Calcofluor white stain, culture on E. coli plate, confocal microscopy"]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "General Principles of Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Immediate Action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Any patient with a suspected corneal ulcer (keratitis) requires immediate referral to an ophthalmologist. A delay in treatment can have devastating consequences for vision."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Diagnostic Approach"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A thorough history focusing on risk factors (contact lenses, trauma, etc.).",
+            "Slit-lamp examination with fluorescein staining to assess the size and depth of the epithelial defect and underlying infiltrate.",
+            "Corneal scraping for smears and cultures before initiating antimicrobial therapy. This is the cornerstone of diagnosis."
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Treatment Principles"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Initiate broad-spectrum topical antimicrobial therapy immediately after cultures are obtained.",
+            "Therapy is intensive (e.g., hourly drops) and is tapered based on clinical response.",
+            "Never patch an eye with a suspected infectious keratitis, as this can create a favorable environment for bacterial growth.",
+            "The use of topical corticosteroids is highly controversial and should only be managed by a corneal specialist, as they can worsen certain infections (especially fungal and herpetic) if used inappropriately."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "For detailed management, see specific keratitis topics:",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Bacterial Keratitis, Fungal Keratitis, Viral Keratitis, Acanthamoeba Keratitis"
+      }
+    }
+  ]
+}

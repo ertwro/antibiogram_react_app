@@ -1,0 +1,151 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Candida",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Endocarditis, Candida.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Signs and symptoms of endocarditis infection involving either native or prosthetic valve.",
+        "Positive blood or valve cultures for Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Candida albicans",
+        "Other non-albicans Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Caspofungin",
+            "dose": "150 mg/day"
+          },
+          {
+            "drug": "Micafungin",
+            "dose": "150 mg/day",
+            "connector": "or"
+          },
+          {
+            "drug": "Anidulafungin",
+            "dose": "200 mg/day",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Lipid-based Amphotericin B",
+            "dose": "3-5 mg/kg/day"
+          },
+          {
+            "drug": "Flucytosine",
+            "dose": "25 mg/kg",
+            "frequency": "qid",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Valve replacement strongly recommended whenever possible, particularly in those with prosthetic valve endocarditis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Fluconazole",
+            "dose": "400-800 mg",
+            "route": "po"
+          },
+          {
+            "drug": "(Lipid-based Amphotericin B",
+            "dose": "3-5 mg/kg/day",
+            "connector": "+"
+          },
+          {
+            "drug": "an echinocandin)",
+            "connector": "or"
+          }
+        ],
+        "notes": "in stable patients with negative blood cultures and fluconazole susceptible organism"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "One of the above primary or alternative regimens followed by Fluconazole 400-800 mg/day for 6 months."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Duration of therapy:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Treat for at least 6 weeks after valve replacement, longer in those with complications (e.g., perivalvular or myocardial abscess, extensive disease, delayed resolution of candidemia).",
+            "Long-term, possibly life-long, suppression with Fluconazole 400-800 mg/day for prosthetic valve endocarditis if no valve replacement (Medicine 90:237, 2011)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fluconazole monotherapy not recommended as primary treatment due to high failure rate; but may be used as a single agent following primary therapy for long-term suppression (Medicine 90:237, 2011). One observational study of prosthetic valve IE due to candida suggested that lipid-based Amphotericin B may be more effective than echinocandin therapy (Clin Infect Dis 66:825, 2018). However, mortality rate was high and surgery did not seem to be helpful.",
+        "References: IDSA treatment guidelines: Clin Infect Dis 62:409, 2016 and Curr Opin Infect Dis 26:501, 2013."
+      ]
+    }
+  ]
+}

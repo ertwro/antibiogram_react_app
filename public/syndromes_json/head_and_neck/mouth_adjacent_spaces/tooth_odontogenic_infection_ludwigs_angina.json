@@ -1,0 +1,195 @@
+{
+  "documentMetadata": {
+    "title": "Tooth, Odontogenic Infection, Ludwig's Angina",
+    "sourceFile": "Tooth, Odontogenic Infection, Ludwig's Angina.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tooth infections result from dental caries (cavities) and periodontal disease (gingivitis and periodontitis). Collectively, as they arise from the teeth, such infections are referred to as odontogenic.",
+        "Periapical tooth infections can extend and cause a variety of infectious complications:",
+        "Ludwig's angina is a complication of an infected tooth and/or periodontal infection:",
+        "Rapidly progressive bilateral infection of the submandibular space leading to posterior displacement of the tongue with a choking (angina) sensation.",
+        "Usually occurs in adults with infection of the mandibular teeth.",
+        "Can occur after fracture of mandible or piercings of the frenulum or tongue.",
+        "Other complications include: odontogenic sinusitis, cervical necrotizing fasciitis, cavernous sinus thrombosis, brain abscess",
+        "Noma (also known as Cancrum oris) is a variant in the malnourished which manifests as severe necrotizing gingivitis",
+        "Most of the infections are polymicrobic; in general strict or facultative anaerobic bacteria predominate",
+        "Ludwig's Angina: Surgical drainage and removal of necrotic tissue are essential!",
+        "Risk of airway compromise is increased 10x in the absence of surgical drainage",
+        "Ref.: Med Princ Pract 2018;27:362"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Polymicrobial:",
+        "Viridans group streptococci",
+        "Oral anaerobes:",
+        "Peptoniphilus sp. (formerly Peptostreptococcus sp.)",
+        "Fusobacteria sp.",
+        "Prevotella sp.",
+        "Actinomyces sp.",
+        "Streptococcus pyogenes",
+        "In immunocompromised patients, worry about Staph. aureus and aerobic gram-negative bacteria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Severe infection:",
+        "Protect the airway"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Immunocompetent patient"
+        },
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "3 mU",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If gram-positive cocci in clusters on gram stain, add Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "empiric therapy in an immunocompromised patient"
+        },
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "(over 4 hr) q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical debridement if abscess seen on CT scan or MRI"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Less severe infections:"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Severe infections immunocompetent or immunocompromised:"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "(over 4 hr) q8h"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Penicillin allergy: Clindamycin 600 mg IV q6-8h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Complications: obstruction of the airway; spread to the mediastinum via the parapharyngeal space",
+        "References:",
+        "General review: Dental Clin North Am 2017; 61:235",
+        "For Noma (cancrum oris), see Lancet 368:147, 2006.",
+        "Ludwig's angina.",
+        "General review: Amer J Emerg Med 2021; 41:1; case report with images: Intern Med 2021:60:2707."
+      ]
+    }
+  ]
+}

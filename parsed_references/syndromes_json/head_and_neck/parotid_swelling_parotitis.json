@@ -1,0 +1,222 @@
+{
+  "documentMetadata": {
+    "title": "Parotid Swelling, Parotitis",
+    "sourceFile": "Parotid Swelling, Parotitis.pdf",
+    "lastUpdated": "2025-05-05"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Parotitis (swelling of the parotid gland) is caused by a variety of bacteria and viruses. Acute parotitis is most commonly due to Staph. aureus and mixed oral aerobes and/or anaerobic bacteria."
+    },
+    {
+      "type": "list",
+      "items": [
+        "The distribution of potential microbial pathogens varies:",
+        "Community acquired and immunocompetent differs from hospital acquired and/or immunocompromised",
+        "S. aureus maybe MSSA or MRSA",
+        "Suggest adding NAAT for S. aureus to culture of exudate from Stensen's"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Presents as either \"Hot\" tender or \"Cold\" non-tender parotid swelling:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Predisposing factors: stone(s) in Stensen's duct, dehydration, poor oral hygiene, postoperative state",
+        "Therapy depends on identification of specific etiologic organism.",
+        "Hot/tender",
+        "Cold/non-tender",
+        "History/lab results may narrow differential."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Many serious potential complications:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Extension into parapharyngeal space",
+        "Lemierre's syndrome",
+        "Parotid abscess",
+        "Contiguous osteomyelitis of the mandible",
+        "Bell's palsy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hot/tender:",
+        "Staph. aureus: MSSA or MRSA (suggest culture and oral swab for NAAT)",
+        "Strep. pyogenes",
+        "Aerobic and anaerobic oral flora. Anaerobes include peptostreptococci and Fusobacterium necrophorum",
+        "Aerobic gram-negative bacilli (Enterobacterales and P. aeruginosa) more likely in hospital-acquired and/or immunocompromised patients",
+        "Viral",
+        "Enteroviruses, Epstein-Barr virus, Mumps, HHV-6B, parainfluenza virus, EBV, CMV and rarely others (J Infect Dis 208:1979, 2013).",
+        "15% positive for influenza A(H3N2) in 2014/15 influenza season in UK (Eur Surveill 20:21203, 2015).",
+        "COVID-19 associated parotitis reported: Amer J Emerg Med 2021; 39:254.e3"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cold/non-tender:",
+        "Granulomatous disease (e.g., mycobacteria, fungi, sarcoidosis, Sjögren's syndrome)",
+        "Drugs (iodides, et al.)",
+        "Diabetes",
+        "Cirrhosis",
+        "Tumors"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Remember to get aerobic and anaerobic cultures",
+        "Hot/tender, empirical therapy"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If MRSA is not a concern (negative NAAT) and the patient is immunocompetent:",
+        "components": [
+          {
+            "drug": "Ampicillin-sulbactam",
+            "dose": "3 gm",
+            "route": "IV",
+            "frequency": "q6h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "600 mg",
+            "route": "IV",
+            "frequency": "q6-8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If MRSA is a concern (positive NAAT):",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) to one of the above regimens"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If patient is immunocompromised:",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)",
+            "connector": "+"
+          },
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "(over 4 hr) q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cold/non-tender:",
+        "Due to diverse possibilities need biopsy for culture for mycobacteria and fungi plus histology.",
+        "No indication for empiric therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hot/tender, empirical therapy:",
+        "If immunocompromised patient: Linezolid 600 mg IV/po q12h + Meropenem 1 gm IV q8h"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral therapies, if appropriate",
+        "Amoxicillin-clavulanate 875/125 m po bid",
+        "Moxifloxacin 400 mg po q24h",
+        "If MRSA is a concern add Linezolid 600 mg po bid to either of the above. Daptomycin 10 mg/kg once daily IV is another alternative"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy varies depending on clinical response; usually 10-14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "General overview: Am Fam Physician. 2024; 109:550."
+      ]
+    }
+  ]
+}

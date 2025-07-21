@@ -1,0 +1,403 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Corynebacterium urealyticum",
+      "aliases": [],
+      "lastUpdated": "2025-01-23",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (coryneform)",
+        "respiration": "Aerobic",
+        "notes": [
+          "Strongly and rapidly urease-positive",
+          "Lipophilic"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive rod (coryneform), non-motile, catalase +, oxidase –, strongly and rapidly urease +, lipophilic."
+    },
+    "clinicalProfile": {
+      "summary": "Corynebacterium urealyticum is a multi-drug resistant uropathogen known for causing alkaline-encrusted cystitis and pyelitis. Its potent urease activity leads to the formation of struvite stones, which can cause obstruction and significant morbidity, particularly in renal transplant recipients.",
+      "pathophysiologyPearls": [
+        "The enzyme urease hydrolyzes urea into ammonia and carbon dioxide, raising urine pH.",
+        "The alkaline urine promotes the precipitation of magnesium ammonium phosphate (struvite) and calcium phosphate, leading to the formation of stones and encrustations on uroepithelial surfaces."
+      ],
+      "keySignsAndSymptoms": [
+        "Dysuria, frequency, urgency",
+        "Hematuria",
+        "Flank pain",
+        "Fever",
+        "Urinary obstruction"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Alkaline-Encrusted Cystitis/Pyelitis",
+          "description": "Inflammation of the bladder and/or renal pelvis with the deposition of struvite crystals on the mucosal surfaces."
+        },
+        {
+          "syndromeName": "Urinary Tract Infection (UTI)",
+          "description": "Can present as a complicated UTI, often with underlying urological abnormalities."
+        },
+        {
+          "syndromeName": "Struvite Stone Formation",
+          "description": "Formation of infection-induced kidney stones that can lead to obstruction and renal damage."
+        }
+      ],
+      "highRiskPopulations": [
+        "Renal transplant recipients",
+        "Patients with long-term urinary catheters",
+        "Individuals with underlying urologic abnormalities",
+        "Elderly and debilitated patients"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": [
+        "In renal transplant patients, it can be associated with obstruction and graft loss."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Beta-lactams",
+          "notes": "Often resistant to most beta-lactams."
+        },
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Often resistant."
+        },
+        {
+          "drugOrClass": "Fluoroquinolones",
+          "notes": "Often resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment requires both appropriate antimicrobial therapy and surgical intervention to remove stones and relieve obstruction."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Surgical Intervention",
+          "condition": "Encrusted pyelitis/cystitis, Struvite stones",
+          "details": "Surgical removal of stones and encrustations is crucial for cure and to prevent recurrence."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Urinary Tract Infection",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "Target AUC 400-600 µg/mL*hr or trough 15-20 µg/mL."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Teicoplanin",
+                      "dose": "100-400 mg",
+                      "route": "IM",
+                      "frequency": "once daily",
+                      "comments": "Where available."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Persistent alkaline urine pH (>8.0) in a patient with UTI symptoms.",
+        "Recurrent UTIs, especially with stone formation.",
+        "UTI in a renal transplant recipient."
+      ],
+      "methodologyNotes": [
+        "The organism may be slow-growing and require prolonged incubation."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is made by urine culture. A persistently high urine pH is a key clue. Imaging is important to detect stones and encrustations.",
+        "biosafetyWarning": "Standard BSL-2 practices are adequate.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Vancomycin",
+          "pearl": "The drug of choice due to widespread resistance to other antibiotic classes."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Clin Infect Dis",
+          "citation": "46:825, 2008",
+          "summaryOrNote": "Review of Corynebacterium urealyticum infections."
+        },
+        {
+          "source": "Infect Drug Res",
+          "citation": "8: 129, 2015",
+          "summaryOrNote": "Review of Corynebacterium urealyticum infections."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.372Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Corynebacterium urealyticum"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-23"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (coryneform)",
+        "respiration": "Aerobic",
+        "notes": [
+          "Strongly and rapidly urease-positive",
+          "Lipophilic"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Corynebacterium urealyticum is a multi-drug resistant uropathogen known for causing alkaline-encrusted cystitis and pyelitis. Its potent urease activity leads to the formation of struvite stones, which can cause obstruction and significant morbidity, particularly in renal transplant recipients.",
+      "pathophysiologyPearls": [
+        "The enzyme urease hydrolyzes urea into ammonia and carbon dioxide, raising urine pH.",
+        "The alkaline urine promotes the precipitation of magnesium ammonium phosphate (struvite) and calcium phosphate, leading to the formation of stones and encrustations on uroepithelial surfaces."
+      ],
+      "keySignsAndSymptoms": [
+        "Dysuria, frequency, urgency",
+        "Hematuria",
+        "Flank pain",
+        "Fever",
+        "Urinary obstruction"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Alkaline-Encrusted Cystitis/Pyelitis",
+          "description": "Inflammation of the bladder and/or renal pelvis with the deposition of struvite crystals on the mucosal surfaces."
+        },
+        {
+          "syndromeName": "Urinary Tract Infection (UTI)",
+          "description": "Can present as a complicated UTI, often with underlying urological abnormalities."
+        },
+        {
+          "syndromeName": "Struvite Stone Formation",
+          "description": "Formation of infection-induced kidney stones that can lead to obstruction and renal damage."
+        }
+      ],
+      "highRiskPopulations": [
+        "Renal transplant recipients",
+        "Patients with long-term urinary catheters",
+        "Individuals with underlying urologic abnormalities",
+        "Elderly and debilitated patients"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": [
+        "In renal transplant patients, it can be associated with obstruction and graft loss."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Beta-lactams",
+          "notes": "Often resistant to most beta-lactams."
+        },
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Often resistant."
+        },
+        {
+          "drugOrClass": "Fluoroquinolones",
+          "notes": "Often resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Urinary Tract Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "14 days",
+              "comments": "Target AUC 400-600 µg/mL*hr or trough 15-20 µg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Urinary Tract Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Teicoplanin",
+              "dose": "100-400 mg",
+              "route": "IM",
+              "frequency": "once daily",
+              "duration": "14 days",
+              "comments": "Where available.",
+              "originalText": "Teicoplanin 100-400 mg IM once daily"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Persistent alkaline urine pH (>8.0) in a patient with UTI symptoms.",
+        "Recurrent UTIs, especially with stone formation.",
+        "UTI in a renal transplant recipient."
+      ],
+      "methodologyNotes": [
+        "The organism may be slow-growing and require prolonged incubation."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "drug_name": "Cefditoren pivoxil",
+  "tradename": "Spectracef",
+  "usage_and_dosing": {
+    "general": [
+      "Cefditoren pivoxil is a 3rd generation cephalosporin active in vitro against M. catarrhalis, streptococci and H. influenzae. It is more active than 1st generation or 2nd generation cephalosporins against E. coli, P. mirabilis, and Klebsiella sp.",
+      "Used in the treatment of respiratory infections and skin and skin structure infections.",
+      "Cefditoren pivoxil is an ester prodrug, hydrolyzed by esterases as it is absorbed to form cefditoren and pivalate. Pivalate absorbed (70%) & becomes pivaloylcarnitine which is renally excreted; 39–63%↓ in serum carnitine concentrations. Carnitine involved in fatty acid (FA) metabolism & FA transport into mitochondria. Effect potentially reversible. See Adverse Effects.",
+      "Also contains caseinate (milk protein); avoid if milk allergy (not same as lactose intolerance). Need gastric acid for optimal absorption.",
+      "Where available. No longer marketed in US."
+    ],
+    "adult_dose": {
+      "usual_dose": "400 mg po bid"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_12_yrs": "200-400 mg q12h",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.6",
+    "half_life_esrd": "5",
+    "dose_renal_function_normal": "400 mg po q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 200 mg q12h. CrCl <10: 200 mg 24h",
+    "hemodialysis": "200 mg q24h (dose AD on dialysis days)",
+    "capd": "200 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (2%), fever (rare), rash (rare), positive Coombs (rare), neutropenia (rare), eosinophilia (rare), nausea (6%), vomiting (1%), diarrhea (1.4%), C. difficile colitis, increased LFTs (rare), increased BUN/Creatinine (rare), headache (2%).",
+    "Encephalopathy associated with decreased carnitine levels reported (Pediatrics 120:e739, 2007; Neurol Sci 33:1393, 2012). Contraindicated in those with carnitine deficiency or those with inborn errors of metabolism that might result in clinically significant carnitine deficiency.",
+    "Cefditoren has the same R1 side chain as cefotaxime, cefpodoxime, cefpirome, ceftizoxime, ceftriaxone, and cefepime. Cross-allergenicity may occur.",
+    "For class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Tab (200, 400 mg)",
+    "food_recommendation": "Tab + food",
+    "oral_absorption_percent": "16",
+    "tmax_hr": "1.5-3.0",
+    "peak_serum_conc_ug_ml": "4 (400 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "88",
+    "volume_of_distribution_vd_l_vss_f": "9.3 L (Vss/F)",
+    "avg_serum_half_life_hr": "1.6",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "20 (400 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ]
+}

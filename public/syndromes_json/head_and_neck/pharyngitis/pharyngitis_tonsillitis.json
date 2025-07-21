@@ -1,0 +1,527 @@
+{
+  "documentMetadata": {
+    "title": "Pharyngitis, Tonsillitis",
+    "sourceFile": "Pharyngitis, Tonsillitis.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Traditional focus has been detection and treatment of Streptococcus pyogenes.",
+        "S. pyogenes is the etiology of acute pharyngitis in 15-35% of children and 5-15% of adults.",
+        "Because it is the most common etiology, the goal is to quickly ascertain if S. pyogenes is present so as to initiate specific therapy; If rapid detection methods are not available but the clinical syndrome is consistent, initiation of empiric therapy is reasonable to:",
+        "Decrease symptoms, prevent suppurative complications, decrease contagion and eradicate Streptococcus sp. (Group A) (GAS), if present, and thereby prevent acute rheumatic fever (ARF).",
+        "ARF is still a problem in many parts of the world, especially in children.",
+        "In seminal studies, Benzathine Penicillin G treatment of GAS reduced the rate of ARF from 2.8 to 0.2%. This was associated with clearance of GAS on pharyngeal cultures (Clin Infect Dis 19:1110, 1994). For review of ARF, see Lancet 366:155, 2005.",
+        "See Pharyngitis, Overview."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The list of potential microbial pathogens is lengthy.: J of Infectious Diseases. 2024;230(Suppl3): S173",
+        "The focus is detection of the Group A Streptococcus.",
+        "If the patient has associated rhinitis, hoarseness, or cough, the likely etiology is viral; testing for GAS is not necessary.",
+        "Detection with POINT OF CARE Rapid streptococcal antigen tests:",
+        "Specificity of \u226595%; Sensitivity between 70-90%.",
+        "Adult, negative rapid test and rare that throat culture is necessary due to the low incidence of GAS in adults and the extremely low incidence of ARF in adults.",
+        "Child(age 3-21), if negative rapid test: reasonable to do a backup throat culture due to the higher incidence of both GAS and ARF in children.",
+        "Detection with Nucleic acid amplification tests (NAATs). Multiple CLIA-waived POC PCR assays now FDA approved and available: J. infectious Diseases.2024; 230 (Suppl3) :S182",
+        "Positive and negative predictive values of 97.7% and 100.0%",
+        "Turn around time of 15 minutes.",
+        "More expensive than antigen detection but no need for back up culture as in negative rapid strep antigen test.",
+        "Anticipate increased utilization of NAATs and further controlled studies; in a direct comparison, NAAT testing was more sensitive than antigen detection with greater potential impact on utilization of antibiotic therapy (J Clin Micro 2018;56:e01310-17).",
+        "Beware: NAATs also detect the DNA of non-viable GPA S. pyogenes which can be detected for 2-6 weeks post-infection",
+        "For more details of NAAT testing see: J. Infectious Diseases. 2024;230(Suppl3): S182",
+        "Potential complications of untreated GAS:",
+        "Acute rheumatic fever, post-streptococcal reactive arthritis, peritonsillar abscess, retropharyngeal abscess, and suppurative phlebitis.",
+        "Persistent fever and pulmonary emboli suggest Lemierre's Syndrome (suppurative thrombophlebitis of the internal jugular vein) due to Fusobacterium necrophorum (Ann Intern Med 162:241, 2015; Ann Intern Med 162:311, 2015).",
+        "Groups C and G streptococci can cause pharyngitis and very rarely ARE",
+        "Post-streptococcal glomerulonephritis can occur in children under age 7 years. In children with a suppurative pharyngitis and a negative rapid Strep antigen test, it is reasonable to either do a quick NAAT or culture the throat so as to ensure the absence of GAS and aid in identifying alternative etiologic agent(s).",
+        "References:",
+        "Front Cell Infect Microbiol 2020;10: 563627."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus sp. (Group A, C, G)",
+        "Viral:",
+        "Infectious mononucleosis",
+        "Primary HIV",
+        "C. diphtheriae",
+        "A. haemolyticum (rare)",
+        "Mycoplasma pneumoniae (usually associated cough)",
+        "Fusobacterium necrophorum:(see comment above)",
+        "Neisseria gonorrhoeae is discussed separately (see Gonococcal Pharyngitis)",
+        "Pharyngitis can be prime manifestation of a STD: e.g.,",
+        "N. gonorrhoeae",
+        "Herpes simplex",
+        "HIV",
+        "C. trachomatis",
+        "Rarely, secondary syphilis",
+        "Respiratory viruses to include influenza and SARS-CoV-2"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric or specific therapy for Strep. pyogenes"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Penicillin V",
+                "dose": "250 mg",
+                "route": "po",
+                "frequency": "bid or tid",
+                "notes": "(wt < 27 kg) or 500 mg po bid (wt > 27 kg)",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "50 mg/kg",
+                "route": "po",
+                "frequency": "once daily",
+                "notes": "to a maximum of 1000-1200 mg",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "45 mg/kg/day",
+                "notes": "in two divided doses"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If compliance is unlikely",
+            "components": [
+              {
+                "drug": "Benzathine Penicillin",
+                "dose": "25,000 units/kg",
+                "route": "IM",
+                "notes": "(to maximum of 1.2 million units)",
+                "durationDetail": {
+                  "fixedDuration": "1 dose"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Penicillin V",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "q12h or 250 mg po q6h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "q8-12h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              },
+              {
+                "drug": "ER tablet 775 mg po q24h x 10 days",
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "po",
+                "frequency": "q12h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If compliance is unlikely",
+            "components": [
+              {
+                "drug": "Benzathine Penicillin",
+                "dose": "1.2 million units",
+                "route": "IM",
+                "durationDetail": {
+                  "fixedDuration": "1 dose"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If immediate IgE-mediated hypersensitivity to penicillin with need to avoid beta-lactams",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "300 mg",
+                "route": "po",
+                "frequency": "q8h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If immediate IgE-mediated hypersensitivity to penicillin with need to avoid beta-lactams",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "once daily",
+                "durationDetail": {
+                  "fixedDuration": "5 days"
+                }
+              },
+              {
+                "drug": "Clarithromycin",
+                "dose": "250 mg",
+                "route": "po",
+                "frequency": "bid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                },
+                "connector": "or"
+              }
+            ],
+            "notes": "watch for resistant strains of GAS the frequency of which varies geographically"
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beware of increasing resistance of Group A S. pyogenes:",
+            "As of 2020, 30% of strains resistant to Erythromycin and 30% resistant to clindamycin",
+            "See CDC acute bacterial core surveillance data."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                },
+                "notes": "(preferred alternative) OR (less desirable)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "30 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q8h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Macrolide (Azithromycin or Clarithromycin)",
+                "notes": "but substantive resistance to both clindamycin and macrolides has increased:"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Azithromycin 12 mg/kg po once daily x 5 days",
+            "Clarithromycin 15 mg/kg/day po divided bid x 10 days",
+            "Resistance as of 2020:",
+            "Erythromycin 30% resistance",
+            "Clindamycin 30 % resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "For patients without immediate IgE-mediated penicillin allergy:",
+            "components": [
+              {
+                "drug": "Oral Cephalosporin",
+                "route": "po",
+                "durationDetail": {
+                  "fixedDuration": "4-6 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "If immediate allergic reaction to penicillin:",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "300 mg",
+                "route": "po",
+                "frequency": "tid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "once daily",
+                "durationDetail": {
+                  "fixedDuration": "5 days"
+                },
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "As of 2020, roughly 30% of strains are resistant to both clindamycin and macrolides"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Stewardship Considerations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For most drugs, FDA approval is for 10 day course of treatment. Data supports shorter courses if cephalosporin is prescribed (Clin Microbiol Infect. 2023; 29:150)",
+        "Penicillin is the narrowest spectrum drug for pharyngitis",
+        "First generation cephalosporins, such as Cephalexin, are also narrow spectrum and usually are the least expensive option.",
+        "Extended spectrum oral cephalosporins such as Cefditoren, Cefuroxime axetil, Cefpodoxime proxetil, Cefdinir, Cefixime, and Cefprozil are active and some have label indications but offer no benefits over first generation cephalosporins and generally are not best choices for pharyngitis/tonsillitis.",
+        "Resistance to clindamycin, azithromycin, clarithromycin reported: Emerg Infect Dis 18:1658, 2012.",
+        "Due to high incidence of resistance, tetracyclines, TMP/SMX, and fluoroquinolones are not recommended."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "What about persistent or relapsing infection?",
+        "No need for routine end of therapy culture or antigen test",
+        "If true clinical and culture positive failure of therapy, what are potential reasons?",
+        "Persistence due to underlying viral pharyngitis and detected streptococci are colonizing",
+        "Patient non-adherence to treatment regimen",
+        "New streptococcal infection",
+        "Theory that, if treated with a penicillin, beta-lactamase producing oral flora hydrolyzed the penicillin (J Antimicrob Chemother 1989; 24:227). Suggests advantage for amoxicillin-clavulanate",
+        "Fusobacterium necrophorum is susceptible in vitro to penicillins, cephalosporins and Clindamycin but resistant to Erythromycin, Azithromycin, Clarithromycin.",
+        "Note: there are questions as to the clinical efficacy of tetracyclines and TMP-SMX vs. S. pyogenes. TMP-SMX reference: J Clin Microbiol 50:4067, 2012.",
+        "NOTE: even if susceptible in vitro, TMP-SMX is NOT recommended for the treatment of streptococcal pharyngitis due to an unacceptable rate of clinical failures (J Infect Dis 128(Suppl):S693, 1973 and Rev Infect Dis 4:196, 1982).",
+        "Summary: Complications of streptococcal pharyngitis",
+        "Acute rheumatic fever, post-streptococcal glomerulonephritis (children age <7 years),",
+        "Pediatric autoimmune neuropsychiatric disorder associated with Group A strep (PANDAS) infection,",
+        "Peritonsillar abscess",
+        "Suppurative internal jugular thrombophlebitis (Lemierre's syndrome)",
+        "High incidence of skin rash if etiology of pharyngitis is infectious mononucleosis rather than S. pyogenes",
+        "Clindamycin comment: unpleasant taste of oral suspension.",
+        "Risk of C. difficile colitis.",
+        "Tonsillectomy for recurrent tonsillitis?",
+        "See Tonsillectomy Clinical Guideline: Otolaryngology Head and Neck Surgery 2019; 160:187",
+        "Recommend watchful waiting and no surgery if:",
+        "<7 episodes in last year",
+        "<5 episodes/year in past 2 years",
+        "< 3 episodes /year in past 3 years",
+        "An episode requires: T over 38.5, tonsillar exudate, adenopathy, and documentation of presence of GpA beta-hemolytic streptococci",
+        "Modify and consider surgery if:",
+        "Multiple allergies or intolerance to antibiotics",
+        "Recurrent episodes of PFAPA syndrome:",
+        "Periodic fever",
+        "Aphthous stomatitis",
+        "Pharyngitis,",
+        "Adenitis"
+      ]
+    }
+  ]
+}

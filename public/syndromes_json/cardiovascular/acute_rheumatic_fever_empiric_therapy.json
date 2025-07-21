@@ -1,0 +1,328 @@
+
+{
+  "documentMetadata": {
+    "title": "Acute Rheumatic Fever, Empiric Therapy",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Acute Rheumatic Fever, Empiric Therapy.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Non-suppurative immunologic sequelae 2-4 weeks after group A streptococcal pharyngitis.",
+        "Five major manifestations:",
+        "Carditis",
+        "Migratory large joint polyarthritis",
+        "Chorea",
+        "Subcutaneous nodules",
+        "Erythema marginatum",
+        "Evidence of prior group A streptococcal infection",
+        "Rising ASO or DNAase titer or positive culture or rapid streptococcal antigen test"
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Rheumatic Fever, Prophylaxis for recommendations for prevention of recurrence",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Rheumatic Fever, Prophylaxis"
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Post-streptococcal reactive arthritis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Post-streptococcal reactive arthritis"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Strep. pyogenes (Group A streptococcus)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Relief of symptoms (fever, arthritis, arthralgia):"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "symptomRelief",
+            "components": [
+              {
+                "drug": "Aspirin",
+                "dose": "80-100 mg/kg/day",
+                "route": "po"
+              }
+            ],
+            "appliesTo": {
+              "description": "Pediatric"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "symptomRelief",
+            "components": [
+              {
+                "drug": "Aspirin",
+                "dose": "4-8 gm/day",
+                "route": "po"
+              }
+            ],
+            "appliesTo": {
+              "description": "Adult"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "May add Prednisone 2 mg/kg po q24h (see Comments)"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eradication of group A streptococcus"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Penicillin VK",
+                "dose": "250 mg",
+                "route": "po",
+                "frequency": "tid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Penicillin VK",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "tid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eradication of group A streptococcus"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Benzathine penicillin G",
+                "dose": "1,200,000 units",
+                "route": "IM",
+                "frequency": "x 1 dose"
+              }
+            ],
+            "condition": "Wt > 27 kg"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Benzathine penicillin G",
+                "dose": "600,000 units",
+                "route": "IM",
+                "frequency": "x 1"
+              }
+            ],
+            "condition": "Wt < 27 kg"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "25-50 mg/kg/day",
+                "route": "po",
+                "frequency": "in 2-4 divided doses"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg (max dose 500 mg)",
+                "route": "po",
+                "frequency": "day 1"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "5 mg/kg (max dose 250 mg)",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "days 2-5"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Benzathine penicillin G",
+                "dose": "1.2 million units",
+                "route": "IM",
+                "frequency": "x 1 dose"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "eradication",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "day 1"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "250 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "days 2-5"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cochrane review found no evidence of benefit of corticosteroids or IVIG compared to aspirin (Cochrane Database Syst Rev May 28;5:CD003176, 2015)",
+        "Reference: Pediatr Rev. 2021 May;42(5):221-232."
+      ]
+    }
+  ]
+}

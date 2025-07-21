@@ -1,0 +1,71 @@
+
+{
+  "name": "Sinusitis, Rhinosinusitis, Chronic",
+  "general_information": "Chronic rhinosinusitis is an inflammatory disease of the paranasal sinuses and nasal passages lasting 12 weeks or longer despite medical management. The pathogenesis is complex and not fully understood, with factors including allergens, host immunodeficiency, and obstruction. Infection is an uncommon primary cause but can be a factor in acute exacerbations.",
+  "presenting_symptoms": "Anterior or posterior mucopurulent sinus drainage, a sense of blockage (due to polyps or mucosal edema), facial pain, and a decreased sense of smell. Diagnosis requires direct evidence of mucosal swelling via sinus endoscopy or CT scan.",
+  "diagnostic_tests": "Diagnosis is confirmed by observing mucosal swelling on sinus endoscopy or CT scan. For acute bacterial exacerbations (ABECRS), direct sinus cultures are recommended to guide therapy. Nasal swab PCR for S. aureus detection may also be useful.",
+  "common_pathogens": [
+    "Streptococcus pneumoniae",
+    "Moraxella catarrhalis",
+    "Haemophilus influenzae",
+    "Staphylococcus aureus",
+    "Prevotella sp.",
+    "Porphyromonas sp.",
+    "Peptostreptococcus sp. (Peptoniphilus sp.)",
+    "Fusobacterium sp."
+  ],
+  "treatment_guidelines": {
+    "supportive_care": "Management often involves non-antibiotic treatments such as addressing polyps, sinus irrigation, glucocorticoids, and leukotrienes. This document focuses on antibiotic use for acute exacerbations.",
+    "antibiotic_therapy": {
+      "indications": "Antibiotics are reserved for acute bacterial exacerbations of chronic rhinosinusitis (ABECRS).",
+      "empiric_therapy": [
+        {
+          "drug": "Amoxicillin-clavulanate",
+          "dosage": "875 mg po bid",
+          "duration": "7-10 days, adjusted for clinical response"
+        }
+      ],
+      "alternative_therapy": [
+        {
+          "drug": "Doxycycline",
+          "dosage": "100 mg po bid",
+          "duration": "7-10 days",
+          "notes": "Can be added to Amoxicillin-clavulanate if MRSA is detected by PCR. Use with caution due to photosensitivity."
+        },
+        {
+          "drug": "Moxifloxacin",
+          "dosage": "400 mg po once daily",
+          "duration": "7-10 days"
+        },
+        {
+          "drug": "Levofloxacin",
+          "dosage": "750 mg po once daily",
+          "duration": "7-10 days",
+          "notes": "Used with Metronidazole if there is concern for P. aeruginosa in immunocompromised patients."
+        },
+        {
+          "drug": "Metronidazole",
+          "dosage": "500 mg po tid",
+          "duration": "7-10 days",
+          "notes": "Added to other regimens (e.g., Levofloxacin, oral cephalosporins) for anaerobic coverage."
+        },
+        {
+          "drug": "TMP/SMX",
+          "dosage": "160/800 mg po bid",
+          "duration": "7-10 days",
+          "notes": "Used with Metronidazole for MRSA-specific therapy."
+        },
+        {
+          "drug": "Oral cephalosporin (Cefdinir, Cefuroxime axetil, or Cefpodoxime proxetil)",
+          "dosage": "Varies",
+          "duration": "7-10 days",
+          "notes": "Used with Metronidazole if no MRSA is detected."
+        }
+      ]
+    }
+  },
+  "references": [
+    "European Position Paper on Rhinosinusitis and Nasal Polyps 2020: Rhinology 2020; 58 (Suppl S29): 1-464",
+    "Cochrane Database Systemic Review. 2016;4: CD011994"
+  ]
+}

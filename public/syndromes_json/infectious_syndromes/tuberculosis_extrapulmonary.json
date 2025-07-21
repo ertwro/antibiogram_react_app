@@ -1,0 +1,157 @@
+
+{
+  "documentMetadata": {
+    "title": "Tuberculosis, Extrapulmonary",
+    "sourceFile": "syndromes/infectious_syndromes/Tuberculosis, Extrapulmonary.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Tuberculosis, Extrapulmonary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Extrapulmonary tuberculosis (EPTB) refers to any case of TB involving organs other than the lungs. It can affect virtually any organ system, and its clinical presentation is highly variable depending on the site of involvement."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Common Sites of Extrapulmonary TB"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lymph nodes (most common)",
+        "Pleura",
+        "Genitourinary tract",
+        "Bones and joints",
+        "Meninges",
+        "Peritoneum",
+        "Pericardium",
+        "Gastrointestinal tract"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "General Treatment Principles"
+    },
+    {
+      "type": "paragraph",
+      "text": "The treatment of most forms of EPTB is similar to that of pulmonary TB, consisting of a 2-month initial phase with four drugs (RIPE) followed by a continuation phase with two drugs. The duration of the continuation phase varies by the site of infection."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Standard Initial Phase (All Forms of EPTB)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" },
+              { "drug": "Pyrazinamide", "route": "PO", "frequency": "Daily", "connector": "+" },
+              { "drug": "Ethambutol", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2 months"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Continuation Phase Duration by Site"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Lymph node, pleural, genitourinary (uncomplicated), peritoneal, or gastrointestinal TB",
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4 months"
+            },
+            "notes": "Total treatment duration of 6 months."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Bone and joint TB",
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 months"
+            },
+            "notes": "Total treatment duration of 9-12 months."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "TB Meningitis",
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 months"
+            },
+            "notes": "Total treatment duration of 9-12 months. Adjunctive corticosteroids are strongly recommended."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Biopsy or Fluid Aspiration from Affected Site",
+        "strengthOfRecommendation": "Recommended",
+        "notes": "The cornerstone of diagnosis. Samples should be sent for histopathology, AFB smear, and mycobacterial culture."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Nucleic Acid Amplification Test (NAAT)",
+        "sampleType": "Tissue or fluid sample",
+        "notes": "Can provide rapid confirmation of M. tuberculosis."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Imaging (CT, MRI, Ultrasound)",
+        "notes": "Essential for delineating the extent of disease and guiding diagnostic procedures."
+      }
+    }
+  ]
+}

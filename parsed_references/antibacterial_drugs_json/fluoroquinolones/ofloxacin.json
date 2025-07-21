@@ -1,0 +1,90 @@
+{
+  "drug_name": "Ofloxacin",
+  "tradename": "Floxin, Oculfox",
+  "drug_shortage": [
+    {
+      "preparation": "0.3% ophthalmic solution",
+      "start_date": null,
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Ofloxacin, FDA approved in 1990, is a fluoroquinolone with broad activity against respiratory and enteric pathogens.",
+      "Ofloxacin is a racemic mixture of R-ofloxacin and L-ofloxacin (levofloxacin).",
+      "For most clinical indications, levofloxacin is used rather than ofloxacin.",
+      "CDC no longer recommends fluoroquinolones (including ofloxacin) for gonococcal infections due to high levels of resistance (MMWR 2007;56:332).",
+      "See Fluoroquinolones, Overview for additional class-wide information."
+    ],
+    "adult_dose": {
+      "usual_dose": "200-400 mg po q12h",
+      "dairy": "Avoid dairy products ±2 hours of oral administration.",
+      "metal_cations": "Concomitant metal cations: see Major Drug Interactions below."
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "7",
+    "half_life_esrd": "28-37",
+    "dose_renal_function_normal": "200-400 mg po q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 200-400 mg q24h. CrCl <10: 200 mg q24h",
+    "hemodialysis": "200 mg q24h (give dialysis day dose AD)",
+    "capd": "200 mg q24h",
+    "crrt": "200-400 mg q24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Detailed discussion of adverse effects: see Fluoroquinolones, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "Avoid breastfeeding for 4-6 hrs after a dose, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Chlamydia trachomatis",
+        "Legionella sp."
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (200, 300, 400 mg), 0.3% oph soln, 0.3% otic soln",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "98",
+    "tmax_hr": "1-2",
+    "peak_serum_conc_ug_ml": "4.6-6.2 (400 mg po q12h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "32",
+    "volume_of_distribution_vd_l_kg": "1-2.5 L/kg",
+    "avg_serum_half_life_hr": "7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "82.4 (400 mg po q12h, 0-24h)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Ca, Mg)", "effect": "↓ ofloxacin", "management": "Give 2 hou"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-adr"},
+      {"drug": "Calcium supplements", "effect": "↓ ofloxacin", "management": "Give 2 hou"},
+      {"drug": "Didanosine", "effect": "↓ ofloxacin", "management": "Give 2 hou"},
+      {"drug": "Insulin", "effect": "↑↓ blood glucose", "management": "Mon"},
+      {"drug": "Iron supplements", "effect": "↓ ofloxacin", "management": "Give 2 hou"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor ("},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Mon"},
+      {"drug": "Sucralfate", "effect": "↓ ofloxacin", "management": "Give 2 hou"},
+      {"drug": "Theophylline", "effect": "↑ theophylline", "management": "Monitor ("},
+      {"drug": "Warfarin", "effect": "↑ INR", "management": "Monitor INR, a"},
+      {"drug": "Zinc", "effect": "↓ ofloxacin", "management": "Give 2 hou"}
+  ]
+}

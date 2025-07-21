@@ -1,0 +1,652 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus aureus",
+      "aliases": [
+        "MRSA"
+      ],
+      "lastUpdated": "2025-01-31",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-positive"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Resistance Phenotype",
+          "value": "MRSA (Methicillin-Resistant Staphylococcus aureus)",
+          "notes": "Resistant to all beta-lactams except Ceftaroline and Ceftobiprole."
+        },
+        {
+          "type": "Resistance Phenotype",
+          "value": "VISA (Vancomycin-Intermediate Staphylococcus aureus)",
+          "notes": "Vancomycin MIC 4-8 µg/mL"
+        },
+        {
+          "type": "Resistance Phenotype",
+          "value": "VRSA (Vancomycin-Resistant Staphylococcus aureus)",
+          "notes": "Vancomycin MIC > 8 µg/mL"
+        }
+      ],
+      "biochemicalTests": "Gram-positive cocci in clusters, catalase +, coagulase +, ferments mannitol (yellow on mannitol salt agar), typically beta-hemolytic, DNase +. MRSA/MSSA distinction is by antibiotic susceptibility testing, not routine biochemicals."
+    },
+    "clinicalProfile": {
+      "summary": "MRSA is a clinical isolate of Staphylococcus aureus that is resistant to nafcillin and other semi-synthetic anti-staphylococcal penicillins. It causes a wide range of infections.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Furuncles, skin abscess, boils",
+          "description": ""
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Prosthetic joint infection",
+          "description": ""
+        },
+        {
+          "syndromeName": "Septic arthritis",
+          "description": ""
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "mecA or mecC gene",
+          "mechanismType": "Target Modification",
+          "description": "Encodes for a low-affinity penicillin-binding protein (PBP2a or PBP2c), conferring resistance to methicillin and other beta-lactams."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Vancomycin MIC > 2 µg/mL",
+          "details": "An alternative to Vancomycin should always be used for infections caused by MRSA strains with Vancomycin MICs > 2 µg/mL."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Infectious Disease consultation advised when treating MRSA infections not responding to primary regimens or caused by strains intermediate or resistant to vancomycin."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Varies"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "Target AUC24 400-600 µg/mL x hr or trough of 15-20 µg/mL."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Linezolid",
+                      "dose": "600 mg",
+                      "route": "PO/IV",
+                      "frequency": "q12h",
+                      "comments": "For pneumonia or ABSSSI. May be an option for oral step-down for selected patients with uncomplicated bacteremia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "4-10 mg/kg",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": "Use higher dose (10 mg/kg) for bacteremia. Should not be used for primary MRSA pneumonia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftobiprole",
+                      "dose": "500 mg",
+                      "route": "IV",
+                      "frequency": "q6-8h",
+                      "comments": "Dosing varies by indication (q8h for CAP/ABSSI, q6h then q8h for bacteremia)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy or Combination",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftaroline",
+                      "dose": "600 mg",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Effective salvage therapy for bacteremia, either as a single agent or in combination with vancomycin or daptomycin."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Clindamycin",
+                      "dose": "",
+                      "route": "",
+                      "frequency": "",
+                      "comments": "Must test for inducible resistance (D-test) before use."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "",
+                      "route": "",
+                      "frequency": "",
+                      "comments": "Not a first-choice agent for bacteremia and more serious infections."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Tests designed to detect PBP2a (e.g., MRSA latex agglutination assay) will not reliably detect PBP2c. Tests designed to detect mecA (e.g., PCR) will not detect mecC. Some newer nucleic acid amplification tests can detect both."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Inducible Clindamycin Resistance (D-zone test)",
+          "trigger": "Erythromycin-resistant, Clindamycin-susceptible isolate",
+          "purpose": "To detect inducible MLSB resistance, which can lead to clindamycin treatment failure."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Dalbavancin",
+          "pearl": "FDA approved only for treatment of acute bacterial skin and skin structure infections (ABSSSI). Active against VISA, but not VRSA."
+        },
+        {
+          "drugName": "Oritavancin",
+          "pearl": "FDA approved only for treatment of ABSSSI. Active against both VISA and VRSA."
+        },
+        {
+          "drugName": "Tedizolid",
+          "pearl": "FDA approved only for treatment of ABSSSI."
+        },
+        {
+          "drugName": "Telavancin",
+          "pearl": "Active against VISA, but not VRSA."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "IDSA",
+          "citation": "Clin Infect Dis 52(3):e18, 2011",
+          "summaryOrNote": "IDSA Guidelines for the treatment of MRSA in adults and children."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.345Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus aureus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "MRSA"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-31"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-positive"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "MRSA is a clinical isolate of Staphylococcus aureus that is resistant to nafcillin and other semi-synthetic anti-staphylococcal penicillins. It causes a wide range of infections.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Furuncles, skin abscess, boils",
+          "description": ""
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Prosthetic joint infection",
+          "description": ""
+        },
+        {
+          "syndromeName": "Septic arthritis",
+          "description": ""
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "mecA or mecC gene",
+          "mechanismType": "Target Modification",
+          "description": "Encodes for a low-affinity penicillin-binding protein (PBP2a or PBP2c), conferring resistance to methicillin and other beta-lactams."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Vancomycin MIC > 2 µg/mL",
+          "details": "An alternative to Vancomycin should always be used for infections caused by MRSA strains with Vancomycin MICs > 2 µg/mL."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "",
+              "comments": "Target AUC24 400-600 µg/mL x hr or trough of 15-20 µg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Linezolid",
+              "dose": "600 mg",
+              "route": "PO/IV",
+              "frequency": "q12h",
+              "duration": "",
+              "comments": "For pneumonia or ABSSSI. May be an option for oral step-down for selected patients with uncomplicated bacteremia.",
+              "originalText": "Linezolid 600 mg PO/IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "4-10 mg/kg",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "",
+              "comments": "Use higher dose (10 mg/kg) for bacteremia. Should not be used for primary MRSA pneumonia.",
+              "originalText": "Daptomycin 4-10 mg/kg IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftobiprole",
+              "dose": "500 mg",
+              "route": "IV",
+              "frequency": "q6-8h",
+              "duration": "Varies",
+              "comments": "Dosing varies by indication (q8h for CAP/ABSSI, q6h then q8h for bacteremia).",
+              "originalText": "Ceftobiprole 500 mg IV q6-8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ceftaroline",
+              "dose": "600 mg",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "Effective salvage therapy for bacteremia, either as a single agent or in combination with vancomycin or daptomycin.",
+              "originalText": "Ceftaroline 600 mg IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Clindamycin",
+              "dose": "",
+              "route": "",
+              "frequency": "",
+              "duration": "",
+              "comments": "Must test for inducible resistance (D-test) before use.",
+              "originalText": "Clindamycin   "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-6-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[6].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "MRSA Infection (Vancomycin MIC < 4 µg/mL)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "",
+              "route": "",
+              "frequency": "",
+              "duration": "",
+              "comments": "Not a first-choice agent for bacteremia and more serious infections.",
+              "originalText": "TMP-SMX   "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Tests designed to detect PBP2a (e.g., MRSA latex agglutination assay) will not reliably detect PBP2c. Tests designed to detect mecA (e.g., PCR) will not detect mecC. Some newer nucleic acid amplification tests can detect both."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Inducible Clindamycin Resistance (D-zone test)",
+          "trigger": "Erythromycin-resistant, Clindamycin-susceptible isolate",
+          "purpose": "To detect inducible MLSB resistance, which can lead to clindamycin treatment failure."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

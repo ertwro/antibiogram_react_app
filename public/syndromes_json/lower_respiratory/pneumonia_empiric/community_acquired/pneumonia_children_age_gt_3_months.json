@@ -1,0 +1,321 @@
+{
+  "documentMetadata": {
+    "title": "Community-acquired pneumonia in infants and children, age > 3 months",
+    "sourceFile": "Pneumonia, Children, Age gt 3 months.pdf",
+    "lastUpdated": "2024-12-19"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Community-acquired pneumonia in infants and children, age > 3 months.",
+        "Empiric therapy for presumed bacterial pneumonia. Viral etiology is more common that bacterial overall even among hospitalized children N Engl J Med 372:845 2014.",
+        "Consider influenza virus, RSV (respiratory syncytial virus), human metapneumovirus, parainfluenza virus, adenovirus, SARS-CoV-2.",
+        "Influenza testing recommended for all hospitalized children in winter season.",
+        "Multiplex viral testing may be useful if it will change infection control or treatment, including avoidance of antibiotics.",
+        "Obtain blood culture if hospitalized; Blood cultures have very low yield in non-hospitalized children.",
+        "Often of mild to moderate severity."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "RSV",
+        "Human metapneumovirus",
+        "Influenza",
+        "Common \"other\" viruses: rhinovirus, parainfluenza, adenovirus",
+        "SARS-CoV-2",
+        "Strep. pneumoniae",
+        "H. influenzae",
+        "Mycoplasma",
+        "Group A Streptococcus",
+        "Staph. aureus (uncommon)",
+        "M. tuberculosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Outpatient"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Preferred",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "90 mg/kg/day",
+                "frequency": "in 2 divided doses x 5 days",
+                "notes": "(see Lancet 371:49, 2008)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Antimicrobial therapy is not routinely required for preschool-aged children with community-acquired pneumonia (CAP) because viral pathogens cause most clinical disease."
+        },
+        {
+          "type": "paragraph",
+          "text": "If influenza is diagnosed, treatment with oseltamivir or baloxavir is recommended for all children < 5 and those with hight risk conditions"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Inpatient"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If atypical infection suspected",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg",
+                "route": "IV",
+                "frequency": "day 1, then 5 mg/kg",
+                "notes": "(maximum 500 mg/day), (maximum 250 mg)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If community-associated MRSA a concern",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "60-80 mg/kg",
+                "route": "IV",
+                "frequency": "divided 3-4 times a day",
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)",
+                "connector": "or"
+              },
+              {
+                "drug": "Clindamycin",
+                "dose": "40 mg/kg/day",
+                "frequency": "divided q6-8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Negative nasal PCR test for MRSA makes MRSA pneumonia highly unlikely"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If influenza is diagnosed or strongly suspected",
+            "components": [
+              {
+                "drug": "Oseltamivir"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wt > 15 kg to 23 kg: 45 mg in 2 doses x 5 days",
+            "Wt 23 kg to 40 kg: 60 mg in 2 doses x 5 days",
+            "Wt > 40 kg: 75 mg in 2 doses x 5 days"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Infants 2 wks-11 months"
+            },
+            "components": [
+              {
+                "drug": "Oseltamivir",
+                "dose": "3 mg/kg",
+                "frequency": "in 2 doses x 5 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Fully immunized and bacterial infection suspected",
+            "components": [
+              {
+                "drug": "Ampicillin",
+                "dose": "150-200 mg/kg/day",
+                "route": "IV",
+                "frequency": "divided q6h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Not fully immunized and bacterial infection suspected OR life-threatening illness",
+            "components": [
+              {
+                "drug": "Cefotaxime",
+                "dose": "150 mg/kg/day",
+                "route": "IV",
+                "frequency": "divided q8h",
+                "notes": "(where available outside the US)",
+                "connector": "or"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "75-100 mg/kg/day",
+                "route": "IV",
+                "frequency": "once daily"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Outpatient"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg",
+                "route": "po",
+                "frequency": "x 1 dose (maximum 500 mg), then 5 mg/kg (maximum 250 mg) po x 4 days",
+                "notes": "(for true amoxicillin allergy or suspected or proven atypical pathogen)"
+              },
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "90 mg/kg/day",
+                "notes": "(amoxicillin component)"
+              },
+              {
+                "drug": "Clarithromycin",
+                "dose": "15 mg/kg/day",
+                "frequency": "in 2 divided doses x 7-14 days"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Inpatient, fully immunized"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Cefotaxime",
+                "dose": "150 mg/kg/day",
+                "route": "IV",
+                "frequency": "divided q8h",
+                "notes": "(where available)"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "75-100 mg/kg/day",
+                "route": "IV",
+                "frequency": "once daily"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "May transition to oral regimen as early as 2-3 days depending on clinical response",
+        "Shorter duration (5-7 days) shown to be equally effective in adults and pediatric outpatients. JAMA Pediatr. 2022 Mar 1;176(3):253",
+        "Pediatric data on shorter course for hospitalized children limited. 2011 guidelines still recommend 10-14 days but 5-7 are likely adequate in absence of complicated pneumonia",
+        "MRSA therapy can be stopped if nasal PCR for MRSA is negative",
+        "Viral causes predominate in children age <5 years. Antibiotics may not be necessary especially if virus detected",
+        "Low procalcitonin (<0.25 ng/mL) has high negative predictive value for excluding bacterial disease. J Pediatric Infect Dis Soc. 2017 Feb 3. Antibiotics can usually be stopped.",
+        "Longer durations of therapy may be required for methicillin-resistant Staph. aureus (MRSA)",
+        "For appropriately drained empyema, treat for 7-10 days after resolution of fever or up to 4-6 weeks"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA treatment guidelines for treatment of community-acquired pneumonia in infants and children older than 3 months of age: Clin Infect Dis 53:617, 2011; Clin Infect Dis 53:e25, 2011.",
+        "Etiology among hospitalized children N Engl J Med 372:845 2014",
+        "Vancomycin: traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020"
+      ]
+    }
+  ]
+}

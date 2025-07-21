@@ -1,0 +1,82 @@
+{
+  "drug_name": "Ceftizoxime",
+  "tradename": "Cefizox",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftizoxime is a 3rd generation parenteral cephalosporin with in vitro activity against aerobic gram-positive cocci (but not MRSA or enterococci) and aerobic gram-negative bacilli (but not P. aeruginosa) and selected anaerobic bacteria (but not B. fragilis).",
+      "Inactivated by bacteria that produce extended spectrum beta-lactamases (ESBLs).",
+      "Major adverse effects are allergy and development of C. difficile toxin-mediated colitis. For class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "1-2 gm IV q8-12h",
+      "life_threatening_infection": "Max 2 gm IV q4h (or 4 gm IV q8h)"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "150-200 mg/kg/day (divided q6-8h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.7",
+    "half_life_esrd": "15-35",
+    "dose_renal_function_normal": "2 gm IV q8h",
+    "crcl_or_egfr": "CrCl >90: No dosage adjustment. CrCl >50-90: 2 gm q8-12h. CrCl 10-50: 2 gm q12-24h. CrCl <10: 2 gm q24h",
+    "hemodialysis": "2 gm q24h (+ extra 1 gm AD)",
+    "capd": "0.5-1 gm q24h",
+    "crrt": "2 gm q12-24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "No data"
+  },
+  "adverse_effects": [
+    "Local phlebitis (4%), fever, rash (2%), neutropenia, eosinophilia (4%), thrombocytopenia, increased PT/PTT, C. difficile colitis, increased LFTs (4%).",
+    "Ceftizoxime has the same R1 side chain as cefotaxime, cefpodoxime, cefpirome, cefditoren, ceftriaxone, and cefepime. Cross-allergenicity may occur."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "60 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "30",
+    "volume_of_distribution_vd_l_kg": "0.34 L/kg",
+    "avg_serum_half_life_hr": "1.7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "34-82",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "85 (1 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ],
+  "comments": [
+    "Where available. No longer marketed in the US"
+  ]
+}

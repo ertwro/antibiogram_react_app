@@ -1,0 +1,37 @@
+{
+  "name": "Bite, Bat, Raccoon, Skunk",
+  "summary": "This document provides guidelines for managing bite wounds from bats, raccoons, and skunks, with a primary focus on the risk of rabies and bacterial infection.",
+  "description": "The document outlines the clinical setting for bites from animals that are potential rabies vectors. It specifies the common bacterial etiologies and provides primary and alternative antibiotic regimens. A significant emphasis is placed on the presumption of rabies and the necessity of post-exposure prophylaxis (PEP), as well as tetanus vaccination.",
+  "syndromes": [
+    {
+      "name": "Bite Wound from Potential Rabies Vector",
+      "description": "A bite wound from an animal such as a bat, raccoon, or skunk, which carries a high risk of transmitting rabies in addition to bacterial pathogens."
+    }
+  ],
+  "special_considerations": [
+    "Animals such as bats, raccoons, and skunks are considered potentially rabid unless testing of the euthanized animal proves negative.",
+    "Raccoons, skunks, foxes, and most other carnivores, as well as bats, should be presumed rabid unless definitively proven negative by lab testing.",
+    "Administer tetanus toxoid or Tdap (preferred) if > 10 years have passed since the last dose.",
+    "See \"Rabies, Vaccines and PEP\" for detailed evaluation procedures and recommendations."
+  ],
+  "pathogens": [
+    {
+      "name": "Streptococcus sp.",
+      "summary": "A common bacterial pathogen found in animal bite wounds."
+    },
+    {
+      "name": "Staphylococcus sp.",
+      "summary": "Another common bacterial pathogen that can cause infection following a bite."
+    },
+    {
+      "name": "Rabies virus",
+      "summary": "A fatal virus transmitted through the saliva of infected animals. Post-exposure prophylaxis is critical."
+    }
+  ],
+  "references": [
+    {
+      "title": "Rabies, Vaccines and PEP",
+      "url": "Rabies, Vaccines and PEP"
+    }
+  ]
+}

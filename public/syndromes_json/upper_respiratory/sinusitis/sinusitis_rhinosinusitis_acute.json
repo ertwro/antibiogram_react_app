@@ -1,0 +1,44 @@
+
+{
+  "name": "Sinusitis, Rhinosinusitis, Acute",
+  "general_information": "Acute rhinosinusitis is an inflammation of the paranasal sinuses and nasal cavity. It is most commonly caused by a viral infection, often following a common cold. Bacterial infection can occur as a complication.",
+  "presenting_symptoms": "Nasal congestion, purulent nasal discharge, facial pain or pressure, and decreased sense of smell. Other symptoms may include fever, headache, and fatigue.",
+  "diagnostic_tests": "Diagnosis is primarily clinical. Imaging studies like CT scans are generally reserved for cases with suspected complications or when the diagnosis is uncertain. Nasal endoscopy may be used to visualize the sinus openings.",
+  "common_pathogens": [
+    "Streptococcus pneumoniae",
+    "Haemophilus influenzae",
+    "Moraxella catarrhalis",
+    "Staphylococcus aureus",
+    "Viruses (Rhinovirus, Influenza virus, Parainfluenza virus)"
+  ],
+  "treatment_guidelines": {
+    "supportive_care": "Nasal saline irrigation, decongestants, and analgesics.",
+    "antibiotic_therapy": {
+      "indications": "Reserved for patients with severe symptoms, symptoms lasting more than 10 days without improvement, or those who initially improve and then worsen ('double sickening').",
+      "empiric_therapy": [
+        {
+          "drug": "Amoxicillin-clavulanate",
+          "dosage": "Varies by age and weight",
+          "duration": "5-10 days"
+        }
+      ],
+      "alternative_therapy": [
+        {
+          "drug": "Doxycycline",
+          "dosage": "Varies by age and weight",
+          "duration": "5-10 days",
+          "notes": "For patients with penicillin allergy."
+        },
+        {
+          "drug": "Levofloxacin or Moxifloxacin",
+          "dosage": "Varies by age and weight",
+          "duration": "5-10 days",
+          "notes": "Respiratory fluoroquinolones, for patients with penicillin allergy or risk factors for resistance."
+        }
+      ]
+    }
+  },
+  "references": [
+    "Chow AW, Benninger MS, Brook I, et al. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. Clin Infect Dis. 2012;54(8):e72-e112."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "_originalData": {
+    "title": "Porphyromonas endodontalis",
+    "last_updated": "2024-05-06",
+    "classification": {
+      "description": "Anaerobic gram-negative rod",
+      "former_name": "Bacteroides endodontalis"
+    },
+    "clinical_setting": {
+      "summary": "This organism is part of the oral flora. It is associated with odontogenic infections and, rarely, other abscesses.",
+      "diagnosis": "Indicated by a positive lab result."
+    },
+    "treatment_regimens": {
+      "primary": {
+        "susceptibility": "Typically susceptible to Penicillin, Clindamycin, Metronidazole, and Tetracyclines."
+      },
+      "alternative": "None"
+    },
+    "comments": "None"
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "last_updated",
+      "classification",
+      "clinical_setting",
+      "treatment_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.260Z",
+    "sourceFormat": "mixed"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title"
+      ],
+      "value": "Porphyromonas endodontalis"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "mixed"
+      },
+      "standardizedRegimens": [],
+      "preservedData": {
+        "title": "Porphyromonas endodontalis",
+        "last_updated": "2024-05-06",
+        "classification": {
+          "description": "Anaerobic gram-negative rod",
+          "former_name": "Bacteroides endodontalis"
+        },
+        "clinical_setting": {
+          "summary": "This organism is part of the oral flora. It is associated with odontogenic infections and, rarely, other abscesses.",
+          "diagnosis": "Indicated by a positive lab result."
+        },
+        "treatment_regimens": {
+          "primary": {
+            "susceptibility": "Typically susceptible to Penicillin, Clindamycin, Metronidazole, and Tetracyclines."
+          },
+          "alternative": "None"
+        },
+        "comments": "None"
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": "None"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "last_updated": "2024-05-06",
+      "treatment_regimens": {
+        "primary": {
+          "susceptibility": "Typically susceptible to Penicillin, Clindamycin, Metronidazole, and Tetracyclines."
+        },
+        "alternative": "None"
+      }
+    }
+  }
+}

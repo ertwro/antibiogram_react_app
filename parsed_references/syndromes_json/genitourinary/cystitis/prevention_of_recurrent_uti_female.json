@@ -1,0 +1,194 @@
+{
+  "documentMetadata": {
+    "title": "Prevention of Recurrent UTI, Female",
+    "sourceFile": "Prevention of Recurrent UTI, Female.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recurrent urinary tract infection (UTI) in women: cystitis, urethritis.",
+        "Young person: ≥ 3 culture-positive episodes/year.",
+        "Post-menopausal person: ≥3 culture + symptomatic UTIs in 1 year or 2 UTIs in 6 months."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E. coli",
+        "Enterobacterales",
+        "Enterococcus sp.",
+        "Staph. saprophyticus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pre-menopausal woman:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Avoid spermicide",
+            "Increase fluid intake (additional 1.5L/day) (JAMA Intern Med 2018; 178:1509)",
+            "Methenamine hippurate 1gm po bid (Cochrane Database Syst Rev 2012; BMJ 2022;376: e068229)"
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Post-coitol antibiotics: Single dose immediately after intercourse (JAMA 1993; 264: 703):"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nitrofurantoin 100 mg",
+                "TMP-SMX 80mg/400 mg",
+                "Trimethoprim 100 mg",
+                "Cephalexin 250 mg"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Post-menopausal woman:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Intravaginal estrogen: 0.5 mg Estriol cream intravaginal daily x 2 weeks and then twice weekly as maintenance (N Engl J Med 1993; 329: 753)",
+            "Increase fluid intake (additional 1.5L/day) (JAMA Intern Med 2018; 178:1509)",
+            "Methenamine hippurate 1gm po bid (Cochrane Database Syst Rev 2012)"
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Post-coitol antibiotics: Single dose immediately after intercourse (JAMA 1993; 264: 703):"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nitrofurantoin 100 mg",
+                "TMP-SMX 80mg/400 mg",
+                "Trimethoprim 100 mg",
+                "Cephalexin 250 mg"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In persons with recurrent UTIs who have failed strategies above and have significant reduced quality of life and/or repeat hospitalizations, consider a limited time trial of antibiotic prophylaxis with an antibiotic active against the predominant infecting pathogen. (Lancet Infect Dis 2018; 18:957). Providers need to balance risk of developing antibiotic resistant pathogens with benefit. Regimens could include one of the following:"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Daily regimens:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nitrofurantoin 50-100 mg once daily",
+                "Trimethoprim 100 mg daily",
+                "TMP-SMX 40mg/200mg once daily or 3x weekly",
+                "Cephalexin 250 mg daily"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Weekly regimen:"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "prophylaxis",
+                "strengthOfRecommendation": "Alternative",
+                "components": [
+                  {
+                    "drug": "Fosfomycin",
+                    "dose": "3gm",
+                    "frequency": "once weekly"
+                  },
+                  {
+                    "drug": "Cefixime",
+                    "connector": "+"
+                  },
+                  {
+                    "drug": "Amoxicillin-clavulanate",
+                    "connector": "or"
+                  },
+                  {
+                    "drug": "TMP-SMX",
+                    "connector": "or"
+                  }
+                ],
+                "notes": "(Clin Infect Dis 71;3128: 2021)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Strategies which have NOT demonstrated efficacy to prevent UTIs:",
+        "Cranberry products (JAMA 2016;316:1873; JAMA 2016;316:1879)",
+        "Oral probiotics (Arch Int Med 2012; 172:204)",
+        "Intravaginal probiotics may be useful: a randomized placebo controlled trial of a once weekly Lactobacillus crispatus probiotic vaginal suppository for 10 weeks showed a 50% reduction in recurrences with the probiotic (Clin Infect Dis 52:1212, 2011) and another study (Clin Infect Dis 2024) demonstrated reduced recurrence of UTIs at 4 months in women who received regimens including intravaginal lactobacillus when compared with those who received placebo or oral lactobacillus alone.",
+        "Consider urologic evaluation/imaging if hematuria without dysuria, elevated serum creatinine, recurrent Proteus infections, or incontinence/retention",
+        "References: New Engl J Med 366:1028, 2012; Clin Infect Dis 52: e103-120, 2011 (IDSA-ESCMID Guidelines)."
+      ]
+    }
+  ]
+}

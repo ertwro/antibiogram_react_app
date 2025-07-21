@@ -1,0 +1,141 @@
+{
+  "documentMetadata": {
+    "title": "Endophthalmitis in Glaucoma Filtering Surgery",
+    "sourceFile": "syndromes/ocular/endophtalmitis/Endophthalmitis, Glaucoma.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Endophthalmitis is a rare but devastating complication of glaucoma filtering surgery (e.g., trabeculectomy, tube shunt implantation). The presence of a filtering bleb or an implanted device creates a potential pathway for microorganisms to enter the eye. Infections can be acute (occurring within 6 weeks of surgery) or delayed/chronic (occurring months to years later). Bleb-related endophthalmitis is particularly challenging."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Risk Factors and Microbiology"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Risk Factors for Bleb-related Infection",
+          "value": "Thin, avascular, or leaking blebs; use of antifibrotic agents (mitomycin C, 5-fluorouracil); blepharitis; conjunctivitis; and inferiorly located blebs."
+        },
+        {
+          "key": "Common Pathogens (Acute Onset)",
+          "value": "Coagulase-negative staphylococci (e.g., S. epidermidis), Staphylococcus aureus. Similar to post-cataract surgery endophthalmitis."
+        },
+        {
+          "key": "Common Pathogens (Delayed/Chronic Onset)",
+          "value": "Streptococcus species, Haemophilus influenzae, and Moraxella catarrhalis are more common in bleb-related infections and are often more virulent."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation (Bleb-related Endophthalmitis)"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Blebitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is an infection confined to the filtering bleb itself. The bleb appears opacified or milky (a \"white-on-red\" appearance), with surrounding conjunctival injection. There is no or minimal anterior chamber inflammation, and vision is usually good. It is considered a precursor to endophthalmitis."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Bleb-related Endophthalmitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "The infection has spread from the bleb into the eye. This presents with all the signs of blebitis plus significant intraocular inflammation, including anterior chamber cells and flare, hypopyon, vitritis, decreased vision, and pain. This is an ophthalmic emergency."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Immediate referral to an ophthalmologist is critical."
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Blebitis",
+            "appliesTo": {
+              "description": "Patients with infection limited to the bleb"
+            },
+            "components": [
+              {
+                "drug": "Intensive topical antibiotics",
+                "dose": "e.g., fortified vancomycin and tobramycin, or a fluoroquinolone",
+                "route": "topical",
+                "frequency": "Every hour"
+              }
+            ],
+            "notes": "Close monitoring is essential to ensure it does not progress to endophthalmitis. Some clinicians may also use oral antibiotics."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Standard of Care",
+            "condition": "Bleb-related Endophthalmitis",
+            "appliesTo": {
+              "description": "Patients with intraocular infection"
+            },
+            "components": [
+              {
+                "drug": "Intravitreal Vancomycin (1 mg/0.1 mL)",
+                "route": "intravitreal injection"
+              },
+              {
+                "drug": "Intravitreal Ceftazidime (2.25 mg/0.1 mL)",
+                "route": "intravitreal injection",
+                "connector": "+"
+              }
+            ],
+            "notes": "This follows the same principles as post-surgical endophthalmitis. An aqueous/vitreous tap for culture is performed, followed by immediate injection of broad-spectrum intravitreal antibiotics. Pars plana vitrectomy may be indicated, especially given the high virulence of common pathogens like Streptococcus."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Prognosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "The visual prognosis for bleb-related endophthalmitis is generally poor, often worse than for post-cataract surgery endophthalmitis, due to the more virulent organisms typically involved. Prompt recognition and treatment are key to salvaging vision."
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Endophthalmitis, Overview; Endophthalmitis, Post-surgical or Post-injection",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Endophthalmitis, Overview"
+      }
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Streptococcus agalactiae",
+      "aliases": [
+        "Group B Strep"
+      ],
+      "lastUpdated": "2025-02-20",
+      "clsiCategory": "Streptococcus spp. Beta-Hemolytic Group",
+      "classification": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci in chains",
+        "respiration": "",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci in chains, catalase –, beta-hemolytic (narrow zone), CAMP test +, hippurate hydrolysis +, PYR –, Lancefield Group B antigen +."
+    },
+    "clinicalProfile": {
+      "summary": "An important cause of neonatal meningitis, bacteremia, and peripartum infections. It may also cause infection in non-pregnant adults, with risk factors including older age, diabetes, obesity, liver disease, malignancy, and HIV.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Post-partum endometritis"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Puerperal sepsis"
+        },
+        {
+          "syndromeName": "Wound infection"
+        },
+        {
+          "syndromeName": "Primary bacteremia"
+        },
+        {
+          "syndromeName": "Endocarditis"
+        },
+        {
+          "syndromeName": "Meningitis"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        },
+        {
+          "syndromeName": "Septic arthritis"
+        },
+        {
+          "syndromeName": "Skin and soft tissue infections"
+        },
+        {
+          "syndromeName": "Urinary tract infection"
+        }
+      ],
+      "highRiskPopulations": [
+        "Neonates",
+        "Non-pregnant adults with older age, diabetes, obesity, liver disease, malignancy, and HIV"
+      ]
+    },
+    "treatment": {
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Meningitis",
+            "patientPopulation": [
+              "Adult"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G",
+                  "dose": "4 million units",
+                  "route": "IV",
+                  "frequency": "q4h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Endocarditis",
+            "patientPopulation": [
+              "Adult"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G",
+                  "dose": "4 million units",
+                  "route": "IV",
+                  "frequency": "q4h"
+                },
+                {
+                  "drugName": "Gentamicin",
+                  "dose": "1 mg/kg",
+                  "route": "IV",
+                  "frequency": "q8h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia, skin and soft tissue, other infections",
+            "patientPopulation": [
+              "Adult"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G",
+                  "dose": "2 million units",
+                  "route": "IV",
+                  "frequency": "q4h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric/Initial",
+            "patientPopulation": [
+              "Neonate and infant"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "drugs": [
+                {
+                  "drugName": "Ampicillin",
+                  "dose": "100-150 mg/kg/d",
+                  "route": "IV",
+                  "frequency": "in 3-4 divided doses"
+                },
+                {
+                  "drugName": "Gentamicin",
+                  "dose": "2.5 mg/kg",
+                  "route": "IV",
+                  "frequency": "q8h-q24h",
+                  "comments": "depending on weight and age"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Meningitis or endocarditis",
+            "patientPopulation": [
+              "Neonate and infant"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "notes": [
+                "(Ampicillin 100 mg/kg IV q6h or Penicillin G 400,000 units/kg/day) + Gentamicin 2.5 mg/kg q8h-q24h"
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia, soft tissue, other infections",
+            "patientPopulation": [
+              "Neonate and infant"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "notes": [
+                "Ampicillin 100-150 mg/kg/d in 3-4 divided doses + Gentamicin 2.5 mg/kg q8h-q24h or Penicillin G 200,000-400,000 units/kg/day"
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Penicillin allergic patient",
+            "patientPopulation": [
+              "Adult"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Vancomycin",
+                  "dose": "15-20 mg/kg",
+                  "route": "IV",
+                  "frequency": "q8-12h",
+                  "comments": "target trough 15-20 µg/mL"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Ceftriaxone",
+                  "dose": "2g",
+                  "route": "IV",
+                  "frequency": "q24h"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "600 mg",
+                  "route": "IV",
+                  "frequency": "q8h",
+                  "comments": "must confirm susceptibility"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "antimicrobialStewardship": [
+        "Duration of therapy is 10-14 days, except for endocarditis or osteomyelitis which should be treated for 4-6 weeks."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Ampicillin/Penicillin",
+          "pearl": "Ampicillin and penicillin are equally effective and interchangeable."
+        },
+        {
+          "drugName": "Amoxicillin",
+          "pearl": "Oral therapy with Amoxicillin 500 mg po tid for 10 days is an option for UTIs."
+        },
+        {
+          "drugName": "Vancomycin/Gentamicin",
+          "pearl": "If possible, avoid Vancomycin in combination with Gentamicin due to enhanced nephrotoxicity."
+        },
+        {
+          "drugName": "Gentamicin",
+          "pearl": "Gentamicin is used for synergy and may be discontinued once the infection is controlled, or after 2 weeks for endocarditis."
+        },
+        {
+          "drugName": "Clindamycin",
+          "pearl": "Caution is advised if Clindamycin is considered as an alternative for severe infections in patients with severe beta-lactam allergies, as failures due to inducible resistance have been reported. In vitro resistance is over 45% per CDC surveillance data."
+        }
+      ],
+      "diagnosticNotes": {
+        "summary": "Diagnosis is made by isolating the organism from blood, CSF, sputum, urine, or other site of infection."
+      }
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.355Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Streptococcus agalactiae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Group B Strep"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-02-20"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci in chains",
+        "respiration": "",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "An important cause of neonatal meningitis, bacteremia, and peripartum infections. It may also cause infection in non-pregnant adults, with risk factors including older age, diabetes, obesity, liver disease, malignancy, and HIV.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Post-partum endometritis"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Puerperal sepsis"
+        },
+        {
+          "syndromeName": "Wound infection"
+        },
+        {
+          "syndromeName": "Primary bacteremia"
+        },
+        {
+          "syndromeName": "Endocarditis"
+        },
+        {
+          "syndromeName": "Meningitis"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        },
+        {
+          "syndromeName": "Septic arthritis"
+        },
+        {
+          "syndromeName": "Skin and soft tissue infections"
+        },
+        {
+          "syndromeName": "Urinary tract infection"
+        }
+      ],
+      "highRiskPopulations": [
+        "Neonates",
+        "Non-pregnant adults with older age, diabetes, obesity, liver disease, malignancy, and HIV"
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile",
+      "resistance"
+    ],
+    "value": {}
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "documentMetadata": {
+    "title": "Diabetic Foot Infection",
+    "lastUpdated": "2025-01-06",
+    "sourceFile": "Diabetic Foot Infection.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "General management:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Glucose control; eliminate pressure on ulcer, if present.",
+            "Assess for peripheral vascular disease."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Principles guiding empiric therapy:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Include a drug predictably active vs MRSA.",
+            "Empiric drug regimens should cover both staph and strep; role of enterococci is uncertain.",
+            "Severe limb and/or life-threatening infections require initial parenteral therapy with predictable activity against Gram-positive cocci, coliforms and other aerobic Gram-negative rods and anaerobic Gram-negative bacilli.",
+            "Risk of osteomyelitis increased if ulcer area >2 cm², positive probe to bone, ESR >70 and abnormal plain x-ray.",
+            "MRI is best imaging modality; negative MRI reduces likelihood of osteomyelitis (JAMA 299:806, 2008).",
+            "Review of diagnostic accuracy of probe to bone (Clin Infect Dis 2016;63:944 and Clin Infect Dis 2016;63:949)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ulcer, but no inflammation: colonizing skin flora",
+        "Ulcer with superficial inflammation",
+        "Staphylococcus aureus (assume methicillin-resistant (MRSA) until proven otherwise)",
+        "Streptococcus agalactiae (Group B)",
+        "Streptococcus pyogenes",
+        "Ulcer with inflammation, extension into fascia",
+        "As above + coliforms (+ pseudomonas in patients with recent antibotic exposure, immunocompromise, prior isolation of pseudomonas in culture)",
+        "Extensive local inflammation and deep tissue invasion plus systemic toxicity",
+        "As above + anaerobes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ulcer, but no inflammation: No antimicrobial therapy recommended.",
+        "Moderate strength evidence for improved healing with biologic skin equivalent or negative pressure wound therapy: Ann Intern Med 159:532, 2013.",
+        "Ulcer with superficial inflammation:",
+        "Oral therapy, to cover MRSA: TMP-SMX-DS 1-2 tabs po bid or Doxycycline 100 mg po bid or Clindamycin 300-450 mg po tid",
+        "Oral therapy, mild infection, no MRSA present: Cephalexin 500 mg qid or Cefpodoxime 200 mg po q12h or Levofloxacin 750 mg po q24h or Amoxicillin-clavulanate 875/125 po bid",
+        "Ulcer with inflammation, extension into deeper tissues:",
+        "Oral therapy: (Amoxicillin-clavulanate 875/125 po bid + TMP-SMX-DS 1-2 tabs po bid) or [(Ciprofloxacin 750 mg po bid or Levofloxacin 750 mg po q24h or Moxifloxacin 400 mg po q24h) + (Linezolid 600 mg po bid)] OR",
+        "Parenteral therapy: (Ampicillin-sulbactam 3 gm IV q6h or Ertapenem 1 gm IV q24h) + Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) until MRSA is excluded.",
+        "Extensive local inflammation plus systemic toxicity, possibility of pseudomonal infection based on risk factors.",
+        "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) + Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h",
+        "Vancomycin as above + (Imipenem-cilastatin 0.5 gm IV q6h or Meropenem 1 gm IV q8h)",
+        "Diabetic foot osteomyelitis (see Medicina. 2021; 57:339)",
+        "Surgical management",
+        "Surgical incision, drainage, and debridement indicated for presence of extensive bony destruction, nonviable/necrotic tissue",
+        "Limb ischemia and spreading soft tissue infection are associated with worse prognosis and may require partial or total amputation to remove infected and necrotic tissue",
+        "Medical therapy",
+        "Should be pathogen-directed, based on results of culture and susceptibility testing",
+        "Limited data suggest that outcomes with 3 weeks of therapy following surgical debridement are comparable to the more traditional 6-week duration (Clin Infect Dis. 2021; 73:e1539-e1545).",
+        "1 to 3 weeks of therapy may be sufficient if surgical margins are clean and free of residual osteomyelitis either histopathologically or microbiologically",
+        "Oral therapy is an option provided that agents with good oral bioavailability can be used"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Extensive local inflammation plus systemic toxicity.",
+        "Daptomycin 6 mg/kg IV q24h or Linezolid 600 mg po bid are alternatives for Vancomycin",
+        "[(Ciprofloxacin 400 mg IV q12h or Levofloxacin 750 mg IV q24h or Aztreonam 2 gm IV q8h) + Metronidazole 0.5 gm IV q6-8h are alternatives for Ampicillin-sulbactam or Piperacillin-tazobactam",
+        "Amoxicillin-clavulanate 1000/200 mg IV q8h (where available)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Improved outcomes of more effective and faster wound healing of diabetic foot ulcer with negative-pressure wound therapy.",
+        "Obtain cultures of inflamed ulcer or wound to permit targeted antimicrobial therapy: de-escalate/modify regimen based on culture and susceptibility data.",
+        "Oral therapy with a bioavailable antibiotic as effective as parenteral therapy."
+      ]
+    },
+    {
+      "type": 'header',
+      'level': 1,
+      'text': 'Comments'
+    },
+    {
+      'type': 'list',
+      'items': [
+        'For review see Curr Opin Infect Dis 2016; 29:145-52.',
+        'See IDSA practice guidelines for additional treatment options: Clin Infect Dis 54:e132, 2012.',
+        'For primary and secondary preventive measures see: N Engl J Med 2017; 376: 2367',
+        'Amoxicillin-clavulanate 875/125 mg bid is an effective oral option for diabetic foot infection with or without osteomyelitis (Diabetes Obes Metab. 2019;21:1483–1486)',
+        'TMP-SMX may cause hyperkalemia in diabetics.',
+        'Use the higher dose of Clindamycin or TMP-SMX in those with BMI > 40.',
+        'Cochrane review of safety and efficacy of antimicrobials used to treat diabetic foot infection with or without osteomyelitis: Cochrane Database Syst Rev. 2015 Sep 4;(9):CD009061).'
+      ]
+    }
+  ]
+}

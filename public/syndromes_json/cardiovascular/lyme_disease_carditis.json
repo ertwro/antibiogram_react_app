@@ -1,0 +1,263 @@
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Carditis",
+    "lastUpdated": "2024-07-12",
+    "sourceFile": "Lyme Disease, Carditis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Carditis is one of the late complications of Lyme Disease. ECG only performed in those who have symptoms or suspected Lyme Carditis",
+        "Occurs within 2 months of onset of infections. Manifests as first degree or high degree A-V conduction block. PR interval > 300 msec indication for inpatient workup",
+        "Usually self-limited; for Bradycardia use temporary pacemaker; permanent pacemaker not necessary.",
+        "Other symptoms include: dyspnea, edema, palpitations, lightheadedness, chest pain, and/or syncope.",
+        "No evidence for chronic cardiomyopathy in US.",
+        "However, rare unexpected sudden deaths have occurred (MMWR 62:993, 2013)."
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "For details on diagnostic methods see: Lyme Disease, Diagnosis and Emerging Infect Dis 22:1169, 2016.",
+        "targetType": "externalURL",
+        "targetIdentifier": "https://wwwnc.cdc.gov/eid/article/22/7/15-1629_article"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Borrelia burgdorferi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hospitalize, monitor, and use parenteral drug (e.g., ceftriaxone) for symptomatic patients. After resolution of heart block, can finish course with oral drug. Total antimicrobial duration is 14-21 days"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "First degree A-V block:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po or IV",
+                "frequency": "bid"
+              },
+              {
+                "drug": "Amoxicillin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "tid",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "4.4 mg/kg/day",
+                "route": "po",
+                "frequency": "divided bid"
+              },
+              {
+                "drug": "Amoxicillin",
+                "dose": "50 mg/kg/day",
+                "route": "po",
+                "frequency": "divided tid",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "High (2nd or 3rd) degree A-V block:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric (Age \u2265 8 yrs)"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "50-75 mg/kg/d",
+                "route": "IV"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "First degree A-V block:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "tid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            },
+            "notes": "primary in pregnancy"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "High (2nd or 3rd) degree A-V block:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Cefotaxime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Penicillin G",
+                "dose": "3 million units",
+                "route": "IV",
+                "frequency": "q4h",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            },
+            "notes": "where available outside the US"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pediatrics: Doxycycline can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No need for permanent pacemaker; may need temporary pacemaker. A-V block generally disappears within several days of starting antimicrobial therapy. In review, 39% of patients required temporary pacemaker: Clin Infect Dis 59: 996, 2014.",
+        "2020 Clinical practice guidelines (Neurology 96:262, 2021)",
+        "Review in JAMA 315:1767 & 2461, 2016.",
+        "Earlier Review: N Engl J Med 370:1724, 2014."
+      ]
+    }
+  ]
+}

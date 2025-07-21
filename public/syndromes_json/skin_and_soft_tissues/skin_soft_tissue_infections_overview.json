@@ -1,0 +1,85 @@
+
+{
+  "name": "Skin & Soft Tissue Infections, Overview",
+  "summary": "This document provides a general overview of skin and soft tissue infections (SSTIs), covering their classification, common pathogens, and principles of management. It serves as a foundational guide to approaching various types of SSTIs.",
+  "description": "The overview classifies SSTIs based on clinical presentation, such as purulent vs. non-purulent and necrotizing vs. non-necrotizing, which is crucial for determining empirical treatment. It emphasizes the importance of assessing severity, identifying the causative pathogens through appropriate diagnostics, and understanding the indications for surgical intervention versus medical management alone.",
+  "syndromes": [
+    {
+      "name": "Impetigo/Ecthyma",
+      "description": "Superficial skin infections, with impetigo being vesicular or pustular and ecthyma being a deeper, ulcerative form."
+    },
+    {
+      "name": "Erysipelas",
+      "description": "A superficial form of cellulitis with sharp, raised borders, most commonly caused by Streptococcus pyogenes."
+    },
+    {
+      "name": "Cellulitis",
+      "description": "An infection of the deeper dermis and subcutaneous fat, presenting with erythema, edema, and warmth. Can be purulent or non-purulent."
+    },
+    {
+      "name": "Abscess / Furuncle / Carbuncle",
+      "description": "Purulent SSTIs characterized by collections of pus. Furuncles are infections of a single hair follicle, while carbuncles are larger, involving multiple follicles."
+    },
+    {
+      "name": "Necrotizing Infections",
+      "description": "Severe, rapidly progressing infections involving the fascia and muscle, requiring immediate surgical debridement. Examples include necrotizing fasciitis and gas gangrene."
+    }
+  ],
+  "special_considerations": [
+    "Distinguishing between purulent and non-purulent infections is key for empirical antibiotic selection. Purulent infections often require coverage for Staphylococcus aureus (including MRSA), while non-purulent cellulitis is typically caused by streptococci.",
+    "Severity assessment (e.g., using SIRS criteria) is critical to identify patients needing hospitalization and parenteral antibiotics.",
+    "Necrotizing infections are a surgical emergency. High suspicion should prompt immediate surgical consultation.",
+    "Consider unusual pathogens based on exposure history, such as Pasteurella from animal bites, Vibrio from saltwater exposure, or Aeromonas from freshwater exposure.",
+    "Infections in immunocompromised hosts or patients with diabetes may be polymicrobial and require broader antibiotic coverage."
+  ],
+  "pathogens": [
+    {
+      "name": "Staphylococcus aureus",
+      "summary": "The most common cause of purulent SSTIs, including abscesses, furuncles, and carbuncles. Methicillin-resistant S. aureus (MRSA) is a frequent consideration."
+    },
+    {
+      "name": "Streptococcus pyogenes (Group A Streptococcus)",
+      "summary": "The leading cause of non-purulent SSTIs like erysipelas and cellulitis. Also a primary cause of necrotizing fasciitis."
+    },
+    {
+      "name": "Other Beta-hemolytic Streptococci (Groups B, C, G)",
+      "summary": "Common causes of non-purulent cellulitis."
+    },
+    {
+      "name": "Pasteurella multocida",
+      "summary": "Frequently isolated from cat and dog bite wounds."
+    },
+    {
+      "name": "Capnocytophaga canimorsus",
+      "summary": "Associated with dog bites, can cause severe sepsis, particularly in asplenic or immunocompromised individuals."
+    },
+    {
+      "name": "Eikenella corrodens",
+      "summary": "A common pathogen in human bite wounds ('fight bites')."
+    },
+    {
+      "name": "Vibrio vulnificus",
+      "summary": "Causes severe, often necrotizing, wound infections following exposure to saltwater or consumption of raw seafood."
+    },
+    {
+      "name": "Aeromonas hydrophila",
+      "summary": "Associated with wound infections after exposure to freshwater or soil."
+    },
+    {
+      "name": "Polymicrobial infections",
+      "summary": "Common in necrotizing infections, diabetic foot ulcers, and some bite wounds, involving a mix of aerobes and anaerobes."
+    }
+  ],
+  "references": [
+    {
+      "title": "Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the Infectious Diseases Society of America",
+      "author": "Stevens DL, Bisno AL, Chambers HF, et al.",
+      "journal": "Clinical Infectious Diseases",
+      "year": 2014,
+      "volume": "59",
+      "issue": "2",
+      "pages": "e10-e52",
+      "url": "https://academic.oup.com/cid/article/59/2/e10/2895934"
+    }
+  ]
+}

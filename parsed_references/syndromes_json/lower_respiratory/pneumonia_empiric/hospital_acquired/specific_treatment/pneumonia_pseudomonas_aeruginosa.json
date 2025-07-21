@@ -1,0 +1,576 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia caused by Pseudomonas aeruginosa",
+    "sourceFile": "Pneumonia, Pseudomonas aeruginosa.pdf",
+    "lastUpdated": "2025-01-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specific / directed therapy for pneumonia caused by Pseudomonas aeruginosa."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Risk factors include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cystic fibrosis",
+            "Mechanical ventilation",
+            "Tracheostomy",
+            "Neutropenia",
+            "Immune compromise: e.g., AIDS, transplantation, cancer chemotherapy"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choice of therapy varies with status of culture and sensitivity testing, severity of the pneumonia, and the immune status of the patient."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Monotherapy in hemodynamically stable patient with adequate oxygenation",
+            "Consider combination therapy if: shaking chills, hypotension, difficulty maintaining adequate oxygenation; Pseudomonas identified but susceptibilities are pending; and institutional antibiogram with MDR (resistance to 3 or more antibiotic categories) prevalence of ≥ 10-15%."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever, purulent airway secretions, abnormal chest X-ray",
+        "Elevated WBC with immature neutrophils",
+        "Elevated serum procalcitonin (over 0.25 ng/mL) in normotensive patient with CrCl > 60 mL/min (Infect Dis Clin North Am 2017;31:435)",
+        "Detection of P. aeruginosa in sputum, or sputum equivalent, by culture or multiplex PCR pneumonia panel (if available)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pseudomonas aeruginosa"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Empiric Therapy"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Local prevalence of multidrug resistant (MDR) P. aeruginosa < 10-15 %",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 4 hr, see drug page for comment on loading dose"
+              },
+              {
+                "drug": "Ceftazidime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Tobramycin",
+                "dose": "7 mg/kg",
+                "route": "IV",
+                "frequency": "q24h",
+                "notes": "not recommended as a single agent, see Comments"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Local prevalence of MDR P. aeruginosa is ≥ 10-15%",
+            "components": [
+              {
+                "drug": "Ceftolozane-tazobactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 1 hr"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Directed/Specific Therapy"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Lab reports no in vitro resistance, monotherapy",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 4 hr, see drug page for comment on loading dose"
+              },
+              {
+                "drug": "Ceftazidime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q12h"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "For patients with severe IgE-mediated beta-lactam allergy"
+            },
+            "components": [
+              {
+                "drug": "Aztreonam",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In vitro resistance; lab reports mechanism of resistance known:"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "condition": "Extended spectrum beta lactamase (ESBL) producing strain",
+                "components": [
+                  {
+                    "drug": "Meropenem",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q8h"
+                  },
+                  {
+                    "drug": "Ceftolozane-tazobactam",
+                    "dose": "3 gm",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "notes": "over 1 hr, See Comment on beta-lactams"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "nestedContent",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Carbapenem-resistant strain: essential to confirm in vitro susceptibility"
+                },
+                {
+                  "type": "drugRegimen",
+                  "regimenData": {
+                    "intent": "treatment",
+                    "strengthOfRecommendation": "Recommended",
+                    "condition": "Serine-carbapenemase producer",
+                    "components": [
+                      {
+                        "drug": "Ceftazidime-avibactam",
+                        "dose": "2.5 gm",
+                        "route": "IV",
+                        "frequency": "q8h",
+                        "notes": "over 2 hr"
+                      },
+                      {
+                        "drug": "Imipenem-cilastatin-relebactam",
+                        "dose": "1.25 gm",
+                        "route": "IV",
+                        "frequency": "q6h",
+                        "notes": "over 30 min, Relebactam may restore activity of Imipenem against imipenem-nonsusceptible isolates (Antimicrob Agents Chemother. 2020;64:e02203-19)"
+                      },
+                      {
+                        "drug": "Meropenem-vaborbactam",
+                        "dose": "4 gm",
+                        "route": "IV",
+                        "frequency": "q8h",
+                        "notes": "over 3 hr"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "drugRegimen",
+                  "regimenData": {
+                    "intent": "treatment",
+                    "strengthOfRecommendation": "Recommended",
+                    "condition": "Metallo-carbapenemase producer: optimal therapy unknown, ID consultation strongly recommended, treatment options include:",
+                    "components": [
+                      {
+                        "drug": "Ceftazidime-avibactam",
+                        "dose": "2.5 gm",
+                        "route": "IV",
+                        "frequency": "q8h",
+                        "notes": "over 3 hr"
+                      },
+                      {
+                        "drug": "Aztreonam",
+                        "dose": "2 gm",
+                        "route": "IV",
+                        "frequency": "q6h",
+                        "notes": "over 3 hr",
+                        "connector": "+"
+                      },
+                      {
+                        "drug": "Polymyxin B"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "paragraph",
+                  "text": "If other mechanisms of resistance (efflux pumps, impaired permeability), or combination of mechanisms, choice is based on in vitro susceptibility results"
+                },
+                {
+                  "type": "crossReference",
+                  "referenceData": {
+                    "text": "For more detail information on multiple-drug resistant Gram-negatives click here.",
+                    "targetType": "externalURL",
+                    "targetIdentifier": "https://www.google.com/search?q=multiple-drug+resistant+Gram-negatives"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Specific/Directed Therapy"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "No detected in vitro resistance",
+            "components": [
+              {
+                "drug": "Aztreonam",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q6h",
+                "notes": "for patients with IgE-mediated beta-lactam allergy"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Cefoperazone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q12h",
+                "notes": "where available"
+              },
+              {
+                "drug": "Imipenem-cilastatin",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "Critical illness and pending in vitro susceptibilities, consider combination therapy to increase likelihood of at least one active drug (see Comments)",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "connector": "or"
+              },
+              {
+                "drug": "anti-pseudomonal cephalosporin",
+                "connector": "+"
+              },
+              {
+                "drug": "Tobramycin",
+                "dose": "7 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "connector": "or"
+              },
+              {
+                "drug": "antipseudomonal cephalosporin",
+                "connector": "+"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "ESBL",
+            "components": [
+              {
+                "drug": "Ceftazidime-avibactam",
+                "dose": "2.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Imipenem-cilastatin",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "Metallo-carbapenemase producer",
+            "components": [
+              {
+                "drug": "Infectious Disease consultation advisable"
+              },
+              {
+                "drug": "Cefiderocol",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 3 hr, complicated UTI, See Comments"
+              }
+            ]
+          }
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Inhalation therapy (See Comments):"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "prophylaxis",
+                "strengthOfRecommendation": "Recommended",
+                "appliesTo": {
+                  "description": "For Pseudomonas pneumonia in cystic fibrosis patients, FDA has approved prophylactic/suppression inhaled (nebulized) antibiotic therapy"
+                },
+                "components": [
+                  {
+                    "drug": "Nebulized Colistin",
+                    "dose": "50-75 mg",
+                    "frequency": "bid"
+                  },
+                  {
+                    "drug": "Tobramycin",
+                    "dose": "300 mg",
+                    "frequency": "bid",
+                    "notes": "by inhalation"
+                  },
+                  {
+                    "drug": "Aztreonam",
+                    "dose": "75 mg",
+                    "frequency": "tid"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "When culture and susceptibility results are known, switch to active monotherapy as combination therapy of no proven benefit over monotherapy and associated with more adverse events."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Duration of therapy. Two meta-analyses (Chest 2013; 144:1759 and Cochrane Database of Systematic Reviews 2015, Issue 8. Art. No.: CD007577) of 6 randomized controlled trials found that 7-8 days of therapy was as effective as longer courses of therapy (e.g., 10-14 days) for ventilator-associated pneumonia (VAP), including VAP caused by Pseudomonas aeruginosa. 2016 IDSA guidelines recommend a 7-day duration of treatment (Clin Infect Dis 63:e61, 2016). The optimal duration of therapy continues to be debated: see Clin Infect Disease 2023; 76:745 and Clin Infect Dis 2023; 76:750. While 7-8 days of active therapy appears to be sufficient in most cases, there are circumstances for which a longer course (e.g., 10-14 days) might be considered, such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Infections in patients with underlying ARDS or significant structural lung disease",
+            "Severely immunocompromised hosts",
+            "Presence of complications such as bacteremia or empyema",
+            "Delayed improvement of clinical, radiologic, and/or laboratory parameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aminoglycosides: Tobramycin is the only aminoglycoside recommended for treatment of pneumonia and other pseudomonal infections, including UTI (for which it may be used as a single agent); Gentamicin no longer recommended; Amikacin, if used at all. should be considered only for treatment of UTI.",
+        "Cefiderocol: FDA-approved for patients with complicated UTI due to Cefiderocol susceptible bacteria and with limited or no alternative treatment options. In an open label randomized trial of Cefiderocol vs Best Available Therapy (BAT) in patients with sepsis, pneumonia, bacteremia or cUTI, mortality at 28 days was 24.8% for Cefiderocol pts. vs 18.4% for BAT pts. (not statistically significant)",
+        "Beta-lactams.",
+        "Ceftolozane-tazobactam:",
+        "Of 3,851 isolates, 97% susceptible in vitro. Of subset of 699 meropenem-resistant isolates, 87.6 % were susceptible (Antimicrob Agents Chemother 2017;61:e00465-17)",
+        "Retrospective cohort study of drug resistant P. aeruginosa (VAP in 52% of patients) (Clin Infect Dis 2020;71:304)",
+        "Clinical cure better with Ceftolozane-tazobactam vs. treatment with either aminoglycoside or polymyxin, OR 2.6",
+        "Acute kidney injury markedly less with Ceftolozane-tazobactam vs those given an aminoglycoside or polymyxin, OR 0.08",
+        "Carbapenems.",
+        "Ertapenem is not active vs. P. aeruginosa.",
+        "Combination of Meropenem or Imipenem + Polymyxin is not recommended as result of failure of prospective randomized clinical trial to show benefit (Lancet Infect Dis 2018; 18:391)",
+        "Carbapenem resistance in P. aeruginosa is frequently the result of impaired permeability and active efflux pumps rather than carbapenemases (Antimicrob Agents Chemother 2015;59:1020)",
+        "Serine-carbapenemase (e.g., Klebsiella pneumoniae carbapenemase, KPC)",
+        "Based on studies in Enterobacteriaceae Meropenem-vaborbactam may be favored over Ceftazidime-avibactam because lower frequency of selection of resistant mutants (Clin Infect Dis 2919;68:519) and report of successful Meropenem-vaborbactam therapy in patient with Ceftazidime-avibactam resistant KPC bacteremia (Antimicrob Agents Chemother 2019;63: e01551-18).",
+        "Inconsistent in vitro susceptibility to Ceftazidime-avibactam + Aztreonam may reflect non-enzymatic mechanisms of resistance (Antimicrob Agents Chemother 2017;61:e01008-17)",
+        "Combination therapy: Potential benefits of combined drugs for empiric therapy, especially in patient at high risk of infection with multi-drug resistant strain:",
+        "Increased likelihood that at least one of the two drugs will be active.",
+        "Decreased risk of selection of resistant subpopulations (theoretical).",
+        "Additive or synergistic antibacterial activity if both drugs active (unproven clinically but demonstrated in animal models).",
+        "Inhalation therapy: Results of randomized controlled clinical trials DO NOT support adjunctive inhalation therapy in patients with P. aeruginosa pneumonia (Lancet Infect Dis 2020; 20: 330; Chest 2017;151:1239, Crit Care Med 2019;47: 880 and e470).",
+        "Ciprofloxacin. PK/PD studies suggest need for even higher doses in patients with septic shock (J Antimicrob Chemother. 2019;74:1662)."
+      ]
+    }
+  ]
+}

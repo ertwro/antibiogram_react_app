@@ -4,6 +4,7 @@ import {
     getSearchableList
 } from '../data/microbiologyData.js';
 import { getIntelligentTreatmentRecommendation } from '../utils/clinicalDecisionSupport.js';
+import AntibiogramMaster from './AntibiogramMaster.jsx';
 
 // Shared syndrome categories definition
 const SYNDROME_CATEGORIES = {
@@ -283,16 +284,16 @@ const PatientDataStep = ({ data, onChange, calculations }) => (
         </div>
         <div className="mt-8 p-6 bg-gray-50 rounded-lg space-y-3">
             <h4 className="text-lg font-semibold text-gray-700">Valores Calculados:</h4>
-            <p><strong>TFG:</strong> {calculations.tfg ? `${calculations.tfg.value} mL/min/1.73m²` : 'N/A'} <span className="text-sm text-gray-500">({calculations.tfg ? calculations.tfg.formula : 'N/A'})</span></p>
+            <p><strong>TFG:</strong> {calculations.tfg ? `${String(calculations.tfg.value)} mL/min/1.73m²` : 'N/A'} <span className="text-sm text-gray-500">({calculations.tfg ? String(calculations.tfg.formula) : 'N/A'})</span></p>
             <p>
-                <strong>IMC:</strong> {calculations.bmi ? `${calculations.bmi} kg/m²` : 'N/A'} 
+                <strong>IMC:</strong> {calculations.bmi ? `${String(calculations.bmi)} kg/m²` : 'N/A'} 
                 {calculations.bmiZScore !== null && (
                     <span className="text-sm text-blue-600 ml-2">
                         (Z-score: {calculations.bmiZScore.toFixed(2)})
                     </span>
                 )}
                 <br />
-                <span className="text-sm text-gray-600">{calculations.obesityClass || 'N/A'}</span>
+                <span className="text-sm text-gray-600">{String(calculations.obesityClass || 'N/A')}</span>
                 {calculations.bmiZScore !== null && (
                     <>
                         <br />
@@ -312,7 +313,7 @@ const PatientDataStep = ({ data, onChange, calculations }) => (
                         <p className="text-sm text-blue-700">
                             <strong>Talla para la edad:</strong> Z-score {calculations.heightForAgeZScore.toFixed(2)} 
                             <span className="ml-2 text-xs font-medium">
-                                ({calculations.heightForAgeClass})
+                                ({String(calculations.heightForAgeClass)})
                             </span>
                         </p>
                     )}
@@ -320,7 +321,7 @@ const PatientDataStep = ({ data, onChange, calculations }) => (
                         <p className="text-sm text-blue-700 mt-1">
                             <strong>Peso para la edad:</strong> Z-score {calculations.weightForAgeZScore.toFixed(2)} 
                             <span className="ml-2 text-xs font-medium">
-                                ({calculations.weightForAgeClass})
+                                ({String(calculations.weightForAgeClass)})
                             </span>
                         </p>
                     )}
@@ -330,20 +331,20 @@ const PatientDataStep = ({ data, onChange, calculations }) => (
                     </p>
                 </div>
             )}
-            {data.hasHepaticDisease && <p><strong>Child-Pugh Score:</strong> {calculations.childPugh ? `${calculations.childPugh.score} (Clase ${calculations.childPugh.class})` : 'Datos incompletos'}</p>}
+            {data.hasHepaticDisease && <p><strong>Child-Pugh Score:</strong> {calculations.childPugh ? `${String(calculations.childPugh.score)} (Clase ${String(calculations.childPugh.class)})` : 'Datos incompletos'}</p>}
             {calculations.severityAssessment && (
                 <div className="p-3 bg-yellow-100 rounded-md">
-                    <p><strong>Severidad Clínica:</strong> {calculations.severityAssessment.level} (Puntuación: {calculations.severityAssessment.score})</p>
+                    <p><strong>Severidad Clínica:</strong> {String(calculations.severityAssessment.level)} (Puntuación: {String(calculations.severityAssessment.score)})</p>
                     <p className="text-sm text-gray-600 mt-1">
-                        <strong>Factores:</strong> {calculations.severityAssessment.factors.join(', ')}
+                        <strong>Factores:</strong> {String(calculations.severityAssessment.factors.join(', '))}
                     </p>
                 </div>
             )}
             {calculations.epidemiologyRisk && (
                 <div className="p-3 bg-blue-100 rounded-md">
-                    <p><strong>Riesgo Epidemiológico:</strong> {calculations.epidemiologyRisk.level}</p>
+                    <p><strong>Riesgo Epidemiológico:</strong> {String(calculations.epidemiologyRisk.level)}</p>
                     <p className="text-sm text-gray-600 mt-1">
-                        <strong>Factores:</strong> {calculations.epidemiologyRisk.factors.join(', ')}
+                        <strong>Factores:</strong> {String(calculations.epidemiologyRisk.factors.join(', '))}
                     </p>
                 </div>
             )}
@@ -611,9 +612,9 @@ const BacteriaSelectionStep = ({ data, onChange }) => {
                             >
                                 <div className="flex items-center justify-between">
                                     <div>
-                                        <h4 className="font-medium text-gray-900">{b.name}</h4>
-                                        <p className="text-sm text-gray-600">{b.gramStain} • {b.clsiCategory}</p>
-                                        <p className="text-xs text-gray-500 mt-1">{b.taxonomy?.genus} {b.taxonomy?.species}</p>
+                                        <h4 className="font-medium text-gray-900">{String(b.name || 'Unknown')}</h4>
+                                        <p className="text-sm text-gray-600">{String(b.gramStain || 'Unknown')} • {String(b.clsiCategory || 'Unknown')}</p>
+                                        <p className="text-xs text-gray-500 mt-1">{String(b.taxonomy?.genus || '')} {String(b.taxonomy?.species || '')}</p>
                                     </div>
                                     <SignificanceBadge level={b.clinicalSignificance} />
                                 </div>
@@ -632,9 +633,9 @@ const BacteriaSelectionStep = ({ data, onChange }) => {
                     <div className="bg-indigo-50 px-6 py-4 border-b border-gray-200">
                         <div className="flex items-center justify-between">
                             <div>
-                                <h4 className="text-lg font-bold text-gray-900">{selectedBacterium.identity?.bacteriumName || selectedBacterium.name}</h4>
+                                <h4 className="text-lg font-bold text-gray-900">{String(selectedBacterium.identity?.bacteriumName || selectedBacterium.name || 'Unknown')}</h4>
                                 <p className="text-sm text-gray-600 mt-1">
-                                    <strong>Taxonomía:</strong> {selectedBacterium.taxonomy?.genus} {selectedBacterium.taxonomy?.species}
+                                    <strong>Taxonomía:</strong> {String(selectedBacterium.taxonomy?.genus || '')} {String(selectedBacterium.taxonomy?.species || '')}
                                 </p>
                             </div>
                             <SignificanceBadge level={selectedBacterium.clinicalSignificance || 2} />
@@ -910,8 +911,107 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
         };
     }; 
     
-    // Group antibiotics by tier
-    const antibiogramTiers = selectedBacteriumData.laboratoryProfile?.antimicrobialBreakpoints || [];
+    // State for CLSI tier-based antibiotics
+    const [antibiogramTiers, setAntibiogramTiers] = useState([]);
+    const [isLoadingTiers, setIsLoadingTiers] = useState(false);
+    
+    // Load CLSI-appropriate antibiotics for this organism
+    useEffect(() => {
+        if (!selectedBacteriumData) {
+            setAntibiogramTiers([]);
+            return;
+        }
+        
+        const loadCLSITiers = async () => {
+            setIsLoadingTiers(true);
+            try {
+                // Import CLSI functions dynamically
+                const { getTierAntibiotics, findOrganismCategory } = await import('../engines/CLSIReportingEngine.js');
+                
+                const organismName = selectedBacteriumData.identity?.bacteriumName || selectedBacteriumData.name;
+                const category = findOrganismCategory(organismName);
+                
+                if (category) {
+                    // Get CLSI tier-based antibiotics
+                    const tier1Antibiotics = getTierAntibiotics(organismName, 'Tier 1');
+                    const tier2Antibiotics = getTierAntibiotics(organismName, 'Tier 2');
+                    const tier3Antibiotics = getTierAntibiotics(organismName, 'Tier 3');
+                    
+                    const formatTier = (antibiotics, tierNum, description) => ({
+                        tier: tierNum,
+                        tierDescription: description,
+                        agents: antibiotics.map(antibiotic => ({
+                            agentName: antibiotic.name,
+                            breakpointSets: [{
+                                condition: antibiotic.condition || 'Standard',
+                                mic: {
+                                    s_breakpoint: antibiotic.mic_breakpoints?.S || '≤1',
+                                    i_breakpoint: antibiotic.mic_breakpoints?.I || '2',
+                                    r_breakpoint: antibiotic.mic_breakpoints?.R || '≥4'
+                                }
+                            }]
+                        }))
+                    });
+                    
+                    const tiers = [];
+                    if (tier1Antibiotics.length > 0) {
+                        tiers.push(formatTier(tier1Antibiotics, 1, 'Rutinas de Primera Línea'));
+                    }
+                    if (tier2Antibiotics.length > 0) {
+                        tiers.push(formatTier(tier2Antibiotics, 2, 'Agentes Selectivos'));
+                    }
+                    if (tier3Antibiotics.length > 0) {
+                        tiers.push(formatTier(tier3Antibiotics, 3, 'Agentes Especializados'));
+                    }
+                    
+                    if (tiers.length > 0) {
+                        setAntibiogramTiers(tiers);
+                        setIsLoadingTiers(false);
+                        return;
+                    }
+                }
+            } catch (error) {
+                console.warn('CLSI tiers not available, using fallback:', error.message);
+            }
+            
+            // Fallback to basic antibiotics for this organism type
+            const basicAntibiotics = getBasicAntibioticsForOrganism(selectedBacteriumData);
+            setAntibiogramTiers([{
+                tier: 1,
+                tierDescription: 'Antibióticos Básicos (CLSI no disponible)',
+                agents: basicAntibiotics.map(name => ({
+                    agentName: name,
+                    breakpointSets: [{
+                        condition: 'Standard',
+                        mic: { s_breakpoint: '≤1', i_breakpoint: '2', r_breakpoint: '≥4' }
+                    }]
+                }))
+            }]);
+            setIsLoadingTiers(false);
+        };
+        
+        loadCLSITiers();
+    }, [selectedBacteriumData]);
+    
+    // Fallback function for basic antibiotics when CLSI not available
+    const getBasicAntibioticsForOrganism = (bacterium) => {
+        const organismName = (bacterium.identity?.bacteriumName || bacterium.name || '').toLowerCase();
+        
+        if (organismName.includes('escherichia') || organismName.includes('e. coli')) {
+            return ['Ampicillin', 'Amoxicillin-clavulanate', 'Ceftriaxone', 'Ciprofloxacin', 'Trimethoprim-sulfamethoxazole', 'Nitrofurantoin', 'Gentamicin', 'Meropenem'];
+        } else if (organismName.includes('klebsiella')) {
+            return ['Amoxicillin-clavulanate', 'Ceftriaxone', 'Ceftazidime', 'Cefepime', 'Ciprofloxacin', 'Trimethoprim-sulfamethoxazole', 'Gentamicin', 'Meropenem'];
+        } else if (organismName.includes('staphylococcus')) {
+            return ['Oxacillin', 'Vancomycin', 'Clindamycin', 'Erythromycin', 'Trimethoprim-sulfamethoxazole', 'Linezolid', 'Daptomycin', 'Cefazolin'];
+        } else if (organismName.includes('enterococcus')) {
+            return ['Ampicillin', 'Vancomycin', 'Linezolid', 'Daptomycin', 'Nitrofurantoin', 'High-level gentamicin', 'High-level streptomycin'];
+        } else if (organismName.includes('pseudomonas')) {
+            return ['Piperacillin-tazobactam', 'Ceftazidime', 'Cefepime', 'Ciprofloxacin', 'Meropenem', 'Gentamicin', 'Amikacin', 'Colistin'];
+        } else {
+            // Generic Gram-negative panel
+            return ['Ampicillin', 'Amoxicillin-clavulanate', 'Ceftriaxone', 'Ciprofloxacin', 'Trimethoprim-sulfamethoxazole', 'Gentamicin', 'Meropenem'];
+        }
+    };
     
     // CLSI M100 Tier Unlocking Logic
     const getTierUnlockStatus = (tierNumber) => {
@@ -997,6 +1097,19 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
 
     const resistanceInfo = getResistancePatternInfo();
     
+    // Show loading state while CLSI tiers are being loaded
+    if (isLoadingTiers) {
+        return (
+            <div className="space-y-6">
+                <div className="text-center py-8">
+                    <div className="text-blue-500 text-xl mb-2">🔍</div>
+                    <h3 className="text-lg font-semibold text-gray-800">Cargando Panel CLSI</h3>
+                    <p className="text-sm text-gray-600">Seleccionando antibióticos apropiados para {selectedBacteriumData.identity?.bacteriumName || selectedBacteriumData.name}...</p>
+                </div>
+            </div>
+        );
+    }
+    
     return (
         <div className="space-y-6">
             <div>
@@ -1004,7 +1117,7 @@ const AntibioticSusceptibilityStep = ({ data, onChange }) => {
                     Interpretación del Antibiograma Escalonado - {selectedBacteriumData.identity?.bacteriumName || selectedBacteriumData.name}
                 </h3>
                 <p className="text-sm text-gray-600 mb-4">
-                    Ingrese valores MIC (se interpreta automáticamente) o seleccione S/I/R directamente. Los niveles superiores se desbloquean según CLSI M100.
+                    Panel CLSI específico: {antibiogramTiers.reduce((total, tier) => total + tier.agents.length, 0)} antibióticos apropiados. Los niveles superiores se desbloquean según CLSI M100.
                 </p>
             </div>
 
@@ -1895,6 +2008,7 @@ const RecommendationStep = ({ data, calculations, recommendation, alternatives, 
 
 // --- MAIN APP ---
 const AntibiogramApp = ({ onBackToLanding }) => {
+    const [analysisMode, setAnalysisMode] = useState('selection'); // 'selection', 'original', 'worldclass'
     const [formData, setFormData] = useState({age: '', weight: '', height: '', creatinine: '', gender: 'Female', useCystatinC: false, cystatinC: '', isPregnantOrFertile: false, hasHepaticDisease: false, bilirubin: '', albumin: '', inr: '1', ascites: '1', encephalopathy: '1', location: '', rrt: 'None', bacteriumId: '', susceptibilityResults: {}, micValues: {}, hypersensitivities: [], showSeverityAssessment: false, isICU: false, isImmunocompromised: false, priorAntibiotics: false, hasOrganDysfunction: false, hasSepsis: false, hemodynamicStatus: '', respiratoryStatus: '', showEpidemiologyData: false, localESBLRate: '', localCarbapenemResistance: '', institutionType: ''});
     const [currentStep, setCurrentStep] = useState(1);
     const totalSteps = 6;
@@ -2368,21 +2482,170 @@ const AntibiogramApp = ({ onBackToLanding }) => {
             default: return <div>Paso desconocido</div>;
         }
     };
+    // Conditional rendering based on analysis mode
+    if (analysisMode === 'worldclass') {
+        return <AntibiogramMaster onBackToLanding={() => setAnalysisMode('selection')} />;
+    }
+
+    if (analysisMode === 'selection') {
+        return (
+            <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+                {/* Header */}
+                <div className="bg-white shadow-sm border-b border-gray-200">
+                    <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+                        <button 
+                            onClick={onBackToLanding}
+                            className="flex items-center text-gray-600 hover:text-gray-800 transition-colors"
+                        >
+                            <span className="mr-2">←</span>
+                            <span className="text-sm">Back to Home</span>
+                        </button>
+                        <div className="text-center">
+                            <h1 className="text-3xl font-bold text-gray-800">Antibiogram Analysis</h1>
+                            <p className="text-sm text-gray-600">Choose your analysis method</p>
+                        </div>
+                        <div className="w-24"></div>
+                    </div>
+                </div>
+
+                {/* Mode Selection */}
+                <div className="max-w-4xl mx-auto px-6 py-12">
+                    <div className="text-center mb-12">
+                        <h2 className="text-2xl font-bold text-gray-900 mb-4">Select Analysis Method</h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            Choose between our traditional form-based approach or our new world-class 
+                            specialist-level antibiogram interpretation system.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        {/* World-Class System */}
+                        <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow">
+                            <div className="bg-gradient-to-r from-purple-600 to-blue-600 p-6">
+                                <div className="flex items-center space-x-3 mb-4">
+                                    <div className="text-3xl">🧠</div>
+                                    <h3 className="text-xl font-bold text-white">World-Class Analysis</h3>
+                                </div>
+                                <p className="text-purple-100">
+                                    NEW: Specialist-level 4-phase antibiogram interpretation with resistance pattern detection
+                                </p>
+                            </div>
+                            <div className="p-6">
+                                <div className="space-y-3 mb-6">
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        CLSI M100-Ed34 compliant breakpoint interpretation
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Advanced resistance mechanism detection (ESBL, AmpC, MRSA, VRE)
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Intelligent S/I/R overrides based on detected mechanisms
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Simple & Advanced mode therapeutic comparisons
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Educational insights and clinical reasoning
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={() => setAnalysisMode('worldclass')}
+                                    className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-colors"
+                                >
+                                    Start World-Class Analysis
+                                </button>
+                            </div>
+                        </div>
+
+                        {/* Original System */}
+                        <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow">
+                            <div className="bg-gradient-to-r from-green-600 to-teal-600 p-6">
+                                <div className="flex items-center space-x-3 mb-4">
+                                    <div className="text-3xl">📋</div>
+                                    <h3 className="text-xl font-bold text-white">Traditional Analysis</h3>
+                                </div>
+                                <p className="text-green-100">
+                                    Original comprehensive form-based antibiogram analysis with patient data integration
+                                </p>
+                            </div>
+                            <div className="p-6">
+                                <div className="space-y-3 mb-6">
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Comprehensive patient demographics and clinical data
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Detailed allergy and hypersensitivity assessment
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Renal and hepatic function calculations
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Step-by-step guided workflow
+                                    </div>
+                                    <div className="flex items-center text-sm text-gray-700">
+                                        <span className="text-green-500 mr-2">✓</span>
+                                        Established clinical decision support
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={() => setAnalysisMode('original')}
+                                    className="w-full bg-gradient-to-r from-green-600 to-teal-600 text-white py-3 px-4 rounded-lg font-medium hover:from-green-700 hover:to-teal-700 transition-colors"
+                                >
+                                    Use Traditional Method
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Comparison Note */}
+                    <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6">
+                        <h4 className="font-semibold text-blue-800 mb-2">💡 Which should you choose?</h4>
+                        <div className="text-blue-700 text-sm space-y-2">
+                            <p><strong>World-Class Analysis</strong> is recommended for:</p>
+                            <ul className="list-disc list-inside ml-4 space-y-1">
+                                <li>Complex resistance patterns or unusual organisms</li>
+                                <li>Educational purposes and understanding resistance mechanisms</li>
+                                <li>When you want specialist-level interpretation confidence</li>
+                                <li>Advanced therapeutic strategy comparison</li>
+                            </ul>
+                            <p className="mt-3"><strong>Traditional Analysis</strong> is recommended for:</p>
+                            <ul className="list-disc list-inside ml-4 space-y-1">
+                                <li>Routine clinical cases with detailed patient data</li>
+                                <li>When comprehensive allergy assessment is needed</li>
+                                <li>Cases requiring precise renal/hepatic dosing calculations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    // Original system (when analysisMode === 'original')
     return (
         <div className="bg-gray-100 font-sans" style={{ minHeight: '100vh', paddingBottom: '2rem' }}>
             {/* Header with back button */}
             <div className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-10">
                 <div className="max-w-4xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between">
                     <button 
-                        onClick={onBackToLanding}
+                        onClick={() => setAnalysisMode('selection')}
                         className="flex items-center text-gray-600 hover:text-gray-800 transition-colors"
                     >
                         <span className="mr-2">←</span>
-                        <span className="text-sm">Volver al Inicio</span>
+                        <span className="text-sm">Back to Selection</span>
                     </button>
                     <div className="text-center">
-                        <h1 className="text-2xl font-bold text-gray-800">Antibiograma Inteligente</h1>
-                        <p className="text-sm text-gray-600">Versión Alpha - Enterobacterales</p>
+                        <h1 className="text-2xl font-bold text-gray-800">Traditional Antibiogram Analysis</h1>
+                        <p className="text-sm text-gray-600">Comprehensive Patient-Centered Approach</p>
                     </div>
                     <div className="w-24"></div>
                 </div>

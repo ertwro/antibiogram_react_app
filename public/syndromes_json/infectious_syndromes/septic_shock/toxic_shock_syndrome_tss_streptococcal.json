@@ -1,0 +1,65 @@
+{
+  "documentMetadata": {
+    "title": "Toxic Shock Syndrome (TSS), Streptococcal",
+    "sourceFile": "Toxic Shock syndrome (TSS), Streptococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Streptococcal Toxic Shock Syndrome (STSS)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Streptococcal toxic shock syndrome is a severe, invasive infection caused by Streptococcus pyogenes (Group A Streptococcus). It is characterized by the rapid onset of shock and multiorgan failure."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Features"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hypotension",
+        "Evidence of multiorgan dysfunction (e.g., renal impairment, coagulopathy, liver involvement, acute respiratory distress syndrome)",
+        "A soft tissue infection (e.g., cellulitis, necrotizing fasciitis) is often the source."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Early and aggressive treatment is critical. This includes fluid resuscitation, vasopressors, and surgical debridement of any infected tissue."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Patients with STSS"
+        },
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "4 million units",
+            "route": "IV",
+            "frequency": "every 4 hours"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "600-900 mg",
+            "route": "IV",
+            "frequency": "every 8 hours",
+            "connector": "+"
+          }
+        ],
+        "notes": "Clindamycin is added to suppress toxin and cytokine production. Intravenous immunoglobulin (IVIG) may also be considered."
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+
+{
+  "documentMetadata": {
+    "title": "Post-Traumatic Endophthalmitis",
+    "sourceFile": "syndromes/ocular/endophtalmitis/Endophthalmitis, Post-traumatic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Post-traumatic endophthalmitis is a severe intraocular infection following an open globe injury (a full-thickness wound of the eye wall). The risk of developing endophthalmitis after such an injury ranges from 2% to 17% and is influenced by several factors. It is one of the most devastating complications of ocular trauma, often leading to severe vision loss or loss of the eye itself."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Risk Factors"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Delay in primary wound closure (>24 hours)",
+        "Presence of a retained intraocular foreign body (IOFB), especially if organic (e.g., wood, vegetable matter)",
+        "Dirty wound (e.g., injury in a rural setting)",
+        "Disruption of the crystalline lens",
+        "Initial visual acuity of light perception or worse"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Microbiology"
+    },
+    {
+      "type": "paragraph",
+      "text": "The microbiology of post-traumatic endophthalmitis is diverse and often involves more virulent organisms than post-surgical cases."
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Common Bacteria",
+          "value": "Bacillus species (especially B. cereus) are notoriously virulent and common after soil-contaminated injuries. Staphylococcus epidermidis and other coagulase-negative staphylococci are also frequent. Streptococcus species and gram-negative organisms are also seen."
+        },
+        {
+          "key": "Fungi",
+          "value": "Fungal infections are more common than in post-surgical settings, particularly with injuries involving organic matter. Aspergillus and Fusarium are common culprits."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The onset is often rapid and fulminant, especially with organisms like Bacillus cereus, which can cause loss of the eye within 24-48 hours. Symptoms and signs are similar to other forms of acute endophthalmitis: severe pain, vision loss, hypopyon, and intense vitritis. The view of the posterior segment is often obscured by media opacity from the initial trauma and subsequent infection."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management is an emergency and requires a combined medical and surgical approach."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Initial Steps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Primary closure of the open globe injury as soon as possible.",
+            "Removal of any accessible intraocular foreign body."
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Antibiotic Therapy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Vitreous Tap and Intravitreal Antibiotic Injection",
+            "indication": "Performed at the time of primary globe repair if endophthalmitis is suspected, or later if it develops.",
+            "description": "A vitreous sample is taken for culture. Broad-spectrum antibiotics are then injected.",
+            "notes": "Standard regimen is Vancomycin (1 mg/0.1 mL) and Ceftazidime (2.25 mg/0.1 mL). Amikacin may be considered for better Bacillus coverage, but it carries a risk of retinal toxicity. Clindamycin also has activity against Bacillus."
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Systemic antibiotics are generally recommended in post-traumatic endophthalmitis, unlike in post-cataract surgery cases. A broad-spectrum intravenous antibiotic with good ocular penetration (e.g., a fourth-generation fluoroquinolone or ceftazidime) is often used."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Role of Vitrectomy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Pars Plana Vitrectomy (PPV)",
+            "indication": "Early vitrectomy is more strongly considered in post-traumatic cases than in post-surgical cases due to the high virulence of the infecting organisms and the presence of traumatic debris. It is often performed within 48 hours of diagnosis.",
+            "description": "PPV removes the infectious and inflammatory load and allows for better diffusion of antibiotics."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Prophylaxis"
+        },
+        {
+          "type": "paragraph",
+          "text": "The role of prophylactic intravitreal antibiotics at the time of initial globe repair is controversial, but it is often performed in high-risk injuries. Systemic antibiotic prophylaxis is commonly given."
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Endophthalmitis, Overview",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Endophthalmitis, Overview"
+      }
+    }
+  ]
+}

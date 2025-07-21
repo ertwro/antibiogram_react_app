@@ -1,0 +1,93 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from seals or other injury related to handling seal material",
+    "sourceFile": "Bite_ Seal.pdf",
+    "lastUpdated": "2025-01-23"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound from seals or other injury related to handling seal material.",
+        "Infection can take weeks to appear after bite, Lancet 364:448, 2004.",
+        "Lesion typically begins as a papule at site of injury and progresses to localized swelling with intense pain. Tenosynovitis or joint involvement may occur (J Infect 45:71, 2002)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mycoplasmas of marine mammals (phylogenetically related to Mycoplasma hominis)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Tetracycline",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2 weeks"
+        },
+        "notes": "and 500 mg po qid x 4 - 6 weeks have been reported to be effective"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2 weeks"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "Isolation of mycoplasma from seal finger: Clin Infect Dis 62:491, 2016; Clin Infect Dis 27:1168, 1998.",
+        "Distinguish from seal pox, due to seal pox virus (parapoxvirus), that starts as a papule and progresses to a gray bullous lesion that may resemble orf (Brit J Dermatol 152:791, 2005).",
+        "Other reported bacteria include Bisgaardia hudsonensis of the family Pasteurellaceae; response to Amoxicillin-clavulanate (J Infect 63: 86, 2011) and Streptococcus halichoeri; resistant to Erythromycin and Tetracycline (J Clin Micro 54: 739, 2016).",
+        "Review of 11 cases: Wild & Environ Med 26: 497, 2015."
+      ]
+    }
+  ]
+}

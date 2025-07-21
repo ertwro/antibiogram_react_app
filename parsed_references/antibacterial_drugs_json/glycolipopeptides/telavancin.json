@@ -1,0 +1,97 @@
+{
+  "drug_name": "Telavancin",
+  "tradename": "Vibativ",
+  "usage_and_dosing": {
+    "general": [
+      "Telavancin is a parenteral lipoglycopeptide antibiotic approved for treatment of complicated skin and skin structure infections (SSSI) due to Staph. aureus (MSSA, MRSA), Vancomycin-susceptible E. faecalis, S. pyogenes, S. agalactiae, S. anginosus group. For review of the drug: Clin Infect Dis 60:787, 2015; Med Lett 52:1, 2010; Clin Infect Dis 61:S35, 2015)",
+      "Telavancin is also approved for the treatment of adults with hospital-acquired and ventilator-associated pneumonia due to Staph. aureus (MSSA, MRSA). Telavancin was non-inferior to Vancomycin in a published study of hospital-acquired pneumonia that included MRSA pneumonia (Clin Infect Dis 52:31, 2011).",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Telavancin has concentration-dependent bactericidal activity with dual mechanism of action: inhibition of synthesis of cell wall and disruption of bacterial cell membrane barrier.",
+      "In skin infection trial, elevations of serum creatinine occurred in 3.4% of Telavancin patients and 1.2% of Vancomycin patients. Confounded by concomitant exposure to other nephrotoxic drugs/contrast agents, etc. Reversible when Telavancin is stopped. In small retrospective study of 21 patients receiving salvage therapy, 7 (33%) developed acute renal injury; complicated patients, more data needed: J Antimicrob Chemother 67:723, 2012.",
+      "Black box warnings:",
+      "Patients with pre-existing moderate/severe renal impairment (CrCl ≤50 mL/min) treated with Telavancin for HAP/VAP had increased mortality vs. Vancomycin.",
+      "Nephrotoxicity.",
+      "May cause fetal harm, based on animal studies. Verify pregnancy status before initiating treatment, advise use of effective contraception."
+    ],
+    "adult_dose": {
+      "usual_dose": "10 mg/kg IV (infuse over 1 hour) q24h",
+      "suggested_duration": {
+          "sssi": "7-14 days for complicated SSSI",
+          "hap_vap": "7-21 days for HAP/VAP"
+      },
+      "body_weight": "Use actual body weight in non-obese persons"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "8.1",
+    "half_life_esrd": "17.9",
+    "dose_renal_function_normal": "10 mg/kg IV q24h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 30-50: 7.5 mg/kg q24h. CrCl 10 to <30: 10 mg/kg q48h. CrCl <10: No data",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No data, use caution"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments table."
+  ],
+  "adverse_effects": [
+    "Nephrotoxicity",
+    "Hypersensitivity, including anaphylaxis",
+    "QTc prolongation",
+    "Coagulation test interference: Telavancin interferes with some laboratory coagulation tests (but does not affect coagulation in vivo), including prothrombin time, international normalized ratio, and activated partial thromboplastin time.",
+    "Adverse events in phase 3 trials vs. Vancomycin:",
+    "Dysgeusia (taste disturbance) 33% vs. 7%",
+    "Nausea 27% vs. 15%, vomiting 14% vs. 7%",
+    "Headache 14% vs. 13%",
+    "Increased creatinine 3.1% vs. 1.1%",
+    "Foamy urine",
+    "Flushing, urticaria, pruritus if infused too rapidly"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Risk of fetal harm, based on animal studies. Avoid, unless benefit outweighs fetal risk.",
+    "lactation": "Milk concentrations likely low, poorly absorbed. Safe, monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "108 (10 mg/kg IV q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "90",
+    "volume_of_distribution_vd_l_kg_vss": "0.13 L/kg (Vss)",
+    "avg_serum_half_life_hr": "8.1",
+    "elimination": "Renal",
+    "bile_penetration_percent": "Low",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "780 (10 mg/kg IV q24h, 0-24 h)"
+  },
+  "major_drug_interactions": [
+    "Avoid use in patients at risk; use with caution in patients taking drugs known to prolong the QT interval.",
+    "Potential for enhanced nephrotoxicity in patients receiving other nephrotoxic agents."
+  ],
+  "comments": [
+    "No commercially approved assay for measurement of Telavancin serum levels.",
+    "Cross reactivity with assay used to measure serum Vancomycin levels; patients receiving Telavancin have detectable serum levels of Vancomycin. Ref: J Antimicrob Chemother 67:508, 2012.",
+    "Package insert precaution as regards reduced clinical response in patients with baseline CrCl of 30-50 mL/min. There is no clear explanation for this observation.",
+    "One hypothesis: Initial dosing calculated based on elevated serum creatinine at time of admission. Elevated creatinine resolved within 48 hrs in 57% of patients in a retrospective review (Clin Infect Dis 2019;68; 1596).",
+    "In critically ill, suggest full dosage until clear whether renal function will improve with hydration and other measures."
+  ]
+}

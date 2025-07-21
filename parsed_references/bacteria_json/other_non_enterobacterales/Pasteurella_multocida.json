@@ -1,0 +1,582 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Pasteurella multocida",
+      "aliases": [],
+      "lastUpdated": "2024-04-29",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacilli",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Grows on blood agar but not MacConkey agar"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative coccobacillus, facultative anaerobe, non-motile, oxidase +, catalase +, indole +, ferments glucose and sucrose, weak acid production from mannitol. Grows on blood agar but not MacConkey agar."
+    },
+    "clinicalProfile": {
+      "summary": "Pasteurella multocida is a commensal in the oral flora of cats and dogs. It is a common cause of rapidly developing, painful soft tissue infections following animal bites or scratches. Less commonly, it can cause respiratory tract infections or invasive diseases like bacteremia and meningitis, especially in immunocompromised individuals or those with underlying liver disease.",
+      "pathophysiologyPearls": [
+        "Infection is most often due to direct inoculation from a cat or dog bite.",
+        "The rapid onset of inflammation is characteristic."
+      ],
+      "keySignsAndSymptoms": [
+        "Rapid onset of pain, swelling, and erythema at the site of a bite or scratch",
+        "Purulent discharge from the wound",
+        "Fever (less common in localized infections)",
+        "Cough, sputum production (in respiratory infections)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Skin and Soft Tissue Infection",
+          "description": "The most common presentation, typically developing within 24 hours of a cat or dog bite."
+        },
+        {
+          "syndromeName": "Respiratory Tract Infection",
+          "description": "Can cause pneumonia, bronchitis, or lung abscesses, particularly in patients with underlying chronic lung disease."
+        },
+        {
+          "syndromeName": "Bacteremia and Invasive Disease",
+          "description": "Can lead to sepsis, meningitis, or septic arthritis, especially in infants, the elderly, and immunocompromised individuals."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals bitten or scratched by cats or dogs",
+        "Infants and elderly",
+        "Immunocompromised patients",
+        "Patients with chronic liver disease"
+      ],
+      "transmissionVectors": [
+        "Cat bites",
+        "Dog bites",
+        "Cat scratches"
+      ],
+      "prognosisNotes": [
+        "Prophylactic antibiotic therapy is indicated for cat bites due to the high frequency of infection."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Erythromycin",
+          "notes": "High-level resistance."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "High-level resistance."
+        },
+        {
+          "drugOrClass": "Vancomycin",
+          "notes": "High-level resistance."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Variable Susceptibility to some Beta-Lactams and Macrolides",
+          "details": "Susceptible to some, but not all, beta-lactams. Frequent in vitro resistance to first-generation cephalosporins (cephalexin) and azithromycin."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Wound management, including cleansing and debridement, is crucial.",
+        "Evaluate the need for tetanus toxoid immunization and rabies prophylaxis after animal bites.",
+        "Parenteral options include Ceftriaxone, Penicillin G, Ciprofloxacin, Levofloxacin, or Moxifloxacin."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Cephalexin",
+          "condition": "Penicillin-allergic patients",
+          "reason": "Frequent in vitro resistance."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "condition": "All infections",
+          "reason": "High-level resistance."
+        },
+        {
+          "drugOrClass": "Erythromycin",
+          "condition": "All infections",
+          "reason": "High-level resistance."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Animal Bite Wound",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "875/125",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Spectrum covers Pasteurella, Staph. aureus, and Streptococcal species."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Culture-positive Pasteurella infection (no other pathogens)",
+            "patientPopulation": [
+              "Adults with no penicillin allergy"
+            ],
+            "isolateSource": "Wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin VK",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "QID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Amoxicillin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "TID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Culture-positive Pasteurella infection (no Staph. aureus)",
+            "patientPopulation": [
+              "Adults with severe IgE-mediated penicillin allergy"
+            ],
+            "isolateSource": "Wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Cefuroxime",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Cefpodoxime",
+                      "dose": "200",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Moxifloxacin",
+                      "dose": "400",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "TMP-SMX DS",
+                      "dose": "1 tab",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Wound culture is recommended for infected animal bites.",
+        "Blood cultures should be drawn in patients with systemic signs of infection."
+      ],
+      "methodologyNotes": [
+        "Grows well on blood and chocolate agar but not on MacConkey agar.",
+        "Has a characteristic musty or mouse-like odor."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.335Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Pasteurella multocida"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-04-29"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacilli",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Grows on blood agar but not MacConkey agar"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Pasteurella multocida is a commensal in the oral flora of cats and dogs. It is a common cause of rapidly developing, painful soft tissue infections following animal bites or scratches. Less commonly, it can cause respiratory tract infections or invasive diseases like bacteremia and meningitis, especially in immunocompromised individuals or those with underlying liver disease.",
+      "pathophysiologyPearls": [
+        "Infection is most often due to direct inoculation from a cat or dog bite.",
+        "The rapid onset of inflammation is characteristic."
+      ],
+      "keySignsAndSymptoms": [
+        "Rapid onset of pain, swelling, and erythema at the site of a bite or scratch",
+        "Purulent discharge from the wound",
+        "Fever (less common in localized infections)",
+        "Cough, sputum production (in respiratory infections)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Skin and Soft Tissue Infection",
+          "description": "The most common presentation, typically developing within 24 hours of a cat or dog bite."
+        },
+        {
+          "syndromeName": "Respiratory Tract Infection",
+          "description": "Can cause pneumonia, bronchitis, or lung abscesses, particularly in patients with underlying chronic lung disease."
+        },
+        {
+          "syndromeName": "Bacteremia and Invasive Disease",
+          "description": "Can lead to sepsis, meningitis, or septic arthritis, especially in infants, the elderly, and immunocompromised individuals."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals bitten or scratched by cats or dogs",
+        "Infants and elderly",
+        "Immunocompromised patients",
+        "Patients with chronic liver disease"
+      ],
+      "transmissionVectors": [
+        "Cat bites",
+        "Dog bites",
+        "Cat scratches"
+      ],
+      "prognosisNotes": [
+        "Prophylactic antibiotic therapy is indicated for cat bites due to the high frequency of infection."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Erythromycin",
+          "notes": "High-level resistance."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "High-level resistance."
+        },
+        {
+          "drugOrClass": "Vancomycin",
+          "notes": "High-level resistance."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Variable Susceptibility to some Beta-Lactams and Macrolides",
+          "details": "Susceptible to some, but not all, beta-lactams. Frequent in vitro resistance to first-generation cephalosporins (cephalexin) and azithromycin."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Animal Bite Wound",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "875/125",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "7-10 days",
+              "comments": "Spectrum covers Pasteurella, Staph. aureus, and Streptococcal species.",
+              "originalText": "Amoxicillin-clavulanate 875/125 PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Culture-positive Pasteurella infection (no other pathogens)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with no penicillin allergy"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin VK",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "QID",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Penicillin VK 500 PO QID"
+            },
+            {
+              "drugName": "Amoxicillin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "TID",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Amoxicillin 500 PO TID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Culture-positive Pasteurella infection (no Staph. aureus)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with severe IgE-mediated penicillin allergy"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cefuroxime",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Cefuroxime 500 PO q12h"
+            },
+            {
+              "drugName": "Cefpodoxime",
+              "dose": "200",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Cefpodoxime 200 PO q12h"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Levofloxacin 750 PO daily"
+            },
+            {
+              "drugName": "Moxifloxacin",
+              "dose": "400",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Moxifloxacin 400 PO daily"
+            },
+            {
+              "drugName": "Doxycycline",
+              "dose": "100",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Doxycycline 100 PO BID"
+            },
+            {
+              "drugName": "TMP-SMX DS",
+              "dose": "1 tab",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "TMP-SMX DS 1 tab PO BID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Wound culture is recommended for infected animal bites.",
+        "Blood cultures should be drawn in patients with systemic signs of infection."
+      ],
+      "methodologyNotes": [
+        "Grows well on blood and chocolate agar but not on MacConkey agar.",
+        "Has a characteristic musty or mouse-like odor."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

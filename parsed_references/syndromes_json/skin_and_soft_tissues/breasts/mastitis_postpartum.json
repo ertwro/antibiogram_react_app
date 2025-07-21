@@ -1,0 +1,96 @@
+{
+    "documentMetadata": {
+        "title": "Mastitis, Postpartum",
+        "sourceFile": "Mastitis, Postpartum.pdf",
+        "lastUpdated": "2025-02-10"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Postpartum mastitis occurs in approximately 10% of nursing mothers.",
+                "Poor breast-feeding technique, incomplete emptying are contributing factors.",
+                "Risk factors (same for MRSA and MSSA): mother employed outside the home, primiparity, advanced maternal age, breast-feeding difficulties (Clin Infect Dis 54:71, 2012).",
+                "May present with or without abscess.",
+                "If an abscess if present surgical incision and drainage (I&D) or drainage by needle aspiration indicated",
+                "Staph. aureus is most common etiology but other pathogens are possible. If possible, obtain culture before starting empiric therapy."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Staphylococcus aureus (MRSA or MSSA) (vast majority of infections)",
+                "Streptococcus pyogenes (Group A or B)",
+                "Escherichia coli",
+                "Bacteroides species",
+                "Corynebacterium sp.",
+                "Coagulase-negative staphylococci (e.g., Staphylococcus lugdunensis)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "If MRSA is not present or suspected:",
+                "Outpatient: Dicloxacillin 500 mg po qid or Cephalexin 500 mg po qid",
+                "Inpatient: Nafcillin 2 gm IV q4h or Oxacillin 2 gm IV q4h or Cefazolin 2 gm IV q8h",
+                "If MRSA is present or possible:",
+                "Outpatient: TMP-SMX-DS 1-2 tabs po bid (see Comments) OR Clindamycin 300 mg po tid (depending on susceptibility)",
+                "Inpatient: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 \u00b5g/mL)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "None"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Antimicrobial Stewardship"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Duration of therapy not well established: 10-14 days generally recommended but 5-7 days may be adequate on those with good clinical response.",
+                "If vancomycin is initiated empirically, can transition to a beta-lactam, IV or oral, if MSSA is isolated."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Role of antibiotics unclear once the abscess is drained.",
+                "Avoid TMP-SMX in premature infants or neonatal hyperbilirubinemia.",
+                "If baby can latch on and mother is comfortable, continue breast feeding during the antibiotic therapy. Breast feeding helps drain the breast and reduces risk of progression to abscess.",
+                "If the breast is too painful for breast feeding, no choice but to discontinue. On occasion, feeding can be temporarily interrupted, e.g., surgical I&D of an abscess, only to resume as soon as pain allows.",
+                "Continued breast feeding does not pose a risk to the infant; discuss with pediatrician age-specific risks to infant of drug exposure through breast milk.",
+                "References: StatPearls; 2022 Jan. 2022 Jul 18; JAMA. 2023;329:588."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+
+{
+  "documentMetadata": {
+    "title": "Orbital and Preseptal Cellulitis",
+    "sourceFile": "syndromes/ocular/Orbital cellulitis, periorbital cellulitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background and Anatomy"
+    },
+    {
+      "type": "paragraph",
+      "text": "The orbital septum is a fibrous membrane that separates the soft tissues of the eyelid from the contents of the orbit (the eye and its surrounding fat and muscles). Infections are classified based on their location relative to this septum. Preseptal cellulitis is an infection of the eyelid and surrounding skin anterior to the septum. Orbital cellulitis is a much more serious infection of the orbital contents posterior to the septum. Orbital cellulitis is a medical emergency."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Preseptal Cellulitis"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Causes",
+          "value": "Often results from local trauma to the eyelid (e.g., insect bite, abrasion) or spread from a local skin infection (impetigo) or another ocular infection (hordeolum, dacryocystitis)."
+        },
+        {
+          "key": "Clinical Presentation",
+          "value": "Unilateral eyelid edema, erythema, and warmth. The key differentiating feature is the absence of orbital signs. Visual acuity is normal, there is no proptosis (bulging of the eye), eye movements are full and painless, and there is no afferent pupillary defect."
+        },
+        {
+          "key": "Microbiology",
+          "value": "Commonly caused by Staphylococcus aureus and Streptococcus pyogenes."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Orbital Cellulitis"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Causes",
+          "value": "Most commonly arises from the contiguous spread of an infection from the paranasal sinuses (ethmoid sinusitis is the most frequent precursor). It can also result from trauma, dacryocystitis, or hematogenous spread."
+        },
+        {
+          "key": "Clinical Presentation",
+          "value": "Presents with all the signs of preseptal cellulitis (eyelid edema and erythema) PLUS true orbital signs. These include proptosis, ophthalmoplegia (restricted and painful eye movements), and decreased visual acuity. An afferent pupillary defect may be present."
+        },
+        {
+          "key": "Microbiology",
+          "value": "Often polymicrobial, reflecting the sinus pathogens. Common organisms include Streptococcus pneumoniae, Haemophilus influenzae, Staphylococcus aureus, and anaerobes."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis and Management"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Feature", "Preseptal Cellulitis", "Orbital Cellulitis"],
+        "rows": [
+          ["Diagnosis", "Primarily a clinical diagnosis. Imaging is not usually required unless there is concern for orbital involvement.", "Urgent CT scan of the orbits and sinuses with contrast is mandatory to confirm the diagnosis, assess for a subperiosteal or orbital abscess, and evaluate the sinuses."],
+          ["Management Setting", "Can often be managed on an outpatient basis with oral antibiotics if the patient is non-toxic and can be monitored closely.", "Requires immediate hospitalization and intravenous antibiotics."],
+          ["Antibiotic Therapy", "Oral antibiotics with coverage for gram-positive skin organisms (e.g., Clindamycin, Trimethoprim-sulfamethoxazole, or Amoxicillin-clavulanate).", "Broad-spectrum IV antibiotics are required to cover sinus pathogens (e.g., Vancomycin PLUS Ceftriaxone/Cefotaxime or Ampicillin-sulbactam). An ophthalmology and often ENT consultation is necessary."],
+          ["Surgical Intervention", "Not applicable.", "Surgical drainage is required for a frank orbital abscess, if vision is compromised, or if there is no improvement after 24-48 hours of IV antibiotics. This is often performed by an oculoplastic or ENT surgeon."]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Complications of Orbital Cellulitis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Subperiosteal or orbital abscess",
+        "Exposure keratopathy from proptosis",
+        "Optic neuropathy leading to permanent vision loss",
+        "Cavernous sinus thrombosis",
+        "Meningitis or brain abscess"
+      ]
+    }
+  ]
+}

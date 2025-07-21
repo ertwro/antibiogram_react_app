@@ -1,0 +1,74 @@
+{
+  "drug_name": "Cefaclor",
+  "tradename": "Ceclor, Ceclor CD, Raniclor",
+  "usage_and_dosing": {
+    "general": [
+      "Cefaclor is an oral 2nd generation cephalosporin with in vitro activity against Strep. pyogenes, Strep. pneumoniae, H. influenzae, and Moraxella and is primarily used in the treatment of respiratory tract infections.",
+      "FDA approved for acute bacterial exacerbations of chronic bronchitis, lower respiratory infections, otitis media, secondary bacterial infections of acute bronchitis, uncomplicated skin and skin structure infections, UTI",
+      "Main adverse effects are allergy. For class-wide adverse effects, see Cephalosporins, Overview.",
+      "Cefaclor is available in regular and extended release tablets.",
+      "Serum sickness-like reaction 0.1-0.5% — arthralgia, rash, erythema multiforme but no adenopathy, proteinuria or demonstrable immune complexes. Appears due to mixture of drug biotransformation and genetic susceptibility (J Pediatr 125:805, 1994).",
+      "Cefaclor has the same R1 side chain as Ampicillin and Cephalexin; thus increased risk of allergic reaction in patients allergic to those drugs."
+    ],
+    "adult_dose": {
+      "usual_dose_regular_strength": "250-500 mg po q8h",
+      "usual_dose_extended_release": "500 mg po q12h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "20-40 mg/kg/day (divided q8-12h)",
+      "max_day": "1 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "0.8",
+    "half_life_esrd": "3",
+    "dose_renal_function_normal": "500 mg po q8h",
+    "crcl_or_egfr": "CrCl ≥10: No dosage adjustment. CrCl <10: 500 mg q12h",
+    "hemodialysis": "500 mg q12h (give one of the dialysis day doses AD)",
+    "capd": "500 mg q12h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Hypersensitivity (2%), fever, rash (1%), anaphylaxis (rare), serum sickness (≤0.5%), positive Coombs (rare), neutropenia, thrombocytopenia (2%), GI (3%), nausea/vomiting (2%), diarrhea (1-4%), C. difficile colitis, increased LFTs (3%), increased BUN/Creatinine.",
+    "See also, Usage and class-wide adverse effects, Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Staphylococcus saprophyticus"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (250, 500 mg), Extended-release (ER) tab (500 mg), Chewtab (125, 187, 250, 375 mg), Oral susp (125 mg/5 mL, 187 mg/5 mL, 250 mg/5 mL, 375 mg/5 mL)",
+    "food_recommendation": "Cap/chewtab/susp ± food, ER tab + food",
+    "oral_absorption_percent": "93 (ER no data)",
+    "tmax_hr": "Cap/chewtab/susp 0.5-1.0, ER tab 2.5",
+    "peak_serum_conc_ug_ml": "13 (500 mg po, SD), 8.4 (500 mg ER po, SD)",
+    "peak_urine_conc_ug_ml": "900 (500 mg po, SD)",
+    "protein_binding_percent": "22-25",
+    "volume_of_distribution_vd_l_kg_vf": "0.33 L/kg (V/F)",
+    "avg_serum_half_life_hr": "0.8",
+    "elimination": "Renal",
+    "bile_penetration_percent": ">60",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "20.5 (500 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Fexinidazole",
+          "effect": "↑ cefaclor",
+          "management": "Monitor or avoid"
+      }
+  ]
+}

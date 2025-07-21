@@ -1,0 +1,138 @@
+{
+  "documentMetadata": {
+    "title": "Wounds, Bites, Burns: Overview",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Wounds, Bites, Burns_ Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Wounds, Bites, Burns: Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use the specific topics links below for coverage of wounds, bites, burns and related prophylaxis."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wounds"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Post-Trauma: mild, moderate, severe",
+            "Post-Operative, Negative Gram Stain",
+            "Post-Operative, Positive Gram Stain",
+            "Puncture: e.g., nail"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Burns"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Non-Infected",
+            "Infected"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bites"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Alligator",
+            "Bat, raccoon, skunk",
+            "Bear",
+            "Camel",
+            "Cat",
+            "Catfish sting",
+            "Dog",
+            "Horse",
+            "Human",
+            "Komodo dragon",
+            "Leech (medicinal)",
+            "Pig",
+            "Prairie Dog",
+            "Monkey, primate",
+            "Rat",
+            "Seal",
+            "Snake, Venomous",
+            "Spider, Black widow, Brown recluse",
+            "Swan",
+            "Tasmanian devil"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Microbial toxins:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Staphylococcal Scalded Skin Syndrome (SSSS)",
+            "Toxic Shock Syndrome, Staphylococcal"
+          ]
+        }
+      ]
+    },
+    {
+      "type": 'nestedContent',
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Prophylaxis, Immunization"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rabies, Vaccines and PEP",
+            "Tetanus"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "See also"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mouth, Parapharyngeal space"
+          ]
+        }
+      ]
+    }
+  ]
+}

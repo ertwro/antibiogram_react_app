@@ -1,0 +1,171 @@
+{
+  "documentMetadata": {
+    "title": "Empiric Therapy of Septic Arthritis in Neonates (age < 3 months)",
+    "lastUpdated": "2024-02-15",
+    "sourceFile": "Arthritis, Septic, Infant.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy of septic arthritis in neonates (age < 3 months).",
+        "In General:",
+        "Infants with septic arthritis may present with fever and irritability; subtle symptoms such as pain with diaper change may be only signs. Pseudoparalysis can occur.",
+        "Treatment of septic arthritis requires both adequate drainage of purulent joint fluid and appropriate antimicrobial therapy.",
+        "Start empiric therapy after collection of blood and joint fluid for culture; review Gram stain of joint fluid.",
+        "MRI may be helpful to eliminate contiguous osteomyelitis",
+        "There is no need to inject antimicrobial agents into joints.",
+        "Blood cultures may be positive",
+        "PCR can be helpful in diagnosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Group B Strep",
+        "Staph. aureus",
+        "Enterobacteriaceae",
+        "Kingella kingae",
+        "N. gonorrhoeae",
+        "S pneumoniae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Cefazolin",
+            "dose": "100 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided q8h"
+          }
+        ],
+        "notes": "if prevalence of MRSA < 10-15%"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "MSSA"
+        },
+        "components": [
+          {
+            "drug": "Nafcillin",
+            "dose": "200 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided q6h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "150-200 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "where available"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "100 mg/kg/day"
+          }
+        ],
+        "notes": "not adequate for definitive therapy of Staph aureus"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "60-80 mg/kg",
+            "route": "IV",
+            "frequency": "divided 3-4 times a day"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "100 mg/kg/day",
+            "connector": "+"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "150-200 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided q8h",
+            "connector": "or"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred). Cefotaxime where available"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "30-40 mg/kg/day",
+            "frequency": "divided q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Narrow therapy once organism identified based on results of blood or joint fluid culture.",
+        "May transition to high dose oral therapy.",
+        "Duration not well defined for neonates but 3 weeks of therapy generally considered adequate."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Group B Streptococcus and Staph aureus are the most common community-acquired etiologies.",
+        "Cefazolin generally as effective as Nafcillin but fewer adverse events",
+        "Vancomycin: traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020",
+        "Blood cultures are frequently positive.",
+        "Adjacent bone is involved in 2/3 of patients. MRI helpful",
+        "Reference Infect Dis Clin North Am. 2015 Sep;29(3):557-74."
+      ]
+    }
+  ]
+}

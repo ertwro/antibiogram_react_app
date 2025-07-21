@@ -1,0 +1,100 @@
+{
+  "documentMetadata": {
+    "title": "Histoplasmosis, Pericarditis",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Histoplasmosis, Pericarditis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pericarditis associated with histoplasmosis in most cases is not due to direct infection but instead due to inflammation of adjacent mediastinal lymph nodes."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Histoplasma capsulatum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mild symptoms: Nonsteroidal anti-inflammatory drug (NSAID) therapy"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NSAID non-responders or hemodynamic compromise:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Prednisone",
+                "dose": "1 mg/kg",
+                "route": "po",
+                "frequency": "daily tapered over 1-2 weeks"
+              },
+              {
+                "drug": "Itraconazole",
+                "dose": "200 mg",
+                "route": "po",
+                "frequency": "3 times daily x 3 days and then twice daily x 6-12 weeks",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pericardial fluid removal for hemodynamic compromise"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA treatment guidelines: Clin Infect Dis 45:807, 2007."
+      ]
+    }
+  ]
+}

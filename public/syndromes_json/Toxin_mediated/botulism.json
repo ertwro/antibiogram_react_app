@@ -1,0 +1,210 @@
+
+{
+  "documentMetadata": {
+    "title": "Botulism",
+    "sourceFile": "Toxin_mediated/Botulism.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acute onset of paralytic disease from the botulina toxin produced by Clostridium botulinum and, less often, by C. baratii or C. butyricum. All are spore-forming anaerobic gram-positive rods. C. botulinum toxin is the world's most deadly toxin: 1 gm could kill 1 million people."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Five pathogenetic pathways to clinical botulism"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ingestion of preformed toxin causes food-borne botulism.",
+            "Infant botulism results from ingestion of spores that germinate in the intestinal tract. Although rare, a similar pathogenesis can occur in adults (Emerg Infect Dis 18:1, 2012).",
+            "Wound botulism results from spores deposited in wounds. Can be recurrent in injection drug users (Clin Infect Dis 52:862, 2011).",
+            "Adult enteric infectious botulism: similar to infant botulism. Toxin produced in the GI tract of the adult.",
+            "Inhalational botulism: aerosolization as in an act of bioterrorism."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Clinical syndrome is the same whether toxin is ingested, inhaled or injected. Toxin results in acute onset of bilateral cranial nerve palsies and descending symmetrical weakness."
+    },
+    {
+      "type": "differentialDiagnosis",
+      "differentialData": {
+        "conditions": [
+          {
+            "conditionName": "Miller-Fischer variant of Guillain-Barre"
+          },
+          {
+            "conditionName": "Myasthenia gravis"
+          },
+          {
+            "conditionName": "Eaton-Lambert paraneoplastic syndrome"
+          },
+          {
+            "conditionName": "Tick paralysis"
+          },
+          {
+            "conditionName": "Conversion disorder"
+          },
+          {
+            "conditionName": "Organophosphate insecticide poisoning"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Mouse bioassay",
+        "sampleType": "Patient's serum, suspect toxin source food, or tissue from wound debridement",
+        "interpretation": "Presence of toxin confirms diagnosis."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Electromyography (EMG)",
+        "interpretation": "Helpful in experienced hands: findings include neuromuscular junction blockage, normal axonal conduction, and potentiation with rapid repetitive stimulation. CSF findings are normal."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clostridium botulinum (most common)",
+        "C. baratii",
+        "C. butyricum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Adult and child > age 1 year"
+        },
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Heptavalent botulism equine serum antitoxin"
+          }
+        ],
+        "notes": "Obtain from State Health Department or contact CDC +1 404-639-2206 or +1 770-488-7100. Can give laxatives, enemas or other cathartics if no ileus present. Monitor vital capacity. May require mechanical ventilation."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Adult and child > age 1 year"
+        },
+        "strengthOfRecommendation": "Alternative",
+        "condition": "If wound botulism is suspected",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "3 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ],
+        "notes": "Unproven benefit. If penicillin-allergic, use Metronidazole."
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Surgical debridement of wound",
+        "notes": "Even if the wound appears benign."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "appliesTo": {
+          "description": "Adult and child > age 1 year"
+        },
+        "components": [
+          {
+            "drug": "Tetanus toxoid booster"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Infant"
+        },
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Human-derived botulinum immunoglobulin (Baby BIG)"
+          }
+        ],
+        "notes": "Call +1-510-231-7600. Do not use equine antitoxin for infants. Obtain from California Infant Botulism Treatment and Prevention Program, http://www.infantbotulism.org/. Antibiotics not recommended."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clinical review, see Clin Infect Dis 15;41(8):1167, 2005",
+        "Potential bioterrorism agent, see JAMA 285:1059, 2001.",
+        "75% of reported cases are infant botulism.",
+        "Injection drug users: Increase in wound botulism from use of black tar heroin (Frontiers in Pub Health 2021, 9:744179)",
+        "Hospitalization lasts 1-3 months.",
+        "Other source examples: tomato chili sauce, Clin Infect Dis 56:376, 2013; home-canned bamboo shoots, MMWR 55:389, 2006; prison-made illicit alcohol, MMWR 62:88, 2013."
+      ]
+    }
+  ]
+}

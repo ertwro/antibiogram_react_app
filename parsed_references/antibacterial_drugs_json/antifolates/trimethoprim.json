@@ -1,0 +1,135 @@
+{
+  "drug_name": "Trimethoprim",
+  "tradename": "Trimpex, Proloprim",
+  "usage_and_dosing": {
+    "general": [
+      "Trimethoprim is a synthetic antibacterial that blocks a key enzyme (dihydrofolate reductase) in the production of the metabolically active tetrahydrofolate form of folic acid. The step blocked is the step right after the site of action of sulfonamides.",
+      "Mechanism of resistance: Major mechanism is change in the target enzyme (dihydrofolate reductase) with resultant reduced inhibition by Trimethoprim.",
+      "Available in the U.S. as a single agent and in combination with Sulfamethoxazole (TMP-SMX). Trimethoprim is rarely used as a single agent, but can be useful in the sulfonamide-allergic or sulfonamide-intolerant patient.",
+      "Enterococci may appear susceptible in vitro but fail in clinical therapy of uncomplicated UTIs. Discordance due to some combination of ability of enterococci to utilize exogenous folates, urine pH, or urine osmolality.",
+      "Potential hyperkalemia, see adverse effects."
+    ],
+    "adult_dose": {
+      "usual_dose": "100 mg po q12h or 200 mg po q24h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "4 mg/kg/day (divided q12h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "8-15",
+    "half_life_esrd": "20-49",
+    "dose_renal_function_normal": "100-200 mg po q12h",
+    "crcl_or_egfr": "CrCl >30: No dosage adjustment. CrCl 10-30: 100-200 mg q18h. CrCl <10: 100-200 mg q24h",
+    "hemodialysis": "100-200 mg q24h (AD on dialysis days)",
+    "capd": "100-200 mg q24h",
+    "crrt": "100-200 mg q18h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "GI: nausea, vomiting, diarrhea; increased transaminases, cholestatic jaundice",
+    "Dermatitis: From benign rash in 3-7% at 200 mg/day to severe Stevens-Johnson syndrome, Sweet's syndrome or toxic epidermal necrosis.",
+    "Photosensitivity (alone or in combination with Sulfamethoxazole)",
+    "CNS: Drug fever, aseptic meningitis (rare).",
+    "Renal: ↑ K+, ↓ Na+, ↑ creatinine. Occurs as a result of the drug competing for secretion of K+ and creatinine by the cells of the proximal convoluted tubule (JAMA 314:2405, 2015).",
+    "ACE inhibitors can also cause hyperkalemia. Combination of ACE inhibitor and TMP should be avoided due to augmented risk of hyperkalemia and associated risk of sudden death due to cardiac arrhythmia (BMJ 349:g6196, 2014).",
+    "Hematologic: Neutropenia, thrombocytopenia, methemoglobinemia."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "May cause fetal harm. Avoid unless benefit outweighs risk. 10",
+    "lactation": "Milk concentrations are low. No adverse effects in breastfed infants are expected. 9",
+    "footnotes": {
+        "1": "Capital letter = Old FDA risk category; Text = New FDA risk category",
+        "9": "Source: LactMed",
+        "10": "Source: Manufacturer's prescribing information"
+    }
+  },
+  "antimicrobial_spectrum": {
+    "see_tmp_smx": true
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Tab (100 mg), Oral soln 50 mg/5 ml (not in US)",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "80",
+    "tmax_hr": "1-4",
+    "peak_serum_conc_ug_ml": "1 (100 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "44",
+    "volume_of_distribution_l_vf": "100-120 L (V/F)",
+    "avg_serum_half_life_hr": "8-15",
+    "elimination": "Renal",
+    "bile_penetration_percent": "100-200",
+    "csf_blood_percent": "50",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP2C8"],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "ACE inhibitors",
+          "effect": "↑ serum potassium",
+          "management": "Avoid combinatic"
+      },
+      {
+          "drug": "Amantadine",
+          "effect": "↑ amantadine",
+          "management": "Monitor, adjust dos"
+      },
+      {
+          "drug": "Dapsone",
+          "effect": "↑ trimethoprim, ↑ dapsone",
+          "management": "Monitor or avoic"
+      },
+      {
+          "drug": "Lamivudine",
+          "effect": "↑ lamivudine",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Methotrexate",
+          "effect": "↑ methotrexate",
+          "management": "Monitor, adjust dos"
+      },
+      {
+          "drug": "Phenytoin",
+          "effect": "↑ phenytoin",
+          "management": "Monitor, adjust dos"
+      },
+      {
+          "drug": "K+-sparing diuretics",
+          "effect": "↑ serum potassium",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Procainamide",
+          "effect": "↑ procainamide, ↑ NAPA",
+          "management": "Monitor, adjust dos"
+      },
+      {
+          "drug": "Repaglinide",
+          "effect": "↑ repaglinide",
+          "management": "Monitor blood gluc"
+      }
+  ],
+  "comments": [
+      "See adverse effects for potential risk of dangerous hyperkalemia."
+  ]
+}

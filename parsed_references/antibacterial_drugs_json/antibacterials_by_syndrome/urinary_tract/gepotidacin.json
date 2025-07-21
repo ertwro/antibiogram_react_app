@@ -1,0 +1,148 @@
+{
+  "drug_name": "Gepotidacin",
+  "tradename": "Blujepa",
+  "usage_and_dosing": {
+    "description": [
+      "Gepotidacin mesylate is a first-in-class, triazaacenaphthylene antibacterial that selectively inhibits bacterial DNA replication by interaction with the bacterial subunits of DNA gyrase and topoisomerase IV.",
+      "Indicated for the treatment of female patients ",
+      "12 years of age (weighing ",
+      "40 kg) with uncomplicated UTI caused by susceptible E. coli, K. pneumoniae, Citrobacter freundii complex, S. saprophyticus, and E. faecalis.",
+      "EAGLE-2 and EAGLE-3 randomized trials",
+      "Two large, randomized, multicenter, parallel group, double-blind, double-dummy, phase 3, non-inferiority studies comparing the efficacy and safety of gepotidacin (1500 mg bid x5 days) with nitrofurantoin (100 mg bid x5 days) in the treatment of uncomplicated UTI in women.",
+      "Primary endpoint: Therapeutic response at TOC visit (day 10-13), defined as combined clinical success (complete symptom resolution) and microbiological success (reduction of qualifying uropathogens to <103 CFU/mL) without other systemic antimicrobial use.",
+      "In EAGLE-2, the therapeutic success rate was 50.6% for gepotidacin and 47.0% for nitrofurantoin (adjusted difference 4.3%, 95% CI -3.6 to 12.1). In EAGLE-3, the therapeutic success rate was 58.5% for gepotidacin and 43.6% for nitrofurantoin (adjusted difference 14.6%, 95% CI 6.4 to 22.8). Statistically, non-inferiority of gepotidacin was demonstrated in both studies, and superiority in EAGLE-3.",
+      "The most common adverse event with gepotidacin was diarrhea (14% in EAGLE-2 and 18% in EAGLE-3), whereas the most common adverse event with nitrofurantoin was nausea (4% in both EAGLE-2 and EAGLE-3).",
+      "Reference: Lancet 2024;403(10428):741-755."
+    ],
+    "adult_dose": "1500 mg (two 750 mg tablets) po q12h x5 days.\nTake after a meal to improve Gl tolerance.",
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Age ",
+      "12 yrs, wt ",
+      "40 kg: Dose as adult\nAge <12 yrs or wt <40 kg: Safety and efficacy not established",
+      "max_day": "3 gm"
+    }
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "9.3",
+    "half_life_hrs_esrd": "No data",
+    "dose_renal_function_normal": "1500 mg po q12h x5 days",
+    "crcl_or_egfr": "CrCl ",
+    "30: No dosage adjustment\nCrCl <30: Avoid use",
+    "hemodialysis": "Avoid use",
+    "capd": "Avoid use",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_class_c": "Avoid use"
+  },
+  "adverse_effects": [
+    "Gastrointestinal",
+    "Diarrhea (most common adverse effect in EAGLE-2 and EAGLE-3)",
+    "Nausea",
+    "C. difficile infection",
+    "Hypersensitivity reactions, including anaphylaxis",
+    "Acetylcholinesterase inhibition (reversible).",
+    "Observed in clinical trials: dysarthria, presyncope, muscle spasms, diarrhea, N/V, abdominal pain, hypersalivation, hyperhidrosis.",
+    "Severe reactions: AV block, bradycardia, bronchospasm, seizures, vasovagal syncope",
+    "QTc prolongation (dose-dependent)"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data; ",
+    " fetal wt, ",
+    " fetal mortality in mice"
+  },
+  "antimicrobial_spectrum": {},
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Tab (750 mg)",
+    "food_rec_po_drugs": "Tab after food",
+    "oral_absorption_percent": "45",
+    "tmax_hr": "2",
+    "peak_serum_conc_ug_ml": "4.2 (1500 mg q12h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "25-41",
+    "volume_of_distribution_vd": "172.9 L (Vss)",
+    "avg_serum_t1_2_hr": "9.3",
+    "elimination": "Feces 52% (30% unchanged)\nUrine 31% (20% unchanged)",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "22.8 (1500 mg q12h, 0-12h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cy_p450s_that_drug_is_a_substrate_for": "CYP3A4",
+    "transporters_that_drug_is_a_substrate_for": "-",
+    "ug_ts_that_drug_is_a_substrate_for": "-",
+    "cy_p450s_inhibited_by_drug": "CYP3A4",
+    "transporters_inhibited_by_drug": "PGP",
+    "ug_ts_inhibited_by_drug": "-",
+    "cy_p450s_induced_by_drug": "-",
+    "transporters_induced_by_drug": "-",
+    "ug_ts_induced_by_drug": "-",
+    "impact_on_serum_drug_concentrations": "
+"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Anticholinergic drugs (e.g., benztropine)",
+      "effect_on_concentration": "Antagonistic effect",
+      "suggested_management": "Monitor, avoid if possible"
+    },
+    {
+      "drug": "CYP3A4 inducers (strong)",
+      "effect_on_concentration": "
+      " gepotidacin",
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "CYP3A4 inhibitors (strong)",
+      "effect_on_concentration": "
+      " gepotidacin",
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "CYP3A4 substrates (w/narrow therapeutic index)",
+      "effect_on_concentration": "
+      "CYP3A4 substrate",
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "Digoxin",
+      "effect_on_concentration": "
+      " digoxin",
+      "suggested_management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Donepezil (and other AChE inhibitors)",
+      "effect_on_concentration": "Excessive cholinergic effects",
+      "suggested_management": "Monitor"
+    },
+    {
+      "drug": "Drugs that prolong the QTc interval",
+      "effect_on_concentration": "Enhanced QTc prolongation",
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "Succinylcholine (and similar drugs)",
+      "effect_on_concentration": "Exaggerated neuromuscular blockade",
+      "suggested_management": "Monitor"
+    },
+    {
+      "drug": "Vecuronium (and similar drugs)",
+      "effect_on_concentration": "Antagonistic effect",
+      "suggested_management": "Monitor, avoid if possible"
+    }
+  ],
+  "comments": []
+}

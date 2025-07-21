@@ -1,0 +1,167 @@
+
+{
+  "documentMetadata": {
+    "title": "Tick-borne Illness, Overview",
+    "sourceFile": "Tick-borne Illness, Overview.pdf",
+    "lastUpdated": "2024-07-13"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Features"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Overview of tick-borne illnesses commonly seen in the U.S.",
+        "Comparison of clinical features of 3 infections transmitted by Ixodes species ticks (in the U.S.) (images below)",
+        "Concomitant infections with two, or even three, of the 3 pathogens can occur: e.g. Lyme + Babesia or Lyme + Anaplasmosis (HGA)",
+        "Ixodes sp. ticks are also the vector for a cause of relapsing fever (Borrelia miyamoto) and a tick borne encephalitis (Powassan disease). Relapsing fever is also caused by other species of ticks, e.g., soft ticks.",
+        "In Europe and Asia, Ixodes ticks are the vector for other diseases, including tick-borne encephalitis (TBE).",
+        "See Tick-Borne Encephalitis, Vaccines for indications, available products, dosing, and vaccine characteristics for pre-exposure prevention.",
+        "Emerging: Neoehrlichia mikurensis."
+      ]
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": [
+          "Disease",
+          "Lyme",
+          "Anaplasmosis",
+          "Babesiosis"
+        ],
+        "rows": [
+          [
+            "Etiology",
+            "Borrelia burgdorferi (spirochetes)",
+            "Anaplasma phagocytophilum (intracellular bacteria)",
+            "Babesia microti (protozoa)"
+          ],
+          [
+            "Rash",
+            "Yes (E. migrans)",
+            "Yes (uncommon)",
+            "No"
+          ],
+          [
+            "Lab Abnormalities",
+            "Leukopenia & thrombocytopenia are rare",
+            "Thrombocytopenia & neutropenia",
+            "Thrombocytopenia, hemolytic anemia"
+          ],
+          [
+            "Diagnosis",
+            "Early: clinical Late: Antibody & Western blot",
+            "Peripheral smear, IFA, PCR",
+            "Invader: RBCs (Ginesa-stained blood smear), antibody, PCR"
+          ],
+          [
+            "Treatment",
+            "Early: Doxycycline Late: Ceftriaxone",
+            "Doxycycline or Tetracycline",
+            "Mild: Atovaquone (po) + Azithromycin (po) Severe: Clindamycin (IV) + Quinine (po)"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lyme: see Lyme Disease, Diagnosis.",
+        "Multiplex antibody test for 8 tick borne infections: Anaplasma, Babesia, Borrelia burgdorferi, Borellia miyamotoi, Ehrlichia, Ricketsia rickettsi, Heartland virus, and Powassan virus (Sci Rep 8:3158, 2018).",
+        "Ref: Multiplex PCR tests for tick-borne illnesses in children: Open Forum Infect Dis. 2023, 10:ofad121."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Topics Links"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See CDC geographic distribution of tick-borne disease.",
+        "Tickborne diseases/pathogens acquired in the United states as per the CDC in alphabetical order:",
+        "Anaplasmosis [Anaplasma (Ehrlichia) phagocytophilum]",
+        "Babesiosis (Protozoan)",
+        "Relapsing fever (Borrelia miyamotoi and Borrelia mayonii): spirochetes (Am J Med. 2019; 132:136))",
+        "Bourbon virus ?",
+        "Colorado tick fever virus",
+        "Crimean-Congo Hemorrhagic Fever Virus",
+        "Ehrlichiosis (E. chaffeensis, E. wingii, E. muris-like)",
+        "Fever with thrombocytopenia virus",
+        "Heartland virus: Similar geography as Ehrlichia chaffeensis (Human monocytic ehrlichiosis)",
+        "Lyme Disease Overview",
+        "Powassan disease virus (New Engl J Med. 2019; 380: 380)",
+        "Rickettsia parkeri: Rickettsia (see Rickettsia, Not spotted fever Group)",
+        "Rocky Mountain spotted fever: Rickettsia",
+        "Southern tick-associated rash illness",
+        "Tick-borne relapsing fever: Spirochetes",
+        "Tularemia: Francisella tularensis bacteria",
+        "364D rickettsiosis (Eschar-associated illness in California: Clin Infect Dis 50:541, 2010)",
+        "Tick-borne illnesses acquired in other parts of the world (non-U.S.):",
+        "Neoehrlichia mikurensis (emerging - mostly EU, possibly Asia)",
+        "Tick transmitted organisms visible in peripheral blood smear:",
+        "In cytoplasm of Neutrophils: Anaplasmosis (HGA)",
+        "In cytoplasm of Monocytes: Ehhlichiosis",
+        "In erythrocytes: Babesia",
+        "In plasma: Borrelia: Relapsing fever"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Tick Gallery"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Images and associated disease(s)."
+      ]
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": [
+          "Species",
+          "Image (Ref: CDC, WHO)",
+          "Associated Diseases"
+        ],
+        "rows": [
+          [
+            "Lone Star Tick (Amblyomma americanum)",
+            "Adult: [Image]",
+            "Ehrlichiosis Tularemia Babesiosis Rickettsiosis Heartland virus disease Southern tick-associated rash illness"
+          ],
+          [
+            "Deer Tick, Black Legged Tick (Ixodes scapularis)",
+            "Adult: [Image] Nymphal stage: [Image] Various stages: [Image] Black legged: [Image]",
+            "Anaplasmosis Tularemia Babesiosis Lyme disease Borrelia miyamotoi Powassan virus"
+          ],
+          [
+            "American Dog Tick (Dermacentor variabilis)",
+            "Male, Female, Larva, Nymph, Adult: [Image] Female: [Image] Male: [Image]",
+            "Rocky Mountain Spotted Fever Tularemia"
+          ],
+          [
+            "Brown Dog Tick (Rhipicephalus sanguineus)",
+            "[Image]",
+            "Rocky Mountain Spotted Fever"
+          ],
+          [
+            "Gulf Coast Tick (Amblyomma maculatum)",
+            "[Image]",
+            "Rickettsia parkeri"
+          ]
+        ]
+      }
+    }
+  ]
+}

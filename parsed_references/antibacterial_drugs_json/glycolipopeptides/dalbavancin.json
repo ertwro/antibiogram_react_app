@@ -1,0 +1,112 @@
+{
+  "drug_name": "Dalbavancin",
+  "tradename": "Dalvance, Xydalba",
+  "usage_and_dosing": {
+    "general": [
+      "Dalbavancin is a long-acting parenteral lipoglycopeptide antibiotic.",
+      "Approved for acute skin and skin structure infections.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "If unable to directly test susceptibility, in vitro susceptibility to vancomycin is acceptable as a surrogate (Diagnostic Microbiol Infect Dis 2015;82:73).",
+      "Dalbavancin shown active in vitro and in clinical infections due to:",
+      "Staphylococcus aureus: MSSA and MRSA",
+      "Streptococcus pyogenes",
+      "Streptococcus agalactiae (Group B Strep.)",
+      "Streptococcus dysgalactiae",
+      "Streptococcus anginosus group",
+      "Vancomycin-susceptible Enterococcus faecalis",
+      "Also active in vitro against:",
+      "Enterococcus faecium (Vancomycin-susceptible strains only)",
+      "Vancomycin-intermediate Staph. aureus (not active vs. Vancomycin-resistant strains)",
+      "Once weekly dosing regimen may be a useful alternative for outpatient parenteral therapy (see Comments).",
+      "Prepare infusions in D5W only. Do not add to normal saline (drug may precipitate out of solution)."
+    ],
+    "adult_dose": {
+        "skin_and_skin_structure": {
+            "two_dose_regimen": "Originally approved as a two-dose regimen: 1000 mg IV once, followed in one week by a dose of 500 mg IV.",
+            "single_dose_regimen": "Later approved as a single dose of 1500 mg IV; shown non-inferior to the 2-dose regimen (Clin Infect Dis 62:545, 2016).",
+            "infusion": "Infuse doses over 30 minutes."
+        },
+        "infective_endocarditis": {
+            "sequential_therapy": "If used as sequential therapy for infective endocarditis:",
+            "options": [
+                "Loading dose of 1000 mg IV on day 1, then 500 mg IV once weekly, OR",
+                "Loading dose of 1500 mg IV on day 1, then 1000 mg IV every 2 weeks."
+            ],
+            "infusion": "Infuse doses over 30 minutes."
+        }
+    },
+    "pediatric_dose": {
+      "crcl_ge_30": {
+        "age_0_to_lt_6_yrs": "22.5 mg/kg x1 dose",
+        "age_6_to_lt_18_yrs": "18 mg/kg x1 dose"
+      },
+      "crcl_lt_30": "Not recommended",
+      "max_day": "1500 mg"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "147-258 (terminal)",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "1 gm IV x1 then 500 mg IV in 7 days, OR 1.5 gm IV x1",
+    "crcl_or_egfr": {
+        "ge_30": "No dosage adjustment",
+        "lt_30_no_hd": "750 mg x1 then 375 mg in 7 days, OR 1125 mg x1"
+    },
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No data, use caution",
+    "severe_impairment_child_pugh_c": "No data, use caution"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments table."
+  ],
+  "adverse_effects": [
+    "Common (>2%): nausea (5.5%), headache (4.7%), diarrhea (4.4%), rash (2.7%), pruritus (2.1%).",
+    "Uncommon (<2%): C. difficile, candidiasis, cytopenias, anaphylactoid reaction, dizziness, bronchospasm, urticaria, eosinophilia, elevated INR, hepatic enzymes; hypoglycemia.",
+    "Flushing, urticaria, and pruritus (similar to vancomycin histamine release syndrome) can occur with rapid infusion. Stopping or slowing the infusion may result in cessation of the reaction.",
+    "ALT elevations > 3x upper limit of normal (0.8%).",
+    "Does not prolong QT interval."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data. Toxic in rats at 3.5x human exposure.",
+    "lactation": "Probably safe with monitoring, but no data available",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "280-300 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "93-98",
+    "volume_of_distribution_vd_l_kg": "0.11 L/kg (Drugs 2010;70:859)",
+    "avg_serum_half_life_hr": "147-258 (terminal)",
+    "elimination": "Renal, fecal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "23443 (1 gm IV, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "None known"
+  ],
+  "comments": [
+      "Extended terminal half-life of this agent allows treatment with two intravenous doses, spaced one week apart, or a single intravenous dose, for treatment of acute bacterial skin and skin structure infections (FDA approved indication).",
+      "Emerging interest in use, instead of vancomycin, for outpatient parenteral antimicrobial therapy (OPAT) of susceptible organisms causing SSSIs or infective endocarditis due to susceptible organisms.",
+      "No controlled clinical trials",
+      "Ref.: Infect Dis Ther 2019;8:171",
+      "Dalbavancin is active in vitro vs. Vancomycin-susceptible E. faecium and E. faecalis and is approved for skin and skin structure infections due to the latter.",
+      "Caution is advised in patients with history of allergy to other glycopeptide antibiotics because likelihood of cross-sensitivity is unknown."
+  ]
+}

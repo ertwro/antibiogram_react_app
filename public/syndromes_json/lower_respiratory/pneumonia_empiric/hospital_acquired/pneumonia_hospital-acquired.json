@@ -1,0 +1,261 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Hospital-Acquired",
+    "sourceFile": "Pneumonia, Hospital-Acquired.pdf",
+    "lastUpdated": "2025-01-08"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy for hospital-acquired pneumonia.",
+        "Pneumonia with onset 48 hours after hospital admission.",
+        "Recommendations based on 2016 IDSA treatment guidelines (Clin Infect Dis 63:e61, 2016).",
+        "Often associated with patients on mechanical ventilation (see ventilator-associated pneumonia for specific treatment recommendations)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Early-onset: <5 days in the hospital, no other risk factors for multidrug-resistant (MDR) organisms",
+        "Strep. pneumoniae",
+        "Staph. aureus",
+        "H. influenzae",
+        "Enteric gram-negative bacilli",
+        "Late-onset: >5 days in the hospital, risk factors for MDR organisms present",
+        "Staph. aureus (often MRSA)",
+        "Gram-negative enterics often multi-drug resistant (MDR). The following (ESKAPE) pathogens were etiology in nearly 80% of patients: Curr Opin Pulm Med 20:252, 2014.",
+        "Escherichia coli",
+        "Serratia marcescens",
+        "Klebsiella pneumoniae",
+        "Acinetobacter baumannii",
+        "Pseudomonas aeruginosa",
+        "Enterobacter sp.",
+        "Possible role of viruses",
+        "In non-ventilated hospital acquired pneumonia, film array multiplex PCR detected respiratory virus (rhinovirus, influenza, parainfluenza most often) in 22.4%. Unclear whether concomitant bacterial infection: Respiratory Medicine 2017;122:76",
+        "In study of patients with ventilator-associated pneumonia, 22.5% had respiratory virus (RSV or parainfluenza) in the airway: Am J Respir Crit Care Med 2012;186:325."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Low risk of MRSA (prevalence <10-20%), no risk factors for MDR pathogens"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "(over 4 hr) (see drug page for comment on loading dose)"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV/po",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "for suspected MRSA (i.e., MDR risk factor, known prior MRSA infection or colonization or positive NAAT)",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "More severe disease, i.e., sepsis, hypotension, rapid progression of infiltrates on chest radiograph indicating high risk of mortality; MDR risk factor, MRSA prevalence >10-20%"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h",
+                "connector": "+"
+              },
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "(over 4 hr)",
+                "connector": "or"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "1 gm",
+                "frequency": "q8h"
+              }
+            ],
+            "notes": "See pip-tazo drug page for comment on loading dose."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "If Legionella suspected",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "po/IV",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "If Pseudomonas suspected, high risk of mortality, or MDR Gram-negative suspected",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Tobramycin",
+                "dose": "5-7 mg/kg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Amikacin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ],
+            "notes": "to increase likelihood that at least one drug will be active"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Linezolid 600 mg IV q12h can be substituted for Vancomycin.",
+        "Aztreonam 2 gm IV q8h instead of cefepime, piperacillin-tazobactam, or meropenem for patients with hypersensitivity to beta-lactams, however, unlike these other agents aztreonam is not active against Gram-positive organisms, S. aureus in particular and should add vancomycin pending culture results.",
+        "Ceftolozane-tazobactam 3 g IV q8h covers pseudomonas and ESBL-producing Enterobacteriaceae (Lancet Infect Dis 2019 Dec;19(12):1299-1311).",
+        "For suspected carbapenem-resistant Enterobacterales infection: can substitute Ceftazidime-avibactam 2.5 gm IV infused over 2 hours q 8h for Cefepime, Piperacillin-tazobactam or Meropenem (does not cover metallo-beta-lactamase producing organisms)",
+        "Imipenem-cilastatin-relebactam 1.25 gm IV infused over 30 minutes q6h or Meropenem-vaborbactam 4 gm IV infused over 3 hr q8h are also options (neither agent covers metallo-beta-lactamase producing organisms).",
+        "For more detail information on multiple-drug resistant Gram-negatives click here"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If S. aureus nares screen is negative for MRSA no need to empirically cover for MRSA, and if coverage initiated, de-escalation is safe with a negative predictive value of 96.1% (Clin Infect Dis 2019 Oct 1. pii: ciz974. doi: 10.1093/cid/ciz974).",
+        "Duration of therapy",
+        "In general treat for 7-8 days",
+        "Whether a longer duration of therapy should be used for pneumonia caused by non-fermenting organisms (e.g., Pseudomonas aeruginosa) or multiple-drug resistant Gram-negatives continues to be debated (See Clin Infect Disease 2023; 76:745 and Clin Infect Dis 2023; 76:750).",
+        "Longer durations of therapy, e.g., 10-14 days, may be appropriate in certain circumstances:",
+        "Infections caused by more resistant pathogens (e.g., Pseudomonas, Acinetobacter, Stenotrophomonas, or other multidrug-resistant pathogens), particularly in patients with underlying ARDS or significant structural lung disease",
+        "Severely immunocompromised hosts (e.g. recent organ transplantation or treatment for rejection within 3 months, congenital immunodeficiency, etc.).",
+        "Presence of complications such as bacteremia (e.g., MRSA or MSSA pneumonia with bacteremia probably should be treated for 4 weeks) or empyema.",
+        "Delayed improvement of clinical, radiologic, and/or laboratory parameters.",
+        "Alternatively, can trend serum procalcitonin levels"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Risk factors for MDR organisms:",
+        "Antimicrobial therapy in preceding 90 days. Current hospitalization of 5 days or more.",
+        "Septic shock at time of VAP",
+        "Acute renal replacement therapy prior to onset of VAP.",
+        "Antibiotic resistance prevalent in the community or specific hospital unit",
+        "The empiric regimen of choice may vary based on local prevalence and susceptibility of pathogens, known prior colonization with MDR organisms, prior treatment history, severity of illness.",
+        "Improved outcome when at least one agent is active in vitro against the responsible pathogen; if MDR pathogens are suspected, initial coverage should be broad and then narrowed once culture and susceptibility results become available.",
+        "2016 IDSA Guidelines: Clin Infect Dis 63:e61, 2016 (full manuscript); executive summary: Clin Infect Dis 63:575, 2016.",
+        "2017 European Guidelines: (Eur Respir J 2017; 50: 1700582)"
+      ]
+    }
+  ]
+}

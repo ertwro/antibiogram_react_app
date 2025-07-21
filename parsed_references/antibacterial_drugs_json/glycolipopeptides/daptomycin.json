@@ -1,0 +1,140 @@
+{
+  "drug_name": "Daptomycin",
+  "tradename": "Cubicin",
+  "usage_and_dosing": {
+    "general": [
+      "Daptomycin is a novel lipopeptide effective in the treatment of gram-positive organisms, e.g., Staph. aureus, enterococci and streptococci. Active vs. MRSA and VRE.",
+      "Approved (FDA) for complicated skin and soft tissue infections (cSSSI) caused by gram-positive cocci, Staph. aureus bacteremia and right-sided Staph. aureus endocarditis.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Do not use for primary pneumonia: inactivated by pulmonary surfactant"
+    ],
+    "formulation_differences": {
+        "powdered_vs_original": {
+            "storage": "Unreconstituted powder can be stored at room temperature (original formulation requires refrigeration).",
+            "preparation": "Quicker and easier to prepare the injection/infusion solution from the powder.",
+            "reconstitution_diluent": "Reconstitution diluent is sterile water, not normal saline.",
+            "stability": "Reconstituted injection/infusion solution has better stability, both at room temperature or if refrigerated.",
+            "reference": "Drug Des Devel Ther 2018;12:1953."
+        },
+        "original_compatibility": "Original formulation is compatible with normal saline and lactated Ringer's but not dextrose-containing diluent. RF formulation is compatible with normal saline."
+    },
+    "resistance": {
+        "review": "J Antimicrob Chemother 2018;73:1",
+        "staph_aureus": "Daptomycin resistance to Staph. aureus can occur de novo, after or during Vancomycin therapy, or after or during Daptomycin therapy (N Engl J Med 355; 653, 2006; Clin Infect Dis 50 (Suppl 1):S10, 2010).",
+        "mechanism": "At least one mechanism is addition of a lysine to the cell surface with a resulting increase in positive charge that repulses the positively charged Daptomycin (Antimicrob Agts Chemother 55:2018, 2011).",
+        "seesaw_effect": "Daptomycin resistant strains of MRSA demonstrate a \"seesaw\" effect with selected other drugs; MICs for other drugs (e.g., oxacillin) decrease while daptomycin MIC increases.",
+        "combination_therapy": {
+            "in_vitro": "Daptomycin resistant MRSA demonstrated in vitro cidal activity vs. MRSA when combined with TMP/SMX or B-lactam (Antimicrob Agts Chemother 54:5187, 2010; Antimicrob Agts Chemother 56:6192, 2012).",
+            "case_reports": "Case reports and small series show clearance of MRSA bacteremia and clinical improvement with combination daptomycin and B-lactam (nafcillin, ceftaroline) or TMP/SMX (Clin Infect Dis 53:158, 2011, Antimicrob Agts Chemother 56:5709, 2012; Antimicrob Agts Chemother 56:5990, 2012).",
+            "pilot_study": "Pilot study of daptomycin + ceftaroline versus vancomycin was halted prematurely due to a mortality imbalance in favor of the combination; numerous study design and conduct issues were raised; prospective study needed (Antimicrob Agts Chemother 63(5): e02483-18, 2019; Antimicrob Agents Chemother. 2019 Oct 22;63(11):e00900-19)"
+        }
+    },
+    "allergy": "Protocol for Daptomycin Desensitization."
+  },
+  "adult_dose": {
+      "skin_soft_tissue_infection": {
+          "dose": "4-6 mg/kg IV q24h",
+          "administration": "Administer as a bolus injection over 2 minutes, or by short infusion over 30 minutes",
+          "recommendation": "Many clinicians recommend 6 mg/kg IV q24h for all patients"
+      },
+      "bacteremia_endocarditis": {
+          "details": "Refer to these pages for details:",
+          "links": [
+              "S. aureus bacteremia",
+              "S. aureus endocarditis",
+              "Enterococcal endocarditis"
+          ]
+      }
+  },
+  "pediatric_dose": {
+      "csssi": {
+          "age_12_17_yrs": "5 mg/kg (over 30 min) q24h",
+          "age_7_11_yrs": "7 mg/kg (over 30 min) q24h",
+          "age_2_6_yrs": "9 mg/kg (over 60 min) q24h",
+          "age_1_to_lt_2_yrs": "10 mg/kg (over 60 min) q24h",
+          "duration": "≤14 days"
+      },
+      "s_aureus_bacteremia": {
+            "age_12_17_yrs": "7 mg/kg (over 30 min) q24h",
+            "age_7_11_yrs": "9 mg/kg (over 30 min) q24h",
+            "age_1_6_yrs": "12 mg/kg (over 60 min) q24h",
+            "duration": "≤42 days"
+      }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "8-9",
+    "half_life_esrd": "30",
+    "dose_renal_function_normal": "6-10 mg/kg IV q24h",
+    "crcl_or_egfr": "CrCl ≥30: No dosage adjustment. CrCl <30: 6-10 mg/kg q48h",
+    "hemodialysis": "6-10 mg/kg q48h (AD); if next planned dialysis is 72 hrs away, give 9-15 mg/kg 26",
+    "capd": "6-10 mg/kg q48h",
+    "crrt": "6-8 mg/kg q24h 27",
+    "sled": "6 mg/kg q24h (post-SLED). Consider higher doses (8-12 mg/kg) for severe infection. 53"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": {
+      "myopathy": "Myopathy, more frequent at higher exposure. Suggest weekly CPK for muscle pain or weakness; discontinue Daptomycin if CPK exceeds 5x normal level in presence of symptoms or 10x upper limits of normal without symptoms of myopathy. For association with statin use see meta-analysis (Clin Infect Dis.2022; 75:1416). Manufacturer suggests stopping statins during Daptomycin therapy.",
+      "statin_interaction": "In retrospective, matched case-control study, statin co-administration was associated with myopathy in 4.2% of 3042 daptomycin exposed patients; rhabdomyolysis in 0.8%. Suggestion to monitor CPK during daptomycin therapy in the presence of concomitant statin administration (Clin Infect Dis 2018; 67:1356).",
+      "treatment_stopped": "Overall treatment stopped due to adverse effects in 2.8%.",
+      "other": "Other: local phlebitis (6%), fever (2%), rash (4%), nausea/vomiting (6.3%), diarrhea (5%), C. difficile colitis, increased BUN, Creatinine (rare), headache (5%).",
+      "eosinophilic_pneumonia": "Reports of drug-induced eosinophilic pneumonia (Clin Infect Dis 50:737, 2010), most often after 2-4 weeks of therapy and can recur.",
+      "thrombocytopenia": "Case report of severe immune thrombocytopenia (Antimicrob Agts Chemother 56:6430, 2012). Rare case of neutropenia after 10 weeks of therapy (Clin Infect Dis 56:1353, 2013).",
+      "prothrombin_time": "Daptomycin interacts with reagents used to measure prothrombin times with subsequent artifactual prolongation (Blood Coag & Fibrinolysis 19:32, 2008)."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "B",
+    "lactation": "Probably safe with monitoring, but data limited",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Staphylococcus aureus, methicillin-resistant, (MRSA)",
+        "Staphylococcus epidermidis, methicillin-resistant (MRSE)",
+        "Staphylococcus sp., coagulase-negative (Methicillin resistant); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "57.8-183.7 (4-12 mg/kg IV q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "92",
+    "volume_of_distribution_vd_l_kg_vss": "0.1 L/kg (Vss)",
+    "avg_serum_half_life_hr": "8-9",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "0-8",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "494-1277 (4-12 mg/kg IV q24h, 0-24 hr)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "HMG-CoA inhibitors (statins)",
+          "effect": "Myopathy",
+          "management": "Consider stopping statin while on Dapt"
+      }
+  ],
+  "comments": [
+      "Clinical trials:",
+      "Daptomycin vs. Ceftriaxone for community-acquired pneumonia (CAP), significant failure to eradicate S. pneumoniae and a trend of increase in failures for Staph. aureus eradication (Clin Infect Dis 46:1142, 2008).",
+      "In animal models, Daptomycin failed vs. S. pneumoniae but efficacy vs. haematogenous Staph. aureus pneumonia; Daptomycin inactivated by surfactant (J Infect Dis 191:2149, 2005). In theory, less functional surfactant with necrotizing Staph. aureus pneumonia. Results of the Daptomycin vs. Vancomycin trial support this interpretation; patients with right-sided endocarditis and haematogenous pneumonia were non-inferior to Vancomycin (N Engl J Med 355:653, 2006).",
+      "Caution: case report of a patient that developed Staph. aureus pneumonia while receiving Daptomycin at 10 mg/kg/day (Clin Infect Dis 49:1286, 2009).",
+      "Support for higher doses:",
+      "Well-tolerated in healthy volunteers at doses up to 12 mg/kg q24h x 14 days (Antimicrob Agents Chemother 50:3245, 2006) and in patients given mean dose of 8 mg/kg/day (Clin Infect Dis 49:177, 2009).",
+      "Two case series of high dose Daptomycin for right and left sided endocarditis. Mostly Staph. aureus. Daptomycin doses between 9 and 10 mg/kg/day as single dose. No muscle or renal toxicity reported (J Antimicrob Chemother 68:2921, 2013; Antimicrob Ag Chemother 57:6213, 2013).",
+      "In large retrospective VA study of patients with bacteremia due to vancomycin-resistant enterococci, improved survival and microbiologic cure with once daily doses of ≥ 10 mg/kg/day. No evidence of muscle injury (Clin Infect Dis 2017; 64:605)",
+      "Resistance observed during daptomycin therapy in Staph. aureus bacteremia study and numerous subsequent studies (N Engl J Med 355:653, 2006). Repeat MICs and evaluate for undrained source(s) in patients with positive follow-up cultures for S. aureus."
+  ]
+}

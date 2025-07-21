@@ -1,0 +1,51 @@
+{
+  "name": "Bite, Alligator, Crocodile",
+  "summary": "This document provides guidelines for the management of bite wounds from alligators and crocodiles, which are largely similar. It covers the typical pathogens involved, and primary and alternative treatment regimens for severe wounds.",
+  "description": "The document emphasizes surgical debridement as a critical component of managing these severe bite wounds. It outlines antibiotic regimens that cover the expected polymicrobial flora, including Aeromonas, Vibrio, and anaerobes. Tetanus prophylaxis is also a key consideration.",
+  "syndromes": [
+    {
+      "name": "Alligator or Crocodile Bite Wound",
+      "description": "A severe wound resulting from the bite of an alligator or crocodile, requiring immediate medical attention."
+    }
+  ],
+  "special_considerations": [
+    "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose.",
+    "Surgical debridement is a primary component of treatment for severe wounds."
+  ],
+  "pathogens": [
+    {
+      "name": "Aeromonas hydrophila",
+      "summary": "A common pathogen in alligator and crocodile bites."
+    },
+    {
+      "name": "Pantoea agglomerans",
+      "summary": "Formerly known as Enterobacter agglomerans, this is another potential pathogen."
+    },
+    {
+      "name": "Vibrio spp.",
+      "summary": "Vibrio species are also a concern in these types of wounds."
+    },
+    {
+      "name": "Citrobacter spp.",
+      "summary": "Citrobacter species may be involved in infections from these bites."
+    },
+    {
+      "name": "Clostridium perfringens and other anaerobes",
+      "summary": "Anaerobic bacteria, including Clostridium perfringens, are part of the typical wound flora."
+    }
+  ],
+  "references": [
+    {
+      "title": "Oral flora of American alligator",
+      "url": "Southern Med J 82:262, 1989"
+    },
+    {
+      "title": "Crocodile bites in Malawi, microbiology and management",
+      "url": "Malawi Med Journal 21:29 2009"
+    },
+    {
+      "title": "Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America",
+      "url": "Clinical Infectious Diseases 2014;59(2):e10-5"
+    }
+  ]
+}

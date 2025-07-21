@@ -344,47 +344,42 @@ const LandingPage = ({ onSelectSection }) => {
                         </div>
                     </div>
 
-                    {/* Syndromes Section - Under Construction */}
-                    <div className="bg-gray-100 rounded-2xl shadow-lg border border-gray-300 p-8 opacity-75 relative">
+                    {/* Syndromes Section - Fully Functional */}
+                    <div 
+                        onClick={() => onSelectSection('syndromes')}
+                        className="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 hover:shadow-xl transition-all duration-300 cursor-pointer group"
+                    >
                         <div className="text-center">
-                            <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <span className="text-4xl">🚧</span>
+                            <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-200 transition-colors">
+                                <span className="text-4xl">📋</span>
                             </div>
-                            <h2 className="text-2xl font-bold text-gray-600 mb-4">
-                                Guía de Síndromes
+                            <h2 className="text-2xl font-bold text-slate-900 mb-4">
+                                Guía Clínica de Síndromes
                             </h2>
-                            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
-                                <p className="text-yellow-800 font-semibold text-sm mb-2">
-                                    🔨 En Construcción
-                                </p>
-                                <p className="text-yellow-700 text-sm">
-                                    Esta sección estará disponible próximamente con atlas epidemiológico completo.
-                                </p>
-                            </div>
-                            <p className="text-gray-500 mb-6">
-                                Atlas epidemiológico de resistencia antimicrobiana en Colombia. 
-                                Datos actualizados de vigilancia nacional, perfiles de patógenos y tendencias críticas.
+                            <p className="text-slate-600 mb-6">
+                                Base de datos integral de síndromes infecciosos con protocolos de tratamiento basados en evidencia. 
+                                Más de 450 síndromes clínicos con regímenes detallados y recomendaciones de stewardship.
                             </p>
-                            <div className="space-y-2 text-sm text-gray-400 text-left">
+                            <div className="space-y-2 text-sm text-slate-500 text-left">
                                 <div className="flex items-center">
-                                    <span className="w-2 h-2 bg-gray-400 rounded-full mr-3"></span>
-                                    <span>Panorama nacional de RAM</span>
+                                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    <span>453 síndromes infecciosos categorizados</span>
                                 </div>
                                 <div className="flex items-center">
-                                    <span className="w-2 h-2 bg-gray-400 rounded-full mr-3"></span>
-                                    <span>Perfiles de resistencia por patógeno</span>
+                                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    <span>Protocolos de tratamiento detallados</span>
                                 </div>
                                 <div className="flex items-center">
-                                    <span className="w-2 h-2 bg-gray-400 rounded-full mr-3"></span>
-                                    <span>Triangulación de datos de vigilancia</span>
+                                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    <span>Búsqueda avanzada por categoría y patógeno</span>
                                 </div>
                                 <div className="flex items-center">
-                                    <span className="w-2 h-2 bg-gray-400 rounded-full mr-3"></span>
-                                    <span>Resistencia cruzada y fenotipos</span>
+                                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    <span>Dosificación y duración basada en evidencia</span>
                                 </div>
                             </div>
-                            <button className="mt-6 w-full bg-gray-400 text-white py-3 px-6 rounded-lg font-semibold cursor-not-allowed" disabled>
-                                Próximamente Disponible
+                            <button className="mt-6 w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                                Explorar Guía de Síndromes
                             </button>
                         </div>
                     </div>

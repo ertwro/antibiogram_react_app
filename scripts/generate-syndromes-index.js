@@ -125,7 +125,7 @@ function generateIndexFile() {
         
         return `  '${id}': {
     id: '${id}',
-    filePath: './syndromes_json/${file.replace(/\\/g, '/')}',
+    filePath: '/antibiogram_react_app/syndromes_json/${file.replace(/\\/g, '/')}',
     category: '${category}',
     subcategory: ${subcategory ? `'${subcategory}'` : 'null'},
     filename: '${filename}',

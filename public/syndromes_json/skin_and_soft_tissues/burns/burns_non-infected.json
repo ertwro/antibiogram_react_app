@@ -1,0 +1,100 @@
+{
+    "documentMetadata": {
+        "title": "Burns, Non-Infected",
+        "sourceFile": "Burns, Non-Infected.pdf",
+        "lastUpdated": "2022-01-25"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Initial care and management of non-infected burn wounds.",
+                "For overall approach to burn wound management, including step-by-step explanation, see ISBI Guidelines: Burns 2016;42:953 and New Engl J Med. 2019;380:2349",
+                "Goal is to prevent infection. For review of topical agents see: Clin Plastic Surg 36:597, 2009.",
+                "Don't forget tetanus prophylaxis.",
+                "If possible, transport patient to specialized burn unit."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Not infected"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Early surgical debridement of necrotic skin often with subsequent application of topical cream and/or a skin graft and/or use of a skin substitute (Adv Skin Wound Care 18:323, 2005).",
+                "Perhaps shower hydrotherapy (J Burn Care Res 3:393, 2010).",
+                "Topical antimicrobics used in attempt to reduce incident of life threatening burn wound infection. Topical therapy options are listed under alternative regimens (N Engl J Med 359:1037, 2008; Clin Plastic Surg 36: 597, 2009).",
+                "Wide spectrum of potential pathogens: e.g., gram-positive cocci, gram-negative bacilli, and fungi."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Silver Sulfadiazine cream, 1%, apply 1-2 x/day is most popular.",
+                "Bactericidal vs. gram-positive bacteria (S. aureus), Gram-negative bacteria including Pseudomonas aeruginosa, some yeast (C. albicans) and viruses.",
+                "Mixture of silver nitrate and sodium sulfadiazine",
+                "Minimal pain when applied.",
+                "Minor adverse effects:",
+                "Sulfonamide allergy",
+                "Some believe drug impairs re-epithelialization of the burn wound; silver is toxic to keratinocytes and fibroblasts.",
+                "Transient leukopenia; probably due to margination of WBCs in the wound rather than bone marrow suppression. Resolves spontaneously.",
+                "Not facial burns for fear of eye irritation or injury.",
+                "Mafenide acetate (Sulfamylon) cream, 11.1%.",
+                "Methylated sulfonamide that blocks folic acid metabolism",
+                "Active vs. gram-positive and Gram-negative; no activity vs yeast.",
+                "Penetrates burn eschars but painful to apply",
+                "Can lead to sulfonamide allergy",
+                "Silver nitrate 0.5% solution. Messy. Turns skin black.",
+                "Activity vs Gram-negative bacteria less broad than silver-sulfadiazine cream.",
+                "Hyponatremia and hypochloremia can occur.",
+                "Rarely, Methemoglobinemia can occur."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Antimicrobial Stewardship"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Concern over emerging resistance of multi-drug resistant aerobic gram-negative bacilli to many topical antibacterial preparations (J Burn Care Res 30:19, 2009)."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Interesting observation: In severely burned patients requiring mechanical ventilation mortality was reduced in patients who received up to a week of prophylactic Cefazolin or Ampicillin-sulbactam. Needs confirmation: Clin Infect Dis 62: 60, 2016",
+                "See also, infected burn wounds."
+            ]
+        }
+    ]
+}

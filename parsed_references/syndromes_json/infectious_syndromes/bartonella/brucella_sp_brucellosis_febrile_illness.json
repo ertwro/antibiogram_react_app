@@ -1,0 +1,135 @@
+{
+  "documentMetadata": {
+    "title": "Brucella sp., Brucellosis, Febrile Illness",
+    "lastUpdated": "2023-10-10",
+    "sourceFile": "Brucella sp., Brucellosis, Febrile Illness.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Brucellosis is a zoonotic febrile illness seen in children and adults",
+        "Associated with consumption of unpasteurized milk, exposure to cows, goats, pigs, or sheep, and inadvertent laboratory exposure during handling of Brucella infected tissue or cultures",
+        "In rare cases, exposure to Brucella sp in marine mammal (e.g., porpoise) (MMWR 61:461, 2012).",
+        "Also known as Malta fever, Mediterranean fever and Undulant fever.",
+        "Clinical disease:",
+        "  - Protean manifestations: febrile illness, osteoarticular disease (20-30%, especially sacroileitis), rare meningitis or endocarditis",
+        "  - Can infect any tissue in the body",
+        "Fever occurs in 90%",
+        "Malodorous perspiration almost pathognomic but uncommon",
+        "Relapse rate, post-treatment, is 10%.",
+        "Lab findings: Mild hepatitis; leukopenia and relative lymphocytosis.",
+        "General principles governing treatment:",
+        "  - Use antibiotics with activity in an acidic intracellular environment: e.g. doxycycline and rifampin",
+        "  - Prefer combination therapy to decrease risk of relapse",
+        "  - Often need prolonged duration of therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Slow growing small coccobacilli",
+        "Serology, bone marrow culture, real-time PCR or 16s rRNA if available.",
+        "Inform lab of possible brucellosis to lower risk of occupational exposure",
+        "Serology remains useful in underdeveloped countries",
+        "  - All positive rapid serologies require confirmation with Brucella sp. specific agglutination.",
+        "  - False negative can occur due to prozone phenomena",
+        "NAAT (PCR) and 16S rRNA gene sequencing most sensitive and specific if available and certified",
+        "Reference: Clin Micro Rev 2019;33: e00073."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Brucella abortus (cattle)",
+        "Brucella suis (pig)",
+        "Brucella melitensis (goat, camel (Middle East))",
+        "Brucella canis (dog)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Non-pregnant Adults and children age > 8 years with non-localizing disease:",
+        "  - Doxycycline 100 mg po bid x 6 weeks + Gentamicin 5 mg/kg IV once daily x 7 days",
+        "  - Doxycycline 100 mg po bid x 6 weeks + Rifampin 600-900 mg po once daily x 6 weeks",
+        "Children age < 8 years with non-localizing disease:",
+        "  - (TMP-SMX 5 mg/kg (TMP component) po q12h x 6 weeks) + Rifampin 15-20 mg/kg (max 900 mg/day) po divided in one or two doses",
+        "Adults and children age > 8 years with spondylitis/sacroileitis/arthritis.",
+        "  - (Doxycycline 100 mg po bid + Rifampin 600-900 mg po q24h-both x 3 months) + once daily Gentamicin IV for first 7 days",
+        "  - Ciprofloxacin 750 mg po bid + Rifampin 600-900 mg po once daily: both for a minimum of 3 months",
+        "Pregnancy (<36 wks gestation):",
+        "  - (TMP-SMX 5 mg/kg of TMP component po bid + Rifampin 600-900 mg po q24h) x 4 weeks",
+        "  - If ≥ 36 wks duration, Rifampin monotherapy until delivery",
+        "Neurobrucellosis:",
+        "  - Doxycycline 100 mg IV/po bid + Rifampin 600-900 mg po once daily + Ceftriaxone 2 gm IV q12h. Continue until CSF is normal.",
+        "Endocarditis:",
+        "  - Almost always need surgery plus antibiotics. Gentamicin 5 mg/kg IV once daily x 2-4 weeks + combination of Rifampin, Doxycycline and TMP-SMX x 6 weeks to 6 months.",
+        "Spondylitis",
+        "  - Adult: Doxycycline 100 mg po bid for a minimum of 12 weeks + Rifampin 600-900 mg po once daily for at least 12 weeks + Gentamicin 5 mg/kg IM/IV once daily for the first 7-14 days",
+        "  - Child age ≥ 8 yrs: Doxycycline 4.4 mg/kg once daily (max 200mg/day) in 2 divided doses x 12 or more weeks + Rifampin 15-20 mg/kg/day (max 900 mg/day) po once daily x at least 12 weeks + Gentamicin 5 mg/kg IV/IM once daily for first 7-14 days",
+        "  - Child age < 8 yrs: TMP-SMX 10 mg/kg/day TMP (max. 320 mg/day), 50 mg/kg/day SMX (max. 1.6 mg/day) in 2 divided doses x 12 weeks or more + Rifampin 15-20 mg/kg/day (max. 900 mg/day) po once daily x 12 or more weeks + Gentamicin 5 mg/kg IV/IM once daily for the first 7-14 days",
+        "Post-exposure prophylaxis after laboratory exposure. Limited data and regimens often not well-tolerated:",
+        "  - Doxycycline 100 mg po bid + Rifampin 600 mg po once daily x 3 weeks",
+        "  - If B. abortus strain RB51 (resistant to Rifampin): Doxycycline alone x 3 weeks.",
+        "  - If Doxycycline not well-tolerated or in pregnancy, TMP-SMX-DS po bid with or without Rifampin 600 mg po once daily x 3 weeks."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For non-localizing disease and need to avoid Gentamicin, can try Ciprofloxacin 500 mg po bid + (Doxycycline or Rifampin) x 6 weeks."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treat osteomyelitis or spondylitis for 3 months."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Observational study reports higher frequency (p 0.026) of clearance of Brucella DNA from whole blood with triple therapy: (Gentamicin or Streptomycin) + Doxycycline + Rifampin: Antimicrob Agents Chemother 58:7541, 2014 ;PLos neglected Tropical Diseases. 2023; 17: el0011590",
+        "Brucellosis reviews: N Engl J Med 352:2325, 2005, PLoS One 7:e32090, 2012, Clin Infect Dis 56:1407, 2013.",
+        "Refs for arthritis: MMWR 61:461, 2012;; PLoS One 7:e32090, 2012.",
+        "Antibody testing of exposed personnel via State labs or CDC at 2, 4, 6 and 24 weeks; NOTE: poor antibody response to B. abortus strain RB51."
+      ]
+    }
+  ]
+}

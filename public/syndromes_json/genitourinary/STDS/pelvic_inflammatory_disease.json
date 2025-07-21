@@ -1,0 +1,351 @@
+
+{
+  "documentMetadata": {
+    "title": "Pelvic Inflammatory Disease",
+    "lastUpdated": "2023-02-28",
+    "sourceFile": "Pelvic Inflammatory Disease.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sexually active female with pelvic discomfort and pain with cervical motion during pelvic examination",
+        "May have associated uterine or adnexal tenderness",
+        "Cervix may appear friable and/or endocervical exudate maybe present",
+        "Definitive diagnosis via laparoscopy rarely performed",
+        "Most will have mucopurulent cervical discharge or evidence of WBCs on wet prep"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "N. gonorrhoeae",
+        "Chlamydia trachomatis",
+        "Bacteroides sp.",
+        "E.coli, Klebsiella species and others",
+        "Streptococcus sp., especially S. agalactiae (Group B streptococcus)",
+        "Less commonly: G. vaginalis, Haemophilus influenzae, cytomegalovirus (CMV), and M. genitalium",
+        "Reference: J Infect Dis 224:S29, 2021"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Presumptive treatment for PID justified if:",
+        "Pelvic or lower abdominal pain",
+        "No etiology other than PID identified",
+        "One, or more, of following on pelvic exam: cervical motion tenderness, uterine tenderness, or adnexal tenderness",
+        "Pre-treatment testing of urine or cervical swab by NAAT for C. trachomatis and N. gonorrhoeae",
+        "If admitted to the hospital, blood cultures x 2"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider hospitalization if any of the following are present (2021 CDC STD Guidelines: MMWR 70:1, 2021):",
+        "Surgical emergencies (e.g., appendicitis) cannot be excluded",
+        "Tubo-ovarian abscess",
+        "Pregnancy",
+        "Severe illness, nausea and vomiting, or oral temperature >38.5°C (101°F)",
+        "Unable to follow or tolerate an outpatient oral regimen",
+        "No clinical response to oral antimicrobial therapy"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Inpatient (intravenous therapy): can transition to oral regimen below when afebrile, WBC falling, and patient is tolerating oral nutrition",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV/PO",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Cefoxitin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Cefotetan",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Outpatient (oral and intramuscular therapy)",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "500 mg",
+            "route": "IM or IV",
+            "notes": "x 1 dose",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            },
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            }
+          }
+        ],
+        "notes": "(Clin Infect Dis 72:1181, 2021)"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Cefoxitin",
+            "dose": "2 gm",
+            "route": "IM",
+            "notes": "x single dose",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Inpatient (intravenous therapy)",
+        "components": [
+          {
+            "drug": "Ampicillin-sulbactam",
+            "dose": "3 gm",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV/po",
+            "frequency": "q12h",
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "2 mg/kg",
+            "notes": "loading dose, then 1.5 mg/kg q8h or 4.5 mg/kg once/day",
+            "connector": "then either"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "450 mg",
+            "route": "po",
+            "frequency": "qid",
+            "connector": "OR"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            }
+          }
+        ],
+        "notes": "if tubo-ovarian abscess present, use either Clindamycin 450 mg po qid or Metronidazole 500 mg po bid to complete 14 days of therapy along with the Doxycycline 100 mg po bid. Idea is to ensure better activity vs anaerobic bacteria than that provided by Doxycycline alone"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Outpatient(oral and intramuscular therapy): If cephalosporin-allergic AND gonorrhea as causative agent, these regimens are unlikely to be effective",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "once daily",
+            "connector": "or"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "once daily",
+            "connector": "with"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "IV/PO",
+            "frequency": "daily",
+            "durationDetail": {
+              "fixedDuration": "1-2 doses"
+            },
+            "notes": ", followed by 250 mg orally daily in combination with metronidazole 500 mg po bid for 12-14 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Primary regimens will not be effective for M. genitalium infection. If no response in 7-10 days, consider switching to Moxifloxacin 400 qd x14 days."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "As above, if tubo-ovarian abscess, regimen should include clindamycin or metronidazole for anaerobic coverage.",
+        "If no improvement on outpatient regimen after 72 h, reevaluate diagnosis and start parenteral therapy.",
+        "Check all patients with PID (and any STD) for HIV infection and latent syphilis.",
+        "For more details see 2021 CDC STD Guidelines: MMWR 70:1, 2021."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from a dog",
+    "sourceFile": "Bite_ Dog.pdf",
+    "lastUpdated": "2025-01-31"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound from a dog.",
+        "Only 5% of dog bite wounds get infected. Treat only if the bite is severe or patient presents bad co-morbidity, e.g., diabetes.",
+        "If functional or anatomic splenectomy, See Capnocytophaga sp. and Post-Splenectomy/Septic Shock"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pasteurella canis",
+        "Staphylococcus aureus",
+        "Bacteroides sp.",
+        "Fusobacterium sp., EF-4",
+        "Capnocytophaga sp., especially C. canimorsus in splenectomized patients"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Amoxicillin-Clavulanate",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "connector": "or",
+            "drug": "Amoxicillin-Clavulanate",
+            "dose": "500/125 mg",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Pediatric"
+        },
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "route": "po"
+          },
+          {
+            "connector": "+",
+            "drug": "TMP-SMX",
+            "route": "po"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Adult"
+        },
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "300 mg",
+            "route": "po",
+            "frequency": "qid"
+          },
+          {
+            "connector": "+",
+            "drug": "a Fluoroquinolone",
+            "route": "po"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "paragraph",
+      "text": "P. canis is resistant to Dicloxacillin, Cephalexin, Clindamycin and Erythromycin; sensitive to Ceftriaxone, Cefuroxime, Cefpodoxime, Ceftaroline and fluoroquinolones; only ceftaroline would have predictable activity vs. Pasteurella species and MRSA (Antimicrob Agts Chemother 56:6319, 2012)."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Rabies considerations for penetrating dog bites:",
+        "If healthy appearing observe for 10 days, PEP only if animal develops clinical signs of rabies",
+        "Immediately vaccinate if suspected rabid",
+        "Escaped; consult local public health authority",
+        "See Rabies, Vaccines and PEP for detailed evaluation procedure and recommendations",
+        "Capnocytophaga canimorsus in splenectomized patients may cause local eschar, sepsis with DIC (see Shock, Post-splenectomy).",
+        "Reference: Am Fam Physician 90:239, 2014."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "documentMetadata": {
+    "title": "IV Line Infection, Catheter-Related Bloodstream Infections",
+    "lastUpdated": "2024-06-25",
+    "sourceFile": "IV Line Infection, Catheter-Related Bloodstream Infections.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Catheter-related bloodstream infections (CRBI)",
+        "Evidence of infected IV line with one of the following types of access:",
+        "Peripheral capped needle with heparin lock",
+        "Midline catheter",
+        "Internal jugular or subclavian catheter",
+        "Femoral vein catheter",
+        "Peripherally inserted central catheter (PICC)"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diagnosis of catheter-related blood stream infections: Febrile patient without obvious source and presence of IV catheter. Draw blood cultures both through the IV line and from a peripheral vein (Open Forum Infect Dis. 2024, May 2; 11:ofad248)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Catheter is infected if:",
+            "Preferred method: Blood culture from the IV line is positive 2 or more hours before the culture from the peripheral vein (Clin Infect Dis. 2023; 77:428).",
+            "Alternative method: CDC recommends blood culture plus semi-quantitative culture(roll method-minimum of 15 colonies) of removed catheter. However, recent data documents low positive predictive value (23%) leading to decreased utilization of venous catheter tip cultures: Clin Infect Dis 2019; 69:1797"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Prevention:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fewer infected peripheral IV sites with skin prep using chlorhexidine plus alcohol vs. povidone iodine plus alcohol (Lancet Infect Dis 2021;21:1038) (randomized controlled trial).",
+            "The continuing need for each peripheral IV catheter should be assessed daily. Any catheter no longer needed should be removed. Any catheter with signs of phlebitis or signs of local infection should be removed (Infect Prev Pract. 2023; 5:100271).",
+            "Refs: Lancet Infect Dis. 2021; 21:1038 and N Engl J Med 2023; 389:1121.",
+            "Initial specimen diversion systems may reduce the frequency of blood culture contamination (Open Forum Infect Dis. 2023; 10:ofad182) https://doi.org/10.1093/ofid/ofad182"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Diagnosis of catheter-related blood stream infections: Febrile patient without obvious other source(s) and presence of one or more IV catheters. Draw blood cultures both through the IV line and from a peripheral vein.",
+        "Catheter is infected if:",
+        "Preferred method: Positive Blood culture from the IV line is positive 2 or more hours before the culture from the peripheral vein (Clin Infect Dis. 2023; 77:428).",
+        "Alternative method: CDC recommends blood culture plus semi-quantitative culture (roll method-minimum of 15 colonies) of removed catheter. However, recent data documents low positive predictive value (23%) leading to decreased utilization of venous catheter tip cultures (Clin Infect Dis 2019; 69:1797)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Depend on the healthcare setting and patient population (Clin Infect Dis 62:1203, 2016)",
+        "Non-oncology unit patients: 4 most common pathogens are:",
+        "Coagulase-negative Staphylococci",
+        "Staph. aureus",
+        "Non-albicans Candida species",
+        "Enterococcus faecalis",
+        "Oncology unit patients suffered infection from the above organisms plus:",
+        "E.coli, frequently fluoroquinolone resistant",
+        "E. faecium, frequently vancomycin resistant",
+        "Viridans streptococci"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Staph. aureus (MSSA or MRSA):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Remove infected catheter as attempted salvage therapy has a high rate of failure"
+          ]
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "minimum of 2 weeks"
+            },
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) (longer if associated with endocarditis or osteomyelitis)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Staph. epidermidis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Can try to \"save the catheter\" (see Clin Infect Dis 49:1, 2009)"
+          ]
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            },
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) (with catheter lock technique; see Clin Infect Dis 49:1, 2009) if catheter retained, or for 5-7 days if catheter is removed."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Staph. aureus or Staph. epidermidis or VRE:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Daptomycin",
+                "dose": "6 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ],
+            "notes": "for S aureus; higher doses (8-12 mg/kg q24h) often used for VRE."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "If gram-negative bacteria a consideration, add coverage appropriate to the care setting (eg, ceftriaxone, cefepime). Adjust based on susceptibility tests",
+        "Fluoroquinolone resistant E.coli: varies with rest of in vitro susceptibility as often associated with resistance to extended-spectrum cephalosporins and aminoglycosides. May have to use a carbapenem."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fewer infected PICC lines if only single lumen catheters used outside patients in a critical care setting (Clin Infect Dis 2018; 67:954).",
+        "Detailed tiered approach to prevent central line-associated bloodstream infection (CLABI) (Ann Int Med 2019;171(Suppl.7): S16)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If IV line with multiple lumens (channels), it is recommended that blood cultures be obtained through each channel.",
+        "Increased infection risk if femoral vein used, especially if patient is obese (JAMA 299:2413, 2008). A meta-analysis found no increase in infection risk at the femoral vein site (Crit Care Med 40:2479, 2012; Crit Care Med 40:2528, 2012). However, uncontrolled confounding variables may have influenced results: i.e., mixture of antibiotic-impregnated and non-impregnated catheters, variable definition of line infection, and inconsistent exclusion of the morbidly obese.",
+        "In prospective randomized trial, subclavian catheter ass. with lowest risk of infection and thrombosis (but higher risk of pneumothorax) compared to jugular and femoral sites (N Engl J Med 373:1220, 2015). In short, if there is a choice, suggest avoidance of femoral IV site.",
+        "Guideline for treatment of infection and catheter management; note importance of assessing need for each peripheral IV catheter daily and removing catheters when no longer needed, or if phlebitis or signs of local infection are present (Ann Int Med 2019; 171(Suppl.7): S16 and (Infect Prev Pract. 2023; 5:100271)."
+      ]
+    }
+  ]
+}

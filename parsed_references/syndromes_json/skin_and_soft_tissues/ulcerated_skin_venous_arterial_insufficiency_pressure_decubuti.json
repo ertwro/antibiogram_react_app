@@ -1,0 +1,117 @@
+{
+  "documentMetadata": {
+    "title": "Ulcerated Skin: Venous, Arterial Insufficiency, Pressure Decubiti",
+    "lastUpdated": "2020-12-16",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Ulcerated Skin_ Venous, Arterial Insufficiency, Pressure Decubuti.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Various settings:",
+        "Best treatment is prevention",
+        "ACP evidence based guideline recommends:",
+        "Advanced static mattress or advanced static overlay",
+        "Avoid alternating air mattresses or alternating air overlays",
+        "Reference: Ann Intern Med 162:359, 2015",
+        "Patient with chronic venous stasis develops an area of ulceration",
+        "Patient with known arterial insufficiency progresses to skin breakdown",
+        "Pressure decubuti in immobile patient (e.g., paraplegic)",
+        "Requires joint management with plastic surgery to achieve debridement and flap closure",
+        "Ref: Clin Infect Dis 2019; 68: 338",
+        "All skin ulcers become colonized. Subsequent infection may be local, spread to adjacent bone or progress to bacteremia.",
+        "Microbiologic evaluation:",
+        "Swab of ulcer is not recommended.",
+        "Needle aspiration from the ulcer margin is acceptable.",
+        "Best method is surgically obtained deep tissue specimen for histology and culture. If osteomyelitis is suspected, also bone biopsy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Polymicrobic, including skin flora, aerobic and anaerobic gram-negative bacilli",
+        "Commonly encountered pathogens:",
+        "Streptococcus sp.",
+        "Staph. aureus",
+        "Enterobacteriaceae",
+        "P. aeruginosa",
+        "Anaerobic Streptococci",
+        "B. fragilis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Non-infected venous ulcers: there is moderate evidence as to benefit of keratinocyte therapy; for arterial ulcers, some support for benefit from biological skin equivalent (Ann Intern Med 159:532, 2013).",
+        "Superficial infection of venous or arterial insufficiency ulcers:",
+        "Society of Vascular Surgery guidelines recommend against routine use of topical antimicrobials (J Vasc Surg 60 (2 Suppl): 3S, 2014)",
+        "Silver sulfadiazine 1% cream: insufficient evidence.",
+        "Do not use povidone iodine or chlorhexadine, both may damage \"granulation\" tissue and fibroblasts.",
+        "Debride necrotic tissue and use moist wound dressing.",
+        "Remove pressure if decubitus ulcer; elevate leg if venous stasis; evaluate for revascularization if arterial insufficiency.",
+        "Topical treatment options:",
+        "Severe local infection: e,g, sacral pressure ulcers with possible contiguous osteomyelitis",
+        "Surgical debridement with:",
+        "Deep soft tissue cultures of wound margins for aerobic and anaerobic bacteria",
+        "Bone biopsy for histology and culture as basis of assessment for presence of osteomyelitis. Note: MRI not able to make a specific diagnosis of osteomyelitis",
+        "Attempt/assess for surgical coverage of wound",
+        "Empiric therapy pending culture results:",
+        "Meropenem or Imipenem (but not Ertapenem: no activity vs. P. aeruginosa) or Piperacillin-tazobactam",
+        "If gram-positive cocci in clusters on gram stain: add Vancomycin",
+        "Specific therapy depends on culture results",
+        "If bone culture shows no osteomyelitis: short course therapy",
+        "If bone culture/biopsy consistent with osteomyelitis, can justify 6 weeks of specific therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Severe local or possible/proven bacteremia"
+        },
+        "components": [
+          { "drug": "(Ciprofloxacin or Levofloxacin)", "connector": "+" },
+          { "drug": "Metronidazole" },
+          { "drug": "(Cefepime or Ceftazidime)", "connector": "+" },
+          { "drug": "Metronidazole" },
+          { "drug": "Aztreonam", "connector": "+" },
+          { "drug": "Metronidazole" }
+        ],
+        "notes": "If gram-positive cocci in clusters on gram stain: add Vancomycin"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sacral pressure ulcers (Review of antimicrobial treatment efficacy): Clin Infect Dis 2019; 68:338.",
+        "See Cochrane Data Syst Rev 2017; issue 6: CD011947 for discussion of dressings or topical agents for pressure ulcers."
+      ]
+    }
+  ]
+}

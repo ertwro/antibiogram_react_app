@@ -1,0 +1,180 @@
+{
+  "documentMetadata": {
+    "title": "Splenic Abscess",
+    "sourceFile": "lymph_nodes-spleen/Splenic Abscess.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Splenic abscesses are associated with or are a result of:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Endocarditis, bacteremia, candidemia",
+        "Contiguous from an intra-abdominal site, peritonitis",
+        "Immunocompromised patient immune system"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Presents with fever and left upper quadrant pain"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "CT scan",
+        "notes": "Abscess can be confused with infarction"
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Blood cultures and/or culture of resected spleen",
+        "notes": "To determine microbial etiology"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (associated with bacteremia/endocarditis)",
+        "Burkholderia (Pseudomonas) pseudomallei (common in SE Asia, northern Australia)",
+        "Streptococcus sp. (associated with bacteremia/endocarditis)",
+        "Klebsiella sp. (especially in SE Asia)",
+        "Can be Polymicrobic (if associated peritonitis)",
+        "Candida sp. (usually in an immunocompromised patient)",
+        "Bartonella sp. (cat scratch disease)",
+        "Many others"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Choice of empiric therapy depends on clinical setting"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Suspected Staph. aureus - MSSA",
+        "components": [
+          {
+            "drug": "Nafcillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Oxacillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefazolin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Suspected Staph. aureus - MRSA",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "notes": "To achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Suspected Candida sp. (immunocompromised patient)",
+        "components": [
+          {
+            "drug": "Lipid-based Amphotericin B",
+            "dose": "3-5 mg/kg",
+            "route": "IV",
+            "frequency": "daily"
+          },
+          {
+            "drug": "Fluconazole",
+            "connector": "or"
+          },
+          {
+            "drug": "Caspofungin",
+            "connector": "or"
+          },
+          {
+            "drug": "Micafungin",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Suspected polymicrobic etiology",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam"
+          }
+        ],
+        "notes": "(see Secondary peritonitis)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Combination of antibiotics and splenectomy"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    }
+  ]
+}

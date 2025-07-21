@@ -1,0 +1,59 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Healthcare-Associated",
+    "lastUpdated": "2024-07-30",
+    "sourceFile": "Pneumonia, Healthcare-Associated.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No longer recognized as a distinct entity (Am J Respir Crit Care Med 2019; 200: e45-e67)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Adult, out-patient/non-hospitalized and Adult, in-patient/hospitalized",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pneumonia, Community-Acquired, Adult, Out-patient-Non-hospitalized and Pneumonia, Community-Acquired, Adult, In-patient-hospitalized"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Adult, out-patient/non-hospitalized and Adult, in-patient/hospitalized",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pneumonia, Community-Acquired, Adult, Out-patient-Non-hospitalized and Pneumonia, Community-Acquired, Adult, In-patient-hospitalized"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Adult, out-patient/non-hospitalized and Adult, in-patient/hospitalized",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pneumonia, Community-Acquired, Adult, Out-patient-Non-hospitalized and Pneumonia, Community-Acquired, Adult, In-patient-hospitalized"
+      }
+    }
+  ]
+}

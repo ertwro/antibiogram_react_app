@@ -1,0 +1,117 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Native Valve, Empiric Therapy",
+    "lastUpdated": "2025-02-25",
+    "sourceFile": "Endocarditis, Native Valve, Empiric Therapy.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy for native valve endocarditis pending culture results.",
+        "Valvular or congenital heart disease. Signs and symptoms of endocarditis.",
+        "When to start empiric therapy?",
+        "If patient is not acutely ill and not in heart failure, reasonable to wait for blood culture results.",
+        "If initial 3 blood cultures are negative after 24-48 hours, obtain 2-3 more blood cultures before starting empiric therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus, methicillin-susceptible and methicillin-resistant strains (~30%, higher in injection drug users)",
+        "Streptococcus sp. (~25%)",
+        "Viridans group",
+        "Streptococcus gallolyticus (formerly S. bovis)",
+        "Enterococcus sp. (~10%)",
+        "HACEK group organisms (~2%)",
+        "Culture-negative (~10%) (usually due to prior antibiotics)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) (see Comments)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) (see Comments)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Clinical Setting (above) regarding when to start empiric therapy",
+        "Modify therapy based on identification of specific pathogen as soon as possible to obtain best coverage and to avoid toxicities."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There is no proven effective or preferred regimen for empirical therapy of native valve endocarditis. The regimens provided will cover the most common pathogens pending definitive identification."
+      ]
+    }
+  ]
+}

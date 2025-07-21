@@ -1,0 +1,75 @@
+
+{
+  "documentMetadata": {
+    "title": "Aspergillosis, Chronic Cavitary Pulmonary",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Aspergillosis, Chronic Cavitary Pulmonary.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chronic pulmonary disease often with systemic symptoms.",
+        "Multiple cavities, with or without aspergilloma.",
+        "Positive aspergillus antibodies in serum, positive culture of bronchopulmonary specimen, compatible CT-scan."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aspergillus sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Voriconazole 6 mg/kg po/IV q12h x 1 day, then 4 mg/kg po/IV q12h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Isavuconazonium sulfate (prodrug of Isavuconazole) 372 mg po/IV q8h x 6 doses and then 372 mg po/IV daily",
+        "Posaconazole (NOTE: different dosing delayed release tabs/IV vs. suspension, better levels achieved with delayed-release tabs)",
+        "Delayed-release tabs 300 mg po bid x 2 doses and then 300 mg po daily",
+        "Suspension 400 mg po bid",
+        "Itraconazole oral solution 2.5 mg/kg po q12h or 200 mg capsules po q12h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Review: Thorax 70:270, 2015.",
+        "Antifungal therapy is standard of care.",
+        "Duration of therapy may be prolonged, 6-12 months. For response rates with Voriconazole see Eur J Clin Microbiol Infect Dis 31:3231, 2012.",
+        "Surgical resection associated with high morbidity and mortality.",
+        "For further information see IDSA Guidelines: (Clin Infect Dis 63:433, 2016)"
+      ]
+    }
+  ]
+}

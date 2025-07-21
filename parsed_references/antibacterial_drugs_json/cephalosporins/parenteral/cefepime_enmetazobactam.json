@@ -1,0 +1,69 @@
+
+{
+  "drug_name": "Cefepime-Enmetazobactam",
+  "tradename": "Exblifep",
+  "usage_and_dosing": {
+    "approved_for": "complicated UTI including pyelonephritis",
+    "general_info": [
+      "Enmetazobactam is a beta-lactamase inhibitor similar to tazobactam. A key structural difference improves penetration into the bacterial cell. Enmetazobactam protects cefepime from degradation by certain Ambler Class A enzymes, such as ESBLs.",
+      "Cefepime-enmetazobactam is not active against bacteria that produce KPC, metallo-beta-lactamase, or OXA enzymes other than OXA-48.",
+      "In a recently published phase 3 RCT in patients with complicated UTI or acute pyelonephritis caused by gram-negative bacilli, cefepime-enmetazobactam (compared with piperacillin-tazobactam) met criteria for noninferiority as well as superiority with respect to the primary outcome of clinical cure and microbiologic eradication (JAMA 2022;328:1304).",
+      "Good review: Expert Opin Drug Metab Toxicol 2025;21:115."
+    ],
+    "adult_dose": [
+      "Cefepime-enmetazobactam 2.5 gm IV (over 2 hours) q8h.",
+      "Product labeling recommends 7 days of treatment, up to 14 days for patient with concurrent bacteremia.",
+      "Note that 2.5 gm = cefepime 2 gm + enmetazobactam 0.5 gm.",
+      "Reconstitute powder, then immediately dilute in 250 mL of D5W or NS. Complete drug infusion within six hours of dilution."
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ],
+    "renal_adjustment": {
+      "CrCl_or_eGFR": [
+        "eGFR ≥130: 2.5 gm (over 4 hr) q8h",
+        "eGFR 60-129: 2.5 gm (over 2 hr) q8h",
+        "eGFR 30-59: 1.25 gm (over 2 hr) q8h",
+        "eGFR 15-29: 1.25 gm (over 2 hr) q12h",
+        "eGFR <15: 1.25 gm, then 0.625 gm (over 2 hr) q24h"
+      ],
+      "hemodialysis": "1.25 gm, then 0.625 gm (over 2 hr) q24h (dose AD)",
+      "CAPD": "2.5 gm q48h"
+    },
+    "hepatic_adjustment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Hypersensitivity reactions, as with other beta-lactams.",
+    "Gastrointestinal: Nausea, vomiting, diarrhea, abdominal pain, C. difficile-associated diarrhea.",
+    "Increased transaminases, bilirubin.",
+    "Headache.",
+    "Neurotoxicity (from cefepime): encephalopathy, aphasia, myoclonus, seizures. Typically occurs in patients with renal impairment who did not receive proper dosage adjustment, but has also occurred in patients receiving appropriate dosage.",
+    "Positive direct Coombs' test.",
+    "Prolonged INR.",
+    "Possible false-positive reaction for urine glucose when using some methods (e.g., Clinitest)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Cefepime: No evidence of toxicity in humans or animals. Enmetazobactam: No data.",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Pseudomonas aeruginosa"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Injection",
+    "peak_serum_conc_mcg_ml": "Cefepime: 99.8, Enmetazobactam: 19.8 (2.5 gm [over 2 hr] q8h, SS)",
+    "protein_binding_percent": "Cefepime: 20, Enmetazobactam: nil",
+    "volume_of_distribution_vd": "Cefepime: 20 L (Vss), Enmetazobactam: 25.3 L (Vss)",
+    "avg_serum_t1_2_hr": "Cefepime: 2.7, Enmetazobactam: 2.6",
+    "elimination": "Cefepime: renal, Enmetazobactam: renal",
+    "csf_blood_percent": "Cefepime: 4-34"
+  },
+  "major_drug_interactions": "No signficant interactions known."
+}

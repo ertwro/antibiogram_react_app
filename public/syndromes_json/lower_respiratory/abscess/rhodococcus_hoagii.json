@@ -1,0 +1,73 @@
+
+{
+  "documentMetadata": {
+    "title": "Rhodococcus hoagii",
+    "lastUpdated": "2022-07-07",
+    "sourceFile": "Rhodococcus hoagii.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Zoonotic organism, initially isolated from foals but can cause infection in a variety of animal species. Isolation of the organism in culture of sputum, respiratory tract specimens, lung, blood, other tissues.",
+        "Intracellular pathogen.",
+        "Subacute pneumonia, often mimicking tuberculosis, in immunocompromised patient: e.g., HIV with CD4 < 200.",
+        "Cavitary pneumonia with hemoptysis in 1/3 of patients.",
+        "Extrapulmonary complications include brain and/or skin abscesses."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Classification"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aerobic gram positive coccobacilli, pleomorphic, may be weakly acid fast",
+        "Nomenclature change:",
+        "Rhodococcus hoagii (formerly Rhodococcus equi, Corynebacterium equi)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Combine two from the following:",
+        "Moxifloxacin 400mg po daily or Levofloxacin 750 mg IV/po once daily OR Ciprofloxacin 500 mg po bid",
+        "Rifampin 600 mg IV/po once daily",
+        "Azithromycin 250 mg IV/po once daily",
+        "Combine two from the following:",
+        "Imipenem 500 mg IV q6h OR Vancomycin 1 gm IV q12h + one of the drugs listed under Primary Regimens"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Because of ability to survive within macrophages, usually need combination therapy that includes use of a drug with adequate intracellular concentrations: e.g., macrolide with either rifampin or doxycycline.",
+        "Due to resistance or uncertain susceptibility avoid Clindamycin, Chloramphenicol, tetracyclines (usually sensitive to doxycycline), penicillins, cephalosporins, and TMP-SMX.",
+        "Duration of therapy uncertain but 10-14 days may be sufficient with longer courses, 2 months, in patients who are immunocompromised or for those with cavitary disease (Clin Microbiol Infect 2018 May 16. pii: S1198-743X(18)30400-2).",
+        "Careful monitoring of drug-drug interactions and for toxicity with longer duration combination therapy (e.g., ECG for QTc with macrolides, quinolones)",
+        "HIV/AIDS",
+        "Treat for 2 months",
+        "Secondary prophylaxis until CD4 > 200: Azithromycin 250 mg po once daily + Levofloxacin 750 mg po once daily.",
+        "Linezolid active in vitro and is another option, although prolonged use is accompanied by bone marrow suppression and neurotoxicity (peripheral neuropathy, optic neuritis)",
+        "Review: Lancet Infect Dis 10:350, 2010."
+      ]
+    }
+  ]
+}

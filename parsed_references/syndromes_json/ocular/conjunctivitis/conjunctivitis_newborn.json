@@ -1,0 +1,155 @@
+
+{
+  "documentMetadata": {
+    "title": "Newborn Conjunctivitis (Ophthalmia Neonatorum)",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Conjunctivitis, Newborn.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ophthalmia neonatorum is conjunctivitis occurring within the first month of life. It can be caused by chemical irritation (from prophylactic agents), or more commonly, by bacterial or viral infections acquired during passage through the birth canal. Key pathogens include Neisseria gonorrhoeae and Chlamydia trachomatis, which can cause severe infections. Other bacteria (e.g., Staphylococcus aureus, Streptococcus pneumoniae) and viruses (e.g., Herpes Simplex Virus) are also potential causes."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology and Timing"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Cause", "Typical Onset After Birth", "Key Features"],
+        "rows": [
+          ["Chemical Conjunctivitis", "< 24 hours", "Mild injection and tearing, resolves spontaneously within 2-4 days."],
+          ["Gonococcal Conjunctivitis", "2-5 days", "Hyperacute, copious purulent discharge, marked eyelid edema. A medical emergency."],
+          ["Chlamydial Conjunctivitis", "5-14 days", "Mucopurulent discharge, conjunctival congestion, eyelid swelling. Most common infectious cause."],
+          ["Other Bacterial Conjunctivitis", "5-14 days", "Purulent discharge, variable severity."],
+          ["Herpetic Keratoconjunctivitis", "5-14 days", "Serosanguineous discharge, corneal clouding/dendrites, may have associated skin vesicles."]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis and Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "All infants with conjunctivitis require a thorough evaluation, including conjunctival swabs for Gram stain, bacterial culture (including Thayer-Martin for N. gonorrhoeae), and NAAT for C. trachomatis and N. gonorrhoeae. HSV testing should be performed if suspected."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Treatment Regimens by Pathogen"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Required",
+            "condition": "Neisseria gonorrhoeae",
+            "appliesTo": {
+              "description": "Newborns"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "25-50 mg/kg (not to exceed 125 mg)",
+                "route": "IV or IM",
+                "frequency": "single dose"
+              }
+            ],
+            "notes": "Hospitalization is required. The infant should be evaluated for disseminated infection. Saline irrigation of the eyes is also necessary."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Required",
+            "condition": "Chlamydia trachomatis",
+            "appliesTo": {
+              "description": "Newborns"
+            },
+            "components": [
+              {
+                "drug": "Erythromycin base or ethylsuccinate",
+                "dose": "50 mg/kg/day in 4 divided doses",
+                "route": "PO"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            },
+            "notes": "Topical therapy is ineffective. Monitor for infantile hypertrophic pyloric stenosis (IHPS). Azithromycin (20 mg/kg/day for 3 days) is an alternative."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Non-gonococcal, non-chlamydial bacterial conjunctivitis",
+            "appliesTo": {
+              "description": "Newborns"
+            },
+            "components": [
+              {
+                "drug": "Erythromycin 0.5% ointment",
+                "route": "topical",
+                "frequency": "four times daily"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Required",
+            "condition": "Herpes Simplex Virus (HSV)",
+            "appliesTo": {
+              "description": "Newborns"
+            },
+            "components": [
+              {
+                "drug": "Acyclovir",
+                "dose": "60 mg/kg/day",
+                "route": "IV",
+                "frequency": "every 8 hours"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14 days for localized disease, 21 days for disseminated or CNS disease"
+            },
+            "notes": "Requires immediate hospitalization and management by a pediatric infectious disease specialist. Topical therapy (e.g., trifluridine) is also indicated for ocular involvement."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Prophylaxis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Universal prophylaxis is administered to all newborns shortly after birth to prevent gonococcal ophthalmia neonatorum. Erythromycin (0.5%) ophthalmic ointment is the standard prophylactic agent used in the United States."
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Conjunctivitis, Gonococcal; Conjunctivitis, Inclusion",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Conjunctivitis, Gonococcal"
+      }
+    }
+  ]
+}

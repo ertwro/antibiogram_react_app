@@ -1,0 +1,78 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Transcatheter Valve Replacement",
+    "lastUpdated": "2025-01-27",
+    "sourceFile": "Endocarditis, Transcatheter Valve Replacement.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever, positive blood cultures with organisms typical of prosthetic valve endocarditis or negative blood cultures otherwise meeting criteria for endocarditis. See Endocarditis Overview and Prosthetic Valve Endocarditis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus",
+        "Enterococci",
+        "Coagulase-negative staphylococci",
+        "Streptococci",
+        "Gram-negative bacilli (uncommon)",
+        "HACEK (rare)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empirical therapy pending culture results: Same as Empirical Therapy for Prosthetic Valve Endocarditis"
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Links to recommendations for pathogen-directed therapy once culture and susceptibility results are available: Staphylococcus aureus, viridans group streptococci or S. gallolyticus, coagulase-negative staphylococci, enterococci",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Staphylococcus aureus, viridans group streptococci or S. gallolyticus, coagulase-negative staphylococci, enterococci"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterococcus faecalis is a leading cause of transcatheter aortic valve endocarditis (Clin Microbiol Rev. 2024; 37:e001682)",
+        "References: Clin Infect Dis 2024; 78:179, Curr Cardiol Rep. 2024; 26:767"
+      ]
+    }
+  ]
+}

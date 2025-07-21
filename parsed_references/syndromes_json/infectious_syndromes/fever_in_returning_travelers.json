@@ -1,0 +1,143 @@
+{
+  "documentMetadata": {
+    "title": "Fever in Returning Travelers",
+    "lastUpdated": "2024-09-30",
+    "sourceFile": "Fever in Returning Travelers.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Undifferentiated fever (no localizing signs), with or without rash, after international travel.",
+        "Travelers who become ill during, or any time up to several months after, a foreign trip will frequently associate that illness with a possible travel-specific cause.",
+        "This may be the case, but often it is not."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "First, assess for life-threatening disease, especially if hemorrhagic manifestations are present.",
+        "Initial diagnostics:",
+        "Stat blood films (malaria)",
+        "Rapid diagnostic test (Binax) less reliable to rule out malaria but result often immediately available and a positive test needs stat treatment.",
+        "NEW: A negative RDT (US: Binax; HRP based) no longer reliably rules out P. falciparum infection due to the increasing global prevalence of HRP2/3 deletion mutants.",
+        "A negative RDT should be quickly followed by a malaria blood film. [Malar J 2022 21:26, 2022](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-022-04040-4).",
+        "COVID-19 test, blood cultures (for sepsis, enteric fever), complete blood cell count with differential and platelets",
+        "Liver function tests, urinalysis, and a chest radiograph",
+        "LP if indicated",
+        "Consider treatable causes: e.g.: malaria, viral hemorrhagic fevers, meningococcemia, rickettsial infection, bacterial sepsis and exotic viral respiratory pathogens.",
+        "Laboratory findings associated with different diseases:",
+        "Leukopenia: Dengue, Zika, chikungunya, typhoid, brucellosis, rickettsial disease, or acute HIV infection.",
+        "Thrombocytopenia: Malaria, dengue, or brucellosis.",
+        "Eosinophilia: Schistosomiasis or strongyloidiasis.",
+        "Transaminitis (elevated AST/ALT): Viral hepatitis, toxin damage, leptospirosis, rickettsial disease (Q-fever), relapsing fever, Yellow Fever, amebic abscess, brucellosis, typhoid, hemorrhagic fever, and dengue.",
+        "The second wave of diagnostic testing:",
+        "Driven by abnormalities in the initial test results or emerging physical signs or new history.",
+        "HIV testing (may point to usual Ols)",
+        "Rickettsial PCR and serology for other tickborne disease",
+        "Syphilis testing",
+        "IGRA or TST for Tuberculosis",
+        "Commercial multiplex PCR global fever panel FDA approved in 2023",
+        "Wait 48 to 72 hours before serology and sophisticated diagnostic studies for rare exotic disease are pursued.",
+        "In the absence of enlightening abnormalities, may need serologic studies based on travel itinerary, incubation periods, and known exposures.",
+        "At this stage, the differential diagnosis expands (review pertinent exposure history)",
+        "For etiologies by geographic location or exposure and clinical syndromes, see [New Engl J Med 2017; 376: 548](https://www.nejm.org/doi/full/10.1056/NEJMra1608933) and [Ann Intern Med 158:456, 2013](https://www.acpjournals.org/doi/10.7326/0003-4819-158-6-201303190-00007).",
+        "N>53,000 specimens from returned travelers analyzed at UK national reference lab for imported pathogens 5 most prevalent, in order, were, dengue, chikungunya, Zika, leptospirosis and spotted fever group Rickettsia ([J Travel Med, Jan 27, 2023 online ahead of print](https://academic.oup.com/jtm/advance-article/doi/10.1093/jtm/taad008/7009902))"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The most common etiologies of fever in returning travelers are listed first:"
+      ]
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Etiology", "Geography / Exposure", "Incubation", "Diagnosis"],
+        "rows": [
+          ["Dengue (flavivirus)", "Widespread in tropics (increasing in Africa), vector borne (Aedes)", "4-7 days", "PCR, NS1 antigen; IgM (only after day 4), rapid tests in some countries"],
+          ["Malaria (Plasmodia sp.)", "Widespread tropical but very high risk in Africa, vectorborne (Anopheles nightime exposure)", "7-30 day incubation for P. falciparum, up to 60 days for P. vivax", "blood smear, PCR, malaria RDT (rapid diagnostic test; Binax insensitive now for both P. falciparum or P. vivax), double species infection occurs"],
+          ["Typhoid/paratyphoid fever (Salmonella sp.). Vaccine not effective against S. paratyphi", "Global mostly South and Southeast Asia, fecal-oral transmission (usually foodborne)", "6-30 days", "blood culture, stool culture very early. Avoid Widal or serological testing"],
+          ["Chikungunya virus; FDA-approved vaccine expected late 2023", "Latin America mostly Brazil/Paraguay, South and southeast Asia, Indian Ocean islands, vector borne (Aedes)", "4-7 days", "PCR; IgM (only after day 4), rapid test in some countries"],
+          ["Zika virus", "East Africa, little risk in Latin America and Caribbean since 2016, Southeast Asia vector borne (Aedes)", "3-14 days", "PCR of blood or urine, IgM (high false-positive rate), viral neutralization is definitive, no testing available in someone with previous flavivirus infection of any kind"],
+          ["COVID-19 (SARS-CoV-2)", "Global, respiratory transmission", "most commonly 3-6 days", "PCR more sensitive than antigen, serology for retrospective diagnosis but not for immunity"],
+          ["Leptospirosis", "Global mostly South and South Asia, South America, oral or percutaneous from urine of infected rodents", "2-29 days", "IgM only after day 5; PCR earlier"],
+          ["Rickettsial disease: Scrub typhus", "north Australia, India, mites in brush areas", "", "(may be negative first week)"],
+          ["Rickettsial disease: Spotted fever group", "Widespread but highest risk with R. Africae in southern Africa, mostly ticks", "2-14 days", "PCR (blood or eschar), IgM/IgG (may be negative first week)"],
+          ["Rabies", "Global, almost exclusively dogs but bat risk in the Americas", "20-60 days most common", "PCR of saliva or skin, serum antibody detection"],
+          ["East African trypanosomiasis", "Tanzania, Kenya, Zambia, Uganda, eastern and southern African game parks, tsetse fly", "7-21 days", "microscopy of blood films, lymph node aspirate, or chancre. rapid Card Agglutination Test (CATT) only for West African tryps"],
+          ["Monkeypox", "Mainly Nigeria and neighbors but foci in MSM mainly in US/Europe, direct contact with lesions on skin, mucosa (including genitalia", "3-17 days", "PCR of scraping of lesion surface (do not de-roof)"]
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Other frequent diseases in travelers:",
+        "Influenza A (year-round tropics; seasonal temperate zones), acute HIV, mononucleosis, acute histoplamosis, measles, varicella, tuberculosis.",
+        "Infrequent diseases in travelers to consider:",
+        "Avian influenza (H5N1 & H7N9; now extremely rare in humans), brucellosis, MERS coronavirus, African hemorrhagic fevers (Ebola incubation is 8-12 days), CCHF, yellow fever, Japanese encephalitis, monkeypox, relapsing fever, acute toxoplasmosis (raw meat ingestion), arboviruses including Ross River, tickborne encephalitis, West Nile virus (emerging in Europe), hantavirus (both hantavirus cardiopulmonary syndrome in the Americas and hemorrhagic fever with renal syndrome caused by Puumala and Dobravavirus in Europe), tuberculosis."
+      ]
+    },
+    {
+      "type": 'header',
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dengue (supportive care)",
+        "Malaria, Overview and specific treatment pages",
+        "Typhoid",
+        "Chikungunya virus",
+        "Ebola virus",
+        "Zika virus",
+        "Leptospirosis",
+        "Rickettsial disease",
+        "Rabies",
+        "East African trypanosomiasis",
+        "COVID-19",
+        "Mpox"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See specific treatment page"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enteropathogens in returning travelers ([N Engl J Med 368:1817, 2013](https://www.nejm.org/doi/full/10.1056/NEJMra1207762))."
+      ]
+    }
+  ]
+}

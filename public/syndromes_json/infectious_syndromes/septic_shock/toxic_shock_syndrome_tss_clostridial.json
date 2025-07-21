@@ -1,0 +1,67 @@
+{
+  "documentMetadata": {
+    "title": "Toxic Shock Syndrome (TSS), Clostridial",
+    "sourceFile": "Toxic Shock Syndrome (TSS), Clostridial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clostridial Toxic Shock Syndrome"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clostridial toxic shock syndrome is a severe, rapidly progressive infection typically caused by Clostridium sordellii or Clostridium perfringens. It is often associated with gynecologic procedures, childbirth, or skin and soft tissue infections."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Features"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Rapid onset of shock and organ failure",
+        "Absence of fever in many cases",
+        "Profound leukocytosis",
+        "Hemoconcentration",
+        "Minimal or no local signs of infection at the primary site"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Management requires aggressive fluid resuscitation, vasopressor support, and early surgical debridement of infected tissue. Antibiotic therapy is also crucial."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Patients with suspected clostridial TSS"
+        },
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "2-4 million units",
+            "route": "IV",
+            "frequency": "every 4-6 hours"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "600-900 mg",
+            "route": "IV",
+            "frequency": "every 8 hours",
+            "connector": "+"
+          }
+        ],
+        "notes": "Clindamycin is added to suppress toxin production."
+      }
+    }
+  ]
+}

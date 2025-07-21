@@ -1,0 +1,94 @@
+{
+  "documentMetadata": {
+    "title": "Corynebacterium diphtheriae",
+    "sourceFile": "Toxin_mediated/Corynebacterium diphtheriae.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cause of respiratory tract infections (anterior nasal, pharyngeal, laryngeal, tracheal) but can also cause cutaneous infection and invasive disease."
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Pharyngitis, Diphtheria",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pharyngitis, Diphtheria"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Culture on tellurite-selective medium (e.g., Tinsdale agar)",
+        "interpretation": "Isolation of the organism confirms the diagnosis."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Classification"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gram positive bacilli - Corynebacterium diphtheriae"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Pharyngitis, Diphtheria",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pharyngitis, Diphtheria"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Pharyngitis, Diphtheria",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pharyngitis, Diphtheria"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Prevention"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Tetanus, Diphtheria, Pertussis, Vaccines for indications, available products, dosing, and vaccine characteristics for pre-exposure prevention.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Tetanus, Diphtheria, Pertussis, Vaccines"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxigenic strains of Corynebacterium ulcerans; acquired from animals. Clinical disease mimics diphtheria. No human to human transmission."
+    }
+  ]
+}

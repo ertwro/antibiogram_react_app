@@ -1,0 +1,207 @@
+{
+  "documentMetadata": {
+    "title": "Vibrio vulnificus, V. alginolyticus, V. damsela",
+    "lastUpdated": "2025-02-06",
+    "sourceFile": "Vibrio vulnificus, V. alginolyticus, V. damsela.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Recommendations are for treatment of severe soft tissue infection and sepsis.",
+            "Vibrio vulnificus is a gram-negative bacillus that can cause diarrhea, wound infections, and bacteremia. It is the number one cause of shellfish-associated deaths in the U.S. (Eur J Clin Microbiol Infect Dis 2019;38:1999).",
+            "Organisms live in salt water marine environments: seawater and estuaries; wound infections result from exposure of a wound to seawater or brackish water containing the organism. Exposure can result from recreational water activities, oyster shucking, sea urchin harvesting, fish fin punctures or handling seafood.",
+            "Wound infections are most common during the summer months when the density of organisms is greatest and can progress to necrotizing fasciitis (J Antimicrob Chemother 67:488, 2012).",
+            "Highest risk factors for life-threatening infection:",
+            "Cirrhosis due to alcohol or chronic viral hepatitis, alcoholism, hemochromatosis, diabetes mellitus, thalassemia major, chronic renal disease, use of TNF inhibitors, and lymphoma (Clin Infect Dis 46:970, 2008).",
+            "General references: N Engl J Med 2018;379:375 (image of hemorrhagic bullae); N Engl J Med 2016;375:1780"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vibrio vulnificus",
+            "Vibrio alginolyticus",
+            "Vibrio damsela (aka Photobacterium damselae)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "IV/po",
+                "frequency": "bid",
+                "connector": "or"
+              },
+              {
+                "drug": "Minocycline",
+                "dose": "100 mg",
+                "route": "IV/po",
+                "frequency": "bid",
+                "connector": "+"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "once daily",
+                "connector": "or"
+              },
+              {
+                "drug": "Ceftazidime",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "4.4 mg/kg/day",
+                "route": "div bid",
+                "notes": "(max 200 mg/day)",
+                "connector": "+"
+              },
+              {
+                "drug": "Ceftazidime",
+                "dose": "150-200 mg/kg/d",
+                "route": "divided q8h"
+              }
+            ],
+            "notes": "NOTE: Doxycycline can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)."
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Severe infections may require surgical debridement: Am J Surg 206: 32, 2013."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV/po",
+                "frequency": "once daily",
+                "connector": "or"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "750 mg",
+                "route": "po bid",
+                "connector": "or"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV bid",
+                "notes": "can be substituted for Doxycycline or Minocycline (See Comments)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Minor infections can be treated with a single agent."
+          ]
+        }
+      ]
+    },
+    {
+      "type": 'nestedContent',
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Antimicrobial Stewardship"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Duration of therapy based on clinical response."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Retrospective surveillance study found higher mortality with ß-lactam alone compared to fluoroquinolone alone or combination of fluoroquinolone or a tetracycline plus ß-lactam (BMC Infect Dis. 5:226, 2015).",
+            "Due to the potential severity of disease, it is suggested that with the appropriate risk factors (ingestion of raw seafood, exposure to salt-water environment) empiric therapy for wound and septic patients include drugs active against V. vulnificus.",
+            "Roughly 75% of patients have bullous skin lesions.",
+            "Sepsis and septic shock in immunocompromised individuals, including hematological disease, malignancy, and liver disease (Epidemiol Infect 142:877, 2014).",
+            "Review comparing different Vibrio infections (Nat Rev Dis Primers 4:8 2018).",
+            "Reference: StatPearls; 2023 Jan. 2023 Jan 10."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "documentMetadata": {
+    "title": "Other Rickettsiae, Spotted Fevers",
+    "sourceFile": "Other Rickettsiae, Spotted Fevers.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview of Other Rickettsial Spotted Fevers"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document provides an overview of less common rickettsial diseases that belong to the spotted fever group (SFG). These diseases are caused by various species of Rickettsia and are transmitted by ticks. They share clinical features with Rocky Mountain Spotted Fever (RMSF) but have distinct epidemiological characteristics."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologic Agents and Geographic Distribution"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Disease", "Rickettsia Species", "Geographic Distribution", "Vector"],
+        "rows": [
+          ["Mediterranean spotted fever (Boutonneuse fever)", "Rickettsia conorii", "Mediterranean region, Africa, India, Southwest Asia", "Brown dog tick (Rhipicephalus sanguineus)"],
+          ["African tick-bite fever", "Rickettsia africae", "Sub-Saharan Africa, West Indies", "Amblyomma ticks"],
+          ["Rickettsialpox", "Rickettsia akari", "Worldwide (urban areas)", "House mouse mite (Liponyssoides sanguineus)"],
+          ["Pacific Coast tick fever", "Rickettsia philipii", "Western coast of the United States", "Dermacentor occidentalis tick"],
+          ["Queensland tick typhus", "Rickettsia australis", "Eastern Australia", "Ixodes ticks"]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "paragraph",
+      "text": "The clinical presentation of these spotted fevers is generally similar, with an incubation period of about one week. Common symptoms include:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "High fever",
+        "Headache",
+        "Malaise",
+        "Maculopapular or petechial rash",
+        "An inoculation eschar (tache noire) at the site of the tick bite is a characteristic finding in many of these diseases, especially Mediterranean spotted fever."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is primarily based on clinical suspicion and epidemiological context. Serological tests, such as indirect immunofluorescence assay (IFA), are the mainstay of laboratory diagnosis. PCR of blood or skin biopsy samples can also be used for early diagnosis."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Adults and children with suspected or confirmed other rickettsial spotted fevers"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "PO or IV",
+            "frequency": "twice daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-14 days, or until the patient is afebrile for at least 3 days"
+        },
+        "notes": "Treatment should be initiated based on clinical suspicion and should not be delayed pending laboratory confirmation."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Pregnant women"
+        },
+        "components": [
+          {
+            "drug": "Chloramphenicol",
+            "dose": "50-100 mg/kg/day",
+            "route": "PO or IV",
+            "frequency": "in 4 divided doses"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-14 days"
+        },
+        "notes": "Chloramphenicol is an alternative but is associated with a higher mortality rate and potential toxicity. Its use should be carefully considered."
+      }
+    }
+  ]
+}

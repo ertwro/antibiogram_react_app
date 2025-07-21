@@ -1,0 +1,102 @@
+{
+  "drug_name": "Cefazolin",
+  "tradename": "Ancef, Kefzol",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2018-06-04",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Cefazolin, FDA-approved in 1973, is a first-generation parenteral cephalosporin with a wide variety of uses for infections caused by susceptible gram-positive cocci, e.g., MSSA (not MRSA or enterococci), E. coli, P. mirabilis, and Klebsiella sp.",
+      "Rare failures of cefazolin therapy of MSSA bacteremia due to bacterial hyperproduction of type A beta-lactamase (Antimicrob Agents Chemother 2010;54:2206; Antimicrob Agents Chemother 2009;53:3437).",
+      "Major use is for surgical prophylaxis.",
+      "Antistaphylococcal penicillins have historically been preferred for CNS infection due to concern about poor blood-brain penetration of cefazolin. Recent studies have called this belief into question (Pharmacotherapy 2023;43:85; Open Forum Infect Dis 2021;9:ofab649; Clin Microbiol Infect 2020;26:1415.e1)."
+    ],
+    "adult_dose": {
+      "usual_dose": "1-2 gm IV/IM q8h (max 12 gm/day)",
+      "surgical_prophylaxis": "2 gm IV within 60 min prior to skin incision. Repeat dose in 4 hrs if surgery is prolonged"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "50-150 mg/kg/day (divided q6-8h)",
+      "max_day": "6 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2",
+    "half_life_esrd": "40-70",
+    "dose_renal_function_normal": "1-2 gm IV q8h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 0.5-2 gm q8-12h. CrCl <10: 0.5-1 gm q24h",
+    "hemodialysis": "0.5-1 gm q24h (AD on dialysis days). Outpatients: 2 gm AD MW, 3 gm AD Fri 52",
+    "capd": "0.5 gm q12h",
+    "crrt": "1-2 gm q12h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity (rash, anaphylaxis [rare])",
+    "Cefazolin does not share the same R-1 or R-2 side chain with any other beta-lactam.",
+    "See Drug Allergy: Penicillins, Cephalosporins, Overview.",
+    "GI (diarrhea, C. difficile colitis)",
+    "Fever",
+    "Local phlebitis",
+    "Hematologic: positive Coombs, eosinophilia, neutropenia, thrombocytopenia"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Staphylococcus aureus, methicillin-sensitive (MSSA)",
+      "Staphylococcus epidermidis, methicillin-susceptible (MSSE)",
+      "Staphylococcus lugdunensis",
+      "Staphylococcus saprophyticus",
+      "Staphylococcus sp., coagulase-negative (Methicillin susceptible); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "188 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": ">1000 (500 mg IM, SD) 27",
+    "protein_binding_percent": "73-87",
+    "volume_of_distribution_vd_l_kg": "0.19 L/kg",
+    "avg_serum_half_life_hr": "2",
+    "elimination": "Renal",
+    "bile_penetration_percent": "29-300",
+    "csf_blood_percent": "6.7 (median AUC ratio) 26",
+    "therapeutic_levels_in_csf": "Possibly",
+    "auc_ug_hr_ml": "236 (1 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ]
+}

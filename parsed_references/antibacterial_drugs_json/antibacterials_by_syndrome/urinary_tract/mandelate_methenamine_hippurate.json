@@ -1,0 +1,108 @@
+{
+  "drug_name": "Methenamine hippurate, mandelate",
+  "tradename": "Hiprex, Urex, Mandelamine",
+  "usage_and_dosing": {
+    "description": [
+      "Methenamine hippurate and Methenamine mandelate are urinary antiseptics that are used to prevent or suppress recurrent urinary tract infections.",
+      "Useful in suppressive therapy after infecting organisms are cleared, but not for pyelonephritis.",
+      "Methenamine is hydrolyzed to ammonia and formaldehyde in acidic urine (pH 5.5). It is the formaldehyde that kills bacteria, presumably by denaturing bacterial proteins.",
+      "Do not force fluids (may dilute the formaldehyde).",
+      "Of no value in patients with chronic Foley.",
+      "Restrict administration of alkalinizing foods and drugs.",
+      "If urine pH >5.5, co-administer ascorbic acid (up to 1-2 gm po q4h) to acidify the urine.",
+      "Cranberry juice (12004000 mL per day) has been used with mixed results.",
+      "May be less effective in situations in which a more alkaline pH is created by urea-splitting bacteria in the urine, such as Proteus or Pseudomonas.",
+      "A systematic review found comparable efficacy of methenamine hippurate and antibiotics in preventing symptomatic UTIs and reducing positive urine cultures. However, higher asymptomatic bacteriuria rates in the methenamine group merit further investigation (BMC Urol 2025;25:30)."
+    ],
+    "adult_dose": {
+      "methenamine_hippurate": "1 gm po q12h",
+      "methenamine_mandelate": "1 gm po q6h"
+    },
+    "pediatric_dose": {
+      "hippurate": "Age 6-12 yrs: 0.5-1 gm q12h\nAge >12 yrs: 1 gm q12h",
+      "mandelate": "Age <6 yrs: 50-75 mg/kg/day (divided q6-8h)\nAge 6-12 yrs: 500 mg q6h\nAge >12 yrs: 1 gm q6h"
+    }
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "4",
+    "half_life_hrs_esrd": "No data",
+    "dose_renal_function_normal": "Hippurate: 1 gm q12h\nMandelate: 1 gm q6h",
+    "crcl_or_egfr": "CrCl 50: No dosage adjustment\nCrCl <50: Avoid use",
+    "hemodialysis": "Avoid use",
+    "capd": "Avoid use",
+    "crrt": "Avoid use",
+    "sled": "Avoid use"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No data",
+    "moderate_impairment_child_pugh_class_b": "No data",
+    "severe_impairment_child_pugh_class_c": "Avoid use"
+  },
+  "adverse_effects": [
+    "Nausea and vomiting, skin rash or dysuria. Overall ~3%.",
+    "Avoid use in gout; may precipitate crystals in urine.",
+    "C. difficile toxin-mediated colitis has been reported."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Safety in early pregnancy not established, but appears safe in third trimester. No evidence of toxicity in animals.",
+    "use_during_lactation": "Probably safe with monitoring, but data are limited"
+  },
+  "antimicrobial_spectrum": [
+    "Virtually all fungi and bacteria are susceptible due to the non-specific static and/or cidal effect of formaldehyde"
+  ],
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Hippurate tab (1 gm)\nMandelate tab (500 mg, 1 gm)",
+    "food_rec_po_drugs": "Tab + food",
+    "oral_absorption_percent": "No data",
+    "tmax_hr": "1-2",
+    "peak_serum_conc_ug_ml": "No data",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "No data",
+    "volume_of_distribution_vd": "No data",
+    "avg_serum_t1_2_hr": "4",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Acetazolamide",
+      "effect": " antibacterial activity ( urine pH)",
+      "suggested_management": "Avoid co-adm"
+    },
+    {
+      "drug": "Hydrochlorothiazide",
+      "effect": " antibacterial activity ( urine pH)",
+      "suggested_management": "Avoid co-adm"
+    },
+    {
+      "drug": "TMP-SMX",
+      "effect": " risk of sulfonamide crystalluria",
+      "suggested_management": "Avoid co-adm"
+    },
+    {
+      "drug": "Topiramate",
+      "effect": " antibacterial activity ( urine pH)",
+      "suggested_management": "Avoid co-adm"
+    },
+    {
+      "drug": "Urinary alkalinizing agents",
+      "effect": " antibacterial activity ( urine pH)",
+      "suggested_management": "Avoid co-adm"
+    }
+  ],
+  "comments": [
+    "Prolonged use may cause bacterial or fungal superinfections."
+  ]
+}

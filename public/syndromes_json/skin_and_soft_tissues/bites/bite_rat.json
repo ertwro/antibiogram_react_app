@@ -1,0 +1,129 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from rat, rodent",
+    "sourceFile": "Bite_ Rat.pdf",
+    "lastUpdated": "2025-01-23"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound from rat, rodent.",
+        "Rat bite fever is caused by Spirillum minus (Asia) and Streptobacillus moniliformis (USA)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Spirillum minus",
+        "Streptobacillus moniliformis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "Rat bite fever",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "2 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "connector": "or",
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "depending on clinical response"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "Rat bite fever",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "depending on clinical response"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rabies post-exposure prophylaxis and vaccination is not indicated for rat bites."
+    }
+  ]
+}

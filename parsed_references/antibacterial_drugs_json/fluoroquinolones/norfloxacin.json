@@ -1,0 +1,100 @@
+{
+  "drug_name": "Norfloxacin",
+  "usage_and_dosing": {
+    "general": [
+      "Norfloxacin is one of the early fluoroquinolones.",
+      "Indications for use overlap with those of Ciprofloxacin and Levofloxacin. As Ciprofloxacin and Levofloxacin have a greater degree of antibacterial activity and as both are now available in generic form, the use of Norfloxacin has decreased.",
+      "Caution: numerous drug interactions (see chart below, not all-inclusive).",
+      "No longer available in the US."
+    ],
+    "adult_dose": {
+      "enterocolitis_due_to_shigella": "400 mg po bid x 5 days",
+      "prostatitis_due_to_susceptible_aerobic_gram_negative_bacillus": "400 mg po bid x 4-6 weeks",
+      "travelers_diarrhea_due_to_toxigenic_e_coli": "400 mg po bid x 3 days",
+      "uncomplicated_female_non_gonococcal_urethritis_cystitis": "400 mg po bid x 3 days",
+      "prophylaxis_in_cirrhotic_patients_with_bleeding_from_esophageal_varices": "400 mg po bid x maximum of 7 days"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "3-4",
+    "half_life_esrd": "8",
+    "dose_renal_function_normal": "400 mg po q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 30-49: 400 mg q12h. CrCl 10-30: 400 mg q24h",
+    "hemodialysis": "400 mg q24h",
+    "capd": "400 mg q24h",
+    "crrt": "Not applicable",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Poorly understood CNS toxicity that varies from lightheadedness to confusion and rarely to seizures.",
+    "Prolongation of the corrected QT interval; risk increases with hypokalemia, hypomagnesemia and concomitant use of other drugs with the potential for prolongation of the QT interval.",
+    "Gastrointestinal intolerance: nausea and vomiting.",
+    "Tendinopathy: spontaneous tendon rupture. Risk is highest with concomitant use of corticosteroids.",
+    "Chelation of drug by multivalent cations (calcium, magnesium, aluminum, iron) in dairy food, multivitamins, or antacids. Result is failure to absorb the drug.",
+    "Allergic reactions are rare.",
+    "Rare increase in muscle weakness in patients with myasthenia gravis.",
+    "Photosensitivity can occur."
+  ],
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (400 mg)",
+    "food_recommendation": "Tab no food",
+    "oral_absorption_percent": "30-40",
+    "tmax_hr": "1",
+    "peak_serum_conc_ug_ml": "1.5 (400 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "10-15",
+    "volume_of_distribution_vd_l_kg": "1.7 L/kg",
+    "avg_serum_half_life_hr": "3-4",
+    "elimination": "Metabolized, biliary, renal",
+    "bile_penetration_percent": "700",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "6.4 (400 mg po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP1A2 (weak)"],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "mild ↑"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Ca, Mg)", "effect": "↓ norfloxacin", "management": "Separate administration by 2 hours"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-administration"},
+      {"drug": "Caffeine", "effect": "↑ caffeine", "management": "Monitor, adjust dosage"},
+      {"drug": "Calcium supplements", "effect": "↓ norfloxacin", "management": "Separate administration by 2 hours"},
+      {"drug": "Clozapine", "effect": "↑ clozapine", "management": "Monitor, adjust dosage"},
+      {"drug": "Cyclosporine", "effect": "↑ cyclosporine", "management": "Monitor, adjust dosage"},
+      {"drug": "Didanosine", "effect": "↓ norfloxacin", "management": "Separate administration by 2 hours"},
+      {"drug": "Duloxetine", "effect": "↑ duloxetine", "management": "Monitor or avoid"},
+      {"drug": "Insulin", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Iron supplements", "effect": "↓ norfloxacin", "management": "Separate administration by 2 hours"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or avoid"},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Probenecid", "effect": "↑ norfloxacin", "management": "Monitor or avoid"},
+      {"drug": "Sucralfate", "effect": "↓ norfloxacin", "management": "Separate administration by 2 hours"},
+      {"drug": "Theophylline", "effect": "↑ theophylline", "management": "Monitor or avoid"},
+      {"drug": "Tizanidine", "effect": "↑ tizanidine", "management": "Contraindicated"},
+      {"drug": "Warfarin", "effect": "↑ warfarin, ↑ INR", "management": "Monitor INR, adjust dosage"},
+      {"drug": "Zinc", "effect": "↓ norfloxacin", "management": "Separate administration by 2 hours"}
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "documentMetadata": {
+    "title": "Postpartum Endometritis, Endomyometritis",
+    "lastUpdated": "2025-01-08",
+    "sourceFile": "Postpartum Endometritis, Endomyometritis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Onset of fever (>38 degrees C) on 2 or more of the first 10 post-partum days.",
+        "Infection of the uterine endometrium by vaginal bacteria. Infection can spread by contiguity to the myometrium, parametrium or other pelvic structures (e.g., pelvic abscess, suppurative phlebitis of pelvic veins).",
+        "Risk factors: Cesarean section, manual removal of placenta, prolonged rupture of membranes, precedent bacterial vaginosis, colonization by group B streptococci.",
+        "Clinical picture: Fever, lower midline abdominal pain, tender uterine fundus, purulent lochia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Blood cultures.",
+        "Culture of Cesarean incision if latter is inflamed.",
+        "Culture of vaginal secretions if needed to determine presence, or absence, of group B streptococci."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Polymicrobic mixture of aerobic and anaerobic bacteria",
+        "Aerobes:",
+        "Group B streptococci",
+        "Gram-negative bacilli (E.coli)",
+        "Group A streptococci (rare)",
+        "S. aureus (rare)",
+        "Anaerobic bacteria:",
+        "Bacteroides sp.",
+        "Peptostreptococcus sp. (now Peptoniphilus sp.)",
+        "Clostridium sp. (C. perfringens, C. sordellii [now Paeniclostridium sordellii])",
+        "If HIV/AIDS: also consider H. simplex and CMV"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h (see drug page for comment on loading dose)",
+        "If critically ill: Meropenem 1-2 gm IV loading dose, then 0.5-1 gm IV q8h",
+        "If S. aureus or Streptococcal toxic shock syndrome (TSS):",
+        "Streptococcal: Ceftriaxone 2 gm IV q24h + Clindamycin 900 mg IV q8h",
+        "Staph. aureus (rare): add empiric Vancomycin for potential MRSA",
+        "If Clindamycin resistant Bacteroides sp.: Ceftriaxone + Metronidazole 500 mg IV q8h",
+        "May need concomitant Doxycycline if positive screen for C. trachomatis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ampicillin-sulbactam 3 gm IV q6h (Caution as reports of in vitro resistance of E.coli in up to 50% of isolates)",
+        "Amoxicillin-clavulanate 1000/200 mg IV q8h (where available)",
+        "If mild illness and/or cannot treat with IV drugs:",
+        "Amoxicillin-clavulanate 875/125 mg tab 1 po bid",
+        "Amoxicillin 500 mg po tid + Metronidazole 500 mg po tid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No firm consensus on duration of therapy; usual suggestion is 10 days. Alternatively could trend serum procalcitonin levels (if available).",
+        "Increasing resistance of Bacteroides sp. to Clindamycin",
+        "Over 45% of group B streptococci are resistant to Clindamycin",
+        "Try to avoid aminoglycosides due to risk of nephrotoxicity and ototoxicity"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Some references suggest Cefotetan or Cefoxitin as alternative therapy, but due to increasing resistance of anaerobic gram negative bacilli to cefoxitin and cefotetan, susceptibility should be determined before considering use.",
+        "If fever persists or relapses, differential diagnosis includes:",
+        "Presence of antibiotic resistant bacteria: e.g., Enterococci, multidrug resistant gram negative bacilli",
+        "Infected pelvic hematoma; evolving pelvic abscess",
+        "Development of suppurative phlebitis of pelvic veins",
+        "May have infected retained products of conception; if so, indication for gentle D & C"
+      ]
+    }
+  ]
+}

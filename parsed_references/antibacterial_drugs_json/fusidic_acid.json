@@ -1,0 +1,121 @@
+{
+  "drug_name": "Fusidic acid",
+  "tradename": "Fucidin, Taksta",
+  "usage_and_dosing": {
+    "general": [
+      "Major use of Fusidic acid is in the treatment of staphylococcal infections, including methicillin-resistant Staph. aureus (MRSA). Note: Staph. saprophyticus is intrinsically resistant.",
+      "Steroid class drug with no corticosteroid activity; inhibits protein synthesis. Referred to as a Fusidane class antibiotic.",
+      "Bacteriostatic.",
+      "High level resistance due to mutations in the fusA gene that encodes the drug binding site in the ribosome.",
+      "Fusidic acid is widely used in Europe and elsewhere, but is not, at present, marketed in the US. Clinical trials in the US are in progress.",
+      "Active both extra- and intracellularly.",
+      "Available as tablets, oral suspension, topical, ophthalmic, and IV solution.",
+      "Activity enhanced in acidic media, accumulates in human cells; intracellular activity comparable to Linezolid and Clindamycin.",
+      "Comprehensive review in supplement in Clin Infect Dis 52(Suppl 7):S542, 2011; Clin Infect Dis 52(Suppl 7):S467, 2011."
+    ],
+    "adult_dose": {
+        "standard_european_regimen": "500 mg po/IV tid is standard European regimen. Internationally, available as 250 mg tablet. Availability of IV fusidic acid is uncertain.",
+        "us_trials_regimen": "Day 1 loading dose of 1500 mg po bid and then 600 mg po bid (Clin Infect Dis 52(Suppl 7):S542, 2011)",
+        "topical": "2% ointment, apply tid for impetigo"
+    },
+    "pediatric_dose": {
+      "age_lt_1_yr": "50 mg/kg/day (divided q8h)",
+      "age_1_5_yrs": "250 mg q8h",
+      "age_6_12_yrs": "250-500 mg q8h",
+      "age_gt_12_yrs": "adult dosing"
+    }
+  },
+  "renal_adjustment": {
+    "notes": [
+        "Body weight and Creatinine Clearance calculations",
+        "CrCl = Creatinine clearance (mL/min)",
+        "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+        "CRRT = Continuous Renal Replacement Therapy",
+        "AD = after hemodialysis",
+        "SLED = sustained low efficiency dialysis",
+        "Dosage adjustment may be required in hepatic disease."
+    ],
+    "half_life_normal": "8.9-11",
+    "half_life_esrd": "Unchanged",
+    "dose_normal_function": "500 mg po/IV q8h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "Avoid use"
+  },
+  "adverse_effects": [
+    "Phlebitis with IV administration.",
+    "Nausea, vomiting, diarrhea are most common with po administration.",
+    "Elevated bilirubin due to inhibition of bile transport; much like Dubin-Johnson syndrome"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": null,
+    "lactation": "Safety not established, avoid use",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Tab (250 mg), Oral susp (50 mg/5 mL), 2% cream/ointment, 1% oph solution, Injection",
+    "food_recommendation": "Tab + food",
+    "oral_absorption_percent": "91",
+    "tmax_hr": "2-4",
+    "peak_serum_conc_ug_ml": "30 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "95-99",
+    "volume_of_distribution_vd_l_kg": "0.3 L/kg",
+    "avg_serum_half_life_hr": "15",
+    "elimination": "Biliary",
+    "bile_penetration_percent": "100-200",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "442 (500 mg po, 0-inf)"
+  },
+  "enzyme_interactions": {
+    "cyp450_substrate": ["CYP3A4"],
+    "transporter_substrate": [],
+    "ugt_substrate": [],
+    "cyp450_inhibited": ["CYP3A4"],
+    "transporters_inhibited": ["BCRP", "OATP1B1"],
+    "ugts_inhibited": [],
+    "cyp450_induced": [],
+    "transporters_induced": [],
+    "ugts_induced": [],
+    "serum_drug_concentration_impact": "↑"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Atorvastatin",
+          "effect": "↑ atorvastatin (↑ risk of rhabdomyolysis)",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Rifampin",
+          "effect": "↑ rifampin, ↓ fusidic acid",
+          "management": "Monitor or avoid"
+      },
+      {
+          "drug": "Ritonavir",
+          "effect": "↑ fusidic acid",
+          "management": "Monitor or avoid"
+      },
+      {
+          "drug": "Simvastatin",
+          "effect": "↑ simvastatin (↑ risk of rhabdomyolysis)",
+          "management": "Avoid co-administration"
+      }
+  ],
+  "comments": [
+    "Reserved for staphylococcal infections resistant to other drugs or for patients intolerant or allergic to other drugs.",
+    "Report of 8 cases of rhabdomyolysis after concomitant use of statin and fusidic acid (BMJ 345:e6562, 2012)."
+  ]
+}

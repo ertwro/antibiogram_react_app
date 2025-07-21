@@ -1,0 +1,162 @@
+{
+  "drug_name": "Amikacin",
+  "tradename": "Arikayce",
+  "usage_and_dosing": {
+    "description": "Amikacin is a semisynthetic aminoglycoside, approved in 1972, used to treat infections from aerobic gram-negative bacilli and susceptible mycobacteria. No longer recommended for treatment of non-urinary P. aeruginosa. CLSI breakpoints are for urine isolates only. Amikacin liposome inhalation suspension available for refractory MAC in adults with limited or no alternative treatment options.",
+    "pharmacology_at_usual_dosing": {
+      "peak_serum_conc": "2.8 µg/mL",
+      "auc_0_24": "23.5 µg*hr/mL",
+      "sputum_conc": "1-4 hours after administration: 1720, 884, and 1300 µg/g at 1, 3, and 6 months, respectively."
+    },
+    "adult_dose": [
+      {
+        "route": "Conventional dosing",
+        "dose": "7.5 mg/kg IV q12h"
+      },
+      {
+        "route": "Extended-interval dosing (non-mycobacterial infection)",
+        "dose": "15-20 mg/kg IV q24h"
+      },
+      {
+        "route": "Intravitreal administration",
+        "dose": "0.4 mg/0.1 mL"
+      },
+      {
+        "route": "Intrathecal administration",
+        "dose": "30 mg once daily"
+      },
+      {
+        "route": "CAPD-related peritonitis",
+        "dose": "See Intraperitoneal Drug Dosing, CAPD."
+      },
+      {
+        "route": "Mycobacterium spp.",
+        "dose": "10-15 mg/kg IV/IM q24h, or 15-25 mg/kg 3x/wk. See species page for specific recommendation"
+      },
+      {
+        "route": "Liposome inhalation suspension",
+        "dose": "590 mg q24h using Lamira Nebulizer System (as part of a combination regimen)"
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "15-20 mg/kg/day (once daily) or 5-7.5 mg/kg q8h"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "2-3 hrs",
+    "half_life_esrd": "30-70 hrs",
+    "dose_renal_function_normal": {
+      "conventional": "7.5 mg/kg IM/IV q12h",
+      "ntm": "10-15 mg/kg IM/IV q24h"
+    },
+    "crcl_or_egfr": {
+      "conventional": {
+        "crcl_>50": "No dosage adjustment",
+        "crcl_10_50": "7.5 mg/kg q24h",
+        "crcl_<10": "7.5 mg/kg q48h"
+      },
+      "ntm": {
+        "dosage_if_gfr_poorly_defined": "Adjust to these targets: Peak: 35-45 µg/mL (15 mg/kg), 65-80 µg/mL (25 mg/kg); Trough: <1 µg/mL"
+      }
+    },
+    "hemodialysis": {
+      "conventional": "7.5 mg/kg q48h (+ extra 3.75 mg/kg AD)"
+    },
+    "capd": "For peritonitis only: 2 mg/kg IP once daily",
+    "crrt": {
+      "extended_interval": "CVVH, CVVHDF: 25 mg/kg q48h TDM recommended"
+    },
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "ecmo": "See ECMO Drug Dosing Adjustment.",
+    "obesity": "See Obesity Dosing Adjustments."
+  },
+  "adverse_effects": [
+    "Nephrotoxicity (acute tubular necrosis)",
+    "Ototoxicity (cochlear and vestibular).",
+    "Enhancement of neuromuscular blockade (rare).",
+    "Black box warning for liposome inhalation suspension: Increased risk of respiratory adverse reactions including hypersensitivity pneumonitis, hemoptysis, bronchospasm, and exacerbation of underlying pulmonary disease that have led to hospitalization in some cases."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Associated with fetal harm, especially 1st TM use. Avoid in pregnancy, although short-term use may be acceptable if benefit outweighs risk.",
+    "use_during_lactation": "Probably safe, monitor infant for GI toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Nocardia sp."
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection, liposome inhalation susp",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "41-49 (15 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "0-10%",
+    "volume_of_distribution": "0.26 L/kg",
+    "avg_serum_t1_2": "2-3 hr",
+    "elimination": "Renal",
+    "bile_penetration": "10-60%",
+    "csf_blood": "0-30%",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "110-145 (15 mg/kg, 0-inf)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Amphotericin B",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Cisplatin",
+      "effect": "↑ nephrotoxicity, ↑ ototoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Furosemide",
+      "effect": "↑ ototoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Neuromuscular blocking agents",
+      "effect": "↑ apnea or respiratory paralysis",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "NSAIDS",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Piperacillin-tazobactam",
+      "effect": "Possible amikacin inactivation",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Radiographic contrast",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Vancomycin",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    }
+  ]
+}

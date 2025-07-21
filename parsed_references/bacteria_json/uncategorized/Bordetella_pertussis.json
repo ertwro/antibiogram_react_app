@@ -1,0 +1,381 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Bordetella pertussis",
+      "lastUpdated": "2025-03-24",
+      "clsiCategory": "additional_bacteria",
+      "classification": {
+        "gramStain": "Gram negative",
+        "morphology": "coccobacilli"
+      },
+      "strainDetails": [
+        {
+          "type": "Related Species",
+          "value": "Bordetella parapertussis",
+          "notes": "Can cause a similar clinical syndrome."
+        }
+      ],
+      "biochemicalTests": "Gram-negative coccobacillus, fastidious, requires specialized media (e.g., Regan-Lowe or Bordet-Gengou), slow-growing ('mercury drop' colonies), strictly aerobic, oxidase +, urease –, non-motile."
+    },
+    "clinicalProfile": {
+      "summary": "Bordetella pertussis causes pertussis (whooping cough) and occasionally pneumonia.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pertussis (whooping cough)"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        }
+      ],
+      "keySignsAndSymptoms": [
+        "Paroxysms with post-tussive whoop",
+        "Post-tussive vomiting",
+        "Syncope",
+        "Incontinence",
+        "Lymphocytosis"
+      ],
+      "stagesOfIllness": [
+        {
+          "stageName": "Catarrhal",
+          "duration": "1-2 weeks",
+          "details": "Antibacterial treatment effective at this stage."
+        },
+        {
+          "stageName": "Paroxysmal coughing",
+          "duration": "2-4 weeks",
+          "details": "After 2 weeks of cough, hard to demonstrate any benefit of antibacterial treatment."
+        },
+        {
+          "stageName": "Convalescence",
+          "duration": "1-2 weeks",
+          "details": "Treatment at late stages is used to eradicate the organism from the nose and prevent disease transmission."
+        }
+      ],
+      "prognosisNotes": [
+        "Complications include: apnea, bradycardia, pulmonary hypertension, pneumonia, seizures, death (~ 1% mortality in young infants <2 months)",
+        "Lymphocytosis is associated with severe outcomes including pulmonary hypertension, respiratory failure and death in young infants"
+      ]
+    },
+    "laboratoryProfile": {
+      "diagnosticNotes": {
+        "methods": [
+          {
+            "methodName": "PCR or Culture",
+            "details": "Bronchial secretions for PCR or culture on special media."
+          },
+          {
+            "methodName": "Complete Blood Count",
+            "details": "Lymphocytosis is suggestive of pertussis"
+          }
+        ]
+      }
+    },
+    "treatment": {
+      "generalNotes": [
+        "Antibacterial treatment recommended if within 3-4 weeks of cough onset in older children and adults. Treat infants for up to 6 weeks after cough onset since shedding may persist",
+        "Recommend no antibiotic therapy if onset of cough more than 3 weeks ago. Exceptions: Near term pregnancy with cough onset within 6 weeks to prevent transmission to neonate; Up to 6 weeks after cough onset for persons with asthma, COPD, age > 65 yrs, or other immunocompromising conditions"
+      ],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Exchange transfusion",
+          "condition": "Infants < 2months with lymphocytosis"
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "patientPopulation": [
+              "Adult"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Azithromycin",
+                  "dose": "500 mg po x 1, then 250 mg po once daily x 4 days"
+                },
+                {
+                  "drugName": "Clarithromycin",
+                  "dose": "500 mg po bid x 7 days (or 1 gm/day po in two divided doses x 7 days)"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "TMP-SMX DS",
+                  "dose": "1 tab po bid x 14 days"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "patientPopulation": [
+              "Child"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Azithromycin",
+                  "dose": "10 mg/kg/day po on day 1 and then 5 mg/kg once daily on days 2 through 5 (maximum 500 mg/250 mg day)"
+                },
+                {
+                  "drugName": "Clarithromycin",
+                  "dose": "15 mg/kg/day po in 2 divided doses x 7 days"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "TMP-SMX (TMP component)",
+                  "dose": "8 mg/kg/day po in 2 divided doses x 14 days"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "patientPopulation": [
+              "Infant < 2 months"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Azithromycin",
+                  "dose": "10 mg/kg/day po for 5 days",
+                  "comments": "there is a small risk of hypertrophic pyloric stenosis associated with Azithromycin in infants less than 1 month old."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "preventionAndScreening": [
+        {
+          "type": "Prophylaxis",
+          "details": "Post exposure prophylaxis (PEP) is recommended for household contacts and others with close contacts such as children in daycare, health care personnel who have been exposed and are likely to expose high risk patients (neonates, pregnant patients). PEP is recommended for these groups regardless of vaccination history. Prophylactic drugs and doses are the same as for treatment."
+        },
+        {
+          "type": "Vaccination",
+          "details": "See Tetanus, Diphtheria, Pertussis, Vaccines. Non-immunized exposed persons should receive appropriate pertussis containing vaccines as soon as possible"
+        }
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Azithromycin",
+          "pearl": "Preferred agent due to shorter duration of therapy, less frequent dosing, and better side effects profile."
+        },
+        {
+          "drugName": "Clarithromycin",
+          "pearl": "More GI side effects with Clarithromycin than Azithromycin"
+        },
+        {
+          "drugName": "TMP-SMX",
+          "pearl": "An alternative for persons older than 2 months who cannot tolerate Azithromycin or Clarithromycin or are infected with a macrolide-resistant strain"
+        },
+        {
+          "drugName": "Fluoroquinolones and tetracyclines",
+          "pearl": "Active in vitro but clinical efficacy unknown."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Clin Microbiol Rev.",
+          "citation": "2016 Jul;29(3):449"
+        },
+        {
+          "source": "N Engl J Med",
+          "citation": "372:765, 2015"
+        },
+        {
+          "source": "Rev Microbiol.",
+          "citation": "2024 Nov;22(11):722"
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "54:1756, 2012",
+          "summaryOrNote": "Suggested case definition"
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "58:830, 2014",
+          "summaryOrNote": "Prevention and vaccine"
+        },
+        {
+          "source": "J Pediatric Infect Dis Soc",
+          "citation": "2019; 8:334",
+          "summaryOrNote": "History and perspective of Pertussis vaccines"
+        },
+        {
+          "source": "MMWR Recomm Rep",
+          "citation": "67(RR-2):1-44, 2018",
+          "summaryOrNote": "CDC pertussis treatment and prophylaxis guidelines"
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "60:333, 2015",
+          "summaryOrNote": "Case control study on incidence of pertussis in infants"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "laboratoryProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.363Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Bordetella pertussis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases",
+        "aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-03-24"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram negative",
+        "morphology": "coccobacilli"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Bordetella pertussis causes pertussis (whooping cough) and occasionally pneumonia.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pertussis (whooping cough)"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        }
+      ],
+      "keySignsAndSymptoms": [
+        "Paroxysms with post-tussive whoop",
+        "Post-tussive vomiting",
+        "Syncope",
+        "Incontinence",
+        "Lymphocytosis"
+      ],
+      "stagesOfIllness": [
+        {
+          "stageName": "Catarrhal",
+          "duration": "1-2 weeks",
+          "details": "Antibacterial treatment effective at this stage."
+        },
+        {
+          "stageName": "Paroxysmal coughing",
+          "duration": "2-4 weeks",
+          "details": "After 2 weeks of cough, hard to demonstrate any benefit of antibacterial treatment."
+        },
+        {
+          "stageName": "Convalescence",
+          "duration": "1-2 weeks",
+          "details": "Treatment at late stages is used to eradicate the organism from the nose and prevent disease transmission."
+        }
+      ],
+      "prognosisNotes": [
+        "Complications include: apnea, bradycardia, pulmonary hypertension, pneumonia, seizures, death (~ 1% mortality in young infants <2 months)",
+        "Lymphocytosis is associated with severe outcomes including pulmonary hypertension, respiratory failure and death in young infants"
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile",
+      "resistance"
+    ],
+    "value": {}
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "diagnosticNotes": {
+        "methods": [
+          {
+            "methodName": "PCR or Culture",
+            "details": "Bronchial secretions for PCR or culture on special media."
+          },
+          {
+            "methodName": "Complete Blood Count",
+            "details": "Lymphocytosis is suggestive of pertussis"
+          }
+        ]
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "documentMetadata": {
+    "title": "Lymphadenitis, Nocardia",
+    "sourceFile": "lymph_nodes-spleen/lymphadenitis/Lymphadenitis, Nocardia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Regional nodular lymphadenitis with or without skin abscesses.",
+        "History of cutaneous injury may be present.",
+        "Culture positive for Nocardia sp.",
+        "No evidence of dissemination."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Over 40 species of Nocardia have been identified in human infections (Clin Microbiol Rev. 2006; 19:259; Clin Microbiol Rev. 2022; 35:e0002721). The more common are listed below."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nocardia nova complex",
+        "Nocardia farcinica",
+        "Nocardia cyriacigeorgica",
+        "Nocardia brasiliensis",
+        "Nocardia abscessus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "5-10 mg/kg/day (based on TMP component)",
+            "route": "IV/po",
+            "frequency": "divided in 2-4 doses"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3-6 months if patient is immunocompetent and 6-12 months if immunocompromised"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Minocycline",
+            "dose": "100-200 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Therapy should be guided by in vitro susceptibility tests (See Antimicrob Agents Chemother 58:795, 2014 for susceptibility profiles according to species). In vitro resistance to TMP-SMX is uncommon and not clearly predictive of treatment failure with this agent (J Clin Microbiol. 2012;50:670-2).",
+        "Other agents with in vitro activity against some strains, although there is little if any clinical efficacy data: Amoxicillin-clavulanate, Ceftriaxone, Clarithromycin (Clin Microbiol Infect 17:690, 2011; Clin Microbiol Infect 12:905, 2006; Medicine 88:250, 2009).",
+        "Linezolid 600 mg po bid is reported effective (Ann Pharmacother 41:1694, 2007)."
+      ]
+    }
+  ]
+}

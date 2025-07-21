@@ -1,0 +1,88 @@
+{
+  "documentMetadata": {
+    "title": "Ehrlichiosis, Human monocytic ehrlichiosis (HME)",
+    "lastUpdated": "2023-08-07",
+    "sourceFile": "Ehrlichiosis_ Human monocytic ehrlichiosis (HME).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ehrlichia are obligate intracellular bacteria that grow inside human WBCs.",
+        "There are 2 important human pathogens: Ehrlichia chaffeensis that causes HME and Anaplasma phagocytophilum that causes Human Granulocytic Anaplasmosis or (HGA).",
+        "HME presents as fever, rash (36%), leukopenia and thrombocytopenia.",
+        "Found in 30 states: mostly southeast of line from New Jersey to Illinois, Missouri, Oklahoma, Texas. See [CDC statistical map](https://www.cdc.gov/ehrlichiosis/stats/index.html).",
+        "History of outdoor activity and tick exposure from April through September.",
+        "In endemic areas, a high percentage of both adult ticks and nymphs are co-infected with both Anaplasma (HGE) and B. burgdorferi (Lyme).",
+        "Concomitant Babesiosis can also occur."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "4x increase in IFA antibody but IFA takes time",
+        "Detection of Ehrlichia DNA in blood or CSF by PCR if no morulae (monocyte inclusions) on blood film"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ehrlichia chaffeensis",
+        "Lone Star tick is the vector (Image is an adult female)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doxycycline 100 mg po/IV bid x 7–14 days (See Comments)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tetracycline 500 mg po qid x 7-14 days",
+        "Doxycycline is also recommended for children or for women during pregnancy (See [CDC Treatment Recommendations](https://www.cdc.gov/ehrlichiosis/treatment/index.html))",
+        "In pregnant patients with mild disease or those with severe allergy to tetracyclines, Rifampin 10 mg/kg bid x 5-7 days is an option."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pediatrics. Use of tetracyclines in pediatric patients has historically been limited because of reports of permanent tooth discoloration in children <8 years of age caused by incorporation of the drugs and their colored degradation products in enamel.",
+        "Doxycycline binds less readily to calcium compared with other members of the tetracycline class, and recent comparative data suggest that doxycycline is not likely to cause visible teeth staining or enamel hypoplasia in children <8 years of age.",
+        "Doxycycline can safely be administered for short durations (≤21 days) regardless of patient age (AAP Red Book 2018, Section 4; [J Pediatr 166:1246, 2015](https://www.jpeds.com/article/S0022-3476(14)01116-8/fulltext)).",
+        "Reference: [MMWR RR 65(2): 1-44, 2016](https://www.cdc.gov/mmwr/volumes/65/rr/rr6502a1.htm)."
+      ]
+    }
+  ]
+}

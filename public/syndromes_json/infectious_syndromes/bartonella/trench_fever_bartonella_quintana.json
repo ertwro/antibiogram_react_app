@@ -1,0 +1,87 @@
+{
+  "documentMetadata": {
+    "title": "Trench Fever, Bartonella quintana",
+    "lastUpdated": "2024-04-24",
+    "sourceFile": "Trench Fever, Bartonella quintana.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Trench fever is caused by Bartonella quintana – a small gram-negative rod, spread by the body louse. Often seen in homeless persons and the poor. Bartonella quintana caused a million cases of trench fever during World War One (1914-1918).",
+        "Trench fever manifestations:",
+        "  - Malaise, headache, bone pain, fever, splenomegaly and, sometimes, rash",
+        "  - Variety of fever patterns: single incident, intermittent, or persistent (FUO)",
+        "Bartonella quintana can also manifest as bacteremia, endocarditis, or bacillary angiomatosis (AIDS patients).",
+        "If chronic infection, evaluate the patient for complicating endocarditis.",
+        "Systematic review: Clin. Infect. Dis. 2024; 78: 554"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella quintana"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnostic Considerations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Diagnosis:",
+        "  - Blood cultures",
+        "  - Serology: IFA but cross reacts with B. henselae",
+        "  - PCR on blood or tissue"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Optimal therapy is uncertain due to sparse data.",
+        "Suggest Doxycycline 100 mg po bid x 4 weeks + Gentamicin 3 mg/kg IV once daily x initial 2 weeks of therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If Gentamicin not possible, Rifampin 300 mg po bid x 14 days + Doxycycline 100 mg po bid x 4 weeks"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doxycycline + Gentamicin, randomized trial (Antimicrob Agents Chemother 2003;47:2204).",
+        "TMP-SMX, fluoroquinolones, 1st generation cephalosporins and penicillins are not predictably active against Bartonella quintana and should not be used.",
+        "Reference: Intl J Antimicrob Agents 44:16, 2014."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Corynebacterium jeikeium",
+      "aliases": [],
+      "lastUpdated": "2025-01-23",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (coryneform)",
+        "respiration": "Strictly aerobic",
+        "notes": [
+          "Lipophilic (requires lipids for growth)",
+          "Typically multi-drug resistant"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive rod (coryneform), catalase +, oxidase –, non-motile, urease –, strictly aerobic, lipophilic, highly resistant to multiple antibiotics."
+    },
+    "clinicalProfile": {
+      "summary": "Corynebacterium jeikeium is a multi-drug resistant, opportunistic pathogen primarily causing hospital-acquired infections in immunocompromised patients. It is a significant cause of bacteremia, endocarditis, and infections related to intravascular devices and prosthetics.",
+      "pathophysiologyPearls": [
+        "Its lipophilic nature allows it to colonize the skin of hospitalized patients.",
+        "Adherence to prosthetic materials is a key step in the pathogenesis of device-related infections."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Signs of sepsis",
+        "Erythema or purulence at catheter exit site",
+        "New or changing heart murmur (endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Often associated with central venous catheters."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Can occur on native or prosthetic valves."
+        },
+        {
+          "syndromeName": "Prosthetic Device Infection",
+          "description": "Infections of prosthetic joints, heart valves, or vascular grafts."
+        },
+        {
+          "syndromeName": "CSF Shunt Infection",
+          "description": "Infection of cerebrospinal fluid shunts."
+        }
+      ],
+      "highRiskPopulations": [
+        "Immunocompromised patients (e.g., hematologic malignancy, AIDS)",
+        "Neutropenic patients",
+        "Patients with long-term indwelling catheters or prosthetic devices",
+        "Patients with prolonged hospital stays and prior antibiotic exposure"
+      ],
+      "transmissionVectors": [
+        "Nosocomial transmission, likely from patient's own skin flora or hands of healthcare workers."
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Penicillin",
+          "notes": "Most strains are resistant to penicillins and cephalosporins."
+        },
+        {
+          "drugOrClass": "Macrolides",
+          "notes": "Generally resistant."
+        },
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Generally resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "High-level Daptomycin Resistance",
+          "details": "High-level resistance to daptomycin has been reported."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Vancomycin is the drug of choice.",
+        "Susceptibility testing is essential to guide therapy due to multi-drug resistance."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Penicillin",
+          "condition": "All infections",
+          "reason": "High rates of resistance. Confirm in vitro susceptibility before use."
+        }
+      ],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Device Removal",
+          "condition": "Catheter-related or prosthetic device infections",
+          "details": "Removal of the infected device is often necessary for cure."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia, Endocarditis, Prosthetic Device Infection",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, depending on syndrome",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "Standard dosing",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, depending on syndrome",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "Standard dosing",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": "High-level resistance has been reported."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood cultures from immunocompromised patients with fever, especially those with indwelling catheters.",
+        "Cultures from suspected infected devices."
+      ],
+      "methodologyNotes": [
+        "Often mistaken for a contaminant; clinical correlation is crucial."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is by isolation of the organism from a normally sterile site (e.g., blood, CSF, tissue). It should not be dismissed as a contaminant in the appropriate clinical setting.",
+        "biosafetyWarning": "Standard BSL-2 practices are adequate.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "Confirm in vitro susceptibility before using penicillin."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Vancomycin",
+          "pearl": "The mainstay of therapy for C. jeikeium infections."
+        },
+        {
+          "drugName": "Gentamicin",
+          "pearl": "Combination with vancomycin has been used for endocarditis, but the benefit over vancomycin monotherapy is unclear."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "J Clin Microbiol",
+          "citation": "47:2328, 2009",
+          "summaryOrNote": "Report on high-level daptomycin resistance."
+        },
+        {
+          "source": "IDCases",
+          "citation": "11: 26–30, 2018",
+          "summaryOrNote": "Case report on combination therapy for endocarditis."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.371Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Corynebacterium jeikeium"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-23"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (coryneform)",
+        "respiration": "Strictly aerobic",
+        "notes": [
+          "Lipophilic (requires lipids for growth)",
+          "Typically multi-drug resistant"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Corynebacterium jeikeium is a multi-drug resistant, opportunistic pathogen primarily causing hospital-acquired infections in immunocompromised patients. It is a significant cause of bacteremia, endocarditis, and infections related to intravascular devices and prosthetics.",
+      "pathophysiologyPearls": [
+        "Its lipophilic nature allows it to colonize the skin of hospitalized patients.",
+        "Adherence to prosthetic materials is a key step in the pathogenesis of device-related infections."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Signs of sepsis",
+        "Erythema or purulence at catheter exit site",
+        "New or changing heart murmur (endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Often associated with central venous catheters."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Can occur on native or prosthetic valves."
+        },
+        {
+          "syndromeName": "Prosthetic Device Infection",
+          "description": "Infections of prosthetic joints, heart valves, or vascular grafts."
+        },
+        {
+          "syndromeName": "CSF Shunt Infection",
+          "description": "Infection of cerebrospinal fluid shunts."
+        }
+      ],
+      "highRiskPopulations": [
+        "Immunocompromised patients (e.g., hematologic malignancy, AIDS)",
+        "Neutropenic patients",
+        "Patients with long-term indwelling catheters or prosthetic devices",
+        "Patients with prolonged hospital stays and prior antibiotic exposure"
+      ],
+      "transmissionVectors": [
+        "Nosocomial transmission, likely from patient's own skin flora or hands of healthcare workers."
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Penicillin",
+          "notes": "Most strains are resistant to penicillins and cephalosporins."
+        },
+        {
+          "drugOrClass": "Macrolides",
+          "notes": "Generally resistant."
+        },
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Generally resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "High-level Daptomycin Resistance",
+          "details": "High-level resistance to daptomycin has been reported."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia, Endocarditis, Prosthetic Device Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "Standard dosing",
+              "route": "IV",
+              "frequency": "",
+              "duration": "Variable, depending on syndrome",
+              "comments": "",
+              "originalText": "Vancomycin Standard dosing IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia, Endocarditis, Prosthetic Device Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "Standard dosing",
+              "route": "IV",
+              "frequency": "",
+              "duration": "Variable, depending on syndrome",
+              "comments": "High-level resistance has been reported.",
+              "originalText": "Daptomycin Standard dosing IV "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood cultures from immunocompromised patients with fever, especially those with indwelling catheters.",
+        "Cultures from suspected infected devices."
+      ],
+      "methodologyNotes": [
+        "Often mistaken for a contaminant; clinical correlation is crucial."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

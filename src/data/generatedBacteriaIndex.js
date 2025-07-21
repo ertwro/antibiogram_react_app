@@ -4,35 +4,39 @@
 
 import organism0 from '../../parsed_references/bacteria_json/enterobacterales/Citrobacter_freundii.json' assert { type: 'json' };
 import organism1 from '../../parsed_references/bacteria_json/enterobacterales/Citrobacter_koseri.json' assert { type: 'json' };
-import organism2 from '../../parsed_references/bacteria_json/enterobacterales/E_coli_Enteroaggregative.json' assert { type: 'json' };
-import organism3 from '../../parsed_references/bacteria_json/enterobacterales/Escherichia_coli.json' assert { type: 'json' };
-import organism4 from '../../parsed_references/bacteria_json/enterobacterales/Klebsiella_aerogenes.json' assert { type: 'json' };
-import organism5 from '../../parsed_references/bacteria_json/enterobacterales/Klebsiella_sp(oxytoca-pneumoniae-variicola).json' assert { type: 'json' };
-import organism6 from '../../parsed_references/bacteria_json/enterobacterales/Klebsiella_sp(rhinoscleromatis-ozaenae).json' assert { type: 'json' };
-import organism7 from '../../parsed_references/bacteria_json/enterobacterales/Morganella_morganii.json' assert { type: 'json' };
-import organism8 from '../../parsed_references/bacteria_json/enterobacterales/Proteus_sp(mirabilis-penneri-vulgaris).json' assert { type: 'json' };
-import organism9 from '../../parsed_references/bacteria_json/enterobacterales/Providencia_sp(stuartii-rettgeri-alcalificiens).json' assert { type: 'json' };
-import organism10 from '../../parsed_references/bacteria_json/enterobacterales/Serratia_marcescens.json' assert { type: 'json' };
-import organism11 from '../../parsed_references/bacteria_json/enterobacterales/enterobacter_cloacae_complex.json' assert { type: 'json' };
+import organism2 from '../../parsed_references/bacteria_json/enterobacterales/E_coli_enteroaggregative.json' assert { type: 'json' };
+import organism3 from '../../parsed_references/bacteria_json/enterobacterales/Enterobacter_cloacae_complex.json' assert { type: 'json' };
+import organism4 from '../../parsed_references/bacteria_json/enterobacterales/Escherichia_coli.json' assert { type: 'json' };
+import organism5 from '../../parsed_references/bacteria_json/enterobacterales/Klebsiella_aerogenes.json' assert { type: 'json' };
+import organism6 from '../../parsed_references/bacteria_json/enterobacterales/Klebsiella_sp_oxytoca_pneumoniae_variicola.json' assert { type: 'json' };
+import organism7 from '../../parsed_references/bacteria_json/enterobacterales/Klebsiella_sp_rhinoscleromatis_ozaenae.json' assert { type: 'json' };
+import organism8 from '../../parsed_references/bacteria_json/enterobacterales/Morganella_morganii.json' assert { type: 'json' };
+import organism9 from '../../parsed_references/bacteria_json/enterobacterales/Proteus_sp_mirabilis_penneri_vulgaris.json' assert { type: 'json' };
+import organism10 from '../../parsed_references/bacteria_json/enterobacterales/Providencia_sp_stuartii_rettgeri_alcalificiens.json' assert { type: 'json' };
+import organism11 from '../../parsed_references/bacteria_json/enterobacterales/Serratia_marcescens.json' assert { type: 'json' };
 
 // Export all organisms with consistent keys
 export const bacteriaDatabase = {
   'citrobacterfreundii': organism0,
   'citrobacterkoseri': organism1,
   'ecolienteroaggregative': organism2,
-  'escherichiacoli': organism3,
-  'klebsiellaaerogenes': organism4,
-  'klebsiellaspoxytocapneumoniaevariicola': organism5,
-  'klebsiellasprhinoscleromatisozaenae': organism6,
-  'morganellamorganii': organism7,
-  'proteusspmirabilispennerivulgaris': organism8,
-  'providenciaspstuartiirettgerialcalificiens': organism9,
-  'serratiamarcescens': organism10,
-  'enterobactercloacaecomplex': organism11
+  'enterobactercloacaecomplex': organism3,
+  'escherichiacoli': organism4,
+  'klebsiellaaerogenes': organism5,
+  'klebsiellaspoxytocapneumoniaevariicola': organism6,
+  'klebsiellasprhinoscleromatisozaenae': organism7,
+  'morganellamorganii': organism8,
+  'proteusspmirabilispennerivulgaris': organism9,
+  'providenciaspstuartiirettgerialcalificiens': organism10,
+  'serratiamarcescens': organism11
 };
 
 // Generate keys from bacterium names dynamically
 const generateBacteriumKey = (bacteriumName) => {
+    if (typeof bacteriumName !== 'string') {
+        console.warn('generateBacteriumKey: bacteriumName is not a string:', bacteriumName);
+        return '';
+    }
     return bacteriumName
         .toLowerCase()
         .replace(/[^a-z0-9\s]/g, '') // Remove special characters
@@ -44,9 +48,15 @@ const generateBacteriumKey = (bacteriumName) => {
 // Create name-based index for dynamic lookup
 export const bacteriaByName = {};
 Object.values(bacteriaDatabase).forEach(organism => {
-    if (organism.identity?.bacteriumName) {
-        const key = generateBacteriumKey(organism.identity.bacteriumName);
-        bacteriaByName[key] = organism;
+    // Check both possible data structures
+    const bacteriumName = organism._originalData?.identity?.bacteriumName || 
+                         organism.identity?.bacteriumName;
+    
+    if (bacteriumName && typeof bacteriumName === 'string') {
+        const key = generateBacteriumKey(bacteriumName);
+        if (key) {
+            bacteriaByName[key] = organism;
+        }
     }
 });
 

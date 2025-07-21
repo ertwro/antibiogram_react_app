@@ -1,0 +1,154 @@
+
+{
+  "documentMetadata": {
+    "title": "Typhoid Fever",
+    "sourceFile": "syndromes/infectious_syndromes/Typhoid Fever.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Typhoid Fever (Enteric Fever)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Typhoid fever, also known as enteric fever, is a systemic infection caused by the bacterium Salmonella Typhi. It is usually spread through contaminated food or water."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Salmonella enterica serotype Typhi (Salmonella Typhi)",
+        "Salmonella enterica serotype Paratyphi (causes a similar, often less severe illness called paratyphoid fever)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prolonged high fever that rises in a stepwise fashion",
+        "Headache, malaise, anorexia",
+        "Abdominal pain, constipation or diarrhea",
+        "'Rose spots' (faint, salmon-colored macules on the trunk and abdomen)",
+        "Relative bradycardia (Faget sign)",
+        "Hepatosplenomegaly"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Uncomplicated Typhoid Fever (Fluoroquinolone-Susceptible)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Ciprofloxacin", "dose": "500 mg", "route": "PO", "frequency": "q12h" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Uncomplicated Typhoid Fever (Fluoroquinolone-Resistant or Unknown Susceptibility)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Ceftriaxone", "dose": "1-2 g", "route": "IV or IM", "frequency": "daily" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-14 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              { "drug": "Azithromycin", "dose": "1 g", "route": "PO", "frequency": "daily" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Severe or Complicated Typhoid Fever"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Ceftriaxone", "dose": "2 g", "route": "IV", "frequency": "daily" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            },
+            "notes": "Adjunctive dexamethasone is recommended for patients with shock or altered mental status."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Blood Culture",
+        "strengthOfRecommendation": "Recommended",
+        "notes": "The gold standard for diagnosis. Yield is highest during the first week of illness."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Bone Marrow Culture",
+        "notes": "More sensitive than blood culture, especially if antibiotics have been administered."
+      }
+    }
+  ]
+}

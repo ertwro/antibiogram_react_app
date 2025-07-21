@@ -1,0 +1,148 @@
+{
+  "drug_name": "Clarithromycin",
+  "tradename": "Biaxin, Biaxin XL",
+  "usage_and_dosing": {
+    "general": [
+      "Clarithromycin is a macrolide antibiotic used as alternative therapy for a variety of respiratory tract and skin infections, in combination for some mycobacterial infections and in combination regimens to eradicate H. pylori infections.",
+      "Mechanisms of Clarithromycin resistance: methylation of ribosomal target (high level resistance) and efflux pump (low level resistance).",
+      "Rates of susceptibility to Clarithromycin of Streptococcus pyogenes and Streptococcus pneumoniae are highly variable by geographic location.",
+      "Caution: numerous drug interactions (see chart below, not all-inclusive)",
+      "See Macrolides, Overview for discussion of class-wide adverse effects, including QTc interval prolongation."
+    ],
+    "adult_dose": {
+      "aecb_or_cap_dose": "500 mg (standard) po q12h x 7-14 days or 500 mg (extended release) 2 tabs po once daily",
+      "pertussis_dose": "500 mg po bid x 7 days",
+      "tonsillopharyngitis_dose": "250 mg po q12h x 10 days",
+      "skin_structure_infections_dose": "250 mg po q12h x 10 days"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "15 mg/kg/day (divided q12h)",
+      "max_day": "1 gm"
+    }
+  },
+  "renal_adjustment": {
+    "note": "recommendations are for the immediate-release formulations only.",
+    "half_life_normal": "5-7",
+    "half_life_esrd": "22",
+    "dose_renal_function_normal": "500 mg po q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 500 mg q12-24h. CrCl <10: 500 mg q24h",
+    "hemodialysis": "500 mg q24h (dose AD on dialysis days)",
+    "capd": "500 mg q24h",
+    "crrt": "500 mg q12-24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (3%), neutropenia (1%), thrombocytopenia (rare), increased PT/PTT (1%), nausea/vomiting (3%)--less GI upset with extended release formulation, diarrhea (3-6%), C. difficile colitis, increased LFTs (rare), increased BUN/Creatinine (4%), headache (2%).",
+    "Clarithromycin can result in high statin blood levels with associated risk of rhabdomyolysis; also true of Erythromycin but not Azithromycin (Ann Int Med 158:869, 2013).",
+    "Clarithromycin blocks metabolism of calcium channel blockers; can result in hypotension and renal injury (JAMA 310: 2544, 2013).",
+    "Concomitant Clarithromycin and colchicine (for gout) can result in fatal colchicine toxicity due to pancytopenia (Clin Infect Dis 41:291, 2005).",
+    "FDA Drug safety communication. Results of 10 year follow-up of trial of 4373 patients with stable coronary heart disease. (Int J Cardiol 182: 459, 2015). For 2 weeks, half received placebo and half received clarithro 500 mg/day. Result: 10% increased risk of death from any cause and a 19% increased risk of cerebrovascular disease. Increased risk mainly in patients not taking a statin and during the first 3 yrs. Observational. Mechanism, if any, is unclear.",
+    "See Macrolides, Overview for class-wide adverse effects, including potential EKG QTc interval prolongation."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Safety data conflict. Macrolide exposure associated with ↑ risk of spontaneous abortion (1st TM use) and ↑ risk of major birth defects in some studies. Use with caution. 8",
+    "lactation": "Safe, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category. 8: Ref: Pharmacotherapy 2025;45:227"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Arcanobacterium sp.",
+        "Bartonella hensalae, B. quintana",
+        "Bordetella pertussis",
+        "Legionella sp."
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (250, 500 mg), Extended-release tab (500 mg), Oral susp (125 mg/5 mL, 250 mg/5 mL)",
+    "food_recommendation": "Tab/susp ± food, ER tab + food",
+    "oral_absorption_percent": "50",
+    "tmax_hr": "Tab 2.0-2.5, ER tab 5-8",
+    "peak_serum_conc_ug_ml": "3-4 (500 mg po q12h, SS), 2-3 (1 gm ER po q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "65-70",
+    "volume_of_distribution_vd_l_kg": "4 L/kg",
+    "avg_serum_half_life_hr": "5-7",
+    "elimination": "Metabolized (active metab), renal",
+    "bile_penetration_percent": "7000",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "20 (500 mg po q12h, 0-24 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": ["CYP3A4"],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP3A4"],
+      "transporters_inhibited": ["PGP", "OATP1B1"],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {"drug": "Alfentanil", "effect": "↑ alfentanil"},
+      {"drug": "Alprazolam", "effect": "↑ alprazolam"},
+      {"drug": "Amiodarone", "effect": "↑ amiodarone"},
+      {"drug": "Amlodipine", "effect": "↑ amlodipine"},
+      {"drug": "Atazanavir", "effect": "↑ clarithromycin, ↑ atazanavir"},
+      {"drug": "Atorvastatin", "effect": "↑ atorvastatin"},
+      {"drug": "Bromocriptine", "effect": "↑ bromocriptine"},
+      {"drug": "Carbamazepine", "effect": "↑ carbamazepine"},
+      {"drug": "Cilostazol", "effect": "↑ cilostazol"},
+      {"drug": "Colchicine", "effect": "↑ colchicine", "management": "Adjust"},
+      {"drug": "Cyclosporine", "effect": "↑ cyclosporine"},
+      {"drug": "Digoxin", "effect": "↑ digoxin"},
+      {"drug": "Dihydroartemisinin-piperaquine", "effect": "↑ PPQ"},
+      {"drug": "Diltiazem", "effect": "↑ diltiazem"},
+      {"drug": "Disopyramide", "effect": "↑ disopyramide"},
+      {"drug": "Dofetilide", "effect": "↑ dofetilide"},
+      {"drug": "Efavirenz", "effect": "↓ clarithromycin, ↑ 14-OH clarithromycin"},
+      {"drug": "Eplerenone", "effect": "↑ eplerenone"},
+      {"drug": "Ergot alkaloids", "effect": "↑ ergot alkaloid"},
+      {"drug": "Etravirine", "effect": "↓ clarithromycin"},
+      {"drug": "Fexinidazole", "effect": "↓ M1, M2 (fexinidazole) metabolites"},
+      {"drug": "Itraconazole", "effect": "↑ clarithromycin, ↑ itraconazole"},
+      {"drug": "Lovastatin", "effect": "↑ lovastatin"},
+      {"drug": "Maraviroc", "effect": "↑ maraviroc"},
+      {"drug": "Methylprednisolone", "effect": "↑ methylprednisolone"},
+      {"drug": "Midazolam", "effect": "↑ midazolam"},
+      {"drug": "Nateglinide", "effect": "↑ nateglinide"},
+      {"drug": "Nevirapine", "effect": "↓ clarithromycin, ↑ 14-OH clarithromycin"},
+      {"drug": "Nifedipine", "effect": "↑ nifedipine"},
+      {"drug": "Nirmatrelvir/RTV", "effect": "↑ clarithromycin"},
+      {"drug": "Phenobarbital", "effect": "↓ clarithromycin"},
+      {"drug": "Pioglitazone", "effect": "↑ pioglitazone"},
+      {"drug": "Pimozide", "effect": "↑ pimozide"},
+      {"drug": "Pravastatin", "effect": "↑ pravastatin"},
+      {"drug": "Quetiapine", "effect": "↑ quetiapine"},
+      {"drug": "Quinidine", "effect": "↑ quinidine"},
+      {"drug": "Repaglinide", "effect": "↑ repaglinide"},
+      {"drug": "Rifabutin", "effect": "↓ clarithromycin, ↑ rifabutin"},
+      {"drug": "Rifampin", "effect": "↓ clarithromycin, ↑ 14-OH clarithromycin"},
+      {"drug": "Rifapentine", "effect": "↓ clarithromycin, ↑ 14-OH clarithromycin"},
+      {"drug": "Rosiglitazone", "effect": "↑ rosiglitazone"},
+      {"drug": "Sildenafil", "effect": "↑ sildenafil"},
+      {"drug": "Simvastatin", "effect": "↑ simvastatin"},
+      {"drug": "St John's wort", "effect": "↓ clarithromycin"},
+      {"drug": "Tacrolimus", "effect": "↑ tacrolimus"},
+      {"drug": "Tadalafil", "effect": "↑ tadalafil"},
+      {"drug": "Theophylline", "effect": "↑ theophylline"},
+      {"drug": "Tolterodine", "effect": "↑ tolterodine (if CYP2D6 deficient)"},
+      {"drug": "Triazolam", "effect": "↑ triazolam"},
+      {"drug": "Vardenafil", "effect": "↑ vardenafil"},
+      {"drug": "Verapamil", "effect": "↑ verapamil"},
+      {"drug": "Vinca alkaloids", "effect": "↑ vinca alkaloid"},
+      {"drug": "Voriconazole", "effect": "↑ voriconazole (Front Pharmacol 2023;14:1134803)"},
+      {"drug": "Warfarin", "effect": "↑ warfarin"},
+      {"drug": "Zidovudine", "effect": "↓ zidovudine", "management": "Ser"},
+      {"drug": "Zolpidem", "effect": "↑ zolpidem", "management": "(A"}
+  ]
+}

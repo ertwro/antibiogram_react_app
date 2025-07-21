@@ -1,0 +1,91 @@
+{
+  "documentMetadata": {
+    "title": "Paronychia",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Paronychia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cutaneous infection of the hand, cuticle or fingers occurring near or around the nail.",
+        "Often results from thumb sucking, nail biting, manicuring, other trauma.",
+        "Inflammation without purulent drainage or abscess can be treated with warm soaks 3-4 times a day."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial",
+        "Staph. aureus",
+        "Gram-negative rods",
+        "Fungal",
+        "Candida sp.",
+        "Viral",
+        "H. simplex (Whitlow)",
+        "Orf"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial",
+        "Incision and drainage and culture of abscess, if present",
+        "TMP-SMX-DS 1-2 tab po bid (covers MRSA, preferred in high prevalence settings)",
+        "Cephalexin 500 mg tid while waiting for culture result",
+        "Fungal/Chronic Paronychia (see Comments)",
+        "Topical Amphotericin B, Clotrimazole, Econazole, Miconazole, or Nystatin tid/qid x 7-14 days",
+        "Ketoconazole 400 mg po qd or Itraconazole 200 mg po qd x 14 days",
+        "Ciclopirox olamine 1% cream/lotion; apply topically bid x 7-14 days",
+        "Viral",
+        "Acyclovir 400 mg po tid x 10 days",
+        "Famciclovir 250 mg po tid x 7-10 days or Valacyclovir 1000 mg po bid x 7-10 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial",
+        "MRSA or MSSA, anaerobes: Clindamycin 300-450 mg po tid",
+        "MSSA, Gram-negatives, anaerobes: Amoxicillin-clavulanate 875/125 mg po bid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Candida is a frequent colonizer, but may not be the primary pathogen in chronic paronychia, defined as inflammation of the nail fold for 6 weeks or longer.",
+        "One open label, randomized controlled trial found topical steroids were superior to antifungal agents: J Am Acad Dermatol. 2002;47:73.",
+        "Chronic paronychia is often due to repetitive mechanical and/or chemical injury resulting in inflammation and skin break down, identification and elimination of which results in resolution.",
+        "See also. Onychomycosis.",
+        "See J Am Acad Dermatol 70:120, 2014 for microbiology of antibiotic resistant cases, which are often herpetic.",
+        "Review articles: Hand Clinic. 2020; 36:313 and Orthop Clin North Am. 2024; 55:265.",
+        "Review of differential diagnosis and treatment of common nail disorders: Ann Med. 2022; 54:694-712."
+      ]
+    }
+  ]
+}

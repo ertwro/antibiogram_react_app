@@ -1,0 +1,121 @@
+
+{
+  "drug_name": "Rifaximin",
+  "tradename": "Xifaxan",
+  "drug_shortage_information": {
+    "prep": "200 mg tablets",
+    "started_at": "2024-04-11",
+    "notes": ""
+  },
+  "usage_and_dosing": {
+    "description": "Rifaximin, FDA-approved in 2004, is a non-absorbable antibiotic of the Rifamycin class. It is effective in the treatment of the enterotoxigenic and enteroaggregative E. coli that in turn cause traveler's diarrhea (TD).",
+    "notes": [
+      "Virtually none of the drug is absorbed from the Gl tract. Antimicrobial activity is in the lumen of small intestine. Bile acids improve antimicrobial effect (Antimicrob Agents Chemother 2010;54:3618)."
+    ],
+    "uses": [
+      "Rifaximin is used with or without lactulose to treat hepatic encephalopathy (N Engl J Med 2010;362:1071). In cirrhotic patients who require TIPS, rifaximin therapy was well tolerated and reduced the risk of hepatic encephalopathy (Ann Intern Med 2021;174:633).",
+      "Rifaximin is used to treat small intestinal bacterial overgrowth (SIBO). ACG Guideline: Am J Gastroenterol 2020;115:165.",
+      "Treatment of pouchitis: Eur J Gastroenterol Hepatol 2022;34:581; Ann Pharmacother 2011;45:1127."
+    ],
+    "c_difficile": [
+      "Rifaximin 400 mg po tid x20 days is suggested by IDSA/SHEA guidelines as an option to follow oral vancomycin therapy for second or subsequent recurrence of C. difficile (Clin Infect Dis 2021;73:e1029).",
+      "Occurrence of C. difficile in patients on rifaximin for hepatic encephalopathy, mostly due to selection of rifaximin-resistant strains (Clin Infect Dis 2018;66:1086).",
+      "Rifaximin failed to prevent campylobacteriosis in humans (Clin Infect Dis 2018;66:1435)."
+    ],
+    "adult_dose": {
+      "travelers_diarrhea": "200 mg po tid x3 days",
+      "hepatic_encephalopathy": "550 mg po bid",
+      "irritable_bowel_syndrome_with_diarrhea": "550 mg po tid x14 days"
+    },
+    "pediatric_dose": {
+      "age_ge_12_yrs": "200 mg tid x3 days (for TD)"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2-5",
+    "half_life_esrd": "Unchanged",
+    "dose_normal_function": "200 mg po q8h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": {
+    "contraindicated": "Contraindicated in patients with a hypersensitivity to rifaximin, any members of the rifamycin class, or any of the components in rifaximin.",
+    "warnings_and_precautions": [
+      "Not effective for TD not caused by E. coli.",
+      "C. difficile-associated diarrhea reported with use of rifaximin.",
+      "Increased systemic exposure in patients with severe hepatic impairment. Use caution.",
+      "Use with PGP inhibitors can increase systemic exposure to rifaximin. Use caution."
+    ],
+    "adverse_reactions": [
+      "C. difficile-asociated diarrhea"
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data, toxic in animals. Advise women of potential fetal risk. 10",
+    "lactation": "Probably safe with monitoring, but no data available. Avoid if possible. 9"
+  },
+  "antimicrobial_spectrum": {
+    "spectrum": [
+      "E. coli (enterotoxigenic, enteroaggregative strains)"
+    ]
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Tab (200, 550 mg)",
+    "food_recs": "Tab ± food",
+    "oral_absorption": "<0.4",
+    "tmax_hr": "1",
+    "peak_serum_conc": "0.0007-0.002 (200 mg po q8h, SS)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "67.5",
+    "volume_of_distribution": "No data",
+    "avg_serum_t1_2": "2-5",
+    "elimination": "Negligible absorption",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "0.008 (200 mg po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_substrate": [
+      "CYP3A4"
+    ],
+    "transporters_substrate": [
+      "PGP, OATP1A2, OATP1B1/3"
+    ],
+    "ugts_substrate": [],
+    "cyp450s_inhibited": [],
+    "transporters_inhibited": [
+      "PGP (in vitro only)"
+    ],
+    "ugts_inhibited": [],
+    "cyp450s_induced": [
+      "CYP3A4"
+    ],
+    "transporters_induced": [],
+    "ugts_induced": [],
+    "impact_on_serum_drug_concentrations": "Minimal clinically relevant effects expected"
+  },
+  "major_drug_interactions": {
+    "interactions": [
+      {
+        "drug": "Cyclosporine",
+        "effect": "↑ rifaximin",
+        "management": "Monitor"
+      },
+      {
+        "drug": "Warfarin",
+        "effect": "Changes in INR",
+        "management": "Monitor"
+      }
+    ]
+  }
+}

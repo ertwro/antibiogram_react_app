@@ -1,0 +1,174 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Nutritionally Variant Gram-positive Species",
+    "lastUpdated": "2025-01-27",
+    "sourceFile": "Endocarditis, Nutritionally Variant Gram-positive Species.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for endocarditis caused by Gram-positive cocci formerly referred to as nutritionally variant streptococci",
+        "Signs and symptoms of endocarditis; positive blood or valve culture (or positive nucleic acid amplification test of valve in culture-negative cases)",
+        "Susceptibility testing can be difficult for these organisms due to poor growth on culture media."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Granulicatella spp.",
+        "Abiotrophia defectiva",
+        "Gemella spp. (not a nutritionally variant species, strictly speaking, but treatment is similar)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Native valve (see Comments)"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "18-24 million units/24h",
+            "route": "IV",
+            "frequency": "divided q4h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "3 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks and 2-4 weeks"
+        },
+        "notes": "Can substitute Ampicillin 2 gm IV q4h for Penicillin G"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15 mg/kg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks"
+        },
+        "notes": "Dose to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prosthetic valve (see Comments)",
+        "As above, administered for 6 weeks"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Native valve",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "3 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks and 2 weeks"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Prosthetic valve",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "3 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks and 2 weeks"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infectious diseases consultation recommended."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "These species are rare causes of endocarditis and historically described to cause more complicated infection. Neither duration of therapy nor the need for combination therapy is well defined and there is no clear optimal regimen. 2023 European guidelines recommend 6 weeks of monotherapy with penicillin, ceftriaxone, or vancomycin for native valve infection with addition of gentamicin for at least the first 2 weeks for prosthetic valve endocarditis; the 2015 guidelines suggested addition of gentamicin for at least 2 weeks for native valve infection as well. American Heart Association guidelines recommend that penicillin be used in combination with gentamicin, although the evidence base for either of these recommendations is weak and there are reports of successful treatment with monotherapy (Clin Infect Dis. 2018; 66:104, J Infect. 2022; 85:137, and BMC Infect Dis 2024; 24:1022.",
+        "Guidelines: American Heart Association (AHA): Circulation 132:1435, 2015; European Society of Cardiology: Eur Heart J. 2015; 36:3075 and Eur Heart J 2023; 44:3948."
+      ]
+    }
+  ]
+}

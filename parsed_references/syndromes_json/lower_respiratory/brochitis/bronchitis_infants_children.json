@@ -1,0 +1,95 @@
+{
+  "documentMetadata": {
+    "title": "Bronchitis Infants_Children",
+    "lastUpdated": "2023-09-11",
+    "sourceFile": "Bronchitis Infants_Children.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute bronchitis in children refers to non-specific bronchial inflammation that usually follows viral infection.",
+        "Isolation of bacteria from sputum does not imply a bacterial etiology.",
+        "Non specific upper respiratory infection with low grade fever is followed by prolonged cough. Sputum may initially be purulent. Purulence does not predict bacterial etiology",
+        "Bronchitis should be differentiated from bronchiolitis, acute bacterial tracheitis, pneumonia, asthma, pertussis.",
+        "Bronchiolitis is characterized by wheezing and crackles. Most common in those age ",
+        "For persistent cough, other etiolgies should be sought, especially asthma",
+        "Wet cough lasting >4 weeks without evidence of pneumonia, other lung pathology sometimes referred to as \"persistent bacterial bronchitis\""
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Respiratory syncytial virus (RSV)",
+        "Human metapneumovirus",
+        "Influenza virus",
+        "Parainfluenza virus",
+        "Adenovirus",
+        "Rhinovirus",
+        "Coronavirus",
+        "Mycoplasma pneumoniae",
+        "C. pneumoniae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics are generally not indicated. Antibiotic therapy may be needed for",
+        "Associated sinusitis;",
+        "Pneumonia",
+        "Pertussis, which can resemble bronchitis in pre-paroxysmal phases",
+        "Antibitiotics may be helpful in persistent bacterial bronchitis i.e. wet cough lasting > 4 weeks without other etiology",
+        "Influenza should be treated in all children <2 years and considered in those <5 years because of increased risk of hospitalization can complications",
+        "Otherwise therapy is symptomatic. Oxygen, suctioning and hydration mainstay for bronchiolitis. Routine use of bronchodilators not effective"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No role for antimicrobial in treatment of bronchiolitis or acute bronchitis except for influenza antivirals and treatment of pertusis. If antimicrobials are started because of suspicion of sepsis antimicrobials should be stopped if sepsis is excluded."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ref: Pediatrics 134:e1474-1502, 2014."
+      ]
+    }
+  ]
+}

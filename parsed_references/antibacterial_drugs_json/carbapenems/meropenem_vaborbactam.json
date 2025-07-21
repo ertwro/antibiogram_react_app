@@ -1,0 +1,123 @@
+{
+  "drug_name": "Meropenem-vaborbactam",
+  "tradename": "Vabomere",
+  "usage_and_dosing": {
+    "general": [
+      "A combination of meropenem + vaborbactam, a cyclic boronic acid pharmacophore ẞ-lactamase inhibitor of Ambler case A and C enzymes (but not class B [metalloenzymes] or class D enzymes).",
+      "The combination is approved for the the treatment of complicated urinary tract infections in adults (age ≥18 years) caused by E. coli, K. pneumoniae, E. cloacae, and other susceptible aerobic gram-negative bacilli.",
+      "NOTE: the combination does not increase the activity of meropenem against Acinetobacter baumannii, Pseudomonas aeruginosa, or Stenotrophomonas maltophilia.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Vaborbactam protects meropenem from degradation by extended spectrum beta-lactamases and serine carbapenemases (except class D OXA-enzymes)",
+      "Review: Antibiotics 2023;12:1612."
+    ],
+    "adult_dose": {
+      "usual_dose": "4 gm (over 3 hr) IV q8h",
+      "note": "Note that 4 gm = Meropenem 2 gm + Vaborbactam 2 gm",
+      "compatibility": "Compatible only with normal saline. Dissolved drug is stable at room temperature for 4 hr, and at 2-6 °C for 22 hr."
+    },
+    "pediatric_dose": {
+      "note": "Doses are expressed as the sum of meropenem + vaborbactam (1:1 ratio)",
+      "amr_gram_negative_guidance": "J Pediatric Infect Dis Soc 2025;14:piaf004",
+      "per_fda": {
+        "safety_and_efficacy": "not established"
+      },
+      "per_amr_gram_negative_guidance": {
+        "infants_children_adolescents": {
+            "doses_infused_over_3_hr": "240 mg/kg/day (divided q8h)"
+        },
+        "cns_infection": "Not recommended for CNS infection"
+      },
+      "max_day": "12 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": {
+        "mer": 1.2,
+        "vab": 1.7
+    },
+    "half_life_esrd": {
+        "mer": 10,
+        "vab": "ND"
+    },
+    "dose_renal_function_normal": "2 gm/2 gm IV q8h",
+    "crcl_or_egfr": "eGFR ≥50: No dosage adjustment. eGFR 30-49: 1 gm/1 gm q8h. eGFR 15-29: 1 gm/1 gm q12h. eGFR <15: 0.5 gm/0.5 gm q12h",
+    "hemodialysis": "0.5 gm/0.5 gm q12h (AD)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments page."
+  ],
+  "adverse_effects": [
+    "Contraindications: known hypersensitivity reaction to meropenem or vaborbactam (or other beta-lactams)",
+    "Adverse effects:",
+    "Hypersensitivity reactions",
+    "Seizure potential",
+    "C. difficile associated diarrhea (CDAD)",
+    "Thrombocytopenia",
+    "Neuromotor impairment",
+    "Other: Phlebitis (infusion site reactions), diarrhea, headache",
+    "Risk of breakthrough seizures due to ability to decrease concentrations of valproic acid."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data, toxic in animals",
+    "lactation": "Probably safe with monitoring, but no data available",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Mer 43.4, Vab 55.6 (4 gm IV q8h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Mer 2, Vab 33",
+    "volume_of_distribution_vd_l_vss": "Mer 20.2L, Vab 18.6 L (Vss)",
+    "avg_serum_half_life_hr": "Mer 1.22, Vab 1.68",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "Mer 138, Vab 196 (SS, 0-8 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Meropenem: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Valproic acid",
+          "effect": "↓ valproic acid",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Probenecid",
+          "effect": "↑ meropenem",
+          "management": "Monitor"
+      }
+  ],
+  "comments": [
+      "FDA approval based on results of a double-blind double-dummy, multicenter trial that compared meropenem-vaborbactam to piperacillin-tazobactam in adults with complicated urinary tract infections.",
+      "Clinical cure and microbiologic eradication were essentially equivalent.",
+      "Further details in the package insert."
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "documentMetadata": {
+    "title": "Cavernous Sinus Suppurative (Septic) Thrombophlebitis",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Cavernous Sinus Suppurative (Septic) Thrombophlebitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sinus infection precipitated by contiguous infection in the sphenoid or ethmoid sinuses.",
+        "Veins of the face and eyes drain via the cavernous sinuses; hence, spread to the cavernous sinus or infections of the skin on the face, nose, tonsils, orbits, and soft palate.",
+        "Cranial nerves III, IV, V, and VI pass through the lateral wall of the cavernous sinuses and damage thereto can occur as a consequence of infection.",
+        "Often presents with headache, unilateral and/or bilateral eye edema, and then cranial nerve palsies.",
+        "Obtain specimen for culture if patient to have adjunctive surgery"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neuro-imaging: CT or MRI"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Depends on primary site of infection",
+        "Staph. aureus (70% of patients)",
+        "Streptococcus sp.",
+        "H. influenzae",
+        "Aspergillus sp. or other fungi including mucor (less common)",
+        "Rarely anaerobic bacteria, gram-negative bacteria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Heparin is used, but no definitive evidence of efficacy"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If dental source with attendant increased risk of anaerobic infection, some add Metronidazole 500 mg IV q8h",
+        "If fungal etiology, see specific organism.",
+        "Continue heparin and antibiotic until afebrile for 48 hrs and WBC normal and then switch to coumadin for several weeks."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Heparin is used, but no definitive data on efficacy"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Daptomycin",
+            "dose": "8-12 mg/kg",
+            "route": "IV",
+            "frequency": "q24hNAI"
+          },
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "or"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If presumed dental source, add Metronidazole 500 mg IV q8h",
+        "Consider surgical drainage if sphenoid sinusitis.",
+        "Continue heparin and antibiotic until afebrile for 48 hrs and WBC normal and then switch to coumadin for several weeks."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Typical duration of antimicrobial therapy is 3-4 weeks, with the longer duration for those with S. aureus infection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Thrombosis may impair penetration of antibiotic hence the higher dose of Ceftriaxone as well as protecting the central nervous system.",
+        "Reference: Neurosurg Clin N Am. 2024; 35:305"
+      ]
+    }
+  ]
+}

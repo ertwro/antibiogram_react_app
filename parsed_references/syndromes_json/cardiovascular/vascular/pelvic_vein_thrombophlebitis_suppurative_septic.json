@@ -1,0 +1,157 @@
+{
+  "documentMetadata": {
+    "title": "Pelvic Vein Thrombophlebitis, Suppurative (Septic)",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Pelvic Vein Thrombophlebitis, Suppurative (Septic).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usual clinical syndrome: Unexplained fever within a few days postpartum (especially following C-section), post-abortion or post-pelvic surgery; often fever while on appropriate antibiotics for endometritis/pelvic infection.",
+        "Complicated by small pulmonary emboli in 2% of cases.",
+        "Diagnosis by exclusion; modern imaging may help."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus sp.",
+        "Bacteroides sp.",
+        "Enterobacteriaceae",
+        "Other anaerobic organisms"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Metronidazole",
+            "dose": "1 gm loading dose then 0.5 gm q6h or 1 gm IV q12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "(over 4 hr) q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Add heparin anticoagulation to antibiotic regimen; optimal duration is unclear (See Comment)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Imipenem-cilastatin",
+            "dose": "0.5 gm",
+            "route": "IV",
+            "frequency": "q6h"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Ertapenem",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h"
+          },
+          {
+            "drug": "Aztreonam",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Add heparin anticoagulation to antibiotic regimen; optimal duration is unclear (See Comment)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In one study, addition of anticoagulant to antibiotic therapy did not improve outcome (Am J Obstet Gyn 181:143, 1999).",
+        "Increasing resistance of B. fragilis to Cefoxitin and Cefotetan.",
+        "Uncommon presentation of septic abdominal/pelvic vein thrombophlebitis associated with S. aureus osteomyelitis in children (Pediatrics 106: e87, 2000)."
+      ]
+    }
+  ]
+}

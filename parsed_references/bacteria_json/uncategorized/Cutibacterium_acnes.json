@@ -1,0 +1,490 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Cutibacterium acnes",
+      "aliases": [
+        "Propionibacterium acnes"
+      ],
+      "lastUpdated": "2024-05-06",
+      "clsiCategory": "Anaerobes",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (pleomorphic)",
+        "respiration": "Anaerobic",
+        "notes": [
+          "Part of the normal flora of the skin, hair follicles, and sebaceous glands."
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive anaerobic rod, pleomorphic, catalase +, indole +, reduces nitrate."
+    },
+    "clinicalProfile": {
+      "summary": "Cutibacterium acnes is a slow-growing, anaerobic, Gram-positive rod that is a common commensal of human skin. While implicated in the pathogenesis of acne vulgaris, it is also an important opportunistic pathogen, causing infections related to prosthetic devices, particularly orthopedic and endovascular hardware.",
+      "pathophysiologyPearls": [
+        "C. acnes can form biofilms on implanted foreign materials, which protects the bacteria from host defenses and antibiotics, making these infections difficult to treat."
+      ],
+      "keySignsAndSymptoms": [
+        "Pain, swelling, or loosening of a prosthetic joint",
+        "Fever (may be absent)",
+        "Erythema and drainage from a surgical site",
+        "Symptoms of endocarditis or CSF shunt infection"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Prosthetic Joint Infection (PJI)",
+          "description": "A common cause of PJI, especially of the shoulder and hip. Often presents as a chronic, indolent infection."
+        },
+        {
+          "syndromeName": "Device-Related Infections",
+          "description": "Infections of endovascular devices (e.g., prosthetic heart valves, pacemakers) and central nervous system shunts."
+        },
+        {
+          "syndromeName": "Acne Vulgaris",
+          "description": "C. acnes is implicated in the inflammatory component of acne."
+        }
+      ],
+      "highRiskPopulations": [
+        "Patients with prosthetic joints or other orthopedic hardware",
+        "Patients with prosthetic heart valves or other endovascular devices",
+        "Patients with CSF shunts"
+      ],
+      "transmissionVectors": [
+        "Contamination of a sterile site with the patient's own skin flora during surgery."
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Metronidazole",
+          "notes": "Often resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Removal of the infected device is a key component of management.",
+        "Treatment duration is typically prolonged."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Device Removal/Debridement",
+          "condition": "Prosthetic device infections",
+          "details": "Surgical intervention to remove or exchange the infected hardware is often required for cure."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Prosthetic Joint or Device Infection",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "12-18 million units/day",
+                      "route": "IV",
+                      "frequency": "divided q4-6h",
+                      "comments": "Higher doses for CSF infections."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 g",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": "If CSF is infected."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15 mg/kg",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": "Increase to q8h if CSF is infected."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": "May be effective for endocarditis; limited clinical data."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Suspicion of prosthetic device infection, especially with indolent presentation.",
+        "Multiple positive blood cultures in a patient with endovascular hardware."
+      ],
+      "methodologyNotes": [
+        "C. acnes is a slow-growing organism and may be overlooked as a contaminant. Cultures should be held for at least 5-7 days, and preferably up to 14 days for prosthetic device infections.",
+        "Sonication of explanted prosthetic material can improve diagnostic yield."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Anaerobic Culture",
+          "trigger": "Suspicion of prosthetic device infection",
+          "purpose": "To isolate C. acnes from tissue, fluid, or sonicate fluid from explanted hardware."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis requires a high index of suspicion and appropriate microbiologic techniques, including prolonged culture incubation of multiple deep tissue samples or sonicate fluid from removed hardware.",
+        "biosafetyWarning": "Standard BSL-2 practices are adequate.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Linezolid",
+          "pearl": "Bacteriostatic in vitro but achieves high concentrations in bone."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2018; 66:54",
+          "summaryOrNote": "Review of prosthetic hip joint infections."
+        },
+        {
+          "source": "Future Microbiol.",
+          "citation": "2023;18:235",
+          "summaryOrNote": "Review of Cutibacterium acnes."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.375Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Cutibacterium acnes"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Propionibacterium acnes"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-05-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (pleomorphic)",
+        "respiration": "Anaerobic",
+        "notes": [
+          "Part of the normal flora of the skin, hair follicles, and sebaceous glands."
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Cutibacterium acnes is a slow-growing, anaerobic, Gram-positive rod that is a common commensal of human skin. While implicated in the pathogenesis of acne vulgaris, it is also an important opportunistic pathogen, causing infections related to prosthetic devices, particularly orthopedic and endovascular hardware.",
+      "pathophysiologyPearls": [
+        "C. acnes can form biofilms on implanted foreign materials, which protects the bacteria from host defenses and antibiotics, making these infections difficult to treat."
+      ],
+      "keySignsAndSymptoms": [
+        "Pain, swelling, or loosening of a prosthetic joint",
+        "Fever (may be absent)",
+        "Erythema and drainage from a surgical site",
+        "Symptoms of endocarditis or CSF shunt infection"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Prosthetic Joint Infection (PJI)",
+          "description": "A common cause of PJI, especially of the shoulder and hip. Often presents as a chronic, indolent infection."
+        },
+        {
+          "syndromeName": "Device-Related Infections",
+          "description": "Infections of endovascular devices (e.g., prosthetic heart valves, pacemakers) and central nervous system shunts."
+        },
+        {
+          "syndromeName": "Acne Vulgaris",
+          "description": "C. acnes is implicated in the inflammatory component of acne."
+        }
+      ],
+      "highRiskPopulations": [
+        "Patients with prosthetic joints or other orthopedic hardware",
+        "Patients with prosthetic heart valves or other endovascular devices",
+        "Patients with CSF shunts"
+      ],
+      "transmissionVectors": [
+        "Contamination of a sterile site with the patient's own skin flora during surgery."
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Metronidazole",
+          "notes": "Often resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Prosthetic Joint or Device Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "12-18 million units/day",
+              "route": "IV",
+              "frequency": "divided q4-6h",
+              "duration": "4-6 weeks",
+              "comments": "Higher doses for CSF infections.",
+              "originalText": "Penicillin G 12-18 million units/day IV divided q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Prosthetic Joint or Device Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 g",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "4-6 weeks",
+              "comments": "If CSF is infected.",
+              "originalText": "Ceftriaxone 2 g IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Prosthetic Joint or Device Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15 mg/kg",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "4-6 weeks",
+              "comments": "Increase to q8h if CSF is infected.",
+              "originalText": "Vancomycin 15 mg/kg IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Prosthetic Joint or Device Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "4-6 weeks",
+              "comments": "May be effective for endocarditis; limited clinical data.",
+              "originalText": "Daptomycin  IV "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Suspicion of prosthetic device infection, especially with indolent presentation.",
+        "Multiple positive blood cultures in a patient with endovascular hardware."
+      ],
+      "methodologyNotes": [
+        "C. acnes is a slow-growing organism and may be overlooked as a contaminant. Cultures should be held for at least 5-7 days, and preferably up to 14 days for prosthetic device infections.",
+        "Sonication of explanted prosthetic material can improve diagnostic yield."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Anaerobic Culture",
+          "trigger": "Suspicion of prosthetic device infection",
+          "purpose": "To isolate C. acnes from tissue, fluid, or sonicate fluid from explanted hardware."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

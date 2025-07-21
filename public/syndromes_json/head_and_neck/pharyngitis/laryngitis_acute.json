@@ -1,0 +1,66 @@
+{
+  "documentMetadata": {
+    "title": "Laryngitis, Acute",
+    "sourceFile": "Laryngitis, Acute.pdf",
+    "lastUpdated": "2023-09-25"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hoarseness with, or without, other signs of inflammation in the upper airway: e.g., sore throat, cough, nasal congestion.",
+        "Acute vocal strain (e.g., screaming) can cause acute laryngitis",
+        "Chronic laryngitis has a much larger differential diagnosis: inflammation from irritants (smoking), chronic aspiration associated with gastroesophageal reflux disease, vocal cord polyps, laryngeal cancer are all examples"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viral pathogens are the etiology in approximately 90% of the cases of acute laryngitis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antimicrobial therapy is not indicated"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Two placebo-controlled studies and a Cochrane review (Cochrane Database Syst Rev. (5)CD004783,2015 May 23) support no treatment recommendation."
+      ]
+    }
+  ]
+}

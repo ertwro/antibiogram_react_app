@@ -1,0 +1,608 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Campylobacter jejuni / coli",
+      "aliases": [
+        "Campylobacter jejuni",
+        "Campylobacter coli"
+      ],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod (gull-wing appearance)",
+        "respiration": "Microaerophilic",
+        "notes": []
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Campylobacter jejuni",
+          "notes": "Accounts for 85% or more of cases."
+        },
+        {
+          "type": "Species",
+          "value": "Campylobacter coli",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-negative, curved or S-shaped (gull-wing) rods, microaerophilic, grows at 42°C, oxidase +, catalase +, motile (single polar flagellum), hippurate hydrolysis + (C. jejuni) or – (C. coli)."
+    },
+    "clinicalProfile": {
+      "summary": "Campylobacter jejuni and C. coli are leading causes of acute bacterial gastroenteritis worldwide. The illness is typically self-limited, but treatment is recommended for severe or prolonged cases, and in high-risk individuals.",
+      "pathophysiologyPearls": [
+        "Infection is primarily foodborne, often from contaminated poultry.",
+        "The abdominal pain can be severe enough to mimic appendicitis."
+      ],
+      "keySignsAndSymptoms": [
+        "Diarrhea (often bloody)",
+        "Abdominal pain and cramping",
+        "Fever",
+        "Nausea and vomiting",
+        "Headache and myalgia"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "The most common presentation, characterized by acute diarrhea."
+        },
+        {
+          "syndromeName": "Guillain-Barré Syndrome",
+          "description": "A post-infectious complication, with Campylobacter being the most common infectious precipitant."
+        },
+        {
+          "syndromeName": "Reactive Arthritis",
+          "description": "A potential post-infectious sequela."
+        },
+        {
+          "syndromeName": "Irritable Bowel Syndrome",
+          "description": "Can be triggered by Campylobacter infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Children under 5",
+        "Elderly (65 years and older)",
+        "Pregnant women",
+        "Immunocompromised patients",
+        "Travelers"
+      ],
+      "transmissionVectors": [
+        "Contaminated food (especially poultry)",
+        "Contaminated water"
+      ],
+      "prognosisNotes": [
+        "Antimicrobial therapy typically shortens the duration of symptoms by about one day."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Not active against Campylobacter."
+        },
+        {
+          "drugOrClass": "Penicillins",
+          "notes": "Not active against Campylobacter."
+        },
+        {
+          "drugOrClass": "Cephalosporins",
+          "notes": "Not active against Campylobacter."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Widespread Fluoroquinolone Resistance",
+          "details": "Resistance to fluoroquinolones is common, particularly in strains from outside the US. Susceptibility testing is necessary for serious infections."
+        },
+        {
+          "alertTitle": "Increasing Macrolide Resistance",
+          "details": "Resistance to macrolides, the first-line agents, is emerging, especially in certain geographic regions and in children in under-resourced settings."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment is recommended for patients with prolonged or severe disease (e.g., fever, bloody stools) and for immunocompromised patients.",
+        "For severe, life-threatening infections, consider an aminoglycoside or a carbapenem.",
+        "Azithromycin is the drug of choice for traveler's diarrhea caused by Campylobacter due to high rates of fluoroquinolone resistance."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Gastroenteritis",
+            "patientPopulation": [
+              "Adults with severe or prolonged disease",
+              "Immunocompromised patients"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": "If bacteremic (rare), treat for 14 days."
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "1 day",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "1000",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": "For mild, non-bacteremic disease."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Confirm susceptibility due to common resistance."
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Erythromycin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "QID",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Confirm susceptibility due to common resistance."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Consider Amoxicillin-clavulanate as an alternative for children in under-resourced settings with high resistance rates."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Stool culture on selective media is required for diagnosis.",
+        "Susceptibility testing should be performed for severe infections or when treatment failure occurs."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 44:696, 2007",
+          "summaryOrNote": "Review on the modest benefit of antimicrobial therapy."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 44:701, 2007",
+          "summaryOrNote": "Information on the epidemiology of Campylobacter infection."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 57: 1600, 2013",
+          "summaryOrNote": "Information on the epidemiology of Campylobacter infection."
+        },
+        {
+          "source": "New England Journal of Medicine",
+          "citation": "N Engl J Med 366: 2294, 2012",
+          "summaryOrNote": "Information on post-infectious complications."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 2022; 75:702",
+          "summaryOrNote": "Observational trial on antimicrobial resistance in France."
+        },
+        {
+          "source": "Antimicrobial Agents and Chemotherapy",
+          "citation": "Antimicrob Agents Chemother 54:1232, 2010",
+          "summaryOrNote": "Information on azithromycin for traveler's diarrhea."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 48:1500, 2009",
+          "summaryOrNote": "Information on azithromycin for traveler's diarrhea."
+        },
+        {
+          "source": "The Lancet Global Health",
+          "citation": "Lancet Glob Health 2018:e1309",
+          "summaryOrNote": "Information on Campylobacter in children in under-resourced settings."
+        },
+        {
+          "source": "The Lancet",
+          "citation": "Lancet 2016 388:1291",
+          "summaryOrNote": "Information on Campylobacter in children in under-resourced settings."
+        },
+        {
+          "source": "Antimicrobial Agents and Chemotherapy",
+          "citation": "Antimicrob Agents Chemother 2018 Nov 12. pii: AAC.01911-18",
+          "summaryOrNote": "Information on antimicrobial resistance in children in under-resourced settings."
+        },
+        {
+          "source": "Infectious Diseases Society of America (IDSA)",
+          "citation": "Clin Infect Dis 65: e65, 2017",
+          "summaryOrNote": "2017 IDSA Guidelines for the Diagnosis and Management of Infectious Diarrhea."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.326Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Campylobacter jejuni / coli"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Campylobacter jejuni",
+        "Campylobacter coli"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod (gull-wing appearance)",
+        "respiration": "Microaerophilic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Campylobacter jejuni and C. coli are leading causes of acute bacterial gastroenteritis worldwide. The illness is typically self-limited, but treatment is recommended for severe or prolonged cases, and in high-risk individuals.",
+      "pathophysiologyPearls": [
+        "Infection is primarily foodborne, often from contaminated poultry.",
+        "The abdominal pain can be severe enough to mimic appendicitis."
+      ],
+      "keySignsAndSymptoms": [
+        "Diarrhea (often bloody)",
+        "Abdominal pain and cramping",
+        "Fever",
+        "Nausea and vomiting",
+        "Headache and myalgia"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "The most common presentation, characterized by acute diarrhea."
+        },
+        {
+          "syndromeName": "Guillain-Barré Syndrome",
+          "description": "A post-infectious complication, with Campylobacter being the most common infectious precipitant."
+        },
+        {
+          "syndromeName": "Reactive Arthritis",
+          "description": "A potential post-infectious sequela."
+        },
+        {
+          "syndromeName": "Irritable Bowel Syndrome",
+          "description": "Can be triggered by Campylobacter infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Children under 5",
+        "Elderly (65 years and older)",
+        "Pregnant women",
+        "Immunocompromised patients",
+        "Travelers"
+      ],
+      "transmissionVectors": [
+        "Contaminated food (especially poultry)",
+        "Contaminated water"
+      ],
+      "prognosisNotes": [
+        "Antimicrobial therapy typically shortens the duration of symptoms by about one day."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Not active against Campylobacter."
+        },
+        {
+          "drugOrClass": "Penicillins",
+          "notes": "Not active against Campylobacter."
+        },
+        {
+          "drugOrClass": "Cephalosporins",
+          "notes": "Not active against Campylobacter."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Widespread Fluoroquinolone Resistance",
+          "details": "Resistance to fluoroquinolones is common, particularly in strains from outside the US. Susceptibility testing is necessary for serious infections."
+        },
+        {
+          "alertTitle": "Increasing Macrolide Resistance",
+          "details": "Resistance to macrolides, the first-line agents, is emerging, especially in certain geographic regions and in children in under-resourced settings."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with severe or prolonged disease",
+                "Immunocompromised patients"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "500",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "3 days",
+              "comments": "If bacteremic (rare), treat for 14 days.",
+              "originalText": "Azithromycin 500 IV/PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-0-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with severe or prolonged disease",
+                "Immunocompromised patients"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "1000",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "1 day",
+              "comments": "For mild, non-bacteremic disease.",
+              "originalText": "Azithromycin 1000 PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with severe or prolonged disease",
+                "Immunocompromised patients"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "5 days",
+              "comments": "Confirm susceptibility due to common resistance.",
+              "originalText": "Ciprofloxacin 500 PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with severe or prolonged disease",
+                "Immunocompromised patients"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Erythromycin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "QID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Erythromycin 500 PO QID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-2",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[2]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults with severe or prolonged disease",
+                "Immunocompromised patients"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "5 days",
+              "comments": "Confirm susceptibility due to common resistance.",
+              "originalText": "Doxycycline 100 PO BID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Stool culture on selective media is required for diagnosis.",
+        "Susceptibility testing should be performed for severe infections or when treatment failure occurs."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

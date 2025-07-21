@@ -1,0 +1,133 @@
+
+{
+  "documentMetadata": {
+    "title": "Fungal Keratitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Keratitis, Fungal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fungal keratitis is an infection of the cornea by fungal organisms. It is less common than bacterial keratitis but often has a more indolent course and can be more difficult to treat, leading to worse outcomes. Risk factors include trauma with vegetable matter (e.g., a tree branch), chronic ocular surface disease, long-term use of topical corticosteroids, and immunocompromised states. The most common causative organisms are filamentous fungi (e.g., Aspergillus, Fusarium) and yeast (e.g., Candida)."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Gradual onset of eye pain, redness, blurred vision, photophobia, and foreign body sensation. Symptoms may be present for weeks before diagnosis."
+        },
+        {
+          "key": "Signs",
+          "value": "A grayish-white corneal infiltrate with feathery or hyphate borders. Satellite lesions (smaller infiltrates surrounding the main one) and endothelial plaques are common. An immune ring and hypopyon may be present. The epithelium may be intact or have a small defect."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "name": "Corneal Scraping for Stains and Culture",
+      "sampleType": "Corneal tissue, obtained by deep scraping of the infiltrate",
+      "interpretation": "Stains like Giemsa, Gomori methenamine silver (GMS), or calcofluor white can reveal fungal elements (hyphae or yeast). Cultures on specialized media like Sabouraud dextrose agar are essential for species identification and sensitivity testing.",
+      "notes": "Diagnosis is often delayed. A high index of suspicion is required, especially with a history of vegetative trauma. Confocal microscopy can also be a useful non-invasive tool to identify fungal hyphae in the cornea."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fungal keratitis requires immediate referral to an ophthalmologist. Treatment is prolonged and challenging."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Topical Antifungal Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Filamentous Fungi (e.g., Aspergillus, Fusarium)",
+            "appliesTo": {
+              "description": "Patients with filamentous fungal keratitis"
+            },
+            "components": [
+              {
+                "drug": "Natamycin 5% ophthalmic suspension",
+                "route": "topical",
+                "frequency": "Every 1-2 hours initially, then tapered over weeks to months"
+              }
+            ],
+            "notes": "Natamycin is the only FDA-approved topical antifungal and is the first-line treatment for filamentous keratitis."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Yeast (e.g., Candida)",
+            "appliesTo": {
+              "description": "Patients with Candida keratitis"
+            },
+            "components": [
+              {
+                "drug": "Amphotericin B 0.15% drops",
+                "route": "topical",
+                "frequency": "Every 1-2 hours initially"
+              },
+              {
+                "drug": "Topical Fluconazole 2%",
+                "route": "topical",
+                "frequency": "Every 1-2 hours initially",
+                "connector": "or"
+              }
+            ],
+            "notes": "Amphotericin B is often the preferred agent for Candida. Fluconazole has good corneal penetration."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic and Other Therapies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oral antifungal agents (e.g., voriconazole, itraconazole) may be used as an adjunct for severe, deep, or refractory infections.",
+            "Corneal debridement may be performed to remove necrotic tissue and improve drug penetration.",
+            "Topical corticosteroids are generally contraindicated as they can worsen the infection.",
+            "Therapeutic penetrating keratoplasty (corneal transplant) is often required for large, non-resolving ulcers or for corneal perforation."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Keratitis, Overview",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Keratitis, Overview"
+      }
+    }
+  ]
+}

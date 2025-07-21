@@ -1,0 +1,558 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Francisella tularensis",
+      "aliases": [
+        "Tularemia"
+      ],
+      "lastUpdated": "2024-10-07",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Strictly aerobic",
+        "notes": [
+          "Faintly staining",
+          "Fastidious, requires special media (e.g., cysteine-supplemented)"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative coccobacillus, requires cysteine for growth (e.g., BCYE or chocolate agar), slow-growing, weakly catalase +, oxidase –, urease –, beta-lactamase +."
+    },
+    "clinicalProfile": {
+      "summary": "Francisella tularensis is a highly infectious, facultative intracellular bacterium that causes tularemia, a zoonotic disease. Transmission occurs through contact with infected animals, inhalation of aerosols, or bites from infected arthropods. The clinical presentation is diverse, ranging from asymptomatic illness to septic shock and death, and depends on the route of exposure.",
+      "pathophysiologyPearls": [
+        "F. tularensis is a potential agent of bioterrorism due to its low infectious dose when aerosolized and high associated morbidity and mortality.",
+        "The bacterium can survive and replicate within macrophages, which contributes to its ability to cause systemic disease."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Chills",
+        "Headache",
+        "Myalgia",
+        "Skin ulcer at the site of inoculation (ulceroglandular)",
+        "Tender regional lymphadenopathy (glandular)",
+        "Sore throat (pharyngeal)",
+        "Pneumonia"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Ulceroglandular Tularemia",
+          "description": "The most common form, characterized by a skin ulcer at the site of entry and painful regional lymphadenopathy."
+        },
+        {
+          "syndromeName": "Glandular Tularemia",
+          "description": "Similar to ulceroglandular but without the skin ulcer."
+        },
+        {
+          "syndromeName": "Oculoglandular Tularemia",
+          "description": "Results from direct inoculation into the eye, causing painful conjunctivitis and preauricular lymphadenopathy."
+        },
+        {
+          "syndromeName": "Oropharyngeal Tularemia",
+          "description": "Caused by ingestion of contaminated food or water, leading to exudative pharyngitis and cervical lymphadenopathy."
+        },
+        {
+          "syndromeName": "Pneumonic Tularemia",
+          "description": "The most severe form, resulting from inhalation of the organism or hematogenous spread. Can be a manifestation of bioterrorism."
+        },
+        {
+          "syndromeName": "Typhoidal Tularemia",
+          "description": "A systemic, septicemic form without a clear primary focus, characterized by fever and hypotension."
+        }
+      ],
+      "highRiskPopulations": [
+        "Hunters, farmers, veterinarians, landscapers, and meat handlers",
+        "Laboratory personnel working with the organism"
+      ],
+      "transmissionVectors": [
+        "Ticks (e.g., Dermacentor, Amblyomma)",
+        "Biting flies (e.g., deer flies)",
+        "Mosquitoes",
+        "Contact with infected animal tissues (e.g., rabbits, hares, rodents)",
+        "Inhalation of contaminated aerosols"
+      ],
+      "prognosisNotes": [
+        "Doxycycline is bacteriostatic and monotherapy may result in relapses."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Beta-lactams",
+          "notes": "Not clinically effective."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Not clinically effective."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment recommendations are based on in vitro activity, animal models, and observational data, as there are no controlled clinical trials.",
+        "Combination therapy with ciprofloxacin plus doxycycline is favored for hospitalized patients."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Mild Tularemia (Outpatient)",
+            "patientPopulation": [
+              "Adults",
+              "Children"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14-21 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg (Adult) or 2.2 mg/kg (Child)",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14-21 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "750 mg (Adult) or 20-40 mg/kg/day (Child)",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Max 1.5 gm/day for children."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Severe Tularemia (Hospitalized/Critically Ill)",
+            "patientPopulation": [
+              "Adults",
+              "Children"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14-21 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg IV q12h (Adult) or 20-40 mg/kg/day divided bid (Child)",
+                      "route": "IV/PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "10 days (Adult) or 5-7 days (Child)",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin or Tobramycin",
+                      "dose": "5.1 mg/kg/day",
+                      "route": "IV",
+                      "frequency": "divided q8h",
+                      "comments": "Consider adding for critically ill patients not responding to monotherapy."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Febrile illness with a history of animal or arthropod vector exposure in an endemic area.",
+        "Ulceroglandular syndrome or atypical pneumonia."
+      ],
+      "methodologyNotes": [
+        "Laboratory diagnosis is difficult. The organism is fastidious and requires special media. The lab must be notified of the suspicion to take appropriate safety precautions (BSL-3)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "PCR",
+          "trigger": "Suspicion of tularemia",
+          "purpose": "The best method for early detection from clinical specimens (e.g., ulcer swabs, lymph node aspirates, blood, respiratory samples)."
+        },
+        {
+          "testName": "Serology",
+          "trigger": "Suspicion of tularemia",
+          "purpose": "A four-fold rise in antibody titer between acute and convalescent sera confirms the diagnosis, but this is not timely for clinical decision-making."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is challenging and relies on a high index of suspicion coupled with specialized laboratory tests (PCR and serology). Culture is hazardous and not routinely recommended outside of reference labs.",
+        "biosafetyWarning": "Francisella tularensis is a BSL-3 pathogen. Laboratory staff must be alerted to the possibility of this organism to take appropriate safety precautions.",
+        "methods": []
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Prophylaxis",
+          "details": "Post-exposure prophylaxis with doxycycline or ciprofloxacin for 14 days is recommended for aerosol exposures (e.g., laboratory accident).",
+          "targetPopulation": "Individuals with high-risk aerosol exposure."
+        }
+      ],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2024; 78(:S1): S1-S75",
+          "summaryOrNote": "CDC-sponsored supplement with comprehensive updates on treatment and clinical findings."
+        },
+        {
+          "source": "N Engl J Med",
+          "citation": "372:954, 2015",
+          "summaryOrNote": "Reference on tularemia as a bioterrorism agent."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.378Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Francisella tularensis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Tularemia"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-10-07"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Strictly aerobic",
+        "notes": [
+          "Faintly staining",
+          "Fastidious, requires special media (e.g., cysteine-supplemented)"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Francisella tularensis is a highly infectious, facultative intracellular bacterium that causes tularemia, a zoonotic disease. Transmission occurs through contact with infected animals, inhalation of aerosols, or bites from infected arthropods. The clinical presentation is diverse, ranging from asymptomatic illness to septic shock and death, and depends on the route of exposure.",
+      "pathophysiologyPearls": [
+        "F. tularensis is a potential agent of bioterrorism due to its low infectious dose when aerosolized and high associated morbidity and mortality.",
+        "The bacterium can survive and replicate within macrophages, which contributes to its ability to cause systemic disease."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Chills",
+        "Headache",
+        "Myalgia",
+        "Skin ulcer at the site of inoculation (ulceroglandular)",
+        "Tender regional lymphadenopathy (glandular)",
+        "Sore throat (pharyngeal)",
+        "Pneumonia"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Ulceroglandular Tularemia",
+          "description": "The most common form, characterized by a skin ulcer at the site of entry and painful regional lymphadenopathy."
+        },
+        {
+          "syndromeName": "Glandular Tularemia",
+          "description": "Similar to ulceroglandular but without the skin ulcer."
+        },
+        {
+          "syndromeName": "Oculoglandular Tularemia",
+          "description": "Results from direct inoculation into the eye, causing painful conjunctivitis and preauricular lymphadenopathy."
+        },
+        {
+          "syndromeName": "Oropharyngeal Tularemia",
+          "description": "Caused by ingestion of contaminated food or water, leading to exudative pharyngitis and cervical lymphadenopathy."
+        },
+        {
+          "syndromeName": "Pneumonic Tularemia",
+          "description": "The most severe form, resulting from inhalation of the organism or hematogenous spread. Can be a manifestation of bioterrorism."
+        },
+        {
+          "syndromeName": "Typhoidal Tularemia",
+          "description": "A systemic, septicemic form without a clear primary focus, characterized by fever and hypotension."
+        }
+      ],
+      "highRiskPopulations": [
+        "Hunters, farmers, veterinarians, landscapers, and meat handlers",
+        "Laboratory personnel working with the organism"
+      ],
+      "transmissionVectors": [
+        "Ticks (e.g., Dermacentor, Amblyomma)",
+        "Biting flies (e.g., deer flies)",
+        "Mosquitoes",
+        "Contact with infected animal tissues (e.g., rabbits, hares, rodents)",
+        "Inhalation of contaminated aerosols"
+      ],
+      "prognosisNotes": [
+        "Doxycycline is bacteriostatic and monotherapy may result in relapses."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Beta-lactams",
+          "notes": "Not clinically effective."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Not clinically effective."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild Tularemia (Outpatient)",
+            "severity": "mild",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg (Adult) or 2.2 mg/kg (Child)",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "14-21 days",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg (Adult) or 2.2 mg/kg (Child) PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild Tularemia (Outpatient)",
+            "severity": "mild",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "750 mg (Adult) or 20-40 mg/kg/day (Child)",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "14-21 days",
+              "comments": "Max 1.5 gm/day for children.",
+              "originalText": "Ciprofloxacin 750 mg (Adult) or 20-40 mg/kg/day (Child) PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe Tularemia (Hospitalized/Critically Ill)",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg IV q12h (Adult) or 20-40 mg/kg/day divided bid (Child)",
+              "route": "IV/PO",
+              "frequency": "BID",
+              "duration": "14-21 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400 mg IV q12h (Adult) or 20-40 mg/kg/day divided bid (Child) IV/PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-1",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe Tularemia (Hospitalized/Critically Ill)",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Gentamicin or Tobramycin",
+              "dose": "5.1 mg/kg/day",
+              "route": "IV",
+              "frequency": "divided q8h",
+              "duration": "10 days (Adult) or 5-7 days (Child)",
+              "comments": "Consider adding for critically ill patients not responding to monotherapy.",
+              "originalText": "Gentamicin or Tobramycin 5.1 mg/kg/day IV divided q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Febrile illness with a history of animal or arthropod vector exposure in an endemic area.",
+        "Ulceroglandular syndrome or atypical pneumonia."
+      ],
+      "methodologyNotes": [
+        "Laboratory diagnosis is difficult. The organism is fastidious and requires special media. The lab must be notified of the suspicion to take appropriate safety precautions (BSL-3)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "PCR",
+          "trigger": "Suspicion of tularemia",
+          "purpose": "The best method for early detection from clinical specimens (e.g., ulcer swabs, lymph node aspirates, blood, respiratory samples)."
+        },
+        {
+          "testName": "Serology",
+          "trigger": "Suspicion of tularemia",
+          "purpose": "A four-fold rise in antibody titer between acute and convalescent sera confirms the diagnosis, but this is not timely for clinical decision-making."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

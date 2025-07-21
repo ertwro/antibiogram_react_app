@@ -1,0 +1,470 @@
+{
+  "documentMetadata": {
+    "title": "Sinusitis, Rhinosinusitis, Acute",
+    "sourceFile": "Sinusitis, Rhinosinusitis, Acute.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Rhinosinusitis, acute, empiric therapy. \"Rhinosinusitis\" preferred over \"sinusitis\" as both sites are inflamed.",
+        "Antibiotics rarely needed as etiology is most often viral:",
+        "Acute viral rhinosinusitis usually resolves within 7-10 days",
+        "Bacterial sinusitis occurs in only 0.5 to 2%",
+        "General ref.: N Engl J Med 2016; 375:962",
+        "Acute rhinosinusitis is usually a result of obstruction of sinus ostia from inflammation caused by viral infection or allergens.",
+        "Treatment is oral fluids and perhaps nasal sterile saline irrigations.",
+        "For discussion of the role of antibiotics in patients with persistent upper respiratory tract symptoms, see Ann Intern Med 2017,166:201.",
+        "Clinical features are, at best, suggestive:",
+        "Common features whether etiology is allergic, viral or bacterial:",
+        "Facial pressure and frontal headaches",
+        "Anosmia, nasal congestion, and postnasal drip",
+        "More common in allergic sinusitis: chronic clear discharge, afebrile, sneezing, itchy eyes",
+        "More common in viral sinusitis: gradual improvement over 7-10 days. May be febrile.",
+        "More common features of a true bacterial sinusitis:",
+        "Fever and symptom duration of more than 10 days",
+        "Maxillary toothache",
+        "Initial symptom improvement and then worsening of symptoms",
+        "Cacosmia (sense of bad odor in the nose)",
+        "Unilateral facial pain",
+        "Rarely able to make a bacterial microbiologic diagnosis. Treatment regimens are empiric and focus on pathogens most often found in sinus puncture studies: S. pneumoniae, H.influenzae, Moraxella catarrhalis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sinus puncture results in adult patients with clinical picture of acute bacterial rhinosinusitis:",
+        "Strep. pneumoniae (33%)",
+        "H. influenzae (32%)",
+        "M. catarrhalis (9%)",
+        "Streptococcus sp. (Group A) (2%)",
+        "Anaerobes (6%)",
+        "Staph. aureus (10%)",
+        "Viral (15%)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Most often viral infection and management focus is symptom relief (see Comments)",
+        "Guidelines indicate antibiotic therapy indicated in one of 3 situations:",
+        "If at initial evaluation: fever (39 C or higher in children), intense facial pain, and purulent nasal discharge, syndrome justifies empiric treatment as bacterial rhino- sinusitis.",
+        "If despite withholding antibiotics, patient is still symptomatic after 7 days, treat as bacterial sinusitis.",
+        "If treated as bacterial sinusitis, patient fails therapy, see Sinusitis, Treatment Failure."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "90 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ],
+            "notes": "max. dose is 2 gm per dose"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "90 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ],
+            "notes": "(extra strength) suspension, (Amox component), Max. dose of amoxicillin component is 2 gm per dose"
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Treat for 5-7 days",
+            "Reference, AAP Guidelines: Pediatrics 2013; 132:e262."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Adult:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "po",
+                "frequency": "bid x 5-7 days."
+              }
+            ],
+            "notes": "Note: Higher dose of amoxicillin and extended release formulation increases amoxicillin AUC and thereby increases odds of efficacy vs common bacterial pathogens (Drugs 2005;65:121; Clin Lab Med 2004;24:503)."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "500 mg tid or 875 mg bid",
+                "route": "po"
+              }
+            ],
+            "notes": "active vs most S. pneumoniae but less desirable due to frequent resistance of beta-lactamase producing H.influenzae and M. catarrhalis"
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "For Guidelines, symptomatic relief therapy, and references, see Comments section below."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For symptom relief therapies, see Comments"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric patient allergic to penicillin:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Age > 6 mo and wt < 50 kg"
+            },
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "16 mg/kg/day",
+                "frequency": "divided q12h to max of 250 mg daily"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Wt > 50 kg"
+            },
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric patient allergic to penicillin"
+            },
+            "components": [
+              {
+                "drug": "Cefuroxime axetil",
+                "dose": "30 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ],
+            "notes": "Note: Cefuroxime susp not available in the US, may be available in other markets."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric patient allergic to penicillin"
+            },
+            "components": [
+              {
+                "drug": "Cefdinir",
+                "dose": "14 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12-24h, max of 600 mg/day"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pediatric patient allergic to penicillin"
+            },
+            "components": [
+              {
+                "drug": "Cefpodoxime",
+                "dose": "10 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Type 1 allergy (IgE-mediated anaphylaxis, hives)"
+            },
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "30-40 mg/kg/day",
+                "route": "po",
+                "frequency": "divided tid or qid x 10-14 days"
+              }
+            ],
+            "notes": "is the first choice with the understanding that Haemophilus sp. and Moraxella are resistant."
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "If Clindamycin use is not possible or not desired:",
+            "Non-type 1 allergy (skin rash): 2nd or 3rd generation cephalosporin:",
+            "Treat for 10-14 days"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Adult patient with Penicillin allergy:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Type 1 allergy (e.g., anaphylaxis)"
+            },
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "po",
+                "frequency": "once daily",
+                "connector": "or"
+              },
+              {
+                "drug": "Moxifloxacin",
+                "dose": "400 mg",
+                "route": "po",
+                "frequency": "once daily"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Type 1 allergy (e.g., anaphylaxis)"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Type 2 allergy (e.g., skin rash)"
+            },
+            "components": [
+              {
+                "drug": "Cefdinir",
+                "dose": "600 mg/day",
+                "frequency": "divided q12h or q24h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Type 2 allergy (e.g., skin rash)"
+            },
+            "components": [
+              {
+                "drug": "Cefpodoxime",
+                "dose": "200 mg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Type 2 allergy (e.g., skin rash)"
+            },
+            "components": [
+              {
+                "drug": "Cefuroxime axetil",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of antibiotic therapy: generally 5-7 days, but see specific regimens above.",
+        "Sinus symptoms are common with viral infections and allergies and are a common cause of overuse of antibiotics.",
+        "Randomized trial of amoxicillin clavulonate vs placebo in children meeting criteria for treatment showed only modest benefit of treatment: 2 point difference in 40 point symptom score and 2 days faster time to total symptom resolution (7 vs 9 days). Presence of colored nasal secretions did not predict response to antibiotics. JAMA.330(4):349,2023"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Antibiotic treatment goals:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Waiting to initiate therapy is justified by the high rate of spontaneous resolution.",
+            "Meta-analysis of 9 double-blind trials found no clinical signs/symptoms that justify treatment-even after 7-10 days of symptoms, Lancet 371:908, 2008.",
+            "In randomized placebo-controlled trial in adults, a 10-day course of Amoxicillin compared to placebo did not reduce symptoms at day 3 of therapy, JAMA 307:685, 2012.",
+            "Prevent bacterial complications, e.g., subdural empyema, epidural abscess, brain abscess, meningitis and cavernous sinus thrombosis",
+            "Avoidance of chronic sinus disease",
+            "Avoidance of unnecessary antibiotic use.",
+            "See Ann Intern Med 2017,166:201 for discussion of role of antibiotics in patients with persistent upper respiratory tract symptoms."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Due to increasing resistance of S. pneumoniae, avoid Macrolides (azithromycin, clarithromycin, and erythromycin) and monotherapy with 2nd and 3rd generation cephalosporins.",
+        "Due to resistance of both S. pneumoniae and H. influenzae, avoid TMP-SMX.",
+        "Clindamycin alone is not suggested due to lack of activity against Haemophilus sp. and Moraxella sp.",
+        "American Academy of Pediatrics (AAP) guidelines considers Amoxicillin (if no daycare attendance or antibiotics in last 30 days) or Amox-Clav for first-line therapy. IDSA guidelines suggest Amox-Clav as first-line for children and adults. AAP suggests that use of fluoroquinolones in children should continue to be limited to treatment of infections for which no safe and effective alternative exists.",
+        "Symptom relief (adjunct) therapies:",
+        "Topical decongestant (oxymetazoline) is not generally recommended. If used, use for < 3 days.",
+        "Nasal steroid: no clear evidence of benefit unless concomitant allergy.",
+        "Antihistamines: minor role unless definite underlying allergic rhinitis.",
+        "Saline irrigation: may help. Use only sterile saline",
+        "CT scans do not help as mucosa reported as inflamed in 87% of viral URIs; but only 2% develop bacterial rhinosinusitis.",
+        "Potential Complications:",
+        "From acute viral rhinosinusitis-transient hyposmia.",
+        "From acute bacterial rhinosinusitis-orbital infections, meningitis, epidural abscess, brain abscess.",
+        "For treatment failure: see Sinusitis, treatment failure.",
+        "Reference: N Engl J Med 2016; 375:962"
+      ]
+    }
+  ]
+}

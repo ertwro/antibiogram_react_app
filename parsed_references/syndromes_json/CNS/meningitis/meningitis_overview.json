@@ -1,0 +1,81 @@
+{
+  "documentMetadata": {
+    "title": "Meningitis, Overview",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Meningitis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric and specific therapies for bacterial meningitis in both immunocompetent and immunocompromised patients, e.g., HIV/AIDS, as well as specific therapy for fungal, viral and parasitic etiologies.",
+        "Hallmark features: fever, headache, altered level of consciousness, signs of meningeal irritation",
+        "For suspected bacterial meningitis, microbiologic diagnosis is essential; blood culture, CSF, or both positive; molecular tests may be useful for diagnosis of culture-negative case.",
+        "Early recognition and prompt initiation of antibiotics are key.",
+        "Blood cultures and lumbar puncture (LP) should be obtained promptly.",
+        "LP without CT for patients with altered level of consciousness and non-focal neurological exam associated with earlier treatment and improved outcome (Clin Infect Dis 60:1162, 2015; Clin Infect Dis & 66:321, 2018).",
+        "If any delay in LP is anticipated (e.g., need to obtain CT before LP because of focal neurologic deficit, immunodeficiency), obtain blood cultures and give empiric therapy prior to head CT.",
+        "Clinical review: JAMA 2022; 328:2147"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Topics Links"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial:",
+        "Empiric therapy",
+        "Age: Preterm to 1 month",
+        "Age: 1 month to 50 years",
+        "Age: > 50 years",
+        "Positive Gram Stain",
+        "Post-basilar skull fracture",
+        "Post-trauma, Post-neurosurgery",
+        "Prophylaxis, post-exposure",
+        "Shunt- or catheter-related",
+        "Specific Therapy",
+        "Meningitis: Gram-negative bacilli",
+        "Haemophilus influenzae, Meningitis",
+        "Listeria monocytogenes, Meningitis",
+        "Lyme Disease, Meningitis",
+        "Neisseria meningitidis, Meningitis",
+        "Strep. pneumoniae, Meningitis",
+        "Neurosyphilis",
+        "Whipple's",
+        "Prevention",
+        "Meningococcal ACWY, Vaccines",
+        "Meningococcal B, Vaccines",
+        "Mycobacterial:",
+        "M. tuberculosis, Meningitis",
+        "Fungal:",
+        "Blastomyces, Meningitis",
+        "Candida, Meningitis",
+        "Coccidioides, Meningitis",
+        "Cryptococcus, Meningitis, Immunocompetent",
+        "Cryptococcus, Meningitis, HIV/AIDS",
+        "Histoplasma, Meningitis",
+        "Viral:",
+        "Herpes simplex, Meningitis",
+        "West Nile",
+        "Parasitic:",
+        "Amebic meningoencephalitis",
+        "Angiostrongyliasis, Meningitis",
+        "Eosinophilic myeloencephalitis, Meningitis",
+        "Toxoplasma gondii, Meningitis",
+        "Other:",
+        "Aseptic Meningitis",
+        "Chronic Meningitis",
+        "Encephalitis",
+        "Meningitis, HIV/AIDS"
+      ]
+    }
+  ]
+}

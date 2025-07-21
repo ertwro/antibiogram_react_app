@@ -1,0 +1,703 @@
+{
+  "schema_info": {
+    "version": "2.0-complete",
+    "last_updated": "2025-07-17",
+    "description": "Comprehensive, standardized antimicrobial resistance compendium preserving all clinical and molecular details for static web application use",
+    "data_structure": "Optimized for programmatic access while maintaining clinical depth"
+  },
+
+  "definitions": {
+    "mic": "Minimum Inhibitory Concentration - lowest concentration of antimicrobial that prevents visible growth",
+    "cre": "Carbapenem-Resistant Enterobacterales",
+    "mrsa": "Methicillin-Resistant Staphylococcus aureus",
+    "vre": "Vancomycin-Resistant Enterococcus",
+    "esbl": "Extended-Spectrum β-Lactamase",
+    "mbl": "Metallo-β-Lactamase",
+    "chdl": "Carbapenem-Hydrolyzing Class D β-Lactamase",
+    "qrdr": "Quinolone-Resistance Determining Region",
+    "rrdr": "Rifampin-Resistance Determining Region",
+    "mlsb": "Macrolide-Lincosamide-Streptogramin B resistance",
+    "phlosa": "Phenicols, Lincosamides, Oxazolidinones, Pleuromutilins, Streptogramin A resistance"
+  },
+
+  "resistance_categories": {
+    "intrinsic": {
+      "definition": "Natural, innate insusceptibility encoded by chromosomal genes",
+      "characteristics": ["Predictable for species", "Not result of selective pressure", "Chromosomally encoded"],
+      "examples": [
+        {
+          "id": "gram_negative_barrier",
+          "organism_group": "Gram-negative bacteria",
+          "resistance_to": ["Vancomycin", "Daptomycin", "Linezolid"],
+          "mechanism": "Outer membrane permeability barrier",
+          "clinical_impact": "Fundamental limitation requiring different therapeutic approaches"
+        },
+        {
+          "id": "mycoplasma_cell_wall",
+          "organism_group": "Mycoplasma spp.",
+          "resistance_to": ["All β-lactams"],
+          "mechanism": "Lack of peptidoglycan cell wall",
+          "clinical_impact": "Requires non-β-lactam therapy"
+        },
+        {
+          "id": "klebsiella_ampicillin",
+          "organism_group": "Klebsiella spp.",
+          "resistance_to": ["Ampicillin"],
+          "mechanism": "Chromosomal low-level β-lactamase",
+          "clinical_impact": "Use alternative β-lactams or β-lactamase inhibitor combinations"
+        }
+      ]
+    },
+    "acquired": {
+      "definition": "Development of resistance in previously susceptible organisms",
+      "mechanisms": {
+        "vertical_evolution": {
+          "description": "Spontaneous chromosomal mutations",
+          "examples": ["rpoB mutations (rifampin)", "gyrA mutations (fluoroquinolones)"],
+          "characteristics": ["Usually single-step", "High fitness cost", "Difficult to transfer"]
+        },
+        "horizontal_gene_transfer": {
+          "description": "Acquisition of external genetic material",
+          "types": {
+            "conjugation": {
+              "mechanism": "Direct cell contact via pilus",
+              "elements": ["Plasmids", "Conjugative transposons"],
+              "efficiency": "High"
+            },
+            "transduction": {
+              "mechanism": "Bacteriophage-mediated transfer",
+              "efficiency": "Moderate",
+              "specificity": "Often species-specific"
+            },
+            "transformation": {
+              "mechanism": "Uptake of naked DNA",
+              "requirements": ["Competent cells", "Environmental DNA"],
+              "efficiency": "Low to moderate"
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "resistance_mechanisms": {
+    "enzymatic_inactivation": {
+      "description": "Production of enzymes that chemically alter or destroy antibiotics",
+      "beta_lactamases": {
+        "classification_system": "Ambler molecular classification",
+        "class_A": {
+          "active_site": "Serine",
+          "subfamilies": {
+            "penicillinases": {
+              "genes": ["blaTEM-1", "blaTEM-2", "blaSHV-1"],
+              "spectrum": ["Penicillins"],
+              "inhibitors": ["Clavulanic acid", "Sulbactam", "Tazobactam"],
+              "prevalence": "Very common",
+              "clinical_impact": "Moderate - overcome by inhibitor combinations"
+            },
+            "esbl": {
+              "genes": ["blaCTX-M", "blaSHV-ESBL", "blaTEM-ESBL"],
+              "spectrum": ["Penicillins", "Cephalosporins Gen 1-4", "Aztreonam"],
+              "inhibitors": ["Clavulanic acid", "Sulbactam", "Tazobactam", "Avibactam"],
+              "detection": {
+                "screening": "Reduced susceptibility to ceftriaxone/ceftazidime/cefotaxime",
+                "confirmation": "≥5mm zone increase or ≥3 dilution MIC decrease with clavulanic acid",
+                "molecular": "PCR for blaCTX-M, blaSHV, blaTEM variants"
+              },
+              "prevalence": "Very high globally",
+              "clinical_impact": "High - limits β-lactam options, marker for MDR"
+            },
+            "class_A_carbapenemases": {
+              "genes": ["blaKPC", "blaGES", "blaIMI", "blaNMC"],
+              "spectrum": ["All β-lactams including carbapenems"],
+              "inhibitors": ["Avibactam", "Vaborbactam", "Relebactam"],
+              "detection": {
+                "phenotypic": "mCIM positive, boronic acid synergy",
+                "molecular": "PCR for carbapenemase genes"
+              },
+              "prevalence": "High in endemic areas",
+              "clinical_impact": "Critical - last-resort antibiotic resistance"
+            }
+          }
+        },
+        "class_B": {
+          "active_site": "Zinc-dependent (Metallo-β-lactamases)",
+          "subfamilies": {
+            "mbls": {
+              "genes": ["blaNDM", "blaVIM", "blaIMP", "blaSPM", "blaGIM"],
+              "spectrum": ["All β-lactams except aztreonam"],
+              "inhibitors": ["EDTA (in vitro only)", "Experimental agents"],
+              "detection": {
+                "phenotypic": "eCIM test, EDTA synergy, aztreonam sparing",
+                "molecular": "PCR for MBL genes"
+              },
+              "prevalence": "Increasing globally",
+              "clinical_impact": "Critical - very limited treatment options"
+            }
+          }
+        },
+        "class_C": {
+          "active_site": "Serine",
+          "subfamilies": {
+            "ampc_cephalosporinases": {
+              "types": {
+                "chromosomal": {
+                  "organisms": ["Enterobacter", "Serratia", "Providencia", "Morganella", "Citrobacter"],
+                  "regulation": "Inducible, can become constitutive",
+                  "genes": ["ampC"],
+                  "clinical_impact": "Moderate to high - selection during therapy"
+                },
+                "plasmid_mediated": {
+                  "genes": ["blaCMY", "blaDHA", "blaFOX", "blaACC"],
+                  "families": ["CIT", "DHA", "FOX", "ACC", "MOX", "EBC"],
+                  "clinical_impact": "High - transferable resistance"
+                }
+              },
+              "spectrum": ["Penicillins", "Cephalosporins", "Cephamycins"],
+              "inhibitors": ["Cloxacillin", "Boronic acids", "Avibactam"],
+              "inhibitor_resistance": ["Clavulanic acid"],
+              "detection": {
+                "screening": "Cefoxitin resistance",
+                "confirmation": "Cloxacillin or boronic acid synergy"
+              }
+            }
+          }
+        },
+        "class_D": {
+          "active_site": "Serine",
+          "subfamilies": {
+            "oxacillinases": {
+              "narrow_spectrum": {
+                "activity": "Hydrolyze oxacillin > penicillin",
+                "clinical_impact": "Low to moderate"
+              },
+              "carbapenemases": {
+                "genes": ["blaOXA-48", "blaOXA-23", "blaOXA-24/40", "blaOXA-51", "blaOXA-58"],
+                "characteristics": "Weak carbapenem hydrolysis",
+                "synergy_required": "Porin loss for high-level resistance",
+                "inhibitors": ["Avibactam"],
+                "detection": {
+                  "challenges": "Often weak carbapenemase tests",
+                  "markers": "Temocillin resistance",
+                  "molecular": "PCR essential for detection"
+                },
+                "clinical_impact": "High - difficult to detect, spreads rapidly"
+              }
+            }
+          }
+        }
+      },
+      "aminoglycoside_modifying_enzymes": {
+        "acetyltransferases": {
+          "family": "AAC",
+          "genes": ["aac(6')-Ib", "aac(6')-Ib-cr", "aac(3')-II"],
+          "mechanism": "Acetylation of amino groups",
+          "cofactor": "Acetyl-CoA",
+          "spectrum_examples": "aac(6')-Ib affects tobramycin, amikacin"
+        },
+        "phosphotransferases": {
+          "family": "APH",
+          "genes": ["aph(3')-IIIa", "aph(3'')-Ib", "aph(6)-Id"],
+          "mechanism": "Phosphorylation of hydroxyl groups",
+          "cofactor": "ATP"
+        },
+        "nucleotidyltransferases": {
+          "family": "ANT",
+          "genes": ["ant(2'')-Ia", "ant(4')-Ia"],
+          "mechanism": "Adenylylation of hydroxyl groups",
+          "cofactor": "ATP"
+        }
+      },
+      "other_modifying_enzymes": [
+        {
+          "target": "Chloramphenicol",
+          "enzyme": "Chloramphenicol acetyltransferases",
+          "genes": ["cat"]
+        },
+        {
+          "target": "Macrolides",
+          "enzymes": ["Macrolide esterases", "Macrolide phosphotransferases"],
+          "genes": ["ereA", "ereB", "mph"]
+        },
+        {
+          "target": "Rifampin",
+          "enzyme": "ADP-ribosyl transferases",
+          "genes": ["arr"]
+        },
+        {
+          "target": "Tetracycline",
+          "enzyme": "Flavin-dependent monooxygenase",
+          "genes": ["tet(X)"]
+        }
+      ]
+    },
+
+    "target_site_alteration": {
+      "description": "Modification of antibiotic cellular targets to reduce binding",
+      "cell_wall_targets": {
+        "pbp_alterations": [
+          {
+            "organism": "Staphylococcus aureus (MRSA)",
+            "genes": ["mecA", "mecC"],
+            "mechanism": "Production of PBP2a with low β-lactam affinity",
+            "resistance": "All β-lactams",
+            "detection": "Cefoxitin screen",
+            "prevalence": "High in healthcare settings",
+            "clinical_impact": "Critical - requires alternative therapy"
+          },
+          {
+            "organism": "Streptococcus pneumoniae",
+            "genes": ["pbp1a", "pbp2b", "pbp2x"],
+            "mechanism": "Mosaic PBP genes from transformation",
+            "resistance": "Penicillins, some cephalosporins",
+            "detection": "Oxacillin disk screen"
+          }
+        ],
+        "peptidoglycan_precursors": [
+          {
+            "organism": "Enterococcus (VRE)",
+            "genes": ["vanA", "vanB", "vanD operons"],
+            "mechanism": "D-Ala-D-Lac or D-Ala-D-Ser precursor synthesis",
+            "resistance": "Vancomycin, Teicoplanin (vanA type)",
+            "detection": "Vancomycin MIC or agar screen",
+            "transferability": "High (Tn1546)"
+          },
+          {
+            "organism": "Staphylococcus aureus (VRSA)",
+            "genes": ["vanA from VRE"],
+            "mechanism": "Intergeneric transfer of van operon",
+            "resistance": "High-level vancomycin resistance",
+            "prevalence": "Very rare but concerning"
+          }
+        ]
+      },
+      "nucleic_acid_targets": {
+        "dna_topoisomerases": {
+          "genes": ["gyrA", "gyrB", "parC", "parE"],
+          "region": "Quinolone-Resistance Determining Region (QRDR)",
+          "resistance": "Fluoroquinolones",
+          "mechanism": "Point mutations reducing drug binding",
+          "development": "Stepwise accumulation of mutations"
+        },
+        "rna_polymerase": {
+          "genes": ["rpoB"],
+          "region": "Rifampin-Resistance Determining Region (RRDR)",
+          "resistance": "Rifampin",
+          "mechanism": "Point mutations preventing drug binding"
+        }
+      },
+      "ribosomal_alterations": {
+        "23s_rrna": [
+          {
+            "type": "Methylation",
+            "genes": ["erm family"],
+            "site": "A2058",
+            "resistance": "MLSb (Macrolides, Lincosamides, Streptogramin B)",
+            "detection": "D-test for inducible resistance",
+            "regulation": "Can be constitutive or inducible"
+          },
+          {
+            "type": "Methylation",
+            "genes": ["cfr"],
+            "site": "A2503",
+            "resistance": "PhLOPSA",
+            "clinical_impact": "Linezolid resistance"
+          }
+        ],
+        "16s_rrna": [
+          {
+            "type": "Point mutations",
+            "genes": ["rrs"],
+            "resistance": "Aminoglycosides"
+          },
+          {
+            "type": "Methylation",
+            "genes": ["rmtA", "armA"],
+            "site": "G1405 or A1408",
+            "resistance": "Pan-aminoglycoside resistance"
+          }
+        ],
+        "ribosomal_proteins": {
+          "genes": ["rplC (L3)", "rplD (L4)"],
+          "resistance": "Oxazolidinones"
+        }
+      },
+      "folate_pathway": [
+        {
+          "target": "Dihydropteroate synthase",
+          "genes": ["sul1", "sul2", "sul3"],
+          "mechanism": "Resistant enzyme variants",
+          "resistance": "Sulfonamides"
+        },
+        {
+          "target": "Dihydrofolate reductase",
+          "genes": ["dfr family"],
+          "mechanism": "Resistant enzyme variants",
+          "resistance": "Trimethoprim"
+        }
+      ]
+    },
+
+    "active_efflux": {
+      "description": "Active transport of antibiotics out of the cell",
+      "rnd_family": {
+        "structure": "Tripartite (inner pump, adapter, outer channel)",
+        "energy": "Proton motive force",
+        "distribution": "Gram-negative only",
+        "substrate_range": "Very broad",
+        "major_systems": [
+          {
+            "organism": "Escherichia coli",
+            "system": "AcrAB-TolC",
+            "components": {"pump": "AcrB", "adapter": "AcrA", "channel": "TolC"},
+            "regulation": "marR mutations cause overexpression",
+            "substrates": ["Tetracyclines", "Chloramphenicol", "Fluoroquinolones"]
+          },
+          {
+            "organism": "Pseudomonas aeruginosa",
+            "systems": [
+              {
+                "name": "MexAB-OprM",
+                "regulation": "mexR mutations",
+                "substrates": ["β-lactams", "Fluoroquinolones", "Tetracyclines", "Macrolides"]
+              },
+              {
+                "name": "MexXY-OprM",
+                "regulation": "mexZ mutations",
+                "substrates": ["Aminoglycosides", "Fluoroquinolones"]
+              }
+            ]
+          }
+        ]
+      },
+      "mfs_family": {
+        "structure": "Single component",
+        "energy": "Proton motive force",
+        "distribution": "Gram-positive and Gram-negative",
+        "examples": [
+          {"pumps": ["Tet(A)", "Tet(B)"], "specificity": "Tetracycline-specific"},
+          {"pump": "NorA", "organism": "Staphylococcus aureus", "substrates": ["Fluoroquinolones"]}
+        ]
+      },
+      "abc_family": {
+        "energy": "ATP hydrolysis",
+        "examples": [
+          {"pump": "MacAB-TolC", "organism": "E. coli", "substrates": ["Macrolides"]},
+          {"pump": "Msr(A)", "organism": "S. aureus", "substrates": ["Macrolides", "Streptogramin B"]}
+        ]
+      }
+    },
+
+    "reduced_permeability": {
+      "description": "Prevention of antibiotic entry",
+      "porin_alterations": [
+        {
+          "organism": "Pseudomonas aeruginosa",
+          "porin": "OprD",
+          "loss_effect": "Carbapenem resistance (especially imipenem)",
+          "synergy": "Often with efflux or carbapenemase"
+        },
+        {
+          "organism": "Klebsiella pneumoniae",
+          "porins": ["OmpK35", "OmpK36"],
+          "loss_effect": "Reduced β-lactam entry",
+          "synergy": "Critical with weak carbapenemases like OXA-48"
+        }
+      ],
+      "cell_wall_thickening": {
+        "phenotype": "VISA (Vancomycin-Intermediate S. aureus)",
+        "mechanism": "Thickened peptidoglycan traps vancomycin",
+        "genes": ["vraSR", "graSR", "walKR"]
+      },
+      "lps_modification": {
+        "target": "Polymyxin resistance",
+        "modifications": [
+          {
+            "type": "Phosphoethanolamine addition",
+            "genes": ["mcr-1 to mcr-10"],
+            "location": "Plasmid-mediated"
+          },
+          {
+            "type": "4-amino-4-deoxy-L-arabinose addition",
+            "regulation": "pmrAB, phoPQ systems"
+          }
+        ]
+      }
+    },
+
+    "target_protection": {
+      "description": "Proteins that shield targets without modification",
+      "ribosomal_protection": [
+        {
+          "proteins": ["Tet(M)", "Tet(O)", "Tet(W)"],
+          "mechanism": "GTP-dependent tetracycline release",
+          "family": "Translational GTPases",
+          "mobility": "Conjugative transposons (Tn916)"
+        },
+        {
+          "proteins": ["OptrA", "PoxtA", "Lsa", "Msr(A)"],
+          "family": "ABC-F proteins",
+          "mechanism": "ATP-dependent antibiotic displacement",
+          "resistance": "Oxazolidinones, Phenicols, Lincosamides"
+        }
+      ],
+      "dna_gyrase_protection": {
+        "proteins": ["QnrA", "QnrB", "QnrS"],
+        "family": "Pentapeptide repeat proteins",
+        "mechanism": "Bind to DNA gyrase/topoisomerase IV",
+        "resistance": "Low-level fluoroquinolone resistance",
+        "significance": "Facilitates high-level resistance development"
+      }
+    },
+
+    "target_bypass": {
+      "description": "Alternative pathways or replacement enzymes",
+      "enzyme_replacement": [
+        {
+          "example": "MRSA",
+          "native_target": "PBPs",
+          "replacement": "PBP2a (mecA/mecC)",
+          "function": "Continues cell wall synthesis"
+        },
+        {
+          "example": "VRE",
+          "native_pathway": "D-Ala-D-Ala synthesis",
+          "replacement": "D-Ala-D-Lac synthesis",
+          "function": "Alternative cell wall precursors"
+        }
+      ]
+    }
+  },
+
+  "detection_methods": {
+    "phenotypic": {
+      "reference_methods": [
+        {
+          "name": "Broth Microdilution (BMD)",
+          "purpose": "MIC determination - gold standard",
+          "standards": ["CLSI M07", "EUCAST"],
+          "principle": "Serial dilutions in liquid medium"
+        },
+        {
+          "name": "Disk Diffusion",
+          "purpose": "Qualitative susceptibility",
+          "standards": ["CLSI M02", "EUCAST"],
+          "principle": "Zone of inhibition measurement"
+        }
+      ],
+      "specialized_tests": [
+        {
+          "test": "D-test",
+          "detects": "Inducible clindamycin resistance",
+          "principle": "Erythromycin induces erm expression",
+          "interpretation": "D-shaped zone indicates inducible resistance",
+          "clinical_significance": "Clindamycin should not be used if positive"
+        },
+        {
+          "test": "ESBL Confirmatory Test",
+          "detects": "Extended-spectrum β-lactamases",
+          "principle": "Clavulanic acid synergy",
+          "criteria": "≥5mm zone increase or ≥3 dilution MIC decrease"
+        },
+        {
+          "test": "Modified Carbapenemase Inactivation (mCIM)",
+          "detects": "Carbapenemase production",
+          "principle": "Meropenem hydrolysis detection",
+          "variants": {"eCIM": "EDTA addition detects MBLs"}
+        },
+        {
+          "test": "Inhibitor-based synergy",
+          "purpose": "Carbapenemase class differentiation",
+          "inhibitors": {
+            "Boronic acid": "KPC detection",
+            "EDTA": "MBL detection",
+            "Avibactam": "KPC/OXA detection"
+          }
+        }
+      ]
+    },
+    "genotypic": {
+      "targeted_methods": [
+        {
+          "method": "PCR",
+          "advantages": ["Rapid", "Specific", "Cost-effective"],
+          "common_targets": ["mecA/mecC", "vanA/vanB", "blaKPC", "blaNDM", "mcr genes"]
+        },
+        {
+          "method": "Multiplex PCR",
+          "application": "Simultaneous detection of multiple genes",
+          "examples": ["Plasmid-mediated AmpC families", "ESBL types"]
+        }
+      ],
+      "comprehensive_methods": [
+        {
+          "method": "Whole Genome Sequencing (WGS)",
+          "capabilities": [
+            "Complete resistome profiling",
+            "Chromosomal mutation detection",
+            "Mobile genetic element identification",
+            "Outbreak investigation"
+          ],
+          "tools": {
+            "databases": ["CARD", "ResFinder", "NCBI AMRFinderPlus"],
+            "software": ["RGI", "ABRicate", "AMRFinderPlus"]
+          },
+          "limitations": [
+            "Genotype-phenotype discordance",
+            "Expression level uncertainty",
+            "Novel mutation interpretation",
+            "Cost and turnaround time"
+          ]
+        }
+      ]
+    }
+  },
+
+  "clinical_case_studies": [
+    {
+      "pathogen": "Carbapenem-Resistant Pseudomonas aeruginosa (CRPA)",
+      "resistance_architecture": [
+        {"mechanism": "Porin loss", "gene": "oprD", "effect": "Reduced carbapenem entry"},
+        {"mechanism": "Efflux overexpression", "system": "MexAB-OprM", "regulation": "mexR mutations"},
+        {"mechanism": "Carbapenemase", "enzymes": ["VIM", "IMP", "NDM"], "location": "Plasmid"}
+      ],
+      "synergy": "Triple threat creates high-level resistance",
+      "treatment_challenges": "Very limited options, often requires combination therapy"
+    },
+    {
+      "pathogen": "OXA-48 Klebsiella pneumoniae",
+      "resistance_architecture": [
+        {"mechanism": "Weak carbapenemase", "enzyme": "OXA-48", "characteristic": "Low-level hydrolysis"},
+        {"mechanism": "Porin loss", "genes": ["ompK35", "ompK36"], "effect": "Prevents enzyme saturation"}
+      ],
+      "synergy": "Porin loss essential for clinical resistance",
+      "detection_challenges": "Often missed by routine carbapenemase tests"
+    }
+  ],
+
+  "who_priority_pathogens": {
+    "critical": [
+      {
+        "pathogen": "Acinetobacter baumannii, carbapenem-resistant",
+        "mechanisms": ["OXA carbapenemases", "Porin loss (CarO)", "Efflux (AdeABC)"],
+        "clinical_impact": "Extremely limited treatment options"
+      },
+      {
+        "pathogen": "Pseudomonas aeruginosa, carbapenem-resistant",
+        "mechanisms": ["MBLs (VIM, IMP)", "Efflux (MexAB-OprM)", "Porin loss (OprD)"],
+        "clinical_impact": "High mortality, difficult to treat"
+      },
+      {
+        "pathogen": "Enterobacterales, carbapenem-resistant",
+        "mechanisms": ["KPC, NDM, OXA-48", "ESBL production", "Porin loss"],
+        "clinical_impact": "Major healthcare threat, spreads rapidly"
+      }
+    ],
+    "high": [
+      {
+        "pathogen": "Enterococcus faecium, vancomycin-resistant",
+        "mechanisms": ["vanA, vanB operons"],
+        "clinical_impact": "Limited treatment options, spreads in hospitals"
+      },
+      {
+        "pathogen": "Staphylococcus aureus, methicillin-resistant",
+        "mechanisms": ["mecA/mecC", "Cell wall thickening (VISA)", "vanA (VRSA)"],
+        "clinical_impact": "Common cause of serious infections"
+      }
+    ],
+    "medium": [
+      {
+        "pathogen": "Streptococcus pneumoniae, penicillin-non-susceptible",
+        "mechanisms": ["Mosaic PBP genes"],
+        "clinical_impact": "Meningitis treatment challenges"
+      }
+    ]
+  },
+
+  "resistance_determinants": [
+    {
+      "id": "blaKPC",
+      "name": "Klebsiella pneumoniae Carbapenemase",
+      "gene_variants": ["blaKPC-2", "blaKPC-3", "blaKPC-4"],
+      "ambler_class": "A",
+      "enzyme_type": "Serine carbapenemase",
+      "substrate_spectrum": ["Penicillins", "Cephalosporins", "Monobactams", "Carbapenems"],
+      "inhibitors": ["Avibactam", "Vaborbactam", "Relebactam"],
+      "mobile_element": "Tn4401",
+      "geographic_distribution": "Worldwide, endemic in many regions",
+      "detection": {
+        "phenotypic": "mCIM positive, boronic acid synergy",
+        "molecular": "PCR, WGS"
+      },
+      "treatment_options": [
+        "Ceftazidime-avibactam",
+        "Meropenem-vaborbactam",
+        "Imipenem-relebactam",
+        "Cefiderocol"
+      ]
+    },
+    {
+      "id": "blaNDM",
+      "name": "New Delhi Metallo-β-lactamase",
+      "gene_variants": ["blaNDM-1", "blaNDM-5", "blaNDM-7"],
+      "ambler_class": "B",
+      "enzyme_type": "Metallo-β-lactamase",
+      "substrate_spectrum": ["Penicillins", "Cephalosporins", "Carbapenems"],
+      "spares": ["Aztreonam"],
+      "inhibitors": ["EDTA (in vitro only)"],
+      "mobile_element": "Various plasmids",
+      "geographic_distribution": "Global pandemic clone",
+      "detection": {
+        "phenotypic": "eCIM positive, EDTA synergy, aztreonam sparing",
+        "molecular": "PCR, WGS"
+      },
+      "treatment_options": [
+        "Ceftazidime-avibactam + Aztreonam",
+        "Cefiderocol"
+      ]
+    }
+  ],
+
+  "treatment_guidance": {
+    "general_principles": [
+      "Empiric therapy should be based on local resistance patterns",
+      "De-escalation based on culture results is essential",
+      "Source control is critical for successful outcomes",
+      "Combination therapy may be needed for highly resistant organisms"
+    ],
+    "resistance_specific": {
+      "esbl_producers": {
+        "avoid": ["Cephalosporins", "Aztreonam"],
+        "preferred": ["Carbapenems", "Piperacillin-tazobactam (if susceptible)"],
+        "alternatives": ["Ceftazidime-avibactam", "Fosfomycin (UTI)"]
+      },
+      "cre": {
+        "assessment": "Determine carbapenemase type if possible",
+        "options": ["Ceftazidime-avibactam", "Meropenem-vaborbactam", "Cefiderocol"],
+        "combination_therapy": "Often required for serious infections"
+      },
+      "mrsa": {
+        "oral_options": ["Linezolid", "Doxycycline", "Clindamycin (if D-test negative)"],
+        "iv_options": ["Vancomycin", "Daptomycin", "Linezolid", "Ceftaroline"]
+      }
+    }
+  },
+
+  "future_perspectives": {
+    "evolutionary_concepts": {
+      "fitness_cost": "Many resistance mechanisms reduce bacterial fitness",
+      "compensatory_evolution": "Secondary mutations restore fitness without losing resistance",
+      "environmental_resistome": "Continuous source of novel resistance genes"
+    },
+    "therapeutic_innovations": {
+      "new_beta_lactamase_inhibitors": ["Taniborbactam", "Durlobactam"],
+      "efflux_pump_inhibitors": "In clinical development",
+      "alternative_approaches": ["Bacteriophage therapy", "Anti-virulence strategies"]
+    },
+    "diagnostic_advances": [
+      "Point-of-care molecular diagnostics",
+      "AI-powered resistance prediction",
+      "Direct-from-sample sequencing"
+    ]
+  }
+}

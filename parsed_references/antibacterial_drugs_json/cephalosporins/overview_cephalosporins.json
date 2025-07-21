@@ -1,0 +1,132 @@
+
+{
+  "drug_name": "Cephalosporins, Overview",
+  "url": "https://www.wikidoc.org/index.php/Cephalosporins,_Overview",
+  "classification": [
+    {
+      "name": "1st Generation",
+      "spectrum_of_activity": [
+        "S. aureus (MSSA)",
+        "streptococci",
+        "limited Gram-negative coverage (e.g., some strains of E. coli, Klebsiella spp., P. mirabilis)",
+        "poor anaerobic coverage"
+      ],
+      "parenteral": [
+        "Cefazolin"
+      ],
+      "oral": [
+        "Cefadroxil",
+        "Cephalexin"
+      ]
+    },
+    {
+      "name": "2nd Generation",
+      "spectrum_of_activity": [
+        "generally less activity against Gram-positive cocci",
+        "improved activity against H. influenzae"
+      ],
+      "oral": [
+        "Cefuroxime axetil",
+        "Cefaclor",
+        "Loracarbef",
+        "Cefprozil"
+      ],
+      "parenteral": [
+        "Cefmetazole",
+        "Cefuroxime"
+      ],
+      "cephamycins": [
+        "activity against anaerobes, including Bacteroides spp.",
+        "may be active in vitro vs. ESBL-producing aerobic gram-negative bacilli but clinical efficacy data lacking",
+        "Cefoxitin",
+        "Cefotetan"
+      ]
+    },
+    {
+      "name": "3rd Generation",
+      "spectrum_of_activity": [
+        "Expanded activity against gram-negative bacilli",
+        "parenteral agents have improved CNS penetration",
+        "all are subject to inactivation by ESBLs and AmpC beta-lactamases produced by Gram-negatives"
+      ],
+      "parenteral": [
+        "Cefotaxime",
+        "Ceftriaxone",
+        "Ceftizoxime",
+        "Ceftazidime",
+        "Cefoperazone",
+        "Cefoperazone-sulbactam"
+      ],
+      "oral": [
+        "Cefdinir",
+        "Cefditoren pivoxil",
+        "Cefixime",
+        "Cefpodoxime proxetil",
+        "Ceftibuten"
+      ]
+    },
+    {
+      "name": "Advanced Generation",
+      "spectrum_of_activity": [
+        "Cephalosporins with enhanced antibacterial spectrum against selected organisms",
+        "poor activity against Gram-negative anaerobes, Bacteroides spp. in particular",
+        "parenteral only"
+      ],
+      "drugs": [
+        {
+          "name": "Cefepime",
+          "description": "sometimes referred to as a 4th generation cephalosporin; activity against P. aeruginosa and AmpC-producing organisms; good CNS penetration"
+        },
+        {
+          "name": "Cefpirome"
+        },
+        {
+          "name": "Ceftaroline fosamil acetate",
+          "description": "activity against MRSA due to its affinity for binding PBP2a, the protein that mediates methicillin resistance"
+        },
+        {
+          "name": "Ceftobiprole",
+          "description": "activity against MRSA due to its affinity for binding PBP2a, the protein that mediates methicillin resistance"
+        },
+        {
+          "name": "Ceftolozane-tazobactam",
+          "description": "activity against Pseudomonas aeruginosa, ESBL producers, some AmpC producers"
+        },
+        {
+          "name": "Ceftazidime-avibactam",
+          "description": "same spectrum of activity as Ceftazidime plus activity against ESBL producers, AmpC producers, serine carbapenemase-producing Gram-negatives"
+        },
+        {
+          "name": "Cefiderocol",
+          "description": "activity against ESBL producers, AmpC producers, carbapenemase-producing Gram-negatives, including non-fermenters such as Pseudomonas aeruginosa, Acinetobacter spp. and Stenotrophomonas maltophilia; no activity against Gram-positive organisms or anaerobic organisms"
+        },
+        {
+          "name": "Cefepime-Enmetazobactam"
+        }
+      ]
+    }
+  ],
+  "distribution_and_penetration": {
+    "csf_penetration": [
+      "Cefotaxime",
+      "Ceftizoxime",
+      "Ceftriaxone"
+    ],
+    "biliary_penetration": [
+      "Cefazolin",
+      "Ceftriaxone"
+    ]
+  },
+  "adverse_effects": [
+    "Allergy, Cross-allergenicity",
+    "Increased risk of C. difficile toxin-mediated colitis with use of any cephalosporin, especially the 3rd generation drugs.",
+    "All beta-lactam antibiotics have potential for increasing risk of inducing or potentiating seizure activity."
+  ],
+  "related_topics": [
+    "Drug Allergy: Penicillins, Cephalosporins, Overview",
+    "Penicillins, Overview",
+    "Carbapenems, Overview",
+    "Ceftriaxone desensitization",
+    "Antibacterial Drug Resistance Genotypes"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "documentMetadata": {
+    "title": "Neutropenia, Febrile, Low-Risk",
+    "lastUpdated": "2025-03-06",
+    "sourceFile": "Neutropenia, Febrile, Low-Risk.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Febrile neutropenia: Post-cancer chemotherapy or post-allogeneic bone marrow transplant patient with fever (≥38.3°C x 1 hr of sustained over 38°C) AND neutropenic (absolute neutrophil count range from <500-<1000 cells/µL)",
+        "Patient is considered low-risk and eligible for out-patient management if:",
+        "  - Anticipate < 7 days of neutropenia",
+        "  - No medical comorbidities (no renal or hepatic dysfunction)",
+        "  - Can take oral medications",
+        "  - 24/7 access to nearby ER, lab and x-ray and experienced providers",
+        "  - Motivated and compliant patient and family"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacteria: aerobic gram-negative bacilli (Enterobacteriaceae, Pseudomonas), aerobic gram-positive cocci (includes staphylococci and streptococci)",
+        "Fungi: Candida sp > molds (rare in low-risk patients)",
+        "Viral: respiratory viruses most common, HSV and VZV (rare in low-risk patients)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ciprofloxacin 750 mg po bid + Amoxicillin-clavulanate 875 mg po bid",
+        "Penicillin allergy: Can substitute Clindamycin 300 mg po q6h or q8h for Amoxicillin-clavulanate"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Moxifloxacin 400 mg po daily"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration: continue antibiotic therapy until patient is afebrile and absolute neutrophil count > 500 cells/µL (some say 1000 cells/μL).",
+        "Addition of granulocyte colony stimulating factors during neutropenic fever can be considered in patients at high-risk for infectious complications.",
+        "Recommendations above are based on the IDSA Practice Guidelines (J Clin Oncol 36, 1443: 2018)) and National Comprehensive Cancer Network Guidelines on Prevention and Treatment of Cancer-Related Infections (www.nccn.org).",
+        "Non-infectious causes of fever in a patient with neutropenia should be considered in cases where there is no clear evidence of infection. The differential diagnosis includes drug fever, tumor fever, transfusion reactions, engraftment syndrome, and Sweet syndrome among others. A complete differential diagnosis can be found at Clin Infect Dis 2024."
+      ]
+    }
+  ]
+}

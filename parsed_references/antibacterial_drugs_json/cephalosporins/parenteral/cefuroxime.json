@@ -1,0 +1,83 @@
+{
+  "drug_name": "Cefuroxime",
+  "tradename": "Ceftin, Zinacef",
+  "usage_and_dosing": {
+    "general": [
+      "Cefuroxime is an intravenous 2nd generation cephalosporin with enhanced activity against H. influenzae (as compared to 1st generation cephalosporins). Retains activity against MSSA, Penicillin-sensitive Strep. pneumoniae, Strep. pyogenes, E. coli, P. mirabilis and Klebsiella sp.",
+      "Parenteral use is limited to less severe skin and skin structure infections and surgical prophylaxis (alternative to cefazolin for head and neck, cardiac surgery).",
+      "For oral drug, see Cefuroxime axetil.",
+      "More stable vs staphylococcal ẞ-lactamase than Cefazolin.",
+      "For cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview. See also Penicillin (Beta Lactam) Allergy Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "750 mg IV/IM q8h",
+      "more_serious_infections": "Can increase to 1.5 gm IV q6h",
+      "surgical_prophylaxis": "1.5 gm within 60 mins of surgical incision"
+    },
+    "pediatric_dose": {
+      "standard": "150 mg/kg/day (divided q8h)",
+      "meningitis": "240 mg/kg/day (divided q8h)"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.5",
+    "half_life_esrd": "17",
+    "dose_renal_function_normal": "0.75-1.5 gm IV q8h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 0.75-1.5 gm q8-12h. CrCl <10: 0.75-1.5 gm q24h",
+    "hemodialysis": "0.75-1.5 gm q24h (AD on dialysis days)",
+    "capd": "0.75-1.5 gm q24h",
+    "crrt": "0.75-1.5 gm q8-12h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Local phlebitis (2%), rash (rare), positive Coombs (rare), neutropenia (rare), eosinophilia (7%), nausea/vomiting (rare), diarrhea (4-11%), C. difficile colitis, increased LFTs (4%).",
+    "For cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "100 (1.5 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "33-50",
+    "volume_of_distribution_vd_l_kg_vss": "0.19 L/kg (Vss)",
+    "avg_serum_half_life_hr": "1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "35-80",
+    "csf_blood_percent": "17-88",
+    "therapeutic_levels_in_csf": "Marginal",
+    "auc_ug_hr_ml": "150 (1.5 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ],
+  "comments": []
+}

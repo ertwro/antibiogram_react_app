@@ -1,0 +1,108 @@
+{
+  "documentMetadata": {
+    "title": "Genital Ulcer",
+    "lastUpdated": "2024-04-01",
+    "sourceFile": "Genital Ulcer.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usually sexually transmitted. Includes genital, anal and perianal ulcers. See CDC guidelines 2021 MMWR Recomm Rep 70 (RR-4):12021",
+        "Most commonly HSV or syphilis.",
+        "May also present as oral ulcers (syphilis, herpes, and LGV)",
+        "Painful:",
+        "Herpes Simplex Virus (HSV): usually multiple vesicles, but can be single nonvesicular ulcer.",
+        "Chancroid (Haemophilus ducreyi): classically, deep with ragged edges",
+        "Monkeypox: papular lesions on skin, but may present as painful lesions in oral or genital/anal regions",
+        "Painless:",
+        "Syphilis (Treponema pallidum): usually single, well-circumscribed, indurated ulcer; rectal syphilis presenting as proctitis can be painful",
+        "Lymphogranuloma venereum (with painful lymphadenopathy; Chlamydia trachomatis)",
+        "Granuloma inguinale (Klebsiella granulomatis or Donovanosis): friable, single or multiple nodular lesions.",
+        "Regional Lymphadenopathy common",
+        "May be accompanied by dysuria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial:",
+        "Haemophilus ducreyi (Chancroid)",
+        "Treponema pallidum (Syphilis)",
+        "Chlamydia trachomatis (LGV, Serovars L1, L2, L3)",
+        "Klebsiella granulomatis (Donovanosis)",
+        "Viral: Herpes simplex virus I or II or monkeypox",
+        "Rare: primary HIV, tuberculosis, leishmaniasis, amebiasis",
+        "Non-infectious (often autoimmune): aphthae, Behcet's syndrome, malignancy, Crohn's disease, psoriasis trauma, yeast, carcinoma, fixed drug eruption",
+        "Up to 25% may not have a definitive laboratory diagnosis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "All patients with genital ulcers should be evaluated for syphilis, HSV.",
+        "On occasion, more than one pathogen is present.",
+        "Clinical presentation may not be reliable for definitive diagnosis",
+        "Granuloma inguinale needs biopsy",
+        "Syphilis serology tests and darkfield examination from lesion exudate or tissue, or NAAT if available",
+        "NAAT or culture for genital herpes type 1 or 2",
+        "NAAT for monkeypox",
+        "Serologic testing for type specific HSV antibody.",
+        "Where chancroid is prevalent, NAAT or culture for Hemophilus ducreyi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See specific etiology"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See specific etiology"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "As with all STIs, all patients with genital ulcers should be tested for HIV.",
+        "Often a clinical diagnosis with empiric treatment as diagnostic testing may not be available",
+        "Empiric treatment for syphilis (esp MSM) or Herpes if consistent clinical presentation should be considered prior to laboratory diagnosis.",
+        "Sexual partners of patients should be referred for evaluation or treatment depending on the likely etiology.",
+        "Reference: 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Review non syphilis non HSV genital ulcers: Infect Dis Clin North Am 37:369 2023."
+      ]
+    }
+  ]
+}

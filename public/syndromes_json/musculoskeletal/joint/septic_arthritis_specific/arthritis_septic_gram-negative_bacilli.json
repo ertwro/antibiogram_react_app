@@ -1,0 +1,198 @@
+{
+  "documentMetadata": {
+    "title": "Septic Arthritis, Gram-Negative Bacilli",
+    "lastUpdated": "2023-09-25",
+    "sourceFile": "Arthritis, Septic, Gram-Negative Bacilli.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute inflammatory mono-articular arthritis in adults",
+        "Over 5 yr period, 25% of cases of septic arthritis were due to gram-negative bacilli (J Microbiol, Immunol. and Infection 2017;50:527)",
+        "Usually result of haematogenous seeding.",
+        "Can occur as result of a bite, post-trauma, infected surgical site,or contiguous spread from adjacent infected bone.",
+        "Immunocompromised hosts at increased risk",
+        "Initial therapy for septic arthritis caused by Gram-negative bacilli",
+        "Synovial fluid WBC > 25,000",
+        "Gram-stain of synovial fluid positive for Gram-negative rods or lab reports positive culture for gram-negative bacilli---in vitro susceptibility pending",
+        "Look for concomitant presence of crystals of uric acid (gout) or calcium pyrophosphate (pseudogout)",
+        "Note: potential for any gram negative bacilli to produce extended spectrum beta lactamases (ESBL), carbapenemases or other mechanisms of antibiotic resistance. Need susceptibility data.",
+        "Obtain blood and synovial fluid for culture.",
+        "Need in vitro susceptibility data."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Escherichia coli",
+        "Klebsiella pneumoniae",
+        "Enterobacter and other enteric Gram-negative bacilli",
+        "Pseudomonas aeruginosa",
+        "Potential for any of the above to produce ESBLs or Carbapenemases"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },\n    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Empiric Therapy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Drain purulent exudate"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Low risk of Pseudomonas aeruginosa. Dual therapy pending culture ID"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "iv",
+                "frequency": "q24h"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Risk of Pseudomonas aeruginosa. Dual therapy pending culture ID"
+            },
+            "components": [
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Specific/Directed Therapy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Drainage of intra-articular pus by needle aspiration (repeated as needed to remove purulent exudate), arthroscopy, or arthrotomy"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Beta-lactam or fluoroquinolone po/IV based on results of culture and susceptibility testing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Duration varies with pathogenesis, host immune status and assessments of clinical response. May require up to 4 weeks of therapy"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Skin rash \"allergy\" to penicillins and cephalosporins"
+        },
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV",
+            "frequency": "q12h (400 mg IV q8h for P. aeruginosa)"
+          },
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "or"
+          },
+          {
+            "drug": "Imipenem-cilastatin",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy. Shorter duration (< 4 wks) may also be effective as good data on minimal duration of therapy are lacking. Suggested 4 wks is based on assumption of clinical response and normalization of WBC, CRP, procalcitonin and other biomarkers of infection.",
+        "Choice of agents",
+        "Empiric antibiotic should be active vs isolates with potential for antibiotic resistance. Continue empiric therapy until culture and in vitro susceptibility results are available.",
+        "Specific/Directed therapy: see specific pathogens for guidance.",
+        "If culture positive for Enterobacter species, avoid cephalosporins due to possible presence (estimated at up to 20%) of bacterial chromosomal inducible cephalosporosporinases (AmpC). Lab cannot routinely test for the presence of the repressed cephalosporinase (AmpC) gene.",
+        "Encourage use of available molecular diagnostics, gene sequencing, mass spectroscopy to facilitate rapid microbial identification and switch from empiric to specific/directed therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Septic arthritis in children: Ped Infect Disease Journal 32: 684, 2013."
+      ]
+    }
+  ]
+}

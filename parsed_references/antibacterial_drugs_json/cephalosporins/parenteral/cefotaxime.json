@@ -1,0 +1,105 @@
+{
+  "drug_name": "Cefotaxime",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2015-06-10",
+      "notes": "FDA is allowing temporary importation of product from SteriMax in Canada, in conjunction with Provepharm Life Solutions and its distributor Direct Success."
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Cefotaxime is a 3rd-generation expanded spectrum parenteral cephalosporin. In vitro activity includes many aerobic gram-negative bacilli, but not P. aeruginosa. Spectrum similar to Ceftriaxone but requires multiple daily doses.",
+      "Availability:",
+      "Generic formulation from multiple manufacturers available in Europe and many countries",
+      "Not presently available in the U.S. However, FDA is allowing temporary importation of product from SteriMax in Canada, in conjunction with Provepharm Life Solutions and its distributor Direct Success. Click here for details.",
+      "Most Penicillin-resistant pneumococci and N. meningitidis are susceptible to Cefotaxime. Listeria is resistant.",
+      "Cefotaxime is susceptible to inactivation by both extended-spectrum beta-lactamases (ESBLs) and chromosomal induced cephalosporinases.",
+      "For class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "life_threatening_infections_and_meningitis": "2 gm IV q4h",
+      "intra_abdominal_infection": "1-2 gm IV q6-8h (with Metronidazole)",
+      "sbp": "2 gm IV q8h",
+      "dose_range": "1-2 gm IV q4-12h"
+    },
+    "pediatric_dose": {
+        "standard": {
+            "age_0_7_days": "100 mg/kg/day (divided q12h)",
+            "age_8_28_days": "150 mg/kg/day (divided q8h)",
+            "age_gt_28_days": "150-200 mg/kg/day (divided q6-8h)"
+        },
+        "meningitis": {
+            "age_0_7_days": "100-150 mg/kg/day (divided q8-12h)",
+            "age_8_28_days": "150-200 mg/kg/day (divided q6-8h)",
+            "age_gt_28_days": "225-300 mg/kg/day (divided q6-8h)"
+        }
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.5",
+    "half_life_esrd": "15-35",
+    "dose_renal_function_normal": "2 gm IV q8h",
+    "crcl_or_egfr": "CrCl >90: No dosage adjustment. CrCl >50-90: 2 gm q8-12h. CrCl 10-50: 2 gm q12-24h. CrCl <10: 2 gm q24h",
+    "hemodialysis": "2 gm q24h (+ extra 1 gm AD)",
+    "capd": "0.5-1 gm q24h",
+    "crrt": "2 gm q12-24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Local phlebitis (5%), rash (2%), positive Coombs (6%), neutropenia, eosinophilia (1%), nausea/vomiting (rare), diarrhea (1%), C. difficile colitis, increased LFTs (1%), photosensitivity (manifested as photodistributed telangiectasia)",
+    "Cefotaxime has the same R1 side chain as cefpodoxime, cefpirome, cefditoren, ceftizoxime, ceftriaxone, and cefepime. Cross-allergenicity may occur."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Haemophilus influenzae",
+        "Leptospira sp.",
+        "Neisseria meningitidis",
+        "Viridans group streptococci",
+        "Yersinia enterocolitica"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "100 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "30-51",
+    "volume_of_distribution_vd_l_kg": "0.28 L/kg",
+    "avg_serum_half_life_hr": "1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "15-75",
+    "csf_blood_percent": "10",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "70 (1 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ]
+}

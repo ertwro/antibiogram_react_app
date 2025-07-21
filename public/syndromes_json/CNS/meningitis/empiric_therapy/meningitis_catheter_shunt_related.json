@@ -1,0 +1,41 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Catheter, Shunt Related",
+    "sourceFile": "Meningitis_ Catheter, Shunt Related.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Catheter, Shunt Related"
+    },
+    {
+      "type": "paragraph",
+      "text": "Catheter or shunt-related meningitis is a serious complication of indwelling central nervous system devices. The treatment approach depends on the suspected pathogens and local resistance patterns."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "Consider removal of the infected hardware. Duration of therapy is typically 10-14 days."
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Meningitis, Encephalitis",
+    "sourceFile": "Lyme_disease/Lyme Disease, Meningitis, Encephalitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Encephalitis or meningitis can be an early or late manifestations of Lyme Disease; Early disease typically presents as meningitis, cranial neuritis, radiculoneuritis, and more rarelyencephalomyelitis, and has a more rapid onset of illness. Later onset neuroborrelia disease can involve peripheral or central nervous system and the onset is more insidious."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Variable clinical syndromes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cranial nerve palsy; most often 7th cranial nerve",
+            "Headache and neck pain with CSF picture consistent with a lymphocytic aseptic meningitis",
+            "Cognitive impairment: poor memory, depression, somnolence",
+            "May have other associated late-stage manifestations: carditis or arthritis; usually early in course; maybe isolated finding"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "For details on diagnostic methods see: Lyme Disease, Diagnosis.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Lyme Disease, Diagnosis"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Borrelia burgdorferi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Hospitalized"
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm IV q24h (adult) or 50-75 mg/kg IV q24h (child)"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Ambulatory"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg po bid or 200 mg po once daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        },
+        "notes": "(use only if no spinal or parenchymal brain involvement; in those settings, IV therapy is warranted)"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Pediatric dose ambulatory"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "4.4 mg/kg/day po divided bid (max.dose 100 mg bid)"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "5 million units IV q6h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm IV q8h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        },
+        "notes": "(where available)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pediatrics: Doxycycline can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IV therapy risks: line infection or thrombosis; pseudolithiasis from crystals of ceftriaxone.",
+        "See also, Post-Lyme Disease Syndrome.",
+        "2020 Clinical practice guidelines (Neurology 96:262, 2021) and (Clin Infect Dis 72: e1-e48, 2020)",
+        "Review in JAMA 315:1767, 2016."
+      ]
+    }
+  ]
+}

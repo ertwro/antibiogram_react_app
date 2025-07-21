@@ -1,0 +1,114 @@
+{
+  "drug_name": "Imipenem-cilastatin-relebactam",
+  "tradename": "Recarbrio",
+  "usage_and_dosing": {
+    "general": [
+      "Combination of imipenem-cilastatin, a carbapenem, with a beta-lactamase inhibitor, relebactam.",
+      "Relebactam is a diazabicyclooctane beta-lactamase inhibitor that inhibits Ambler class A enzymes (including ESBLs, KPC) and class C enzymes (AmpC). However, it is not active vs Ambler class B metallo-beta-lactamases (VIM, IMP, NDM carbapenemases) or class D (OXA) carbapenemases.",
+      "FDA approved for 3 indications:",
+      "Hospital-acquired and ventilator-associated bacterial pneumonia in adults with limited or no alternative treatment options and caused by susceptible gram-negative bacteria: Actinetobacter calcoaceticus-baumannii, E. cloacae, E. coli, H. influenzae, Klebsiella spp., P. aeruginosa, S. marcescens.",
+      "Complicated urinary tract infections in adults who have limited or no alternative treatment options, including pyelonephritis, and caused by susceptible gram-negative bacteria: E. cloacae, E. coli, Klebsiella spp., P. aeruginosa.",
+      "Complicated intra-abdominal infections in adults who have limited or no alternative treatment options, and caused by susceptible gram-negative bacteria: Bacteroides spp., C. freundii, E. cloacae, E. coli, F. nucleatum, Klebsiella spp., Parabacteroides distasonis, P. aeruginosa.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Imipenem-cilastatin-relebactam is predictably active in vitro vs. Enterobacterales, Bacteroides spp., and P. aeruginosa including isolates that produce ESBLs, AmpC, and serine-based carbapenemases, e.g., Klebsiella pneumoniae carbapenemase (KPC).",
+      "It is predictably not active vs. MRSA, Enterococcus faecium, Stenotrophomonas maltophilia, and some Burkholderia species.",
+      "Dosage is expressed as the sum of the three components.",
+      "Review: Antimicrob Agents Chemother 2022;66:e0025622."
+    ],
+    "adult_dose": {
+      "recommended_dose": "1.25 gm IV (over 30 min) q6h x4-14 days",
+      "note": "1.25 gm = imipenem 500 mg + cilastatin 500 mg + relebactam 250 mg"
+    },
+    "pediatric_dose": {
+      "note": "Doses are expressed as the sum of all three components",
+      "amr_gram_negative_guidance": "J Pediatric Infect Dis Soc 2025;14:piaf004",
+      "per_fda": {
+        "safety_and_efficacy": "not established",
+        "doses": {
+            "age_lt_7_days": "125 mg/kg/day (div q12h)",
+            "age_7_to_lt_28_days": "187.5 mg/kg/day (div q8h)",
+            "age_ge_28_days": "250 mg/kg/day (div q6h)"
+        },
+        "cns_infection": "Not recommended for CNS infection",
+        "max_day": "10 gm"
+      }
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "Imipenem: 1",
+    "half_life_esrd": "Imipenem: 4",
+    "dose_renal_function_normal": "1.25 gm IV q6h",
+    "crcl_or_egfr": "CrCl ≥90: No dosage adjustment. CrCl 60-89: 1 gm q6h. CrCl 30-59: 0.75 gm q6h. CrCl 15-29: 0.5 gm q6h. CrCl <15: Not recommended",
+    "hemodialysis": "0.5 gm q6h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment table."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity (e.g., fever, rash, anaphylaxis)",
+    "Gastrointestinal (nausea, vomiting, diarrhea, C. difficile infection)",
+    "Infusion site reactions",
+    "Hematologic (anemia, eosinophilia, neutropenia)",
+    "Headache, confusion",
+    "Increased liver function tests",
+    "Seizure risk, see Carbapenems, Overview. Increased risk if combined with valproic acid or divalproex sodium (avoid combination)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Insufficient data in humans, evidence of embryofetal toxicity in animals",
+    "lactation": "Safety not established, avoid use",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Nocardia sp."],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "Imipenem: T>MIC, Relebactam: 24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Imipenem: 104.3 µM, Relebactam: 64.0 µM (1.25 gm q6h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Imipenem: 20, Cilastatin: 40, Relebactam: 22",
+    "volume_of_distribution_vd_l": "Imipenem: 24.3 L, Cilastatin 13.8 L, Relebactam 19.0 L (all Vss)",
+    "avg_serum_half_life_hr": "Imipenem: 1, Cilastatin: 1, Relebactam: 1.2",
+    "elimination": "Renal",
+    "bile_penetration_percent": "Imipenem: minimal",
+    "csf_blood_percent": "Imipenem: 8.5, Relebactam: no data",
+    "therapeutic_levels_in_csf": "No data 9",
+    "auc_ug_hr_ml": "Imipenem: 573.9 µM-hr, Relebactam: 427.3 µM-hr (SS, 0-24 h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Imipenem: OAT1, OAT3, Cilastatin: OAT1, OAT3, Relebactam: OAT3, OAT4, MATE1, MATE2-K",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Ganciclovir",
+          "effect": "↑ seizure risk",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Valproic acid",
+          "effect": "↓ valproic acid",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

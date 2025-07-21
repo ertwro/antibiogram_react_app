@@ -1,0 +1,353 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Achromobacter xylosoxidans",
+      "lastUpdated": "2024-04-29",
+      "clsiCategory": "additional_bacteria",
+      "classification": {
+        "gramStain": "Gram negative",
+        "morphology": "bacilli",
+        "respiration": "glucose non-fermenter"
+      },
+      "strainDetails": [
+        {
+          "type": "Subspecies",
+          "value": "Achromobacter xylosoxidans subspecies xylosoxidans",
+          "notes": "the most common species clinically encountered. Fifteen species isolated from clinical specimens."
+        }
+      ],
+      "biochemicalTests": "Gram-negative rod, oxidase +, catalase +, motile (peritrichous flagella), non-lactose fermenter, oxidizes xylose and glucose, citrate +, urease +."
+    },
+    "clinicalProfile": {
+      "summary": "Found in soil and water. Cause of bacteremia, meningitis, catheter-related bloodstream infections, pneumonia, urinary tract infections, keratitis, and rarely from respiratory tract secretions from patients with cystic fibrosis.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Meningitis"
+        },
+        {
+          "syndromeName": "Catheter-related bloodstream infections"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        },
+        {
+          "syndromeName": "Urinary tract infections"
+        },
+        {
+          "syndromeName": "Keratitis"
+        }
+      ],
+      "highRiskPopulations": [
+        "Patients with cystic fibrosis"
+      ]
+    },
+    "resistanceProfile": {
+      "majorMechanisms": [
+        {
+          "mechanismName": "Multidrug efflux pumps"
+        },
+        {
+          "mechanismName": "Chromosomal OXA-114-like beta-lactamases",
+          "description": "Includes ESBLactamases, AmpC cephalosporinases, Carbapenemases to include metallo-beta-lactamases"
+        }
+      ],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Pen G, first & second generation cephalosporins, Ceftriaxone, Aztreonam, Tetracycline, aminoglycosides, azithromycin",
+          "notes": "Wild type"
+        },
+        {
+          "drugOrClass": "fluoroquinolones",
+          "notes": "From cystic fibrosis patients"
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Increasing Carbapenem Resistance",
+          "details": "Increasing resistance to carbapenems secondary to activated efflux pumps and production of metallo-carbapenemases"
+        },
+        {
+          "alertTitle": "High Fluoroquinolone Resistance",
+          "details": "High frequency of fluoroquinolone resistance"
+        }
+      ]
+    },
+    "treatment": {
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Doripenem",
+          "condition": "Pneumonia"
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "patientPopulation": [
+              "Non-cystic fibrosis patients"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Cefepime",
+                  "dose": "1-2 gm",
+                  "route": "IV",
+                  "frequency": "q8-12 h"
+                },
+                {
+                  "drugName": "Ceftazidime",
+                  "dose": "1-2 gm",
+                  "route": "IV",
+                  "frequency": "q8-12 h"
+                },
+                {
+                  "drugName": "Imipenem-cilastatin",
+                  "dose": "500 mg",
+                  "route": "IV",
+                  "frequency": "q6h"
+                },
+                {
+                  "drugName": "Meropenem",
+                  "dose": "1-2 gm",
+                  "route": "IV",
+                  "frequency": "q8h"
+                },
+                {
+                  "drugName": "Doripenem",
+                  "dose": "500 mg",
+                  "route": "IV",
+                  "frequency": "q8h"
+                },
+                {
+                  "drugName": "Ciprofloxacin",
+                  "dose": "400 mg",
+                  "route": "IV",
+                  "frequency": "q12h"
+                },
+                {
+                  "drugName": "TMP/SMX",
+                  "condition": "for UTIs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "patientPopulation": [
+              "Cystic fibrosis patients"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "notes": [
+                "There are no standard treatment protocols for cystic fibrosis pulmonary Achromobacter infections. Treatment usually consists of systemic and/or inhaled antibiotics",
+                "Ceftazidime as above",
+                "Carbapenem as above",
+                "Inhaled antibiotics (ceftazidime, colistin and tobramycin). Controlled studies needed"
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Salvage therapy"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Cefiderocol",
+                  "dose": "2 gm",
+                  "route": "IV",
+                  "frequency": "over 3hr q8h"
+                },
+                {
+                  "drugName": "Eravacycline",
+                  "dose": "1 mg/kg",
+                  "route": "IV",
+                  "frequency": "q12h",
+                  "comments": "not for UTIs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "antimicrobialStewardship": [
+        "Achromobacter are generally resistant to penicillin G, ceftriaxone, aztreonam, polymyxins and aminoglycosides."
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "doi:10.1128/AAC.01025-20",
+          "summaryOrNote": "Comprehensive review of treatment"
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "2020; 64: e01025"
+        },
+        {
+          "source": "J Cyst Fibros",
+          "citation": "2013: 12638"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.359Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Achromobacter xylosoxidans"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases",
+        "aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-04-29"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram negative",
+        "morphology": "bacilli",
+        "respiration": "glucose non-fermenter"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Found in soil and water. Cause of bacteremia, meningitis, catheter-related bloodstream infections, pneumonia, urinary tract infections, keratitis, and rarely from respiratory tract secretions from patients with cystic fibrosis.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Meningitis"
+        },
+        {
+          "syndromeName": "Catheter-related bloodstream infections"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        },
+        {
+          "syndromeName": "Urinary tract infections"
+        },
+        {
+          "syndromeName": "Keratitis"
+        }
+      ],
+      "highRiskPopulations": [
+        "Patients with cystic fibrosis"
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "majorMechanisms": [
+        {
+          "mechanismName": "Multidrug efflux pumps"
+        },
+        {
+          "mechanismName": "Chromosomal OXA-114-like beta-lactamases",
+          "description": "Includes ESBLactamases, AmpC cephalosporinases, Carbapenemases to include metallo-beta-lactamases"
+        }
+      ],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Pen G, first & second generation cephalosporins, Ceftriaxone, Aztreonam, Tetracycline, aminoglycosides, azithromycin",
+          "notes": "Wild type"
+        },
+        {
+          "drugOrClass": "fluoroquinolones",
+          "notes": "From cystic fibrosis patients"
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Increasing Carbapenem Resistance",
+          "details": "Increasing resistance to carbapenems secondary to activated efflux pumps and production of metallo-carbapenemases"
+        },
+        {
+          "alertTitle": "High Fluoroquinolone Resistance",
+          "details": "High frequency of fluoroquinolone resistance"
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

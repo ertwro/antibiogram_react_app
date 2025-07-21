@@ -1,0 +1,264 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Arcanobacterium haemolyticum",
+      "aliases": [
+        "Corynebacterium haemolyticum"
+      ],
+      "lastUpdated": "2021-05-05",
+      "clsiCategory": "additional_bacteria",
+      "classification": {
+        "gramStain": "Gram positive or gram variable",
+        "morphology": "bacillus"
+      },
+      "biochemicalTests": "Gram-positive pleomorphic rod, catalase –, beta-hemolytic, reverse CAMP test + with S. aureus, lipase +, phospholipase D +."
+    },
+    "clinicalProfile": {
+      "summary": "A cause of pharyngitis in otherwise healthy individuals, frequently adolescents. Can occasionally cause deep soft tissue infections, pneumonia, bacteremia, meningitis, osteomyelitis and other systemic infections.",
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Exudative pharyngitis",
+        "Scarletiniform rash on extensor surfaces of upper extremities"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pharyngitis"
+        },
+        {
+          "syndromeName": "Deep soft tissue infections"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Meningitis"
+        },
+        {
+          "syndromeName": "Osteomyelitis"
+        }
+      ],
+      "highRiskPopulations": [
+        "Adolescents"
+      ]
+    },
+    "resistanceProfile": {
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "TMP-SMX"
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Potential Resistance",
+          "details": "Isolates resistant to levofloxacin, clindamycin or gentamicin have been encountered."
+        },
+        {
+          "alertTitle": "Penicillin Tolerance",
+          "details": "Some strains appear to be penicillin-tolerant."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Role of antimicrobial therapy unclear for pharyngitis; dose and duration of therapy not established and should be based on disease severity",
+        "Systemic infections may have associated co-pathogens and have been treated with Penicillin G intravenously, Ampicillin-sulbactam, Amoxicillin-clavulanate or Ceftriaxone; some have used combinations of a beta-lactam with gentamicin"
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Azithromycin"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G"
+                },
+                {
+                  "drugName": "Ceftriaxone"
+                },
+                {
+                  "drugName": "Clindamycin"
+                },
+                {
+                  "drugName": "Vancomycin"
+                },
+                {
+                  "drugName": "Erythromycin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "guidelineReferences": [
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "38:142,1994"
+        },
+        {
+          "source": "J Med Microbiol",
+          "citation": "64: 369, 2015"
+        },
+        {
+          "source": "Ann Clin Microbiol Antimicrob",
+          "citation": "10:17, 2011"
+        },
+        {
+          "source": "Eur J Clin Microbiol Infect Dis",
+          "citation": "17:578, 1998"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.360Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Arcanobacterium haemolyticum"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Corynebacterium haemolyticum"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2021-05-05"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram positive or gram variable",
+        "morphology": "bacillus"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "A cause of pharyngitis in otherwise healthy individuals, frequently adolescents. Can occasionally cause deep soft tissue infections, pneumonia, bacteremia, meningitis, osteomyelitis and other systemic infections.",
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Exudative pharyngitis",
+        "Scarletiniform rash on extensor surfaces of upper extremities"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pharyngitis"
+        },
+        {
+          "syndromeName": "Deep soft tissue infections"
+        },
+        {
+          "syndromeName": "Pneumonia"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Meningitis"
+        },
+        {
+          "syndromeName": "Osteomyelitis"
+        }
+      ],
+      "highRiskPopulations": [
+        "Adolescents"
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "TMP-SMX"
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Potential Resistance",
+          "details": "Isolates resistant to levofloxacin, clindamycin or gentamicin have been encountered."
+        },
+        {
+          "alertTitle": "Penicillin Tolerance",
+          "details": "Some strains appear to be penicillin-tolerant."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

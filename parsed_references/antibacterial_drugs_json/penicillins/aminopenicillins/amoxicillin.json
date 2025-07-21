@@ -1,0 +1,110 @@
+{
+  "drug_name": "Amoxicillin",
+  "tradename": "Amoxil, Polymox, Moxatag",
+  "drug_shortage": [
+    {
+      "preparation": "All oral formulations",
+      "start_date": "2022-10-18",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Amoxicillin is Ampicillin with an added hydroxyl (-OH) group. The -OH group dramatically increases oral absorption with an associated reduction in dosing frequency (3x daily for Amoxicillin vs. 4x daily for Ampicillin).",
+      "The extended-release (ER) formulation results in once-daily dosing for GABS tonsillitis and/or pharyngitis in adults and pediatric patients ≥12 years of age. Do not crush or chew tablet.",
+      "Amoxicillin IV preparation is available in the UK and Europe (but not in the US). IV Amoxicillin is rapidly converted to Ampicillin.",
+      "Higher dose recommended for otitis media and community-acquired pneumonia in children."
+    ],
+    "adult_dose": {
+      "usual_dose": "500-1000 mg po q8h, OR 875 mg po q12h",
+      "extended_release_er_dose": "775 mg (one tablet) po q24h x10 days (for GABS pharyngitis, tonsillitis)"
+    },
+    "pediatric_dose": {
+      "standard": "25-50 mg/kg/day (divided q8h)",
+      "aom_pneumonia": "80-100 mg/kg/day (divided q8-12h; q12h for AOM)"
+    }
+  },
+  "renal_adjustment": {
+    "er_tab_note": "ER tab: No dosage adjustment if GFR ≥30, not recommended if GFR <30 (including HD).",
+    "gfr_note": "Do not use the 875 mg dose if GFR <30.",
+    "ref_1000mg_q8h": "Ref for 1000 mg q8h adjustments: World J Nephrol 2015;4:330.",
+    "half_life_normal": "1.2",
+    "half_life_esrd": "5-20",
+    "dose_renal_function_normal": "500 mg po q8h (or 875 mg po q12h)",
+    "crcl_or_egfr": "GFR >30: No dosage adjustment. GFR 10-30: 250-500 mg q12h. GFR <10: 250-500 mg q24h",
+    "hemodialysis": "250-500 mg q24h (+ extra dose AD)",
+    "capd": "250-500 mg q12h",
+    "crrt": "250-500 mg q8-12h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": {
+      "gi": "GI: nausea and vomiting, diarrhea, C. difficile-associated colitis.",
+      "fever": "Fever",
+      "allergic_reactions": {
+          "rash": "Rash (common with all beta-lactam antibiotics, including amoxicillin).",
+          "others": "Others: angioedema, anaphylaxis, SCAR (e.g., SJS, TEN, DRESS, AGEP).",
+          "ebv": "In patients with Epstein-Barr virus (infectious mononucleosis) given Ampicillin, 65-100% develop rash, as do 90% of CLL patients and 15-20% of patients who take allopurinol. Do not label patient as penicillin-allergic, as it is not a true allergy.",
+          "cross_allergenicity": "In patients with true allergy, the risk of cross-allergenicity with cephalosporins is increased if the cephalosporin has an identical R-1 side chain. Cefadroxil and cefprozil have the same R-1 side chain as amoxicillin."
+      },
+      "dies": "Drug-induced enterocolitis syndrome (DIES). Most cases have occurred in pediatric patients ≤18 years of age. DIES is a non-IgE mediated hypersensitivity reaction characterized by protracted vomiting occurring 1-4 hours after drug ingestion in the absence of skin or respiratory symptoms. DIES may be associated with pallor, lethargy, hypotension, shock, diarrhea within 24 hours of drug ingestion, and leukocytosis with neutrophilia. If DIES occurs, discontinue amoxicillin and institute appropriate therapy.",
+      "hematologic": "Hematologic: hemolytic anemia, neutropenia, eosinophilia, thrombocytopenia, increased INR.",
+      "aseptic_meningitis": "Amoxicillin-induced aseptic meningitis (rare). Typical presentation: headache and stiff neck, with temporal relationship to amoxicillin exposure. Lab findings include normal CSF glucose, elevated CSF protein, and pleocytosis (BMJ Case Rep 2025;18(3):e262311).",
+      "false_positive_glucose": "Possible false-positive reaction when testing for the presence of glucose in urine using a test based on the Benedict's copper reduction reaction (e.g., Clinitest). In this test, reducing substances in urine (such as glucose) convert cupric sulfate to cuprous oxide. This effect may occur with amoxicillin.",
+      "crystalluria": "Can crystallize in urine and result in macroscopic hematuria and renal insufficiency due to tubular obstruction (Kidney Int 2025;107:33). Risk factors: low urinary flow, acidic urine pH, high amoxicillin doses. Other drugs that can cause crystalluria: ampicillin, ciprofloxacin, acyclovir, indinavir, vitamin C."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Actinomyces sp.",
+        "Borrelia burgdorferi",
+        "Enterococcus faecalis, susceptible to vancomycin",
+        "Pasteurella multocida",
+        "Peptostreptococci"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (250, 500 mg), Tab (500, 875 mg), Chewtab (125, 200, 250, 400 mg), ER tab (775 mg), Oral susp (per 5 mL): 125, 200, 250, 400 mg)",
+    "food_recommendation": "Standard preps ± food, ER tab + food",
+    "oral_absorption_percent": "80",
+    "tmax_hr": "Cap/tab/chewtab/susp: 1-2, ER tab: 3.1",
+    "peak_serum_conc_ug_ml": "5.5-7.5 (500 mg po, SD), 6.6 (775 mg ER po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "17-20",
+    "volume_of_distribution_vd": "0.36 L/kg",
+    "avg_serum_half_life_hr": "1.2-1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "100-3000",
+    "csf_blood_percent": "13-14",
+    "therapeutic_levels_in_csf": "Yes (IV only)",
+    "auc_ug_hr_ml": "22 (500 mg po, 0-inf), 29.8 (775 mg ER po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Allopurinol", "effect": "↑ frequency of rash", "management": "Monitor"},
+      {"drug": "Oral contraceptives", "effect": "↓ efficacy of oral contraceptives", "management": "Use alternative method"},
+      {"drug": "Probenecid", "effect": "↑ amoxicillin", "management": "Monitor, adjust dosage"},
+      {"drug": "Warfarin", "effect": "↑ INR", "management": "Monitor INR, adjust dosage"}
+  ]
+}

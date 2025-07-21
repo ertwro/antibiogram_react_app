@@ -1,0 +1,104 @@
+{
+  "drug_name": "Tedizolid phosphate",
+  "tradename": "Sivextro",
+  "usage_and_dosing": {
+    "general": [
+      "Tedizolid phosphate is an oxazolidinone antibiotic approved for the treatment of acute bacterial skin and skin structure infections caused by susceptible bacteria. It is the second oxazolidinone-class antibacterial (Linezolid was the first).",
+      "Tedizolid phosphate is the prodrug of Tedizolid (converted in the presence of phosphatases). Tedizolid is similar to Linezolid with respect to spectrum of activity, mechanism of action, and pharmacology.",
+      "It is bacteriostatic vs. staphylococci (including MRSA and Staph. epidermidis), streptococci (S. pyogenes, S. agalactiae, and S. anginosus group), and enterococci (including vancomycin-resistant enterococci).",
+      "Active in vitro vs Mycobacterium tuberculosis resistant to INH, Rifampin, or both.",
+      "Tedizolid is a weak monoamine oxidase inhibitor and hence could increase the risk of the serotonin syndrome if combined with serotonin uptake inhibitors. Patients requiring concomitant therapy with other monoamine oxidase inhibitors or serotonergic agents (SSRIs) were excluded from clinical trials. Reassuring that no evidence of interaction with serotonergic drugs in animal models (see Comments below).",
+      "Review: Clin Infect Dis 61:1315, 2015."
+    ],
+    "adult_dose": {
+      "acute_skin_skin_structure_infections": [
+          "200 mg IV (over one hour) q24h x6 days.",
+          "Alternatively, 200 mg po q24h (±food) x6 days.",
+          "IV dose is reconstituted in 250 ml of NS. Drug is incompatible with other solutions, including LR."
+      ]
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "6 mg/kg/day (divided q12h)",
+      "max_day": "200 mg"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "12",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "200 mg po/IV q24h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments table."
+  ],
+  "adverse_effects": {
+      "warnings": [
+          "In animal models, the efficacy of Tedizolid was reduced in neutropenic animals. No data in neutropenic patients.",
+          "C. difficile infection has occurred."
+      ],
+      "most_common": "Most common adverse reactions: Nausea (8%), headache (6%), diarrhea (4%).",
+      "mitochondrial_protein_synthesis": "Oxazolidinones (linezolid and tedizolid) may interfere with human mitochondrial protein synthesis in addition to inhibition of ribosomes of bacteria.",
+      "platelet_counts": "In small 21 day phase one study in healthy volunteers, mean platelet counts decreased over time in a dose dependent manner for tedizolid, but only at supratherapeutic dosage. No significant decrease in platelets with the licensed dose of 200 mg once daily. Ref.: J Antimicrob Chemother 2016;71:2553.",
+      "in_vitro_studies": "In in vitro studies, both linezolid and tedizolid caused rapid and complete inhibition of oxidative metabolism. All effects were quickly and fully reversible with drug withdrawal. It is possible that the lesser clinical myelotoxicity of tedizolid is due to reduced exposure with the once daily treatment regimen (Antimicrob Agents Chemother 2018; 62:e01599-17).",
+      "patient_study": "In study of 81 patients treated for a median 28 days (14-59 days), including 44% treated with prior linezolid and 28% with chronic renal failure, 11% developed probably-associated adverse events and 8% discontinued due to adverse events. Of 22 patients with prior linezolid toxicity, 20 had no adverse event with tedizolid (Antimicrob Agents Chemother 2020; 64:e00356-20).",
+      "package_insert": "Package insert: Low platelet count in 2.3%; neutropenia in 0.5%. Myelosuppression, peripheral neuropathy, and optic neuropathy not a problem in clinical trials; however the patient exposure was usually only for 6 days. Review of optic and peripheral neuropathy associated with short and prolonged administration: Expert Rev Anti Infect Ther 2025;23:49.",
+      "phase_3_trial": "In phase 3 trial vs Linezolid, less nausea and less thrombocytopenia with tedizolid (Antimicrob Agts Chemother 59:864, 2015).",
+      "retrospective_study": "Retrospective study: 81 patients received a median 28 days (range 14-59 days) of tedizolid for infections including osteomyelitis, PJI, mycobacterial infections showed less toxicity than linezolid, including 9 (11%) related adverse events, 6 (7.4%) thrombocytopenia, and 4 (5%) treatment-limiting adverse events (Antimicrob Agents Chemother 64(7):e00356-20)."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Insufficient data in humans. Fetal developmental toxicity in mice and rats.",
+    "lactation": "Probably safe with monitoring, but no data available; avoid if possible.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (200 mg), injection",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "91",
+    "tmax_hr": "3",
+    "peak_serum_conc_ug_ml": "3.0 (200 mg IV q24h, SS), 2.2 (200 mg po q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "70-90",
+    "volume_of_distribution_vd_l_vss": "67-80 L (Vss)",
+    "avg_serum_half_life_hr": "12",
+    "elimination": "Fecal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "29.2 (200 mg IV q24h, 0-24 hr), 25.6 (200 mg po q24h, 0-24 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": ["BCRP (gut)"],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {"drug": "Methotrexate (oral)", "effect": "↑ methotrexate", "management": "Avoid co-administration"},
+      {"drug": "Rosuvastatin", "effect": "↑ rosuvastatin", "management": "Monitor or avoid"},
+      {"drug": "Topotecan (oral)", "effect": "↑ topotecan", "management": "Avoid co-administration"}
+  ],
+  "comments": [
+      "Non inferior to Linezolid in published results of phase 3 trials: Antimicrob Agents Chemother 59:864, 2015.",
+      "In vitro, in vivo, and clinical studies indicate weak monoamine oxidase inhibition and a low potential for serotonergic adverse consequences: Antimicrob Agents Chemother 57:3060, 2013."
+  ]
+}

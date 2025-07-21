@@ -1,0 +1,133 @@
+{
+  "drug_name": "Ceftolozane-tazobactam",
+  "tradename": "Zerbaxa",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftolozane-tazobactam, FDA-approved in 2014, is a parenteral advanced-generation cephalosporin combined with a beta-lactamase inhibitor.",
+      "The product exists in a 2:1 ratio of ceftolozane to tazobactam. Doses are expressed as the sum of the components. For example. ceftolozane-tazobactam 1.5 gm = ceftolozane 1 gm + tazobactam 0.5 gm.",
+      "Approved indictations:",
+      "Complicated urinary tract infections, including pyelonephritis",
+      "Complicated intra-abdominal infections (in combination with metronidazole)",
+      "Hospital-acquired and ventilator-associated pneumonia",
+      "Active vs. most aerobic gram-negative bacilli that produce extended spectrum beta-lactamases (ESBL) and P. aeruginosa. Not active vs many anaerobes, enterococci and staphylococci.",
+      "Stable in the presence of ESBLs and at least some AmpC cephalosporinases (Antimicrob Agents Chemother 2014;58:3091). Not a good substrate for efflux pumps.",
+      "Susceptibility trends in European gram-negative isolates: J Antimicrob Chemother 2020;75:2907.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "In trials of efficacy for both complicated intra-abdominal infections and complicated UTI, the clinical cure rate in the microbiological intent-to-treat patients with CrCl between 30-50 mL/min was lower than patients in the control arm. There was no difference in patients with CrCl >50 mL/min.",
+      "One hypothesis for this observation: Initial dosing is calculated based on transiently elevated serum creatinine at initiation of therapy.",
+      "In a retrospective review, AKI present at admission resolved within 48 hours in 57% of patients. In critically ill patients, the authors suggest deferred renal dosage adjustment during the first 48 hours until it is clear whether renal function will improve with hydration and other measures (Clin Infect Dis 2019;68:1596).",
+      "Possible OPAT option: see Outpatient Parenteral Antimicrobial Therapy.",
+      "Review: Antimicrob Agents Chemother 2021;65:e0231820"
+    ],
+    "adult_dose": {
+      "note": "Doses are expressed as the sum of the components",
+      "fda_approved_dosing": {
+          "complicated_intraabdominal_infection": "(+ metronidazole 500 mg IV q8h or 1 gm IV q12h) 1.5 gm IV (over 1 hr) q8h x4-14 days",
+          "complicated_uti_including_pyelonephritis": "1.5 gm IV (over 1 hr) q8h x7 days",
+          "hospital_acquired_ventilator_associated_bacterial_pneumonia": "3 gm IV (over 1 hr) q8h x8-14 days"
+      },
+      "amr_guidance": {
+          "uncomplicated_cystitis": "1.5 gm IV (over 1 hr) q8h",
+          "all_other_infections": "3 gm IV (over 3 hr) q8h"
+      }
+    },
+    "pediatric_dose": {
+      "amr_guidance": "J Pediatric Infect Dis Soc 2025;14:piaf004",
+      "note": "Doses are expressed as the sum of the components",
+      "fda_approved_dosing": {
+          "clai": "30 mg/kg (over 1 hr) q8h x5-14 days",
+          "cuti_pyelo": "30 mg/kg (over 1hr) q8h x7-14 days"
+      },
+      "per_amr_guidance": {
+          "for_neonates_infants_and_children": {
+              "cystitis": "30 mg/kg (over 1 hr) q8h",
+              "all_other": "60-75 mg/kg (over 3 hr) q8h"
+          },
+          "note": "use 1 hr infusions for CNS infection"
+      },
+      "max_day": {
+          "fda": "4.5 gm",
+          "amr_guidelines": {
+              "cystitis": "4.5 gm",
+              "other": "9 gm"
+          }
+      }
+    }
+  },
+  "renal_adjustment": {
+    "note": "Doses are expressed as the sum of the components",
+    "half_life_normal": "Ceftolozane: 3.1",
+    "half_life_esrd": "Ceftolozane: 40",
+    "dose_renal_function_normal": "IAI/UTI: 1.5 gm IV q8h, HAP/VAP: 3 gm IV q8h",
+    "crcl_or_egfr": {
+        "gt_50": "No dosage adjustment",
+        "30_50": "IAI/UTI: 750 mg q8h, HAP/VAP: 1.5 gm q8h",
+        "15_29": "IAI/UTI: 375 mg q8h, HAP/VAP: 750 mg q8h",
+        "lt_15_on_hd": "See HD recommendations"
+    },
+    "hemodialysis": {
+        "iai_uti": "750 mg load, 150 mg q8h (dose AD)",
+        "hap_vap": "2.25 gm load, 450 mg q8h (dose AD)"
+    },
+    "capd": "No data",
+    "crrt": "CVVHDF: 3 gm x1, then 750 mg q8h 23"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments.",
+    "ECMO: See ECMO Drug Dosing Adjustment."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity (e.g., rash).",
+    "Ceftolozane does not have the same R-1 or R-2 side chain as any other beta-lactam.",
+    "See Drug Allergy: Penicillins, Cephalosporins, Overview.",
+    "Nausea, diarrhea, headache, fever (≥5%)",
+    "Renal impairment (0.5%)",
+    "Clostridioides difficile diarrhea reported"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Pseudomonas aeruginosa"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Ceftolozane: 74.4, Tazobactam: 18 (1.5 gm IV q8h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Ceftolozane: 16-21, Tazobactam: 30",
+    "volume_of_distribution_vd_l_vss": "Ceftolozane: 13.5 L, Tazobactam: 18.2 L (Vss)",
+    "avg_serum_half_life_hr": "Ceftolozane: 3.1, Tazobactam: 1.0",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "Ceftolozane: 20, Tazobactam: 20 (fAUC CSF/blood) 25",
+    "therapeutic_levels_in_csf": "Unlikely",
+    "auc_ug_hr_ml": "Ceftolozane: 182, Tazobactam: 25 (SS, 0-8h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Tazobactam: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "No known clinically relevant drug interactions."
+  ]
+}

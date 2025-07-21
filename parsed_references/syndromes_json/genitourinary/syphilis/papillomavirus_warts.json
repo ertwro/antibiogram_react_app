@@ -1,0 +1,185 @@
+
+{
+  "documentMetadata": {
+    "title": "Papillomavirus, Warts",
+    "sourceFile": "syndromes/genitourinary/syphilis/Papillomavirus, Warts.pdf",
+    "lastUpdated": "2023-01-13"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Warts: external genital, cervix, vaginal, urethral, anal, skin papillomas.",
+        "Associated with cervical and anal cancers (HPV 16, 18)",
+        "Associated with head and neck cancers: HPV 16, other serotypes. Reviewed in Head Neck 31:1393, 2009."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Papillomaviruses",
+        "Oncogenic HPV types 16 and 18",
+        "  66% of all cervical cancers",
+        "  five additional types (6, 11, 31, 33, 45, 52, and 58) targeted by the 9-valent vaccine account for 15%.",
+        ">90% genital warts HPV types 6 and 11",
+        "Types 6 and 11 also associated with conjunctival, nasal, oral, and laryngeal warts."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "External genital warts:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Podofilox",
+                "dose": "0.5%",
+                "route": "solution or gel",
+                "frequency": "apply 2x/day x 3 days, 4 days no therapy, repeat cycle 4x"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Imiquimod 5% cream",
+                "frequency": "apply once daily at bedtime 3x/week on non-consecutive days",
+                "dose": "up to 16 weeks"
+              },
+              {
+                "drug": "Imiquimod 3.75% cream",
+                "frequency": "apply once daily at bedtime",
+                "dose": "up to 8 weeks"
+              }
+            ],
+            "notes": "May weaken condoms and vaginal diaphragms. Treatment area should be washed with soap and water 6–10 hours after application"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Sinecatechins",
+                "frequency": "apply to external genital warts only 3x/day until effect or adverse effect (not more than 16 weeks)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Cryotherapy with liquid nitrogen",
+            "timing": "repeat every 1-2 weeks"
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Trichloroacetic acid (TCA) or bichloroacetic acid (BCA) 80%-90% solution",
+            "timing": "repeat weekly as needed"
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Surgical removal"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Persons with external anal or perianal warts might also have intra-anal warts so inspection of the anal canal by digital examination, standard anoscopy, or high-resolution anoscopy should be considered.",
+        "No one treatment has been shown to be superior so patient-provider shared decision making recommended."
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cervical: Need evaluation for evolving neoplasia. Gynecological exam.",
+        "Vaginal: Cryotherapy with liquid nitrogen or TCA",
+        "Urethral: Cryotherapy with liquid nitrogen or surgical",
+        "Anal: Cryotherapy with liquid nitrogen or TCA or surgical removal. Advise anoscopy to look for rectal warts",
+        "Skin papillomas: Topical a-lactalbumin. Oleic acid (from human milk) applied once daily x 3 weeks",
+        "Pregnancy and visible genital warts: No need for C-section unless warts are obstructing the birth canal"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Prevention"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Human Papillomavirus, Vaccine for indications, available products, dosing, and vaccine characteristics for pre-exposure prevention.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Human Papillomavirus, Vaccine"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Only 9vHPV vaccine is available in the United States.",
+        "now optional consideration in 27-45 yr olds."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Podofilox: Inexpensive and safe (pregnancy safety not established). Mild irritation after treatment.",
+        "Imiquimod: Mild to moderate redness & irritation. Topical imiquimod effective for treatment of vulvar intraepithelial neoplasms (N Engl J Med 358:1465, 2008). Safety in pregnancy not established.",
+        "Cryotherapy: blistering and skin necrosis common.",
+        "Podophyllin resin: Must air dry before treated area contacts clothing. Can irritate adjacent skin. No longer recommended due to other less toxic treatment availability.",
+        "Sinecatechins: Avoid exposure to mucous membranes (vagina, rectum, mouth, eyes). Appears to work best following cryotherapy (J Drugs Dermatol 13:1400, 2014)",
+        "TCA: Caustic. Can cause severe pain on adjacent normal skin. Neutralize with soap or sodium bicarbonate.",
+        "Topical a-lactalbumin decreased lesion size and recurrence vs placebo (p <0.001) (N Engl J Med 350:2663, 2004). Further studies warranted.",
+        "See 2021 CDC STI guidelines MMWR Recomm Rep 70 (RR-4):1 2021 and 2019 IUSTI European guidelines for anogenital warts"
+      ]
+    }
+  ]
+}

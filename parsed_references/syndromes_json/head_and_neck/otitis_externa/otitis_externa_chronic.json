@@ -1,0 +1,79 @@
+{
+  "documentMetadata": {
+    "title": "Otitis Externa, Chronic",
+    "sourceFile": "Otitis Externa, Chronic.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chronic inflammatory condition of the skin of the external ear canal.",
+        "Results in edema and hypertrophy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unknown"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Remove irritants (Q-tips, water, soaps, shampoos, etc.)"
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Triamcinolone",
+            "dose": "0.1%",
+            "notes": "to effected area"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Evaluate for otomycosis, if present treat as such"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Review of chronic otitis externa: Curr Opin Otolaryngol Head Neck Surg 19:341, 2011."
+      ]
+    }
+  ]
+}

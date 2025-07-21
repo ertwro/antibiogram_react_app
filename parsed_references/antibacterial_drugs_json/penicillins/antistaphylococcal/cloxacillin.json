@@ -1,0 +1,87 @@
+{
+  "drug_name": "Cloxacillin",
+  "tradename": "Cloxapen, Tegopen",
+  "usage_and_dosing": {
+    "general": [
+      "Cloxacillin is an oral anti-staphylococcal semi-synthetic penicillin resistant to penicillinase. Active versus MSSA but not MRSA.",
+      "Similar to Dicloxacillin, but Dicloxacillin blood levels are substantively higher. Hence, Dicloxacillin is the preferred oral anti-MSSA antibiotic.",
+      "Oral Cloxacillin is no longer available in the U.S.",
+      "Parenteral Cloxacillin was not approved in the U.S., but has been used elsewhere.",
+      "Use in CNS infection: See comments."
+    ],
+    "adult_dose": {
+      "oral": "250-500 mg po q6h",
+      "iv": {
+          "usual": "1-2 gm IV q6h",
+          "severe_infection": "2 gm IV q4h"
+      }
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "50-200 mg/kg/day (divided q6h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "0.4",
+    "half_life_esrd": "0.7",
+    "dose_renal_function_normal": "250-500 mg po q6h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "No data"
+  },
+  "adverse_effects": [
+    "GI upset",
+    "Rash, hypersensitivity reaction",
+    "Hepatitis, interstitial nephritis, neutropenia"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Staphylococcus aureus, methicillin-sensitive (MSSA)",
+        "Staphylococcus epidermidis, methicillin-susceptible (MSSE)",
+        "Staphylococcus lugdunensis",
+        "Staphylococcus sp., coagulase-negative (Methicillin susceptible); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (250, 500 mg), Injection",
+    "food_recommendation": "Cap no food",
+    "oral_absorption_percent": "50",
+    "tmax_hr": "1-1.5",
+    "peak_serum_conc_ug_ml": "7.5-14 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "95",
+    "volume_of_distribution_vd_l_kg": "0.1 L/kg",
+    "avg_serum_half_life_hr": "0.5",
+    "elimination": "Renal, other",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "1.8 (CMI 2020;26:1415.e1)",
+    "therapeutic_levels_in_csf": "Possibly",
+    "auc_ug_hr_ml": "No data"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ cloxacillin",
+          "management": "Monitor, adjust dosage"
+      }
+  ],
+  "comments": [
+      "Oral Cloxacillin has been used in treatment of Staph. aureus skin and skin structure infections.",
+      "Use of oral Cloxacillin for completion of osteomyelitis therapy after initial intravenous treatment has been described (J Infect Dis 155:968, 1987).",
+      "Use in staphylococcal CNS infection: Very limited historical data suggest cloxacillin can achieve bactericidal titers in the CSF when used in large doses of 12-18 grams/day (J Antimicrob Chemother 1983;12:607)."
+  ]
+}

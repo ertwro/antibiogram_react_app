@@ -1,0 +1,98 @@
+{
+  "drug_name": "Tinidazole",
+  "usage_and_dosing": {
+    "general": [
+      "Tinidazole is chemically related to Metronidazole and is effective in the therapy of amebiasis, giardiasis and trichomoniasis.",
+      "Long half-life allows for intermittent dosing.",
+      "In general, Tinidazole is more potent and has fewer adverse reactions than Metronidazole.",
+      "Pregnancy and lactation:",
+      "Contraindicated in the first trimester, according to some experts.",
+      "See Table."
+    ],
+    "adult_dose": {
+      "amebiasis_intestinal": "2 gm po once daily x 3 days",
+      "amebiasis_liver_abscess": "2 gm po once daily x 5 days",
+      "giardiasis": "2 gm po x 1 dose",
+      "trichomoniasis": "2 gm po x 1 dose; treat sex partner at same time",
+      "bacterial_vaginosis": "2 gm po once daily x 2 days, or 1 gm once daily x 5 days"
+    },
+    "pediatric_dose": {
+      "giardiasis": "Age >3 yrs: 50 mg/kg single dose",
+      "amebic_liver_abscess": "Age >3 yrs: 50 mg/kg q24h x3-5 days",
+      "intestinal_amebiasis": "Age >3 yrs: 50 mg/kg q24h x3 days"
+    }
+  },
+  "renal_adjustment": {
+    "notes": "Dosage adjustment may be required in hepatic disease.",
+    "half_life_normal": "13",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "2 gm po q24h x1-5 days",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment (give an extra 1 gm AD if administered before dialysis)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "Specific dosage guidance not available.",
+    "mild_impairment_child_pugh_a": "Use caution",
+    "moderate_impairment_child_pugh_b": "Use caution",
+    "severe_impairment_child_pugh_c": "Use caution"
+  },
+  "adverse_effects": [
+    "Dysgeusia/metallic taste 4-6%, nausea 3-5%, anorexia 2-3%, vomiting 1.5%. All higher with multi-day dosing. Seizures/peripheral neuropathy reported.",
+    "Avoid alcohol during and for 3 days after last dose; can cause disulfiram reaction: flushing, nausea, vomiting, tachycardia, sweating and headache."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Limited human data, but evidence of toxicity in animals. Contraindicated in 1st trimester, according to some experts.",
+    "lactation": "Safety not established, avoid use",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": [
+    "E. histolytica",
+    "Giardia sp.",
+    "Trichomonas vaginalis"
+  ],
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Tab (250, 500 mg)",
+    "food_recommendation": "Tab + food",
+    "oral_absorption_percent": "48",
+    "tmax_hr": "1.6",
+    "peak_serum_conc_ug_ml": "48 (2 gm po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "12",
+    "volume_of_distribution_vd_l": "50 L",
+    "avg_serum_half_life_hr": "13",
+    "elimination": "Metabolism, renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "902 (2 gm po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": ["CYP3A4"],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Alcohol", "effect": "Disulfiram-like reaction", "management": "Avoid co-administration"},
+      {"drug": "Cyclosporine*", "effect": "↑ cyclosporine", "management": "Monitor"},
+      {"drug": "Cholestyramine*", "effect": "↓ tinidazole", "management": "Stagger dosing"},
+      {"drug": "Disulfiram*", "effect": "Psychosis", "management": "Monitor"},
+      {"drug": "Fluorouracil*", "effect": "↑ fluorouracil", "management": "Monitor"},
+      {"drug": "Lithium*", "effect": "↑ lithium", "management": "Monitor"},
+      {"drug": "Tacrolimus*", "effect": "↑ tacrolimus", "management": "Monitor"},
+      {"drug": "Warfarin", "effect": "↑ INR", "management": "Monitor, adjust do"}
+  ],
+  "comments": [
+      "Food increases GI tolerability."
+  ]
+}

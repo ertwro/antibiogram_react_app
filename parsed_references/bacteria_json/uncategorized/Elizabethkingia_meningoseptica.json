@@ -1,0 +1,548 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Elizabethkingia meningoseptica",
+      "aliases": [],
+      "lastUpdated": "2025-01-06",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Aerobic",
+        "notes": [
+          "Non-motile"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative rod, non-motile, oxidase +, catalase +, indole +, hydrolyzes esculin, DNase +, non-lactose fermenter."
+    },
+    "clinicalProfile": {
+      "summary": "Elizabethkingia meningoseptica is a multi-drug resistant nosocomial pathogen. It is particularly known for causing outbreaks of meningitis in premature newborns in neonatal ICUs. In adults, it can cause a range of infections, including pneumonia, endocarditis, and bacteremia, primarily in immunocompromised individuals.",
+      "pathophysiologyPearls": [
+        "The organism can survive in hospital environments, including water sources and medical equipment, facilitating its transmission."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Meningeal signs (in neonates)",
+        "Respiratory distress (pneumonia)",
+        "Signs of sepsis"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Neonatal Meningitis",
+          "description": "A serious infection of the meninges in premature infants, often occurring in outbreaks within NICUs."
+        },
+        {
+          "syndromeName": "Nosocomial Pneumonia",
+          "description": "Hospital-acquired pneumonia, typically in immunocompromised or critically ill adults."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream, which can lead to sepsis."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Infection of the heart valves, a rare but serious manifestation."
+        }
+      ],
+      "highRiskPopulations": [
+        "Premature newborns in neonatal ICUs",
+        "Immunocompromised adults"
+      ],
+      "transmissionVectors": [
+        "Contaminated water sources, medical equipment, and hospital environments."
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Cephalosporins",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Carbapenems",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Polymyxins",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Tetracycline",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Chloramphenicol",
+          "notes": "Typically resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Choice of definitive therapy must be based on antimicrobial susceptibility testing due to extensive intrinsic resistance.",
+        "Consider combination therapy in severely ill patients."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Serious Infections (e.g., Meningitis, Pneumonia, Bacteremia)",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, based on clinical response and site of infection",
+                  "drugs": [
+                    {
+                      "drugName": "Piperacillin-tazobactam",
+                      "dose": "4.5 gm",
+                      "route": "IV",
+                      "frequency": "q8h (over 4 hr)",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, based on clinical response and site of infection",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, based on clinical response and site of infection",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, based on clinical response and site of infection",
+                  "drugs": [
+                    {
+                      "drugName": "Minocycline",
+                      "dose": "100 mg",
+                      "route": "PO/IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable, based on clinical response and site of infection",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "8-10 mg/kg/day",
+                      "route": "IV",
+                      "frequency": "divided q6-8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Suspicion of nosocomial infection, especially meningitis in premature neonates or pneumonia/bacteremia in immunocompromised adults."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is made by culture of the organism from a normally sterile site.",
+        "biosafetyWarning": "Standard BSL-2 practices are adequate.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2018; 67:144",
+          "summaryOrNote": "Review of Elizabethkingia infections."
+        },
+        {
+          "source": "Infect Drug Resist.",
+          "citation": "2023;16:531",
+          "summaryOrNote": "Review of Elizabethkingia infections."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.377Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Elizabethkingia meningoseptica"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Aerobic",
+        "notes": [
+          "Non-motile"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Elizabethkingia meningoseptica is a multi-drug resistant nosocomial pathogen. It is particularly known for causing outbreaks of meningitis in premature newborns in neonatal ICUs. In adults, it can cause a range of infections, including pneumonia, endocarditis, and bacteremia, primarily in immunocompromised individuals.",
+      "pathophysiologyPearls": [
+        "The organism can survive in hospital environments, including water sources and medical equipment, facilitating its transmission."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Meningeal signs (in neonates)",
+        "Respiratory distress (pneumonia)",
+        "Signs of sepsis"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Neonatal Meningitis",
+          "description": "A serious infection of the meninges in premature infants, often occurring in outbreaks within NICUs."
+        },
+        {
+          "syndromeName": "Nosocomial Pneumonia",
+          "description": "Hospital-acquired pneumonia, typically in immunocompromised or critically ill adults."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream, which can lead to sepsis."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Infection of the heart valves, a rare but serious manifestation."
+        }
+      ],
+      "highRiskPopulations": [
+        "Premature newborns in neonatal ICUs",
+        "Immunocompromised adults"
+      ],
+      "transmissionVectors": [
+        "Contaminated water sources, medical equipment, and hospital environments."
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Cephalosporins",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Carbapenems",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Aminoglycosides",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Polymyxins",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Tetracycline",
+          "notes": "Typically resistant."
+        },
+        {
+          "drugOrClass": "Chloramphenicol",
+          "notes": "Typically resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Meningitis, Pneumonia, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Piperacillin-tazobactam",
+              "dose": "4.5 gm",
+              "route": "IV",
+              "frequency": "q8h (over 4 hr)",
+              "duration": "Variable, based on clinical response and site of infection",
+              "comments": "",
+              "originalText": "Piperacillin-tazobactam 4.5 gm IV q8h (over 4 hr)"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Meningitis, Pneumonia, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable, based on clinical response and site of infection",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400 mg IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Meningitis, Pneumonia, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "Variable, based on clinical response and site of infection",
+              "comments": "",
+              "originalText": "Levofloxacin 750 mg IV/PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Meningitis, Pneumonia, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Minocycline",
+              "dose": "100 mg",
+              "route": "PO/IV",
+              "frequency": "q12h",
+              "duration": "Variable, based on clinical response and site of infection",
+              "comments": "",
+              "originalText": "Minocycline 100 mg PO/IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Meningitis, Pneumonia, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "8-10 mg/kg/day",
+              "route": "IV",
+              "frequency": "divided q6-8h",
+              "duration": "Variable, based on clinical response and site of infection",
+              "comments": "",
+              "originalText": "TMP-SMX 8-10 mg/kg/day IV divided q6-8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Suspicion of nosocomial infection, especially meningitis in premature neonates or pneumonia/bacteremia in immunocompromised adults."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

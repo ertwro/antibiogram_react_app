@@ -1,0 +1,279 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Bacillus sp.",
+      "lastUpdated": "2024-07-30",
+      "clsiCategory": "additional_bacteria",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "rods",
+        "notes": [
+          "Spore-forming"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Bacillus subtilis"
+        },
+        {
+          "type": "Species",
+          "value": "Bacillus cereus"
+        }
+      ],
+      "biochemicalTests": "Gram-positive rods, often large and in chains, spore-forming (aerobic), catalase +, motility variable (B. anthracis is non-motile, others are motile)."
+    },
+    "clinicalProfile": {
+      "summary": "Bacillus subtilis and other Bacillus sp. occasionally cause systemic infections, but often are a culture contaminant. Bacillus sp. are etiologic in IV line infections in patients with hematologic malignancies, contamination of the fluid used to transport organs for transplantation, endophthalmitis, toxin-induced fulminant liver failure, soft tissue infection in injection drug users.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Food poisoning",
+          "description": "some strains produce enterotoxin that causes diarrhea"
+        },
+        {
+          "syndromeName": "IV line infections"
+        },
+        {
+          "syndromeName": "Endophthalmitis"
+        },
+        {
+          "syndromeName": "Toxin-induced fulminant liver failure"
+        },
+        {
+          "syndromeName": "Soft tissue infection"
+        }
+      ],
+      "highRiskPopulations": [
+        "Patients with hematologic malignancies",
+        "Injection drug users",
+        "Organ transplant recipients"
+      ]
+    },
+    "resistanceProfile": {
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Beta-lactam Resistance",
+          "details": "B. cereus often resistant to all beta-lactams other than carbapenems"
+        },
+        {
+          "alertTitle": "Carbapenem Resistance",
+          "details": "resistance to imipenem and meropenem has been encountered"
+        },
+        {
+          "alertTitle": "Clindamycin Resistance",
+          "details": "Susceptibility to Clindamycin (or other agents used) should be confirmed, as resistance does occur"
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "No specific treatment for food poisoning."
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bloodstream infection or invasive disease"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Vancomycin",
+                  "dose": "15-20 mg/kg",
+                  "route": "IV",
+                  "frequency": "q8-12h",
+                  "comments": "to achieve preferred target AUC 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough level of 15-20 µg/mL)"
+                },
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "600mg",
+                  "route": "IV",
+                  "frequency": "q8h"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Fluoroquinolone"
+                },
+                {
+                  "drugName": "Imipenem"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "drugSpecificPearls": [
+        {
+          "drugName": "Linezolid",
+          "pearl": "in vitro activity"
+        },
+        {
+          "drugName": "Daptomycin",
+          "pearl": "in vitro activity"
+        },
+        {
+          "drugName": "Tetracycline",
+          "pearl": "in vitro activity"
+        },
+        {
+          "drugName": "macrolides",
+          "pearl": "in vitro activity"
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Trends Microbiol.",
+          "citation": "2021;29:458-471"
+        },
+        {
+          "source": "J Antimicrob Chemother",
+          "citation": "60:555, 2007"
+        },
+        {
+          "source": "Intern Med",
+          "citation": "51:2733, 2012"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.362Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Bacillus sp."
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases",
+        "aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-07-30"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "rods",
+        "notes": [
+          "Spore-forming"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Bacillus subtilis and other Bacillus sp. occasionally cause systemic infections, but often are a culture contaminant. Bacillus sp. are etiologic in IV line infections in patients with hematologic malignancies, contamination of the fluid used to transport organs for transplantation, endophthalmitis, toxin-induced fulminant liver failure, soft tissue infection in injection drug users.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Food poisoning",
+          "description": "some strains produce enterotoxin that causes diarrhea"
+        },
+        {
+          "syndromeName": "IV line infections"
+        },
+        {
+          "syndromeName": "Endophthalmitis"
+        },
+        {
+          "syndromeName": "Toxin-induced fulminant liver failure"
+        },
+        {
+          "syndromeName": "Soft tissue infection"
+        }
+      ],
+      "highRiskPopulations": [
+        "Patients with hematologic malignancies",
+        "Injection drug users",
+        "Organ transplant recipients"
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Beta-lactam Resistance",
+          "details": "B. cereus often resistant to all beta-lactams other than carbapenems"
+        },
+        {
+          "alertTitle": "Carbapenem Resistance",
+          "details": "resistance to imipenem and meropenem has been encountered"
+        },
+        {
+          "alertTitle": "Clindamycin Resistance",
+          "details": "Susceptibility to Clindamycin (or other agents used) should be confirmed, as resistance does occur"
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

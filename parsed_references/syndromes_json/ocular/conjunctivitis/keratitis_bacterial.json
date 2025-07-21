@@ -1,0 +1,130 @@
+
+{
+  "documentMetadata": {
+    "title": "Bacterial Keratitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Keratitis, Bacterial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bacterial keratitis is a serious infection of the cornea that can rapidly lead to vision loss if not treated promptly and aggressively. It is considered an ophthalmic emergency. Major risk factors include contact lens wear (especially overnight wear), corneal trauma, ocular surface disease (e.g., dry eye, bullous keratopathy), and previous ocular surgery. The most common causative pathogens are Pseudomonas aeruginosa (especially in contact lens wearers), Staphylococcus aureus, and Streptococcus species."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Rapid onset of severe eye pain, redness, photophobia, decreased vision, and discharge (often purulent)."
+        },
+        {
+          "key": "Signs",
+          "value": "A corneal infiltrate or ulcer (a focal white opacity in the stroma) with an overlying epithelial defect that stains with fluorescein. Other signs include conjunctival injection, eyelid edema, and an anterior chamber reaction (cells and flare). Hypopyon (a layer of white blood cells in the anterior chamber) may be present in severe cases."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "name": "Corneal Scraping for Culture and Stains",
+      "sampleType": "Corneal tissue from the ulcer base and edge",
+      "interpretation": "Scrapings are sent for Gram stain, as well as culture on blood agar, chocolate agar, and other specialized media (e.g., Sabouraud for fungi). This helps identify the causative organism and determine antibiotic sensitivities.",
+      "notes": "Cultures are mandatory for any suspected infectious keratitis, especially if the ulcer is large, central, or sight-threatening."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Immediate referral to an ophthalmologist is essential. Treatment should not be delayed while waiting for culture results."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Initial Empiric Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Standard of Care",
+            "appliesTo": {
+              "description": "Patients with suspected bacterial keratitis"
+            },
+            "components": [
+              {
+                "drug": "Fortified Tobramycin or Gentamicin (15 mg/mL)",
+                "route": "topical",
+                "frequency": "Every 30-60 minutes around the clock"
+              },
+              {
+                "drug": "Fortified Cefazolin (50 mg/mL) or Vancomycin (25-50 mg/mL)",
+                "route": "topical",
+                "frequency": "Every 30-60 minutes around the clock, alternating with the aminoglycoside",
+                "connector": "+"
+              }
+            ],
+            "notes": "This combination provides broad-spectrum coverage against both gram-positive (including MRSA with Vancomycin) and gram-negative (including Pseudomonas) organisms. Dosing is intensive initially and then tapered based on clinical response."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "appliesTo": {
+              "description": "Patients with smaller, peripheral ulcers (not sight-threatening)"
+            },
+            "components": [
+              {
+                "drug": "Fourth-generation fluoroquinolone monotherapy (e.g., Moxifloxacin 0.5% or Gatifloxacin 0.5%)",
+                "route": "topical",
+                "frequency": "Loading dose followed by frequent application (e.g., every 1-2 hours)"
+              }
+            ],
+            "notes": "May be used as an alternative to fortified antibiotics in less severe cases, but resistance is a growing concern."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Adjunctive Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cycloplegic agents (e.g., atropine, scopolamine) to reduce pain from ciliary spasm and prevent synechiae formation.",
+            "Topical steroids are contraindicated in the acute phase but may be cautiously added by an ophthalmologist later in the course to reduce scarring and inflammation once the infection is controlled.",
+            "Hospitalization may be necessary for severe cases requiring intensive monitoring and treatment."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Keratitis, Overview; Pseudomonas aeruginosa; Staphylococcus aureus",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Keratitis, Overview"
+      }
+    }
+  ]
+}

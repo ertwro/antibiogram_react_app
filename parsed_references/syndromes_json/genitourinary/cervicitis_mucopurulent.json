@@ -1,0 +1,85 @@
+{
+  "documentMetadata": {
+    "title": "Cervicitis, Mucopurulent",
+    "lastUpdated": "2024-04-01",
+    "sourceFile": "Cervicitis, Mucopurulent.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Anatomic female with purulent or mucopurulent cervical discharge",
+        "Criteria for diagnosis:",
+        "Mucopurulent endocervical exudate.",
+        "Sustained endocervical bleeding after passage of cotton swab.",
+        ">10 WBC/hpf of vaginal fluid is suggestive.",
+        "Intracellular gram-negative diplococci is specific for gonococcal disease, but insensitive. If in doubt, send swab or urine for culture, enzyme immunoassay (EIA) or nucleic acid amplification test and treat for both organisms.",
+        "Treatment should be based on results of NAATs if possible.",
+        "Presumptive treatment with antimicrobials for C. trachomatis and N. gonorrhoeae should be provided for women at increased risk (<25 years, new sex partner, sex partner with concurrent partners, or a sex partner who has an STI), if follow-up cannot be ensured, or if testing with NAAT is not possible.",
+        "See updated 2021 CDC STD Guidelines MMWR Recomm Rep 70 (RR-4):1 2021"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neisseria gonorrhoeae",
+        "Chlamydia trachomatis",
+        "Other causative agents: Trichomoniasis, genital herpes (especially primary HSV-2 infection), or M. genitalium",
+        "Many cases no organism identified (esp women >30 yo)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If N. gonorrhoeae, treat as for gonococcal urethritis/cervicitis.",
+        "If C. trachomatis, treat as for non-gonococcal urethritis",
+        "Updated 2021 CDC STD Guidelines MMWR Recomm Rep 70 (RR-4):1 2021; routine treatment with 2 drugs for both N. gonorrhoeae and C. trachomatis no longer recommended.",
+        "If low risk can consider waiting for NAAT result",
+        "Empiric treatment: Doxycycline 100 mg bid x 7 days (+/- treatment for N. gonorrhoeae Ceftriaxone 500 mg IM, if high risk or in region of high prevalence) or Azithromycin 1 g x 1"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See relevant syndrome"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comment"
+    },
+    {
+      "type": "list",
+      "items": [
+        "All patients with sexually transmitted infections (STI) should be tested for HIV and syphilis at the time of initial presentation for their STI.",
+        "To prevent reinfection, women treated for cervicitis should abstain from sexual intercourse until they and their partners have been treated and symptoms have resolved.",
+        "All women with mucopurulent cervicitis should be evaluated for bacterial vaginosis and Trichomonas infections.",
+        "Studies implicate Mycoplasma genitalium in mucopurulent cervicitis (PLoS Pathog 7:e1001324, 2011; CID 61:418, 2015).",
+        "Treatment of STI is evolving due to rapid development of multiple drug resistant N. gonorrhoeae and resistant M. genitalium. If treatment failure consider drug resistance.",
+        "Updated 2021 CDC STD Guidelines MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Doxycycline post-exposure prophylaxis (doxy-PEP 200 mg x1) reduces the incidence of gonorrhea, syphilis, and Chlamydia among cisgender MSM and transgender women (N Engl J Med 2023;388:1296-1306), but was not effective in a study conducted in cisgender women (N Engl J Med 2023;389:2331-2340)."
+      ]
+    }
+  ]
+}

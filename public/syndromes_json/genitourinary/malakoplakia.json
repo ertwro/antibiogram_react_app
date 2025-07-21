@@ -1,0 +1,68 @@
+{
+  "documentMetadata": {
+    "title": "Malakoplakia",
+    "lastUpdated": "2023-02-01",
+    "sourceFile": "Malakoplakia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Malakoplakia or chronic pyelonephritis in immunosuppressed patients, macrophage dysfunction.",
+        "Rare granulomatous inflammatory reaction presenting as a plaque or a nodule within the genitourinary tract or, rarely in other organs or skin.",
+        "Presence of Michaelis-Gutmann bodies, which are foamy histiocytes with basophilic inclusions."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E. coli",
+        "Other Gram-negatives"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical excision + Bethanechol chloride + (Ciprofloxacin or TMP-SMX)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If possible reduce or eliminate immunosuppression.",
+        "References: Nat Rev Nephrol 5:418, 2009; Transpl Infect Dis 14:E137, 2012; StatPearls Publishing; 2022 Jan. 2022 Oct 31."
+      ]
+    }
+  ]
+}

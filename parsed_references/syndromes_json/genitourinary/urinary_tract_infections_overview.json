@@ -1,0 +1,36 @@
+
+{
+  "documentMetadata": {
+    "title": "Urinary Tract Infections, Overview",
+    "sourceFile": "Urinary Tract Infections, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Urinary Tract Infections, Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Urinary tract infections (UTIs) are a common reason for outpatient visits and antibiotic prescriptions. They can be classified as uncomplicated or complicated."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Uncomplicated UTIs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uncomplicated UTIs occur in healthy, premenopausal, non-pregnant women with no urologic abnormalities."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Complicated UTIs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complicated UTIs are those associated with factors that increase the risk of treatment failure, such as male sex, pregnancy, obstruction, or the presence of a urinary catheter."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "documentMetadata": {
+    "title": "Tuberculosis, Extrapulmonary",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Tuberculosis, Extrapulmonary.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Extrapulmonary M. tuberculosis, drug-susceptible strain.",
+        "Lymphadenitis, pericarditis, genitourinary tuberculosis, tuberculous pleural effusion, disseminated (miliary) TB, peritoneal TB, CNS TB, bone and joint TB.",
+        "Common presentation of tuberculosis in patients with HIV/AIDS (Semin Respir Crit Care Med 34:32, 2013).",
+        "For meningitis, other CNS infection see CNS tuberculous.",
+        "For bone and joint infections see Tuberculosis, bone and Tuberculosis, arthritis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Xpert MTB/RIF assay (Cepheid) had sensitivity of 83% for detecting M. tuberculosis in lymph nodes, 81% in meningitis, but sensitivity of only 46% for tuberculous pleuritis (Eur Resp J 44: 435, 2014)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mycobacterium tuberculosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Same as for pulmonary tuberculosis except longer duration therapy for CNS tuberculosis, tuberculosis of bone, tuberculous arthritis"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Corticosteroids (see Comments below)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Strongly recommended for CNS tuberculosis",
+            "Should be considered for use in selected patients to prevent constrictive pericarditis",
+            "May be useful in treating immune reconstitution inflammatory response syndrome (IRIS) in HIV patients on antiretroviral therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Same as for pulmonary tuberculosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Test for HIV.",
+        "6 month regimens are probably effective although 9-12 months is standard for CNS, disseminated, or bone infection.",
+        "The American Academy of Pediatrics recommends 6 months therapy for isolated cervical adenitis, renal, and 12 months for meningitis, miliary, bone/joint",
+        "IDSA recommends 6 months for lymph node, pleural, pericarditis, genitourinary and peritoneal TB.",
+        "Directly observed therapy (DOT) preferred.",
+        "Adjunctive corticosteroids for CNS tuberculosis",
+        "Adult: Dexamethasone 0.4 mg/kg/day week 1, 0.3 mg/kg/day week 2, 0.2 mg/kg/day week 3, 0.1 mg/kgday week 4, then tapered to stop over 3-4 weeks.",
+        "Child: Dexamethasone 0.6 mg/kg/day or Prednisolone 4 mg/kg/day for 4 weeks then tapered to stop over 4 weeks.",
+        "Adjunctive corticosteroids for pericarditis:",
+        "Prednisolone reduced incidence of pericarditis and hospitalization but not composite end-point of death, tamponade, or constriction (N Engl J Med 371:1121, 2014).",
+        "Dosage used in that study: Prednisolone x 6 weeks: 120 mg/day in week 1, 90 mg/day in week 2, 60 mg/day in week 3, 30 mg/day in week 4, 15 mg/day in week 5, 5 mg/day in week 6.",
+        "Dosage used in other studies: 60 mg/day for first 4 weeks, 30 mg/day for weeks 5-8, 15 mg/day for weeks 9-10, 5 mg/day for week 11 (see QJ Med 2003; 96:593).",
+        "ATS/CDC/IDSA guidelines recommend selective use of corticosteroids in patients at highest risk for inflammatory complications such as those with large pericardial effusions, high levels of inflammatory cells or markers in pericardial fluid, or with early signs of constriction (Clin Infect Dis 63:e147, 2016).",
+        "Adjunctive corticosteroids for IRIS in HIV patients."
+      ]
+    }
+  ]
+}

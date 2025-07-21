@@ -1,0 +1,157 @@
+
+{
+  "documentMetadata": {
+    "title": "Tuberculosis, Disseminated, Miliary",
+    "sourceFile": "syndromes/infectious_syndromes/Tuberculosis, Disseminated, Miliary.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Tuberculosis, Disseminated, Miliary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Miliary tuberculosis is a life-threatening form of disseminated tuberculosis that occurs when a large number of tubercle bacilli are released into the bloodstream and spread throughout the body. It is characterized by the appearance of tiny, millet-sized granulomas in various organs."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mycobacterium tuberculosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever, night sweats, weight loss, anorexia",
+        "Weakness and malaise",
+        "Cough and dyspnea",
+        "Hepatosplenomegaly",
+        "Choroid tubercles on fundoscopic exam (pathognomonic but rare)",
+        "Meningitis signs if central nervous system is involved"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Initial Phase (Intensive Phase)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "All patients with miliary TB"
+            },
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" },
+              { "drug": "Pyrazinamide", "route": "PO", "frequency": "Daily", "connector": "+" },
+              { "drug": "Ethambutol", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2 months"
+            },
+            "notes": "This is the standard four-drug regimen (RIPE)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Continuation Phase"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4-7 months"
+            },
+            "notes": "Total duration of therapy is typically 6-9 months. Longer duration may be needed for CNS involvement."
+          }
+        }
+      ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+          {
+            "type": "header",
+            "level": 3,
+            "text": "Adjunctive Therapy"
+          },
+          {
+            "type": "regimen",
+            "regimenData": {
+              "intent": "symptomRelief",
+              "strengthOfRecommendation": "Recommended",
+              "condition": "For patients with TB meningitis or pericarditis",
+              "components": [
+                { "drug": "Corticosteroids (e.g., Prednisone or Dexamethasone)" }
+              ],
+              "notes": "Used to reduce inflammation and decrease mortality and morbidity in specific cases of extrapulmonary TB."
+            }
+          }
+        ]
+    },
+    {
+        "type": "header",
+        "level": 2,
+        "text": "Diagnosis"
+    },
+    {
+        "type": "diagnosticTest",
+        "diagnosticTestData": {
+            "name": "Chest X-ray",
+            "interpretation": "Classic miliary pattern (diffuse, small, 1-2 mm nodules)."
+        }
+    },
+    {
+        "type": "diagnosticTest",
+        "diagnosticTestData": {
+            "name": "Sputum/Gastric Aspirate Culture",
+            "analyte": "Mycobacterium tuberculosis",
+            "sampleType": "Sputum or Gastric Aspirate",
+            "notes": "Often negative in miliary TB, but should still be performed."
+        }
+    },
+    {
+        "type": "diagnosticTest",
+        "diagnosticTestData": {
+            "name": "Biopsy and Culture",
+            "sampleType": "Bone marrow, liver, or other involved tissue",
+            "interpretation": "Histopathology showing caseating granulomas and positive acid-fast bacilli (AFB) stain or culture is the gold standard.",
+            "strengthOfRecommendation": "Recommended"
+        }
+    }
+  ]
+}

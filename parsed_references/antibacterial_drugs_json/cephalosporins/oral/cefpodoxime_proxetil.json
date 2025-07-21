@@ -1,0 +1,75 @@
+{
+  "drug_name": "Cefpodoxime proxetil",
+  "tradename": "Vantin",
+  "usage_and_dosing": {
+    "general": [
+      "Cefpodoxime proxetil is a 3rd generation oral cephalosporin with activity against upper respiratory tract pathogens (e.g., Strep. pneumoniae, M. catarrhalis, S. pyogenes, H. influenzae), MSSA, E. coli, P. mirabilis and K. pneumoniae.",
+      "For class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "pharyngitis": "100 mg po q12h x 5-10 days",
+      "aecb": "200 mg po q12h x 10 days",
+      "gonorrhea_cervical_urethral_rectal": "200 mg po x 1 dose",
+      "pneumonia": "200 mg po q12h x 14 days",
+      "sinusitis": "200mg q12h x 5-7 days",
+      "absssi": "400mg poq12h x 7-14 days"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "10 mg/kg/day (divided q12h)",
+      "max_day": "400 mg"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2.3",
+    "half_life_esrd": "10",
+    "dose_renal_function_normal": "200 mg po q12h",
+    "crcl_or_egfr": "CrCl ≥10: No dosage adjustment. CrCl <10: 200 mg q24h",
+    "hemodialysis": "200 mg q24h (dose AD on dialysis days)",
+    "capd": "200 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (2.7), fever (rare), rash (1%), anaphylaxis (rare), neutropenia (rare), eosinophilia (3%), thrombocytopenia (rare), nausea/vomiting (4%), diarrhea (7%), C. difficile colitis, increased LFTs (4%), increased BUN/Creatinine (4%), headache (1%).",
+    "There are rare reports of acute liver injury, bloody diarrhea, pulmonary infiltrates with eosinophilia.",
+    "Cefpodoxime has the same R1 side chain as cefotaxime, cefpirome, cefditoren, ceftizoxime, ceftriaxone, and cefepime. Cross-allergenicity may occur.",
+    "For class-wide adverse effects, see Cephalosporins, Overview. See also Penicillin (Beta-Lactam) Allergy Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Tab (100, 200 mg), oral susp (50 mg/5 mL, 100 mg/5 mL)",
+    "food_recommendation": "Tab + food, Susp ± food",
+    "oral_absorption_percent": "46",
+    "tmax_hr": "2-3",
+    "peak_serum_conc_ug_ml": "2.3 (200 mg po, SD)",
+    "peak_urine_conc_ug_ml": "49-196 (50-800 mg po, SD; IJAA 1994;4:37)",
+    "protein_binding_percent": "40",
+    "volume_of_distribution_vd_l_kg_vf": "0.7 L/kg (V/F)",
+    "avg_serum_half_life_hr": "2.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "115",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "14.5 (200 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "Concomitant administration of H2-antagonists reduces Cmax by approximately 33% and AUC by 28%. The clinical significance of these data is unclear (Clin Pharmacol Ther 46:674, 1989)."
+  ],
+  "comments": [
+    "None"
+  ]
+}

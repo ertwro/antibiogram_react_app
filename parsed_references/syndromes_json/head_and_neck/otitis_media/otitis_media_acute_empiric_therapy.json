@@ -1,0 +1,347 @@
+{
+  "documentMetadata": {
+    "title": "Otitis Media, Acute, Empiric Therapy",
+    "sourceFile": "Otitis Media, Acute, Empiric Therapy.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Initial empiric therapy for acute otitis media (AOM) in infants, children and adults.",
+        "Diagnosis of AOM in children is based on presence of moderate to severe bulging of the TM or new onset otorrhea. May diagnose with mild bulging and recent (<48 hours) onset of ear pain (holding, tugging, rubbing of the ear in a nonverbal child) or intense erythema of the TM.",
+        "Pneumatic otoscopy demonstrating immobile tympanic membrane establishes presence of effusion but does not discriminate acute otitis media from non infected effusion. That is why symptoms are an important criterion",
+        "See photos",
+        "Differentiate severe AOM (moderate to severe otalgia >48 hours or fever >39 C) from mild to moderate AOM (Pediatrics 131:e964, 2013).",
+        "For severe AOM, initiate treatment in all ages",
+        "For mild to moderate AOM in children <24 months, initiate treatment.",
+        "For mild to moderate AOM in children >24 months, reasonable either to observe for 48 hours or to begin antibiotic treatment.",
+        "Favorable results in mostly afebrile patients with waiting 48 hours before deciding on antibiotic use (JAMA 296:1235, 2006; JAMA 296:1290, 2006).",
+        "See Antimicrobial Stewardship (below) for susceptibility / resistance considerations when selecting an antibiotic.",
+        "Acute otorrhea in a child with tympanostomy tubes is a different entity.",
+        "Topical therapy with antibiotic-glucocorticoid drops is superior to systemic treatment (N Engl J Med 370:723, 2014)",
+        "Topical therapy is less likely to promote bacterial resistance",
+        "Three combination products available"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In research trials using traditional culture or molecular diagnostics, potential viral or bacterial pathogens can be detected in over 90% of patients (J Pediatric Infect Dis Soc. 2024 Feb 5; StatPearls Publishing; 2022 Jan. 2022 Jan 21) (See Comments).",
+        "Commonly detected bacteria",
+        "Streptococcus pneumoniae",
+        "Haemophilus influenzae",
+        "Moraxella catarrhalis",
+        "Staphylococcus aureus",
+        "Commonly detected viruses",
+        "Influenza",
+        "Parainfluenza",
+        "RSV",
+        "Human metapneumonvirus",
+        "Adenovirus",
+        "Enterovirus/rhinovirus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric Acute AOM"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "No antibiotics in the prior month, no conjunctivitis, no history of recurrent AOM",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "80-90 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h or q8h",
+                "notes": "Preferred regimen. See Comments"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "No antibiotics in the prior month, no conjunctivitis, no history of recurrent AOM",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "90/6.4 mg/kg/day",
+                "route": "po",
+                "frequency": "divided bid",
+                "notes": "extra strength oral suspension"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternative cephalosporin regimens less effective for penicillin-nonsusceptible S. pneumoniae (see Comments)."
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If antibiotics in the prior month or failed response to Amoxicillin (may take 72h to respond) or purulent conjunctivitis or history of recurrent AOM",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "90/6.4 mg/kg/day",
+                "route": "po",
+                "frequency": "divided bid",
+                "notes": "extra strength oral suspension"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If antibiotics in the prior month or failed response to Amoxicillin (may take 72h to respond) or purulent conjunctivitis or history of recurrent AOM",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "50 mg/kg",
+                "route": "IV or IM",
+                "frequency": "once daily x 3 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Refractory or recurrent AOM age 6 months to 5 years",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "20 mg/kg/d",
+                "route": "in divided doses",
+                "frequency": "q12h",
+                "notes": "if other options have failed. Consider tympanocentesis guided therapy."
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Duration of treatment:",
+            "Age < 2 years: 10 days (see N Engl J Med 375:2446, 2016)",
+            "Age \u2265 2 years: 5-7 days (5 days may be inadequate for severe infection, see N Engl J Med 347:1169, 2002)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult Acute AOM"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If patient has had no antibiotics in the prior month",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "1000 mg",
+                "route": "tid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If patient has had no antibiotics in the prior month",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If patient has had antibiotics in the prior month",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "bid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If patient has had antibiotics in the prior month",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "frequency": "q24h x 5 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "If patient has had antibiotics in the prior month",
+            "components": [
+              {
+                "drug": "Moxifloxacin",
+                "dose": "400 mg",
+                "frequency": "q24h x 5 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Duration of treatment: 10 days (generally, but note that Levofloxacin and moxifloxacin is 5 days)"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Acute otorrhea with tympanostomy tubes (Med Lett. 2016; 58: 153):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Otovel (ciprofloxacin 0.3% + fluocinolone acetonide 0.025% otic solution) for the treatment of acute otitis media with tympanostomy tubes in patients (aged \u22656 months) due to S. aureus, S. pneumoniae, H. influenzae, M. catarrhalis, and P. aeruginosa). The product is available in 0.25 mL single-dose vials and the recommended dose is instillation of the contents of one vial into the affected ear canal twice daily for 7 days",
+            "Ciprodex (ciprofloxacin 0.3%/dexamethasone 0.1%) 4 drops in affected ear bid x 7 days",
+            "Ofloxacin 0.3% generic 5 drops in affected ear bid x 10 days"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "All below have inferior ratio of middle ear concentrations relative to MIC compared to Primary Regimens",
+        "Cefdinir Pediatric: 14 mg/kg div q12h or q24h; Adult 300 mg q12h",
+        "Cefpodoxime proxetil Pediartic: 10 mg/kg/day po div q12h or q24h; Adult: 200 mg po bid",
+        "Cefprozil Pediatric: 15 mg/kg po q12h; Adult: 500 mg po bid",
+        "Cefuroxime axetil Pediatric: 30 mg/kg/day po divided q12h; Adult: 500 mg po bid",
+        "Note: Cefuroxime susp not available in the US, may be available in other markets.",
+        "Clindamycin Pediatric: 30 mg/kg/d po div q8h (lacks efficacy against H. influenzae)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy: see specific regimens above.",
+        "For mild to moderate AOM in children >24 months, reasonable either to observe for 48 hours or to begin antibiotic treatment.",
+        "Favorable results in many studies in mostly afebrile patients with waiting 48 hours before deciding on antibiotic use (JAMA 296:1235, 2006; JAMA 296:1290, 2006).",
+        "Macrolides (Azithromycin, Clarithromycin, Erythromycin) have limited efficacy against H. influenzae and S. pneumoniae and should be reserved for patients who cannot be treated with a beta-lactam regimen.",
+        "Drug-resistant S. pneumoniae (DRSP):",
+        "Has become uncommon with PCV-13 and PCV-20",
+        "High failure rate with TMP-SMX if etiology is DRSP or H. influenzae (Ped Infect Dis J 20:260, 2001). High dose amoxicillin is superior to oral cephalosporins for DRSP S. pneumoniae and less expensive.",
+        "Risk of DRSP increases if age < 2 years, antibiotics last 3 months and/or daycare attendance.",
+        "Selection of drug should be based on:",
+        "Middle ear fluid concentrations of drug. High dose amoxicillin achieves high concentrations.",
+        "Effectiveness against S. pneumoniae, including DRSP.",
+        "Effectiveness against \u03b2-lactamase producing H. influenzae and M. catarrhalis.",
+        "Cefaclor, Loracarbef, and Ceftibuten are less active than other agents listed and are not recommended."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Recurrent Otitis Media"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usually defined as \u22653 episodes in 6 months or \u22654 episodes in one year.",
+        "Studies of benefits of tympanostomy tubes are conflicting",
+        "Previous recommendations vary. ENT guideline (Otolaryngol Head and Neck Surgery 2013;149:S1-35) recommends if middle ear effusion is present; Pediatric (Pediatrics 131:e964, 2013) guidelines suggest it is an option to offer",
+        "Recent large RCT showed no difference in number of episodes comparing tympanostomy tubes with medical management (NEJM 2021; 384:1789) but tympanostomy group had longer time to first recurrence and fewer days of symptoms."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Amoxicillin remains first-line therapy with low rates of treatment failure and recurrence despite increase in frequency of Moraxella and non-typable H. flu in era of newer pneumococcal conjugate vaccines (J Pediatric Infect Dis Soc. 2024 Feb 5.)",
+        "Spontaneous resolution rates for bacterial pathogens (Lancet 363:465, 2004)",
+        "M. catarrhalis (90%)",
+        "H. influenzae (50%)",
+        "Strep. pneumoniae (10%)",
+        "Overall 80% resolve within 2-14 days",
+        "Although respiratory viruses may predispose to or cause acute otitis media, clinically these are indistinguishable from bacterial pathogens and culture confirmation is not routinely done. This may be why symptoms of non-severe AOM often resolve without antibiotics and observation with a contingency plan to treat if symptoms persist is a viable strategy.",
+        "Among children who are up to date on pneumococcal conjugate vaccine, penicillin resistant S. pneumoniae is rare.",
+        "\u03b2-lactam drug allergy:",
+        "If history is unclear or rash, effective oral cephalosporin is OK. Consider evaluating for allergy de-listing",
+        "Avoid cephalosporins if IgE-mediated allergy, e.g., anaphylaxis."
+      ]
+    }
+  ]
+}

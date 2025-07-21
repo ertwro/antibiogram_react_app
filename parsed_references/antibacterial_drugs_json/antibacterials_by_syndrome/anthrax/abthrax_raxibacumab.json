@@ -1,0 +1,69 @@
+
+{
+  "drug_name": "Abthrax (Raxibacumab)",
+  "usage_and_dosing": {
+    "description": "Indicated as part of combination therapy for treatment of inhalational anthrax in adults and children (age > 16 yrs) and for prophylaxis in the absence of other alternatives. Raxibacumab is a human monoclonal antibody directed against the protective antigen (PA) component of Bacillus anthracis toxin. It inhibits the binding of PA to its cellular receptors, preventing intracellular entry of the toxin components lethal factor and edema factor.",
+    "adult_dose": {
+      "premedicate": "Premedicate with diphenhydramine 25-50 mg 1 hr before administering Raxibacumab",
+      "dilution": "Dilute in 0.45 - 0.9% saline",
+      "usual_dose": "40 mg/kg IV infused over 2hrs 15min"
+    },
+    "pediatric_dose": [
+      {
+        "weight": "≤15 kg",
+        "dose": "80 mg/kg IV (over 2 hr 15 min) x1"
+      },
+      {
+        "weight": "15 to 50 kg",
+        "dose": "60 mg/kg IV (over 2 hr 15 min) x1"
+      },
+      {
+        "weight": ">50 kg",
+        "dose": "40 mg/kg IV (over 2 hr 15 min) x1"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "16-19 days",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "40 mg/kg IV x1",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Infusion reactions may occur",
+    "Common (≥1.5%): rash, pain in extremity, pruritis, somnolence",
+    "Use with caution in nursing mothers"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data",
+    "use_during_lactation": "No data"
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "1020 (40 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "No data",
+    "volume_of_distribution": "58-73 mL/kg (Vss)",
+    "avg_serum_t1_2": "16-19 days",
+    "elimination": "Catabolized",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "15846 µg*day/mL (40 mg/kg IV, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "None reported"
+  ]
+}

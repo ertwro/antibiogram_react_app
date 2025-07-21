@@ -1,0 +1,366 @@
+
+{
+  "documentMetadata": {
+    "title": "Diverticulitis, Perirectal Abscess",
+    "lastUpdated": "2025-01-06",
+    "sourceFile": "syndromes/intra-abdominal/Diverticulitis, Perirectal Abscess.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diverticultis or perirectal abscess presents in 3 ways, based on severity:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Outpatient: mild diverticulitis or drained perirectal abscess.",
+        "Inpatient: mild to moderate disease, focal peri-diverticular focal peritonitis or abscess.",
+        "Inpatient/Critical Care: Severe, life-threatening disease due to diffuse peritonitis with or without bacteremia and septic shock",
+        "For overall management (JAMA 2017;318:291; New Engl J Medicine 2018; 379:1635)",
+        "See also, Secondary Peritonitis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterobacterales: e.g., E. coli, Klebsiella sp, other aerobic gram-negative bacilli",
+        "Bacteroides sp. and other anaerobic bacteria",
+        "Enterococcus species: E. faecalis most common; E. faecium",
+        "P. aeruginosa uncommon: 3-15%",
+        "Role of Candida species in bowel is unclear. See Comments"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Outpatient: mild diverticulitis or drained perirectal abscess"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Ciprofloxacin", "dose": "750 mg", "route": "po", "frequency": "bid", "connector": "or" },
+              { "drug": "Levofloxacin", "dose": "750 mg", "route": "po", "frequency": "q24h", "connector": "+" },
+              { "drug": "Metronidazole", "dose": "500 mg", "route": "po", "frequency": "q6h" }
+            ]
+          }
+        },
+        {
+            "type": "paragraph",
+            "text": "If quinolone allergic or intolerant: TMP-SMX-DS tab po bid + Metronidazole 500 mg q6h"
+        },
+        {
+            "type": "paragraph",
+            "text": "For comparative effectiveness and harms: (Ann Int Med. 2021;174:737)"
+        },
+        {
+            "type": "paragraph",
+            "text": "Duration of treatment varies based on clinical response. Usually Treat for 7-10 days. Can customize duration by trending serum procalcitonin serum levels. Treat until PCT level is <0.5 ng/ml."
+        }
+      ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Inpatient, mild to moderate disease"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Surgical consultation advisable"
+                ]
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Piperacillin-tazobactam", "dose": "4.5 gm", "route": "IV (over 4 hr)", "frequency": "q8h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ertapenem", "dose": "1 gm", "route": "IV", "frequency": "q24h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Moxifloxacin", "dose": "400 mg", "route": "IV", "frequency": "q24h"}
+                    ],
+                    "notes": "resistance of Bacteroides group maybe increasing"
+                }
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Severe, life-threatening disease"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Surgical consultation"
+                ]
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Meropenem", "dose": "1 gm", "route": "IV", "frequency": "q8h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Imipenem-cilastatin", "dose": "500 mg to 1 gm", "route": "IV", "frequency": "q6h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Doripenem", "dose": "500 mg", "route": "IV", "frequency": "q8h (1-hr infusion)"}
+                    ]
+                }
+            }
+        ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Outpatient: mild diverticulitis or drained perirectal abscess"
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Moxifloxacin", "dose": "400 mg", "route": "po", "frequency": "q24h"}
+                    ]
+                }
+            },
+            {
+                "type": "paragraph",
+                "text": "Duration varies with clinical response. Usually 7-10 days"
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Inpatient, mild to moderate disease"
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "connector": "or"},
+                        {"drug": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "q24h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg", "route": "IV", "frequency": "q6h", "connector": "or"},
+                        {"drug": "Metronidazole", "dose": "1 gm", "route": "IV", "frequency": "q12h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Moxifloxacin", "dose": "400 mg", "route": "IV", "frequency": "a24h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Cefepime", "dose": "2 gm", "route": "IV", "frequency": "q12h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "1 gm", "route": "IV", "frequency": "q12h"}
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Severe, life-threatening disease"
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ampicillin", "dose": "2 gm", "route": "IV", "frequency": "q6h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg", "route": "IV", "frequency": "q6h", "connector": "+"},
+                        {"drug": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "connector": "or"},
+                        {"drug": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "q24h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ceftazidime-avibactam", "dose": "2.5 gm", "route": "IV over 2 hrs", "frequency": "and repeat q8h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg", "route": "IV over 60 minutes", "frequency": "q8h"}
+                    ],
+                    "notes": "Report of decreased efficacy if Cr Cl 30-50 mL/min (Clin Infect Dis 2016; 62:1380)"
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ceftolozane-tazobactam", "dose": "1.5 gm", "route": "IV over one hr", "frequency": "and repeat q8h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg", "route": "IV", "frequency": "q8h"}
+                    ],
+                    "notes": "Report of decreased efficacy if CrCl 30-50 mL/min (Clin Infect Dis 2015;60:1462)"
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ampicillin", "dose": "2 gm", "route": "IV", "frequency": "q6h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg", "route": "IV", "frequency": "q6h", "connector": "+"},
+                        {"drug": "Amikacin", "connector": "or"},
+                        {"drug": "Gentamicin", "connector": "or"},
+                        {"drug": "Tobramycin"}
+                    ],
+                    "notes": "Rarely used due to risk of aminoglycoside toxicity"
+                }
+            },
+            {
+                "type": "paragraph",
+                "text": "If severe penicillin/cephalosporin allergy:"
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Aztreonam", "dose": "1 gm IV q8h to 2 gm IV q6h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg IV q6h", "connector": "or"},
+                        {"drug": "Metronidazole", "dose": "1 gm IV q12h"}
+                    ]
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Ciprofloxacin", "dose": "400 mg", "route": "IV", "frequency": "q12h", "connector": "or"},
+                        {"drug": "Levofloxacin", "dose": "750 mg", "route": "IV", "frequency": "q24h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "1 gm", "route": "IV", "frequency": "q12h"}
+                    ]
+                }
+            }
+        ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+        "type": "list",
+        "items": [
+            "General principal for diverticulitis/peritonitis due to bowel flora is:",
+            "Regimen that includes drugs with predictable activity vs both aerobic and anaerobic gram negative bacilli.",
+            "Drugs active vs only aerobic gram-negative bacilli:",
+            "Aminoglycosides",
+            "Second, third, and fourth generation cephalosporins",
+            "Aztreonam",
+            "Antipseudomonal penicillins (e.g., piperacillin without tazobactam)",
+            "Ciprofloxacin and Levofloxacin",
+            "Drugs active vs only anaerobic gram negative bacilli (Antimicrob Agents Chemother 2012;56:1247):",
+            "Metronidazole",
+            "Ceftolozane-tazobactam and ceftazidime-avibactam have some but incomplete activity vs anaerobes and hence need to use with metronidazole",
+            "No longer recommended for gram-negative anaerobes due to increasing resistance:",
+            "Cefoxitin/cefotetan (Clin Infect Dis 2014;59:698)",
+            "Clindamycin (Clin infect Dis 2010;50:133)",
+            "Drugs active vs both aerobic and anaerobic gram negative bacilli:",
+            "Piperacillin-tazobactam",
+            "Ampicillin-sulbactam no longer recommended as empiric therapy due to increasing resistance in E. coli (Clin Infect Dis 2010;50:133)",
+            "45% resistant E. coli and other Enterobacterales in urology patients (Current Urology. 2022;16:94)",
+            "Carbapenems (meropenem, imipenem, doripenem)",
+            "Moxifloxacin: Limited experience with severe disease. Maybe OK for mild focal peritonitis",
+            "See Gram Negative Bacilli, Drug Resistance, Overview and specific organisms for further discussion of resistance and treatment options",
+            "Common areas of uncertainty:",
+            "Need for empiric activity vs MRSA? No clear need.",
+            "Need for empiric activity vs enterococci? Unsually not necessary. Exception is patient with valvular heart disease who is at risk of infective endocarditis",
+            "When is specific therapy for Candida indicated?",
+            "Pure culture of Candida species from abdominal cavity or blood",
+            "In a patient not responding to antibacterial therapy, positive serum marker for fungal infection: e.g., serum beta-D-glucan",
+            "Presence of necrotizing pancreatitis"
+        ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+        "type": "list",
+        "items": [
+            "In prospective randomized placebo-controlled trial, no benefits from preemptive (empiric) antifungal therapy in patients with peritonitis due to complications of diverticulitis, appendicitis and other disease entities leading to 'fecal' peritonitis (Clin Infect Dis 2015;61:1671)",
+            "Note: Ticarcillin-clavulanate is no longer available"
+        ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "drug_name": "Cefoxitin",
+  "tradename": "Mefoxin",
+  "usage_and_dosing": {
+    "general": [
+      "Cefoxitin is a 2nd-generation parenteral cephamycin cephalosporin.",
+      "Increasing resistance of anaerobic Gram-negative bacilli (e.g., Bacteroides sp.) has been observed.",
+      "In vitro may induce increased ẞ-lactamase, especially in Enterobacter sp.",
+      "For class-wide adverse effects and other information, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "2 gm IV q6-8h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "80-160 mg/kg/day (divided q6-8h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "notes": "May falsely increase Scr by interference with assay.",
+    "half_life_normal": "0.8",
+    "half_life_esrd": "13-23",
+    "dose_renal_function_normal": "2 gm IV q8h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 2 gm q8-12h. CrCl <10: 2 gm q24-48h",
+    "hemodialysis": "2 gm q24-48h (+ extra 1 gm AD)",
+    "capd": "1 gm q24h",
+    "crrt": "2 gm q8-12h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": {
+      "obesity": "For surgical prophylaxis, larger dose possibly required. Data insufficient for a firm recommendation. See Obesity Dosing Adjustments table for more information."
+  },
+  "adverse_effects": [
+    "Local phlebitis (rare), fever, rash (2%), positive Coombs (2%), neutropenia (2%), eosinophilia (3%), increased PT/PTT, GI (2%), C. difficile colitis, increased LFTs (3%), increased BUN/Creatinine (3%)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "110 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "65-79",
+    "volume_of_distribution_vd_l_vss": "16.1 L (Vss)",
+    "avg_serum_half_life_hr": "0.8",
+    "elimination": "Renal",
+    "bile_penetration_percent": "280",
+    "csf_blood_percent": "3",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "No data"
+  },
+  "major_drug_interactions": [
+    "No significant interactions."
+  ],
+  "comments": [
+    "None"
+  ]
+}

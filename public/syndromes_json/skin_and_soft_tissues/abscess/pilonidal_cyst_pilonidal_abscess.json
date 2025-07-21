@@ -1,0 +1,31 @@
+{
+  "name": "Pilonidal Cyst, Pilonidal Abscess",
+  "summary": "This document describes pilonidal disease, an inflammatory condition of the skin and subcutaneous tissue, typically occurring at the cephalad end of the intergluteal cleft. It covers the clinical setting, etiology, and treatment regimens.",
+  "description": "Pilonidal disease is thought to be caused by a congenital issue and is more common in males. Patients can present with a range of symptoms from asymptomatic cysts to acute abscesses. The primary treatment is surgical, with antibacterial therapy being adjunctive and its use controversial.",
+  "syndromes": [
+    {
+      "name": "Pilonidal Disease",
+      "description": "An inflammatory process in the skin and subcutaneous tissue, characterized by cysts, abscesses, or chronic drainage at the top of the buttocks crease."
+    }
+  ],
+  "special_considerations": [
+    "The majority of cases occur in males.",
+    "Antibacterial therapy is adjunctive and its role is controversial."
+  ],
+  "pathogens": [
+    {
+      "name": "Anaerobes, mixed aerobes and anaerobes",
+      "summary": "The infection is typically polymicrobial, involving a mix of aerobic and anaerobic bacteria."
+    }
+  ],
+  "references": [
+    {
+      "title": "Surgical excision or incision and drainage for pilonidal disease.",
+      "url": "Am Surg 2017 May 1;83(5):453-457"
+    },
+    {
+      "title": "General information on pilonidal disease.",
+      "url": "StatPearls; 2023 Jan. 2022 Aug 8"
+    }
+  ]
+}

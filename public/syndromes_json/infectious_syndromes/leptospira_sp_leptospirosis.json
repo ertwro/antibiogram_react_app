@@ -1,0 +1,297 @@
+{
+  "documentMetadata": {
+    "title": "Leptospira sp., Leptospirosis",
+    "sourceFile": "Leptospira sp., Leptospirosis.pdf",
+    "lastUpdated": "2024-10-11"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "History helps if exposure to fresh water contaminated by lepto-infected rodent urine",
+        "Acute onset of systemic febrile illness with a highly variable clinical presentations:",
+        "Headache and myalgia in 75-100%",
+        "Conjunctival suffusion in 55%",
+        "Some patients have aseptic meningitis; some hepatitis with renal failure (Weil's disease)",
+        "A zoonotic infection with multisystem manifestations that is caused by the spirochete Leptospira interrogans.",
+        "Leptospira is found in urine of a large variety of domestic and wild animals: livestock (cattle, swine, sheep, horses, and goats), dogs, small rodents.",
+        "Ask about exposure to potentially conmtaminated fresh water (streams, rivers, creeks) or lepto-infected rodent urine",
+        "Spirochete can enter host through skin, mucous membranes or conjunctiva.",
+        "Acute onset of systemic febrile illness with a highly variable clinical presentations from mild to severe",
+        "Headache and myalgia in 75-100%",
+        "Conjunctival suffusion in 55%",
+        "Some patients have aseptic meningitis; some hepatitis with renal failure (Weil's disease)",
+        "Often dramatic increases in bilirubin but AST/ALT increases to no more than 5 times normal."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Previous gold standard: serology done by CDC (4-fold rise in antibody titer); variety of commercial antibody tests; good for epidemiology but not much help clinically due to delayed increase in antibody",
+        "Isolation of the organism from blood or CSF, generally during the first 10 days of illness and prior to initiation of antibiotic. Requires high index of suspicion and special media. Not practical.",
+        "Increasing availability of PCR testing on blood, urine, and CSF. Check with State public health labs and commercial diagnostic laboratories",
+        "Increasing use of metagenomic next generation sequencing methods: J Pediatric Infect Dis Soc 2021; 10 (supplement-4):S78; N Engl J Med 2014; 370:2408"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Classification"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Spirochete",
+        "Leptospira interrogans",
+        "Other Leptospira spp. (Clin Med (Lond). 2022; 22:14-17)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mild disease (outpatient)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po",
+                "frequency": "bid x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "tid x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "1 gm",
+                "route": "po",
+                "frequency": "x one dose and then 500 mg po daily x 2 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Pregnancy or children age <8 years"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "25-50 mg/kg/day",
+                "route": "po",
+                "frequency": "in 3 divided doses x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Severe disease (inpatient)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Penicillin G",
+                "dose": "1.5 million units",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "once daily x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Children"
+            },
+            "components": [
+              {
+                "drug": "Penicillin G",
+                "dose": "250,000-400,000 units per kg",
+                "route": "IV",
+                "frequency": "per day in 4-6 divided doses x 7 days"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mild disease (outpatient)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "once daily x 3 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Children age < 8 years or pregnancy"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg (max 500 mg) on day one and then 5 mg/kg/day (max 250 mgs)",
+                "frequency": "x 3 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Severe disease (inpatient)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adults"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "IV",
+                "frequency": "q12h x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Children"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "80-100 mg/kg",
+                "route": "IV",
+                "frequency": "once daily x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Children"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "2-4 mg/kg/day",
+                "route": "IV",
+                "frequency": "divided q12h x 7 days"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Patients treated, especially with penicillin, may experience Jarisch-Herxheimer reactions, which may be severe.",
+        "The American Academy of Pediatrics endoses that doxycycline can safely be administered for short durations (<=21 days) regardless of patient age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)",
+        "No clear role for corticosteroids which are not routinely recommended."
+      ]
+    }
+  ]
+}

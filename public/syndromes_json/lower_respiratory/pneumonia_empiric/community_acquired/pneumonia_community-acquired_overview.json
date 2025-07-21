@@ -1,0 +1,68 @@
+{
+  "documentMetadata": {
+    "title": "Community-acquired pneumonia (CAP), Overview",
+    "sourceFile": "Pneumonia, Community-acquired, Overview.pdf",
+    "lastUpdated": "2025-04-25"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Presentation"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute onset of fever, chills, cough, shortness of breath, and chest pain but can be mimicked by many disease processes.",
+        "Historically divided into \"typical\" and \"atypical\" syndromes, there is considerable overlap: so-called typical pathogens (e.g., Strep. pneumoniae) can be atypical in presentation and atypical pathogens (e.g., Legionella sp.) may present with a picture of typical pneumonia.",
+        "Bacteria and viruses are responsible for the majority of cases. Among bacteria, Strep. pneumoniae and mycoplasma predominate. However, tuberculosis, fungal, and parasitic infections can be confused with CAP. These etiologies should be considered in patients not responding to antibacterial therapy.",
+        "Updated (2019) ATS guidelines (Am J Respir Crit Care Med 2019;200:e45)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Empiric therapy:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Community-acquired Pneumonia (CAP), Adult, Out-patient",
+            "Community-acquired Pneumonia (CAP), Adult, In-patient",
+            "Pneumonia in Neonates, Age < 1 month",
+            "Pneumonia in Children, Age 1-3 months",
+            "Pneumonia in Children, Age > 3 months"
+          ]
+        },
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Specific therapy:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aspiration Pneumonia",
+            "Chlamydophila Pneumonia",
+            "H. influenzae Pneumonia",
+            "Klebsiella Pneumonia",
+            "Legionella Pneumonia",
+            "Moraxella Pneumonia",
+            "Mycoplasma Pneumonia",
+            "Pneumococcal (Streptococcus pneumoniae) Pneumonia",
+            "Q fever, Coxiella burnetti",
+            "Staph. aureus Pneumonia"
+          ]
+        }
+      ]
+    }
+  ]
+}

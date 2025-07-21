@@ -1,0 +1,369 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Community-acquired, Adult, Out-patient",
+    "lastUpdated": "2023-08-23",
+    "sourceFile": "Pneumonia, Community-acquired, Adult, Out-patient.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Community-acquired pneumonia (CAP) in an adult not admitted to the hospital.",
+        "American Thoracic Society/Infectious Diseases Society of America (ATS/IDSA) Guidelines (2019) for management and treatment of CAP (Am J Respir Crit Care Med. 2019; 200:e45) recommend use of Pneumonia Severity Index (PSI) as a clinical prediction tool in addition to clinical judgment in determining need for hospitalization of the patient with CAP. PSI is more complicated to calculate but better predictor of mortality than the older CURB-65 score (Thorax 2003; 58:377)",
+        "Patients with PSI < 90 (i.e., risk classes I, II, or III) are candidates for out-patient therapy. See PSI Scoring System",
+        "CURB-65 calculator",
+        "Empiric regimen is determined by presence of co-morbidity."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "No co-morbidity:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Strep. pneumoniae",
+            "Atypical pathogens: Chlamydophila pneumoniae, C. psittaci, Legionella sp., M. pneumoniae, C. burnetii (Q fever)",
+            "Viral"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Co-morbidity:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Alcoholism: Strep. pneumoniae, H. influenzae",
+            "COPD: H. influenzae, M. catarrhalis, Strep. pneumoniae",
+            "Post CVA-aspiration: Oral flora, Strep. pneumoniae",
+            "Post-obstruction of bronchi: Strep. pneumoniae, anaerobes",
+            "Post-influenza: Strep. pneumoniae, Staph. aureus",
+            "Neutropenia, immunocompromised host: Pseudomonas aeruginosa",
+            "Injection drug use: Staph. aureus (MRSA and MSSA)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "No co-morbidity, no risk factors for Ps. aeruginosa or methicillin-resistant Staph. aureus",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "none"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "none for Ps. aeruginosa or methicillin-resistant Staph. aureus"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Amoxicillin",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5-7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "No co-morbidity, no risk factors for Ps. aeruginosa or methicillin-resistant Staph. aureus",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "none"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "none for Ps. aeruginosa or methicillin-resistant Staph. aureus"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5-7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Co-morbidity present (e.g., chronic heart, lung, liver or renal disease; diabetes; alcohol use disorder; neoplastic disease, asplenia)",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "present"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875 mg/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "drug": "Cefpodoxime",
+            "dose": "200 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefuroxime",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "x1 then 250 mg daily x 4 days",
+            "connector": "+"
+          },
+          {
+            "drug": "Clarithromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5-7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Co-morbidity present (e.g., chronic heart, lung, liver or renal disease; diabetes; alcohol use disorder; neoplastic disease, asplenia)",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "present"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "No co-morbidities",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "none"
+            }
+          ]
+        },
+        "condition": "local rates of macrolide-resistant Strep. pneumoniae < 25%",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "x1 dose then 250 mg po q24h x4 days"
+          },
+          {
+            "drug": "Clarithromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Clarithromycin extended release",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "q24h",
+            "connector": "or"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Co-morbidities present",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "present"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Gemifloxacin",
+            "dose": "320 mg",
+            "route": "po",
+            "frequency": "q24h",
+            "connector": "or"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5-7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Co-morbidities present",
+          "criteria": [
+            {
+              "parameter": "comorbidity",
+              "value": "present"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875 mg/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "drug": "Cefpodoxime",
+            "dose": "200 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefuroxime",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5-7 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Efficacy of 5-7 days of antimicrobial therapy similar to that of longer courses.",
+        "Duration of therapy should be guided by clinical stability (e.g., normalization of vital signs); failure to achieve clinical stability after 5 days is associated with worse outcomes and merits further evaluation."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Most recent ATS/IDSA CAP guidelines: Am J Respir Crit Care Med. 2019; 200:e45",
+        "Review article: N Engl J Med. 2023;389:632",
+        "Azithromycin/Clarithromycin: slightly higher risk of cardiac arrhythmias; consider an alternative in patients with underlying cardiovascular disease.",
+        "Beta-lactams are not active against atypical pathogens.",
+        "Doxycycline is the drug of choice for mycoplasma infection due to increasing macrolide resistance (J Infect. 2014 69:S42).",
+        "Levofloxacin or Moxifloxacin:",
+        "Active and clinically effective against atypical and typical bacterial pathogens, including penicillin-resistant Strep. pneumoniae.",
+        "Potential for hypo- and hyperglycemia, QTc prolongation; association of fluoroquinolone usage with aortic aneurysm, dissection or rupture; C. difficile colitis.",
+        "Lefamulin, Omadacycline and Delafloxacin recently FDA-approved for CABP but unclear advantages of these more expensive agents over other agents."
+      ]
+    }
+  ]
+}

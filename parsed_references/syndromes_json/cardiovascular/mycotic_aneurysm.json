@@ -1,0 +1,150 @@
+{
+  "documentMetadata": {
+    "title": "Mycotic Aneurysm",
+    "lastUpdated": "2025-01-21",
+    "sourceFile": "Mycotic Aneurysm.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infection of the arterial wall of the aorta, or less often other arteries, with subsequent dilation and potential rupture due to destruction caused by microorganisms.",
+        "Classic presentation is painful pulsatile abdominal mass in a febrile patient. See Comments for other presentations.",
+        "Best diagnostic imaging: CT angiogram.",
+        "Pathogenesis varies: direct inoculation, bacteremic seeding of atherosclerotic plaque, spread from contiguous infection, septic emboli to vaso vasorum.",
+        "Diagnosis of microbial etiology:",
+        "Blood cultures (+ in 50-85%)",
+        "Surgical site cultures (+ in 76%)",
+        "Rarely need molecular probe for microbial nucleic acid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (28-71%)—often MRSA",
+        "Staphylococcus epidermidis",
+        "Salmonella sp. (15-24%)",
+        "Other: Streptococcus pneumoniae, gram-negative enteric bacteria, Treponema pallidum, Mycobacterium tuberculosis, Fungi (Candida sp., Cryptococcus sp., Aspergillus sp.), Clostridia sp., Bacteroides sp. and others"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Combination of antimicrobial therapy plus surgical debridement (resection) with revascularization."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric antibiotic therapy:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "once daily"
+              },
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "(over 4 hr) q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q12h",
+                "connector": "or"
+              }
+            ],
+            "connector": "+"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment duration depends on specific etiology and surgical care. In general, 6 weeks of antibiotic therapy from the time of definitive surgical procedure.",
+        "Specific therapy: Dependent on identification of the specific etiologic organism(s)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For Vancomycin, consider substituting Daptomycin if active.",
+            "Report of success with Ceftaroline with surgery for mycotic aneurysm due to VISA S aureus resistant to Daptomycin (BMJ Case Rep 2015: PMID 25833910).",
+            "For gram-negatives consider Cefepime or a carbapenem (Imipenem-cilastatin, Meropenem, or Ertapenem). In the rare patient with a gram-negative rod resistant to all beta-lactams, fluoroquinolones and aminoglycosides, need ID consult. See specific organisms for recommendations."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Myriad of other presentations:",
+        "G-I bleeding secondary to aorto-duodenal fistula",
+        "High output heart failure secondary to an A-V fistula",
+        "Mesenteric and/or peripheral ischemia",
+        "Contiguous psoas abscess",
+        "Contiguous vertebral osteomyelitis"
+      ]
+    }
+  ]
+}

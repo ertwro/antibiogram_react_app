@@ -1,0 +1,87 @@
+{
+  "documentMetadata": {
+    "title": "Lice, Pubic",
+    "lastUpdated": "2023-11-14",
+    "sourceFile": "Lice, Pubic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sexually transmitted lice infestation involving pubic area. Can spread to eyelashes (Pediculosis ciliaris).",
+        "Also known as crab louse.",
+        "Common to have another sexually transmitted disease (STD); test at time of diagnosis.",
+        "Diagnosis: Visualization of louse or nits (eggs) attached to pubic (or other) hair."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Phthirus pubis (crab louse)",
+        "Pediculosis pubis",
+        "Pediculosis ciliaris (eyelash)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Permethrin 1% cream, or Pyrethrins with piperonyl butoxide, to pubic and perianal skin, thighs, trunk and axillae. Wash off after 10 minutes. Evaluate for retreatment after 7 days.",
+        "If patient unlikely to return, advise empiric retreatment",
+        "Whether topical or oral therapy, remove visible nits (eggs) with fine-toothed nit comb or tweezers.",
+        "Pediculosis ciliaris (eyelash infestation):",
+        "Apply petrolatum or occlusive ophthalmic ointment to lid margins bid.",
+        "After 8-10 days, mechanically remove lice and nits.",
+        "If normal removal fails, Ivermectin 200 µg/kg po one week apart."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Malathion 0.5% lotion to pubic and perianal skin, thighs, trunk and axillae. Wait 8-12 hours before washing off. Malodorous. (not FDA approved for treatment of pubic lice)",
+        "Ivermectin 250 µg/kg po x 1 dose then repeat in 2 weeks (oral form not FDA approved for treatment of lice).",
+        "Do not use Ivermectin during pregnancy or for children weighing <15 kg.",
+        "Topical ivermectin also efficacious",
+        "Ivermectin 0.5% lotion (Trade name: Sklice)",
+        "Kills adults; causes death of newly hatched lice within 48 hrs",
+        "Convenient: Apply to affected areas 10 minutes and then rinse",
+        "Reported cure rate of 74% at 15 days for head lice (N Engl J Med 367:1687, 2012; Med Lett 54:61, 2012)",
+        "Over the counter formulation approved in 2023 (Med Lett Drugs Ther 65:103 2023)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treat sexual contacts within the previous 30 days.",
+        "Do not use Lindane; toxicities include seizures and aplastic anemia.",
+        "Wash bedding and clothing in hot water and dry at ≥ 130°F.",
+        "Items that cannot be washed should be dry cleaned or sealed in plastic bags for 2 weeks.",
+        "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70:1"
+      ]
+    }
+  ]
+}

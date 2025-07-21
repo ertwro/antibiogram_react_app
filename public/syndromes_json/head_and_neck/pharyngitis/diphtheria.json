@@ -1,0 +1,307 @@
+{
+  "documentMetadata": {
+    "title": "Diphtheria",
+    "sourceFile": "Diphtheria.pdf",
+    "lastUpdated": "2025-05-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Presentation:",
+        "Sore throat, cervical lymphadenopathy, low grade fever, inadequate immunization history for diphtheria",
+        "Exam: Erythema progresses to white exudate and then adherent gray pseudomembrane",
+        "Membrane due to necrosis of mucosal cells by diphtheria toxin",
+        "Toxin can also cause damage to myocaridium, kidneys, and central nervous system",
+        "Membranous pharyngitis due to Diphtheria may occur in immunized individuals.",
+        "Antibiotics therapy decreases toxin production and reduces spread of organisms.",
+        "Respiratory droplet isolation indicated",
+        "Diphtheria toxin:",
+        "Leads to adherent gray membrane in nasal passages, pharynx, and laryngotracheal bronchial tree",
+        "Toxin can also cause myocarditis (22%) of patients",
+        "Toxin can cause neuropathy (soft palate, cranial nerves)",
+        "To obtain equine diphtheria antitoxin from CDC, +1 404-639-2880. More information at CDC Diphtheria pages.",
+        "In short:",
+        "Toxigenic C. diphtheriae primarily causes respiratory track inflammation and necrosis. Treatment is antitoxin and usually parenteral macrolide antibiotic therapy",
+        "Non-toxigenic strains of C. diphtheriae, and other invasive Corynebacteriae species, most often manifest as cutaneous ulcers, do not need anti-toxin, and may respond to oral macrolide therapy",
+        "See comment section for data on cutaneous ulcers due to non-toxigenic diphtheria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Culture of pharynx and nose (alert laboratory as special media needed)",
+        "PCR can detect organism and/or C. diphtheriae toxin. CDC can help: phone +1 404-639-1231"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Corynebacterium diphtheriae, toxigenic strains (spread is human to human)",
+        "Toxigenic strains; spread is human to human",
+        "Non-toxigenic strains are a rare cause of serious disease, e.g., bacteremia, endocarditis, osteomyelitis and septic arthritis (MMWR. 2024; 73:405)",
+        "Other Corynebacterium species are rarely toxigenic (spread is animal to human)",
+        "Corynebacteriuim ulcerans",
+        "Corynebacterium pseudotuberculosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Place patient in respiratory droplet isolation; Continue isolation until two consecutive cultures, taken at least 24 hrs apart, are negative",
+        "Carefully and constantly monitor adequacy of airway. Some patients may need intubation.",
+        "Treatment includes antibiotics, antitoxin, and maintenance of patient airway.",
+        "Antibiotic Therapy:",
+        "Due to increasing resistance to penicillins, prefer a macrolide as first choice (Genome Med 2020;12:107)"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Macrolides"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "route": "IV/po",
+                "dose": "10-12 mg/kg once daily (Max. 500 mg/day)"
+              }
+            ],
+            "appliesTo": {
+              "description": "Child"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "route": "IV/po",
+                "dose": "500 mg once daily"
+              }
+            ],
+            "appliesTo": {
+              "description": "Adult"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Erythromycin",
+                "dose": "40-50 mg/kg/day (max. of 2 gm/day)",
+                "route": "IV/po in 4 divided doses",
+                "notes": "If IV, infuse each over 60 minutes"
+              }
+            ],
+            "appliesTo": {
+              "description": "Child and Adult"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Penicillins: Use only if no available macrolides and confirmed in vitro susceptibility"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Aqueous Penicillin G",
+                "dose": "100,000-300000 units/kg/day",
+                "route": "IV",
+                "frequency": "divided q6h",
+                "notes": "(max.of 1 million units per dose)"
+              },
+              {
+                "drug": "Procaine penicillin G",
+                "dose": "50,000 units/kg/day",
+                "route": "IM",
+                "frequency": "once daily",
+                "notes": "(max. of 1.2 million units/ day)",
+                "connector": "or"
+              },
+              {
+                "drug": "Pen V-K",
+                "dose": "10-15 mg/kg/dose (max of 500 mg per dose)",
+                "route": "po",
+                "frequency": "4 times /day",
+                "connector": "or"
+              }
+            ],
+            "appliesTo": {
+              "description": "Child"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Aqueous Penicillin G",
+                "dose": "25,000 units/kg",
+                "route": "IV",
+                "frequency": "q6h",
+                "notes": "(max 1 million units/dose))"
+              },
+              {
+                "drug": "Penicillin G procaine",
+                "dose": "1.2 million units",
+                "route": "IM",
+                "frequency": "once daily",
+                "connector": "or"
+              }
+            ],
+            "appliesTo": {
+              "description": "Adult"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Can switch to Penicillin VK 500 mg po without food qid when patient is able"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diphtheria Antitoxin"
+        },
+        {
+          "type": "list",
+          "items": [
+            "In USA obtain from the CDC; telephone consultation at: 1-404-639-2889",
+            "See WHO Clinical Management Guideline, 2 Feb 2024.",
+            "No longer a need for sensitivity testing. If suspected or confirmed sysmptomatic diphtheria administer single dose of antitoxin:",
+            "Antitoxin IV therapy. Dose depends on stage of illness:",
+            "< 48 hours: 20,000-40,000 International units",
+            "Presence of nasopharyngeal gray membranes: 40,000-60,000 International units",
+            "> 3 days and \"bull neck\": 80,000-120,000 International units. Infuse IV over 60 minutes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Close contacts."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify, culture, and manage close contacts. Some will need prophylactic antibiotic:",
+            "Treat contacts with Azithromycin 500 mg po once daily x 7-10 days or Erythomycin (dosage above)",
+            "If no available macrolide, can use Procaine Penicillin G IM: 600,000 units if age < 6 yrs, 1.2 million units if age ",
+            " 6 yrs."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Follow up cultures after 1-2 days of therapy and again 2 weeks post end of therapy to document eradication of organism from the airway.",
+        "Post therapy, patient will need immunization with diphtheria toxoid vaccine."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No clinical data with other drugs"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy: typically 14 days",
+        "C. diphtheriae is susceptible in vitro to clarithromycin, azithromycin, fluoroquinolones, clindamycin, TMP/SMX, vancomycin and linezolid. If strain resistant to macrolides and penicillin, vancomycin or linezolid are reasonable alternatives",
+        "Report of fatal toxigenic C. diphtheriae due to resistance to all beta-lactams to include inducible resistance to carbapenems: Clin Infect Dis 2020; doi.org/10.1093/cid/ciaa1147"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Azithromycin is better tolerated (both po and IV) than Erythromycin. Erythromycin IV is associated with phlebitis and po with nausea and diarrhea.",
+        "Ensure adequate airway. Obtain EKG & cardiac enzymes.",
+        "Cutaneous diphtheria",
+        "Chronic shallow ulcer",
+        "Presence of dirty gray membrane",
+        "Diagnosis by culture or PCR",
+        "Corynebacteria strains that cause cutaneous ulcers are usually non-toxigenic, and no antitoxin is needed",
+        "Contact prophylaxis",
+        "Identify, culture, and consider antimicrobial prophylaxis of close contacts",
+        "Immunize if vaccine status is not current or known",
+        "Post-cultures: treat contacts with: Azithromycin 500 mg po once daily x 7-10 days",
+        "Disease typically no longer contagious after 48h of therapy.",
+        "CDC clinical guidance.",
+        "Recent review: StatPearls Publishing; 2022 Jan. 2021 Aug 14"
+      ]
+    }
+  ]
+}

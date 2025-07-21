@@ -1,0 +1,76 @@
+{
+  "drug_name": "Gatifloxacin",
+  "tradename": "Tequin, Zymar",
+  "usage_and_dosing": {
+    "general": [
+      "Gatifloxacin is a fluoroquinolone with efficacy against respiratory and enteric pathogens.",
+      "Gatifloxacin was withdrawn from US and Canadian markets in 2006 due to drug-related hypo- and hyperglycemic reactions. See adverse effects. Still available in Europe and other regions.",
+      "Ophthalmic solution (eyedrops) remains widely available."
+    ],
+    "adult_dose": {
+      "usual_dose": "1 drop in affected eye as directed"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "7-8",
+    "half_life_esrd": "11-40",
+    "dose_renal_function_normal": "400 mg po/IV q24h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 400 mg, then 200 mg q24h. CrCl <10: 400 mg, then 200 mg q24h",
+    "hemodialysis": "200 mg q24h (give dialysis day dose AD)",
+    "capd": "200 mg q24h",
+    "crrt": "400 mg, then 200 mg q24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to an adverse effect: 2.9%.",
+    "Gatifloxacin-associated dysglycemia due to documented hypoglycemic and hyperglycemic reactions (NEJM 354:1352, 2006; Clin Infect Dis 49:402, 2009).",
+    "For complete class-wide adverse effects see Fluoroquinolones, Overview and for QTc prolongation, see QTc Interval Prolongation.",
+    "Any of the fluoroquinolones may exacerbate muscle weakness in persons with myasthenia gravis."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "Short-term use safe, monitor infant for GI toxicity; avoid if possible.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (200, 400 mg), 0.5% oph soln, Injection",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "96",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "4.2-4.6 (400 mg po/IV q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "20",
+    "volume_of_distribution_vd_l_kg_vss": "1.8 L/kg (Vss)",
+    "avg_serum_half_life_hr": "7-8",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "36",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "35 (400 mg po/IV q24h, 0-24 hr)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Mg)", "effect": "↓ gatifloxacin", "management": "Separate administration by"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-administrati"},
+      {"drug": "Insulin", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Iron supplements", "effect": "↓ gatifloxacin", "management": "Separate administration by"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or avoid"},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Probenecid", "effect": "↑ gatifloxacin", "management": "Monitor or avoid"},
+      {"drug": "Sucralfate", "effect": "↓ gatifloxacin", "management": "Separate administration by"},
+      {"drug": "Zinc", "effect": "↓ gatifloxacin", "management": "Separate administration by"}
+  ]
+}

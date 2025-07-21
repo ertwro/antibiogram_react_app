@@ -1,0 +1,35 @@
+{
+  "documentMetadata": {
+    "title": "Shock, Septic, Bacteremic, Endotoxin",
+    "sourceFile": "Shock_ Septic, Bacteremic, Endotoxin.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Septic, Bacteremic, and Endotoxin Shock"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document provides an overview of septic shock, a life-threatening condition that occurs when the body's response to an infection injures its own tissues and organs. It is a subset of sepsis with a higher risk of mortality."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Pathophysiology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Septic shock is characterized by persistent hypotension requiring vasopressors to maintain a mean arterial pressure (MAP) of 65 mm Hg or higher and a serum lactate level greater than 2 mmol/L (>18 mg/dL) despite adequate volume resuscitation."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Management focuses on early recognition, rapid administration of antibiotics, fluid resuscitation, and vasopressor support. Source control is also a critical component of management."
+    }
+  ]
+}

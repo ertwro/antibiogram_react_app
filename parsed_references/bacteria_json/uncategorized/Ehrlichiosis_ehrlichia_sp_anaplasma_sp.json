@@ -1,0 +1,551 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Ehrlichia and Anaplasma species",
+      "aliases": [
+        "Ehrlichiosis",
+        "Anaplasmosis",
+        "Human Monocytotropic Ehrlichiosis (HME)",
+        "Human Granulocytotropic Anaplasmosis (HGA)"
+      ],
+      "lastUpdated": "2023-08-07",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacteria"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Ehrlichia chaffeensis",
+          "notes": "Causes Human Monocytotropic Ehrlichiosis (HME). Transmitted by the Lone Star tick."
+        },
+        {
+          "type": "Species",
+          "value": "Anaplasma phagocytophilum",
+          "notes": "Causes Human Granulocytotropic Anaplasmosis (HGA). Transmitted by Ixodes ticks."
+        },
+        {
+          "type": "Species",
+          "value": "Ehrlichia ewingii",
+          "notes": "Causes a form of ehrlichiosis similar to HGA. Transmitted by the Lone Star tick."
+        }
+      ],
+      "biochemicalTests": "Obligate intracellular Gram-negative bacteria. Do not grow on artificial media. Diagnosis is by identifying morulae within leukocytes on a peripheral blood smear (Giemsa stain), serology, or PCR."
+    },
+    "clinicalProfile": {
+      "summary": "Ehrlichiosis and anaplasmosis are tick-borne illnesses caused by obligate intracellular bacteria that infect white blood cells. The initial presentation is typically a non-specific febrile illness with headache and myalgia. Co-infection with other tick-borne pathogens like Borrelia and Babesia should always be considered.",
+      "pathophysiologyPearls": [
+        "These bacteria multiply within the cytoplasm of leukocytes (monocytes for E. chaffeensis, granulocytes for A. phagocytophilum and E. ewingii), forming characteristic microcolonies called morulae.",
+        "Infection leads to a systemic inflammatory response, causing fever and other constitutional symptoms."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Headache",
+        "Myalgia",
+        "Nausea, vomiting",
+        "Rash (more common in HME, especially in children)",
+        "Thrombocytopenia",
+        "Leukopenia",
+        "Elevated liver transaminases (AST, ALT)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Human Monocytotropic Ehrlichiosis (HME)",
+          "description": "Caused by E. chaffeensis. Rash is present in about 23% of adults and 60% of children."
+        },
+        {
+          "syndromeName": "Human Granulocytotropic Anaplasmosis (HGA)",
+          "description": "Caused by A. phagocytophilum. Rash is rare."
+        },
+        {
+          "syndromeName": "Ewingii Ehrlichiosis",
+          "description": "Caused by E. ewingii. Clinically similar to HGA."
+        }
+      ],
+      "highRiskPopulations": [
+        "Individuals with exposure to tick-infested areas, particularly in the central, southern, and mid-Atlantic US (Lone Star tick) and New England, north-central, and Pacific US (Ixodes tick)."
+      ],
+      "transmissionVectors": [
+        "Ticks (Lone Star tick for Ehrlichia, Ixodes tick for Anaplasma)"
+      ],
+      "prognosisNotes": [
+        "Early treatment with doxycycline is highly effective. Delay in therapy can lead to severe illness, including meningoencephalitis, ARDS, and death."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Imipenem-cilastatin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Ampicillin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Erythromycin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Azithromycin",
+          "notes": "Resistant"
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Specific therapy should not be delayed pending laboratory confirmation in suspected cases."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric/Directed",
+            "condition": "Ehrlichiosis/Anaplasmosis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric/Directed",
+            "condition": "Ehrlichiosis/Anaplasmosis",
+            "patientPopulation": [
+              "Children < 45 kg"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "2.2 mg/kg",
+                      "route": "IV/PO",
+                      "frequency": "BID",
+                      "comments": "Max dose 100 mg"
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric/Directed",
+            "condition": "Ehrlichiosis/Anaplasmosis in Pregnancy",
+            "patientPopulation": [
+              "Pregnant women"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "10 mg/kg (max 300 mg)",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Doxycycline is generally avoided but may be warranted in life-threatening infections."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Febrile illness after a tick bite or exposure to tick-endemic areas.",
+        "Unexplained fever with thrombocytopenia, leukopenia, and elevated transaminases."
+      ],
+      "methodologyNotes": [
+        "PCR is the preferred diagnostic method in the acute phase of illness."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "PCR",
+          "trigger": "Acute febrile illness with tick exposure",
+          "purpose": "To detect Ehrlichia or Anaplasma DNA in whole blood. Most sensitive method during the first week of illness."
+        },
+        {
+          "testName": "Indirect Fluorescent Antibody (IFA) Assay",
+          "trigger": "Suspicion of ehrlichiosis/anaplasmosis",
+          "purpose": "To detect antibodies. A four-fold rise in titer between acute and convalescent samples is diagnostic. Requires species-specific assays."
+        },
+        {
+          "testName": "Peripheral Blood Smear",
+          "trigger": "Acute febrile illness with tick exposure",
+          "purpose": "To look for intracytoplasmic morulae in leukocytes. More likely to be positive in HGA (20-80%) than HME (1-20%)."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is based on a combination of clinical findings, epidemiological risk, and laboratory tests (PCR, serology, blood smear). Treatment should not be delayed for laboratory confirmation.",
+        "biosafetyWarning": "Standard precautions are sufficient for handling clinical specimens.",
+        "methods": []
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Prevention",
+          "details": "Avoiding tick bites through personal protective measures (e.g., repellents, protective clothing) and prompt tick removal.",
+          "targetPopulation": "General population in endemic areas."
+        }
+      ],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "JAMA",
+          "citation": "315:1767, 2016",
+          "summaryOrNote": "Review of tick-borne diseases."
+        },
+        {
+          "source": "Clinical Chemistry",
+          "citation": "2020; 66:537",
+          "summaryOrNote": "Summary of laboratory methods for diagnosing tick-borne diseases in the USA."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.376Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Ehrlichia and Anaplasma species"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Ehrlichiosis",
+        "Anaplasmosis",
+        "Human Monocytotropic Ehrlichiosis (HME)",
+        "Human Granulocytotropic Anaplasmosis (HGA)"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-08-07"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacteria"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Ehrlichiosis and anaplasmosis are tick-borne illnesses caused by obligate intracellular bacteria that infect white blood cells. The initial presentation is typically a non-specific febrile illness with headache and myalgia. Co-infection with other tick-borne pathogens like Borrelia and Babesia should always be considered.",
+      "pathophysiologyPearls": [
+        "These bacteria multiply within the cytoplasm of leukocytes (monocytes for E. chaffeensis, granulocytes for A. phagocytophilum and E. ewingii), forming characteristic microcolonies called morulae.",
+        "Infection leads to a systemic inflammatory response, causing fever and other constitutional symptoms."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Headache",
+        "Myalgia",
+        "Nausea, vomiting",
+        "Rash (more common in HME, especially in children)",
+        "Thrombocytopenia",
+        "Leukopenia",
+        "Elevated liver transaminases (AST, ALT)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Human Monocytotropic Ehrlichiosis (HME)",
+          "description": "Caused by E. chaffeensis. Rash is present in about 23% of adults and 60% of children."
+        },
+        {
+          "syndromeName": "Human Granulocytotropic Anaplasmosis (HGA)",
+          "description": "Caused by A. phagocytophilum. Rash is rare."
+        },
+        {
+          "syndromeName": "Ewingii Ehrlichiosis",
+          "description": "Caused by E. ewingii. Clinically similar to HGA."
+        }
+      ],
+      "highRiskPopulations": [
+        "Individuals with exposure to tick-infested areas, particularly in the central, southern, and mid-Atlantic US (Lone Star tick) and New England, north-central, and Pacific US (Ixodes tick)."
+      ],
+      "transmissionVectors": [
+        "Ticks (Lone Star tick for Ehrlichia, Ixodes tick for Anaplasma)"
+      ],
+      "prognosisNotes": [
+        "Early treatment with doxycycline is highly effective. Delay in therapy can lead to severe illness, including meningoencephalitis, ARDS, and death."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Imipenem-cilastatin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Ampicillin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Erythromycin",
+          "notes": "Resistant"
+        },
+        {
+          "drugOrClass": "Azithromycin",
+          "notes": "Resistant"
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Ehrlichiosis/Anaplasmosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "BID",
+              "duration": "10 days",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg IV/PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Ehrlichiosis/Anaplasmosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 45 kg"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "2.2 mg/kg",
+              "route": "IV/PO",
+              "frequency": "BID",
+              "duration": "10 days",
+              "comments": "Max dose 100 mg",
+              "originalText": "Doxycycline 2.2 mg/kg IV/PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Ehrlichiosis/Anaplasmosis in Pregnancy",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Pregnant women"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Rifampin",
+              "dose": "10 mg/kg (max 300 mg)",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "10 days",
+              "comments": "Doxycycline is generally avoided but may be warranted in life-threatening infections.",
+              "originalText": "Rifampin 10 mg/kg (max 300 mg) PO BID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Febrile illness after a tick bite or exposure to tick-endemic areas.",
+        "Unexplained fever with thrombocytopenia, leukopenia, and elevated transaminases."
+      ],
+      "methodologyNotes": [
+        "PCR is the preferred diagnostic method in the acute phase of illness."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "PCR",
+          "trigger": "Acute febrile illness with tick exposure",
+          "purpose": "To detect Ehrlichia or Anaplasma DNA in whole blood. Most sensitive method during the first week of illness."
+        },
+        {
+          "testName": "Indirect Fluorescent Antibody (IFA) Assay",
+          "trigger": "Suspicion of ehrlichiosis/anaplasmosis",
+          "purpose": "To detect antibodies. A four-fold rise in titer between acute and convalescent samples is diagnostic. Requires species-specific assays."
+        },
+        {
+          "testName": "Peripheral Blood Smear",
+          "trigger": "Acute febrile illness with tick exposure",
+          "purpose": "To look for intracytoplasmic morulae in leukocytes. More likely to be positive in HGA (20-80%) than HME (1-20%)."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

@@ -4,7 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an enhanced Antibiogram Clinical Decision Support Tool built with React + Vite. Originally a basic multi-step form application, it has been significantly upgraded to provide sophisticated antibiogram interpretation that mimics infectious disease specialist reasoning. The tool helps healthcare professionals make evidence-based antibiotic treatment decisions through comprehensive bacterial identification, resistance pattern recognition, and intelligent clinical decision support.
+This is a **world-class CLSI-based Antibiogram Clinical Decision Support System** built with React + Vite. The system implements a sophisticated 4-phase antibiogram interpretation workflow that mirrors infectious disease specialist reasoning, with two distinct operational modes:
+
+- **Simple Mode**: CLSI-compliant antibiogram interpretation with straightforward recommendations
+- **Advanced Mode**: Comprehensive clinical intelligence with comparative therapeutic strategy analysis
+
+The application leverages months of meticulously crafted medical databases to provide pharmaceutical-grade antimicrobial susceptibility testing interpretation.
 
 ## Common Development Commands
 
@@ -13,172 +18,222 @@ This is an enhanced Antibiogram Clinical Decision Support Tool built with React 
 - `npm run lint` - Run ESLint to check code quality
 - `npm run preview` - Preview production build locally
 
-## Architecture
+## Current Implementation Status
 
-### Enhanced Application Structure
+### ✅ Completed Components
 
-The app is built as a single-page application with an intelligent multi-step wizard interface:
+#### **Core Architecture**
+- **AntibiogramMaster Component** (`src/components/AntibiogramMaster.jsx`): Orchestrates the complete 4-phase specialist workflow
+- **MasterAntibiogramEngine** (`src/engines/MasterAntibiogramEngine.js`): Central orchestration engine coordinating all intelligence layers
+- **Phase Components**: All 4 phases implemented as separate components
+  - Phase1_SettingTheStage.jsx
+  - Phase2_InitialInterpretation.jsx
+  - Phase3_ResistanceMechanisms.jsx
+  - Phase4_TherapeuticComparison.jsx / Phase4_SimpleRecommendations.jsx
 
-1. **Patient Data Step** - Comprehensive demographics, renal/hepatic function with automated TFG, BMI, and Child-Pugh scoring
-2. **Infection Location Step** - Site-specific infection classification with clinical context
-3. **Enhanced Bacterial Identification Step** - Advanced bacterial identification system with:
-   - Laboratory identification characteristics (Gram stain, morphology, biochemical tests)
-   - Taxonomic classification and clinical significance scoring
-   - Advanced search with filtering by Gram stain and pathogenicity
-   - Comprehensive bacterial profiles with resistance mechanisms and epidemiology
-4. **Intelligent Antibiogram Interpretation Step** - Sophisticated susceptibility testing with:
-   - CLSI-compliant breakpoint interpretation
-   - Resistance pattern recognition and cross-resistance prediction
-   - Clinical interpretation rules and stewardship guidance
-5. **Hypersensitivity Assessment** - Advanced allergy cross-reactivity analysis
-6. **Clinical Decision Support** - Expert-level treatment recommendations with stewardship principles
+#### **Intelligence Engines**
+- **CLSIBreakpointEngine**: Handles CLSI-compliant breakpoint interpretation with tier system
+- **ResistancePatternEngine**: Detects ESBL, AmpC, carbapenemases, MRSA, VRE, MLSb patterns
+- **TherapeuticStrategyComparatorEngine**: Generates comparative analysis of treatment options
+- **CLSIReportingEngine**: Implements CLSI tier-based cascade reporting
+- **SequentialResistanceEngine**: Handles sequential resistance detection workflows
 
-### Key Data Models
+#### **Databases Integrated**
+1. **CLSI Breakpoints** (`organisms_clsi/`): 13 JS modules with complete CLSI M100-Ed34 data
+2. **Bacterial Profiles** (`bacteria_json/`): 91 bacterial organisms with clinical intelligence
+3. **Antibiotics Database** (`antibacterial_drugs_json/`): 136+ antibiotics with PK/PD data
+4. **Resistance Mechanisms** (`antimicrobial_resistance.json`): Comprehensive molecular compendium
+5. **SAGA Spectrum Data** (`sagaSpectrumData.json`): Antibiotic activity matrix
+6. **Clinical Syndromes** (`syndromes_json/`): 453 syndrome-specific protocols
 
-**Patient Data (`formData` state)**:
-- Demographics: age, gender, weight, height
-- Renal function: creatinine, optional cystatin C, renal replacement therapy
-- Hepatic function: Child-Pugh scoring components (bilirubin, albumin, INR, ascites, encephalopathy)
-- Pregnancy/fertility status for women of childbearing age
+### 🔄 Current Workflow Implementation
 
-**Enhanced Microbiology Database** (`src/data/microbiologyData.js`):
-- **Comprehensive Taxonomic Classification**: Full phylogenetic hierarchy (domain → species)
-- **Laboratory Identification Characteristics**:
-  - Gram stain results and morphology
-  - Biochemical test profiles (catalase, oxidase, indole, etc.)
-  - Growth characteristics (atmosphere, temperature, special media)
-  - Molecular markers and identification genes
-- **Clinical Significance Scoring**: Primary pathogen vs. opportunistic vs. colonizer classification
-- **Pathogenicity Profiles**: Virulence factors, common infections, and pathotypes
-- **Resistance Mechanisms**: Detailed enzymatic, target modification, and efflux mechanisms
-- **Enhanced Treatment Guidelines**: Site-specific recommendations with stewardship considerations
-- **Advanced CLSI Panels**: Breakpoints with interpretation rules and cross-resistance patterns
-- **Epidemiological Data**: Prevalence, reservoirs, transmission, and risk factors
+The application currently implements the complete 4-phase antibiogram interpretation workflow:
 
-**Enhanced Antibiotics Database** (`src/data/antibiotics.js`):
-- **Comprehensive Drug Classification**: Family, subclass, generation with standardized categories
-- **Mechanism of Action**: Target proteins, bactericidal/static activity, PK/PD optimization parameters
-- **Spectrum of Activity**: Detailed gram-positive, gram-negative, anaerobic, and atypical coverage
-- **Advanced Dosing Information**: 
-  - Adult/pediatric standard and severe infection dosing
-  - Extended infusion protocols for time-dependent antibiotics
-  - Comprehensive renal adjustment algorithms by CrCl ranges
-  - Hepatic dosing modifications
-- **Therapeutic Drug Monitoring**: 
-  - Level monitoring requirements (AUC, trough, peak targets)
-  - PK/PD target achievement parameters
-  - Monitoring frequency and safety parameters
-- **Resistance Intelligence**: 
-  - Mechanism-specific resistance patterns
-  - Cross-resistance predictions
-  - Surveillance recommendations for emerging resistance
-- **Safety Profiles**: 
-  - Pregnancy categories and lactation safety
-  - Black box warnings and major adverse effects
-  - Contraindications and monitoring requirements
-- **Drug Interactions**: Comprehensive drug-drug and food-drug interactions
-- **Stewardship Integration**: 
-  - Preferred indications and avoidance recommendations
-  - De-escalation guidance and resistance risk assessment
-  - Appropriateness scoring for clinical scenarios
+#### **Phase 1: Setting the Stage**
+- Organism selection with CLSI categorization
+- Infection site selection
+- Intrinsic resistance filtering
+- Initial antibiotic panel generation based on CLSI tiers
 
-### Enhanced Clinical Decision Engine
+#### **Phase 2: Initial Interpretation**
+- MIC/disk diffusion data entry
+- CLSI breakpoint application with site-specific considerations
+- Clinical override detection (e.g., daptomycin in pneumonia)
+- Paradoxical result warnings
 
-The intelligent recommendation system now incorporates infectious disease specialist-level reasoning:
+#### **Phase 3: Resistance Mechanism Detection**
+- Pattern-based resistance mechanism inference
+- Confirmatory test recommendations
+- Mechanism-based interpretation updates
+- Cross-resistance prediction
 
-1. **Advanced Resistance Pattern Recognition**:
-   - Automatic detection of ESBL, AmpC, and carbapenemase phenotypes
-   - Cross-resistance prediction based on resistance mechanisms
-   - Intrinsic resistance patterns by bacterial species
-   - Inducible resistance identification (MLSᵦ, AmpC)
+#### **Phase 4: Final Recommendations**
+- **Simple Mode**: Ranked list of appropriate therapies
+- **Advanced Mode**: Comparative analysis table with multi-axis evaluation
+  - Efficacy scoring
+  - Stewardship impact
+  - Safety profiles
+  - PK/PD optimization
+  - Convenience factors
 
-2. **Intelligent Antibiogram Interpretation**:
-   - MIC-based breakpoint analysis with clinical context
-   - Resistance mechanism correlation with phenotypic results
-   - Quality control flagging for unusual resistance patterns
-   - Site-specific breakpoint considerations
+### 🚧 Implementation Gaps & Next Steps
 
-3. **Comprehensive Allergy Assessment**:
-   - Advanced cross-reactivity analysis between drug families
-   - Beta-lactam allergy classification and cross-reactivity patterns
-   - Alternative antibiotic selection for allergic patients
+Based on the blueprint analysis, the following areas need implementation or enhancement:
 
-4. **Stewardship-Guided Recommendations**:
-   - Narrow-spectrum preference when appropriate
-   - Carbapenem stewardship and de-escalation guidance
-   - Combination therapy recommendations for serious infections
-   - Local epidemiology and resistance pattern considerations
+#### **Missing Core Features**
+1. **Patient Data Integration**: The AntibiogramMaster workflow doesn't currently collect patient demographics, renal/hepatic function
+2. **Site-Specific Breakpoint Selection**: While the engine supports it, the UI doesn't fully leverage site-specific breakpoints (e.g., meningitis vs non-meningeal)
+3. **Local Epidemiology Integration**: Framework exists but no data input mechanism
+4. **Export/Report Generation**: No clinical report generation for documentation
 
-### Calculations Module
+#### **Database Integration Gaps**
+1. **Syndrome Database**: 453 syndrome files exist but aren't integrated into the workflow
+2. **Resistance Genotype Database**: `antibacterial_drug_resistance_genotypes.json` not utilized
+3. **CLSI Classification**: `clsi_classified_bacteria.json` not fully leveraged
 
-Real-time clinical calculations (`calculations` useMemo in App.jsx:87-101):
-- **TFG Calculation**: Age-appropriate formulas (Schwartz for pediatric, CKD-EPI for adults)
-- **BMI Classification**: Standard WHO categories
-- **Child-Pugh Scoring**: Automated hepatic function assessment
+#### **Advanced Mode Enhancements Needed**
+1. **PK/PD Module**: Dosing optimization based on patient parameters
+2. **Drug Interaction Checking**: Database exists but not implemented
+3. **Therapeutic Drug Monitoring**: TDM recommendations not surfaced
+4. **Combination Therapy Logic**: Limited implementation
 
-### Enhanced UI Components
+### Key Data Architecture
 
-Sophisticated component structure with clinical workflow optimization:
-- **Enhanced Bacterial Selection Interface**:
-  - Multi-dimensional search (name, characteristics, taxonomy)
-  - Advanced filtering by Gram stain and clinical significance
-  - Interactive bacterial profiles with laboratory identification
-  - Visual resistance mechanism display and epidemiological data
-- **Intelligent Antibiogram Display**:
-  - Interactive breakpoint visualization with clinical interpretation
-  - Resistance pattern highlighting with mechanism explanations
-  - Cross-resistance indicators and stewardship recommendations
-- **Clinical Significance Badges**: Visual pathogenicity classification
-- **Responsive Design**: Optimized for both desktop and mobile workflows
+#### **CLSI-Centric Database Hierarchy**
+The application follows a **CLSI-centric database hierarchy** where the CLSI M100™ database serves as the **primary and most critical knowledge source**:
+
+1. **PRIMARY: CLSI Breakpoints** - Core decision-making engine
+2. **SECONDARY: Bacterial Profiles** - Clinical context and resistance patterns
+3. **SECONDARY: Pharmaceutical Intelligence** - PK/PD and safety data
+4. **SECONDARY: Syndrome Protocols** - Site-specific treatment guidelines
+
+#### **4-Phase Specialist Workflow**
+The system implements the complete infectious disease specialist reasoning process:
+
+1. **Phase 1: Setting the Stage** - Organism identification and intrinsic resistance
+2. **Phase 2: Initial Interpretation** - MIC/disk diffusion interpretation with clinical overrides
+3. **Phase 3: Resistance Detection** - Pattern recognition and mechanism inference
+4. **Phase 4: Final Plan** - Simple recommendations or comparative strategy analysis
+
+### Technical Architecture
+
+#### **Engine Architecture**
+- **MasterAntibiogramEngine**: Orchestrates all phases and coordinates sub-engines
+- **CLSIBreakpointEngine**: Handles organism-specific breakpoint lookups with inheritance
+- **ResistancePatternEngine**: Detects complex resistance patterns from susceptibility data
+- **TherapeuticStrategyComparatorEngine**: Generates multi-axis treatment comparisons
+- **CLSIReportingEngine**: Implements cascade reporting and tier-based recommendations
+
+#### **Component Structure**
+- **AntibiogramMaster**: Main orchestrator component managing workflow state
+- **Phase Components**: Modular components for each phase of interpretation
+- **Legacy Components**: AntibiogramApp.jsx contains older multi-step form implementation
+
+### Database Features
+
+#### **CLSI Breakpoints** (organisms_clsi/)
+- 89 organism-specific modules with inheritance patterns
+- 4-tier antibiotic classification system
+- Site-specific breakpoints (UTI, meningitis)
+- Clinical warnings and stewardship notes
+- Special testing requirements
+
+#### **Bacterial Profiles** (bacteria_json/)
+- 91 organisms across 7 taxonomic groups
+- Resistance mechanisms with clinical implications
+- Treatment algorithms by syndrome and severity
+- Intrinsic resistance patterns
+- High-risk population identification
+
+#### **Pharmaceutical Intelligence** (antibacterial_drugs_json/)
+- 136+ individual drug monographs
+- Complete PK/PD parameters
+- Renal/hepatic dosing algorithms
+- Drug shortage tracking
+- Black box warnings and safety profiles
+
+#### **Resistance Mechanisms** (antimicrobial_resistance.json)
+- Ambler classification system
+- Detection methodologies
+- Clinical case studies
+- WHO priority pathogens
+- Future therapeutic innovations
 
 ## Development Notes
 
-- Uses ES6 modules with `.js` extensions (not `.jsx` despite JSX content)
+- Uses ES6 modules with `.jsx` extensions for React components
 - Tailwind CSS for styling with extensive custom classes
-- Single-file component architecture (all components in App.jsx)
+- Modular component architecture with phase-based organization
 - Extensive use of React hooks: `useState`, `useMemo`, `useEffect` patterns
 - No external state management - relies on local component state
-- Copy-to-clipboard functionality for clinical summaries
+- Engine-based architecture for clinical logic separation
 - Responsive design with mobile-first approach
 
 ## Clinical Domain Context
 
-This is a sophisticated medical application that mimics infectious disease specialist decision-making. Critical areas requiring accuracy:
+This is a **pharmaceutical-grade medical application** that implements infectious disease specialist decision-making through a sophisticated 4-phase workflow. The system represents months of database development work designed to provide **CLSI-compliant antimicrobial susceptibility testing interpretation**.
 
-### Core Clinical Features
-- **Advanced Bacterial Identification**: Laboratory-grade identification with biochemical tests and growth characteristics
-- **Intelligent Resistance Pattern Recognition**: ESBL, AmpC, carbapenemase detection with phenotypic correlation
-- **Evidence-Based Treatment Selection**: Site-specific guidelines with stewardship integration
-- **Comprehensive Allergy Management**: Cross-reactivity patterns and alternative selection
-- **PK/PD Optimization**: Renal/hepatic adjustments with dosing optimization
-- **Pregnancy Safety**: Risk stratification and drug selection in pregnancy
+### Core System Capabilities
 
-### Database Enhancement Status
-- ✅ **Enhanced Bacterial Database**: Complete taxonomic, laboratory identification, and resistance mechanism data
-- ✅ **Advanced Search System**: Multi-dimensional filtering and clinical significance scoring
-- ✅ **Enhanced UI**: Interactive bacterial profiles with comprehensive clinical information
-- ✅ **Comprehensive Antibiotics Database**: Complete PK/PD, dosing, safety, and stewardship data with helper functions
-- ✅ **Resistance Pattern Engine**: Advanced algorithms for ESBL, AmpC, carbapenemase, MRSA, VRE, MLSb detection
-- ✅ **CLSI Breakpoint Interpreter**: MIC-based analysis with organism-specific breakpoints and clinical context
-- ✅ **Intelligent Antibiogram Engine**: Comprehensive treatment scoring with clinical context integration
-- ✅ **Clinical Decision Support System**: Multi-factorial analysis with infectious disease specialist-level reasoning
-- ⏳ **PK/PD Module**: Dosing optimization and target attainment calculations (pending)
+#### **Simple System Mode**
+- **CLSI-Compliant Interpretation**: Accurate S/I/R determinations following CLSI M100™ guidelines
+- **Clear, Actionable Guidance**: Provides a single, ranked list of appropriate therapies for straightforward cases
+- **Intrinsic Resistance Filtering**: Prevents selection of clinically ineffective antibiotics
+- **Clinical Override Detection**: Identifies misleading susceptibility results
 
-### Reference Materials
-- **SAGA Files**: Antibiotic spectrum reference data (references/SAGA*.pdf)
-  - The SAGA file will be filled by the user
-- **Pathogen-Specific Data**: Detailed bacterial profiles (references/bacteria/*.pdf)
-- **Comprehensive Antibacterial Drug Database**: Extensive drug information organized by class (references/antibacterial_drugs/)
-  - Individual drug monographs with PK/PD, dosing, and safety data
-  - Drug class overviews (penicillins, cephalosporins, carbapenems, etc.)
-  - Specialized therapy guides (syndrome-specific, topical, urinary tract)
-  - Resistance genotype and phenotype correlations
-- **Clinical Guidelines**: Treatment recommendations and stewardship principles
+#### **Advanced System Mode**
+- **Comparative Therapeutic Analysis**: Side-by-side comparison of viable treatment strategies
+- **Deep Clinical Insight**: Leverages full database integration for nuanced recommendations
+- **Stewardship Excellence**: Embeds antimicrobial stewardship principles directly into the framework
+- **Multi-Axis Evaluation**: Efficacy, safety, stewardship impact, PK/PD optimization, convenience
+
+### Clinical Impact Goals
+
+1. **Democratize Specialist Expertise**: Make ID specialist reasoning accessible to all healthcare providers
+2. **Elevate Clinical Reasoning**: Teach clinicians how to think like specialists through transparent decision-making
+3. **Combat Antimicrobial Resistance**: Promote appropriate antibiotic use through clear stewardship guidance
+4. **Enhance Patient Safety**: Integrate safety and tolerability as primary factors
+5. **Provide Educational Excellence**: Transform each case into a learning opportunity
 
 ### Development Principles
 When making changes, prioritize:
-1. **Clinical Accuracy**: All medical logic must be evidence-based
-2. **Safety**: Conservative recommendations for patient safety
-3. **Stewardship**: Promote appropriate antibiotic use
-4. **Usability**: Intuitive workflow for healthcare professionals
-5. **Comprehensive Coverage**: Support for complex clinical scenarios
+1. **CLSI Compliance**: All interpretations must follow CLSI M100™ standards
+2. **Clinical Accuracy**: Evidence-based logic from peer-reviewed sources
+3. **Patient Safety**: Conservative recommendations when uncertainty exists
+4. **Antimicrobial Stewardship**: Narrow-spectrum preference when appropriate
+5. **User Experience**: Intuitive workflow for busy healthcare professionals
+6. **Educational Value**: Clear explanations of clinical reasoning
+
+### Testing & Validation Requirements
+- **Breakpoint Accuracy**: Verify against CLSI M100-Ed34 tables
+- **Resistance Detection**: Test with known resistance patterns
+- **Clinical Scenarios**: Validate with real-world antibiogram examples
+- **Edge Cases**: Handle unusual organisms and resistance patterns
+- **Performance**: Ensure rapid response for clinical use
+
+## Important Implementation Notes
+
+### Current Application Entry Points
+1. **AntibiogramMaster** (`src/components/AntibiogramMaster.jsx`) - New 4-phase workflow implementation
+2. **AntibiogramApp** (`src/components/AntibiogramApp.jsx`) - Legacy multi-step form (being phased out)
+3. **LandingPage** (`src/components/LandingPage.jsx`) - Main entry point selecting between apps
+
+### Key Implementation Decisions
+- The 4-phase workflow is the primary implementation following the blueprint
+- CLSI database is the PRIMARY source of truth for all decisions
+- Simple mode should be default with option to enable advanced mode
+- All clinical decisions must be traceable to CLSI standards or peer-reviewed sources
+
+### Next Priority Tasks
+1. **Patient Data Collection**: Add patient demographics to Phase 1
+2. **Syndrome Integration**: Connect the 453 syndrome files to provide context
+3. **Report Generation**: Create exportable clinical documentation
+4. **Advanced Mode UI**: Implement comparative strategy table visualization
+5. **PK/PD Calculator**: Add dosing optimization based on patient parameters
+
+# important-instruction-reminders
+Do what has been asked; nothing more, nothing less.
+NEVER create files unless they're absolutely necessary for achieving your goal.
+ALWAYS prefer editing an existing file to creating a new one.
+NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.

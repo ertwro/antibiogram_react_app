@@ -1,0 +1,73 @@
+{
+  "documentMetadata": {
+    "title": "Otitis Externa, Fungal, Otomycosis",
+    "sourceFile": "Otitis Externa, Fungal, Otomycosis.pdf",
+    "lastUpdated": "2024-08-26"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Otomycosis. Fungal infection of the ear canal. May develop de novo (particularly in tropical climates) or secondary following treatment with topical antibacterials."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Candida sp.",
+        "Aspergillus sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Clotrimazole",
+            "dose": "1% solution",
+            "notes": "to affected ear 3-4 times daily until resolution"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If topical therapy not effective, consider culture-directed oral therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reviews of otomycosis: Otolaryngol Clin North Am; 56:909, 2023"
+      ]
+    }
+  ]
+}

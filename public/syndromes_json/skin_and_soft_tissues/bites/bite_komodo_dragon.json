@@ -1,0 +1,93 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from Komodo dragon (Varanus komodoensis)",
+    "sourceFile": "Bite_ Komodo Dragon.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bite wound from Komodo dragon (Varanus komodoensis)"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus spp",
+        "Bacillus spp",
+        "Aeromonas spp",
+        "Pseudomonas spp",
+        "Enterobacteriaceae",
+        "Burkholderia",
+        "Anaerobes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125"
+          },
+          {
+            "connector": "+",
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg"
+          }
+        ],
+        "route": "po",
+        "frequency": "bid"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "(over 4 hr)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "Microbiology: see Clin Micro Rev 24: 231, 2011.",
+        "Also have toxic venom Proc Natl Acad Sci 106: 8969, 2009.",
+        "see Clinical Infectious Diseases 2014;59(2):e10-5."
+      ]
+    }
+  ]
+}

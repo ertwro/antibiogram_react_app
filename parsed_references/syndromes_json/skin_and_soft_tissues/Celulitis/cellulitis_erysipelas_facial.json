@@ -1,0 +1,70 @@
+{
+    "documentMetadata": {
+        "title": "Cellulitis, Erysipelas_ Facial",
+        "sourceFile": "Cellulitis, Erysipelas_ Facial.pdf",
+        "lastUpdated": "2023-08-07"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Sudden onset of rapidly spreading red edematous tender plaque-like skin on the face in an otherwise healthy host.",
+                "Staph. aureus erysipelas of the face can mimic streptococcal erysipelas of an extremity."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Streptococcus sp. (Groups A, B, C, G)",
+                "Staph. aureus"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 \u00b5g/mL"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Daptomycin 4 mg/kg IV q24h",
+                "Linezolid 600 mg po/IV q12h"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "If erysipelas-like on the face, must treat as if MRSA is present.",
+                "Usual duration of treatment is 7-10 days, longer if patient is bacteremic.",
+                "Very rarely, Streptococcus pneumoniae can cause a similar picture (would be covered by treatments recommended above); in children, Haemophilus influenzae can cause an erysipelas-like facial cellulitis (requires gram-negative coverage).",
+                "For full differential diagnosis of a red face (Clin Dermatol. 1993; 11:307)."
+            ]
+        }
+    ]
+}

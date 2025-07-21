@@ -1,0 +1,336 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Community-acquired, Adult, In-patient",
+    "lastUpdated": "2025-05-05",
+    "sourceFile": "Pneumonia, Community-acquired, Adult, In-patient.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy of community-acquired pneumonia (CAP) in the adult, in-patient setting.",
+        "Severity of illness or co-morbidities sufficient to warrant hospitalization.",
+        "CURB-65 calculator for pneumonia severity here.",
+        "PSI/PORT calculator for Pneumonia Severity Index here.",
+        "Sputum and blood cultures should be obtained, especially in those with severe CAP and in intubated patients with CAP."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No pathogen identified in the majority of cases, viral pathogens appear to be more common than bacterial (N Engl J Med. 373:415, 2015)."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "No co-morbidity:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Streptococcus pneumoniae",
+            "Atypical pathogens: Legionella spp., Chlamydophila pneumoniae, Chlamydophila psittaci, Mycoplasma pneumoniae, Coxiella burnetii (Q fever)",
+            "Viral pathogens"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Co-morbidity:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Alcoholism: Streptococcus pneumoniae, Anaerobes, Coliforms",
+            "COPD: Haemophilus influenzae, Moraxella catarrhalis, Streptococcus pneumoniae, Legionella sp.",
+            "IV Drug Use (IVDU): Staphylococcus aureus",
+            "Post CVA-aspiration: Oral flora, Streptococcus pneumoniae",
+            "Post-obstruction of bronchi: Streptococcus pneumoniae, Anaerobes",
+            "Post-influenza: Streptococcus pneumoniae, Staphylococcus aureus (see Concomitant or Post-Influenza Pneumonia)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Patient setting"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Non-ICU, non-severe pneumonia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Obtain sputum for culture and sensitivity prior to initiation of antibiotic, if possible (authors preference as it may facilitate pathogen-directed therapy and antimicrobial de-escalation)",
+                "IDSA CAP Clinical Pathway does not recommend obtaining respiratory bacterial culture routinely but culture is recommended if any of the following are present: i) hospitalization AND parenteral antibiotics in the last 90 days, ii) initiation of anti-MRSA or anti-pseudomonal coverage; advanced structural lung disease",
+                "PCR of sputum or urine antigen for L. pneumophila if risk factors, such as travel or other epidemiologic risk factors are present",
+                "Nasopharyngeal swab for PCR detection of respiratory viruses (COVID-19, influenza)",
+                "Serum procalcitonin (PCT): consider if available and depending on local hospital guidelines",
+                "Negative predictive value for bacterial infection over 95% if PCT < 0.25 ng/mL",
+                "Supportive prospective multicenter surveillance study: Clin Infect Dis 2017; 65: 183",
+                "Blood cultures x 2 (although not routinely recommended for non-severe CAP by IDSA CAP Clinical Pathway)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In ICU"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nasopharyngeal swab for PCR detection of respiratory viruses (COVID-19, influenza, RSV, perhaps others to facilitate antibiotic de-escalation)",
+                "For intubated patients: obtain respiratory specimen (tracheal aspirate or BAL) for culture",
+                "For non-intubated patients:",
+                "Attempt to obtain sputum for culture.",
+                "For both intubated and non-intubated:",
+                "Nasal swab culture or PCR for MRSA (good negative predictive value, 76-99%, to rule out MRSA infection; generally poor positive predictive values, as low as 12% [Ann Pharmacother. 2019, 53:627])"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV/po",
+            "frequency": "q24h"
+          }
+        ],
+        "notes": "monotherapy not recommended as monotherapy for severe CAP"
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Severe CAP:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Use of adjunctive corticosteroids limited to severe CAP. See Comments below for definition of severe CAP and dosing.",
+            "(Ceftriaxone 2 gm IV q24h or Cefotaxime 2 gm IV q8h) + Azithromycin 500 mg IV q24h or + Levofloxacin 750 mg IV/po q24h (Am J Respir Crit Care Med 2019; 200: e45)",
+            "Observational data suggest a survival benefit of a beta-lactam + Azithromycin combination regimen in patients with pneumococcal bacteremia (Clin Infect Dis. 2022;75:2219)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV/po",
+            "frequency": "q12h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can substitute Moxifloxacin 400 mg IV/po q24h or Gatifloxacin 400 mg IV/po q24h (non-US) for Levofloxacin"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ampicillin-sulbactam",
+            "dose": "3 gm",
+            "route": "IV",
+            "frequency": "q6h"
+          },
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "route": "po/IV",
+            "frequency": "q12h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In non-severe CAP patients who are not candidates for beta-lactams, macrolides or fluoroquinolones consider either of the following:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lefamulin 150 mg IV q12h or 600 mg orally q12h x 5-7 days",
+            "Omadacycline 200 mg IV on day one followed by 100mg IV daily or 300 mg orally q12h on day one, then 300 mg orally once daily x 7-14 days"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Coverage for methicillin-resistant Staph. aureus (MRSA) or Pseudomonas aeruginosa not routinely indicated in absence of risk factors",
+        "Risk factors for MRSA: for non-severe CAP, history of MRSA colonization or infection of the respiratory tract; for severe CAP, hospitalization AND parenteral antibiotics in the last 90 days OR history of MRSA colonization/prior MRSA isolation, especially from the respiratory tract within 1 year.",
+        "Consider MRSA coverage for CAP in an injection drug user or CAP associated with influenza.",
+        "Risk factors for Ps. aeruginosa: for non-severe CAP, advanced structural lung disease OR history of Ps. aeruginosa colonization or infection within 1 year; for severe CAP, hospitalization and parenteral antibiotics in the last 90 days OR history of Ps. aeruginosa colonization or infection of the respiratory tract.",
+        "If empirical coverage for these pathogens is used, obtain cultures/nasal PCR to allow deescalation (cultures are negative) or confirmation for need of continued therapy (cultures are positive).",
+        "For MRSA pending results of sputum Gram stain and cultures.",
+        "Add Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) OR Linezolid 600 mg po/IV",
+        "For Ps. aeruginosa pending results of sputum Gram stain and cultures substitute Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h or Meropenem 1 gm IV q8h or Cefepime 2 gm IV q8h or Ceftazidime 2 gm IV q8h for Ceftriaxone, Cefotaxime, or Ampicillin-sulbactam",
+        "Duration of therapy:",
+        "Treat for 5-7 days (N Engl J Med. 2014; 370:543). Emerging data suggests efficacy with as few as 3-5 days of therapy.",
+        "Shorter course",
+        "Adult: Br Med J. 2006; 332:1355; Clin Infect Dis. 2018; 66:1981",
+        "Child: Pediatr Infect Dis J. 2014; 33: 136",
+        "Review: Clin Infect Dis. 2019; 69:1476",
+        "There is no rigid recommendation for administering the first dose:",
+        "Administration of antibiotic within 6 hrs associated with improved survival in patients with pneumonia and severe sepsis (Eur Respir J. 2012; 39:156).",
+        "If patient is in the emergency room (ER), give first dose in the ER.",
+        "Antibiotics can be safely discontinued after 5 days in patients who are afebrile for 48 hours or more and have no more than one of the following (JAMA Intern Med 2016; 176:1257):",
+        "systolic BP < 90 mm Hg",
+        "heart rate > 100/min",
+        "respiratory rate > 24/min",
+        "arterial oxygen saturation < 90% or room-air PaO2 less than 60 mm Hg",
+        "Outcomes similar for hospitalized patients with CAP treated with oral fluoroquinolone compared to IV (Clin Infect Dis. 2016; 63:1)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hydrocortisone for severe CAP: evidence favors early initiation (within 24 hours) of corticosteroids for severe CAP based on the 2023 multi-center clinical trial and meta-analysis described below.",
+        "The high quality, double-blind, placebo-controlled, randomized clinical trial (RCT) (Dequin, et al. N Engl J Med. 2023; 388:1931) demonstrated lower mortality in patients admitted to the ICU with severe CAP who were treated with adjunctive intravenous hydrocortisone compared to placebo (absolute difference, -5.6 percentage points; 95% CI, −9.6 to −1.7; P = 0.006). Rates of intubation in those not undergoing mechanical ventilation at baseline and initiation of vasopressors in those not receiving vasopressor therapy at baseline were also lower in the hydrocortisone group. Rates of adverse events were similar in the two groups, although use of insulin was more frequent in the hydrocortisone group.",
+        "Severe CAP defined as presence of at least one of the following:",
+        "Initiation of mechanical ventilation (invasive or noninvasive) with a positive end-expiratory pressure level of at least 5 cm of water;",
+        "Initiation of supplemental oxygen through a high-flow nasal cannula with a ratio of the partial pressure of arterial oxygen to the inspired fraction of oxygen (Pao2:Fio2) of less than 300, with a FiO2 of 50% or more;",
+        "Estimated Pao2:Fio2 ratio of less than 300 for patients wearing a non-rebreathing mask;",
+        "Pulmonary Severity Index score > 130 defining group V, which is associated with the highest mortality.",
+        "Hydrocortisone administered by continuous IV infusion or 50 mg IV q6h as one of the following regimens:",
+        "8 day regimen: 200 mg per day for 4 days followed by tapering doses of 100 mg on days 5 and 6, then 50 mg on days 7and 8",
+        "14 day regimen: 200 mg per day for 7 days followed by tapering doses of 100 mg on days 8-11, then 50 mg on days 12-14",
+        "Decision to shorten therapy to the 8-day regimen made at day 4 if all the following were met: 1) patient breathing spontaneously; PaO2:FiO2 ratio > 200; 2) Sequential Organ Failure Assessment (SOFA) score on day 4 < to SOFA score on day 1; 3) anticipated ICU stay < 14 days.",
+        "Discontinue the regimen upon discharge from the ICU.",
+        "These results are consistent with those reported in a meta-analysis of 15 RCTs of corticosteroids for CAP (Clin Infect Dis. 2023;77:1704): survival benefit in patients with severe pneumonia but not in those without severe pneumonia and in patients directly admitted to the ICU but not in those initially admitted to a general medicine ward. Definitions of severe pneumonia differed among the studies as did the type and dose of corticosteroid used. Survival benefit was observed with both high-dose (> 400 mg cumulative prednisolone-equivalent dose) and low-dose (< 400 mg cumulative prednisolone-equivalent dose) regimens.",
+        "Cultures of blood and sputum recommended for intubated patients with CAP and patients with severe CAP.",
+        "Improved outcome with ẞ-lactam/macrolide combo vs ẞ-lactam alone (patients treated with a fluoroquinolone were excluded) in hospitalized CAP of moderate- or high- but not low-severity (Thorax. 68:493, 2013).",
+        "2019 IDSA/ATS treatment guidelines: Am J Respir Crit Care Med 2019; 200:e45.",
+        "IDSA community-acquired pneumonia clinical pathway here.",
+        "Review article: N Engl J Med. 2023;389:632."
+      ]
+    }
+  ]
+}

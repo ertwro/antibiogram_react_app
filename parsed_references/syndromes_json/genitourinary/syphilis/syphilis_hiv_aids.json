@@ -1,0 +1,131 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, HIV/AIDS",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, HIV_AIDS.pdf",
+    "lastUpdated": "2023-05-03"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Evaluation and treatments of individuals with HIV infection and syphilis are the same as individuals without HIV infection (Clin Infect Dis 2015 61:S818).",
+        "See 2021 CDC guidelines for STI MMWR Recomm Rep 70 (RR-4):1 2021 or 2020 European Guidelines",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022",
+        "Lumbar puncture (LP) on all HIV-positive patients with late syphilis and serum RPR ≥1:32 is no longer recommended",
+        "Inquire carefully about changes in vision or hearing or other neurological symptoms that would prompt an LP to detect neurosyphilis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment same as for HIV negative patient with closer follow-up. See specific setting or Syphilis, Overview.",
+        "Penicillin is the mainstay of treatment.",
+        "For primary or secondary syphilis: Penicillin G benzathine, 2.4 million units in a single IM dose",
+        "Treat early neurosyphilis in HIV patients for 10-14 days regardless of CD4 count, MMWR 56:625, 2007.",
+        "Late latent syphilis (>1y or indeterminate) requires longer treatment."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For primary and secondary syphilis:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "orally",
+                "frequency": "twice a day"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14 days"
+            },
+            "notes": "(first alternative)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1–2 gm",
+                "route": "IM/IV",
+                "frequency": "daily"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10–14 days"
+            },
+            "notes": "(second alternative)"
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "European 2020 Syphilis Guidelines (but not CDC guidelines) recommend Procaine penicillin 600 000 units IM daily for 10-14 days if Benzathine not available."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In some countries, benzathine Penicillin G is not available and shortages are increasingly common."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider high dose Amoxicillin 3 gm/day with probenecid (750 mg/day) po given tid in divided doses x 2 weeks (early syphilis) x 4 weeks (late latent or unknown duration) based on Japanese experience in HIV-infected individuals (efficacy 95.5%, 273/286 patients; Clin Infect Dis 61:177, 2015).",
+        "Another alternative is Amoxicillin 1.5 g/day is better tolerated than above Amoxicillin/Probenicid combination with similar efficacy (94.9%) Sex Transm Infect 98:173 2022"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference: Clin Infect Dis 44:S130, 2007; Lancet 2017 389:1550; N Engl J Med. 2020;382:845",
+        "Individuals with HIV infection may have a slower decline in titers after treatment and there are anecdotal reports of prolonged elevated titers or false negative serologies.",
+        "Consider CSF examination and retreatment for those whose nontreptonemal titers do not decrease 4-fold within 12-24 mo, especially if original titers >1:32. If CSF normal, can retreat with 2.4 million units benzathine penicillin G administered IM weekly x 3",
+        "Close follow-up is critical in HIV-infected individuals with syphilis."
+      ]
+    }
+  ]
+}

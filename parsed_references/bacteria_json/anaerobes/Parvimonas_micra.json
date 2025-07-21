@@ -1,0 +1,116 @@
+{
+  "_originalData": {
+    "title": "Parvimonas micra",
+    "last_updated": "2024-04-29",
+    "classification": "Anaerobic gram-positive coccus",
+    "clinical_setting": {
+      "summary": "This organism is part of the oral and gastrointestinal flora. It is associated with odontogenic infections and, rarely, with bacteremia and abscess formation.",
+      "diagnosis": "Indicated by a positive lab result."
+    },
+    "treatment_regimens": {
+      "primary": {
+        "susceptibility": "Typically susceptible to Penicillin, Clindamycin, and Metronidazole."
+      },
+      "alternative": [
+        {
+          "drug": "A carbapenem"
+        }
+      ]
+    },
+    "comments": {
+      "references": "See Eur J Clin Microbiol Infect Dis. 2023:42:903 and Microorganisms. 2021:9:1665 for case series and antimicrobial susceptibilities."
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "last_updated",
+      "classification",
+      "clinical_setting",
+      "treatment_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.259Z",
+    "sourceFormat": "mixed"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title"
+      ],
+      "value": "Parvimonas micra"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "mixed"
+      },
+      "standardizedRegimens": [],
+      "preservedData": {
+        "title": "Parvimonas micra",
+        "last_updated": "2024-04-29",
+        "classification": "Anaerobic gram-positive coccus",
+        "clinical_setting": {
+          "summary": "This organism is part of the oral and gastrointestinal flora. It is associated with odontogenic infections and, rarely, with bacteremia and abscess formation.",
+          "diagnosis": "Indicated by a positive lab result."
+        },
+        "treatment_regimens": {
+          "primary": {
+            "susceptibility": "Typically susceptible to Penicillin, Clindamycin, and Metronidazole."
+          },
+          "alternative": [
+            {
+              "drug": "A carbapenem"
+            }
+          ]
+        },
+        "comments": {
+          "references": "See Eur J Clin Microbiol Infect Dis. 2023:42:903 and Microorganisms. 2021:9:1665 for case series and antimicrobial susceptibilities."
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "references": "See Eur J Clin Microbiol Infect Dis. 2023:42:903 and Microorganisms. 2021:9:1665 for case series and antimicrobial susceptibilities."
+        }
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "last_updated": "2024-04-29",
+      "treatment_regimens": {
+        "primary": {
+          "susceptibility": "Typically susceptible to Penicillin, Clindamycin, and Metronidazole."
+        },
+        "alternative": [
+          {
+            "drug": "A carbapenem"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "drug_name": "Nafcillin",
+  "tradename": "Unipen, Nafcil",
+  "drug_shortage_info": {
+    "prep": "Injection",
+    "started_at": "2024-03-20",
+    "notes": ""
+  },
+  "usage_and_dosing": {
+    "general_info": [
+      "Nafcillin, approved by the US FDA in 1970, is a semi-synthetic penicillinase-resistant Penicillin used in the treatment of staphylococcal infections caused by methicillin-susceptible strains of Staph. aureus (MSSA).",
+      "Only available for IM/IV use."
+    ],
+    "adult_dose": "Usual dose (bacteremia with or without endocarditis): 2 gm IV/IM q4h",
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "150-200 mg/kg/day (divided q6h)"
+      }
+    ],
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": "0.5-1",
+      "half_life_hrs_esrd": "No change",
+      "dose_renal_function_normal": "2 gm IM/IV q4h",
+      "crcl_or_egfr": "No dosage adjustment for renal impairment",
+      "hemodialysis": "No dosage adjustment",
+      "capd": "No dosage adjustment",
+      "crrt": "No dosage adjustment",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": {
+      "note": "If concomitant renal and hepatic dysfunction, reduce dose by 50%.",
+      "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+      "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+      "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+    },
+    "other_adjustment": {
+      "ecmo": "See ECMO Drug Dosing Adjustment."
+    }
+  },
+  "adverse_effects": [
+    "Like all beta-lactams, main problem is allergic rash.",
+    "Neutropenia occurs in over 10% of patients treated for more than 3 weeks. WBC can fall below 1000 cells/µL. Reversible if Nafcillin therapy is stopped.",
+    "Rare AEs: Coombs+ hemolytic anemia; thrombocytopenia, C. difficile colitis, hypokalemia.",
+    "Eosinophilia in up to 22%."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Staphylococcus aureus, methicillin-sensitive (MSSA)",
+      "Staphylococcus epidermidis, methicillin-susceptible (MSSE)",
+      "Staphylococcus lugdunensis",
+      "Staphylococcus sp., coagulase-negative (Methicillin susceptible); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Injection",
+    "peak_serum_conc_mcg_ml": "30 (500 mg IV, SD)",
+    "protein_binding_percent": "90-94",
+    "volume_of_distribution_vd": "27.1 L (Vss)",
+    "avg_serum_t1_2_hr": "0.5-1.0",
+    "elimination": "Biliary",
+    "bile_penetration_percent": ">100",
+    "csf_blood_percent": "9-20",
+    "therapeutic_levels_in_csf": "Yes w/high doses",
+    "auc_mcg_hr_ml": "18.1 (500 mg IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_induced_by_drug": "CYP2C9 (?), CYP3A4",
+    "impact_on_serum_drug_concentrations": "↓"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Dapsone",
+      "effect_on_concentration": "↓ dapsone",
+      "suggested_management": "Monitor"
+    },
+    {
+      "drug": "Letermovir",
+      "effect_on_concentration": "↓ letermovir",
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "↑ nafcillin",
+      "suggested_management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Warfarin",
+      "effect_on_concentration": "↓ warfarin",
+      "suggested_management": "Monitor INR, adjust dosage"
+    }
+  ]
+}

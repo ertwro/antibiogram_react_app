@@ -1,0 +1,86 @@
+{
+  "documentMetadata": {
+    "title": "Pyomyositis",
+    "lastUpdated": "2025-01-27",
+    "sourceFile": "Pyomyositis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can complicate Staph. aureus bacteremia.",
+        "Common in the tropics; rare in temperate zones.",
+        "Injections and injection drug use are risk factors",
+        "May follow exercise or muscle injury."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus",
+        "Streptococcus sp. (Group A and others)",
+        "Gram-negative bacilli (rare)",
+        "Anaerobic bacteria (rarely Clostridium species)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If suspected or proven MSSA: (Nafcillin or Oxacillin) 2 gm IV q4h or Cefazolin 2 gm IV q8h",
+        "If suspected or proven MRSA: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)",
+        "If anaerobes suspected/proven, add Metronidazole"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Linezolid or Daptomcyin are alternatives to vancomycin for MRSA infection.",
+        "Add gram-negative coverage (to Staph/Strep coverage) in immunocompromised patients."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical or CT-guided drainage recommended in all cases",
+        "Duration of therapy is 2-4 weeks, depending on clinical response, with at least 4 weeks recommended for those with S. aureus bacteremia",
+        "Can transition to pathogen-directed oral therapy to complete therapy once the patient has responded."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Practice Guideline: Clin Infect Dis 59:147, 2014."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+
+{
+  "documentMetadata": {
+    "title": "Tuberculosis, Latent",
+    "sourceFile": "syndromes/infectious_syndromes/Tuberculosis, Latent.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Latent Tuberculosis Infection (LTBI)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Latent tuberculosis infection (LTBI) is a state of persistent immune response to stimulation by Mycobacterium tuberculosis antigens without evidence of clinically manifest active TB. Individuals with LTBI are asymptomatic and not infectious."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Tuberculin Skin Test (TST)",
+        "interpretation": "Induration size is interpreted based on risk factors. A positive test indicates TB infection but does not distinguish between latent and active disease."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Interferon-Gamma Release Assays (IGRAs)",
+        "sampleType": "Blood",
+        "interpretation": "Measures T-cell release of interferon-gamma in response to M. tuberculosis antigens. Like TST, a positive test does not distinguish between latent and active TB."
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+          "name": "Chest X-ray",
+          "indication": "To rule out active pulmonary TB in all persons diagnosed with LTBI.",
+          "timing": "Required before starting treatment for LTBI."
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment Regimens for Latent TB Infection"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+            "description": "Most persons with LTBI"
+        },
+        "components": [
+          { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+          { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3 months"
+        },
+        "notes": "Also referred to as 3HR. A preferred short-course regimen."
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+          { "drug": "Rifapentine", "route": "PO", "frequency": "Weekly", "connector": "+" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3 months"
+        },
+        "notes": "Also referred to as 3HP. Administered as once-weekly therapy for 12 weeks. Not recommended for pregnant women or children <2 years old."
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          { "drug": "Rifampin", "route": "PO", "frequency": "Daily" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 months"
+        },
+        "notes": "Also referred to as 4R. A preferred short-course regimen, especially for those with contraindications to isoniazid."
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6 or 9 months"
+        },
+        "notes": "6H or 9H. Longer duration regimens, now less favored than shorter-course options due to lower completion rates and higher toxicity risk."
+      }
+    }
+  ]
+}

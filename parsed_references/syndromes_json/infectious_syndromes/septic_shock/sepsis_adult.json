@@ -1,0 +1,50 @@
+{
+  "documentMetadata": {
+    "title": "Sepsis, Adult",
+    "sourceFile": "Sepsis, Adult.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Sepsis and Septic Shock in Adults"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sepsis is a life-threatening organ dysfunction caused by a dysregulated host response to infection. Septic shock is a subset of sepsis in which underlying circulatory and cellular/metabolic abnormalities are profound enough to substantially increase mortality."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Initial Management (First 3 Hours)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Measure lactate level.",
+        "Obtain blood cultures before administering antibiotics.",
+        "Administer broad-spectrum antibiotics.",
+        "Begin rapid administration of 30 mL/kg crystalloid for hypotension or lactate ≥4 mmol/L.",
+        "Apply vasopressors (for hypotension that does not respond to initial fluid resuscitation) to maintain a mean arterial pressure (MAP) ≥65 mm Hg."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antibiotic Therapy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Empiric broad-spectrum therapy with one or more antimicrobials should be started as soon as possible. The choice of antibiotics depends on the suspected source of infection, local resistance patterns, and patient factors."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Source Control"
+    },
+    {
+      "type": "paragraph",
+      "text": "A specific anatomical diagnosis of infection requiring emergent source control should be identified or excluded as rapidly as possible, and any required source control intervention should be implemented as soon as medically and logistically practical."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "drug_name": "Oxacillin",
+  "tradename": "Prostaphlin",
+  "usage_and_dosing": {
+    "general_info": [
+      "Oxacillin is a semi-synthetic penicillinase-resistant penicillin used for parenteral therapy of infections due to methicillin-susceptible Staph. aureus (MSSA)."
+    ],
+    "adult_dose": "Usual dose: 1.5-2 gm IV q4h",
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "150-200 mg/kg/day (divided q6h)"
+      }
+    ],
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": "0.5-0.7",
+      "half_life_hrs_esrd": "No data",
+      "dose_renal_function_normal": "2 gm IV q4h",
+      "crcl_or_egfr": "Dosage recommendations not available",
+      "hemodialysis": "No data",
+      "capd": "No data",
+      "crrt": "No data",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": {
+      "note": "If concomitant renal and hepatic dysfunction, consider dosage reduction.",
+      "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+      "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+      "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+    },
+    "other_adjustment": {
+      "ecmo": "See ECMO Drug Dosing Adjustment."
+    }
+  },
+  "adverse_effects": [
+    "Hypersensitivity (rash [4%], anaphylaxis)",
+    "Fever",
+    "Local phlebitis",
+    "Gastrointestinal: rare C. difficile infection",
+    "Hematologic: positive Coombs (rare), neutropenia (rare), eosinophilia (22%), thrombocytopenia (rare)",
+    "Hepatic dysfunction may occur with dose of ≥12 gm/day. LFTs usually increase 2-24 days after start of treatment, reversible.",
+    "Acute interstitial nephritis (less than methicillin)",
+    "In children, more rash and liver toxicity with Oxacillin as compared to Nafcillin (Clin Infect Dis 2002;34:50).",
+    "Headache, confusion (rare)"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Staphylococcus aureus, methicillin-sensitive (MSSA)",
+      "Staphylococcus epidermidis, methicillin-susceptible (MSSE)",
+      "Staphylococcus lugdunensis",
+      "Staphylococcus sp., coagulase-negative (Methicillin susceptible); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Injection",
+    "peak_serum_conc_mcg_ml": "43 (500 mg IV, SD)",
+    "protein_binding_percent": "90-94",
+    "volume_of_distribution_vd": "0.4 L/kg",
+    "avg_serum_t1_2_hr": "0.5-0.7",
+    "elimination": "Renal",
+    "bile_penetration_percent": 25,
+    "csf_blood_percent": "10-15",
+    "therapeutic_levels_in_csf": "Yes w/high doses"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "↑ oxacillin",
+      "suggested_management": "Monitor, adjust dosage"
+    }
+  ]
+}

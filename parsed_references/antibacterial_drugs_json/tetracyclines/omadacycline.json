@@ -1,0 +1,154 @@
+{
+  "drug_name": "Omadacycline",
+  "tradename": "Nuzyra",
+  "usage_and_dosing": {
+    "description": "Omadacycline is a tetracycline antibacterial approved for treatment of community-acquired bacteria pneumonia (CAP) and acute bacterial skin and skin structure infections (ABSSSI).",
+    "antibacterial_activity": "Antibacterial activity includes gram-positive, gram-negative atypical and anaerobic bacteria.",
+    "in_vitro_activity": {
+      "resistant_pathogens": [
+        "Penicillin-resistant S. pneumoniae",
+        "VRE",
+        "Ampicillin-resistant H. influenzae",
+        "Acinetobacter species",
+        "Stenotrophomonas maltophilia",
+        "Enterobacterales resistant to ceftazidime and carbapenems"
+      ],
+      "resistant_in_vitro": [
+        "Pseudomonas sp.",
+        "Proteus sp.",
+        "Morganella sp.",
+        "Providencia sp."
+      ]
+    },
+    "overview_references": [
+      "Clin Infect Dis 2019;69:S1",
+      "Clin Infect Dis 2019:69:890"
+    ],
+    "adult_dose": {
+      "cap": {
+        "loading_dose": "200 mg IV (over 60 min) on day 1, OR 100 mg IV (over 30 min) q12h x2 doses on day 1, OR 300 mg po q12h x2 doses on day 1.",
+        "maintenance_dose": "100 mg IV (over 30 min) OR 300 mg po q24h."
+      },
+      "absssi": {
+        "loading_dose": "200 mg IV (over 60 min) on day 1, OR 100 mg IV (over 30 min) q12h x2 doses on day 1, OR 450 mg po q24h on days 1 and 2.",
+        "maintenance_dose": "100 mg IV (over 30 min) OR 300 mg po q24h."
+      },
+      "duration_of_treatment": "7-14 days for CAP and ABSSSI.",
+      "iv_dosing": {
+        "reconstitution": "Reconstituted drug should be yellow to dark orange in color.",
+        "preparation": "Prepare IV doses in 100 mL bags of NS or D5W, use within 24 hours at room temperature or within 7 days if refrigerated.",
+        "administration": "Do not administer through same IV line with any solution containing multivalent cations (e.g., calcium, magnesium)."
+      },
+      "oral_dosing": {
+        "fasting": "Fast for 4 hrs before dosing.",
+        "food_and_drug_interactions": "No food for 2 hrs after dosing, and no dairy products, antacids or multivitamins for 4 hrs after dosing."
+      }
+    },
+    "pediatric_dose": {
+      "safety_and_efficacy_not_established": true
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": "15.5-16.8",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "100 mg IV q24h, 300 mg po q24h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "obesity": "See Obesity Dosing Adjustments table."
+  },
+  "adverse_effects": {
+    "contraindications": "Known hypersensitivity to tetracyclines",
+    "warnings": [
+      "Higher mortality risk in CAP patients (2%) vs. Moxifloxacin (1%)",
+      "Tooth discoloration and enamel hypoplasia if used in second half of pregnancy",
+      "Inhibition of bone growth if used in 2nd/3rd trimester of pregnancy",
+      "Clostridioides difficile-associated diarrhea"
+    ],
+    "aes": {
+      "nausea_vomiting": "In clinical trial of oral therapy vs linezolid for ABSSI, nausea in 30% and vomiting in 17% of omadacycline patients vs 8% and 3% in the linezolid patients.",
+      "infusion_site_reactions": true,
+      "increased_ast_alt_ggt": true,
+      "hypertension": true,
+      "headache": true,
+      "diarrhea": true,
+      "insomnia": true,
+      "constipation": true
+    }
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid during 2nd and 3rd trimesters",
+    "lactation": "Mfr suggests no breastfeeding during treatment and for 4 days after last dose. However, milk conc are likely low and absorption inhibited by calcium in breast milk."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": [],
+    "in_vitro_lacks_activity": [
+      "Proteus species",
+      "Providencia species",
+      "Pseudomonas species",
+      "Morganella species"
+    ]
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (150 mg), injection",
+    "food_recs": "Tab no food",
+    "oral_absorption": "34.5",
+    "tmax_hr": "po: 2.5",
+    "peak_serum_conc": {
+      "iv": "2.12 (100 mg IV q24h, SS)",
+      "po": "0.95 (300 mg po q24h, SS)"
+    },
+    "peak_urine_conc": "No data",
+    "protein_binding": "20",
+    "volume_of_distribution": "190 L (Vss)",
+    "avg_serum_t1_2": "15.5-16.8",
+    "elimination": "Fecal",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": {
+      "iv": "12.14 (100 mg IV q24h, 0-24 hr)",
+      "po": "11.16 (300 mg po q24h, 0-24 hr)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "transporters_substrate": [
+      "PGP"
+    ],
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Antacids containing Al, Mg, Ca, Bi subsalicylate",
+      "effect": "↓ omadacycline",
+      "suggestion": "Separate administration"
+    },
+    {
+      "drug": "Iron-containing preparations",
+      "effect": "↓ omadacycline",
+      "suggestion": "Separate administration"
+    },
+    {
+      "drug": "Verapamil",
+      "effect": "↑ omadacycline",
+      "suggestion": ""
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ INR",
+      "suggestion": ""
+    }
+  ]
+}

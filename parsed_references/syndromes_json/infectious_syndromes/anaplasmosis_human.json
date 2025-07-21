@@ -1,0 +1,89 @@
+{
+  "documentMetadata": {
+    "title": "Human Anaplasmosis",
+    "lastUpdated": "2023-08-07",
+    "sourceFile": "Anaplasmosis, Human.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Obligate intracellular bacteria that infect human WBCs. They are spread by ticks.",
+        "Infection presents as a febrile flu-like illness after outdoor activity. No rash; but leukopenia / thrombocytopenia are common symptoms.",
+        "Human anaplasmosis was formerly called human granulocytic ehrlichiosis (HGE).",
+        "Tick borne systemic febrile syndrome found in the United States (Upper Midwest, Northeast, West Coast) and Europe. [CDC statistical map](https://www.cdc.gov/anaplasmosis/stats/index.html).",
+        "History of tick exposure from April through September."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Anaplasma (Ehrlichia) phagocytophilum (Ixodes sp. ticks are the vector).",
+        "Dog variant is Ehrlichia ewingii",
+        "Equine variant is Ehrlichia equi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In 4 yrs of passive surveillance, 8896 cases reported (US) ([Am J Trop Hyg 93:66, 2015](https://www.ajtmh.org/view/journals/tpmd/93/1/article-p66.xml)). Confirmed by PCR (37%), the rest by serology",
+        "Morulae (collections of intracellular bacteria in the cytoplasm of neutrophils) visible on blood smear in only 3% of PCR positive patients",
+        "Review of current diagnostic methods for anaplasmosis and other tick borne infections: [Clinical Chemistry 2020;66:537](https://academic.oup.com/clinchem/article/66/4/537/5716355) (many images)",
+        "CDC Review of diagnosis and management: [MMWR RR 65(2):1-144, 2016](https://www.cdc.gov/mmwr/volumes/65/rr/rr6502a1.htm)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doxycycline 100 mg bid po or IV x 7–14 days; treat for at least 10 days if known/suspected concomitant Lyme disease (See Comments)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tetracycline 500 mg po qid x 7-14 days (Do not use in children or pregnancy) (See Comments with respect to comparative safety of doxycycline)",
+        "Rifampin might be alternative if patient has severe allergy to doxycycline or is pregnant and has a mild case of anaplasmosis.\nDose: 10 mg/kg bid (max dose 600 mg bid) for 5-7 days in pregnancy, but development of resistance is a concern with Rifampin monotherapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pediatrics. Use of tetracyclines in pediatric patients has historically been limited because of reports of permanent tooth discoloration in children <8 years of age caused by incorporation of the drugs and their colored degradation products in enamel.\nDoxycycline binds less readily to calcium compared with other members of the tetracycline class, and recent comparative data suggest that doxycycline is not likely to cause visible teeth staining or enamel hypoplasia in children <8 years of age.\nDoxycycline can safely be administered for short durations (≤21 days) regardless of patient age (AAP Red Book 2018, Section 4: [J Pediatr 166:1246, 2015](https://www.jpeds.com/article/S0022-3476(14)01116-8/fulltext)).",
+        "Based on in vitro studies, there is no clear alternative therapy to Doxycycline.",
+        "See CDC treatment recommendations.",
+        "Reference for Ehrlichia ewingii. [N Engl J Med 365:422, 2011](https://www.nejm.org/doi/full/10.1056/NEJMc1105538).",
+        "For data on Anaplasmosis and other tick borne infections in children: [Infect Dis Clin No Amer 29:539, 2015](https://www.sciencedirect.com/science/article/pii/S089155201500048X)."
+      ]
+    }
+  ]
+}

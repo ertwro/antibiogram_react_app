@@ -1,998 +1,2608 @@
 {
-  "identity": {
-    "bacteriumName": "Escherichia coli",
-    "aliases": ["E. coli"],
-    "lastUpdated": "2025-01-08",
-    "clsiCategory": "Enterobacterales (excluding Salmonella/Shigella)",
-    "classification": {
-      "gramStain": "Gram-negative",
-      "morphology": "Rod",
-      "respiration": "Facultative anaerobe",
-      "notes": [
-        "Motile",
-        "Lactose fermenter (pink on MacConkey agar)",
-        "Indole positive",
-        "VP negative",
-        "Citrate negative"
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Escherichia coli",
+      "aliases": [
+        "E. coli"
+      ],
+      "lastUpdated": "2025-01-08",
+      "clsiCategory": "Enterobacterales (excluding Salmonella/Shigella)",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Motile",
+          "Lactose fermenter (pink on MacConkey agar)",
+          "Indole positive",
+          "VP negative",
+          "Citrate negative"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative rod, motile, lactose fermenter (pink on MacConkey), indole +, VP –, citrate –, methyl red +, lysine decarboxylase +."
+    },
+    "clinicalProfile": {
+      "summary": "Escherichia coli causes a variety of infections ranging from uncomplicated urinary tract infections to life-threatening infections of the abdomen, skin and soft tissue, lung, CNS and other sites in both normal and immunocompromised hosts.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urinary Tract Infections (UTI)",
+          "description": "Includes uncomplicated cystitis and pyelonephritis."
+        },
+        {
+          "syndromeName": "Intra-abdominal Infections",
+          "description": "Can cause peritonitis and abscesses."
+        },
+        {
+          "syndromeName": "Skin and Soft Tissue Infections",
+          "description": "Often occurs in surgical sites or wounds."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Hospital-acquired or ventilator-associated pneumonia."
+        },
+        {
+          "syndromeName": "Central Nervous System (CNS) Infections",
+          "description": "Can cause meningitis, especially in neonates."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream, can lead to sepsis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised hosts",
+        "Patients with indwelling catheters",
+        "Neonates",
+        "Post-surgical patients"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora",
+        "Contaminated food or water",
+        "Person-to-person (fecal-oral route)",
+        "Healthcare-associated transmission"
+      ],
+      "prognosisNotes": [
+        "E. coli may be susceptible to Piperacillin-tazobactam in vitro but may fail clinically, especially in bacteremia and other serious infections."
       ]
     },
-    "strainDetails": [],
-    "biochemicalTests": "Gram-negative rod, motile, lactose fermenter (pink on MacConkey), indole +, VP –, citrate –, methyl red +, lysine decarboxylase +."
-  },
-  "clinicalProfile": {
-    "summary": "Escherichia coli causes a variety of infections ranging from uncomplicated urinary tract infections to life-threatening infections of the abdomen, skin and soft tissue, lung, CNS and other sites in both normal and immunocompromised hosts.",
-    "pathophysiologyPearls": [],
-    "keySignsAndSymptoms": [],
-    "clinicalSyndromes": [
-      {
-        "syndromeName": "Urinary Tract Infections (UTI)",
-        "description": "Includes uncomplicated cystitis and pyelonephritis."
-      },
-      {
-        "syndromeName": "Intra-abdominal Infections",
-        "description": "Can cause peritonitis and abscesses."
-      },
-      {
-        "syndromeName": "Skin and Soft Tissue Infections",
-        "description": "Often occurs in surgical sites or wounds."
-      },
-      {
-        "syndromeName": "Pneumonia",
-        "description": "Hospital-acquired or ventilator-associated pneumonia."
-      },
-      {
-        "syndromeName": "Central Nervous System (CNS) Infections",
-        "description": "Can cause meningitis, especially in neonates."
-      },
-      {
-        "syndromeName": "Bacteremia",
-        "description": "Presence of bacteria in the bloodstream, can lead to sepsis."
-      }
-    ],
-    "stagesOfIllness": [],
-    "highRiskPopulations": [
-      "Immunocompromised hosts",
-      "Patients with indwelling catheters",
-      "Neonates",
-      "Post-surgical patients"
-    ],
-    "transmissionVectors": [
-      "Endogenous flora",
-      "Contaminated food or water",
-      "Person-to-person (fecal-oral route)",
-      "Healthcare-associated transmission"
-    ],
-    "prognosisNotes": [
-      "E. coli may be susceptible to Piperacillin-tazobactam in vitro but may fail clinically, especially in bacteremia and other serious infections."
-    ]
-  },
-  "resistanceProfile": {
-    "groupIntrinsicResistance": [],
-    "intrinsicResistance": [],
-    "majorMechanisms": [
-      {
-        "mechanismName": "Extended-Spectrum Beta-Lactamase (ESBL)",
-        "mechanismType": "Enzymatic Inactivation",
-        "description": "Enzymes that confer resistance to most penicillins and cephalosporins, including third-generation cephalosporins and aztreonam."
-      },
-      {
-        "mechanismName": "Carbapenemase Production",
-        "mechanismType": "Enzymatic Inactivation",
-        "description": "Enzymes that hydrolyze carbapenems, as well as other beta-lactams. Includes Klebsiella pneumoniae carbapenemase (KPC) and metallo-beta-lactamases (e.g., NDM)."
-      }
-    ],
-    "clinicalAlerts": [
-      {
-        "alertTitle": "Piperacillin-Tazobactam Clinical Failure",
-        "details": "Despite in vitro susceptibility, Piperacillin-tazobactam is not recommended for bacteremia or other serious infections due to risk of treatment failure, possibly due to an inoculum effect. Ref: Clin Infect Dis 72:1109, 2021."
-      },
-      {
-        "alertTitle": "Emergence of Resistance",
-        "details": "Emergence of resistant mutants has been observed with agents like Ceftazidime-avibactam. See Clin Infect Dis 2019; 68:519; Antimicrob Agents Chemother. 2019;63:e01551-18 for discussion."
-      }
-    ]
-  },
-  "treatment": {
-    "generalNotes": [
-      "Suggested treatment regimens are for parenteral therapy of more serious infections and based on status of pathogen detection and results of in vitro susceptibility.",
-      "Recommendations in the table below are for treatment of moderately severe or severe infections, particularly those in which resistance is a concern. For details see IDSA Guidance on the treatment of Antimicrobial Resistant Gram-Negative Infections.",
-      "For less severe and uncomplicated infections (e.g., UTI) caused by susceptible stains in addition to the agents below, treatment options include Amoxicillin-clavulanate, fluoroquinolones, oral and parenteral second- and third-generation cephalosporins. TMP-SMX is an option provided the strain is susceptible, but its utility as an empiric agent is limited because resistance is common. Nitrofurantoin and oral Fosfomycin are options for uncomplicated UTI.",
-      "For detailed discussion of beta-lactam drug resistance classes and mechanisms Gram Negative Bacilli, Resistance to Beta-lactams, Overview.",
-      "For treatment of uncomplicated urinary tract infections, see Cystitis (adult female) or Cystitis (adult male)."
-    ],
-    "drugsToAvoid": [
-      {
-        "drugOrClass": "Piperacillin-tazobactam",
-        "condition": "Bacteremia, Serious Infections",
-        "reason": "Risk of clinical failure despite in vitro susceptibility, possibly due to inoculum effect."
-      }
-    ],
-    "adjunctiveTherapies": [],
-    "regimens": [
-      {
-        "context": {
-          "type": "Empiric",
-          "condition": "Isolation of E. coli, susceptibility results pending",
-          "patientPopulation": ["Local rate of resistance <10%"],
-          "isolateSource": null
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Ceftriaxone",
-                    "dose": "2 gm (age < 60 years) or 1 gm (age ≥ 65 years)",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Ciprofloxacin",
-                    "dose": "400 mg",
-                    "route": "IV",
-                    "frequency": "q12h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Levofloxacin",
-                    "dose": "750 mg",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Piperacillin-tazobactam",
-                    "dose": "4.5 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Administer over 4 hours."
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Empiric",
-          "condition": "Isolation of E. coli, susceptibility results pending",
-          "patientPopulation": ["Local rates of ESBL resistance >10%"],
-          "isolateSource": null
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Meropenem",
-                    "dose": "1-2 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Ertapenem",
-                    "dose": "1 gm",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": ""
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Directed",
-          "condition": "ESBL-negative (Susceptible to Aztreonam, Ceftriaxone, Cefotaxime, Ceftazidime, or Cefepime)",
-          "patientPopulation": [],
-          "isolateSource": null
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Ceftriaxone",
-                    "dose": "2 gm (age < 60 years) or 1 gm (age ≥ 65 years)",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Ciprofloxacin",
-                    "dose": "400 mg",
-                    "route": "IV",
-                    "frequency": "q12h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Levofloxacin",
-                    "dose": "750 mg",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": ""
-                  },
-                   {
-                    "drugName": "Ampicillin",
-                    "dose": "1-2 gm",
-                    "route": "IV",
-                    "frequency": "q4-6h",
-                    "comments": "Use if susceptible."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "preference": "Alternative",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Cefazolin",
-                    "dose": "2 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "TMP-SMX",
-                    "dose": "10 mg/kg/d of TMP component",
-                    "route": "IV or PO",
-                    "frequency": "in 2-3 divided doses",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Amoxicillin-clavulanate",
-                    "dose": "1.2-2.4 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Where available; not available in US."
-                  },
-                  {
-                    "drugName": "Ampicillin-sulbactam",
-                    "dose": "3 gm",
-                    "route": "IV",
-                    "frequency": "q6h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Gentamicin or Tobramycin",
-                    "dose": "5-7 mg/kg",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": "Dose adjusted for renal function."
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Directed",
-          "condition": "ESBL producer, susceptible to carbapenems",
-          "patientPopulation": [],
-          "isolateSource": null
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Meropenem",
-                    "dose": "1-2 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Consider higher dose infused over 3 hours q8h for more serious infections."
-                  },
-                  {
-                    "drugName": "Imipenem-cilastatin",
-                    "dose": "500 mg",
-                    "route": "IV",
-                    "frequency": "q6h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Ertapenem",
-                    "dose": "1 gm",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": ""
-                  }
-                ]
-              }
-            ],
-            "notes": [
-              "Consider use of Ceftolozane-tazobactam 3 gm IV infused over 3h q8h as a carbapenem-sparing alternative."
-            ]
-          },
-          {
-            "preference": "Alternative",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Ceftolozane-tazobactam",
-                    "dose": "1.5 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": ""
-                  },
-                  {
-                    "drugName": "Cefepime-enmetazobactam",
-                    "dose": "Varies",
-                    "route": "IV",
-                    "frequency": "Varies",
-                    "comments": "Recently FDA approved for treatment of complicated UTIs."
-                  },
-                  {
-                    "drugName": "Ceftazidime-avibactam",
-                    "dose": "2.5 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Administer over 2 hours."
-                  },
-                  {
-                    "drugName": "Temocillin",
-                    "dose": "2 gm",
-                    "route": "IV",
-                    "frequency": "q12h",
-                    "comments": "Available in Belgium and United Kingdom but not the US."
-                  },
-                  {
-                    "drugName": "Gentamicin or Tobramycin",
-                    "dose": "5-7 mg/kg",
-                    "route": "IV",
-                    "frequency": "q24h",
-                    "comments": "Use if susceptible; dose adjusted for renal function."
-                  },
-                  {
-                    "drugName": "Plazomicin",
-                    "dose": "15 mg/kg",
-                    "route": "IV",
-                    "frequency": "once daily",
-                    "comments": "Duration 4-7 days. FDA-approved for complicated UTI only. Use if available."
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Directed",
-          "condition": "Carbapenem-Resistant Enterobacterales (CRE) - KPC producer",
-          "patientPopulation": ["Resistant to carbapenems, susceptible to Ceftazidime-avibactam, Meropenem-vaborbactam, and Imipenem-cilastatin-relebactam"],
-          "isolateSource": null
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Ceftazidime-avibactam",
-                    "dose": "2.5 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Administer over 2 hours."
-                  },
-                  {
-                    "drugName": "Meropenem-vaborbactam",
-                    "dose": "4 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Administer over 3 hours."
-                  }
-                ]
-              }
-            ],
-            "notes": ["Infectious diseases consultation recommended."]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Directed",
-          "condition": "Carbapenem-Resistant Enterobacterales (CRE) - Metallo-carbapenemase producer",
-          "patientPopulation": ["Resistant to agents above including Ceftazidime-avibactam, Meropenem-vaborbactam"],
-          "isolateSource": null
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Imipenem-cilastatin-relebactam",
-                    "dose": "1.25 gm",
-                    "route": "IV",
-                    "frequency": "q6h",
-                    "comments": "Administer over 30 min. For use if CrCl > 90 mL/min."
-                  },
-                  {
-                    "drugName": "Cefiderocol",
-                    "dose": "2 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Administer over 3 hours."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "preference": "Alternative",
-            "strategy": "Sequential",
-             "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Ceftazidime-avibactam",
-                    "dose": "2.5 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": "Administer over 3 hours."
-                  },
-                  {
-                    "drugName": "Aztreonam",
-                    "dose": "2 gm",
-                    "route": "IV",
-                    "frequency": "q6h",
-                    "comments": "Administer over 3 hours. To be used in combination with Ceftazidime-avibactam."
-                  }
-                ]
-              }
-            ],
-            "notes": ["Infectious diseases consultation recommended.", "Based on in vitro susceptibility, meropenem-vaborbactam plus aztreonam may be an option although efficacy unproven."]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Directed",
-          "condition": "Uncomplicated Cystitis",
-          "patientPopulation": [],
-          "isolateSource": "Urine"
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "1 day",
-                "drugs": [
-                  {
-                    "drugName": "Fosfomycin",
-                    "dose": "3 gm",
-                    "route": "PO",
-                    "frequency": "x one dose",
-                    "comments": ""
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "context": {
-          "type": "Directed",
-          "condition": "Pyelonephritis",
-          "patientPopulation": [],
-          "isolateSource": "Urine"
-        },
-        "recommendations": [
-          {
-            "preference": "Primary",
-            "strategy": "Concurrent",
-            "steps": [
-              {
-                "step": 1,
-                "duration": "Variable",
-                "drugs": [
-                  {
-                    "drugName": "Fosfomycin",
-                    "dose": "6 gm",
-                    "route": "IV",
-                    "frequency": "q8h",
-                    "comments": ""
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "laboratoryProfile": {
-    "testingIndications": [],
-    "methodologyNotes": [],
-    "recommendedPanel": [],
-    "specialTests": [],
-    "reportingRules": [
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
         {
-            "ruleType": "Surrogate",
-            "drug": "Ampicillin",
-            "condition": "Standard",
-            "details": "Results of ampicillin testing can be used to predict results for amoxicillin."
+          "mechanismName": "Extended-Spectrum Beta-Lactamase (ESBL)",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Enzymes that confer resistance to most penicillins and cephalosporins, including third-generation cephalosporins and aztreonam."
         },
         {
-            "ruleType": "Surrogate",
-            "drug": "Cefazolin",
-            "condition": "Uncomplicated UTIs due to E. coli, K. pneumoniae, and P. mirabilis",
-            "details": "Serves as a surrogate for oral cephalosporins."
-        },
-        {
-            "ruleType": "Conditional",
-            "drug": "Cefepime",
-            "condition": "Carbapenemase production detected",
-            "details": "Susceptible/Susceptible-Dose Dependent (S/SDD) results should be suppressed or edited and reported as resistant."
-        },
-        {
-            "ruleType": "Conditional",
-            "drug": "Meropenem-vaborbactam",
-            "condition": "OXA-48-like gene or enzyme detected",
-            "details": "Suppress or report as resistant, as the isolate may not respond in vivo despite in vitro susceptibility."
+          "mechanismName": "Carbapenemase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Enzymes that hydrolyze carbapenems, as well as other beta-lactams. Includes Klebsiella pneumoniae carbapenemase (KPC) and metallo-beta-lactamases (e.g., NDM)."
         }
-    ],
-    "antimicrobialBreakpoints": [
-      {
-        "tier": 1,
-        "tierDescription": "Appropriate for routine, primary testing and reporting",
-        "agents": [
-          {
-            "agentName": "Ampicillin",
-            "breakpointSets": [
-              {
-                "condition": "Standard (Oral for uncomplicated UTI)",
-                "diskDiffusion": { "diskContent": "10 µg", "s_breakpoint": "≥17", "i_breakpoint": "14-16", "r_breakpoint": "≤13" },
-                "mic": { "s_breakpoint": "≤8", "i_breakpoint": "16", "r_breakpoint": "≥32" },
-                "comments": ["For oral use, breakpoints apply only for uncomplicated UTIs due to E. coli and Proteus mirabilis.", "Results of ampicillin testing can be used to predict results for amoxicillin."]
-              }
-            ]
-          },
-          {
-            "agentName": "Cefazolin",
-            "breakpointSets": [
-              {
-                "condition": "Urine Only (Uncomplicated UTI)",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥15", "i_breakpoint": null, "r_breakpoint": "≤14" },
-                "mic": { "s_breakpoint": "≤16", "i_breakpoint": null, "r_breakpoint": "≥32" },
-                "comments": ["Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis in uncomplicated UTIs."]
-              },
-              {
-                "condition": "Standard (Parenteral)",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥23", "i_breakpoint": "20-22", "r_breakpoint": "≤19" },
-                "mic": { "s_breakpoint": "≤2", "i_breakpoint": "4", "r_breakpoint": "≥8" },
-                "comments": ["For infections other than uncomplicated UTI, breakpoints apply to E. coli, K. pneumoniae, and P. mirabilis."]
-              }
-            ]
-          },
-          {
-            "agentName": "Amoxicillin-clavulanate",
-            "breakpointSets": [
-              {
-                "condition": "Uncomplicated UTI only",
-                "diskDiffusion": { "diskContent": "20/10 µg", "s_breakpoint": "≥18", "i_breakpoint": null, "r_breakpoint": "≤17" },
-                "mic": { "s_breakpoint": "≤8/4", "i_breakpoint": "16/4", "r_breakpoint": "≥32/4" },
-                "comments": ["Breakpoints for oral use are also for completion of therapy for systemic infection."]
-              }
-            ]
-          },
-          {
-            "agentName": "Ampicillin-sulbactam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10/10 µg", "s_breakpoint": "≥15", "i_breakpoint": "12-14", "r_breakpoint": "≤11" },
-                "mic": { "s_breakpoint": "≤8/4", "i_breakpoint": "16/4", "r_breakpoint": "≥32/4" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Piperacillin-tazobactam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "100/10 µg", "s_breakpoint": "≥25", "i_breakpoint": "21-24", "r_breakpoint": "≤20" },
-                "mic": { "s_breakpoint": "≤8/4", "i_breakpoint": "16/4", "r_breakpoint": "≥32/4" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Gentamicin",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10 µg", "s_breakpoint": "≥18", "i_breakpoint": "15-17", "r_breakpoint": "≤14" },
-                "mic": { "s_breakpoint": "≤4", "i_breakpoint": "8", "r_breakpoint": "≥16" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Tobramycin",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10 µg", "s_breakpoint": "≥17", "i_breakpoint": "13-16", "r_breakpoint": "≤12" },
-                "mic": { "s_breakpoint": "≤4", "i_breakpoint": "8", "r_breakpoint": "≥16" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Amikacin",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥20", "i_breakpoint": "17-19", "r_breakpoint": "≤16" },
-                "mic": { "s_breakpoint": "≤16", "i_breakpoint": "32", "r_breakpoint": "≥64" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Ciprofloxacin",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "5 µg", "s_breakpoint": "≥26", "i_breakpoint": "22-25", "r_breakpoint": "≤21" },
-                "mic": { "s_breakpoint": "≤0.25", "i_breakpoint": "0.5", "r_breakpoint": "≥1" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Levofloxacin",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "5 µg", "s_breakpoint": "≥21", "i_breakpoint": "17-20", "r_breakpoint": "≤16" },
-                "mic": { "s_breakpoint": "≤0.5", "i_breakpoint": "1", "r_breakpoint": "≥2" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Trimethoprim-sulfamethoxazole",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "1.25/23.75 µg", "s_breakpoint": "≥16", "i_breakpoint": "11-15", "r_breakpoint": "≤10" },
-                "mic": { "s_breakpoint": "≤2/38", "i_breakpoint": "4/76", "r_breakpoint": "≥8/152" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Nitrofurantoin",
-            "breakpointSets": [
-              {
-                "condition": "Urine only",
-                "diskDiffusion": { "diskContent": "300 µg", "s_breakpoint": "≥17", "i_breakpoint": "15-16", "r_breakpoint": "≤14" },
-                "mic": { "s_breakpoint": "≤32", "i_breakpoint": "64", "r_breakpoint": "≥128" },
-                "comments": ["For uncomplicated urinary tract infections (UTI)."]
-              }
-            ]
-          },
-          {
-            "agentName": "Fosfomycin",
-            "breakpointSets": [
-              {
-                "condition": "Urine only",
-                "diskDiffusion": { "diskContent": "200 µg", "s_breakpoint": "≥16", "i_breakpoint": "13-15", "r_breakpoint": "≤12" },
-                "mic": { "s_breakpoint": "≤64", "i_breakpoint": "128", "r_breakpoint": "≥256" },
-                "comments": ["Applies only to E. coli urinary tract isolates.", "The 200-µg fosfomycin disk contains 50 µg glucose-6-phosphate.", "The only approved MIC testing method is agar dilution; broth dilution MIC testing should not be performed."]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules",
-        "agents": [
-          {
-            "agentName": "Cefuroxime (parenteral)",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥18", "i_breakpoint": "15-17", "r_breakpoint": "≤14" },
-                "mic": { "s_breakpoint": "≤8", "i_breakpoint": "16", "r_breakpoint": "≥32" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Cefepime",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥25", "i_breakpoint": "19-24", "r_breakpoint": "≤18" },
-                "mic": { "s_breakpoint": "≤4", "i_breakpoint": "8", "r_breakpoint": "≥16" },
-                "comments": ["Susceptible/Susceptible-Dose Dependent (S/SDD) results should be suppressed or edited and reported as resistant for isolates that demonstrate carbapenemase production."]
-              }
-            ]
-          },
-          {
-            "agentName": "Ertapenem",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10 µg", "s_breakpoint": "≥22", "i_breakpoint": "19-21", "r_breakpoint": "≤18" },
-                "mic": { "s_breakpoint": "≤0.5", "i_breakpoint": "1", "r_breakpoint": "≥2" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Imipenem",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10 µg", "s_breakpoint": "≥23", "i_breakpoint": "20-22", "r_breakpoint": "≤19" },
-                "mic": { "s_breakpoint": "≤1", "i_breakpoint": "2", "r_breakpoint": "≥4" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Meropenem",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10 µg", "s_breakpoint": "≥23", "i_breakpoint": "20-22", "r_breakpoint": "≤19" },
-                "mic": { "s_breakpoint": "≤1", "i_breakpoint": "2", "r_breakpoint": "≥4" },
-                "comments": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting",
-        "agents": [
-          {
-            "agentName": "Cefiderocol",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥16", "i_breakpoint": "9-15", "r_breakpoint": "≤8" },
-                "mic": { "s_breakpoint": "≤4", "i_breakpoint": "8", "r_breakpoint": "≥16" },
-                "comments": ["The accuracy and reproducibility of cefiderocol testing results by disk diffusion and broth microdilution are markedly affected by iron concentration and inoculum preparation and may vary by disk and media manufacturer."]
-              }
-            ]
-          },
-          {
-            "agentName": "Ceftazidime-avibactam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30/20 µg", "s_breakpoint": "≥21", "i_breakpoint": null, "r_breakpoint": "≤20" },
-                "mic": { "s_breakpoint": "≤8/4", "i_breakpoint": null, "r_breakpoint": "≥16/4" },
-                "comments": ["Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm to avoid reporting false-susceptible or false-resistant results."]
-              }
-            ]
-          },
-          {
-            "agentName": "Imipenem-relebactam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "10/25 µg", "s_breakpoint": "≥25", "i_breakpoint": "21-24", "r_breakpoint": "≤20" },
-                "mic": { "s_breakpoint": "≤1/4", "i_breakpoint": "2/4", "r_breakpoint": "≥4/4" },
-                "comments": ["Breakpoints do not apply to the family Morganellaceae, which includes but is not limited to the genera Morganella, Proteus, and Providencia."]
-              }
-            ]
-          },
-          {
-            "agentName": "Meropenem-vaborbactam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "20/10 µg", "s_breakpoint": "≥18", "i_breakpoint": "15-17", "r_breakpoint": "≤14" },
-                "mic": { "s_breakpoint": "≤4/8", "i_breakpoint": "8/8", "r_breakpoint": "≥16/8" },
-                "comments": ["Enterobacterales that harbor OXA-48-like enzymes may test susceptible to meropenem-vaborbactam but may not respond in vivo. If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."]
-              }
-            ]
-          },
-          {
-            "agentName": "Plazomicin",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥18", "i_breakpoint": "15-17", "r_breakpoint": "≤14" },
-                "mic": { "s_breakpoint": "≤2", "i_breakpoint": "4", "r_breakpoint": "≥8" },
-                "comments": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available",
-        "agents": [
-          {
-            "agentName": "Aztreonam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥21", "i_breakpoint": "18-20", "r_breakpoint": "≤17" },
-                "mic": { "s_breakpoint": "≤4", "i_breakpoint": "8", "r_breakpoint": "≥16" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Ceftazidime",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥21", "i_breakpoint": "18-20", "r_breakpoint": "≤17" },
-                "mic": { "s_breakpoint": "≤4", "i_breakpoint": "8", "r_breakpoint": "≥16" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Ceftriaxone",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30 µg", "s_breakpoint": "≥26", "i_breakpoint": "20-22", "r_breakpoint": "≤19" },
-                "mic": { "s_breakpoint": "≤1", "i_breakpoint": "2", "r_breakpoint": "≥4" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Ceftolozane-tazobactam",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": "30/20 µg", "s_breakpoint": "≥22", "i_breakpoint": "19-21", "r_breakpoint": "≤18" },
-                "mic": { "s_breakpoint": "≤2/4", "i_breakpoint": "4/4", "r_breakpoint": "≥8/4" },
-                "comments": []
-              }
-            ]
-          },
-          {
-            "agentName": "Colistin or Polymyxin B",
-            "breakpointSets": [
-              {
-                "condition": "Standard",
-                "diskDiffusion": { "diskContent": null, "s_breakpoint": null, "i_breakpoint": null, "r_breakpoint": null },
-                "mic": { "s_breakpoint": "≤2", "i_breakpoint": null, "r_breakpoint": "≥4" },
-                "comments": ["Disk diffusion and gradient diffusion methods should not be performed.", "When given systemically, these agents are likely effective for pneumonia."]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "additionalInformation": {
-    "diagnosticNotes": {
-      "summary": "",
-      "biosafetyWarning": "",
-      "methods": []
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Piperacillin-Tazobactam Clinical Failure",
+          "details": "Despite in vitro susceptibility, Piperacillin-tazobactam is not recommended for bacteremia or other serious infections due to risk of treatment failure, possibly due to an inoculum effect. Ref: Clin Infect Dis 72:1109, 2021."
+        },
+        {
+          "alertTitle": "Emergence of Resistance",
+          "details": "Emergence of resistant mutants has been observed with agents like Ceftazidime-avibactam. See Clin Infect Dis 2019; 68:519; Antimicrob Agents Chemother. 2019;63:e01551-18 for discussion."
+        }
+      ]
     },
-    "preventionAndScreening": [],
-    "treatmentLifecycle": [],
-    "antimicrobialStewardship": [
-      "Carbapenems should be reserved for polymicrobial infections for which anaerobic coverage is required or for treatment of infections due to ESBL-producing strains",
-      "Although active against ESBLs and related beta-lactamases, use of Ceftazidime-avibactam, Imipenem-relebactam, and Meropenem-vaborbactam should be reserved for patients with documented carbapenemase mechanism of resistance."
-    ],
-    "drugSpecificPearls": [
+    "treatment": {
+      "generalNotes": [
+        "Suggested treatment regimens are for parenteral therapy of more serious infections and based on status of pathogen detection and results of in vitro susceptibility.",
+        "Recommendations in the table below are for treatment of moderately severe or severe infections, particularly those in which resistance is a concern. For details see IDSA Guidance on the treatment of Antimicrobial Resistant Gram-Negative Infections.",
+        "For less severe and uncomplicated infections (e.g., UTI) caused by susceptible stains in addition to the agents below, treatment options include Amoxicillin-clavulanate, fluoroquinolones, oral and parenteral second- and third-generation cephalosporins. TMP-SMX is an option provided the strain is susceptible, but its utility as an empiric agent is limited because resistance is common. Nitrofurantoin and oral Fosfomycin are options for uncomplicated UTI.",
+        "For detailed discussion of beta-lactam drug resistance classes and mechanisms Gram Negative Bacilli, Resistance to Beta-lactams, Overview.",
+        "For treatment of uncomplicated urinary tract infections, see Cystitis (adult female) or Cystitis (adult male)."
+      ],
+      "drugsToAvoid": [
         {
-            "drugName": "Aztreonam + Ceftazidime-avibactam",
-            "pearl": "Aztreonam is not hydrolyzed by metallocarbapenemases (ceftazidime is) but is inactivated by ESBLS which are often produced concomitantly with the carbapenemase. Avibactam inactivates ESBLs. This combination is a last resort recommendation based entirely on in vitro data and case reports. See Antimicrob Agents Chemother 2017 Mar 24; 61(4). pii:e02243-16 and J Antimicrob Chemother 2018; 73:1104."
-        },
-        {
-            "drugName": "Cefiderocol",
-            "pearl": "FDA-approved for patients with complicated UTI due to susceptible bacteria and with limited or no alternative treatment options. In an open label randomized trial vs Best Available Therapy (BAT) in patients with sepsis, pneumonia, bacteremia or cUTI, mortality at 28 days was 24.8% for cefiderocol pts. vs 18.4% for BAT pts (not statistically significant). Reference: Clin Infect Dis 2019; 69 (suppl.7): S519-S575."
-        },
-        {
-            "drugName": "Meropenem/Imipenem",
-            "pearl": "If Ertapenem resistance is noted, check for susceptibility to Meropenem or Imipenem; if the isolate is susceptible to both of the latter, either may be used."
-        },
-        {
-            "drugName": "Meropenem + Polymyxin B/Colistin",
-            "pearl": "This combination is not recommended for therapy of MDR gram-negative bacilli based on treatment failures in a controlled clinical trial (Lancet Infect Dis 2018; 18:391). Failures occurred in a randomized controlled trial where 77% of enrolled patients had infections due to Acinetobacter baumannii. Study was underpowered to assess comparative efficacy vs other carbapenemase producing gram-negative bacteria."
-        },
-        {
-            "drugName": "Meropenem-vaborbactam + Aztreonam",
-            "pearl": "This combination shows similar in vitro activity to aztreonam plus ceftazidime-avibactam against Enterobacterales producing NDM and other non-OXA serine ß-lactamases, but there is no clinical data (Antimicrob Agents Chemother 2019; 63: e01426-19)."
-        },
-        {
-            "drugName": "Plazomicin",
-            "pearl": "FDA approved for the treatment of complicated UTI and pyelonephritis (N Engl J Med 2019;380:729). There is limited observational experience with Plazomicin in combination with Tigecycline or Meropenem for treatment of MDR bloodstream infections or hospital-acquired or ventilator-associated pneumonia (N Engl J Med 2019; 380:791)."
+          "drugOrClass": "Piperacillin-tazobactam",
+          "condition": "Bacteremia, Serious Infections",
+          "reason": "Risk of clinical failure despite in vitro susceptibility, possibly due to inoculum effect."
         }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Isolation of E. coli, susceptibility results pending",
+            "patientPopulation": [
+              "Local rate of resistance <10%"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm (age < 60 years) or 1 gm (age ≥ 65 years)",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Piperacillin-tazobactam",
+                      "dose": "4.5 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Administer over 4 hours."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Isolation of E. coli, susceptibility results pending",
+            "patientPopulation": [
+              "Local rates of ESBL resistance >10%"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ertapenem",
+                      "dose": "1 gm",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "ESBL-negative (Susceptible to Aztreonam, Ceftriaxone, Cefotaxime, Ceftazidime, or Cefepime)",
+            "patientPopulation": [],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm (age < 60 years) or 1 gm (age ≥ 65 years)",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "Use if susceptible."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "10 mg/kg/d of TMP component",
+                      "route": "IV or PO",
+                      "frequency": "in 2-3 divided doses",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "1.2-2.4 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Where available; not available in US."
+                    },
+                    {
+                      "drugName": "Ampicillin-sulbactam",
+                      "dose": "3 gm",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin or Tobramycin",
+                      "dose": "5-7 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "Dose adjusted for renal function."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "ESBL producer, susceptible to carbapenems",
+            "patientPopulation": [],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Consider higher dose infused over 3 hours q8h for more serious infections."
+                    },
+                    {
+                      "drugName": "Imipenem-cilastatin",
+                      "dose": "500 mg",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ertapenem",
+                      "dose": "1 gm",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Consider use of Ceftolozane-tazobactam 3 gm IV infused over 3h q8h as a carbapenem-sparing alternative."
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftolozane-tazobactam",
+                      "dose": "1.5 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Cefepime-enmetazobactam",
+                      "dose": "Varies",
+                      "route": "IV",
+                      "frequency": "Varies",
+                      "comments": "Recently FDA approved for treatment of complicated UTIs."
+                    },
+                    {
+                      "drugName": "Ceftazidime-avibactam",
+                      "dose": "2.5 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Administer over 2 hours."
+                    },
+                    {
+                      "drugName": "Temocillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": "Available in Belgium and United Kingdom but not the US."
+                    },
+                    {
+                      "drugName": "Gentamicin or Tobramycin",
+                      "dose": "5-7 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "Use if susceptible; dose adjusted for renal function."
+                    },
+                    {
+                      "drugName": "Plazomicin",
+                      "dose": "15 mg/kg",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": "Duration 4-7 days. FDA-approved for complicated UTI only. Use if available."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Carbapenem-Resistant Enterobacterales (CRE) - KPC producer",
+            "patientPopulation": [
+              "Resistant to carbapenems, susceptible to Ceftazidime-avibactam, Meropenem-vaborbactam, and Imipenem-cilastatin-relebactam"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftazidime-avibactam",
+                      "dose": "2.5 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Administer over 2 hours."
+                    },
+                    {
+                      "drugName": "Meropenem-vaborbactam",
+                      "dose": "4 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Administer over 3 hours."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Infectious diseases consultation recommended."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Carbapenem-Resistant Enterobacterales (CRE) - Metallo-carbapenemase producer",
+            "patientPopulation": [
+              "Resistant to agents above including Ceftazidime-avibactam, Meropenem-vaborbactam"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Imipenem-cilastatin-relebactam",
+                      "dose": "1.25 gm",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": "Administer over 30 min. For use if CrCl > 90 mL/min."
+                    },
+                    {
+                      "drugName": "Cefiderocol",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Administer over 3 hours."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftazidime-avibactam",
+                      "dose": "2.5 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Administer over 3 hours."
+                    },
+                    {
+                      "drugName": "Aztreonam",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": "Administer over 3 hours. To be used in combination with Ceftazidime-avibactam."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Infectious diseases consultation recommended.",
+                "Based on in vitro susceptibility, meropenem-vaborbactam plus aztreonam may be an option although efficacy unproven."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Uncomplicated Cystitis",
+            "patientPopulation": [],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "1 day",
+                  "drugs": [
+                    {
+                      "drugName": "Fosfomycin",
+                      "dose": "3 gm",
+                      "route": "PO",
+                      "frequency": "x one dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Pyelonephritis",
+            "patientPopulation": [],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Fosfomycin",
+                      "dose": "6 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [
+        {
+          "ruleType": "Surrogate",
+          "drug": "Ampicillin",
+          "condition": "Standard",
+          "details": "Results of ampicillin testing can be used to predict results for amoxicillin."
+        },
+        {
+          "ruleType": "Surrogate",
+          "drug": "Cefazolin",
+          "condition": "Uncomplicated UTIs due to E. coli, K. pneumoniae, and P. mirabilis",
+          "details": "Serves as a surrogate for oral cephalosporins."
+        },
+        {
+          "ruleType": "Conditional",
+          "drug": "Cefepime",
+          "condition": "Carbapenemase production detected",
+          "details": "Susceptible/Susceptible-Dose Dependent (S/SDD) results should be suppressed or edited and reported as resistant."
+        },
+        {
+          "ruleType": "Conditional",
+          "drug": "Meropenem-vaborbactam",
+          "condition": "OXA-48-like gene or enzyme detected",
+          "details": "Suppress or report as resistant, as the isolate may not respond in vivo despite in vitro susceptibility."
+        }
+      ],
+      "antimicrobialBreakpoints": [
+        {
+          "tier": 1,
+          "tierDescription": "Appropriate for routine, primary testing and reporting",
+          "agents": [
+            {
+              "agentName": "Ampicillin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard (Oral for uncomplicated UTI)",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥17",
+                    "i_breakpoint": "14-16",
+                    "r_breakpoint": "≤13"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8",
+                    "i_breakpoint": "16",
+                    "r_breakpoint": "≥32"
+                  },
+                  "comments": [
+                    "For oral use, breakpoints apply only for uncomplicated UTIs due to E. coli and Proteus mirabilis.",
+                    "Results of ampicillin testing can be used to predict results for amoxicillin."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Cefazolin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine Only (Uncomplicated UTI)",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥15",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤16",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥32"
+                  },
+                  "comments": [
+                    "Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis in uncomplicated UTIs."
+                  ]
+                },
+                {
+                  "condition": "Standard (Parenteral)",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥23",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2",
+                    "i_breakpoint": "4",
+                    "r_breakpoint": "≥8"
+                  },
+                  "comments": [
+                    "For infections other than uncomplicated UTI, breakpoints apply to E. coli, K. pneumoniae, and P. mirabilis."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Amoxicillin-clavulanate",
+              "breakpointSets": [
+                {
+                  "condition": "Uncomplicated UTI only",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤17"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": "16/4",
+                    "r_breakpoint": "≥32/4"
+                  },
+                  "comments": [
+                    "Breakpoints for oral use are also for completion of therapy for systemic infection."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ampicillin-sulbactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10/10 µg",
+                    "s_breakpoint": "≥15",
+                    "i_breakpoint": "12-14",
+                    "r_breakpoint": "≤11"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": "16/4",
+                    "r_breakpoint": "≥32/4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Piperacillin-tazobactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "100/10 µg",
+                    "s_breakpoint": "≥25",
+                    "i_breakpoint": "21-24",
+                    "r_breakpoint": "≤20"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": "16/4",
+                    "r_breakpoint": "≥32/4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Gentamicin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Tobramycin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥17",
+                    "i_breakpoint": "13-16",
+                    "r_breakpoint": "≤12"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Amikacin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥20",
+                    "i_breakpoint": "17-19",
+                    "r_breakpoint": "≤16"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤16",
+                    "i_breakpoint": "32",
+                    "r_breakpoint": "≥64"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ciprofloxacin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "5 µg",
+                    "s_breakpoint": "≥26",
+                    "i_breakpoint": "22-25",
+                    "r_breakpoint": "≤21"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤0.25",
+                    "i_breakpoint": "0.5",
+                    "r_breakpoint": "≥1"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Levofloxacin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "5 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": "17-20",
+                    "r_breakpoint": "≤16"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤0.5",
+                    "i_breakpoint": "1",
+                    "r_breakpoint": "≥2"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Trimethoprim-sulfamethoxazole",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "1.25/23.75 µg",
+                    "s_breakpoint": "≥16",
+                    "i_breakpoint": "11-15",
+                    "r_breakpoint": "≤10"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2/38",
+                    "i_breakpoint": "4/76",
+                    "r_breakpoint": "≥8/152"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Nitrofurantoin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine only",
+                  "diskDiffusion": {
+                    "diskContent": "300 µg",
+                    "s_breakpoint": "≥17",
+                    "i_breakpoint": "15-16",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤32",
+                    "i_breakpoint": "64",
+                    "r_breakpoint": "≥128"
+                  },
+                  "comments": [
+                    "For uncomplicated urinary tract infections (UTI)."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Fosfomycin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine only",
+                  "diskDiffusion": {
+                    "diskContent": "200 µg",
+                    "s_breakpoint": "≥16",
+                    "i_breakpoint": "13-15",
+                    "r_breakpoint": "≤12"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤64",
+                    "i_breakpoint": "128",
+                    "r_breakpoint": "≥256"
+                  },
+                  "comments": [
+                    "Applies only to E. coli urinary tract isolates.",
+                    "The 200-µg fosfomycin disk contains 50 µg glucose-6-phosphate.",
+                    "The only approved MIC testing method is agar dilution; broth dilution MIC testing should not be performed."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules",
+          "agents": [
+            {
+              "agentName": "Cefuroxime (parenteral)",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8",
+                    "i_breakpoint": "16",
+                    "r_breakpoint": "≥32"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Cefepime",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥25",
+                    "i_breakpoint": "19-24",
+                    "r_breakpoint": "≤18"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": [
+                    "Susceptible/Susceptible-Dose Dependent (S/SDD) results should be suppressed or edited and reported as resistant for isolates that demonstrate carbapenemase production."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ertapenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥22",
+                    "i_breakpoint": "19-21",
+                    "r_breakpoint": "≤18"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤0.5",
+                    "i_breakpoint": "1",
+                    "r_breakpoint": "≥2"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Imipenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥23",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1",
+                    "i_breakpoint": "2",
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥23",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1",
+                    "i_breakpoint": "2",
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting",
+          "agents": [
+            {
+              "agentName": "Cefiderocol",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥16",
+                    "i_breakpoint": "9-15",
+                    "r_breakpoint": "≤8"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": [
+                    "The accuracy and reproducibility of cefiderocol testing results by disk diffusion and broth microdilution are markedly affected by iron concentration and inoculum preparation and may vary by disk and media manufacturer."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftazidime-avibactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30/20 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤20"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥16/4"
+                  },
+                  "comments": [
+                    "Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm to avoid reporting false-susceptible or false-resistant results."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Imipenem-relebactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10/25 µg",
+                    "s_breakpoint": "≥25",
+                    "i_breakpoint": "21-24",
+                    "r_breakpoint": "≤20"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1/4",
+                    "i_breakpoint": "2/4",
+                    "r_breakpoint": "≥4/4"
+                  },
+                  "comments": [
+                    "Breakpoints do not apply to the family Morganellaceae, which includes but is not limited to the genera Morganella, Proteus, and Providencia."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem-vaborbactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4/8",
+                    "i_breakpoint": "8/8",
+                    "r_breakpoint": "≥16/8"
+                  },
+                  "comments": [
+                    "Enterobacterales that harbor OXA-48-like enzymes may test susceptible to meropenem-vaborbactam but may not respond in vivo. If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Plazomicin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2",
+                    "i_breakpoint": "4",
+                    "r_breakpoint": "≥8"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available",
+          "agents": [
+            {
+              "agentName": "Aztreonam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": "18-20",
+                    "r_breakpoint": "≤17"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftazidime",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": "18-20",
+                    "r_breakpoint": "≤17"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftriaxone",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥26",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1",
+                    "i_breakpoint": "2",
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftolozane-tazobactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30/20 µg",
+                    "s_breakpoint": "≥22",
+                    "i_breakpoint": "19-21",
+                    "r_breakpoint": "≤18"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2/4",
+                    "i_breakpoint": "4/4",
+                    "r_breakpoint": "≥8/4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Colistin or Polymyxin B",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": null,
+                    "s_breakpoint": null,
+                    "i_breakpoint": null,
+                    "r_breakpoint": null
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": [
+                    "Disk diffusion and gradient diffusion methods should not be performed.",
+                    "When given systemically, these agents are likely effective for pneumonia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "Carbapenems should be reserved for polymicrobial infections for which anaerobic coverage is required or for treatment of infections due to ESBL-producing strains",
+        "Although active against ESBLs and related beta-lactamases, use of Ceftazidime-avibactam, Imipenem-relebactam, and Meropenem-vaborbactam should be reserved for patients with documented carbapenemase mechanism of resistance."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Aztreonam + Ceftazidime-avibactam",
+          "pearl": "Aztreonam is not hydrolyzed by metallocarbapenemases (ceftazidime is) but is inactivated by ESBLS which are often produced concomitantly with the carbapenemase. Avibactam inactivates ESBLs. This combination is a last resort recommendation based entirely on in vitro data and case reports. See Antimicrob Agents Chemother 2017 Mar 24; 61(4). pii:e02243-16 and J Antimicrob Chemother 2018; 73:1104."
+        },
+        {
+          "drugName": "Cefiderocol",
+          "pearl": "FDA-approved for patients with complicated UTI due to susceptible bacteria and with limited or no alternative treatment options. In an open label randomized trial vs Best Available Therapy (BAT) in patients with sepsis, pneumonia, bacteremia or cUTI, mortality at 28 days was 24.8% for cefiderocol pts. vs 18.4% for BAT pts (not statistically significant). Reference: Clin Infect Dis 2019; 69 (suppl.7): S519-S575."
+        },
+        {
+          "drugName": "Meropenem/Imipenem",
+          "pearl": "If Ertapenem resistance is noted, check for susceptibility to Meropenem or Imipenem; if the isolate is susceptible to both of the latter, either may be used."
+        },
+        {
+          "drugName": "Meropenem + Polymyxin B/Colistin",
+          "pearl": "This combination is not recommended for therapy of MDR gram-negative bacilli based on treatment failures in a controlled clinical trial (Lancet Infect Dis 2018; 18:391). Failures occurred in a randomized controlled trial where 77% of enrolled patients had infections due to Acinetobacter baumannii. Study was underpowered to assess comparative efficacy vs other carbapenemase producing gram-negative bacteria."
+        },
+        {
+          "drugName": "Meropenem-vaborbactam + Aztreonam",
+          "pearl": "This combination shows similar in vitro activity to aztreonam plus ceftazidime-avibactam against Enterobacterales producing NDM and other non-OXA serine ß-lactamases, but there is no clinical data (Antimicrob Agents Chemother 2019; 63: e01426-19)."
+        },
+        {
+          "drugName": "Plazomicin",
+          "pearl": "FDA approved for the treatment of complicated UTI and pyelonephritis (N Engl J Med 2019;380:729). There is limited observational experience with Plazomicin in combination with Tigecycline or Meropenem for treatment of MDR bloodstream infections or hospital-acquired or ventilator-associated pneumonia (N Engl J Med 2019; 380:791)."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "IDSA Guidance",
+          "citation": "IDSA Guidance on the treatment of Antimicrobial Resistant Gram-Negative Infections. Updated 2024 IDSA Guidelines.",
+          "summaryOrNote": "Primary reference for treatment of moderately severe or severe infections due to resistant gram-negative organisms."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 72:1109, 2021",
+          "summaryOrNote": "Reference regarding clinical failure of Piperacillin-tazobactam for E. coli bacteremia."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 2019; 68:519",
+          "summaryOrNote": "Discussion on the emergence of resistant mutants with Ceftazidime-avibactam and similar agents."
+        },
+        {
+          "source": "Antimicrobial Agents and Chemotherapy",
+          "citation": "Antimicrob Agents Chemother. 2019;63:e01551-18",
+          "summaryOrNote": "Further discussion on emergence of resistance to novel beta-lactamase inhibitors."
+        },
+        {
+          "source": "The Lancet Infectious Diseases",
+          "citation": "Lancet Infect Dis 2018; 18:391",
+          "summaryOrNote": "Data on treatment failures with Meropenem + Polymyxin combination therapy."
+        },
+        {
+          "source": "New England Journal of Medicine",
+          "citation": "N Engl J Med 2019;380:729",
+          "summaryOrNote": "Data supporting FDA approval of Plazomicin for complicated UTI and pyelonephritis."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
     ],
-    "guidelineReferences": [
-      {
-        "source": "IDSA Guidance",
-        "citation": "IDSA Guidance on the treatment of Antimicrobial Resistant Gram-Negative Infections. Updated 2024 IDSA Guidelines.",
-        "summaryOrNote": "Primary reference for treatment of moderately severe or severe infections due to resistant gram-negative organisms."
-      },
-      {
-        "source": "Clinical Infectious Diseases",
-        "citation": "Clin Infect Dis 72:1109, 2021",
-        "summaryOrNote": "Reference regarding clinical failure of Piperacillin-tazobactam for E. coli bacteremia."
-      },
-      {
-        "source": "Clinical Infectious Diseases",
-        "citation": "Clin Infect Dis 2019; 68:519",
-        "summaryOrNote": "Discussion on the emergence of resistant mutants with Ceftazidime-avibactam and similar agents."
-      },
-      {
-        "source": "Antimicrobial Agents and Chemotherapy",
-        "citation": "Antimicrob Agents Chemother. 2019;63:e01551-18",
-        "summaryOrNote": "Further discussion on emergence of resistance to novel beta-lactamase inhibitors."
-      },
-      {
-        "source": "The Lancet Infectious Diseases",
-        "citation": "Lancet Infect Dis 2018; 18:391",
-        "summaryOrNote": "Data on treatment failures with Meropenem + Polymyxin combination therapy."
-      },
-       {
-        "source": "New England Journal of Medicine",
-        "citation": "N Engl J Med 2019;380:729",
-        "summaryOrNote": "Data supporting FDA approval of Plazomicin for complicated UTI and pyelonephritis."
+    "conversionTimestamp": "2025-07-15T03:16:49.276Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Escherichia coli"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "E. coli"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-08"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Motile",
+          "Lactose fermenter (pink on MacConkey agar)",
+          "Indole positive",
+          "VP negative",
+          "Citrate negative"
+        ]
       }
-    ]
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Escherichia coli causes a variety of infections ranging from uncomplicated urinary tract infections to life-threatening infections of the abdomen, skin and soft tissue, lung, CNS and other sites in both normal and immunocompromised hosts.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urinary Tract Infections (UTI)",
+          "description": "Includes uncomplicated cystitis and pyelonephritis."
+        },
+        {
+          "syndromeName": "Intra-abdominal Infections",
+          "description": "Can cause peritonitis and abscesses."
+        },
+        {
+          "syndromeName": "Skin and Soft Tissue Infections",
+          "description": "Often occurs in surgical sites or wounds."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Hospital-acquired or ventilator-associated pneumonia."
+        },
+        {
+          "syndromeName": "Central Nervous System (CNS) Infections",
+          "description": "Can cause meningitis, especially in neonates."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream, can lead to sepsis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised hosts",
+        "Patients with indwelling catheters",
+        "Neonates",
+        "Post-surgical patients"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora",
+        "Contaminated food or water",
+        "Person-to-person (fecal-oral route)",
+        "Healthcare-associated transmission"
+      ],
+      "prognosisNotes": [
+        "E. coli may be susceptible to Piperacillin-tazobactam in vitro but may fail clinically, especially in bacteremia and other serious infections."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Extended-Spectrum Beta-Lactamase (ESBL)",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Enzymes that confer resistance to most penicillins and cephalosporins, including third-generation cephalosporins and aztreonam."
+        },
+        {
+          "mechanismName": "Carbapenemase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Enzymes that hydrolyze carbapenems, as well as other beta-lactams. Includes Klebsiella pneumoniae carbapenemase (KPC) and metallo-beta-lactamases (e.g., NDM)."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Piperacillin-Tazobactam Clinical Failure",
+          "details": "Despite in vitro susceptibility, Piperacillin-tazobactam is not recommended for bacteremia or other serious infections due to risk of treatment failure, possibly due to an inoculum effect. Ref: Clin Infect Dis 72:1109, 2021."
+        },
+        {
+          "alertTitle": "Emergence of Resistance",
+          "details": "Emergence of resistant mutants has been observed with agents like Ceftazidime-avibactam. See Clin Infect Dis 2019; 68:519; Antimicrob Agents Chemother. 2019;63:e01551-18 for discussion."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Isolation of E. coli, susceptibility results pending",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Local rate of resistance <10%"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm (age < 60 years) or 1 gm (age ≥ 65 years)",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm (age < 60 years) or 1 gm (age ≥ 65 years) IV q24h"
+            },
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400 mg IV q12h"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Levofloxacin 750 mg IV q24h"
+            },
+            {
+              "drugName": "Piperacillin-tazobactam",
+              "dose": "4.5 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Administer over 4 hours.",
+              "originalText": "Piperacillin-tazobactam 4.5 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Isolation of E. coli, susceptibility results pending",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Local rates of ESBL resistance >10%"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Meropenem",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Meropenem 1-2 gm IV q8h"
+            },
+            {
+              "drugName": "Ertapenem",
+              "dose": "1 gm",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ertapenem 1 gm IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "ESBL-negative (Susceptible to Aztreonam, Ceftriaxone, Cefotaxime, Ceftazidime, or Cefepime)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm (age < 60 years) or 1 gm (age ≥ 65 years)",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm (age < 60 years) or 1 gm (age ≥ 65 years) IV q24h"
+            },
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400 mg IV q12h"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Levofloxacin 750 mg IV q24h"
+            },
+            {
+              "drugName": "Ampicillin",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "Variable",
+              "comments": "Use if susceptible.",
+              "originalText": "Ampicillin 1-2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-1-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "ESBL-negative (Susceptible to Aztreonam, Ceftriaxone, Cefotaxime, Ceftazidime, or Cefepime)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Cefazolin 2 gm IV q8h"
+            },
+            {
+              "drugName": "TMP-SMX",
+              "dose": "10 mg/kg/d of TMP component",
+              "route": "IV or PO",
+              "frequency": "in 2-3 divided doses",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "TMP-SMX 10 mg/kg/d of TMP component IV or PO in 2-3 divided doses"
+            },
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "1.2-2.4 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Where available; not available in US.",
+              "originalText": "Amoxicillin-clavulanate 1.2-2.4 gm IV q8h"
+            },
+            {
+              "drugName": "Ampicillin-sulbactam",
+              "dose": "3 gm",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ampicillin-sulbactam 3 gm IV q6h"
+            },
+            {
+              "drugName": "Gentamicin or Tobramycin",
+              "dose": "5-7 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "Dose adjusted for renal function.",
+              "originalText": "Gentamicin or Tobramycin 5-7 mg/kg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-0-0",
+          "extractedFrom": "treatment.regimens[3].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "ESBL producer, susceptible to carbapenems",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Meropenem",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Consider higher dose infused over 3 hours q8h for more serious infections.",
+              "originalText": "Meropenem 1-2 gm IV q8h"
+            },
+            {
+              "drugName": "Imipenem-cilastatin",
+              "dose": "500 mg",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Imipenem-cilastatin 500 mg IV q6h"
+            },
+            {
+              "drugName": "Ertapenem",
+              "dose": "1 gm",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ertapenem 1 gm IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-1-0",
+          "extractedFrom": "treatment.regimens[3].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "ESBL producer, susceptible to carbapenems",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ceftolozane-tazobactam",
+              "dose": "1.5 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftolozane-tazobactam 1.5 gm IV q8h"
+            },
+            {
+              "drugName": "Cefepime-enmetazobactam",
+              "dose": "Varies",
+              "route": "IV",
+              "frequency": "Varies",
+              "duration": "Variable",
+              "comments": "Recently FDA approved for treatment of complicated UTIs.",
+              "originalText": "Cefepime-enmetazobactam Varies IV Varies"
+            },
+            {
+              "drugName": "Ceftazidime-avibactam",
+              "dose": "2.5 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Administer over 2 hours.",
+              "originalText": "Ceftazidime-avibactam 2.5 gm IV q8h"
+            },
+            {
+              "drugName": "Temocillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "Available in Belgium and United Kingdom but not the US.",
+              "originalText": "Temocillin 2 gm IV q12h"
+            },
+            {
+              "drugName": "Gentamicin or Tobramycin",
+              "dose": "5-7 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "Use if susceptible; dose adjusted for renal function.",
+              "originalText": "Gentamicin or Tobramycin 5-7 mg/kg IV q24h"
+            },
+            {
+              "drugName": "Plazomicin",
+              "dose": "15 mg/kg",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "Variable",
+              "comments": "Duration 4-7 days. FDA-approved for complicated UTI only. Use if available.",
+              "originalText": "Plazomicin 15 mg/kg IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-4-0-0",
+          "extractedFrom": "treatment.regimens[4].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Carbapenem-Resistant Enterobacterales (CRE) - KPC producer",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Resistant to carbapenems, susceptible to Ceftazidime-avibactam, Meropenem-vaborbactam, and Imipenem-cilastatin-relebactam"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftazidime-avibactam",
+              "dose": "2.5 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Administer over 2 hours.",
+              "originalText": "Ceftazidime-avibactam 2.5 gm IV q8h"
+            },
+            {
+              "drugName": "Meropenem-vaborbactam",
+              "dose": "4 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Administer over 3 hours.",
+              "originalText": "Meropenem-vaborbactam 4 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-5-0-0",
+          "extractedFrom": "treatment.regimens[5].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Carbapenem-Resistant Enterobacterales (CRE) - Metallo-carbapenemase producer",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Resistant to agents above including Ceftazidime-avibactam, Meropenem-vaborbactam"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Imipenem-cilastatin-relebactam",
+              "dose": "1.25 gm",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "Administer over 30 min. For use if CrCl > 90 mL/min.",
+              "originalText": "Imipenem-cilastatin-relebactam 1.25 gm IV q6h"
+            },
+            {
+              "drugName": "Cefiderocol",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Administer over 3 hours.",
+              "originalText": "Cefiderocol 2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-5-1-0",
+          "extractedFrom": "treatment.regimens[5].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Carbapenem-Resistant Enterobacterales (CRE) - Metallo-carbapenemase producer",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Resistant to agents above including Ceftazidime-avibactam, Meropenem-vaborbactam"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ceftazidime-avibactam",
+              "dose": "2.5 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "Administer over 3 hours.",
+              "originalText": "Ceftazidime-avibactam 2.5 gm IV q8h"
+            },
+            {
+              "drugName": "Aztreonam",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "Administer over 3 hours. To be used in combination with Ceftazidime-avibactam.",
+              "originalText": "Aztreonam 2 gm IV q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-6-0-0",
+          "extractedFrom": "treatment.regimens[6].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated Cystitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Fosfomycin",
+              "dose": "3 gm",
+              "route": "PO",
+              "frequency": "x one dose",
+              "duration": "1 day",
+              "comments": "",
+              "originalText": "Fosfomycin 3 gm PO x one dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-7-0-0",
+          "extractedFrom": "treatment.regimens[7].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Pyelonephritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Fosfomycin",
+              "dose": "6 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Fosfomycin 6 gm IV q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [
+        {
+          "ruleType": "Surrogate",
+          "drug": "Ampicillin",
+          "condition": "Standard",
+          "details": "Results of ampicillin testing can be used to predict results for amoxicillin."
+        },
+        {
+          "ruleType": "Surrogate",
+          "drug": "Cefazolin",
+          "condition": "Uncomplicated UTIs due to E. coli, K. pneumoniae, and P. mirabilis",
+          "details": "Serves as a surrogate for oral cephalosporins."
+        },
+        {
+          "ruleType": "Conditional",
+          "drug": "Cefepime",
+          "condition": "Carbapenemase production detected",
+          "details": "Susceptible/Susceptible-Dose Dependent (S/SDD) results should be suppressed or edited and reported as resistant."
+        },
+        {
+          "ruleType": "Conditional",
+          "drug": "Meropenem-vaborbactam",
+          "condition": "OXA-48-like gene or enzyme detected",
+          "details": "Suppress or report as resistant, as the isolate may not respond in vivo despite in vitro susceptibility."
+        }
+      ],
+      "antimicrobialBreakpoints": [
+        {
+          "tier": 1,
+          "tierDescription": "Appropriate for routine, primary testing and reporting",
+          "agents": [
+            {
+              "agentName": "Ampicillin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard (Oral for uncomplicated UTI)",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥17",
+                    "i_breakpoint": "14-16",
+                    "r_breakpoint": "≤13"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8",
+                    "i_breakpoint": "16",
+                    "r_breakpoint": "≥32"
+                  },
+                  "comments": [
+                    "For oral use, breakpoints apply only for uncomplicated UTIs due to E. coli and Proteus mirabilis.",
+                    "Results of ampicillin testing can be used to predict results for amoxicillin."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Cefazolin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine Only (Uncomplicated UTI)",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥15",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤16",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥32"
+                  },
+                  "comments": [
+                    "Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis in uncomplicated UTIs."
+                  ]
+                },
+                {
+                  "condition": "Standard (Parenteral)",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥23",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2",
+                    "i_breakpoint": "4",
+                    "r_breakpoint": "≥8"
+                  },
+                  "comments": [
+                    "For infections other than uncomplicated UTI, breakpoints apply to E. coli, K. pneumoniae, and P. mirabilis."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Amoxicillin-clavulanate",
+              "breakpointSets": [
+                {
+                  "condition": "Uncomplicated UTI only",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤17"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": "16/4",
+                    "r_breakpoint": "≥32/4"
+                  },
+                  "comments": [
+                    "Breakpoints for oral use are also for completion of therapy for systemic infection."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ampicillin-sulbactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10/10 µg",
+                    "s_breakpoint": "≥15",
+                    "i_breakpoint": "12-14",
+                    "r_breakpoint": "≤11"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": "16/4",
+                    "r_breakpoint": "≥32/4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Piperacillin-tazobactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "100/10 µg",
+                    "s_breakpoint": "≥25",
+                    "i_breakpoint": "21-24",
+                    "r_breakpoint": "≤20"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": "16/4",
+                    "r_breakpoint": "≥32/4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Gentamicin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Tobramycin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥17",
+                    "i_breakpoint": "13-16",
+                    "r_breakpoint": "≤12"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Amikacin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥20",
+                    "i_breakpoint": "17-19",
+                    "r_breakpoint": "≤16"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤16",
+                    "i_breakpoint": "32",
+                    "r_breakpoint": "≥64"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ciprofloxacin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "5 µg",
+                    "s_breakpoint": "≥26",
+                    "i_breakpoint": "22-25",
+                    "r_breakpoint": "≤21"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤0.25",
+                    "i_breakpoint": "0.5",
+                    "r_breakpoint": "≥1"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Levofloxacin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "5 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": "17-20",
+                    "r_breakpoint": "≤16"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤0.5",
+                    "i_breakpoint": "1",
+                    "r_breakpoint": "≥2"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Trimethoprim-sulfamethoxazole",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "1.25/23.75 µg",
+                    "s_breakpoint": "≥16",
+                    "i_breakpoint": "11-15",
+                    "r_breakpoint": "≤10"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2/38",
+                    "i_breakpoint": "4/76",
+                    "r_breakpoint": "≥8/152"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Nitrofurantoin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine only",
+                  "diskDiffusion": {
+                    "diskContent": "300 µg",
+                    "s_breakpoint": "≥17",
+                    "i_breakpoint": "15-16",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤32",
+                    "i_breakpoint": "64",
+                    "r_breakpoint": "≥128"
+                  },
+                  "comments": [
+                    "For uncomplicated urinary tract infections (UTI)."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Fosfomycin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine only",
+                  "diskDiffusion": {
+                    "diskContent": "200 µg",
+                    "s_breakpoint": "≥16",
+                    "i_breakpoint": "13-15",
+                    "r_breakpoint": "≤12"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤64",
+                    "i_breakpoint": "128",
+                    "r_breakpoint": "≥256"
+                  },
+                  "comments": [
+                    "Applies only to E. coli urinary tract isolates.",
+                    "The 200-µg fosfomycin disk contains 50 µg glucose-6-phosphate.",
+                    "The only approved MIC testing method is agar dilution; broth dilution MIC testing should not be performed."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules",
+          "agents": [
+            {
+              "agentName": "Cefuroxime (parenteral)",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8",
+                    "i_breakpoint": "16",
+                    "r_breakpoint": "≥32"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Cefepime",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥25",
+                    "i_breakpoint": "19-24",
+                    "r_breakpoint": "≤18"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": [
+                    "Susceptible/Susceptible-Dose Dependent (S/SDD) results should be suppressed or edited and reported as resistant for isolates that demonstrate carbapenemase production."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ertapenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥22",
+                    "i_breakpoint": "19-21",
+                    "r_breakpoint": "≤18"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤0.5",
+                    "i_breakpoint": "1",
+                    "r_breakpoint": "≥2"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Imipenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥23",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1",
+                    "i_breakpoint": "2",
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥23",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1",
+                    "i_breakpoint": "2",
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting",
+          "agents": [
+            {
+              "agentName": "Cefiderocol",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥16",
+                    "i_breakpoint": "9-15",
+                    "r_breakpoint": "≤8"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": [
+                    "The accuracy and reproducibility of cefiderocol testing results by disk diffusion and broth microdilution are markedly affected by iron concentration and inoculum preparation and may vary by disk and media manufacturer."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftazidime-avibactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30/20 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤20"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤8/4",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥16/4"
+                  },
+                  "comments": [
+                    "Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm to avoid reporting false-susceptible or false-resistant results."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Imipenem-relebactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10/25 µg",
+                    "s_breakpoint": "≥25",
+                    "i_breakpoint": "21-24",
+                    "r_breakpoint": "≤20"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1/4",
+                    "i_breakpoint": "2/4",
+                    "r_breakpoint": "≥4/4"
+                  },
+                  "comments": [
+                    "Breakpoints do not apply to the family Morganellaceae, which includes but is not limited to the genera Morganella, Proteus, and Providencia."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem-vaborbactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4/8",
+                    "i_breakpoint": "8/8",
+                    "r_breakpoint": "≥16/8"
+                  },
+                  "comments": [
+                    "Enterobacterales that harbor OXA-48-like enzymes may test susceptible to meropenem-vaborbactam but may not respond in vivo. If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Plazomicin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥18",
+                    "i_breakpoint": "15-17",
+                    "r_breakpoint": "≤14"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2",
+                    "i_breakpoint": "4",
+                    "r_breakpoint": "≥8"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available",
+          "agents": [
+            {
+              "agentName": "Aztreonam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": "18-20",
+                    "r_breakpoint": "≤17"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftazidime",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥21",
+                    "i_breakpoint": "18-20",
+                    "r_breakpoint": "≤17"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤4",
+                    "i_breakpoint": "8",
+                    "r_breakpoint": "≥16"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftriaxone",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥26",
+                    "i_breakpoint": "20-22",
+                    "r_breakpoint": "≤19"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤1",
+                    "i_breakpoint": "2",
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftolozane-tazobactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30/20 µg",
+                    "s_breakpoint": "≥22",
+                    "i_breakpoint": "19-21",
+                    "r_breakpoint": "≤18"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2/4",
+                    "i_breakpoint": "4/4",
+                    "r_breakpoint": "≥8/4"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Colistin or Polymyxin B",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": null,
+                    "s_breakpoint": null,
+                    "i_breakpoint": null,
+                    "r_breakpoint": null
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤2",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥4"
+                  },
+                  "comments": [
+                    "Disk diffusion and gradient diffusion methods should not be performed.",
+                    "When given systemically, these agents are likely effective for pneumonia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
   }
 }

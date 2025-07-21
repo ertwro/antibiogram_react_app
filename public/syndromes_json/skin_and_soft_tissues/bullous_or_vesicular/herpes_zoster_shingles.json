@@ -1,0 +1,120 @@
+{
+    "documentMetadata": {
+        "title": "Herpes Zoster, Shingles",
+        "sourceFile": "Herpes Zoster, Shingles.pdf",
+        "lastUpdated": "2024-07-25"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Herpes zoster infection (shingles). See Diagnosis below. Risk of complications with herpes zoster increases with age. Common complication include postherpetic neuralgia (PHN) (7.9%), ocular complications (2.9%), motor neuropathy (1.6%), meningitis (0.5%), herpes zoster oticus (0.2%) (Arch Intern Med 157:1209. 1997).",
+                "Disseminated VZV can occur, most often among immunocompromised patients.",
+                "Antiviral therapy can speed healing, reduces duration of symptoms and reduce the risk of complications, particularly in immuncompromised patients.",
+                "Antiviral therapy is indicated for patients fulfilling any of these criteria: (1) > 50 years, (2) moderate to severe rash or pain, (3) involvement of face/eye, (4) acute complication of infection, or (5) immunocompromised state (N Negl J Med 369:255, 2013)",
+                "Treatment indications are similar for children.",
+                "Benefit of antiviral therapy in immunocompetent hosts > 72 hours of symptoms is less clear, treatment is recommended for immunocompromised patients at any time with active infection.",
+                "Patients with suspected ocular disease should be evaluated by ophthalmologist.",
+                "Increased risk of stroke in the 6 months after an episode of herpes zoster (Clin Infect Dis 58: 1497, 2014). Oral antivirals during clinical infection may have a protective effect (Clin Infect Dis 58:1504, 2014).",
+                "Children:",
+                "Herpes zoster does occur in children. In vaccinated children, zoster can be due to wild type or vaccine strain",
+                "In children pain during acute episode is less common so diagnosis depends on recognizing rash.",
+                "Post herpetic neuralgia is rare in children but other complications occur at similar rates.",
+                "Herpes zoster can occur in immunocompetent children but rates are much higher for immune compromised. Consider careful history, CBC, HIV testing in all and possibly immunoglobulins and lymphocyte panel."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Diagnosis"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Diagnosis of herpes zoster (shingles) is often made via history and clinical exam alone. Confirmation can be done via DFA or PCR of vesicle fluid, viral culture of fluid is less sensitive. Specific diagnosis recommended in those with solid organ transplant (Clin Transplant 33:e13622, 2019)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Herpes zoster virus (Varicella zoster virus)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Mild-Moderate:",
+                "Valacyclovir 1000 mg po tid x 7 days",
+                "Famciclovir 500 mg tid x 7 days",
+                "Pediatric (for age >2): Valacyclovir 60 mg/kg/day div q8h",
+                "Severe (patients with ocular or neurologic or disseminated disease)",
+                "Acyclovir 10 mg/kg IV (infusion over 1 hr) q8h x 7-14 day"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Acyclovir 800 mg po 5x/day x 7 days (effective just less convenient dosing)",
+                "Pediatric: Acyclovir 80 mg/kg/day div q6h"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Prevention"
+        },
+        {
+            "type": "list",
+            "items": [
+                "See Herpes Zoster, Vaccine for indications, available products, dosing, and vaccine characteristics for pre-exposure prevention.",
+                "2022: certain immunocompromised persons >18 yrs of age added to routine indications."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Post-herpetic neuralgia (PHN):",
+                "Valacyclovir reduced post-herpetic neuralgia (PHN) more rapidly than acyclovir in patients age >50 years: median duration of zoster-associated pain was 38 days with valacyclovir and 51 days on acyclovir (Antimicrob Agents Chemother 39:1546, 1995). Toxicity of both drugs similar (Arch Fam Med 9:863, 2000).",
+                "Famciclovir: Time to healing more rapid. Reduced post-herpetic neuralgia vs placebo in patients age >50 years: duration of PHN with famciclovir 63 days, placebo 163 days. Famciclovir similar to acyclovir in reduction of acute pain and PHN (J Micro Immunol Inf 37:75, 2004).",
+                "Acyclovir: A meta-analysis of 4 placebo-controlled trials (691 patients) demonstrated that acyclovir accelerated by approx. 2-fold pain resolution by all measures employed and reduced post-herpetic neuralgia at 3 and 6 months (Clin Infect Dis 22:341, 1996); median time to resolution of pain 41 days vs 101 days in those >50 yrs.",
+                "Prednisone added to acyclovir does not reduce incidence or duration of post-herpetic neuralgia. (Cochrane Database Syst Rev 28:CD005582,2013)",
+                "In post-herpetic neuralgia (PHN), controlled trials demonstrated effectiveness of gabapentin, the lidocaine patch (5%) & opioid analgesic in controlling pain (Drugs 64:937, 2004; J Clin Virol 29:248, 2004). Nortriptyline & amitriptyline are equally effective but nortriptyline is better tolerated (Clin Infect Dis 36:877, 2003).",
+                "Randomized controlled trial (PROCESS trial) of duloxetine (Cymbalta, Yentreve) showed a non-statistically significant trend toward benefit in reduction of post-herpetic neuralgia; incidence of PHN was 22.9% vs 28.8% in duloxetine vs placebo, respectively (P = 0.067 by mITT). However, visual analog pain scale reporting > 3 was significantly higher among placebo recipients (CID 78:880, 2024).",
+                "Immunocompromised:",
+                "Immuncompromised patients are at higher risk for severe, end-organ, and disseminated VZV disease. Early initiation of therapy is critical and close monitoring for complications is recommended. Although 7 days of treatment is reasonable, some experts continue treatment until crusting of all lesions.",
+                "Treatment is indicated for all immunocompromised children",
+                "Immunocompromised patients: If progression of disease switch to IV therapy.",
+                "A common manifestation of immune reconstitution following ART in HIV-infected children (J Allergy Clin Immunol 113:742, 2004). Treatment must be begun within 72 hrs.",
+                "Acyclovir-resistant VZV occurs in HIV-positive patients previously treated with acyclovir. Foscarnet (40 mg/kg IV q8h for 14-26 days) successful in 4/5 patients but 2 relapsed in 7 and 14 days (Ann Intern Med 115:19, 1991).",
+                "Rheumatoid arthritis (RA) patients on TNF-alpha inhibitors at high risk for VZV. Zoster more severe, but less post-herpetic neuralgia (JAM\u0410 301:737, 2009).",
+                "Review: N Engl J Med 369:255, 2013; Expert Opin Phamacotherapy 15:61, 2014, Clin Transplant 33:e13622, 2019",
+                "Herpes zoster in children in the vaccine era Pediatrics. 2019 Jul;144(1):e20182917"
+            ]
+        }
+    ]
+}

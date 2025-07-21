@@ -1,0 +1,296 @@
+{
+  "documentMetadata": {
+    "title": "Portal Vein Suppurative (Septic) Thrombophlebitis",
+    "lastUpdated": "2023-10-26",
+    "sourceFile": "Portal Vein Suppurative (Septic) Thrombophlebitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Person with an intra-abdominal infection (e.g., appendicitis, diverticulitis) develops suppurative phlebitis of the portal vein. Also referred to as pylephlebitis.",
+        "Most common in setting of pancreatitis and diverticulitis.",
+        "Etiology linked to the bowel flora: Enterobacteriaceae (now Enterobacterales), anaerobic gram negative bacilli (Bacteroides sp.), Clostridia sp., GpB Streptococci, viridans streptococci and more.",
+        "Phlebitis may be complicated by suppurative liver abscess(es) and/or bacteremia (44% in one case series): J Gastrointest. Surg 2016;20:656",
+        "For images, see N Engl J Med 373:2270, 2015 and J Emerg Med 2016;50:e147"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Suspect with intra-abdominal infectious process. Confirm by CT scan.",
+        "Collect blood cultures (positive blood cultures in 23-88%",
+        "Imaging with CT scans and/or ultrasound"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterobacteriaceae (Enterobacterales): e.g., E. coli, Klebsiella sp.",
+        "Streptococci (Grp B)",
+        "Bacteroides fragilis",
+        "Clostridium perfringens"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Draw blood cultures"
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If low prevalence of multi-drug resistant gram negative bacilli (MDR GNB):"
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Piperacillin-tazobactam",
+                    "dose": "3.375 gm",
+                    "route": "IV",
+                    "frequency": "over 30 minutes then, 4 hrs later, start 3.375 gm IV infused over 4hrs and repeat q8h"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "Penicillin allergy",
+                "components": [
+                  {
+                    "drug": "Ciprofloxacin",
+                    "dose": "400 mg",
+                    "route": "IV",
+                    "frequency": "q12h"
+                  },
+                  {
+                    "drug": "Metronidazole",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "connector": "+"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list",
+              "items": [
+                "If high prevalence of MDR GNB, specific therapy directed by blood culture results"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Directed/Specific Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "High prevalence of MDR GNB or suspected/identified ESBLs",
+            "components": [
+              {
+                "drug": "Meropenem",
+                "dose": "1-2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "High prevalence of KPC carbapenemase-producing GNB:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Often susceptible in vitro to:"
+              ]
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Meropenem-vaborbactam",
+                    "dose": "4 gm",
+                    "route": "IV",
+                    "frequency": "over 3 hr and repeat q8h"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftazidime-avibactam",
+                    "dose": "2.5 gm",
+                    "route": "IV",
+                    "frequency": "over 3 hr"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Imipenem-cilastatin-relebactam",
+                    "dose": "1.25 gm",
+                    "route": "IV",
+                    "frequency": "q6h over 30 min"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Metallocarbapenemase producing MDR GNB: see Antimicrobial Stewardship and Alternative therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can consider salvage therapy with:"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Aztreonam",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "over 3hr q8h"
+          },
+          {
+            "drug": "Ceftazidime-avibactam",
+            "dose": "2.5 gm",
+            "route": "IV",
+            "frequency": "over 3 hr",
+            "connector": "+"
+          }
+        ],
+        "notes": "with concomitant (separate IV lines)"
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Cefiderocol",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h infused over 3 hr"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Eravacycline",
+            "dose": "1 mg/kg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antimicrobial drug selection considerations:",
+        "For metallo-carbapenemase, there is no gold standard therapy.",
+        "Combinations of a polymyxin + meropenem, tigecycline, and rifampin have failed.",
+        "Case report of success with combination of Aztreonam + Ceftazidime-avibactam for bacteremia Morganella infection (Antimicrob Agents Chemother 2019;63:e02463-18)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No indication for anticoagulant therapy",
+        "No indication for surgical drainage"
+      ]
+    }
+  ]
+}

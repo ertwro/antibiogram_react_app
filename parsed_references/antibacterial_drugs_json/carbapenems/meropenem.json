@@ -1,0 +1,117 @@
+{
+  "drug_name": "Meropenem",
+  "tradename": "Merrem",
+  "usage_and_dosing": {
+    "general": [
+      "Meropenem is a carbapenem with a broad spectrum of activity against aerobic and anaerobic gram-negative bacilli and gram-positive cocci. Activity includes aerobic gram-negative bacilli that produce extended-spectrum beta-lactamase (ESBL).",
+      "Meropenem is FDA-approved for intra-abdominal infections and complicated skin/skin structure infections in adult and pediatric patients, and bacterial meningitis in pediatric patients age ≥3 months.",
+      "Activity vs aerobic gram-negatives slightly better than imipenem, whereas activity vs staphylococci and streptococci is slightly less. Anaerobic coverage equivalent to imipenem. B. ovatus, B. distasonis are more resistant to meropenem.",
+      "An alternative antibiotic for drug-resistant genotypes.",
+      "Other uses (not FDA-approved) include Burkholderia pseudomallei (melioidosis).",
+      "Allergy",
+      "For allergy considerations, see Carbapenems, Overview",
+      "See protocol for desensitization."
+    ],
+    "adult_dose": {
+      "usual_dose": "1-2 gm IV q8h",
+      "other_dosing": "Continuous, Extended Infusion Dosing",
+      "critically_ill": "In the most critically ill, it may be necessary to increase dose to 2 gm q8h and prolong the infusion time of each dose (Antimicrob Agents Chemother 2015;59:2995).",
+      "meningitis_dosing": "up to 2 gm IV q8h. To help overcome low level of CSF penetration, infuse each dose over 4 hrs (Antimicrob Agents Chemother 2016;60:6619)."
+    },
+    "pediatric_dose": {
+      "usual_dose": "60 mg/kg/day (divided q8h)",
+      "meningitis_cf": "120 mg/kg/day (divided q8h)",
+      "max_day": "6 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1",
+    "half_life_esrd": "10",
+    "dose_renal_function_normal": "1 gm IV q8h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 26-50: 1 gm q12h. CrCl 10-25: 0.5 gm q12h. CrCl <10: 0.5 gm q24h",
+    "hemodialysis": "0.5 gm q24h (AD on dialysis days)",
+    "capd": "0.5 gm q24h",
+    "crrt": "CVVH, CVVHD: 0.75-1 gm IV q8h 29",
+    "sled": "1 gm q8-12h 30"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments.",
+    "ECMO: See ECMO Drug Dosing Adjustment."
+  ],
+  "adverse_effects": [
+    "GI (nausea, vomiting, diarrhea, C. difficile infection)",
+    "Hypersensitivity (rash, urticaria, anaphylaxis)",
+    "Local phlebitis",
+    "Hematologic: neutropenia, eosinophilia, thrombocytopenia",
+    "Increased LFTs",
+    "Seizure risk, use for valproic acid overdose: see Carbapenems, Overview"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Humans: insufficient data to establish risk. Animals: no evidence of toxicity. Considered safe for use in pregnant patients.",
+    "lactation": "Probably safe with monitoring, but no data available",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Bacteroides fragilis",
+      "Citrobacter freundii",
+      "Citrobacter koseri, diversus",
+      "E. coli, extended spectrum beta lactamase producer (ESBL)",
+      "Providencia sp.",
+      "Pseudomonas aeruginosa",
+      "Resistant (ESBL) oxytoca, pneumoniae, variicola"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "49 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "2",
+    "volume_of_distribution_vd_l_kg": "0.23-0.35 L/kg",
+    "avg_serum_half_life_hr": "1",
+    "elimination": "Renal",
+    "bile_penetration_percent": "3-300",
+    "csf_blood_percent": "21-39 (inflamed meninges)",
+    "therapeutic_levels_in_csf": "Possibly 9",
+    "auc_ug_hr_ml": "72.5 (1 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "BCG",
+          "effect": "↓ effectiveness of BCG",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Probenecid",
+          "effect": "↑ meropenem",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Valproic acid",
+          "effect": "↓ valproic acid",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

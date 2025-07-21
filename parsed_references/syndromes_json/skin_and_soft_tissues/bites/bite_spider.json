@@ -1,0 +1,111 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from spiders",
+    "sourceFile": "Bite_ Spider.pdf",
+    "lastUpdated": "2025-01-31"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound from spiders.",
+        "Most necrotic ulcers attributed to spiders are probably due to another cause, e.g., cutaneous anthrax (Lancet 364:549, 2004) or Staph. aureus (MRSA) infection. Infection associated with spider bites is overdiagnosed.",
+        "Spider bite is painful; cutaneous anthrax infection is not painful. (Reference: Lancet 364:549, 2004).",
+        "Black widow bite may be confused with \"acute abdomen\".",
+        "Brown recluse spider habitat limited to the United States (South Central and desert Southwest states).",
+        "NOT RECLUSE Mnemonic to prevent over-diagnosis (JAMA Dermatol 153: 377, 2017)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Not infectious"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Black widow (Latrodectus):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "No antibiotic therapy indicated",
+            "Diazepam or calcium gluconate is helpful to control pain, muscle spasm.",
+            "Evaluate need for tetanus prophylaxis."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Brown recluse (Loxosceles):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bite usually self-limited and self-healing.",
+            "No therapy of proven efficacy."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Brown recluse spider bite:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dapsone 50 mg po q24h is often used despite marginal supportive data.",
+            "Dapsone can cause hemolysis (check for G6PD deficiency). Can cause hepatitis; baseline and weekly liver panels suggested.",
+            "Reference on brown recluse spiders and suspected necrotic arachnidism, N Engl J Med 352:700, 2005."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "imageData": {
+        "caption": "Image: Brown recluse spider."
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+
+{
+  "drug_name": "Talicia",
+  "tradename": "Talicia",
+  "usage_and_dosing": {
+    "description": "Three drug combination of omeprazole magnesium + amoxicillin + rifabutin for treatment of Helicobacter pylori infection in adults.",
+    "capsule_contents": {
+      "omeprazole": "10 mg",
+      "amoxicillin": "250 mg",
+      "rifabutin": "12.5 mg"
+    },
+    "adult_dose": {
+      "dose": "4 capsules q8h with food x14 days",
+      "instructions": "Swallow whole. Do not crush or chew. Do not take with alcohol."
+    },
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": {
+      "omeprazole": "1 hr",
+      "amoxicillin": "1.4 hrs",
+      "rifabutin": "34 hrs"
+    },
+    "half_life_esrd": {
+      "amoxicillin": "5-20 hrs",
+      "rifabutin": "Unchanged"
+    },
+    "dose_renal_function_normal": "4 caps q8h x14 days",
+    "crcl_or_egfr": {
+      "crcl_>30": "No dosage adjustment",
+      "crcl_<30": "Not recommended"
+    },
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "Avoid use",
+    "moderate_impairment": "Avoid use",
+    "severe_impairment": "Avoid use"
+  },
+  "adverse_effects": {
+    "warnings": [
+      "C. difficile-associated diarrhea (CDAD)",
+      "Reduced efficacy of hormonal contraceptives",
+      "Acute tubulointerstitial nephritis",
+      "Cutaneous and systemic lupus erythematosus",
+      "Rash in patients with mononucleosis",
+      "Uveitis",
+      "Interactions with diagnostic evaluations for neuroendocrine tumors"
+    ],
+    "adverse_reactions": [
+      "GI (nausea/vomiting/diarrhea)",
+      "Headache",
+      "Abdominal pain",
+      "Chromaturia",
+      "Hypersensitivity reactions",
+      "Dyspepsia",
+      "Oropharyngeal pain",
+      "Vulvovaginal candidiasis"
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Not recommended",
+    "use_during_lactation": "Safety not established, avoid use"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Helicobacter pylori"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": {
+      "omeprazole": "no data",
+      "amoxicillin": "T>MIC",
+      "rifabutin": "24-hr AUC/MIC"
+    },
+    "pharmaceutical_preparations": "Cap (omeprazole 10 mg, amoxicillin 250 mg, rifabutin 12.5 mg)",
+    "food_rec_po_drugs": "Cap + food",
+    "oral_absorption": {
+      "omeprazole": "no data",
+      "amoxicillin": "no data",
+      "rifabutin": "no data"
+    },
+    "tmax": {
+      "omeprazole": "1.25 hrs",
+      "amoxicillin": "2 hrs",
+      "rifabutin": "3 hrs"
+    },
+    "peak_serum_conc": {
+      "omeprazole": "1.28 (40 mg q8h, SS)",
+      "amoxicillin": "15.9 (1 gm q8h, SS)",
+      "rifabutin": "0.088 (50 mg q8h, SS)"
+    },
+    "peak_urine_conc": "No data",
+    "protein_binding": {
+      "omeprazole": "95%",
+      "amoxicillin": "20%",
+      "rifabutin": "85%"
+    },
+    "volume_of_distribution": {
+      "omeprazole": "no data",
+      "amoxicillin": "0.36 L/kg",
+      "rifabutin": "9.3 L/kg (Vss)"
+    },
+    "avg_serum_t1_2": {
+      "omeprazole": "1 hr",
+      "amoxicillin": "1.4 hrs",
+      "rifabutin": "34 hrs"
+    },
+    "elimination": {
+      "omeprazole": "metabolized",
+      "amoxicillin": "renal",
+      "rifabutin": "metabolism, renal"
+    },
+    "bile_penetration": {
+      "omeprazole": "no data",
+      "amoxicillin": "100-3000%",
+      "rifabutin": "300-500%"
+    },
+    "csf_blood": {
+      "omeprazole": "no data",
+      "amoxicillin": "13-14%",
+      "rifabutin": "30-70%"
+    },
+    "therapeutic_levels_in_csf": {
+      "omeprazole": "no data",
+      "amoxicillin": "yes",
+      "rifabutin": "no data"
+    },
+    "auc": {
+      "omeprazole": "7.16 (40 mg q8h, 0-24h)",
+      "amoxicillin": "145.8 (1 gm q8h, 0-24h)",
+      "rifabutin": "1.32 (50 mg q8h, 0-24h)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_that_drug_is_a_substrate_for": {
+      "omeprazole": "CYP2C19, CYP3A4",
+      "rifabutin": "CYP3A4"
+    },
+    "transporters_that_drug_is_a_substrate_for": {
+      "amoxicillin": "OAT1, OAT3"
+    },
+    "cyp450s_inhibited_by_drug": {
+      "omeprazole": "CYP2C19"
+    },
+    "cyp450s_induced_by_drug": {
+      "rifabutin": "CYP3A4"
+    }
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Allopurinol",
+      "effect": "↑ frequency of rash",
+      "suggestion": "Monitor, avoid if possible"
+    },
+    {
+      "drug": "Cilostazol",
+      "effect": "↑ cilostazol",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Citalopram",
+      "effect": "↑ citalopram",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Clopidogrel",
+      "effect": "↑ clopidogrel",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Dasatinib",
+      "effect": "Altered absorption of dasatinib",
+      "suggestion": "See PI of dasatinib"
+    },
+    {
+      "drug": "Diazepam",
+      "effect": "↑ diazepam",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Digoxin",
+      "effect": "↑ digoxin",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Erlotinib",
+      "effect": "Altered absorption of erlotinib",
+      "suggestion": "See PI of erlotinib"
+    },
+    {
+      "drug": "Fluconazole",
+      "effect": "↑ omeprazole, ↑ rifabutin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Iron salts",
+      "effect": "Altered absorption of iron",
+      "suggestion": "See PI of iron salt"
+    },
+    {
+      "drug": "Itraconazole",
+      "effect": "↑ omeprazole, ↑ rifabutin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Methotrexate",
+      "effect": "↑ methotrexate",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Mycophenolate mofetil",
+      "effect": "↓ mycophenolate",
+      "suggestion": "Monitor, avoid if possible"
+    },
+    {
+      "drug": "Nilotinib",
+      "effect": "Altered absorption of nilotinib",
+      "suggestion": "See PI of nilotinib"
+    },
+    {
+      "drug": "Oral contraceptives",
+      "effect": "↓ ethinyl estradiol, ↓ norethindrone",
+      "suggestion": "Use alternative method"
+    },
+    {
+      "drug": "Phenytoin",
+      "effect": "↑ phenytoin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Posaconazole",
+      "effect": "↑ omeprazole, ↑ rifabutin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Probenecid",
+      "effect": "↑ amoxicillin",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Rifampin",
+      "effect": "↓ omeprazole, ↓ rifabutin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Rilpivirine",
+      "effect": "↓ rilpivirine",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "St. John's wort",
+      "effect": "↓ omeprazole, ↓ rifabutin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Tacrolimus",
+      "effect": "↑ tacrolimus",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Voriconazole",
+      "effect": "↑ omeprazole, ↑ rifabutin",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ INR",
+      "suggestion": "Monitor INR, adjust dosage"
+    }
+  ],
+  "comments": [
+    "Review: Med Lett Drugs Ther 2020;62:83."
+  ]
+}

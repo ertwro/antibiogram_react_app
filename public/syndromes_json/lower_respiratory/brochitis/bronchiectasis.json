@@ -1,0 +1,91 @@
+
+{
+  "documentMetadata": {
+    "title": "Bronchiectasis",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Bronchiectasis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bronchiectasis not in association with cystic fibrosis.",
+        "Oral therapy for acute exacerbation.",
+        "Culture recommended prior to initiation of antimicrobial therapy to guide drug selection.",
+        "See cystic fibrosis for recommendations in this clinical setting."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "H. influenzae",
+        "Moraxella catarrhalis",
+        "P. aeruginosa",
+        "Staph. aureus",
+        "Strep. pneumoniae (rare)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral therapy preferred; ideally should be pathogen-directed based on sputum culture results, but in the absence of recent culture data:",
+        "(Levofloxacin 500 mg po q24h or Moxifloxacin 400 mg po q24h) x 10-14 days",
+        "For fluoroquinolone-susceptible strain of Pseudomonas aeruginosa",
+        "Levofloxacin 750 mg po q24h or Ciprofloxacin 750 mg po bid",
+        "Consider IV therapy, pathogen-directed based on sputum culture results for sicker patients, infection with resistant organisms, failed oral therapy.",
+        "Prevention, long-term therapy for those with > 3 exacerbations a year (See Comments)",
+        "Azithromycin 250 mg q24h x 6-12 months"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment options, pathogen-directed guided by sputum culture results:",
+        "Amoxicillin 1 gm po tid",
+        "Doxycycline 100 mg po bid (does not cover pseudomonas)",
+        "Amoxicillin-clavulanate 875/125 mg po bid",
+        "Cefpodoxime 200 mg po bid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prevention for those with > 3 exacerbations a year.",
+        "Three randomized trials, one with Erythromycin administered for 12 months (JAMA 2013; 309:1260) and two with Azithromycin administered for 12 months (JAMA 2013; 309:1251) or for 6 months (Lancet 2012; 380: 660) showed significant reduction in the rate of acute exacerbations, better preservation of lung function, and better quality of life versus placebo in adults with non-cystic fibrosis bronchiectasis.",
+        "Caveats: higher rates of macrolide resistance in oropharyngeal flora, including potential respiratory pathogens; potential for increased risk of: cardiovascular death from macrolide-induced QTc prolongation, liver toxicity, or hearing loss.",
+        "Pre-treatment screening: baseline liver function tests, electrocardiogram; assess hearing; sputum culture to exclude mycobacterial disease.",
+        "Meta-analysis of long-term efficacy and safety of macrolide therapy for non-cystic fibrosis bronchiectasis: Respiratory Investigation 2024; 62: 1079.",
+        "Inhaled antimicrobial therapy",
+        "British and European guidelines (Thorax 2019; 74:Suppl 1: 1 and Eur Respir J 2017;50(3). pii: 1700629) recommend long-term inhaled antibiotic treatment as an option for patients with P. aeruginosa infection although benefits not well established (see Respir Med. 2021;176:106283 and Eur J Intern Med. 2021;90:77-88).",
+        "Results of two randomized placebo-control trials of 12 months of inhaled colistimethate sodium in patients with bronchiectasis and Pseudomonas aeruginosa infection suggest a possible benefit in reducing the rate of exacerbations (Lancet Respir Med 2024; 12:787).",
+        "In a meta-analysis of 20 studies involving 3,468 patients (Chest 2024; 166: 61), inhaled antibiotics were associated with a slight reduction of exacerbations (risk ratio, 0.85; 95% CI, 0.75-0.96), a slight reduction in exacerbation frequency (rate ratio, 0.78; 95% CI, 0.68-0.91), a probable reduction in the frequency of severe exacerbations (RR, 0.48; 95% CI, 0.31-0.74), and a likely slight increase in time to first exacerbation (hazard ratio, 0.80; 95% CI, 0.68-0.94).",
+        "Clinical review including treatment options: N Engl J Med. 2022;387:533"
+      ]
+    }
+  ]
+}

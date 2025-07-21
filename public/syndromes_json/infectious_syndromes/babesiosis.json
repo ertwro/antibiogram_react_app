@@ -1,0 +1,109 @@
+{
+  "documentMetadata": {
+    "title": "Babesiosis",
+    "lastUpdated": "2024-09-26",
+    "sourceFile": "Babesiosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tick-borne and transfusion-associated disease; congenital infection also reported. Review: [N Engl J Med 366:2397, 2012](https://www.nejm.org/doi/full/10.1056/NEJMra1110910).",
+        "Tick vector for Babesia microti is Ixodes scapularis. Reservoir host is the white-footed mouse (and others). See Tick-borne Illness, Overview.",
+        "B. microti is a blood safety issue with >200 transfusion-transmissions reported ([Transfusion 59; 2908, 2019](https://onlinelibrary.wiley.com/doi/10.1111/trf.15452)).",
+        "Since 2019, FDA requires Babesia testing of red blood cell products in 15 high-risk states",
+        "Lyme disease and human granulocytic anaplasmosis have the same tick vector and reservoir host as Babesia microti.",
+        "Most U.S. tick-borne cases are in the Mid-Atlantic, Northeast and upper Midwest. Sporadic Babesia cases caused by novel agents have been identified in various parts of the U.S.",
+        "Babesia parasites infect the red blood cells of the host. Symptoms result from hemolysis.",
+        "Asymptomatic infection typically does not need to be treated.",
+        "Most patients are older males during June-August; overall mortality 1.6%.",
+        "Babesiosis can be fatal in asplenic and immunocompromised patients, [Clin Infect Dis 46:370, 2008](https://academic.oup.com/cid/article/46/3/370/318189). Risk factors for severe disease: over age 60, rituximab use, thrombocytopenia, parasitemia >10%.",
+        "If severe or persistent symptoms despite appropriate therapy for babesiosis, consider co-infection with the etiologic agents of Lyme Disease or human anaplasmosis.",
+        "Clinical practice guidelines: [Clin Infect Dis 72:185, 2021](https://academic.oup.com/cid/article/72/2/185/5895495)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Examine stained smear of peripheral blood.",
+        "PCR detection where/when available",
+        "Serology no longer recommended; may indicate previous infection",
+        "Note: molecular and serologic testing for B. microti does not detect other agents/species"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Babesia microti (U.S.)",
+        "Babesia duncani (Western U.S.)",
+        "Babesia divergens (almost all infections in Europe: [Pathogens 2023;12:323](https://www.mdpi.com/2076-0817/12/2/323))",
+        "Babesia motasi (Korea, China)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Asymptomatic disease in healthy host with intact spleen.\nNo treatment",
+        "Adult mild/moderate disease (outpatient, <4% parasitemia).\n[(Atovaquone 750 mg po q12h) + (Azithromycin 500 mg po on day 1, then 250 mg/day po)] for a total of 7-10 days.",
+        "Acute severe disease (hospitalized)\nAdult: Atovaquone 750 mg po q12h + Azithromycin 500-1000 mg IV q24h until symptoms abate, then convert to all oral step-down therapy\nFollow with step-down therapy: Atovaquone 750 mg po q12h + Azithromycin 250–500 (500-1000 if immunocompromised) mg po q24h to complete a total of 7-10 days.",
+        "Highly Immunocompromised patients:\nTreat for 6 consecutive weeks with a regimen as per severe disease ensuring negative blood smears for the final 2 weeks.\nReview of treatment in this population: [Curr Opin Infect Dis 2024 Oct 1;37(5):327](https://journals.lww.com/co-infectiousdiseases/abstract/2024/10000/treatment_of_babesiosis__a_moving_target.6.aspx).",
+        "Consider exchange transfusion for patients with parasitemia >10% or moderate to high-grade parasitemia any of: severe hemolytic anemia or pulmonary, renal, or hepatic compromise.",
+        "Pediatric doses: Atovaquone 20 mg/kg per dose po; Azithromycin 10 mg/kg IV/po according to adult schedules/routes above except 5 mg/kg po after initial dose in mild/moderate cases.\nNever exceed adult dose\nAtovaquone/azithromycin recommended but no clinical trials with severe babesiosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clindamycin + quinine is preferred in pregnant women and when parasitemia and symptoms have failed to abate following initiation of Atovaquone + Azithromycin.",
+        "Mild/moderate: Clindamycin 600 mg po q8h + quinine sulfate 542 mg base (which equals 650 mg salt) po q6h-8h x 7 to 10 days.",
+        "Acute Severe Hospitalized: Clindamycin 600 mg IV q6h + quinine sulfate 542 mg base po q6h-8h until symptoms abate, then convert to all oral step-down therapy.\nFollow with step-down therapy: Clindamycin 600 mg po q8h + quinine sulfate 542 mg base po q6h-8h to complete a total of 7-10 days",
+        "Pediatric doses: Clindamycin 7-10 mg/kg po q8h; quinine sulfate 6 mg base/kg (which equals 8 mg salt/kg) according to adult schedules/routes above. Never exceed adult dose.",
+        "For treatment failures or relapses consider following combinations:\nAtovaquone + Azithromycin + Clindamycin;\nAtovaquone + Clindamycin;\nAtovaquone/proguanil + Azithromycin;\nAtovaquone + Azithromycin + Clindamycin + quinine. Use 500-1000 mg of Azithromycin."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Monitor blood smears in immunocompetent during acute symptoms only and till blood smears clear if immunocompromised.",
+        "No available antibiotic prophylaxis",
+        "in vivo animal data for efficacy of tafenoquine ([J Infect Dis 220:442, 2019](https://academic.oup.com/jid/article/220/3/442/5365585))",
+        "Relapse in single highly compromised patient after 6 weeks of tafenoquine ([Pathogens 2022 Sep 15;11(9):1051](https://www.mdpi.com/2076-0817/11/9/1051)).",
+        "Triple therapy with tafenoquine-atovaquone-azithromycin for 10 days vs atovaquone-azithromycin under investigation in severe hospitalized cases ([J Infect Dis 2024 May 15;229(5):1599](https://academic.oup.com/jid/article/229/5/1599/7670297)).",
+        "Weekly tafenoquine maintenance after relapse in immunocompromised patients ([Clin Infect Dis 2024 Jul 19;79(1):130](https://academic.oup.com/cid/article/79/1/130/7670296)).",
+        "Comprehensive review: [Infect Dis Clin North Am 2022 Sep;36(3):655](https://www.sciencedirect.com/science/article/pii/S089155202200034X)",
+        "B. motasi only a few human cases so far.",
+        "Seven tropical infections were pathogen visible in peripheral blood smear: African/American trypanosomiasis, babesia, bartonellosis, filariasis, malaria, relapsing fever."
+      ]
+    }
+  ]
+}

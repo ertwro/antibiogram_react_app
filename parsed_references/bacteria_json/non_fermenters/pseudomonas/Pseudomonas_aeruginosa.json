@@ -1,0 +1,736 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Pseudomonas aeruginosa",
+      "aliases": [],
+      "lastUpdated": "2025-04-25",
+      "clsiCategory": "Pseudomonas aeruginosa",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Glucose non-fermenter"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative rod, oxidase +, motile, non-lactose fermenter, produces pyocyanin (blue-green) and pyoverdin (fluorescent) pigments, grape-like odor, grows at 42°C."
+    },
+    "clinicalProfile": {
+      "summary": "Causes a variety of local and systemic infections in both normal and immunocompromised hosts, including pneumonia (VAP, HAP), UTIs, and bloodstream infections. In neutropenic patients, it can cause ecthyma gangrenosum.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pneumonia (VAP, HAP)",
+          "description": "Ventilator-associated or hospital-acquired pneumonia."
+        },
+        {
+          "syndromeName": "Urinary Tract Infection (UTI)",
+          "description": "Infection of the urinary system."
+        },
+        {
+          "syndromeName": "Bloodstream Infection",
+          "description": "Presence of bacteria in the blood."
+        },
+        {
+          "syndromeName": "Ecthyma Gangrenosum",
+          "description": "A cutaneous necrotic lesion, typically seen in neutropenic patients."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised patients",
+        "Neutropenic patients"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Loss of drug permeability",
+          "mechanismType": "Efflux Pumps / Porin Loss",
+          "description": "Due to multi-drug efflux pumps and/or loss of outer membrane porins. A common cause of carbapenem resistance."
+        },
+        {
+          "mechanismName": "AmpC Beta-lactamase",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Most common beta-lactamase. Hydrolyzes penicillins, monobactams, and cephalosporins. Not inhibited by serine-beta-lactamase inhibitors."
+        },
+        {
+          "mechanismName": "Extended-spectrum beta-lactamases (ESBL)",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Hydrolyze anti-pseudomonal cephalosporins."
+        },
+        {
+          "mechanismName": "Carbapenemases",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Typically metallo-beta-lactamases (MBLs) or serine carbapenemases."
+        },
+        {
+          "mechanismName": "Mutation of drug target",
+          "mechanismType": "Target Modification",
+          "description": "e.g., Fluoroquinolone resistance due to gyrase mutations."
+        },
+        {
+          "mechanismName": "Aminoglycoside modifying enzymes",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Inactivate aminoglycoside antibiotics."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Recommendations are for therapy of moderately severe or severe infections.",
+        "There is no value to continued combination therapy once in vitro susceptibility to an anti-pseudomonal beta-lactam or fluoroquinolone is documented.",
+        "Combination therapy has potential benefits for empiric therapy in high-risk patients by increasing the likelihood of at least one active drug."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Ertapenem",
+          "condition": "All infections",
+          "reason": "Not active against P. aeruginosa."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Moderately severe or severe infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Piperacillin-tazobactam",
+                      "dose": "4.5 gm IV (over 4 hr)",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Choice of specific agent guided by local susceptibility patterns."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftazidime",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Choice of specific agent guided by local susceptibility patterns."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cefepime",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Choice of specific agent guided by local susceptibility patterns."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Consider higher dose infused over 3 hours for serious infections. Choice of specific agent guided by local susceptibility patterns."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftolozane-tazobactam",
+                      "dose": "1.5 gm IV over 1 hr (non-pneumonia) or 3 gm IV over 1 hr (HAP/VAP)",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Choice of specific agent guided by local susceptibility patterns."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Aztreonam",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": "For severe IgE-mediated beta-lactam allergy."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "For severe IgE-mediated beta-lactam allergy."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "For severe IgE-mediated beta-lactam allergy."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Tobramycin",
+                      "dose": "7 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "Not first-line, option for severe allergy, not for single use outside UTI."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Encourage use of rapid diagnostics to identify resistance mechanisms."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "For more on resistance, see Gram Negative Bacilli, Beta-lactam Resistance, Overview."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Cefiderocol",
+          "pearl": "FDA-approved for complicated UTI with limited alternatives. In a trial for nosocomial pneumonia, all-cause mortality was higher in the cefiderocol arm (24.8%) vs best available therapy (18.4%), though not statistically significant."
+        },
+        {
+          "drugName": "Ceftolozane-tazobactam",
+          "pearl": "Highly active in vitro, including against many meropenem-resistant isolates. Emergence of resistance due to ampC mutations has been reported."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "IDSA",
+          "citation": "Updated 2024 IDSA Guidelines",
+          "summaryOrNote": "Guideline on treatment of resistant gram-negative infections (ESBL, AmpC, carbapenemase producers)."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.340Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Pseudomonas aeruginosa"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-25"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Glucose non-fermenter"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Causes a variety of local and systemic infections in both normal and immunocompromised hosts, including pneumonia (VAP, HAP), UTIs, and bloodstream infections. In neutropenic patients, it can cause ecthyma gangrenosum.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pneumonia (VAP, HAP)",
+          "description": "Ventilator-associated or hospital-acquired pneumonia."
+        },
+        {
+          "syndromeName": "Urinary Tract Infection (UTI)",
+          "description": "Infection of the urinary system."
+        },
+        {
+          "syndromeName": "Bloodstream Infection",
+          "description": "Presence of bacteria in the blood."
+        },
+        {
+          "syndromeName": "Ecthyma Gangrenosum",
+          "description": "A cutaneous necrotic lesion, typically seen in neutropenic patients."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised patients",
+        "Neutropenic patients"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Loss of drug permeability",
+          "mechanismType": "Efflux Pumps / Porin Loss",
+          "description": "Due to multi-drug efflux pumps and/or loss of outer membrane porins. A common cause of carbapenem resistance."
+        },
+        {
+          "mechanismName": "AmpC Beta-lactamase",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Most common beta-lactamase. Hydrolyzes penicillins, monobactams, and cephalosporins. Not inhibited by serine-beta-lactamase inhibitors."
+        },
+        {
+          "mechanismName": "Extended-spectrum beta-lactamases (ESBL)",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Hydrolyze anti-pseudomonal cephalosporins."
+        },
+        {
+          "mechanismName": "Carbapenemases",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Typically metallo-beta-lactamases (MBLs) or serine carbapenemases."
+        },
+        {
+          "mechanismName": "Mutation of drug target",
+          "mechanismType": "Target Modification",
+          "description": "e.g., Fluoroquinolone resistance due to gyrase mutations."
+        },
+        {
+          "mechanismName": "Aminoglycoside modifying enzymes",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Inactivate aminoglycoside antibiotics."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Piperacillin-tazobactam",
+              "dose": "4.5 gm IV (over 4 hr)",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "Choice of specific agent guided by local susceptibility patterns.",
+              "originalText": "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftazidime",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "Choice of specific agent guided by local susceptibility patterns.",
+              "originalText": "Ceftazidime 2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefepime",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "Choice of specific agent guided by local susceptibility patterns.",
+              "originalText": "Cefepime 2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Meropenem",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "Consider higher dose infused over 3 hours for serious infections. Choice of specific agent guided by local susceptibility patterns.",
+              "originalText": "Meropenem 1-2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftolozane-tazobactam",
+              "dose": "1.5 gm IV over 1 hr (non-pneumonia) or 3 gm IV over 1 hr (HAP/VAP)",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "Choice of specific agent guided by local susceptibility patterns.",
+              "originalText": "Ceftolozane-tazobactam 1.5 gm IV over 1 hr (non-pneumonia) or 3 gm IV over 1 hr (HAP/VAP) IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Aztreonam",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "",
+              "comments": "For severe IgE-mediated beta-lactam allergy.",
+              "originalText": "Aztreonam 2 gm IV q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-6-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[6].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "For severe IgE-mediated beta-lactam allergy.",
+              "originalText": "Ciprofloxacin 400 mg IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-7-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[7].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "",
+              "comments": "For severe IgE-mediated beta-lactam allergy.",
+              "originalText": "Levofloxacin 750 mg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-8-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[8].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Moderately severe or severe infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Tobramycin",
+              "dose": "7 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "",
+              "comments": "Not first-line, option for severe allergy, not for single use outside UTI.",
+              "originalText": "Tobramycin 7 mg/kg IV q24h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Encourage use of rapid diagnostics to identify resistance mechanisms."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

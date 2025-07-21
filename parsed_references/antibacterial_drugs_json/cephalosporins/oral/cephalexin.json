@@ -1,0 +1,93 @@
+{
+  "drug_name": "Cephalexin",
+  "tradename": "Keflex, Keftab",
+  "usage_and_dosing": {
+    "general": [
+      "Cephalexin, FDA-approved in 1971, is a 1st generation oral cephalosporin with in vitro activity against streptococci, MSSA, E. coli, Klebsiella sp., and P. mirabilis.",
+      "Can cause false-negative urine dipstick test for leukocytes (Am Fam Phys 2005;71:1153)."
+    ],
+    "adult_dose": {
+      "usual_dose": "250-1000 mg po q6h (max 4 gm/day)"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "25-100 mg/kg/day (divided q6h)",
+      "max_day": "4 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "0.5-1.2",
+    "half_life_esrd": "5-30",
+    "dose_renal_function_normal": "250-1000 mg po q6h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 250-1000 mg q8-12h. CrCl <10: 250-1000 mg q24-48h",
+    "hemodialysis": "250-500 mg q12-24h (give AD on dialysis days)",
+    "capd": "250-500 mg q12-24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Hypersensitivity (rash, urticaria, angioedema, anaphylaxis, erythema multiforme, serum sickness, SJS, TEN)",
+    "Cephalexin has the same R-1 side chain as ampicillin and cefaclor, and the same R-2 side chain as cefadroxil.",
+    "See Drug Allergy: Penicillins, Cephalosporins, Overview.",
+    "GI (diarrhea, nausea, vomiting, abdominal pain, C. difficile colitis)",
+    "Hematologic: positive Coombs, neutropenia, eosinophilia",
+    "Reversible interstitial nephritis",
+    "Increased LFTs",
+    "Prolonged INR",
+    "Seizures"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Staphylococcus saprophyticus"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (250, 500, 750 mg), Tab (250, 500 mg), Oral susp (125 mg/5 mL, 250 mg/5 mL)",
+    "food_recommendation": "Cap/tab/susp ± food",
+    "oral_absorption_percent": "90",
+    "tmax_hr": "1",
+    "peak_serum_conc_ug_ml": "18 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "2200 (500 mg po, SD)",
+    "protein_binding_percent": "5-15",
+    "volume_of_distribution_vd_l_kg_vf": "0.38 L/kg (V/F)",
+    "avg_serum_half_life_hr": "1",
+    "elimination": "Renal",
+    "bile_penetration_percent": "216",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "29 (500 mg po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["MATE1"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Metformin",
+          "effect": "↑ metformin",
+          "management": "Monitor, adjust dosage"
+      },
+      {
+          "drug": "Probenecid",
+          "effect": "↑ cephalexin",
+          "management": "Monitor, adjust dosage"
+      }
+  ]
+}

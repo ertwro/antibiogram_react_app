@@ -1,0 +1,120 @@
+{
+  "documentMetadata": {
+    "title": "Herpes simplex, Oral lesions mouth, lips",
+    "sourceFile": "Herpes simplex, Oral lesions_ mouth, lips.pdf",
+    "lastUpdated": "2025-04-28"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mucocutaneous Herpes simplex virus (HSV) infection, oral labial HSV infection.",
+        "Gingivostomatitis / stomatitis: Visicular infection of the mouth (usually anterior) and lips.",
+        "Fever blisters in normal host. Painful, more severe and often recurrent in immunocompromised host.",
+        "Start treatment with prodrome symptoms (tingling/burning) before lesions appear."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Herpes simplex virus (HSV) (Types 1, 2)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral regimens"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Valacyclovir",
+            "dose": "2 gm",
+            "route": "po",
+            "frequency": "q12h x 1 day",
+            "notes": "(see Comment for dosing reference)"
+          },
+          {
+            "drug": "Acyclovir",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "tid x 5 days"
+          },
+          {
+            "drug": "Famciclovir",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid x 7 days",
+            "notes": "(FDA-approved for HIV patients only)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "At first sign of prodrome: Famciclovir 1500 mg one dose or 750 mg q12h x 1 day (J Amer Acad Dermatol 55:47, 2006)",
+        "Topical regimens (less preferred):"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penciclovir",
+            "dose": "1% cream",
+            "route": "topical",
+            "frequency": "q2h during day x 4 days"
+          },
+          {
+            "drug": "Acyclovir",
+            "dose": "5% cream",
+            "route": "topical",
+            "frequency": "6x/day (q3h) x 7 days",
+            "notes": "(approved for HIV patients only)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Valacyclovir more effective overall (Meta-analysis in J Oral Path Med 46:561, 2017)",
+        "Symptoms reduction",
+        "Oral regimens: Valacyclovir (1 day), Famciclovir (2 days), Acyclovir (1/2 day)",
+        "Topical regimens: Penciclovir (1 day); Acyclovir (1/2 day)"
+      ]
+    }
+  ]
+}

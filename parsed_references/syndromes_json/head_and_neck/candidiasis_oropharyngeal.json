@@ -1,0 +1,127 @@
+{
+  "documentMetadata": {
+    "title": "Candidiasis, Oropharyngeal",
+    "sourceFile": "syndromes/head_and_neck/Candidiasis, Oropharyngeal.pdf",
+    "lastUpdated": "2024-03-27"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Thrush: creamy white patches overlying inflamed mucosa of buccal and pharyngeal mucosa, palate, and tonsils.",
+        "Erythematous variant with flat erythematous lesions.",
+        "Angular cheilitis with erythematous fissures in the corners of the mouth."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Candida albicans",
+        "Other non-albicans Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mild disease:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Clotrimazole troches",
+                "dose": "10 mg",
+                "frequency": "5x/day",
+                "connector": "or"
+              },
+              {
+                "drug": "Nystatin suspension",
+                "dose": "500,000 units (5 mL)",
+                "frequency": "swish & swallow qid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-14 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Moderate-severe disease and/or HIV-positive patient:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Fluconazole",
+                "dose": "100-200 mg/day"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-14 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Itraconazole solution 200 mg po daily x 7-14 days",
+        "Voriconazole 200 mg q12h x 7-14 days",
+        "Isavuconazonium sulfate (prodrug of Isavuconazole) 372 mg po/IV q8h x 6 doses and then 372 mg po/IV daily",
+        "Posaconazole (NOTE: different dosing delayed release tabs/IV vs. suspension, better levels achieved with delayed-release tabs)",
+        "  Delayed-release tabs 300 mg po bid x 2 doses and then 300 mg po daily",
+        "  Suspension 200 mg qid, then 400 mg po bid after stabilization of disease",
+        "  Posaconazole IV 300 mg IV over 90 minutes bid x 1 day, then 300 mg IV daily",
+        "Caspofungin 70 mg loading dose, then 50 mg/day IV or Micafungin 100 mg/day IV or Anidulafungin 200 mg IV loading dose, then 100 mg/day IV x 7-14 days",
+        "Amphotericin B 0.3 mg/kg/day x 7-14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "HIV-positive patients: Antiretroviral therapy (ART) is recommended to prevent recurrent disease.",
+        "Suppressive therapy in select immunocompromised patients with recurrent disease: Fluconazole 100 mg po 3x/week.",
+        "Dysphagia or odynophagia is predictive of esophageal candidiasis.",
+        "IDSA treatment guidelines: Clin Infect Dis 62:409, 2016"
+      ]
+    }
+  ]
+}

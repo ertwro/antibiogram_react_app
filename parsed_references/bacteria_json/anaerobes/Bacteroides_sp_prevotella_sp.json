@@ -1,0 +1,197 @@
+{
+  "_originalData": {
+    "title": "Bacteroides sp - Prevotella sp",
+    "lastUpdated": "Sep 10, 2021",
+    "clinicalSetting": {
+      "description": "Bacteroides, Prevotella and Parabacteroides species cause, or participate in, a variety of infections involving the intestinal tract, peritonitis, gynecologic/obstetric infections, and abscesses in the brain, liver and elsewhere. There are as many as 1011 Bacteroides species per gram of human feces. However, bacteroides species vary in their pathogenic potential.",
+      "mostVirulent": "Bacteroides fragilis is the most virulent.",
+      "reclassification": {
+        "title": "Some bacteria previously classified as Bacteroides species have been reclassified and placed in their own species, i.e.:",
+        "species": [
+          "Bacteroides distasonis is now Parabacteroides distasonis",
+          "Bacteroides melaninogenicus is now Prevotella melaninogenica."
+        ]
+      },
+      "oralFlora": "Prevotella nigrescens, Prevotella pleuritidis are oral flora associated with periodontal disease (J Clin Periodontol 2005, 32:1213) and, for P. pleuritidis, rarely, other abscesses (BMJ Case Rep 2020, 13:e235960)",
+      "susceptibility": {
+        "metronidazole": "Fortunately, virtually all Bacteroides, Parabacteroides, and Prevotella remain susceptible to Metronidazole: Clin Infect Dis 59:698, 2014.",
+        "piperacillinTazobactam": "B. fragilis group are predictably susceptible to Piperacillin-tazobactam and the carbapenems",
+        "cefotetanClindamycin": "Cefotetan and Clindamycin are no longer recommended due to resistance.",
+        "moxifloxacin": "Resistance to Moxifloxacin is increasing."
+      }
+    },
+    "classification": {
+      "description": "Gram negative bacilli, anaerobic",
+      "species": [
+        "Bacteroides fragilis",
+        "Parabacteroides distasonis",
+        "Prevotella melaninogenica",
+        "Prevotella nigrescens",
+        "Prevotella pleuriditis"
+      ]
+    },
+    "regimens": {
+      "primary": {
+        "title": "See specific pathogen or syndrome:",
+        "syndromes": [
+          "Bacteroides fragilis",
+          "Peritonitis, Secondary",
+          "Brain abscess",
+          "Pelvic inflammatory disease",
+          "Hepatic abscess",
+          "Diverticulitis",
+          "Odontogenic infections"
+        ]
+      },
+      "alternative": {
+        "action": "See specific pathogen or syndrome"
+      }
+    },
+    "comments": [
+      "None"
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "lastUpdated",
+      "clinicalSetting",
+      "classification",
+      "regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:30:00.000Z",
+    "sourceFormat": "legacy_reference"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": ["title"],
+      "value": "Bacteroides sp - Prevotella sp"
+    },
+    "aliases": {
+      "sources": ["aliases"],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": ["lastUpdated"],
+      "value": "Sep 10, 2021"
+    },
+    "classification": {
+      "sources": ["classification"],
+      "value": {
+        "description": "Gram negative bacilli, anaerobic",
+        "species": [
+          "Bacteroides fragilis",
+          "Parabacteroides distasonis",
+          "Prevotella melaninogenica",
+          "Prevotella nigrescens",
+          "Prevotella pleuriditis"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "summary": {
+      "sources": ["clinicalSetting.description"],
+      "value": "Bacteroides, Prevotella and Parabacteroides species cause, or participate in, a variety of infections involving the intestinal tract, peritonitis, gynecologic/obstetric infections, and abscesses in the brain, liver and elsewhere. There are as many as 1011 Bacteroides species per gram of human feces. However, bacteroides species vary in their pathogenic potential."
+    },
+    "clinicalSetting": {
+      "sources": ["clinicalSetting"],
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "description": "Bacteroides, Prevotella and Parabacteroides species cause, or participate in, a variety of infections involving the intestinal tract, peritonitis, gynecologic/obstetric infections, and abscesses in the brain, liver and elsewhere. There are as many as 1011 Bacteroides species per gram of human feces. However, bacteroides species vary in their pathogenic potential.",
+          "mostVirulent": "Bacteroides fragilis is the most virulent.",
+          "reclassification": {
+            "title": "Some bacteria previously classified as Bacteroides species have been reclassified and placed in their own species, i.e.:",
+            "species": [
+              "Bacteroides distasonis is now Parabacteroides distasonis",
+              "Bacteroides melaninogenicus is now Prevotella melaninogenica."
+            ]
+          },
+          "oralFlora": "Prevotella nigrescens, Prevotella pleuritidis are oral flora associated with periodontal disease (J Clin Periodontol 2005, 32:1213) and, for P. pleuritidis, rarely, other abscesses (BMJ Case Rep 2020, 13:e235960)",
+          "susceptibility": {
+            "metronidazole": "Fortunately, virtually all Bacteroides, Parabacteroides, and Prevotella remain susceptible to Metronidazole: Clin Infect Dis 59:698, 2014.",
+            "piperacillinTazobactam": "B. fragilis group are predictably susceptible to Piperacillin-tazobactam and the carbapenems",
+            "cefotetanClindamycin": "Cefotetan and Clindamycin are no longer recommended due to resistance.",
+            "moxifloxacin": "Resistance to Moxifloxacin is increasing."
+          }
+        }
+      }
+    }
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_reference",
+      "hasReferenceBasedTreatments": true
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "reference-syndromes",
+        "extractedFrom": "regimens.primary.syndromes",
+        "context": {
+          "type": "reference",
+          "condition": "See specific pathogen or syndrome:"
+        },
+        "preference": "reference",
+        "referenceList": [
+          "Bacteroides fragilis",
+          "Peritonitis, Secondary",
+          "Brain abscess",
+          "Pelvic inflammatory disease",
+          "Hepatic abscess",
+          "Diverticulitis",
+          "Odontogenic infections"
+        ],
+        "originalFormat": {
+          "type": "syndrome_references",
+          "preservedContent": {
+            "title": "See specific pathogen or syndrome:",
+            "syndromes": [
+              "Bacteroides fragilis",
+              "Peritonitis, Secondary",
+              "Brain abscess",
+              "Pelvic inflammatory disease",
+              "Hepatic abscess",
+              "Diverticulitis",
+              "Odontogenic infections"
+            ]
+          }
+        }
+      }
+    ],
+    "referenceBasedTreatments": {
+      "primaryRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "title": "See specific pathogen or syndrome:",
+          "syndromes": [
+            "Bacteroides fragilis",
+            "Peritonitis, Secondary",
+            "Brain abscess",
+            "Pelvic inflammatory disease",
+            "Hepatic abscess",
+            "Diverticulitis",
+            "Odontogenic infections"
+          ]
+        }
+      },
+      "alternativeRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "action": "See specific pathogen or syndrome"
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "comments": {
+      "sources": ["comments"],
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": ["None"]
+      }
+    },
+    "allOtherKeys": {}
+  }
+}

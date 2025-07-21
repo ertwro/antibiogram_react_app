@@ -1,0 +1,80 @@
+{
+    "documentMetadata": {
+        "title": "Staphylococcal Scalded Skin Syndrome",
+        "sourceFile": "Staphylococcal Scalded Skin Syndrome.pdf",
+        "lastUpdated": "2023-02-28"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Staphylococcal Scalded Skin Syndrome (SSSS) is a toxin-mediated infection of the skin caused by hematogenous spread of a strain of S. aureus that produces an exfoliative toxin.",
+                "Arises from a focus of infection with an exotoxin-producing S. aureus strain, including impetigo, bacterial conjunctivitis, or wounds; may also occur in the setting of invasive S aureus infection (e.g., pneumonia, septic arthritis, endocarditis)",
+                "More common in children than adults; SSSS occurs in immunocompromised adults; Drug-induced Stevens Johnson Syndrome/toxic epidermal necrolyis (SJS/TEN) is more common in adults.",
+                "Can complicate varicella in children.",
+                "Diagnosis usually made clinically via history and physical exam",
+                "Culture suspected sites of infection to identify S. aureus and obtain susceptibility data"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Result of hematogenous spread S. aureus that produces an exfoliative toxin.",
+                "Pathogen maybe MSSA or MRSA"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Fluids and supportive care in the hospital",
+                "Empiric antibiotic therapy active vs. both MSSA and MRSA until culture results available: e.g, Vancomycin.",
+                "No data on theoretical benefit of protein synthesis inhibitor, e.g., Clindamycin, to inhibit toxin production, though some experts recommend adding clindamycin in severely ill patients.",
+                "MSSA:",
+                "Adults: (Nafcillin or Oxacillin) 2 gm IV q4h",
+                "Pediatric: (Nafcillin or Oxacillin) 150 mg/kg/day IV divided q6h",
+                "MRSA:",
+                "Adults: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 \u00b5g/mL",
+                "Pediatric: Vancomycin 60-80 mg/kg IV divided 3-4 times a day for target AUC24 400 \u00b5g/mL x hr (see vancomycin AUC dosing calculator)",
+                "Note: traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 \u00b5g/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "None"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Most often seen in children.",
+                "References: Am J Clin Dermatol 4:165, 2003; Clin Infect Dis 42:181, 2006; Br J Dermatol. 2019;181(1):37. Epub 2019 Apr 25; Pediatric Dermatology 2021; 38(1): 149."
+            ]
+        }
+    ]
+}

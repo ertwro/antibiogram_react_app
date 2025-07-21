@@ -1,0 +1,123 @@
+{
+  "documentMetadata": {
+    "title": "Bordetella pertussis",
+    "lastUpdated": "2025-03-24",
+    "sourceFile": "Bordetella pertussis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bordetella pertussis causes pertussis (whooping cough) and occasionally pneumonia (Clin Microbiol Rev. 2016 Jul;29(3):449); . For typical case see: N Engl J Med 372:765, 2015.",
+        "Incidence declined with widespread vaccination but has increased in recent years. Short duration of immunity from acellular pertussis vaccines compared to whole cell vaccine may play a role. (Rev Microbiol. 2024 Nov;22(11):722)",
+        "3 stages of illness:",
+        "First \"Catarrhal\" 1-2 weeks (rarely recognizable, antibacterial treatment effective at this stage).",
+        "Then \"paroxysmal coughing\" for 2-4 weeks (after 2 weeks of cough, hard to demonstrate any benefit of antibacterial treatment).",
+        "Last: 1-2 weeks of \"convalescence\". Treatment at late stages is used to eradicate the organism from the nose and prevent disease transmission.",
+        "Suggested case definition, see Clin Infect Dis 54:1756, 2012.",
+        "Paroxysms associated with post-tussive whoop, post-tussive vomiting, syncope, incontinence",
+        "Complications include: apnea, bradycardia, pulmonary hypertension, pneumonia, seizures, death (~1% mortality in young infants <2 months)",
+        "Lymphocytosis is associated with severe outcomes including pulmonary hypertension, respiratory failure and death in young infants",
+        "Occasionally Bordetella parapertussis can cause a similar clinical syndrome.",
+        "See also Pneumonia, Infants."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Brochial secretiions for PCR or culture on special media.",
+        "Lymphocytosis is suggestive of pertussis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Classification"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gram negative coccobacilli"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibacterial treatment recommended if within 3-4 weeks of cough onset in older children and adults. Treat infants for up to 6 weeks after cough onset since shedding may persist",
+        "Recommend no antibiotic therapy if onset of cough more than 3 weeks ago. There are exceptions:",
+        "Near term pregnancy with cough onset within 6 weeks to prevent transmission to neonate",
+        "Up to 6 weeks after cough onset for persons with asthma, COPD, age > 65 yrs, or other immunocompromising conditions",
+        "Adult:",
+        "Azithromycin 500 mg po x 1, then 250 mg po once daily x 4 days",
+        "Clarithromycin 500 mg po bid x 7 days (or 1 gm/day po in two divided doses x 7 days)",
+        "Child:",
+        "Azithromycin 10 mg/kg/day po on day 1 and then 5 mg/kg once daily on days 2 through 5 (maximum 500 mg/250 mg day)",
+        "Clarithromycin 15 mg/kg/day po in 2 divided doses x 7 days",
+        "Infant < 2 months",
+        "Azithromycin 10 mg/kg/day po for 5 days",
+        "Note: there is a small risk of hypertrophic pyloric stenosis associated with Azithromycin in infants less than 1 month old."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Adult: TMP-SMX DS, 1 tab po bid x 14 days",
+        "Child: TMP-SMX (TMP component) 8 mg/kg/day po in 2 divided doses x 14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Prevention"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Post exposure prophylaxis (PEP) is recommended for household contacts and others with close contacts such as children in daycare, health care personnel who have been exposed and are likely to expose high risk patients (neonates, pregnant patients). PEP is recommended for these groups regardless of vaccination history",
+        "Vaccination, see Tetanus, Diphtheria, Pertussis, Vaccines",
+        "Non-immunized exposed persons should receive appropriate pertussis containing vaccines as soon as possible",
+        "Prophylactic drugs and doses are the same as for treatment."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Exchange transfusion and critical care may be indicated for infants < 2months with lymphocytosis. Clin Microbiol Rev. 2016 Jul;29(3):449",
+        "Azithromycin is the preferred agent due to shorter duration of therapy, less frequent dosing, and better side effects profile. More GI side effects with Clarithromycin than Azithromycin",
+        "TMP-SMX is an alternative for persons older than 2 months who cannot tolerate Azithromycin or Clarithromycin or are infected with a macrolide-resistant strain",
+        "Fluoroquinolones and tetracyclines are active in vitro but clinical efficacy unknown.",
+        "References:",
+        "Prevention and vaccine see: Clin Infect Dis 58:830, 2014. Infection does not result in lifelong immunity; resume recommended immunizations post-recovery from acute disease",
+        "For history and perspective of Pertussis vaccines: J Pediatric Infect Dis Soc 2019; 8:334",
+        "CDC pertussis treatment and prophylaxis guidelines: MMWR Recomm Rep 67 (RR-2):1-44, 2018",
+        "In case control study, looked at incidence of pertussis in infants (up to 8 weeks of life) comparing mothers immunized during pregnancy vs. those not immunized during pregnancy. (Clin Infect Dis 60:333, 2015).",
+        "17% of case patients (10/58) vs. 71% (39/55) of control patients were born to mothers who received pertussis vaccine during pregnancy. The calculated adjusted vaccine efficacy was 93%. See also Tetanus, Diphtheria, Pertussis, Vaccines."
+      ]
+    }
+  ]
+}

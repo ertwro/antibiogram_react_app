@@ -1,0 +1,94 @@
+
+{
+  "documentMetadata": {
+    "title": "Trench Fever",
+    "sourceFile": "syndromes/infectious_syndromes/Trench Fever.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Trench Fever"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trench fever is a louse-borne disease caused by the bacterium Bartonella quintana. It was first recognized in the trenches of World War I, but it continues to be seen in homeless populations, and in areas with poor sanitation and hygiene."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella quintana"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Relapsing fever",
+        "Headache",
+        "Rash",
+        "Bone pain, especially in the shins",
+        "Endocarditis (in some cases)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "PO",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4-6 weeks"
+        }
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "For endocarditis",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "PO",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "3 mg/kg/day",
+            "route": "IV",
+            "frequency": "in 2-3 divided doses"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2 weeks"
+        },
+        "notes": "Followed by doxycycline 100 mg PO q12h for 4 weeks."
+      }
+    }
+  ]
+}

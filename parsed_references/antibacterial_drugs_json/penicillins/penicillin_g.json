@@ -1,0 +1,134 @@
+{
+  "drug_name": "Penicillin G",
+  "tradename": "Bicillin L-A, Bicillin C-R",
+  "drug_shortage_information": [
+    {
+      "prep": "benzathine injection",
+      "started_at": null,
+      "notes": null
+    },
+    {
+      "prep": "benzathine/procaine injection",
+      "started_at": "2023-03-31",
+      "notes": null
+    }
+  ],
+  "usage_and_dosing": {
+    "description": [
+      "Penicillin G is a primary drug for infections due to Strep. pyogenes, the rare non-penicillinase-producing Staph. aureus, selected anaerobic bacteria, Treponema pallidum and a variety of less common pathogens.",
+      "Penicillin G is rendered inactive by penicillinase which can be produced by S. aureus and a variety of other bacteria.",
+      "Benzathine penicillin G is used to treat syphilis and for rheumatic fever prophylaxis.",
+      "Allergic reactions are a major issue. 10% of all hospital admissions give history of penicillin allergy; but only 10% have allergic reaction if given penicillin. Why? Possible reasons: inaccurate history, waning immunity with age, aberrant response during viral illness. Bicillin C-R (Procaine penicillin + Benzathine penicillin) IM could be reaction to the procaine.",
+      "Penicillin allergy:",
+      "See Beta-lactams, Drug Allergy Overview and Penicillin Desensitization: Oral Method (preferred) and Parenteral Method.",
+      "Note regarding penicillin skin testing for evaluation of penicillin allergy:",
+      "Testing with major determinant (benzyl penicillin polylysine) and minor determinants has negative predictive value of 97-99%. Risk of systemic reaction to skin testing <1%. See Ann Allergy, Asthma & Immunol 106:1, 2011.",
+      "Review of Penicillin allergy: JAMA 2019; 321:188.",
+      "1 unit penicillin G = 0.6 5g (roughly)."
+    ]
+  },
+  "adult_dose": {
+    "penicillin_g_low_dose": "600,000-1.2 million units IM/day",
+    "penicillin_g_high_dose": "20 million units IV daily",
+    "benzathine_penicillin_g": "600,000-1.2 million units IM q2-4 weeks"
+  },
+  "pediatric_dose": {
+    "source": "Red Book (2024-2027)",
+    "age_gt_28_days": {
+      "default": "100,000-300,000 units/kg/day (div q4-6h)",
+      "cns": "300,000-400,000 units/kg/day (div q4h)"
+    },
+    "neonates_meningitis": {
+      "pna_le_7_days": "450,000 units/kg/day (div q8h)",
+      "pna_gt_7_days": "500,000 units/kg/day (div q6h)"
+    },
+    "max_day": "24 million units"
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "0.5",
+    "half_life_hrs_esrd": "6-20",
+    "dose_renal_function_normal": "0.5-4 million U IV q4h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment\nCrCl 10-50: 0.5-4 million U q8h\nCrCl <10: 0.5-4 million U q12h",
+    "hemodialysis": "0.5-4 million U q12h (give one of the dialysis day doses AD)",
+    "capd": "0.5-4 million U q12h",
+    "crrt": "1-4 million U q6-8h",
+    "sled": "3 million U q6h"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Most serious reaction is immediate IgE-mediated anaphylaxis; incidence only 0.05% but 5-10% fatal. Other IgE-mediated reactions: urticaria, angioedema, laryngeal edema, bronchospasm. Morbilliform rash after 72 hours is not IgE-mediated and not serious.",
+    "Serious late allergic reactions: Coombs-positive hemolytic anemia, neutropenia, thrombocytopenia (Drug-induced immune thrombocytopenia (J Thrombosis & Haemostasis 11:169, 2012), serum sickness, interstitial nephritis, hepatitis, eosinophilia, drug fever.",
+    "Allergy references: Am J Med 121:572, 2008; N Engl J Med 354:601, 2006.",
+    "High CSF concentrations cause seizures. To avoid high concentrations, reduce dose with renal impairment."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for Gl toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Actinomyces sp.",
+      "Clostridium perfringens, C. sordellii",
+      "Corynebacterium diphtheriae",
+      "Cutibacterium acnes (Propionibacterium acnes)",
+      "Enterococcus faecalis, susceptible to vancomycin",
+      "Leptospira sp.",
+      "Pasteurella multocida",
+      "Peptostreptococci",
+      "Streptococcus agalactiae, beta hemolytic, Group B Strep.",
+      "Streptococcus anginosus (S. milleri) group, includes S. anginosis, S. constellatus, S. intermedius",
+      "Streptococcus pneumoniae",
+      "Streptococcus pyogenes, beta hemolytic, Group A Strep.",
+      "Streptococcus, beta-hemolytic, Groups C, F, G"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Injection",
+    "food_rec_po_drugs": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "20 (2 mill units IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "65",
+    "volume_of_distribution_vd": "0.35 L/kg",
+    "avg_serum_t1_2_hr": "0.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "500",
+    "csf_blood_percent": "5-10",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cy_p450s_that_drug_is_a_substrate_for": null,
+    "transporters_that_drug_is_a_substrate_for": "OAT1, OAT3",
+    "ug_ts_that_drug_is_a_substrate_for": null,
+    "cy_p450s_inhibited_by_drug": null,
+    "transporters_inhibited_by_drug": null,
+    "ug_ts_inhibited_by_drug": null,
+    "cy_p450s_induced_by_drug": null,
+    "transporters_induced_by_drug": null,
+    "ug_ts_induced_by_drug": null,
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": " penicillin",
+      "suggested_management": "Monitor, adjust dosage"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Corynebacterium diphtheriae",
+      "aliases": [
+        "Diphtheria"
+      ],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (club-shaped)",
+        "respiration": "Aerobic",
+        "notes": [
+          "Shows metachromatic granules with Albert's stain."
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive club-shaped rod with metachromatic granules (Albert's stain), catalase +, non-motile, urease –, nitrate reduction +, glucose and maltose fermentation +. Elek test or PCR for toxin production."
+    },
+    "clinicalProfile": {
+      "summary": "Corynebacterium diphtheriae is the causative agent of diphtheria, a serious bacterial infection affecting the mucous membranes of the throat and nose. Toxigenic strains produce a powerful exotoxin that can cause a thick, gray membrane (pseudomembrane) to form in the throat, leading to breathing difficulties, as well as systemic effects like myocarditis and neuropathy.",
+      "pathophysiologyPearls": [
+        "The major virulence factor is the diphtheria toxin, an A-B exotoxin that inhibits protein synthesis in host cells, leading to tissue necrosis.",
+        "The pseudomembrane is composed of fibrin, dead host cells, inflammatory cells, and bacteria, and can cause airway obstruction."
+      ],
+      "keySignsAndSymptoms": [
+        "Sore throat",
+        "Low-grade fever",
+        "Malaise",
+        "Adherent gray pseudomembrane on the pharynx, tonsils, or larynx",
+        "Bull neck (severe cervical adenopathy)",
+        "Hoarseness, stridor"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Respiratory Diphtheria",
+          "description": "The most common form, characterized by pharyngitis or laryngitis with the formation of a pseudomembrane. Can be anterior nasal, pharyngeal, or laryngeal."
+        },
+        {
+          "syndromeName": "Cutaneous Diphtheria",
+          "description": "Presents as chronic, non-healing skin ulcers, which may also have a gray membrane. Systemic complications are less common than with respiratory diphtheria."
+        },
+        {
+          "syndromeName": "Invasive Disease",
+          "description": "Rarely, C. diphtheriae can cause invasive infections like endocarditis, septic arthritis, and osteomyelitis."
+        }
+      ],
+      "highRiskPopulations": [
+        "Unvaccinated or inadequately vaccinated individuals",
+        "Individuals living in crowded or unsanitary conditions",
+        "Travelers to regions where diphtheria is endemic"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets",
+        "Direct contact with respiratory secretions or skin lesions"
+      ],
+      "prognosisNotes": [
+        "Case fatality rate is 5-10%, with higher rates in the very young and the elderly.",
+        "Myocarditis and neuropathy are the most common severe complications."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment involves both diphtheria antitoxin to neutralize the exotoxin and antibiotics to eradicate the bacteria.",
+        "See specific guidelines for Pharyngitis, Diphtheria for detailed treatment regimens."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Diphtheria Antitoxin",
+          "condition": "Respiratory Diphtheria",
+          "details": "Crucial for neutralizing unbound toxin and should be administered as early as possible based on clinical suspicion."
+        }
+      ],
+      "regimens": []
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Clinical suspicion of diphtheria (sore throat with an adherent membrane)."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Culture",
+          "trigger": "Clinical suspicion of diphtheria",
+          "purpose": "To isolate C. diphtheriae from a throat swab or piece of the pseudomembrane. Requires special selective media like Tinsdale agar or tellurite agar."
+        },
+        {
+          "testName": "Elek Test (Toxin Detection)",
+          "trigger": "Positive culture for C. diphtheriae",
+          "purpose": "An in vitro immunodiffusion test to determine if the isolated strain is toxigenic."
+        },
+        {
+          "testName": "PCR for tox gene",
+          "trigger": "Positive culture for C. diphtheriae",
+          "purpose": "A molecular method to detect the gene encoding the diphtheria toxin."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Definitive diagnosis is made by isolating C. diphtheriae in culture from a clinical specimen and demonstrating toxin production.",
+        "biosafetyWarning": "Laboratory personnel should be notified of the suspicion of diphtheria to ensure proper handling of specimens.",
+        "methods": [
+          {
+            "methodName": "Culture",
+            "details": "Requires selective media (e.g., Tinsdale agar) and can take several days."
+          }
+        ]
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Vaccination",
+          "details": "Active immunization with diphtheria toxoid-containing vaccines (e.g., DTaP, Tdap, Td) is the most effective means of prevention. See specific vaccine guidelines for schedules.",
+          "targetPopulation": "Infants, children, adolescents, and adults."
+        }
+      ],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "CDC",
+          "citation": "",
+          "summaryOrNote": "Provides comprehensive information on diphtheria diagnosis, treatment, and prevention."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.370Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Corynebacterium diphtheriae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Diphtheria"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Rod (club-shaped)",
+        "respiration": "Aerobic",
+        "notes": [
+          "Shows metachromatic granules with Albert's stain."
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Corynebacterium diphtheriae is the causative agent of diphtheria, a serious bacterial infection affecting the mucous membranes of the throat and nose. Toxigenic strains produce a powerful exotoxin that can cause a thick, gray membrane (pseudomembrane) to form in the throat, leading to breathing difficulties, as well as systemic effects like myocarditis and neuropathy.",
+      "pathophysiologyPearls": [
+        "The major virulence factor is the diphtheria toxin, an A-B exotoxin that inhibits protein synthesis in host cells, leading to tissue necrosis.",
+        "The pseudomembrane is composed of fibrin, dead host cells, inflammatory cells, and bacteria, and can cause airway obstruction."
+      ],
+      "keySignsAndSymptoms": [
+        "Sore throat",
+        "Low-grade fever",
+        "Malaise",
+        "Adherent gray pseudomembrane on the pharynx, tonsils, or larynx",
+        "Bull neck (severe cervical adenopathy)",
+        "Hoarseness, stridor"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Respiratory Diphtheria",
+          "description": "The most common form, characterized by pharyngitis or laryngitis with the formation of a pseudomembrane. Can be anterior nasal, pharyngeal, or laryngeal."
+        },
+        {
+          "syndromeName": "Cutaneous Diphtheria",
+          "description": "Presents as chronic, non-healing skin ulcers, which may also have a gray membrane. Systemic complications are less common than with respiratory diphtheria."
+        },
+        {
+          "syndromeName": "Invasive Disease",
+          "description": "Rarely, C. diphtheriae can cause invasive infections like endocarditis, septic arthritis, and osteomyelitis."
+        }
+      ],
+      "highRiskPopulations": [
+        "Unvaccinated or inadequately vaccinated individuals",
+        "Individuals living in crowded or unsanitary conditions",
+        "Travelers to regions where diphtheria is endemic"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets",
+        "Direct contact with respiratory secretions or skin lesions"
+      ],
+      "prognosisNotes": [
+        "Case fatality rate is 5-10%, with higher rates in the very young and the elderly.",
+        "Myocarditis and neuropathy are the most common severe complications."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Clinical suspicion of diphtheria (sore throat with an adherent membrane)."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Culture",
+          "trigger": "Clinical suspicion of diphtheria",
+          "purpose": "To isolate C. diphtheriae from a throat swab or piece of the pseudomembrane. Requires special selective media like Tinsdale agar or tellurite agar."
+        },
+        {
+          "testName": "Elek Test (Toxin Detection)",
+          "trigger": "Positive culture for C. diphtheriae",
+          "purpose": "An in vitro immunodiffusion test to determine if the isolated strain is toxigenic."
+        },
+        {
+          "testName": "PCR for tox gene",
+          "trigger": "Positive culture for C. diphtheriae",
+          "purpose": "A molecular method to detect the gene encoding the diphtheria toxin."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

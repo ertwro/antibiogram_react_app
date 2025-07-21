@@ -1,0 +1,140 @@
+{
+  "drug_name": "Ceftazidime-avibactam",
+  "tradename": "Avycaz, Zavicefta",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftazidime-avibactam (Avycaz, Zavicefta) is a parenteral anti-pseudomonal cephalosporin combined with the non-beta-lactam beta-lactamase inhibitor avibactam.",
+      "FDA approved for:",
+      "Complicated urinary tract infections, including pyelonephritis",
+      "Complicated intra-abdominal infections if used in combination with Metronidazole",
+      "Specific therapy of hospital-acquired/ventilator-associated pneumonia due to susceptible aerobic gram-negative bacilli",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "In vitro and selected animal model infection data indicate that avibactam protects Ceftazidime against degradation by the following enzymes with a resulting expanded spectrum of antibacterial activity:",
+      "TEM, SHV",
+      "Extended spectrum beta-lactamases (ESBLs): CTX-M",
+      "AmpC cephalosporinases",
+      "Klebsiella pneumoniae carbapenemases (KPCs)",
+      "Selected oxacillinase carbapenemases",
+      "Of import, avibactam has no influence on other mechanisms of Ceftazidime resistance:",
+      "Bacteria that produce metallo-carbapenemases",
+      "Bacteria that overproduce efflux pumps (see Comment)",
+      "Bacteria with porin mutations that inhibit transfer across the cell wall (see Comment)",
+      "Product is formulated in a 4:1 ratio (ceftazidime:avibactam)",
+      "Allergy: Protocol for Ceftazidime-avibactam desensitization",
+      "Review: Clin Infect Dis 2016; 63:234"
+    ],
+    "adult_dose": {
+      "fda_approved_dosage": "2.5 gm IV (over 2 hr) q8h",
+      "composition": "2.5 gm = ceftazidime 2 gm + avibactam 0.5 gm",
+      "complicated_intraabdominal_infection": "For complicated intraabdominal infection, combine with metronidazole 500 mg IV q8h",
+      "recommended_duration_of_treatment": {
+        "complicated_intraabdominal_infection": "5-14 days",
+        "complicated_uti": "7-14 days",
+        "hap_vap": "7-14 days"
+      }
+    },
+    "pediatric_dose": {
+        "infusion_time": "Infuse doses over 2 hr unless otherwise specified",
+        "composition": "Doses shown are ceftazidime + avibactam (4:1 ratio)",
+        "pediatric_clai": "For pediatric clAl, give concurrent metronidazole (10 mg/kg q8h)",
+        "amr_guidance": "AMR gram-negative guidance: J Pediatric Infect Dis Soc 2025;14:piaf004",
+        "fda_approved_dosing": {
+            "age_le_28_days_ga_ge_31_wks": "25 mg/kg q8h",
+            "age_gt_28_days_to_lt_3_mon": "37.5 mg/kg q8h",
+            "age_3_mon_to_lt_6_mon": "50 mg/kg q8h",
+            "age_6_mon_to_lt_2_yrs": "62.5 mg/kg q8h",
+            "age_2_to_lt_18_yrs": "62.5 mg/kg q8h"
+        },
+        "per_amr_guidance": {
+            "age_le_28_days_ga_ge_31_wks": "31.25 mg/kg q8h",
+            "age_gt_28_days_to_lt_3_mon": "37.5 mg/kg (over 3 hr) q8h",
+            "age_3_mon_to_18_yrs": "62.5 mg/kg (over 3 hr) q8h",
+            "note": "use 2 hour infusions for CNS infections"
+        },
+        "max_day": "7.5 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "Ceftazidime: 2.8, Avibactam: 2.7",
+    "half_life_esrd": "Ceftazidime 13-25",
+    "dose_renal_function_normal": "2.5 gm IV q8h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 31-50: 1.25 gm q8h. CrCl 16-30: 0.94 gm q12h. CrCl 6-15 (± HD): 0.94 gm q24h. CrCl ≤5 (± HD): 0.94 gm q48h",
+    "hemodialysis": "CrCl ≤15 on HD: AD on dialysis days",
+    "capd": "No data",
+    "crrt": "CVVH: 1.25 gm q8h, CVVHDF: 2.5 gm q8h 37, 38"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments page.",
+    "ECMO: See ECMO Drug Dosing Adjustment page."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity reactions. Note: Ceftazidime, Aztreonam, and Cefiderocol have identical R1 side chains. Examples of cross reactive allergic reactions have occurred.",
+    "Clostridioides difficile-associated diarrhea",
+    "Central nervous system (e.g., seizures, coma, myoclonus)",
+    "Seen with Ceftazidime, particularly with renal failure",
+    "Nausea and vomiting (when used with Metronidazole), 10%",
+    "Constipation and anxiety (in UTI group), 10%",
+    "At <5%: eosinophilia, thrombocytopenia, increased prothrombin time, increased GGT, hypokalemia, acute kidney injury, rash (see also, adverse reactions from Ceftazidime alone)"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Ceftazidime: milk concentrations low. Avibactam: no data.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "E. coli, carbapenemase producer (KPC+)",
+        "Resistant (KPC) oxytoca, pneumoniae, variicola"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Ceftaz 90.4, Avi 14.6 (2.5 gm IV q8h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Ceftaz <10, Avi 5.7-8.2",
+    "volume_of_distribution_vd_l_vss": "Ceftaz 17 L, Avi 22.2 L (Vss)",
+    "avg_serum_half_life_hr": "Ceftaz 2.8, Avi 2.7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "Ceftaz 13-54, Avi no data",
+    "csf_blood_percent": "Ceftaz 20-40, Avi no data",
+    "therapeutic_levels_in_csf": "Ceftaz Yes, Avi no data",
+    "auc_ug_hr_ml": "Ceftaz 291, Avi 38.2 (SS, 0-8 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Avibactam: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ avibactam",
+          "management": "Avoid co-administration"
+      }
+  ],
+  "comments": [
+      "In a trial of complicated intra-abdominal infection, for patients with CrCl 30-50 mL/min death rate was higher among Ceftazidime-avibactam treated patients than controls (Meropenem); however, dosing was lower than currently recommended for this range of renal function.",
+      "There was no difference in patients with CrCl > 50 mL/min. There is no clear explanation for this observation.",
+      "One hypothesis: Initial dosing calculated based on elevated serum creatinine at time of admission. Elevated creatinine resolved within 48 hrs in 57% of patients in a retrospective review (Clin Infect Dis 2019;68; 1596).",
+      "In critically ill, suggest full dosage until clear whether renal function will improve with hydration and other measures.",
+      "Resistance found in archived clinical isolates of P. aeruginosa. Resistance not due to beta-lactamases. Resistance due to efflux pumps and reduced membrane permeability (Antimicrob Agents Chemother 59:1020, 2015). Could restore susceptibility in vitro with Fosfomycin.",
+      "Approval for nosocomial pneumonia based on controlled trial. For results see: Lancet Infect Dis 18:285, 2018; Lancet Infect Dis 18:229, 2018."
+  ]
+}

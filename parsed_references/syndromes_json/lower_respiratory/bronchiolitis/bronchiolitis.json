@@ -1,0 +1,92 @@
+{
+  "documentMetadata": {
+    "title": "Bronchiolitis",
+    "lastUpdated": "2024-06-11",
+    "sourceFile": "Bronchiolitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Wheezy bronchitis, expiratory wheezing in infants and young children (Age < 5 years).",
+        "Respiratory Syncytial Virus (RSV) is the most important etiology.",
+        "Other viruses can cause similar presentation",
+        "Rapid diagnosis of RSV can be made with antigen detection methods. DFA and multiplex PCR can diagnose all usual viral etiologies.",
+        "Antibiotics should not be used for bronchiolitis unless there is clear evidence of a secondary bacterial infection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Respiratory Syncytial Virus",
+        "Influenza",
+        "Human metapneumovirus",
+        "Parainfluenza",
+        "Adenovirus",
+        "Rhinovirus",
+        "Coronavirus",
+        "SARS-CoV-2"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics are not useful, mainstay of therapy is hydration and oxygen. Suction helpful to clear airway (see Cochrane Database Syst Rev 2011 Jun 15;(6):CD005189).",
+        "Recent studies suggest benefit to 3% nebulized hypertonic saline - may be considered.",
+        "Trial of inhaled bronchodilators is generally not recommended or useful but can be considered to evaluate clinical response.",
+        "Routine use of steroids not recommended based on absence of efficacy by AAP."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics are not indicated",
+        "Adherence to a bronchiolitis clinical pathway decreases antibiotic use, costs and length of stay (Pediatrics. 2017 Mar;139(3). pii: e20163432)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For treatment and prevention of RSV specifically, see Respiratory Syncytial Virus.",
+        "Reference, Guidelines: N Engl J Med 374:62-72, 2016, Pediatrics 134:e1474-1502, 2014; Pediatrics 118:1774, 2006, Lancet 368:312, 2006.",
+        "Review Lancet Jul 30;400(10349):392, 2022"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "documentMetadata": {
+    "title": "Francisella tularensis, Tularemia",
+    "sourceFile": "lymph_nodes-spleen/lymphadenitis/Francisella tularensis, Tularemia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Francisella tularensis causes a variety of infections as a consequence of:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Direct contact with infected tissues of infected animals (hunters, farmers, veterinarians, landscapers, and meat handlers)",
+        "Inhalation of infected aerosol (hazard to clinical microbiologists)",
+        "Exposure to an infected biting insect (ticks, mosquitoes, deer and horse flies, and fleas)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tularemia: Clinical illness can vary from asymptomatic to septic shock and death; in aerosol form, a potential agent of bioterrorism. Tularemia bioterrorism reference: N Engl J Med 372:954, 2015."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "F. tularensis can cause one or more of several clinical syndromes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ulceroglandular: most common presentation",
+            "Oculoglandular",
+            "Glandular",
+            "Pharyngeal (oropharyngeal)",
+            "Pneumonia",
+            "Typhoidal (fever and hypotension)",
+            "Meningitis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For complications, see Comments. References: CDC-sponsored supplement: Tularemia: Update on Treatment and Clinical Findings: Clin Infect Dis 2024; 78(:S1): S1-S75"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Laboratory diagnosis is difficult:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Faintly staining, strictly aerobic, coccobacilli",
+        "Rarely see on gram-stain; fastidious, may need special media, Colonies may require up to 3 days to be visible on culture plates. Notify lab for both use of special culture media and to prevent infection of lab technologists",
+        "Four-fold rise in antibody confirms diagnosis but serology is not a timely clinical tool.",
+        "PCR best detection method; check availability with commercial and State Public Health Dept. Labs"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Classification"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aerobic Gram-negative coccobacilli"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beta-lactams and clindamycin are not active"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ciprofloxacin"
+          }
+        ],
+        "appliesTo": {
+          "description": "Adult"
+        },
+        "dose": "400 mg IV q12h (or 750 mg po) bid",
+        "durationDetail": {
+          "fixedDuration": "14-21 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ciprofloxacin"
+          }
+        ],
+        "appliesTo": {
+          "description": "Children"
+        },
+        "dose": "20-40 mg/kg/day po (max 1.5 gm/day) divided bid",
+        "durationDetail": {
+          "fixedDuration": "14-21 days"
+        },
+        "notes": "NOTE: Levofloxacin should work but only limited observational data"
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "IF Critically ill and not responding to monotherapy with ciprofloxacin, reasonable to add either an aminoglycoside or doxycycline:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Gentamicin"
+              },
+              {
+                "drug": "Tobramycin",
+                "dose": "5.1 mg/kg/day IV divided q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Streptomycin",
+                "dose": "10 mg/kg/day IV q12h",
+                "connector": "or"
+              }
+            ],
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Gentamicin"
+              },
+              {
+                "drug": "Tobramycin",
+                "dose": "5.1 mg/kg/day IV divided q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Streptomycin",
+                "dose": "10 mg/kg/day IV q12h",
+                "connector": "or"
+              }
+            ],
+            "appliesTo": {
+              "description": "Child"
+            },
+            "durationDetail": {
+              "fixedDuration": "5-7 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg IV/po bid"
+              }
+            ],
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "No discernable efficacy difference. Would be nice to avoid the potential toxicity of aminoglycosides. NOTE: General support for avoiding empiric monotherapy with gentamicin, streptomycin, or tobramycin. See collected case series in the supplement: CDC-sponsored supplement: Tularemia: Update on Treatment and Clinical Findings: Clin Infect Dis 2024; 78(:S1): S1-S75"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Meningitis is a rare complication:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Empiric",
+            "components": [
+              {
+                "drug": "Aminoglycoside"
+              },
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg IV/po bid (adult) / 4 mg/kg/d divided q12h IV/po (max. dose 200 mg/day) (child)",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Empiric",
+            "components": [
+              {
+                "drug": "Aminoglycoside"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg IV (or 750 mg po) q12h (adult) / 20-40 mg/kg/day po (max 1.5 gm/day) divided bid (child)",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Less severe illness:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monotherapy with the same drugs"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg IV/po bid"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg IV q12h (or 750 mg po) bid",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "20-40 mg/kg/day po (max 1.5 gm/day) divided bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Pregnancy: treatment recommendation is uncertain, but suggest same regimens as above for non-pregnant adults for at least 14 days"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "condition": "Aerosol exposures (not for natural exposures)",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg po bid"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "500 mg po bid",
+            "connector": "or"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There are no controlled clinical trials: Suggested therapy is based on combination of in vitro activity, infected animal models, and systematic reviews of observational data.",
+        "Monotherapy reported effective for mild illness and outpatient therapy: ciprofloxacin or doxycycline",
+        "Combination therapy with ciprofloxacin plus doxycycline is favored for hospitalized patients.",
+        "Try and avoid aminoglycosides due to risk of nephro- and ototoxicity",
+        "Beta-lactam antibiotics are not efficacious.",
+        "Doxycycline is bacteriostatic and hence, doxycycline monotherapy may result in relapses."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Large variety of potential complications:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Suppuration of infected regional lymph nodes",
+            "Acute renal injury",
+            "Rhabdomyolysis",
+            "Hepatitis",
+            "Empyema",
+            "Others: pericarditis, meningitis, osteomyelitis, prosthetic joint infection, and even endocarditis."
+          ]
+        }
+      ]
+    }
+  ]
+}

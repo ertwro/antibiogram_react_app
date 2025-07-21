@@ -1,0 +1,153 @@
+{
+  "documentMetadata": {
+    "title": "Disseminated Gonococcal Infection",
+    "lastUpdated": "2025-05-06",
+    "sourceFile": "Gonorrhea_ Disseminated Gonococcal Infection.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Disseminated gonococcal infection, dermatitis-arthritis syndrome.",
+        "Potential uncommon complications include perihepatitis (Fitzhugh-Curtis syndrome), endocarditis, and meningitis",
+        "Patient often has no symptoms or findings of urethritis or cervicitis, but rectal or pharygeal culture or NAAT may be positive",
+        "Culture genital and extra-genital locations.",
+        "Arthritis often presents as tenosynovitis or monoarticular/asymmetric pauciarticular arthritis.",
+        "Risk factor: terminal complement system deficiency: can be inherited or induced in patients given eculizumab for paroxysmal nocturnal hemoglobinuria (Clin Infect Dis 2019:69:596); absent terminal complement system also places patients at increased risk of meningococcemia.",
+        "Differential diagnosis: Meningococcemia, RMSF, dengue"
+      ]
+    },
+    {
+      "type": "image",
+      "imageData": {
+        "src": "/home/ertwro/programming/pased_database/references/syndromes/musculoskeletal/joint/septic_arthritis_specific/Gonorrhea_ Disseminated Gonococcal Infection.pdf",
+        "caption": ""
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neisseria gonorrhoeae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "at least 7 days"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use parenteral Ceftriaxone 1-2g q 12-24h for meningitis (10-14 days) or endocarditis (4 weeks) for full course",
+        "Need in vitro susceptibility of the bloodstream isolate to guide potential switch to an oral cephalosporin (Cefixime 800 mg po bid) or fluoroquinolone (Ciprofloxacin 500 mg po bid)",
+        "May need joint washout by orthopedics to minimize cartilage damage",
+        "Can switch to po therapy 24-48h after substantial clinical improvement"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Formal infectious diseases consultation is suggested"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Other 3rd generation cephalosporins can be substituted for ceftriaxone:"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Cefotaxime",
+            "dose": "1 gm",
+            "route": "q8h IV",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "where available"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Ceftizoxime",
+            "dose": "1 gm",
+            "route": "q8h IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Spectinomycin",
+            "dose": "2 gm",
+            "route": "q12 IM"
+          }
+        ],
+        "notes": "for disseminated disease (available in Europe)"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If severe allergy to cephalosporins, suggest ID consult to determine best alternative agents."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fluoroquinolones may be effective if susceptible organism, but no clinical data with these agents.",
+        "Clinically assess for possible associated meningitis/endocarditis.",
+        "Spectinomycin: Recommended by European Guidelines for disseminated disease. U.S. distribution was discontinued in 2005 and is no longer recommended by the current CDC STD Guidelines.",
+        "\"Step-down\" therapy should be avoided unless susceptibilities are known of patient's bloodstream isolate are known and demonstrate full activity of of an oral cephalosporin or fluoroquinolone",
+        "All gonorrhea patients should be tested for HIV, syphilis, and Chlamydia",
+        "Sexual partners should be evaluated",
+        "Routine treatment for concomitant C. trachomatis no longer recommended in US for gonorrhea because of frequent selection of resistant organisms in CDC 2020 guidelines MMWR 69:1911. 2020 and CDC 2021 STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021.",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S95 2022"
+      ]
+    }
+  ]
+}

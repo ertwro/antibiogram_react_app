@@ -1,0 +1,201 @@
+{
+  "drug_name": "Lefamulin",
+  "tradename": "Xenleta",
+  "usage_and_dosing": {
+    "general_info": [
+      "Lefamulin, a pleuromutilin antibacterial, is approved for the IV and oral treatment of adults with community-acquired pneumonia (CAP) caused by susceptible strains of S. pneumoniae, S. aureus (MSSA), H. influenzae, L. pneumophila, M. pneumoniae, and C. pneumoniae.",
+      "Although active in vitro, Lefamulin is not approved for CAP caused by resistant Staph. aureus (MRSA) due to limited clinical data.",
+      "No in vitro activity vs Enterobacteriaceae or Ps.aeruginosa.",
+      "As effective as moxifloxacin in controlled clinical trials of community-acquired bacterial pneumonia: Clin Infect Dis 2019;69:1856",
+      "Pleuromutilins inhibit bacterial protein synthesis by binding to the peptidyl transferase center of the 50S bacterial ribosome, thereby preventing the binding of tRNA for peptide transfer.",
+      "Cautions",
+      "Animal studies suggest lefamulin may cause harm if administered to a pregnant woman. Verify pregnancy status in females of reproductive potential before using. Safety in lactation is unknown; breastfeeding women should pump and discard milk for the duration of treatment and for two days after the final dose.",
+      "Numerous drug interactions (see chart below, not all-inclusive). Lefamulin metabolized by CYP3A4 and hence can interact with drugs that are inhibitors or inducers of CYP3A4 or drugs that are substrates of CYP34A enzymes",
+      "Lefamulin may prolong the QTc interval. Avoid concomitant use with other drugs that can prolong the QTc interval and thereby increase the risk of ventricular arrhythmias.",
+      "Reference: Med Lett Drugs Ther 2019;61:145"
+    ],
+    "adult_dose": [
+      {
+        "route": "Oral",
+        "recommended_dose": "600 mg po q12h",
+        "treatment_duration": "5 days"
+      },
+      {
+        "route": "Intravenous",
+        "recommended_dose": "150 mg IV (over 60 min) q12h",
+        "treatment_duration": "5-7 days"
+      }
+    ],
+    "pediatric_dose": {
+      "age": ">28 Days",
+      "safety_and_efficacy": "not established"
+    },
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": 8,
+      "half_life_hrs_esrd": "Unchanged",
+      "dose_renal_function_normal": [
+        "600 mg po q12h",
+        "150 mg IV q12h"
+      ],
+      "crcl_or_egfr": "No dosage adjustment for renal impairment",
+      "hemodialysis": "No dosage adjustment",
+      "capd": "No data",
+      "crrt": "No data",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": {
+      "mild_impairment_child_pugh_class_a": {
+        "injection": "no dosage adjustment",
+        "tablets": "no dosage adjustment"
+      },
+      "moderate_impairment_child_pugh_class_b": {
+        "injection": "no dosage adjustment",
+        "tablets": "no data, not recommended"
+      },
+      "severe_impairment_child_pugh_class_c": {
+        "injection": "dosage to 150 mg q24h",
+        "tablets": "no data, no recommended"
+      }
+    }
+  },
+  "adverse_effects": [
+    "Gastrointestinal (nausea, vomiting, diarrhea, C. difficile-associated diarrhea).",
+    "In the phase 3 FDA registration trial vs moxifloxacin for CAP, the incidence of GI side effects was 17.9% in the Lefamulin patients vs 7.6% in the moxifloxacin patients: JAMA.2019;322:1661.",
+    "Headache, insomnia.",
+    "Injection site reactions.",
+    "Elevation in hepatic transaminases.",
+    "QT-interval prolongation."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "May cause fetal harm, based on toxicity in animal studies",
+    "use_during_lactation": "Avoid use; pump and discard milk for tx duration and two days post."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": [
+      "S. pneumoniae",
+      "H. influenzae",
+      "M. pneumoniae, C. pneumoniae, and Legionella pneumophila",
+      "MSSA",
+      "MRSA",
+      "M. catarrhalis",
+      "Other streptococcal species",
+      "H. parainfluenzae",
+      "Active vs STD pathogens, including Chlamydia trachomatis, Mycoplasma genitalium, and Neisseria gonorrhoeae",
+      "No activity vs gram-negative enteric bacilli or Ps. aeruginosa"
+    ]
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": [
+      "Tab (600 mg)",
+      "Injection"
+    ],
+    "oral_absorption_percent": 25,
+    "tmax_hr": "po: 0.88-2.0",
+    "peak_serum_conc_mcg_ml": {
+      "iv": "3.6 (150 mg IV q12h, SS)",
+      "po": "2.24 (600 mg po q12h, SS)"
+    },
+    "protein_binding_percent": "94.8-97.1",
+    "volume_of_distribution_vd": "86.1 L (Vss)",
+    "avg_serum_t1_2_hr": 8,
+    "elimination": "Metabolized",
+    "auc_mcg_hr_ml": {
+      "iv": "28.6 (150 mg IV q12h, 0-24 hr)",
+      "po": "32.7 (600 mg po q12h, 0-24 hr)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_that_drug_is_a_substrate_for": "CYP3A4",
+    "cyp450s_inhibited_by_drug": "CYP3A4",
+    "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Alprazolam",
+      "effect_on_concentration_or_other": "↑ alprazolam",
+      "suggested_management": "Monitor, adjust dosa"
+    },
+    {
+      "drug": "Amiodarone",
+      "effect_on_concentration_or_other": "↑ amiodarone, ↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Antipsychotics",
+      "effect_on_concentration_or_other": "↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Diltiazem",
+      "effect_on_concentration_or_other": "↑ diltiazem",
+      "suggested_management": "Monitor, adjust dosa"
+    },
+    {
+      "drug": "Fluoroquinolones",
+      "effect_on_concentration_or_other": "↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Ketoconazole",
+      "effect_on_concentration_or_other": "↑ lefamulin",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Macrolides",
+      "effect_on_concentration_or_other": "↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Midazolam (po)",
+      "effect_on_concentration_or_other": "↑ midazolam",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Pimozide",
+      "effect_on_concentration_or_other": "↑ pimozide, ↑ QT interval",
+      "suggested_management": "Contraindicated"
+    },
+    {
+      "drug": "Procainamide",
+      "effect_on_concentration_or_other": "↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Quinidine",
+      "effect_on_concentration_or_other": "↑ quinidine, ↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Rifampin",
+      "effect_on_concentration_or_other": "↓ lefamulin",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Simvastatin",
+      "effect_on_concentration_or_other": "↑ simvastatin",
+      "suggested_management": "Monitor, adjust dosa"
+    },
+    {
+      "drug": "Sotalol",
+      "effect_on_concentration_or_other": "↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Tricyclic antidepressants",
+      "effect_on_concentration_or_other": "↑ QT interval",
+      "suggested_management": "Avoid co-administrat"
+    },
+    {
+      "drug": "Vardenafil",
+      "effect_on_concentration_or_other": "↑ vardenafil",
+      "suggested_management": "Monitor, adjust dosa"
+    },
+    {
+      "drug": "Verapamil",
+      "effect_on_concentration_or_other": "↑ verapamil",
+      "suggested_management": "Monitor, adjust dosa"
+    }
+  ]
+}

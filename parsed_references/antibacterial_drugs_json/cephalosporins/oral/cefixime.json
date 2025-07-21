@@ -1,0 +1,74 @@
+{
+  "drug_name": "Cefixime",
+  "tradename": "Suprax",
+  "usage_and_dosing": {
+    "general": [
+      "Cefixime is a 3rd generation oral cephalosporin with activity against respiratory tract pathogens: streptococci, M. catarrhalis, H. influenzae. Little activity against Staph. aureus, good activity against N. gonorrhoeae, but increasing prevalence of isolates with decreased susceptibility noted.",
+      "For Penicillin cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "400 mg po q24h",
+      "see_also": [
+        "Gonorrhea: Disseminated Gonococcal Infection",
+        "Gonorrhea: Urethritis, Cervicitis, Proctitis",
+        "Sexual Exposure, Antibacterial Prophylaxis"
+      ]
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "8 mg/kg/day (divided q12-24h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "3",
+    "half_life_esrd": "12",
+    "dose_renal_function_normal": "400 mg po q24h",
+    "crcl_or_egfr": "CrCl ≥60: No dosage adjustment. CrCl 21-60: 260 mg q24h (use susp). CrCl ≤20: 200 mg q24h",
+    "hemodialysis": "260 mg q24h (use susp) (dose AD on dialysis days)",
+    "capd": "200 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Rash (1%), neutropenia (rare), eosinophilia (rare), thrombocytopenia (rare), GI (13%), nausea/vomiting (7%), diarrhea (16%), C. difficile colitis, increased LFTs (rare), increased BUN/Creatinine.",
+    "For Penicillin cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (400 mg), Chewtab (100, 200 mg), Oral susp (100 mg/5 mL, 200 mg/5 mL, 500 mg/5 mL)",
+    "food_recommendation": "All preps ± food",
+    "oral_absorption_percent": "50",
+    "tmax_hr": "4",
+    "peak_serum_conc_ug_ml": "3-5 (400 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "65",
+    "volume_of_distribution_vd_l_kg_vf": "0.93 L/kg (V/F)",
+    "avg_serum_half_life_hr": "3",
+    "elimination": "Renal, biliary",
+    "bile_penetration_percent": "800",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "25.8 (400 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ],
+  "comments": [
+    "For details on treatment of gonococcal infections see 2020 CDC Guidelines (MMWR 2020;69:1911).",
+    "Oral cephalosporins are not recommended as a first-line treatment for gonococcal infections because of decreasing susceptibility (MMWR 61:590, 2012). If Cefixime must be used, patient must be checked for test of cure."
+  ]
+}

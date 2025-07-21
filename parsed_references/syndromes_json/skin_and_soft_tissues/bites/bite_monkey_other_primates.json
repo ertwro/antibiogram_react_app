@@ -1,0 +1,293 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from Monkey or other Primates",
+    "sourceFile": "Bite_ Monkey, Other Primates.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viral infection most concerning; fatal human cases of myelitis and hemorrhagic encephalitis have been reported following bites, scratches, or eye inoculation of saliva from monkeys. Herpes B virus found in macaque monkeys, including rhesus macaques, pig-tailed macaques, and cynomolgus monkeys.",
+        "Initial symptoms include fever, headache, myalgias and diffuse adenopathy, incubation period of 2-14 days (Emerg Infect Dis 9:246, 2003).",
+        "Bacterial infections also occur.",
+        "First aid is critical following a monkey bite. Aggressive cleansing of bite wound. Wounds to the head, neck or torso are at greatest risk for rapid spread to CNS; therefore post-exposure prophylaxis (PEP) is indicated.",
+        "Note: PEP should be offered in every case of bite exposure because risk is always greater than zero."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Viral: Herpes simiae also referred to as Herpes B, Monkey B Virus, herpesvirus B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bacteria:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Haemophilus sp.",
+            "Fusobacterium nucleatum",
+            "Peptostreptococcus micros, now Peptoniphilus micros",
+            "Actinomyces sp.",
+            "Oral streptococci",
+            "Black-pigmented anaerobic rods",
+            "Aggregatibacter actinomycetemcomitans",
+            "Wolinella sp.",
+            "Campylobacter sp.",
+            "Capnocytophaga sp.",
+            "Eikenella corrodens",
+            "Spirochetes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Viral (Herpes B)"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Post-exposure prophylaxis"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "components": [
+                  {
+                    "drug": "Valacyclovir",
+                    "dose": "1 gm",
+                    "route": "po",
+                    "frequency": "q8h"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "14 days"
+                }
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "components": [
+                  {
+                    "drug": "Acyclovir",
+                    "dose": "800 mg",
+                    "route": "po",
+                    "frequency": "5 x/day"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "14 days"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Treatment"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "condition": "No CNS symptoms",
+                "components": [
+                  {
+                    "drug": "Acyclovir",
+                    "dose": "12.5-15 mg/kg",
+                    "route": "IV",
+                    "frequency": "q8h"
+                  },
+                  {
+                    "connector": "or",
+                    "drug": "Ganciclovir",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "frequency": "q12h"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "condition": "CNS symptoms present",
+                "components": [
+                  {
+                    "drug": "Ganciclovir",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "frequency": "q12h"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Bacterial"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "Early wound, no sign of infection",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "Later (3-24 hours), signs of infection",
+            "components": [
+              {
+                "drug": "Ampicillin-sulbactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              },
+              {
+                "connector": "or",
+                "drug": "Cefoxitin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "connector": "or",
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "(over 4 hr)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "For serious infections, until MRSA is excluded",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h",
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+              },
+              {
+                "connector": "or",
+                "drug": "Daptomycin",
+                "dose": "6 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A carbapenem can be used in place of Ampicillin-sulbactam, Cefoxitin, or Piperacillin-tazobactam if parenteral therapy is required"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "If patient is Penicillin allergic",
+        "components": [
+          {
+            "drug": "Clindamycin"
+          },
+          {
+            "connector": "+",
+            "drug": "(Ciprofloxacin or Levofloxacin or Moxifloxacin)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "notes": "where available",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "1000 mg-200 mg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "Rabies in monkeys rare to non-existent but general caution requires PEP after monkey bites in travelers (common occurrence)",
+        "See Rabies, Vaccines and PEP for detailed evaluation procedure and recommendations",
+        "In vitro Acyclovir and Ganciclovir less active than other nucleosides (Penciclovir or 5-ethyldeoxyuridine may be more active; clinical data needed) (Antimicrob Agents Chemother 51:2028, 2007).",
+        "References on treatment and prevention, Clin Infect Dis 20:421, 1995, Clin Infect Dis 35:1191, 2002.",
+        "Bacteria similar to human bites, see Clinical Infectious Diseases 2014;59(2):e10-5, Clin Micro Rev, Apr. 2011, p. 231-246."
+      ]
+    }
+  ]
+}

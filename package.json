@@ -5,9 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-import-index.js && vite build",
+    "build": "npm run build:bacteria && npm run build:syndromes && npm run build:antibiotics && npm run build:clsi && vite build",
+    "build:bacteria": "node scripts/generate-import-index.js",
+    "build:syndromes": "node scripts/generate-syndromes-index.js",
+    "build:antibiotics": "node scripts/generate-antibiotics-index.js",
+    "build:clsi": "node scripts/generate-clsi-index.js",
+    "build:data": "npm run build:bacteria && npm run build:syndromes && npm run build:antibiotics && npm run build:clsi",
     "sync-data": "node scripts/sync-json-data.js",
     "generate-imports": "node scripts/generate-import-index.js",
+    "watch:syndromes": "node scripts/generate-syndromes-index.js --watch",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"

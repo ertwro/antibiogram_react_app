@@ -1,0 +1,146 @@
+{
+  "documentMetadata": {
+    "title": "Recurrent or Persistent Non-Gonococcal Urethritis",
+    "lastUpdated": "2021-12-07",
+    "sourceFile": "Urethritis, Recurrent_Persistent.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recurrent or persistent non-gonococcal urethritis.",
+        "Treatment of choice world-wide for NGU is now doxycycline due to increased reports of failures with C. trachomatis and wide-spread resistance of M. genitalium",
+        "See 2021 CDC STI Guidelines MMWR Recomm Rep 70 (RR-4):1 2021 or European IUSTI 2016 NGU guidelines",
+        "Consider treatment failure or reinfection after successful treatment. Assess treatment compliance vs re-exposure to new or untreated partner.",
+        "Treatment failure for chlamydial urethritis has been estimated at 6%-12%.",
+        "The most common cause of treatment failure after completion of doxycycline is M. genitalium"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chlamydia trachomatis (43%)",
+        "Occult Trichomonas vaginalis (13%)",
+        "Mycoplasma genitalium (30%)",
+        "U. urealyticum is controversial as etiologic agent"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Repeat NAAT for C. trachomatis and N. gonorrheae.",
+        "Perform NAAT for M. genitalium and T. vaginalis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treat based on NAAT results.",
+        "If re-exposure, treat patient and partner."
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Men having sex with females (MSF) in high prevalence area, or NAAT unavailable, empiric therapy for trichomonas"
+        },
+        "components": [
+          {
+            "drug": "Metronidazole",
+            "dose": "2 gm",
+            "route": "po",
+            "frequency": "x 1 dose",
+            "connector": "or"
+          },
+          {
+            "drug": "Tinidazole",
+            "dose": "2 g",
+            "route": "orally",
+            "frequency": "in a single dose"
+          }
+        ],
+        "notes": "Partners should be referred for evaluation and treatment."
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If trichomonas unlikely (NAAT neg or MSM) test for M. genitalium, treat based on NAAT results and resistance testing."
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "M. genitalium if resistance testing unavailable"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "orally",
+            "frequency": "2 times/day",
+            "duration": "x 7 days"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "orally",
+            "frequency": "once daily",
+            "duration": "x 7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No good options. Persistent or recurrent NGU after treatment for M. genitalium or T. vaginalis should be referred to an infectious disease or urology specialist."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In men with non-gonococcal urethritis, 20% are infected with trichomonas (J Infect Dis 188:465, 2003).",
+        "Persistent C. trachomatis detected in 23% after Azithromycin vs. 5% after Doxycycline. Persistent M. genitalium in 68% after Doxycycline and 33% after Azithromycin (J Infect Dis 206:357, 2012; Clin Infect Dis 56:934, 2013).",
+        "Clinical failure frequent (Clin Infect Dis 56:934, 2013)",
+        "M.genitalium NAAT testing FDA approved (Hologic 2019) but not always available.",
+        "M. genitalium resistance is rapidly emerging without clear effective alternatives. Azithromycin failures with high prevalence of macrolide resistance markers; Moxifloxacin 400 mg po x 10 days recommended but fluoroquinolone resistance now reported world-wide. 2 stage treatment recommended by CDC 2021 STI guidelines for M. genitalium with doxycycline to reduce organism burden followed by azithromycin or moxifloxacin (depending on resistance marker profile). Revised European recommendations pending.",
+        "2021 CDC STI Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021"
+      ]
+    }
+  ]
+}

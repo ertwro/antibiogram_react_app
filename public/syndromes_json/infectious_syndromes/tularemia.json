@@ -1,0 +1,143 @@
+
+{
+  "documentMetadata": {
+    "title": "Tularemia",
+    "sourceFile": "syndromes/infectious_syndromes/Tularemia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Tularemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tularemia is a zoonotic disease caused by the bacterium Francisella tularensis. It can be transmitted to humans through various routes, including tick and deer fly bites, handling infected animal carcasses, consuming contaminated food or water, or inhaling contaminated aerosols."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Francisella tularensis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Forms of Tularemia"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Ulceroglandular:** Most common form. Cutaneous ulcer at the site of inoculation and regional lymphadenopathy.",
+        "**Glandular:** Regional lymphadenopathy without a skin ulcer.",
+        "**Oculoglandular:** Inoculation of the eye, causing conjunctivitis and preauricular lymphadenopathy.",
+        "**Oropharyngeal:** Ingestion of the bacteria, causing sore throat, pharyngitis, and cervical lymphadenopathy.",
+        "**Pneumonic:** Inhalation of the organism, leading to pneumonia. Can also result from hematogenous spread.",
+        "**Typhoidal:** Systemic illness without a clear localized source. Characterized by fever, chills, and malaise."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Severe Disease (including pneumonic and typhoidal tularemia)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Streptomycin", "dose": "1 g", "route": "IM", "frequency": "q12h" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              { "drug": "Gentamicin", "dose": "5 mg/kg", "route": "IV or IM", "frequency": "daily in one dose" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Mild to Moderate Disease"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Doxycycline", "dose": "100 mg", "route": "PO", "frequency": "q12h" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              { "drug": "Ciprofloxacin", "dose": "500-750 mg", "route": "PO", "frequency": "q12h" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "14-21 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Post-Exposure Prophylaxis"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "prophylaxis",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+            "description": "For individuals with high-risk exposure (e.g., laboratory exposure)"
+        },
+        "components": [
+          { "drug": "Doxycycline", "dose": "100 mg", "route": "PO", "frequency": "q12h" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    }
+  ]
+}

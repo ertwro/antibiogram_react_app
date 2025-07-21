@@ -1,0 +1,40 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Post basilar skull fracture",
+    "sourceFile": "Meningitis, Post basilar skull fracture.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Post basilar skull fracture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Patients with a basilar skull fracture are at increased risk for meningitis due to direct communication between the nasopharynx and the subarachnoid space. Empiric therapy should target common respiratory pathogens."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          }
+        ]
+      }
+    }
+  ]
+}

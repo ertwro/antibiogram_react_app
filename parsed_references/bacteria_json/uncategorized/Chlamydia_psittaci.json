@@ -1,0 +1,523 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Chlamydia psittaci",
+      "aliases": [
+        "Psittacosis",
+        "Ornithosis"
+      ],
+      "lastUpdated": "2024-05-06",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Not applicable (does not Gram stain)",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacterium"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Obligate intracellular bacterium. Cannot be Gram-stained or cultured on standard media. Identification is by serology (complement fixation or microimmunofluorescence) or nucleic acid amplification tests (NAATs)."
+    },
+    "clinicalProfile": {
+      "summary": "Chlamydia psittaci is the causative agent of psittacosis (ornithosis), a zoonotic infection acquired from exposure to infected birds, particularly psittacines (parrots, cockatiels, macaws). It typically presents as atypical pneumonia.",
+      "pathophysiologyPearls": [
+        "The bacterium is an obligate intracellular parasite, which means it can only replicate inside host cells, leading to cell death and inflammation."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Non-productive cough",
+        "Headache",
+        "Myalgia"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Atypical Pneumonia (Psittacosis)",
+          "description": "An acute infection characterized by fever, chills, headache, myalgia, and a non-productive cough. Can rarely progress to fulminant pneumonia."
+        }
+      ],
+      "highRiskPopulations": [
+        "Bird owners (especially parrots and other psittacine birds)",
+        "Poultry workers",
+        "Veterinarians",
+        "Pet shop employees"
+      ],
+      "transmissionVectors": [
+        "Inhalation of aerosolized dried bird feces, urine, or respiratory secretions."
+      ],
+      "prognosisNotes": [
+        "Fulminant pneumonia is a rare but serious complication."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Tetracycline and erythromycin are also effective but not considered first-line due to more frequent dosing and being less well-tolerated.",
+        "Fluoroquinolones are active in vitro but have limited clinical data."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Atypical Pneumonia (Psittacosis)",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "1 day",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "4 days",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "250 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Clarithromycin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Minocycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Atypical pneumonia in a patient with a history of exposure to birds."
+      ],
+      "methodologyNotes": [
+        "Serological tests are cross-reactive between C. psittaci and C. pneumoniae."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Serology (Microimmunofluorescence)",
+          "trigger": "Suspicion of psittacosis",
+          "purpose": "To detect antibodies. A fourfold or greater rise in antibody titer between acute and convalescent serum samples (collected >=2 weeks apart) to a titer of >=1:32, or a single IgM titer of >=1:16 is considered diagnostic."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "Suspicion of psittacosis",
+          "purpose": "To detect C. psittaci DNA in respiratory secretions, such as throat swabs."
+        },
+        {
+          "testName": "Culture",
+          "trigger": "Definitive diagnosis",
+          "purpose": "Isolation of C. psittaci from respiratory secretions. Requires BSL-3 laboratory and is rarely performed."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is based on clinical features (especially bird exposure) combined with serology or PCR. Culture is the gold standard but is hazardous and not routinely available.",
+        "biosafetyWarning": "Culture of Chlamydia psittaci requires Biosafety Level 3 (BSL-3) containment and practices.",
+        "methods": [
+          {
+            "methodName": "Serology",
+            "details": "A fourfold rise in titer or a high single IgM titer is diagnostic. Cross-reactivity with C. pneumoniae can occur."
+          },
+          {
+            "methodName": "PCR",
+            "details": "Offers a rapid and sensitive method for detection from respiratory specimens."
+          }
+        ]
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "The optimal duration of therapy is not well-defined. A persistent cough is not a reliable indicator for extending the course of antibiotics."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "StatPearls",
+          "citation": "StatPearls Publishing; 2024 Jan.",
+          "summaryOrNote": "Review of Psittacosis."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.368Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Chlamydia psittaci"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Psittacosis",
+        "Ornithosis"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-05-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Not applicable (does not Gram stain)",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacterium"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Chlamydia psittaci is the causative agent of psittacosis (ornithosis), a zoonotic infection acquired from exposure to infected birds, particularly psittacines (parrots, cockatiels, macaws). It typically presents as atypical pneumonia.",
+      "pathophysiologyPearls": [
+        "The bacterium is an obligate intracellular parasite, which means it can only replicate inside host cells, leading to cell death and inflammation."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Non-productive cough",
+        "Headache",
+        "Myalgia"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Atypical Pneumonia (Psittacosis)",
+          "description": "An acute infection characterized by fever, chills, headache, myalgia, and a non-productive cough. Can rarely progress to fulminant pneumonia."
+        }
+      ],
+      "highRiskPopulations": [
+        "Bird owners (especially parrots and other psittacine birds)",
+        "Poultry workers",
+        "Veterinarians",
+        "Pet shop employees"
+      ],
+      "transmissionVectors": [
+        "Inhalation of aerosolized dried bird feces, urine, or respiratory secretions."
+      ],
+      "prognosisNotes": [
+        "Fulminant pneumonia is a rare but serious complication."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia (Psittacosis)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "q12h",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg IV/PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia (Psittacosis)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "1 day",
+              "comments": "",
+              "originalText": "Azithromycin 500 mg PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia (Psittacosis)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "250 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "4 days",
+              "comments": "",
+              "originalText": "Azithromycin 250 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia (Psittacosis)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Clarithromycin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Clarithromycin 500 mg PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia (Psittacosis)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Minocycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "q12h",
+              "duration": "7-10 days",
+              "comments": "",
+              "originalText": "Minocycline 100 mg IV/PO q12h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Atypical pneumonia in a patient with a history of exposure to birds."
+      ],
+      "methodologyNotes": [
+        "Serological tests are cross-reactive between C. psittaci and C. pneumoniae."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Serology (Microimmunofluorescence)",
+          "trigger": "Suspicion of psittacosis",
+          "purpose": "To detect antibodies. A fourfold or greater rise in antibody titer between acute and convalescent serum samples (collected >=2 weeks apart) to a titer of >=1:32, or a single IgM titer of >=1:16 is considered diagnostic."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "Suspicion of psittacosis",
+          "purpose": "To detect C. psittaci DNA in respiratory secretions, such as throat swabs."
+        },
+        {
+          "testName": "Culture",
+          "trigger": "Definitive diagnosis",
+          "purpose": "Isolation of C. psittaci from respiratory secretions. Requires BSL-3 laboratory and is rarely performed."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

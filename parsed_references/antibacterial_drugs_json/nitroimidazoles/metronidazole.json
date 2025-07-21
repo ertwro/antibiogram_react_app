@@ -1,0 +1,152 @@
+{
+  "drug_name": "Metronidazole",
+  "tradename": "Flagyl, Likmez",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2021-10-20",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Metronidazole, approved in 1963, is a 5-nitroimidazole active against anaerobic bacteria and certain protozoa.",
+      "Simple mechanism of action. Metronidazole enters the cell without any special transport mechanism; its nitro group is reduced, and the reduced intermediates (there are many) damage DNA and cause cell death. Little to no reduction will occur in the presence of oxygen.",
+      "Some of the uses of metronidazole:",
+      "Peritonitis, appendicitis",
+      "C. difficile infection (not first-line)",
+      "Bacterial vaginosis",
+      "Pelvic inflammatory disease",
+      "Trichomoniasis",
+      "Giardia, E. histolytica, Balantioides coli, Blastocystis hominis",
+      "Avoidance of alcohol during and after use due to concern about precipitating a \"disulfiram reaction:\" see Adverse Effects.",
+      "Allergy: Protocol for Metronidazole desensitization."
+    ],
+    "adult_dose": {
+      "parenteral": "500 mg IV q6-8h, or 1 gm IV q12h. Infuse doses over 1 hour. Once-daily dosing? See Comments.",
+      "oral": "Variable; refer to syndrome pages."
+    },
+    "pediatric_dose": {
+        "per_red_book_2024_2027": {
+            "oral": "15-50 mg/kg/day (div q8h)",
+            "iv": "22.5-40 mg/kg/day (div q6-8h)"
+        },
+        "max_day": {
+            "oral": "2.25 gm",
+            "iv": "4 gm"
+        }
+    }
+  },
+  "renal_adjustment": {
+    "notes": "Dosage adjustment may be required in hepatic disease.",
+    "half_life_normal": "6-14",
+    "half_life_esrd": "7-21",
+    "dose_renal_function_normal": "7.5 mg/kg IV/po q6h",
+    "crcl_or_egfr": "CrCl ",
+    "hemodialysis": "7.5 mg/kg q12h (dose AD)",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "Reduce dosage by 50%"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": {
+      "common": "Common, but not very important: dysgeusia (e.g, metallic taste), black hairy tongue (Braz J Infect Dis 2021;25:101633), nausea.",
+      "neurologic_toxicities": "Variety of neurologic toxicities with high doses and/or prolonged therapy with metronidazole: Risk of peripheral and/or autonomic and/or optic neuropathy (J Child Neurol 2006;21:429). Aseptic meningitis, encephalopathy, seizures, reversible cerebellar lesions (N Engl J Med 2016;374:1465; Clin Inf Dis 2017;64:517; Clin Infect Dis 2017;64:525). Metronidazole cerebellar syndrome: MRI always abnormal. T2 hyperintensities of the cerebellar dentate nuclei; additional less dramatic changes at other CNS sites (Am J Neuroradiol 2007:28:1652). Seizures are rare. EEG abnormal but nonspecific. Review of antibiotic-associated encephalopathy: Neurology 2016;86:963. In a large population-based nested case-control study of adults ",
+      "hematologic": "Mild, reversible leukopenia. Case of aplastic anemia related to extended use of metronidazole: J Pharm Pract 2020;33:540.",
+      "pancreatitis": "Possible association of oral Metronidazole with acute pancreatitis: Clin Epidemiol 2018;10:1573.",
+      "disulfiram_reaction": "Disulfiram reaction? Vomiting, nausea, flushing, tachycardia and dyspnea after alcohol use during treatment with metronidazole has been reported (J Pediatr Pharmacol Ther 2019;24:445). The existence of the phenomenon isn't disputed, but the mechanism is. Metronidazole has been shown to NOT inhibit hepatic aldehyde dehydrogenase (which would raise blood acetaldehyde concentrations) the way disulfiram does. 2021 CDC STI guidelines no longer recommend avoidance of alcohol when receiving metronidazole for treatment of Trichomonas or bacterial vaginosis."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of teratogenicity or mutagenic effects have been reported in multiple studies. These data indicate that metronidazole poses low risk during pregnancy. 2",
+    "lactation": "Data and opinions conflict. Best to avoid IV/po therapy. Topical/vaginal therapy likely safe.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category. 2: All symptomatic pregnant women with BV or trichomoniasis should be treated, regardless of trimester (CDC STI guidelines, 2021)."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Bacteroides fragilis",
+        "Fusobacterium necrophorum",
+        "Prevotella melaninogenica, nigrescens, pleuriditis"
+    ],
+    "alternative": [],
+    "protozoa": {
+        "intestinal": ["Entamoeba histolytica", "Giardia lamblia"],
+        "genital": ["Trichomonas vaginalis"]
+    }
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (250, 500 mg), Cap (375 mg), Injection, Cream (0.75%), Gel (0.75%, 1%), Lotion (0.75%), Vaginal gel (0.75%)",
+    "food_recommendation": "All preps ",
+    "oral_absorption_percent": "100",
+    "tmax_hr": "0.75-2.33",
+    "peak_serum_conc_ug_ml": "20-25 (500 mg IV q6h, SS), Oral susp: 10-13 (500 mg, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "20",
+    "volume_of_distribution_vd_l_kg": "0.6-0.85 L/kg",
+    "avg_serum_half_life_hr": "6-14",
+    "elimination": "Metabolized; renal excretion of parent + metabolites",
+    "bile_penetration_percent": "100",
+    "csf_blood_percent": "45-89",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "560 (500 mg IV q6h, 0-24 hr), 144-146 (500 mg po susp, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP2C9"],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "
+"
+  },
+  "major_drug_interactions": [
+      {"drug": "Alcohol", "effect": "Disulfiram-like reaction", "management": "Avoid co-administration"},
+      {"drug": "Busulfan", "effect": "
+ busulfan", "management": "Avoid co-administration"},
+      {"drug": "Chlorpropamide", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Disulfiram", "effect": "Acute toxic psychosis", "management": "Monitor, avoid if possible"},
+      {"drug": "Glimepiride", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Glipizide", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Glyburide", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Lithium", "effect": "
+ lithium", "management": "Monitor, adjust dosage"},
+      {"drug": "Mebendazole", "effect": "
+ risk of SJS/TEN (Am J Public Health 2003;93:489)", "management": "Avoid co-administration"},
+      {"drug": "Nateglinide", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Phenobarbital", "effect": "
+ phenobarbital", "management": "Monitor, adjust dosage"},
+      {"drug": "Phenytoin", "effect": "
+ phenytoin", "management": "Monitor, adjust dosage"},
+      {"drug": "Rosiglitazone", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Tolbutamide", "effect": "
+ risk of hypoglycemia", "management": "Monitor, avoid if possible"},
+      {"drug": "Warfarin", "effect": "
+ INR", "management": "Monitor INR, adjust dosage"}
+  ],
+  "comments": [
+      "Both parent metronidazole and hepatic metabolites are bactericidal vs. susceptible anaerobic bacteria; the result is a collective long serum half-life of 9.5 hrs.",
+      "The long half-life suggests the possibility of once daily dosing. Levofloxacin plus metronidazole (both dosed once daily) was compared to moxifloxacin monotherapy vs. a mixed infection of E. coli and B. fragilis in an in vitro pharmacodynamic model, with results demonstrating similar efficacy (Antimicrob Agents Chemother 2005;49:685).",
+      "The efficacy of metronidazole 1.5 gm IV q24h for intra-abdominal infections was equivalent to comparator regimens in a randomized open study (Eur J Surg 1999;165:875) and in a retrospective chart review (J Chemother 2007;19:410).",
+      "Although metronidazole 1.5 gm IV q24h is standard in Europe and makes pharmacokinetic sense, a formal prospective randomized trial is desirable to confirm efficacy and safety in patients with severe intra-abdominal infections.",
+      "Rates of reduced susceptibility of Bacteroides spp. to metronidazole are very low (J Antimicrob Chemother 2018;73:265). Best characterized resistance mechanism is nim genes (chromosomal or plasmid-borne). These genes reduce metronidazole to a nontoxic metabolite.",
+      "Incidence of metronidazole resistance among C. difficile increasing (Clin Infect Dis 2022;74:120)."
+  ]
+}

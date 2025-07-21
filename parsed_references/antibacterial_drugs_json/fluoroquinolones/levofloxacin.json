@@ -1,0 +1,115 @@
+{
+  "drug_name": "Levofloxacin",
+  "tradename": "Levaquin",
+  "drug_shortage": [
+    {
+      "preparation": "Oral solution, 25 mg/mL",
+      "start_date": "2023-09-15",
+      "notes": ""
+    },
+    {
+      "preparation": "Levofloxacin injection in D5W",
+      "start_date": "2024-05-29",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Levofloxacin, approved in 1996, is a fluoroquinolone with a broad spectrum of activity that includes respiratory and enteric pathogens.",
+      "Levofloxacin is the L-enantiomer of ofloxacin.",
+      "No longer used in the treatment of gonococcal infections due to high levels of resistance.",
+      "Mechanism of action, resistance: see Fluoroquinolones, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "250-750 mg po/IV q24h (depends on indication).",
+      "dairy": "Avoid dairy products ±2 hours of oral administration.",
+      "metal_cations": "Concomitant metal cations: See Major Drug Interactions below."
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "16-20 mg/kg/day IV/po (div q12h) 1",
+      "max_day": "750 mg",
+      "footnote": "1 Approved only for CF, anthrax, and complicated UTI"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "7",
+    "half_life_esrd": "76",
+    "dose_renal_function_normal": "750 mg po/IV q24h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 20-49: 750 mg q48h. CrCl <20: 750 mg x1, then 500 mg q48h",
+    "hemodialysis": "750 mg x1, then 500 mg q48h",
+    "capd": "750 mg x1, then 500 mg q48h",
+    "crrt": "750 mg x1, then 500 mg q48h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": [
+    "Detailed discussion of adverse effects: see Fluoroquinolones, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "Avoid breastfeeding for 4-6 hrs after a dose, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Chlamydia trachomatis",
+        "Haemophilus influenzae",
+        "Kingella sp.",
+        "Legionella sp.",
+        "Mycoplasma pneumoniae",
+        "Shigella sp.",
+        "Yersinia enterocolitica"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (250, 500, 750 mg), Oral soln (25 mg/mL), 0.5% oph soln, Injection",
+    "food_recommendation": "Tab ± food, Soln no food",
+    "oral_absorption_percent": "99",
+    "tmax_hr": "po: 1.6",
+    "peak_serum_conc_ug_ml": "8.6 (750 mg po q24h, SS), 12.1 (750 mg IV q24h, SS)",
+    "peak_urine_conc_ug_ml": "521-771 (500 mg po/IV q24h, SS)",
+    "protein_binding_percent": "24-38",
+    "volume_of_distribution_vd_l_vss": "244 L (Vss)",
+    "avg_serum_half_life_hr": "7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "30-50",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "90.7 (750 mg po q24h, 0-24h), 108 (750 mg IV q24h, 0-24h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": ["MATE, OCT2"],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Ca, Mg)", "effect": "↓ levofloxacin", "management": "Give 2 hours"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-admin"},
+      {"drug": "Calcium supplements", "effect": "↓ levofloxacin", "management": "Give 2 hours"},
+      {"drug": "Didanosine", "effect": "↓ levofloxacin", "management": "Give 2 hours"},
+      {"drug": "Insulin", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Iron supplements", "effect": "↓ levofloxacin", "management": "Give 2 hours"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or a"},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Sucralfate", "effect": "↓ levofloxacin", "management": "Give 2 hours"},
+      {"drug": "Warfarin", "effect": "↑ INR", "management": "Monitor INR, adju"},
+      {"drug": "Zinc", "effect": "↓ levofloxacin", "management": "Give 2 hours"}
+  ]
+}

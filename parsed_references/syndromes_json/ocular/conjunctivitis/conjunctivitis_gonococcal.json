@@ -1,0 +1,159 @@
+
+{
+  "documentMetadata": {
+    "title": "Gonococcal Conjunctivitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Conjunctivitis_ Gonococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gonococcal conjunctivitis is a rare but severe ocular infection caused by Neisseria gonorrhoeae. It is considered a medical emergency due to its rapid progression and potential for severe complications, including corneal ulceration, perforation, and blindness. The infection is typically acquired through sexual contact, with autoinoculation to the eye, or vertically from an infected mother to her newborn during childbirth (ophthalmia neonatorum)."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Copious purulent discharge, severe eyelid edema, conjunctival hyperemia, chemosis, and eye pain."
+        },
+        {
+          "key": "Signs",
+          "value": "Marked purulent discharge (often described as 'hyperacute'), preauricular lymphadenopathy, and potentially corneal involvement."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "name": "Gram Stain and Culture",
+      "sampleType": "Conjunctival scrapings/swabs",
+      "interpretation": "Gram stain showing gram-negative intracellular diplococci is highly suggestive. Culture on Thayer-Martin agar confirms the diagnosis.",
+      "notes": "Nucleic acid amplification tests (NAATs) can also be used for rapid detection."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Prompt initiation of systemic antibiotic therapy is crucial. Hospitalization may be required for frequent saline irrigation of the conjunctival sac and close monitoring."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic Antibiotic Regimens"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Adults with gonococcal conjunctivitis without corneal involvement"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 g",
+                "route": "IM",
+                "frequency": "single dose"
+              }
+            ],
+            "notes": "Consider adding a single dose of Azithromycin 1g orally to cover for potential Chlamydia trachomatis co-infection."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Adults with gonococcal conjunctivitis WITH corneal involvement"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1-2 g",
+                "route": "IV",
+                "frequency": "every 12-24 hours"
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Hospitalize and treat for at least 3 days, with duration guided by clinical response."
+              }
+            },
+            "notes": "An ophthalmology consultation is mandatory."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Topical Therapy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Frequent saline lavage is essential to remove purulent discharge. Topical antibiotics (e.g., bacitracin or erythromycin ointment) may be used as an adjunct but are not sufficient as monotherapy."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Partner Management"
+    },
+    {
+      "type": "partnerManagement",
+      "partnerManagementData": {
+        "lookBackPeriod": "60 days",
+        "action": "Evaluate and treat all sexual partners from the 60 days preceding the onset of symptoms.",
+        "partnerRegimen": {
+          "intent": "treatment",
+          "strengthOfRecommendation": "Recommended",
+          "components": [
+            {
+              "drug": "Ceftriaxone",
+              "dose": "500 mg",
+              "route": "IM",
+              "frequency": "single dose"
+            },
+            {
+              "drug": "Azithromycin",
+              "dose": "1 g",
+              "route": "PO",
+              "frequency": "single dose",
+              "connector": "+"
+            }
+          ],
+          "notes": "Regimen may vary based on local resistance patterns. Refer to current CDC STD Treatment Guidelines."
+        }
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Neisseria gonorrhoeae",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Neisseria gonorrhoeae"
+      }
+    }
+  ]
+}

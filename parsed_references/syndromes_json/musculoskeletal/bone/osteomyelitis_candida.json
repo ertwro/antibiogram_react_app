@@ -1,0 +1,140 @@
+
+{
+  "documentMetadata": {
+    "title": "Candida Osteomyelitis",
+    "sourceFile": "syndromes/musculoskeletal/bone/Osteomyelitis, Candida.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Candida osteomyelitis is an uncommon form of osteomyelitis caused by the hematogenous seeding of bone by Candida species. It is a manifestation of invasive candidiasis. The most common site of involvement is the vertebral spine, but it can also affect long bones, the sternum (especially after cardiac surgery), and other skeletal sites. Risk factors are the same as for other forms of invasive candidiasis: candidemia, central venous catheters, IV drug use, prolonged antibiotic therapy, immunosuppression, and recent major surgery."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "The presentation is often indolent and subacute. Patients typically present with localized, progressive pain and tenderness over the affected bone. Constitutional symptoms like fever are often absent at the time of diagnosis. In vertebral osteomyelitis, the pain is localized to the back or neck."
+        },
+        {
+          "key": "Delay in Diagnosis",
+          "value": "There is often a significant delay (weeks to months) between the initial candidemia episode and the onset of skeletal symptoms, which contributes to delayed diagnosis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "diagnosticTest",
+          "name": "Imaging",
+          "interpretation": "Plain radiographs may show lytic lesions or other signs of osteomyelitis but are often normal early in the course. MRI is the most sensitive imaging modality, showing bone marrow edema, vertebral endplate destruction, and associated soft tissue or disc space involvement in cases of vertebral osteomyelitis."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Biopsy and Culture",
+          "sampleType": "Bone biopsy from the affected site",
+          "interpretation": "A CT-guided or open bone biopsy for histopathology and fungal culture is the gold standard for diagnosis. This confirms the presence of Candida and allows for species identification and susceptibility testing.",
+          "notes": "Blood cultures are usually negative at the time of osteomyelitis diagnosis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management requires a long course of systemic antifungal therapy and often surgical debridement. It should be managed by an infectious disease specialist."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Antifungal Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Initial therapy for most patients"
+            },
+            "components": [
+              {
+                "drug": "Lipid formulation Amphotericin B",
+                "dose": "3-5 mg/kg/day",
+                "route": "IV"
+              },
+              {
+                "drug": "Fluconazole",
+                "dose": "400-800 mg (6-12 mg/kg) daily",
+                "route": "PO",
+                "connector": "or"
+              }
+            ],
+            "notes": "Fluconazole is often preferred for susceptible C. albicans. An initial course of a lipid formulation of Amphotericin B for several weeks may be used for more severe disease or non-albicans species, followed by step-down to oral fluconazole."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "For infections caused by fluconazole-resistant Candida or as an alternative to Amphotericin B",
+            "components": [
+              {
+                "drug": "Echinocandins (e.g., Caspofungin, Micafungin)",
+                "route": "IV"
+              }
+            ],
+            "notes": "Echinocandins have less robust data for osteomyelitis compared to azoles and amphotericin B but are an option."
+          }
+        },
+        {
+          "type": "durationDetail",
+          "fixedDuration": "A prolonged course of 6-12 months is generally required. Treatment is often continued until there is resolution of inflammatory markers and imaging abnormalities."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical Management"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Surgical Debridement",
+            "indication": "Often necessary for extensive bone necrosis, abscess formation, spinal instability, or failure of medical therapy. It helps to reduce the fungal burden and remove necrotic tissue."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Osteomyelitis, Overview; Osteomyelitis, Vertebral",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Osteomyelitis, Overview"
+      }
+    }
+  ]
+}

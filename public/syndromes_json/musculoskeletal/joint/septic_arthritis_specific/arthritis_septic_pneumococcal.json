@@ -1,0 +1,173 @@
+{
+  "documentMetadata": {
+    "title": "Septic Arthritis with Strep. pneumoniae",
+    "lastUpdated": "2024-07-30",
+    "sourceFile": "Arthritis, Septic, Pneumococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Septic arthritis with Strep. pneumoniae isolated from blood or joint fluid.",
+        "Pneumonia present in about half of cases.",
+        "More common in children."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus pneumoniae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Drainage of infected synovial fluid",
+        "notes": "by needle aspiration, arthroscopy, or arthrotomy repeated as needed to remove re-accumulated pus."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "Penicillin susceptible organism (MIC ≤2 µg/mL)",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "2 mU",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "Penicillin susceptible organism (MIC ≤2 µg/mL)",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2g",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ],
+        "notes": "where available"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "Penicillin-resistant or intermediate organism (MIC >2 µg/mL)",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2g",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ],
+        "notes": "where available"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "Penicillin-resistant or intermediate organism (MIC >2 µg/mL)",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "frequency": "q8-12h"
+          }
+        ],
+        "notes": "may be preferred if penicillin MIC >4 µg/mL"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "frequency": "q24h",
+            "route": "po or IV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "frequency": "q12h",
+            "route": "po/IV"
+          }
+        ],
+        "notes": "(oral alternative for severely penicillin-allergic patient or multidrug-resistant organism; monitor for bone marrow suppression for duration of therapy > 2 weeks)(not an approved indication)."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy:",
+        "Optimal duration of therapy unclear: 7-10 days of parenteral therapy with step down to an active oral agent for an additional 2-3 weeks based on clinical response is reasonable.",
+        "Consider 6 weeks for prosthetic joint infection; prosthetic removal not always necessary, although late post-surgical infection (> 3 months) and rheumatoid arthritis associated with failure (Clin Infect Dis 2017;64:1742)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    }
+  ]
+}

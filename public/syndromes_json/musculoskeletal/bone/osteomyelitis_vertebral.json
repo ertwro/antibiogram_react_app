@@ -1,0 +1,102 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Vertebral",
+    "lastUpdated": "2025-01-05",
+    "sourceFile": "Osteomyelitis, Vertebral.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Most common manifestation of hematogenous osteomyelitis in adults:",
+        "Complication of Staph. aureus bacteremia with or without endocarditis",
+        "Complication of bacteremia with other organisms: e.g., E. coli bacteremia from a urinary tract infection",
+        "Back pain (85-90% of cases) and fever (35-60%) are cardinal symptoms; patients typically have point tenderness to percussion over the dorsal spinous process",
+        "Compatible MRI (best imaging modality) or CT of spine + positive culture of blood (~50% positive) or biopsy specimen (~80% positive)",
+        "Lumbar (~60%) > thoracic (~30%) > cervical (~10%)",
+        "Biggest fear is extension of the infection to the epidural space (15-20% of cases) with the associated risk of cord compression leading to paraplegia or quadriplegia:",
+        "Sensory loss, weakness, radiculopathy, other signs of neurological impairment present in a third of cases and may indicate epidural abscess.",
+        "Suspect epidural abscess if there is severe back pain, radicular pain, and/or neurological signs and symptoms such as tingling, numbness, sensory deficit, incontinence, focal motor weakness."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (etiology in ~50% of patients)",
+        "Streptococci (Group A, Group B, viridans group)",
+        "Aerobic gram-negative bacilli",
+        "Mycobacterium tuberculosis",
+        "Brucella species",
+        "Candida species"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "When possible perform diagnostic cultures before starting empiric therapy:",
+        "Blood cultures",
+        "Image guided aspirates or surgical bone biopsy",
+        "Empiric therapy to cover both Gram-positives and Gram-negatives: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) + (Ciprofloxacin 400 mg IV q12h or 750 mg po q12h OR Levofloxacin 750 mg po/IVq24h OR Ceftriaxone 2 gm IV q24h OR Cefepime 2 gm IV q8h)",
+        "Definitive therapy: based on culture and susceptibility test results"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Linezolid 600 mg po/IV or Daptomycin 10 mg/kg for MRSA coverage",
+        "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h",
+        "Oral therapy: see N Engl J Med. 2019; 380:425 and Antibiotics (Basel). 2023; 13:4"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy",
+        "> 8 weeks of pathogen-directed IV or oral therapy if there is end-stage renal disease, MRSA infection, or undrained paravertebral or psoas abscess (any one of which is a risk factor for recurrence (Clin Infect Dis 62:1262, 2016) or for patients undergoing device implantation (Clin Infect Dis 60:1330, 2015).",
+        "Outcomes comparable for 6 weeks and 12 weeks for low risk infections (see Lancet 385:875, 2015 and Clin Infect Dis 62:1262, 2016)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA treatment guidelines: Clin Infect Dis 61:e26, 2015.",
+        "Drug penetration for agents with Gram-positive activity: J Clin Pharm Ther 38:89, 2013.",
+        "Surgical debridement and decompression for epidural abscess with neurological findings, impending cord compression, spinal hardware infection; lower threshold to operate for cervical spine location.",
+        "Implantation of hardware for stabilization does not substantially increase rates of treatment failure or recurrence (Clin Infect Dis 60:1330, 2015 and N Am Spine Soc J. 2021 Oct 8;8:100083); ≥ 8 weeks of antimicrobial therapy recommended (Clin Infect Dis 60:1330, 2015).",
+        "CT-guided or surgical drainage for paravertebral abscesses if possible.",
+        "If culture of the initial percutaneous biopsy is negative, a second biopsy is positive in ~40% of cases (Eur J Clin Microbiol Infect Dis 33:371, 2014).",
+        "Follow-up MRI of value only in assessing soft-tissue findings, not bony changes (Am J Neuroradiol 28:693, 2007)."
+      ]
+    }
+  ]
+}

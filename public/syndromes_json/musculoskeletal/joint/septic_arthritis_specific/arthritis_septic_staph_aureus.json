@@ -1,0 +1,241 @@
+{
+  "documentMetadata": {
+    "title": "Septic Arthritis - Staph. aureus",
+    "lastUpdated": "2025-02-09",
+    "sourceFile": "Arthritis, Septic, Staph. aureus.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Documented septic arthritis, synovial fluid WBC > 25,000 (>50,000 more specific).",
+        "Acromioclavular or sacroiliac joint septic arthritis often due to Staph. aureus.",
+        "Gram-positive cocci in clusters on Gram stain and/or isolation of Staph. aureus in synovial fluid or blood culture.",
+        "Risk factors include rheumatoid arthritis, diabetes, injection drug use, skin infection.",
+        "For joint prosthesis see recommendations for Prosthetic Joint Infection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Drainage or debridement",
+        "notes": "In addition to antimicrobial therapy drainage or debridement should always be performed by needle aspiration (repeated as needed), arthroscopy, or arthrotomy."
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Specific antimicrobial therapy for initial therapy (see comments regarding duration):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "MRSA"
+            },
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2-3 weeks"
+            },
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "MSSA"
+            },
+            "components": [
+              {
+                "drug": "Nafcillin",
+                "dose": "1.5-2 gm",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Oxacillin",
+                "dose": "1.5-2 gm",
+                "route": "IV",
+                "frequency": "q4h",
+                "connector": "or"
+              },
+              {
+                "drug": "Flucloxacillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q6h",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2-3 weeks"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "MSSA"
+            },
+            "components": [
+              {
+                "drug": "Cefazolin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2-3 weeks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "MRSA"
+        },
+        "components": [
+          {
+            "drug": "Daptomycin",
+            "dose": "6 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "MRSA"
+        },
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "frequency": "q12h",
+            "route": "po/IV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "MSSA, patient with type 1 hypersensitivity to beta-lactams or with significant adverse reaction"
+        },
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-3 weeks"
+        },
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "MSSA, patient with type 1 hypersensitivity to beta-lactams or with significant adverse reaction"
+        },
+        "components": [
+          {
+            "drug": "Daptomycin",
+            "dose": "6 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "MSSA, patient with type 1 hypersensitivity to beta-lactams or with significant adverse reaction"
+        },
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "frequency": "q12h",
+            "route": "po/IV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Possible oral regimens provided in vitro susceptibility is confirmed, include Clindamycin 600 mg po q8h OR ([TMP-SMX 4-5 mg/kg po (Trimethoprim component) bid OR Levofloxacin 750 mg po once daily] + Rifampin 600 mg po q24h), OR Linezolid 600 mg po q12h OR Cephalexin 500 mg po q6h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider treatment for 4 weeks in patients with septic arthritis complicated by bacteremia.",
+        "Reference: Curr Rheumatol Rep 15:332, 2013",
+        "Retrospective study of Clindamycin and Cephalexin in children found either to be efficacious (Clin Microbiol Infect 18:582, 2012)."
+      ]
+    }
+  ]
+}

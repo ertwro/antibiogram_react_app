@@ -1,0 +1,66 @@
+{
+  "documentMetadata": {
+    "title": "Sinusitis, Rhinosinusitis, Atrophic",
+    "sourceFile": "Sinusitis, Rhinosinusitis, Atrophic.pdf",
+    "lastUpdated": "2024-05-28"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Two types of atrophic rhinosinusitis:",
+        "Primary: young people in developing world. Colonization of atrophic mucosa by Klebsiella ozaenae and other bacteria. Associated foul-smelling nasal discharge.",
+        "Secondary: atrophic nasal mucosa at any age due to aging and/or post-trauma, post-injury/radiation/surgery or chronic granulomatous inflammation"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pathogenesis of atrophic mucosa poorly understood"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy based on clinical evidence of inflammation and results of culture and susceptibility testing."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Difficult cases: suggest consultation with otolaryngologist"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "documentMetadata": {
+    "title": "Brain Abscess, Post-traumatic or Post-surgical",
+    "lastUpdated": "2025-02-06",
+    "sourceFile": "Brain Abscess, Post-traumatic or Post-surgical.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever, change in mental status after head trauma or in post-neurosurgical patient.",
+        "Penetrating head injury."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus, MRSA and MSSA",
+        "Coagulase-negative staphylococci",
+        "Enterobacteriaceae",
+        "Pseudomonas aeruginosa",
+        "Streptococci",
+        "Anaerobes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy pending culture results:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "frequency": "q8-12h"
+              },
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "frequency": "q8-12h"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vancomycin dosing, see Comments"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "frequency": "q12h",
+            "route": "po/IV"
+          }
+        ],
+        "notes": "instead of vancomycin as above"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Modify regimen based on results of abscess culture and susceptibility testing.",
+        "Duration of therapy not well defined but 6-8 weeks is usual."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Adjust Vancomycin dosing to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL",
+        "Aspiration and/or surgical drainage of the abscess is recommended for diagnosis and definitive therapy.",
+        "Review articles: N Engl J Med 2014; 371:447; Clin Microbiol Infect 2017; 23:614; Semin Neurol 2019; 39: 334, Curr Opin Infect Dis. 2024; 37:211."
+      ]
+    }
+  ]
+}

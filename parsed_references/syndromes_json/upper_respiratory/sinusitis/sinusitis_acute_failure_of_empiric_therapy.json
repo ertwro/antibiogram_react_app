@@ -1,0 +1,246 @@
+{
+  "documentMetadata": {
+    "title": "Sinusitis, Acute, Failure of Empiric Therapy",
+    "sourceFile": "Sinusitis, Acute, Failure of Empiric Therapy.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Acute sinusitis, clinical failure after 3 days of empiric antibacterial treatment:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Persistent sinus pain, nasal congestion, purulent nasal discharge and, perhaps, fever despite recommended therapy."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Could result from:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Infection due to an antibiotic resistant organism",
+            "Obstruction of the ostium of one or more sinuses",
+            "Rarely, deep fungal infection (especially if immunocompromised patient or insulin-dependent diabetic",
+            "Sinusitis due to a non-infectious disease; e.g., Granulomatosis with polyangiitis (Formerly Wegener's granulomatosis)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Optional diagnostic method: collection of sinus exudate for culture by either sinus puncture or direct sinus endoscopy.",
+        "For initial empiric therapy of acute sinusitis, see Sinusitis, Acute, Empiric Therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Strep. pneumoniae (33%)",
+        "H. influenzae (32%)",
+        "M. catarrhalis (9%)",
+        "Streptococcus sp. (Group A) (2%)",
+        "Anaerobes (6%)",
+        "Viral (15%)",
+        "Staph. aureus"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Clin Infect Dis 54:826, 2012; Clin Infect Dis 45:e121, 2007: Data analysis suggests S. aureus should NOT be considered a potential etiology of acute uncomplicated sinusitis; incidence of positive cultures same as the incidence in asymptomatic controls. Hence, positive culture may represent only colonization."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Empiric Therapy Failure Adjustment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Child: Empiric second line recommendations in the absence of cultures:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "For children failing Amoxicillin",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate (extra strength) suspension",
+                "dose": "90 mg/kg/day (Amox component)",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "For children failing Amoxicillin-clavulanate",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "30-40 mg/kg/day",
+                "frequency": "divided q8h",
+                "connector": "+"
+              },
+              {
+                "drug": "Cefuroxime axetil",
+                "dose": "30 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h",
+                "connector": "or"
+              },
+              {
+                "drug": "Cefdinir",
+                "dose": "14 mg/kg/day",
+                "frequency": "divided q12h or q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Cefpodoxime",
+                "dose": "10 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ],
+            "notes": "Note: Cefuroxime susp not available in the US, may be available in other markets."
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult: If failure to respond, empiric therapy pending culture results;"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "If mild (outpatient)",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "1000mg/62.5 mg tabs; Tabs 2",
+                "route": "po",
+                "frequency": "bid",
+                "connector": "or"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "po",
+                "frequency": "once daily"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "If severe (inpatient)",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1-2 gm",
+                "route": "IV",
+                "frequency": "q24 h",
+                "connector": "or"
+              },
+              {
+                "drug": "Ampicillin-sulbactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q6h",
+                "connector": "or"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV/po",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "If no response within 24 hrs, CT scan of sinuses and surgical consultation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Directed/Specific Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Base choice of agent on results of culture and susceptibility testing"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See IDSA Clinical Practice Guidelines, Clin Infect Dis 54:e72, 2012; AAP Guidelines for Children: Pediatrics Jun 24, 2013.",
+        "Acute sinusitis in adults: N Engl J Med. 2016;375(10):962-970. doi:10.1056/NEJMcp1601749"
+      ]
+    }
+  ]
+}

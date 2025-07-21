@@ -1,0 +1,138 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Prosthetic Valve, Empiric Therapy",
+    "lastUpdated": "2025-01-27",
+    "sourceFile": "Endocarditis, Prosthetic Valve, Empiric Therapy.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy, pending culture results, for patient with prosthetic valve and signs and symptoms of endocarditis.",
+        "Initial presentation may be subtle, such as unexplained heart failure. Fever may not be prominent.",
+        "Use of 18F-FDG-PET/CT allowed recategorization of 76% of prosthetic valve endocarditis initially classified as \"possible\" by Duke criteria to \"definite\" infectious endocarditis (Clin Infect Dis. 2020;70: 583)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Early (< 2 months post op)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Staph. aureus",
+            "Staph. epidermidis",
+            "Rarely: Enterobacteriaceae, diphtheroids, fungi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Late (> 2 months post-op):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Staph. aureus",
+            "Staph. epidermidis",
+            "Viridans streptococci",
+            "Enterococci"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) (See Comments)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "as above"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "3 mg/kg",
+            "route": "IV",
+            "frequency": "once daily",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Once a microbiologic diagnosis has been made, definitive therapy should be pathogen directed."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There is no evidence-based, preferred regimen for empirical therapy of suspected endocarditis. The regimen listed as primary therapy provides adequate initial coverage for the most likely pathogens: S. aureus and S. epidermidis, including methicillin-resistant strains; Enterobacteriaceae (a consideration in early-onset infection); streptococci; enterococci; and HACEK organisms. Gentamicin is not listed as a preferred agent because even low doses for short durations can be toxic, particularly if another potentially nephrotoxic agent such as vancomycin is co-administered. Rifampin, although recommended for staphylococcal prosthetic valve endocarditis, is not listed as an empirical agent because it should be administered after 3-5 days of effective antibiotic therapy to minimize the potential for emergence of resistance due to high bacterial burdens.",
+        "Early surgical consultation is advised especially if etiology is Staph. aureus, evidence of heart failure, presence of diabetes and/or renal failure, or concern for valve ring abscess (JAMA 297:1354, 2007; Clin Infect Dis 44:364, 2007).",
+        "Early valve surgery not associated with improved 1-year survival in S. aureus prosthetic valve endocarditis Clin Infect Dis 60:741, 2015.",
+        "References for surgical therapy of prosthetic valve endocarditis: Eur J Cardiothorac Surg 38:528, 2010; New Engl J Med 368:1425, 2013; JAMA 312:1323, 2014."
+      ]
+    }
+  ]
+}

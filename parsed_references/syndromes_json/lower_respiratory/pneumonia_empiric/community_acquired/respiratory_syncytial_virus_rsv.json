@@ -1,0 +1,227 @@
+{
+  "documentMetadata": {
+    "title": "Respiratory Syncytial Virus, RSV",
+    "sourceFile": "Respiratory Syncytial Virus, RSV.pdf",
+    "lastUpdated": "2024-07-10"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Respiratory Syncytial Virus (RSV) is a major cause of morbidity in neonates and infants.",
+        "In adults, RSV accounted for 10.6% of hospitalizations for pneumonia, 11.4% for chronic obstructive pulmonary disease (COPD), 7.2% for asthma & 5.4% for congestive heart failure (CHF) in patients age >65 years, BMJ 2019 Sep 10;366:15021,",
+        "Impact and burden in older adults similar or worse than to influenza Clin Infect Dis 76:1980 2023; N Engl J Med 352:1749, 2005.",
+        "RSV peak incidence is in winter (e.g., December 2023 to April 2024 RSV season). Check with Public Health Departments for incidence in local region",
+        "Recap of 2022-2023 winter season:",
+        "Concurrently circulating respiratory viruses of particular concern: Influenza and COVID-19.",
+        "CDC HAN 0479 (11/4/2022) - increased respiratory virus activity, including RSV, influenza and COVID-19",
+        "In childen RSV accounted for 27% of hospitalizations for pneumonia (N Engl J Med 372:835 2015)",
+        "RSV caused 11% of clinically important respiratory illnesses in military recruits, Clin Infect Dis 41:311, 2005.",
+        "Lower respiratory infection in hematopoietic cell transplant (HCT) patients have high morbidity and mortality, particularly in first 6 months. BMJ 2019 Sep 10;366:15021; Blood 117:2755, 2011; Clin Infect Dis 56:258, 2013.",
+        "New direct antiviral drugs under development showed promise but development halted on several. J Infect Dis 2020:222;1417-21; N Engl J Med 371:711-22, 2014; N Engl J Med 373:2048-58, 2015",
+        "Prevention with palivizumab is indicated for (monthly doses required during RSV season):",
+        "Children age <24 months with chronic lung disease of prematurity (formerly bronchopulmonary dysplasia) requiring supplemental oxygen.",
+        "Premature infants (<32 weeks gestation) and age <6 months at the start of RSV season.",
+        "Children with selected congenital heart diseases.",
+        "Nirsevimab, a long acting monoclonal antibody was licensed in many countries in summer 2023. It is expected to be available fall of 2023 and will replace palivizumab",
+        "Expected indications for nirsevimab:",
+        "All infants during their first RSV season (i.e. administer in fall for infants born April-September; administer at birth for infants born October-March)",
+        "Select high risk infants in their second RSV season"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Respiratory syncytial virus (RSV)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment:"
+        },
+        {
+          "type": "procedure",
+          "name": "Hydration, supplemental oxygen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Routine use of Ribavirin is not recommended outside of HSCT and lung transplant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Retrospective multivariate analysis of aerosolized Ribavirin in HSCT patients indicates improved survival and reduced mortality, p <0,0001. Clin Infect Dis 57:1731, 2013. Benefit appears greater in preventing progression of upper tract disease to lower tract than in improving outcome in LRTI (reviewed in BMJ. 2019 Sep 10:366:15021). Oral ribavirin has been shown to be non-inferior and is dramatically less expensive: aerosolized ribavirin is no longer recommended. Clin Transplant. 2019 Sep;33(9):e13511; Transpl Infect Dis 2018 Apr;20(2):e12844; Clin Infect Dis 2019;68;1641"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prevention:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Nirsevimab (Beyfortus)",
+                "notes": "single dose given soon after birth for all babies born October-March; single dose before RSV season for all babies born April-September"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Palivizumab (Synagis)",
+                "dose": "15 mg/kg",
+                "route": "IM",
+                "frequency": "once per month November-April",
+                "notes": "for specific infants who qualify for 5 doses (Pediatrics 124:1694, 2009) - Nirsvimab is preferred if available for lower cost, greater potency and increased convenience"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing of coverage may need to be adjusted in some regions based on reported cases in the region, as opposed to using fixed dosing schedules (Pediatrics 126:e116, 2010)."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics should be avoided in RSV infection and in bronchiolitis",
+        "Aerosolized ribavirin is extremely expensive (~$50,000 US) and not recommended. Several studies suggest oral ribavirin is equivalent to inhaled and much less expensive (Clin Infect Dis 68:1641, 2019; Transpl Infect Dis 20:e12844, 2018;J Heart Lung Transplant. 2012 Aug;31(8):839-44).",
+        "Nirsevimab is preferred if available for lower cost, greater potency and increased convenience. Palivizumab is very expensive and should only be used in patients who meet AAP recommendations (Pediatrics 2014:134 (2) 415-420) rather than the package insert. Timing and duration of prophylaxis vary with region and whether local RSV data are available. In phase 3 clinical trial, palivizumab decreased hospitalization but evidence review by the AAP concluded there is no impact on mortality and limited benefit on subsequent wheezing. (Pediatrics 2014;134:e620–e638)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Prevention"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Two RSV vaccines were FDA approved in May 2023 and are now available, notably in chain pharmacies.",
+        "A single dose of Pfizer bivalent RSVpreF (Abrysvo) and GSK adjuvanted RSVPreF3 (Arexvy) vaccines each demonstrated significant efficacy against lower respiratory tract illness caused by RSV among older adults >60 years for at least two consecutive seasons.",
+        "ACIP recommendations refer to RSV vaccination generically in persons >60 yrs, without differentiating one product from the other.",
+        "For full information see RSV, Vaccine",
+        "Only Abrysvo is FDA approved (August 2023) for maternal pre-natal vaccination at 32-36 wk gestation September-January in most of continental US to protect infants.",
+        "ACIP has no preference between post-natal nirsevimab for infants or maternal Abrysvo but seasonality constrains Abrysvo.",
+        "See Choice, Interchangeability on RSV, Vaccines.",
+        "With Abyrsvo, despite concern during clinical trials, no increased risk of preterm birth based on maternal vaccination status in real-world use.",
+        "Vaccinated 5.9% rate compared to unvaccinated 6.7% (JAMA Netw Open. 2024;7(7):e2419268).",
+        "Concern exists over possible excess premature births in Abrysvo trials. Differences were small and not statistically significant but trial had limited power",
+        "Considerations for choosing maternal Abrysvo (RSVPreF) vs. infant nirsevimab:"
+      ]
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": [
+          "Abrysvo Potential Advantages",
+          "Nirsevimab Potential Advantages"
+        ],
+        "rows": [
+          [
+            "Lower cost",
+            "Longer protection"
+          ],
+          [
+            "Activity at birth",
+            "Very limited adverse effects"
+          ],
+          [
+            "Theoretically higher barrier to resistance",
+            "Pediatric providers are invested in immunization"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": [
+          "Abrysvo Potential Disadvantages",
+          "Nirsevimab Potential Disadvantages"
+        ],
+        "rows": [
+          [
+            "Protection appears to wane after 3 months",
+            "Higher cost"
+          ],
+          [
+            "Limited to those 32-24 weeks just before or during RSV season",
+            "Complicated re-imbursement in US based on VFC or commercial insurance"
+          ],
+          [
+            "2-3 other vaccines recommended during pregnancy (COVID-19, TDaP, and influenza during season",
+            "Need to determine maternal RSV vaccination history"
+          ],
+          [
+            "Ob providers have not traditionally been vaccinators",
+            ""
+          ],
+          [
+            "Unresolved issue of prematurity",
+            ""
+          ],
+          [
+            "Coverage of other pregnancy vaccines is still low",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "High cost, aerosol administration and potential toxicity limit use of aerosol ribavirin in HSCT patients.",
+        "Two antiviral drugs highly effective in adult volunteers but development on hold during Phase 2-3 trials (GS 5806; N Engl J Med 371(8):711, 2014, Lumicitabine N Engl J Med 373(21):2048, 2015). New agents in development.",
+        "New long acting monoclonal antibodies promise potential to reduce disease burden in healthy and high risk infants N Engl J Med 2022;386:837.",
+        "Vaccines reduced medically attended lower respiratory tract disease and severe RSV in adults > 65 years by 80% N Engl J Med. 2023 Feb 16;388(7):595-608. review in N Engl J Med. 2023 Feb 16;388(7):579.",
+        "Vaccination of pregnant women protects infants N Engl J Med 2023; 388(16):1451; JAMA. 2022 Dec 13;328(22):2201.",
+        "Reference: immunocompromised hosts (Clin Infect Dis 56:258, 2013).",
+        "Reference: adults (BMJ 2019 Sep 10;366:15021).",
+        "Review of new strategies for older adults, pregnant people and infants. (Lancet Infect Dis,2023; 23, Issue 1, January, Pages e2)."
+      ]
+    }
+  ]
+}

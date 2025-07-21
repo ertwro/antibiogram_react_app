@@ -1,0 +1,215 @@
+
+{
+  "documentMetadata": {
+    "title": "Erythema Migrans, Lyme Disease, Early",
+    "lastUpdated": "2024-04-12",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Erythema migrans, Lyme Disease, Early.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Erythema migrans skin lesions (70-80% of patients). Early manifestation of Lyme disease, a spirochetal tick borne illness. See Lyme Disease, Overview for other stages and syndromes.",
+        "Most common in the US between April and September in the Northeast, Middle Atlantic and North Central states. Rarely in Northern California and Oregon.",
+        "Skin lesions are usually homogeneous, not target-like, see Ann Intern Med 136:421, 2002."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For details on diagnostic methods see: Lyme Disease, Diagnosis and Emerging Infect Dis 22:1169, 2016.",
+        "Antibody tests often negative in early Lyme Disease; takes 4-6 weeks to develop antibody.",
+        "When one or more typical skin lesion of erythema migrans is present, no diagnostic testing is recommended"
+      ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Antibody testing indicated if:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Exposure to endemic area",
+                    "Risk factor(s) for tick exposure",
+                    "Signs of late disease (e.g., meningitis, nerve palsy, carditis, arthritis)"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Two-step testing of blood for specific antibodies"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Enzyme immunoassay (EIA) or immunofluorescence assay (IFA) followed by Western Blot (WB): if EIA or IFA is negative, no further testing is recommended."
+                ]
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Western blot diagnostic criteria (to be performed if EIA or IFA is positive):"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "IgM antibody - Need 2 of 3 positive of kilodaltons (KD): 23, 39, 41",
+                    "IgG antibody - Need 5 of 10 positive of KD: 18, 21, 28, 30, 39, 41, 45, 58, 66, 93"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "list",
+        "items": [
+            "Sensitivity of testing for IgM or IgG antibody is suboptimal during the first 2 weeks of disease"
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Second generation antibody assay: Antibody to C6; in high prevalence areas, need to look for co-infection with Babesia microti and/or Anaplasma phagocytophilum"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Less specific than full two-step test described above but, positive earlier in the infection",
+                    "Helpful in discriminating true vs false positive IgM immunoblot assay",
+                    "Better at detection of European Lyme disease due to B. garinii or B. afzellii",
+                    "Not yet part of official guidelines. References: Clin Infect Dis 57:333, 2013; Clin Infect Dis 57:341, 2013."
+                ]
+            }
+        ]
+    },
+    {
+        "type": "list",
+        "items": [
+            "May be able to detect organism by PCR on CSF or joint fluid.",
+            "Babesia diagnosis: visible on blood smears, serologic testing, or PCR",
+            "Anaplasma diagnosis: sensitivity of smears is poor, diagnosis by serology or PCR."
+        ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Borrelia burgdorferi spirochetes are among 5 Borrelia spp isolated from humans suspected of tick-borne illness in US (Clin Infect Dis 66: 1864, 2018)",
+        "Borrelia miyamotoi less common than B burgdorferi in surveys from New England and New York (Emerg Infect Dis 20: 1183, 2014)",
+        "Borrelia mayonii identified in Minnesota, Wisconsin, North Dakota; high spirochetemia, diffuse rash (Lancet Infect Dis 16: 556, 2016)",
+        "There are 5 or more species known to cause disease in Europe. Clinical symptoms vary.",
+        "Ixodes deer tick is the vector. Image is nymphal stage tick."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Comments regarding treatment considerations if dual infection, e.g., Lyme, anaplasma, babesia"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Adult"
+        },
+        "components": [
+          { "drug": "Doxycycline", "dose": "100 mg", "route": "po", "frequency": "bid", "durationDetail": { "fixedDuration": "10 days" } },
+          { "drug": "Amoxicillin", "dose": "500 mg", "route": "po", "frequency": "tid", "durationDetail": { "fixedDuration": "14 days" } },
+          { "drug": "Cefuroxime axetil", "dose": "500 mg", "route": "po", "frequency": "bid", "durationDetail": { "fixedDuration": "14 days" } }
+        ],
+        "notes": "Cephalexin is NOT effective"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Pediatric"
+        },
+        "components": [
+          { "drug": "Doxycycline", "dose": "4.4 mg/kg/day", "route": "po", "frequency": "divided q12h", "notes": "max of 200 mg per day. Considered safe regardless of age for up to 21 days (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)"},
+          { "drug": "Amoxicillin", "dose": "50 mg/kg/day", "route": "po", "frequency": "in 3 divided doses", "durationDetail": { "fixedDuration": "14-21 days" }, "connector": "or" },
+          { "drug": "Cefuroxime axetil", "dose": "30 mg/kg/day", "route": "po", "frequency": "in 2 divided doses", "durationDetail": { "fixedDuration": "14-21 days" }, "notes": "Cefuroxime suspension not available in the US, may be available in other markets." },
+          { "drug": "Azithromycin", "dose": "10 mg/kg per day", "route": "po", "durationDetail": { "fixedDuration": "7-10 days" } }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Azithromycin", "dose": "500 mg", "route": "po", "frequency": "once daily", "durationDetail": { "fixedDuration": "7 days" } }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+            "description": "Pregnancy"
+        },
+        "components": [
+          { "drug": "Amoxicillin", "dose": "500 mg", "route": "po", "frequency": "tid", "durationDetail": { "fixedDuration": "14 days" } }
+        ],
+        "notes": "avoid Doxycycline in pregnancy"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dual infection:",
+        "Doxycycline would also treat anaplasma (but not babesia) if dual infection present",
+        "Amoxicillin and Cefuroxime axetil would not be effective against concomitant Babesiosis or Granulocytic anaplasmosis.",
+        "2020 Clinical practice guidelines (Neurology 96:262, 2021) and (Clin Infect Dis 72:e1-e48, 2021)",
+        "Review in JAMA 315:1767 & 2461, 2016.",
+        "High rate of clinical failure reported with Azithromycin and Erythromycin, Drugs 57:157, 1999."
+      ]
+    }
+  ]
+}

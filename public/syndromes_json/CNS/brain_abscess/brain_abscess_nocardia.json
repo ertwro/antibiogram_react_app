@@ -1,0 +1,144 @@
+{
+  "documentMetadata": {
+    "title": "Brain Abscess, Nocardia",
+    "lastUpdated": "2024-09-16",
+    "sourceFile": "Brain Abscess, Nocardia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usually occurs in immunocompromised hosts, often with concomitant pulmonary infection or other evidence of disseminated disease.",
+        "May occur with meningitis and/or ventriculitis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Over 40 species of Nocardia have been identified in human infections (Clin Microbiol Rev. 2006; 19:259; Clin Microbiol Rev. 2022; 35:e0002721). The more common are listed below.",
+        "Nocardia nova complex",
+        "Nocardia farcinica",
+        "Nocardia cyriacigeorgica",
+        "Nocardia brasiliensis",
+        "Nocardia abscessus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider surgical drainage for larger absceses"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "(15 mg/kg/day TMP), (75 mg/kg/day SMX)",
+            "route": "IV/po",
+            "frequency": "divided in 2-4 doses"
+          },
+          {
+            "drug": "Imipenem-cilastatin",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If multiorgan involvement some add Amikacin 7.5 mg/kg q12h.",
+        "See Antimicrobial Stewardship for duration of therapy and oral step-down."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "route": "IV or po",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Comments for duration of therapy and oral stepdown."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Duration of treatment:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "After 3-6 weeks of IV therapy (prefer 6 weeks for immuncompromised patients, those with extensive disease), switch to po therapy.",
+            "Immunocompetent patients: TMP-SMX, Minocycline or Amoxicillin-clavulanate x 3 or more months (longer for meningitis, extensive disease).",
+            "Immunocompromised patients: Treat with 2 drugs for at least one year."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Susceptibility tested should be performed to guide therapy.",
+        "TMP-SMX remains a drug of choice for CNS nocardia infection",
+        "If organism is sulfonamide-resistant or patient is sulfa-allergic, use Amikacin plus one of Imipenem, Meropenem, Ceftriaxone.",
+        "N. farcinica is resistant to Ceftriaxone and it should not be used for treatment of infection caused by this organism."
+      ]
+    }
+  ]
+}

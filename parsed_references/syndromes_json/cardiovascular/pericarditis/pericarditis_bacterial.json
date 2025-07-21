@@ -1,0 +1,153 @@
+{
+  "documentMetadata": {
+    "title": "Pericarditis, Bacterial",
+    "lastUpdated": "2024-04-12",
+    "sourceFile": "Pericarditis, Bacterial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute febrile illness with signs and symptoms of pericarditis, with or without tamponade, including fever, chest pain, shortness of breath, signs of elevated venous pressure, tachycardia, hypotension.",
+        "Echocardiographic signs of pericardial effusion.",
+        "Purulent pericardial fluid.",
+        "Recommendations are for empiric therapy while culture and Gram strain results are pending."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Urgent pericardiocentesis to establish the diagnosis.",
+        "Send pericardial fluid for bacterial, fungal and mycobacterial cultures, obtain cultures of blood and send other specimens for culture as clinically indicated."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus (MSSA, MRSA)",
+        "Strep. pneumoniae",
+        "Streptococci",
+        "Neisseria meningitidis",
+        "Enterobacteriaceae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "or"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "as above"
+          },
+          {
+            "drug": "Daptomycin",
+            "dose": "10 mg/kg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "or"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po bid",
+            "connector": "+"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Aztreonam",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric use of vancomycin is recommended if local prevalence of MRSA is high; use Nafcillin, Oxacillin, or Cefazolin for confirmed MSSA infection.",
+        "Modify regimen and narrow coverage based on results of culture and susceptibility tests."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Drainage required in most cases; immediate drainage indicated if there is evidence of tamponade (see Eur Heart J 34:1186, 2013 for management of pericardial effusion).",
+        "Chronic restrictive pericarditis occurs in 20-30% of cases (Curr Opin Cardiol 27:308, 2012); this complication may be prevented by early intrapericardial fibrinolysis (Crit Care 15:220, 2011).",
+        "Review article: JAMA 314:1498, 2015.",
+        "See Eur Heart J 2015 ; 36:2921 for European guidelines."
+      ]
+    }
+  ]
+}

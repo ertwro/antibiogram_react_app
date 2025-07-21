@@ -1,0 +1,84 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Hospital-Acquired, Overview",
+    "sourceFile": "Pneumonia, Hospital-Acquired, Overview.pdf",
+    "lastUpdated": "2025-02-09"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Overview of treatment of pneumonia caused by hospital-acquired bacteria. Nosocomial pneumonia.",
+        "2016 IDSA Guidelines: (Clin Infect Dis 2016; 63:e61)",
+        "2017 European Guidelines: (Eur Respir J 2017; 50:1700582)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy",
+        "In general treat for 7-8 days",
+        "Whether a longer duration of therapy should be used for pneumonia caused by non-fermenting organisms (e.g., Pseudomonas aeruginosa) or multiple-drug resistant Gram-negatives continues to be debated (See Clin Infect Disease 2023; 76:745 and Clin Infect Dis 2023; 76:750).",
+        "Longer durations of therapy, e.g., 10-14 days, may be appropriate in certain circumstances:",
+        "Infections caused by more resistant pathogens (e.g., Pseudomonas, Acinetobacter, Stenotrophomonas, or other multidrug-resistant pathogens), particularly in patients with underlying ARDS or significant structural lung disease",
+        "Severely immunocompromised hosts (e.g. recent organ transplantation or treatment for rejection within 3 months, congenital immunodeficiency, etc).",
+        "Presence of complications such as bacteremia (e.g., MRSA or MSSA pneumonia with bacteremia probably should be treated for 4 weeks) or empyema.",
+        "Delayed improvement of clinical, radiologic, and/or laboratory parameters.",
+        "Empiric regimen of choice varies with institution or clinical setting depending upon local epidemiology, local susceptibility patterns, known prior colonization with multidrug-resistant (MDR) organisms, prior treatment history, severity of illness.",
+        "Improved outcome is associated with initial appropriate antibiotic treatment (i.e., at least one active agent); if MDR pathogens are suspected, initial coverage should be broad and then de-escalated once culture and susceptibility results become available."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Empiric Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gram-negative pneumonia in the ICU",
+            "Adult, out-patient/non-hospitalized",
+            "Adult, in-patient/hospitalized",
+            "Hospital-acquired pneumonia",
+            "Pneumonia, neutropenic patient",
+            "Ventilator associated pneumonia"
+          ]
+        },
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Specific Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Acinetobacter pneumonia",
+            "Klebsiella pneumonia",
+            "Legionella pneumonia",
+            "Pseudomonas pneumonia",
+            "Staph. aureus pneumonia",
+            "Stenotrophomonas pneumonia"
+          ]
+        }
+      ]
+    }
+  ]
+}

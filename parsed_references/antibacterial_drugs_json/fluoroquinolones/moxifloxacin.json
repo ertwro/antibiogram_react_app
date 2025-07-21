@@ -1,0 +1,77 @@
+{
+  "drug_name": "Moxifloxacin",
+  "tradename": "Avelox",
+  "usage_and_dosing": {
+    "general": [
+      "Moxifloxacin is a fluoroquinolone with enhanced activity against respiratory pathogens, including atypical organisms and S. pneumoniae. It is also active against many anaerobic bacteria.",
+      "Not active vs. P. aeruginosa.",
+      "FDA-approved for acute bacterial sinusitis, acute bacterial exacerbation of chronic bronchitis, community-acquired pneumonia, skin and skin structure infections, and complicated intra-abdominal infections.",
+      "For class-wide adverse effects, see Fluoroquinolones, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "400 mg po/IV q24h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "12",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "400 mg po/IV q24h",
+    "crcl_or_egfr": "No dosage adjustment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "For complete class-wide adverse effects see Fluoroquinolones, Overview and for QTc prolongation, see QTc Interval Prolongation.",
+    "Any of the fluoroquinolones may exacerbate muscle weakness in persons with myasthenia gravis."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "Short-term use safe, monitor infant for GI toxicity; avoid if possible.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (400 mg), Injection",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "90",
+    "tmax_hr": "1-2",
+    "peak_serum_conc_ug_ml": "3.1 (400 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "40-50",
+    "volume_of_distribution_vd_l_kg_vss": "1.7-2.7 L/kg (Vss)",
+    "avg_serum_half_life_hr": "12",
+    "elimination": "Hepatic (50%), renal (50%)",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "17-20",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "36.3 (400 mg po, 0-24h)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Mg)", "effect": "↓ moxifloxacin", "management": "Separate administration by 4 hours"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-administration"},
+      {"drug": "Calcium supplements", "effect": "↓ moxifloxacin", "management": "Separate administration by 4 hours"},
+      {"drug": "Didanosine", "effect": "↓ moxifloxacin", "management": "Separate administration by 4 hours"},
+      {"drug": "Iron supplements", "effect": "↓ moxifloxacin", "management": "Separate administration by 4 hours"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or avoid"},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Probenecid", "effect": "↑ moxifloxacin", "management": "Monitor or avoid"},
+      {"drug": "Sucralfate", "effect": "↓ moxifloxacin", "management": "Separate administration by 4 hours"},
+      {"drug": "Warfarin", "effect": "↑ INR", "management": "Monitor INR, adjust dosage"},
+      {"drug": "Zinc", "effect": "↓ moxifloxacin", "management": "Separate administration by 4 hours"}
+  ]
+}

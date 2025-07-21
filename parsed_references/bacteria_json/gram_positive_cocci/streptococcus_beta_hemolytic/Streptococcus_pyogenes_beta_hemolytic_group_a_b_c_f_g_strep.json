@@ -1,0 +1,522 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Streptococcus pyogenes",
+      "aliases": [
+        "Beta hemolytic Strep",
+        "Group A Strep",
+        "Group B Strep",
+        "Group C Strep",
+        "Group F Strep",
+        "Group G Strep"
+      ],
+      "lastUpdated": "2024-12-26",
+      "clsiCategory": "Streptococcus spp. Beta-Hemolytic Group",
+      "classification": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci",
+        "notes": [
+          "Beta-hemolytic streptococci include the following Groups: A - S. pyogenes, B - S. agalactiae, C - S. equi, F, G - S. dysgalactiae"
+        ]
+      },
+      "biochemicalTests": "Gram-positive cocci in chains, catalase –, beta-hemolytic, Bacitracin susceptible, PYR +, Lancefield Group A antigen +."
+    },
+    "clinicalProfile": {
+      "summary": "Identification of Streptococcus pyogenes (Group A Streptococcus) in culture or by positive rapid test in a patient with pharyngitis. Positive tissue or blood culture of other beta-hemolytic streptococci is also relevant.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pharyngitis"
+        },
+        {
+          "syndromeName": "Erysipelas"
+        },
+        {
+          "syndromeName": "Impetigo"
+        },
+        {
+          "syndromeName": "Necrotizing fasciitis"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Toxic shock syndrome"
+        }
+      ],
+      "prognosisNotes": [
+        "Post-infectious immune complications include acute rheumatic fever and acute glomerulonephritis."
+      ]
+    },
+    "resistanceProfile": {
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Increasing Macrolide Resistance",
+          "details": "There is increasing resistance to macrolide antibiotics."
+        },
+        {
+          "alertTitle": "Low Clindamycin Resistance",
+          "details": "Resistance to Clindamycin is <1% with standard testing."
+        }
+      ]
+    },
+    "treatment": {
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "fluoroquinolone",
+          "condition": "Bacteremia and TSS",
+          "reason": "high resistance rates or documented clinical failures."
+        },
+        {
+          "drugOrClass": "sulfonamide (including TMP/SMX)",
+          "condition": "Bacteremia and TSS",
+          "reason": "high resistance rates or documented clinical failures."
+        },
+        {
+          "drugOrClass": "doxycycline (or other tetracyclines)",
+          "condition": "Bacteremia and TSS",
+          "reason": "high resistance rates or documented clinical failures."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Group A Strep Pharyngitis",
+            "patientPopulation": [
+              "Adult"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G benzathine (Bicillin L-A)",
+                  "dose": "1.2 million units",
+                  "route": "IM",
+                  "frequency": "x one dose"
+                },
+                {
+                  "drugName": "Cephalexin",
+                  "dose": "500 mg",
+                  "route": "po",
+                  "frequency": "bid",
+                  "duration": "10 days"
+                },
+                {
+                  "drugName": "Azithromycin",
+                  "dose": "500 mg on day one, then 250 mg daily on days 2-5",
+                  "route": "po"
+                },
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "300 mg",
+                  "route": "po",
+                  "frequency": "tid",
+                  "duration": "10 days"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Group A Strep Pharyngitis",
+            "patientPopulation": [
+              "Child"
+            ]
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "Pen VK",
+                  "dose": "500 mg",
+                  "route": "po",
+                  "frequency": "bid",
+                  "duration": "10 days"
+                },
+                {
+                  "drugName": "Penicillin G benzathine combined with procaine penicillin G",
+                  "dose": "900,000 units of benzathine Pen G with 300,000 units of procaine penicillin G",
+                  "route": "IM",
+                  "frequency": "x one dose",
+                  "comments": "For Wt < 27 kg, to lessen pain"
+                },
+                {
+                  "drugName": "Amoxicillin suspension",
+                  "dose": "50 mg/kg/day",
+                  "route": "po",
+                  "frequency": "divided bid",
+                  "comments": "more palatable and may be more efficacious due to better absorption"
+                },
+                {
+                  "drugName": "Cephalexin",
+                  "dose": "25-50 mg/kg/day",
+                  "route": "po",
+                  "frequency": "in 2 equally divided doses",
+                  "duration": "10 days"
+                },
+                {
+                  "drugName": "Azithromycin",
+                  "dose": "12 mg/kg",
+                  "route": "po",
+                  "frequency": "once daily",
+                  "duration": "5 days"
+                },
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "7 mg/kg/dose",
+                  "route": "po",
+                  "frequency": "tid",
+                  "duration": "10 days",
+                  "comments": "wt < 70 kg"
+                },
+                {
+                  "drugName": "Pen VK",
+                  "dose": "25-50 mg/kg/day",
+                  "route": "po",
+                  "frequency": "div q6h",
+                  "duration": "10 days"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Erysipelas/Cellulitis"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "2-4 million units",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "until afebrile"
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin V-K",
+                      "dose": "500 mg",
+                      "route": "po",
+                      "frequency": "qid"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "notes": [
+                "If skin rash allergy: Ceftriaxone 1 gm IV q24h or Cefazolin 1 gm IV q8h"
+              ],
+              "condition": "Skin rash allergy"
+            },
+            {
+              "preference": "Alternative",
+              "notes": [
+                "If severe IgE-mediated allergy: Vancomycin 15 mg/kg IV q12h or Linezolid 600 mg IV/po bid; Clindamycin 600 mg IV q8h if no local resistance; Omadacycline"
+              ],
+              "condition": "Severe IgE-mediated allergy"
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "drugs": [
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "600-900 mg",
+                  "route": "IV",
+                  "frequency": "q8h"
+                },
+                {
+                  "drugName": "Penicillin G",
+                  "dose": "4 million units",
+                  "route": "IV",
+                  "frequency": "q4h"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "notes": [
+                "If no toxic shock and no in vitro resistance, Clindamycin alone is an option for penicillin allergy"
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Toxic Shock Syndrome"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "drugs": [
+                {
+                  "drugName": "Penicillin G",
+                  "dose": "4 million units",
+                  "route": "IV",
+                  "frequency": "q4h"
+                },
+                {
+                  "drugName": "Clindamycin",
+                  "dose": "600-900 mg",
+                  "route": "IV",
+                  "frequency": "q8h"
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "notes": [
+                "Ceftriaxone 2 gm IV q24h + Clindamycin 600-900 mg IV q8h (instead of Penicillin G + Clindamycin)"
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "notes": [
+                "If Clindamycin is not an option, combine Penicillin G with Linezolid 600 mg IV/po bid"
+              ]
+            }
+          ]
+        }
+      ],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "IVIG",
+          "condition": "Toxic Shock Syndrome",
+          "details": "Some add IVIG, 1 gm/kg on day 1, then 0.5 gm/kg on days 2 and 3"
+        }
+      ]
+    },
+    "additionalInformation": {
+      "drugSpecificPearls": [
+        {
+          "drugName": "TMP/SMX",
+          "pearl": "TMP/SMX 1-2 DS bid may be effective for uncomplicated cellulitis in out-patients without medical co-morbidities."
+        },
+        {
+          "drugName": "Fluoroquinolones",
+          "pearl": "Fluoroquinolones may be effective for uncomplicated skin infections but not for pharyngitis or invasive infection."
+        },
+        {
+          "drugName": "Clindamycin",
+          "pearl": "Clindamycin is felt to be superior to Penicillin because its antibacterial effect is not affected by inoculum size or the stage of bacterial growth."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "summaryOrNote": "Susceptibilities of non-Group A streptococci (Groups B, C, F, G) are similar to Group A, and treatment is also similar."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.356Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Streptococcus pyogenes"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Beta hemolytic Strep",
+        "Group A Strep",
+        "Group B Strep",
+        "Group C Strep",
+        "Group F Strep",
+        "Group G Strep"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-12-26"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci",
+        "notes": [
+          "Beta-hemolytic streptococci include the following Groups: A - S. pyogenes, B - S. agalactiae, C - S. equi, F, G - S. dysgalactiae"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Identification of Streptococcus pyogenes (Group A Streptococcus) in culture or by positive rapid test in a patient with pharyngitis. Positive tissue or blood culture of other beta-hemolytic streptococci is also relevant.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pharyngitis"
+        },
+        {
+          "syndromeName": "Erysipelas"
+        },
+        {
+          "syndromeName": "Impetigo"
+        },
+        {
+          "syndromeName": "Necrotizing fasciitis"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Toxic shock syndrome"
+        }
+      ],
+      "prognosisNotes": [
+        "Post-infectious immune complications include acute rheumatic fever and acute glomerulonephritis."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Increasing Macrolide Resistance",
+          "details": "There is increasing resistance to macrolide antibiotics."
+        },
+        {
+          "alertTitle": "Low Clindamycin Resistance",
+          "details": "Resistance to Clindamycin is <1% with standard testing."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Erysipelas/Cellulitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": []
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "2-4 million units",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "comments": "until afebrile",
+              "originalText": "Penicillin G 2-4 million units IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-1",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Erysipelas/Cellulitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": []
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin V-K",
+              "dose": "500 mg",
+              "route": "po",
+              "frequency": "qid",
+              "originalText": "Penicillin V-K 500 mg po qid"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

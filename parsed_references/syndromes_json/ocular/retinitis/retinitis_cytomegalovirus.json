@@ -1,0 +1,133 @@
+{
+  "documentMetadata": {
+    "title": "Cytomegalovirus (CMV) Retinitis",
+    "sourceFile": "syndromes/ocular/retinitis/Retinitis, Cytomegalovirus.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "CMV retinitis is a sight-threatening opportunistic infection caused by Cytomegalovirus, a member of the herpesvirus family. It occurs almost exclusively in severely immunocompromised individuals. Historically, it was a common AIDS-defining illness, typically seen in patients with a CD4 count below 50 cells/μL. It can also occur in other immunocompromised states, such as in transplant recipients or patients on high-dose chemotherapy."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Patients often present with painless floaters, blind spots (scotoma), or decreased peripheral or central vision. Unlike ARN, pain and photophobia are minimal because there is very little associated inflammation."
+        },
+        {
+          "key": "Classic Funduscopic Findings",
+          "value": "Indolent, full-thickness necrotizing retinitis with minimal vitritis. There are three main patterns: 1) Hemorrhagic (\"pizza pie\" or \"ketchup and cheese\"): large areas of necrosis and hemorrhage. 2) Granular: peripheral, less hemorrhagic lesions. 3) Frosted branch angiitis: sheathing of retinal vessels."
+        },
+        {
+          "key": "Progression",
+          "value": "If untreated, the retinitis follows the vasculature and progresses relentlessly, leading to total retinal destruction and blindness within months."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is made based on the characteristic appearance of the retinal lesions on dilated funduscopic examination in a patient with a known risk factor (i.e., severe immunosuppression). PCR of intraocular fluid can confirm the diagnosis but is rarely needed."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The goals of treatment are to halt viral replication, restore vision if possible, and prevent progression and retinal detachment. Management involves both systemic antiviral therapy and, in some cases, local therapy. For HIV-positive patients, the most important therapy is initiating or optimizing Antiretroviral Therapy (ART) to achieve immune reconstitution."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic Antiviral Therapy (Induction)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Standard of Care",
+            "appliesTo": {
+              "description": "Initial treatment for CMV retinitis"
+            },
+            "components": [
+              {
+                "drug": "Valganciclovir",
+                "dose": "900 mg twice daily",
+                "route": "PO"
+              },
+              {
+                "drug": "Ganciclovir",
+                "dose": "5 mg/kg every 12 hours",
+                "route": "IV",
+                "connector": "or"
+              },
+              {
+                "drug": "Foscarnet",
+                "dose": "90 mg/kg every 12 hours",
+                "route": "IV",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2-3 weeks (induction phase)"
+            },
+            "notes": "Oral valganciclovir is preferred for most patients. IV therapy is reserved for those who cannot take oral medication or have sight-threatening disease."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Local (Intravitreal) Therapy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Intravitreal Injections (Ganciclovir or Foscarnet)",
+            "indication": "Used as an adjunct to systemic therapy for immediate sight-threatening lesions (e.g., near the macula or optic nerve). Can also be used as primary therapy if systemic treatment is not tolerated."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Maintenance Therapy and Immune Reconstitution"
+        },
+        {
+          "type": "paragraph",
+          "text": "After the induction phase, patients are placed on a lower-dose maintenance therapy (e.g., Valganciclovir 900 mg daily). In HIV-positive patients, this maintenance therapy can be discontinued once their CD4 count has risen to >100-150 cells/μL for 3-6 months in response to ART, and their retinitis has been inactive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Immune Reconstitution Uveitis (IRU) can occur as the immune system recovers, causing an inflammatory reaction (e.g., vitritis, macular edema) in the previously infected eye. This is treated with corticosteroids."
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Acute Retinal Necrosis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Acute Retinal Necrosis"
+      }
+    }
+  ]
+}

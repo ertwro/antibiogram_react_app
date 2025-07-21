@@ -1,0 +1,100 @@
+{
+  "documentMetadata": {
+    "title": "Cellulitis, Erysipelas, Facial",
+    "sourceFile": "syndromes/head_and_neck/Cellulitis, Erysipelas_ Facial.pdf",
+    "lastUpdated": "2023-08-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sudden onset of rapidly spreading red edematous tender plaque-like skin on the face in an otherwise healthy host.",
+        "Staph. aureus erysipelas of the face can mimic streptococcal erysipelas of an extremity."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus sp. (Groups A, B, C, G)",
+        "Staph. aureus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Daptomycin",
+            "dose": "4 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "route": "po/IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If erysipelas-like on the face, must treat as if MRSA is present.",
+        "Usual duration of treatment is 7-10 days, longer if patient is bacteremic.",
+        "Very rarely, Streptococcus pneumoniae can cause a similar picture (would be covered by treatments recommended above); in children, Haemophilus influenzae can cause an erysipelas-like facial cellulitis (requires gram-negative coverage).",
+        "For full differential diagnosis of a red face (Clin Dermatol. 1993; 11:307)."
+      ]
+    }
+  ]
+}

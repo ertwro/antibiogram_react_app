@@ -1,0 +1,387 @@
+{
+  "documentMetadata": {
+    "title": "Bronchitis, Chronic with Acute Exacerbation",
+    "lastUpdated": "2025-01-05",
+    "sourceFile": "Bronchitis, Chronic with Acute Exacerbation.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antimicrobial therapy for acute bacterial exacerbation of chronic bronchitis (ABECB) in adults.",
+        "Almost always in smokers with chronic obstructive pulmonary disease (COPD).",
+        "Severe ABECB means increased dyspnea, increased sputum viscosity/purulence, increased sputum volume. NOTE: none of the three parameters can be quantified which confounds interpretation of clinical trials."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viruses (20-50%)",
+        "C. pneumoniae (5%)",
+        "M. pneumoniae (<1%)",
+        "Strep. pneumoniae, H. influenzae and M. catarrhalis",
+        "Tobacco use and air pollution are contributors"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "mild or moderate disease",
+          "criteria": [
+            {
+              "parameter": "severity",
+              "value": "mild to moderate"
+            }
+          ]
+        },
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Amoxicillin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "tid"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "TMP-SMX",
+            "dose": "1 DS tab",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          }
+        ],
+        "notes": "For mild or moderate disease, either no antimicrobial treatment or maybe"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "severe disease",
+          "criteria": [
+            {
+              "parameter": "severity",
+              "value": "severe"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "severe disease",
+          "criteria": [
+            {
+              "parameter": "severity",
+              "value": "severe"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "x1 then 250 mg q24h x4 days, OR 500 mg po q24h x3 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "severe disease",
+          "criteria": [
+            {
+              "parameter": "severity",
+              "value": "severe"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Clarithromycin",
+            "dose": "extended release 1000 mg",
+            "route": "po",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "severe disease",
+          "criteria": [
+            {
+              "parameter": "severity",
+              "value": "severe"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "q24h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Hospitalized patients, severe disease, High risk for Pseudomonas",
+          "criteria": [
+            {
+              "parameter": "setting",
+              "value": "hospitalized"
+            },
+            {
+              "parameter": "severity",
+              "value": "severe"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "High risk for Pseudomonas"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV/po",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Hospitalized patients, severe disease, High risk for Pseudomonas",
+          "criteria": [
+            {
+              "parameter": "setting",
+              "value": "hospitalized"
+            },
+            {
+              "parameter": "severity",
+              "value": "severe"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "High risk for Pseudomonas"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Hospitalized patients, severe disease, High risk for Pseudomonas",
+          "criteria": [
+            {
+              "parameter": "setting",
+              "value": "hospitalized"
+            },
+            {
+              "parameter": "severity",
+              "value": "severe"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "High risk for Pseudomonas"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV (over 4 hr)",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Hospitalized patients, severe disease, Low risk for Pseudomonas",
+          "criteria": [
+            {
+              "parameter": "setting",
+              "value": "hospitalized"
+            },
+            {
+              "parameter": "severity",
+              "value": "severe"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "Low risk for Pseudomonas"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV/po",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "IV/po",
+            "frequency": "q24h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Hospitalized patients, severe disease, Low risk for Pseudomonas",
+          "criteria": [
+            {
+              "parameter": "setting",
+              "value": "hospitalized"
+            },
+            {
+              "parameter": "severity",
+              "value": "severe"
+            },
+            {
+              "parameter": "risk factor",
+              "value": "Low risk for Pseudomonas"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cefaclor 500 mg po q8h or 500 mg extended release q12h",
+        "Cefdinir 300 mg po q12h or 600 mg po q24h",
+        "Cefditoren 400 mg po q12h",
+        "Cefpodoxime proxetil 200 mg po q12h",
+        "Cefprozil 500 mg po q12h",
+        "Ceftibuten 400 mg po q24h",
+        "Cefuroxime axetil 250 or 500 mg q12h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Limit duration of therapy to 5 days (Ann Intern Med 2021;174:822).",
+        "Cochrane review found similar efficacy for Azithromycin, Amoxicillin, and Amoxicillin-clavulanate with trend toward few side-effects with Azithromyin (Cochrane Database Syst Rev Mar 8;3:CD001954, 2015)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Discontinue tobacco use.",
+        "In selected COPD patients (i.e, history of smoking, continuous supplemental oxygen, systemic glucocorticoids within the previous year, recent emergency room or hospitalization for acute exacerbation of COPD), Azithromycin 250 mg daily for 1 year decreased the frequency of exacerbations from 1.83 to 1.48 per year, and improved quality of life but was associated with a small decrement in hearing in approximately 5% of subjects (N Engl J Med 365:689, 2011). Note: in some Asian countries the prevalence of azithromycin-resistant Strep. pneumoniae is close to 96% (J Clin Microbiol 1999;37:897) but there may be benefit from the anti-inflammatory action of azithromycin.",
+        "For severe ABECB, consider the following therapeutic adjuncts:a",
+        "Chest x-ray, especially if patient is febrile and/or has low O2 saturation.",
+        "Inhaled anticholinergic bronchodilator.",
+        "Oral corticosteroid; data indicates only need 5 days of therapy: JAMA 2013;309:2223.",
+        "Non-invasive positive pressure ventilation.",
+        "Levofloxacin and Moxifloxacin are usually active against penicillin-resistant strains of Strep. pneumoniae."
+      ]
+    }
+  ]
+}

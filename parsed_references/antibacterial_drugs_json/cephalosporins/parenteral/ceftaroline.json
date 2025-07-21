@@ -1,0 +1,91 @@
+{
+  "drug_name": "Ceftaroline",
+  "tradename": "Teflaro, Zinforo",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftaroline is a parenteral advanced-generation cephalosporin with avid binding to penicillin binding protein (PBP) 2a. Hence, Ceftaroline is active against MRSA and MRSE. Activity against enterococci is poor to moderate.",
+      "FDA approved (adults and children) for:",
+      "Skin and skin structure infections due to certain susceptible gram-positive and gram-negative microbes, including MRSA.",
+      "Community-acquired pneumonia (not MRSA).",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Active in vitro vs. HVISA, VISA, and VRSA.",
+      "Ceftaroline is inactivated by AmpC and extended-spectrum beta-lactamases (ESBLs).",
+      "Aerobic gram-negative bacilli are generally susceptible with the exception of P. aeruginosa. In vitro pattern of susceptibility of aerobic gram-negative bacilli is similar to Ceftriaxone.",
+      "Protocol for Ceftaroline desensitization.",
+      "For cross-allergenicity, see Drug Allergy: Penicillins, Cephalosporins, Overview.",
+      "Review: Clin Infect Dis 2011;52:1156."
+    ],
+    "adult_dose": {
+      "skin_skin_structure_infection_approved_dose": "600 mg IV (over 5-60 min) q12h x5-14 days",
+      "cap_approved_dose": "600 mg IV (over 5-60 min) q12h x5-7 days",
+      "other_uses_unapproved": [
+          "MRSA pneumonia",
+          "MRSA bacteremia",
+          "MRSA endocarditis",
+          "VRE endocarditis"
+      ]
+    },
+    "pediatric_dose": {
+      "age_0_to_lt_2_mon_skin_only": "6 mg/kg q8h (GA ≥34 wk, postnatal ≥12 days)",
+      "age_2_mon_to_lt_2_yrs": "8 mg/kg q8h",
+      "age_2_yrs_to_lt_18_yrs_le_33_kg": "12 mg/kg q8h",
+      "age_ge_2_yrs_to_lt_18_yrs_gt_33_kg": "400 mg q8h or 600 mg q12h",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2.7",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "600 mg IV q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 30-50: 400 mg q12h. CrCl 15-30: 300 mg q12h. CrCl <15: 200 mg q12h",
+    "hemodialysis": "200 mg q12h",
+    "capd": "No data",
+    "crrt": "70 kg pt, effluent flow rate 3 L/hr: 400 mg q12h 2",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": [
+    "As for all cephalosporins, there is risk of allergic reaction or development of C. difficile colitis.",
+    "Positive Coomb's test in 9.8% of patients without clinical hemolysis.",
+    "Nausea, diarrhea, rash developed in 2-5%.",
+    "Case report of eosinophilic pneumonia (Am J Health Syst Pharm 2014;71:403).",
+    "Retrospective study found reversible neutropenia in 21% of patients treated for ≥3 weeks (J Antimicrob Chemother 2016;71: 2010)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "21.3 (600 mg IV q12h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "20",
+    "volume_of_distribution_vd_l_vss": "20.3 L (Vss)",
+    "avg_serum_half_life_hr": "2.7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "<10",
+    "therapeutic_levels_in_csf": "Maybe (at high doses) 21",
+    "auc_ug_hr_ml": "56.3 (600 mg q12h, 0-12h)"
+  },
+  "major_drug_interactions": [
+    "No significant interactions."
+  ]
+}

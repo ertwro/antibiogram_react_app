@@ -1,0 +1,104 @@
+{
+  "drug_name": "Ertapenem",
+  "tradename": "Invanz",
+  "usage_and_dosing": {
+    "general": [
+      "Ertapenem is a carbapenem with a broad spectrum of activity against aerobic and anaerobic gram-negative bacilli. Unlike the other carbapenems, ertapenem has no activity against P. aeruginosa.",
+      "Of the licensed carbapenems, ertapenem is the most susceptible to carbapenemases produced by Klebsiella species and other aerobic gram-negative bacilli.",
+      "FDA-approved for treatment of community-acquired pneumonia, complicated urinary tract infections, pelvic infections, skin/skin structure infections and prophylaxis for colorectal surgery.",
+      "An alternative antibiotic for Antibacterial Drug Resistant Genotypes.",
+      "Can be given IM or IV. Lidocaine is diluent for ertapenem IM use; ask about lidocaine allergy."
+    ],
+    "adult_dose": {
+      "usual_dose": "1 gm IV/IM q24h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "30 mg/kg/day (divided q12h)",
+      "max_day": "1 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "4",
+    "half_life_esrd": ">4",
+    "dose_renal_function_normal": "1 gm IV q24h",
+    "crcl_or_egfr": "CrCl >30 mL/min/1.73 m²: No dosage adjustment. CrCl ≤30 mL/min/1.73 m²: 500 mg q24h",
+    "hemodialysis": "500 mg q24h (+150 mg AD if given ≤6 hr bef HD), OR 500 mg 3x/wk AD 6",
+    "capd": "500 mg q24h",
+    "crrt": "0.5-1 gm q24h",
+    "sled": "1 gm q24h 32"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": [
+    "GI: nausea/vomiting (3%), diarrhea (6%).",
+    "Increased LFTs (6%).",
+    "Headache (2%).",
+    "Hypersensitivity reactions: fever, rash, anaphylaxis. Reports of DRESS. For cross-allergenicity, see Carbapenems, Overview and Drug Allergy: Penicillins, Cephalosporins, Overview.",
+    "Positive Coombs (1%), neutropenia, eosinophilia.",
+    "Muscle weakness described.",
+    "Local phlebitis (4%). Hypersensitivity reaction to the lidocaine diluent is possible.",
+    "Neurotoxicity (e.g., seizures), especially in patients with renal impairment or predisposing conditions. Good review of 125 cases: Open Forum Infect Dis 2024;11(5):ofae214.",
+    "Visual hallucinations reported (N Zealand Med J 122:76, 2009)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Human data insufficient; nontoxic in animals. Considered safe for use in pregnant patients.",
+    "lactation": "Safe, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Bacteroides fragilis",
+      "E. coli, extended spectrum beta lactamase producer (ESBL)",
+      "Providencia sp."
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "154 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "95",
+    "volume_of_distribution_vd_l_kg_vss": "0.12 L/kg (Vss)",
+    "avg_serum_half_life_hr": "4",
+    "elimination": "Renal",
+    "bile_penetration_percent": "10",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "572.1 (1 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ ertapenem",
+          "management": "Monitor, adjust dosage"
+      },
+      {
+          "drug": "Valproic acid",
+          "effect": "↓ valproic acid",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

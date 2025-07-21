@@ -1,0 +1,156 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, Primary",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, Primary.pdf",
+    "lastUpdated": "2025-05-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Presence of syphilitic chancre (painless ulcer) often with regional lymphadenopathy (incubation 10-90 days)",
+        "Ulcers may be difficult to find in women or MSM.",
+        "2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021; European 2020 Syphilis Guidelines"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Initial serological testing may be negative; serology at 1, 2 and 6 weeks is needed to exclude the diagnosis",
+        "Darkfield, NAAT, or histopathology provide direct confirmation of the organism, are definitive, but often not available in clinical settings.",
+        "Treponemal tests turn positive earlier (5-15 days after chancre) than non treponemal tests (10-15 days) and usually remain positive.",
+        "Non treponemal tests [Venereal Disease Research Laboratory test (VDRL), the Rapid Plasma Reagin test (RPR) and the Toluidine Red Unheated Serum Test (TRUST)] roughly track disease activity and are used to track disease (4 fold reduction in titers after treatment)",
+        "If the clinical picture suspicious, empiric treatment is recommended."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Benzathine Penicillin G (Bicillin L-A)",
+            "dose": "2.4 million units",
+            "route": "IM",
+            "frequency": "x 1 dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Tetracycline",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "qid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1 gm",
+            "route": "IM/IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "though optimal dose and duration not well defined."
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "European 2020 Syphilis Guidelines recommend Procaine penicillin 600 000 units IM daily for 10-14 days if Benzathine not available.",
+        "Follow-up is mandatory.",
+        "In some countries, benzathine Penicillin G is not available and shortages are increasingly common.",
+        "Consider high dose Amoxicillin 3 gm/day with probenecid (750 mg/day) po given tid in divided doses x 2 weeks (early syphilis) x 4 weeks (late latent or unknown duration) based on Japanese experience in HIV-infected individuals (efficacy 95.5%, 273/286 patients; Clin Infect Dis 61:177, 2015).",
+        "Another alternative is Amoxicillin 1.5 g/day is better tolerated than above Amoxicillin/Probenicid combination with similar efficacy (94.9%) Sex Transm Infect 98:173 2022"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Azithromycin 2 gm po x 1 dose (equivalent to Benzathine Penicillin 2.4 M x 1 dose in early syphilis; J Infect Dis 201:1729, 2010) reported effective in some settings.",
+        "Azithromycin resistance emerging (Antimicrob Agents Chemother 54:583, 2010). Not a recommended treatment due to emerging resistance in 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Test all patients with syphilis for HIV and all HIV patients for syphilis.",
+        "With primary syphilis, 50% will be RPR seronegative at 12 months, 24% negative FTA/ABS at 2-3 yrs (Ann Intern Med 114:1005, 1991).",
+        "If titers fail to fall, examine CSF.",
+        "If CSF is positive, treat as neurosyphilis",
+        "If CSF is negative, retreat with Benzathine Penicillin G 2.4 million units. IM weekly x 3 weeks. Note: Do not use procaine penicillin.",
+        "Up to 15-20% of patients with early syphilis may be serofast with no change or only one tube dilution Lancet. 2017 389:1550. Data to support CSF examinations in those whose titers do not fall is weak, The most recent expert panel no longer recommends to examine CSF (2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021). Instead follow nontreptonemal tests (ideally same test) annually and neurological exams.",
+        "Syphilis references, JAMA 312:1905, 2014, Lancet Infect Dis 4:456, 2004; Lancet 2017 389:1550 and N Engl J Med. 2020;382:845",
+        "2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021; European 2020 Syphilis Guidelines",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022",
+        "For penicillin-allergy, see Parenteral Penicillin Desensitization."
+      ]
+    }
+  ]
+}

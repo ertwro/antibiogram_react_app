@@ -1,0 +1,393 @@
+{
+  "documentMetadata": {
+    "title": "Empyema, Neonatal",
+    "lastUpdated": "2023-09-11",
+    "sourceFile": "Empyema, Neonatal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neonatal pleural empyema (Age 0-1 month)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus (MSSA and MRSA)",
+        "Occasionally Group B strep",
+        "Rarely Streptococcus pneumoniae, Group A Strep",
+        "Consider iatrogenic chylous effusions in patients with heart surgery or mediastinitis in patients with tracheo-esophageal fistula (TEF)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Perform diagnostic thoracentesis; catheter or chest tube drainage for empyema."
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gestational age ≤34 weeks"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 0-7 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Nafcillin",
+                    "dose": "25 mg/kg",
+                    "route": "IV",
+                    "frequency": "q12h"
+                  },
+                  {
+                    "drug": "Oxacillin",
+                    "dose": "25 mg/kg",
+                    "route": "IV",
+                    "frequency": "q12h",
+                    "connector": "or"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MRSA",
+                "components": [
+                  {
+                    "drug": "Vancomycin",
+                    "dose": "60-80 mg/kg",
+                    "route": "IV",
+                    "frequency": "divided 3-4 times a day"
+                  }
+                ],
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)."
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 7-28 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Nafcillin",
+                    "dose": "25 mg/kg",
+                    "frequency": "q8h"
+                  },
+                  {
+                    "drug": "Oxacillin",
+                    "dose": "25 mg/kg",
+                    "frequency": "q8h",
+                    "connector": "or"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MRSA",
+                "components": [
+                  {
+                    "drug": "Vancomycin",
+                    "dose": "60-80 mg/kg",
+                    "route": "IV",
+                    "frequency": "divided 3-4 times a day"
+                  }
+                ],
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gestational age >34 weeks"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 0-7 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Nafcillin",
+                    "dose": "25 mg/kg",
+                    "route": "IV",
+                    "frequency": "q8h"
+                  },
+                  {
+                    "drug": "Oxacillin",
+                    "dose": "25 mg/kg",
+                    "route": "IV",
+                    "frequency": "q8h",
+                    "connector": "or"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MRSA",
+                "components": [
+                  {
+                    "drug": "Vancomycin",
+                    "dose": "60-80 mg/kg",
+                    "route": "IV",
+                    "frequency": "divided 3-4 times a day"
+                  }
+                ],
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)."
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 7-28 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Nafcillin",
+                    "dose": "37 mg/kg",
+                    "frequency": "q6h"
+                  },
+                  {
+                    "drug": "Oxacillin",
+                    "dose": "37 mg/kg",
+                    "frequency": "q6h",
+                    "connector": "or"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MRSA",
+                "components": [
+                  {
+                    "drug": "Vancomycin",
+                    "dose": "60-80 mg/kg",
+                    "route": "IV",
+                    "frequency": "divided 3-4 times a day"
+                  }
+                ],
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "type": "paragraph",
+        "text": "Note regarding Vancomycin dosing: Traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gestational age <32 wks"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 0-14 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Cefazolin",
+                    "dose": "50 mg/kg",
+                    "route": "IV",
+                    "frequency": "q12h"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 14-28 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Cefazolin",
+                    "dose": "50 mg/kg",
+                    "frequency": "q8h"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gestational age ≥32 weeks"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 0-7 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Cefazolin",
+                    "dose": "50 mg/kg",
+                    "route": "IV",
+                    "frequency": "q12h"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Age 7-28 days"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Cefazolin",
+                    "dose": "50 mg/kg",
+                    "frequency": "q8h"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cefazolin probably equivalent to nafcillin with fewer adverse events if CSF is normal",
+        "Narrow to Ampicillin +/- Gentamicin if Group B strep; Ampicillin if S. pneumoniae",
+        "Chlyothorax and transudates should not be mistaken for empyema. Cell counts, protein and culture can differentiate."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Empyema, Overview for general comments and references.",
+        "See also, Neonatal pneumonia."
+      ]
+    }
+  ]
+}

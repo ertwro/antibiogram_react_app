@@ -1,0 +1,82 @@
+{
+    "documentMetadata": {
+        "title": "Burns, Infected Wound",
+        "sourceFile": "Burns, Infected Wound.pdf",
+        "lastUpdated": "2024-11-01"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Infected burn wounds. Proposed standardized definition: J Burn Care Res 28:776, 2007.",
+                "For surgical debridement of infected necrotic tissue, application of skin grafts and/or skin substitutes, and /or topical medications. See JAMA 283:716, 2000; Clin Plastic Surg 36: 597, 2009.",
+                "Critically ill patient with suspected burn wound sepsis.",
+                "Ideal care is in dedicated burn unit.",
+                "Time line for likely pathogens (Clin Infect Dis 2017;65:2130)."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Streptococcus pyogenes",
+                "Enterobacter sp.",
+                "Staphylococcus aureus",
+                "Staphylococcus epidermidis",
+                "Enterococcus faecalis",
+                "Escherichia coli",
+                "Pseudomonas aeruginosa",
+                "Fungi (rare) (Clin.Infect.Dis. 2024; 79:682)",
+                "Herpes virus (rare)."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Quantitative wound cultures, blood cultures, and then empiric antimicrobial therapy",
+                "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 \u00b5g/mL + (Meropenem 1 gm IV q8h or Cefepime 2 gm IV q8h) + Fluconazole 400 mg IV once daily, if Candida infection suspected",
+                "Adjust any empirical regimen based on culture results."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "If allergic or intolerant to Vancomycin, could use Daptomycin, 6-12 mg/kg IV once daily",
+                "if IgE mediated allergy to beta-lactams, could use Aztreonam 2 gm IV q6h",
+                "If ESBL or carbapenemase producing MDR gram-negative bacillus:",
+                "See Highly-resistant Gram-negative Bacilli for details"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Other complications of concern in critically ill burn patient: S. aureus toxic shock syndrome (TSS), suppurative phlebitis, pneumonia.",
+                "Review: Initial burn management. N Engl J Med.20191, 380:2349"
+            ]
+        }
+    ]
+}

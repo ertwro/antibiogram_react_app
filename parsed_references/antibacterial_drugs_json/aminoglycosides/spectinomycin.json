@@ -1,0 +1,62 @@
+{
+  "drug_name": "Spectinomycin",
+  "tradename": "Trobicin",
+  "usage_and_dosing": {
+    "description": "Spectinomycin is an aminocyclitol used in treatment of acute gonococcal urethritis/cervicitis/proctitis. Not effective for pharyngeal gonorrhea. Available in Europe; distribution in the U.S. was discontinued in 2005.",
+    "adult_dose": [
+      {
+        "dose": "2 gm IM (in 5 mL) as a one-time dose."
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "1.5-2 hrs",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "2 gm IM x1",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "A single dose is well tolerated.",
+    "Occasionally observed: discomfort at injection site, rash, fever, nausea, headache, dizziness."
+  ],
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Neisseria gonorrhoeae"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": "1 hr",
+    "peak_serum_conc": "100 (2 gm IM, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "Low",
+    "volume_of_distribution": "No data",
+    "avg_serum_t1_2": "1.5-2 hr",
+    "elimination": "Renal",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "No data"
+  },
+  "major_drug_interactions": [
+    "None known"
+  ]
+}

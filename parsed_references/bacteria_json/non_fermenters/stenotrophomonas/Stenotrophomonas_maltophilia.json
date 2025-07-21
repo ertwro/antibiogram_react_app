@@ -1,0 +1,269 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Stenotrophomonas maltophilia",
+      "lastUpdated": "2025-05-06",
+      "clsiCategory": "Stenotrophomonas maltophilia",
+      "classification": {
+        "gramStain": "Gram negative",
+        "morphology": "bacilli",
+        "respiration": "",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative rod, oxidase –, catalase +, motile, non-lactose fermenter, oxidizes maltose strongly, DNase +, lysine decarboxylase +."
+    },
+    "clinicalProfile": {
+      "summary": "Stenotrophomonas maltophilia causes pneumonia, bacteremia, and other infections. Immunocompromised and/or debilitated patients are predisposed. It can also be an etiology of acute exacerbations in patients with cystic fibrosis.",
+      "highRiskPopulations": [
+        "Immunocompromised and/or debilitated patients",
+        "Patients with cystic fibrosis"
+      ],
+      "prognosisNotes": [
+        "There is no standard of care regimen. IDSA guidance suggests using combination therapy to prevent the emergence of resistance."
+      ]
+    },
+    "resistanceProfile": {
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "beta-lactams (penicillins, cephalosporins, aztreonam, and carbapenems)",
+          "notes": "due to chromosomal zinc-dependent metallo-beta-lactamase, production of ESBLs, and OXA-type beta-lactamase."
+        }
+      ],
+      "inVitroSusceptibility": {
+        "data": "From 1,839 clinical isolates: Trimethoprim-sulfamethoxazole 95.4%, Levofloxacin 78.0%, Minocycline 99.5%, Ceftazidime 20.9% (not recommended as monotherapy).",
+        "newer_agents": "Omadacycline, Eravacycline, and Cefiderocol are active in vitro but have limited or no clinical data."
+      }
+    },
+    "treatment": {
+      "generalNotes": [
+        "Therapy is almost always in response to a positive culture and is guided by in vitro susceptibility results."
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Mild infections and polymicrobial infections where S. maltophilia's role is unclear"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "TMP-SMX",
+                  "dose": "10-15 mg/kg/day",
+                  "route": "IV/po",
+                  "frequency": "q8h or q12h",
+                  "comments": "based on TMP component"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Uncomplicated cystitis"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "drugs": [
+                {
+                  "drugName": "TMP-SMX",
+                  "dose": "160/800 mg",
+                  "route": "po",
+                  "frequency": "q12h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Moderately severe or severe infections"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "notes": [
+                "Combination therapy with two of the following: TMP-SMX (10-15 mg/kg/d IV/po divided q8h or q12h), Levofloxacin (750 mg IV/po q24h), Minocycline (200 mg IV/po q12h), or Cefiderocol (2 g IV q8h infused over 3 hours)."
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "drugs": [
+                {
+                  "drugName": "Ceftazidime-avibactam",
+                  "dose": "2.5 gm",
+                  "route": "IV",
+                  "frequency": "q8h",
+                  "comments": "infused over 3h"
+                },
+                {
+                  "drugName": "Aztreonam",
+                  "dose": "2 gm",
+                  "route": "IV",
+                  "frequency": "q8h",
+                  "comments": "infused over 2h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Mild infections and polymicrobial infections where S. maltophilia's role is unclear"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "notes": [
+                "Monotherapy with TMP-SMX, Levofloxacin, Minocycline, or Cefiderocol."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "antimicrobialStewardship": [
+        "Depending on the severity of illness, source control, in vitro susceptibility, and clinical response, de-escalation to oral TMP-SMX or Minocycline can be considered after initial combination therapy."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Levofloxacin",
+          "pearl": "Observational evidence suggests levofloxacin is a reasonable alternative to TMP-SMX for bloodstream and lower respiratory tract infections."
+        },
+        {
+          "drugName": "Cefiderocol",
+          "pearl": "FDA-approved for complicated UTI with limited alternatives. In a trial, mortality was 24.8% for cefiderocol vs 18.4% for BAT (not statistically significant). It is active in vitro and in animal models against both TMP/SMX susceptible and resistant strains."
+        },
+        {
+          "drugName": "Polymyxins",
+          "pearl": "Most strains are susceptible to polymyxins in vitro, but they are rarely used due to toxicity. Polymyxin B should not be used for UTIs, while Colistin can be reserved for UTIs."
+        },
+        {
+          "drugName": "Tigecycline",
+          "pearl": "The FDA cites a higher risk of death with tigecycline compared to other antibacterials and recommends its use only when alternative therapy is not suitable."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.354Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Stenotrophomonas maltophilia"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases",
+        "aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-05-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram negative",
+        "morphology": "bacilli",
+        "respiration": "",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Stenotrophomonas maltophilia causes pneumonia, bacteremia, and other infections. Immunocompromised and/or debilitated patients are predisposed. It can also be an etiology of acute exacerbations in patients with cystic fibrosis.",
+      "highRiskPopulations": [
+        "Immunocompromised and/or debilitated patients",
+        "Patients with cystic fibrosis"
+      ],
+      "prognosisNotes": [
+        "There is no standard of care regimen. IDSA guidance suggests using combination therapy to prevent the emergence of resistance."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "beta-lactams (penicillins, cephalosporins, aztreonam, and carbapenems)",
+          "notes": "due to chromosomal zinc-dependent metallo-beta-lactamase, production of ESBLs, and OXA-type beta-lactamase."
+        }
+      ],
+      "inVitroSusceptibility": {
+        "data": "From 1,839 clinical isolates: Trimethoprim-sulfamethoxazole 95.4%, Levofloxacin 78.0%, Minocycline 99.5%, Ceftazidime 20.9% (not recommended as monotherapy).",
+        "newer_agents": "Omadacycline, Eravacycline, and Cefiderocol are active in vitro but have limited or no clinical data."
+      }
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

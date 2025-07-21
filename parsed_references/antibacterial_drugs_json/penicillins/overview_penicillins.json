@@ -1,0 +1,44 @@
+{
+  "drug_class_name": "Penicillins, Overview",
+  "introduction": [
+    "The drugs that comprise the penicillin category of antibiotics are listed below.",
+    "The penicillin chemical structure includes a beta-lactam ring, a thiazolidine ring, and an R-1 side chain.",
+    "The other categories of antibiotics that contain a beta-lactam ring are cephalosporins, carbapenems, and the monobactam (aztreonam).",
+    "See the links below for complete details for each penicillin-class drug."
+  ],
+  "drug_classes": {
+    "aminopenicillins": [
+      "Amoxicillin",
+      "Amoxicillin-clavulanate",
+      "Ampicillin",
+      "Ampicillin-sulbactam"
+    ],
+    "antipseudomonal_penicillins": [
+      "Piperacillin",
+      "Piperacillin-tazobactam"
+    ],
+    "antistaphylococcal_penicillins": [
+      "Cloxacillin",
+      "Dicloxacillin",
+      "Flucloxacillin",
+      "Nafcillin",
+      "Oxacillin"
+    ],
+    "natural_penicillins": [
+      "Penicillin G",
+      "Penicillin VK"
+    ],
+    "other_penicillins": [
+      "Temocillin"
+    ]
+  },
+  "related_topics_links": [
+    "Drug Allergy: Penicillins, Cephalosporins, Overview",
+    "Cephalosporins, Overview",
+    "Carbapenems, Overview",
+    "Aztreonam",
+    "Oral penicillin desensitization (Pen VK)",
+    "Parenteral penicillin desensitization (Pen G)",
+    "Ceftriaxone desensitization"
+  ]
+}

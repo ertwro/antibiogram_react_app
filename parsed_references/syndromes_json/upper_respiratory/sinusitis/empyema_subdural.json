@@ -1,0 +1,73 @@
+{
+  "documentMetadata": {
+    "title": "Empyema, Subdural",
+    "sourceFile": "Empyema, Subdural.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever, altered level of consciousness, focal neurologic deficits.",
+        "In adults, 60-90% of subdural empyemas are an extension of sinusitis or otitis media infection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viridans group streptococci",
+        "Staph. aureus",
+        "Streptococcus pneumoniae",
+        "Anaerobic bacteria",
+        "Aerobic gram-negative bacilli",
+        "Mixed infections common"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider surgical emergency: drain and culture the empyema",
+        "Empiric therapy: same as for brain abscess."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Adjust antimicrobial regimen based on results of culture and sensitivity; if cultures are no growth, continue broad coverage",
+        "Duration of therapy not established but a 4-6 week course of therapy is typically recommended.",
+        "For a review, see StatPearls 2023 Jan. 2023 Feb 12."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "documentMetadata": {
+    "title": "Gonorrhea: Urethritis, Cervicitis, Proctitis",
+    "sourceFile": "Gonorrhea_ Urethritis, Cervicitis, Proctitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "50% of patients with urethritis, cervicitis due to N. gonorrhoeae have concomitant C. trachomatis infection or vice versa; hence, treat for both unless NAAT indicates a single pathogen. See updated 2021 CDC guidelines for STD MMWR Recomm Rep 70 (RR-4):1 2021",
+        "The following classes of antimicrobials are no longer recommended due to high levels of resistance:",
+        "Fluoroquinolones are not recommended for treatment of gonococcal infections. See 2020 CDC gonorrhea guidelines MMWR 69:1911 2020",
+        "Oral cephalosporins are also no longer recommended due to high-level resistance (MMWR 61:590, 2012). For cephalosporin resistance in North America, see JAMA 309:163, 2013; JAMA 309:185, 2013.",
+        "The CDC no longer recommends dual therapy for gonococcal infections MMWR 69:1911 2020 (European guidelines still recommend dual treatment)",
+        "Ceftriaxone 500 mg IM x 1 dose (or if ≥150 kg or 300 lb treat with 1gm IM)",
+        "If concomitant C. trachomatis is not excluded treat with Doxycyline 100 bid x 7 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neisseria gonorrhoeae",
+        "Chlamydia trachomatis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nucleic acid amplification test (NAAT). NAAT FDA-approved for specimens from endocervix, vagina, male urethra, and male/female urine; also useful on pharyngeal and rectal swabs.",
+        "Do concomitant NAAT for C. trachomatis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "500 mg",
+            "route": "IM",
+            "duration": "1 dose",
+            "notes": "for gonorrhea (or if ≥ 150 kg or 300 lb treat with 1gm IM)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Doxycyline",
+            "dose": "100",
+            "frequency": "bid",
+            "duration": "7 days",
+            "notes": "for Chlamydia"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Alternative Regimens"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1gm",
+            "notes": "is effective for chlamydia but need 2 gm po for gonorrhea. Two grams are not routinely recommended in the US for monotherapy of gonorrhea due to Gl side-effects, expense and rapid emergence of resistance."
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Ceftizoxime",
+            "dose": "500 mg",
+            "route": "IM"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "500 mg",
+            "route": "IM",
+            "notes": "where available outside the US",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefoxitin",
+            "dose": "2 gm",
+            "route": "IM",
+            "connector": "or"
+          },
+          {
+            "drug": "Probenecid",
+            "dose": "1 gm",
+            "route": "po",
+            "connector": "+"
+          }
+        ],
+        "notes": "could substitute for ceftriaxone"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "notes": "Oral cephalosporins are no longer recommended unless ceftriaxone is not available; then consider Cefixime 800 mg po x 1 but with a test of cure (NAAT) roughly 14 days post-treatment."
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Other options (but cure rate for concomitant oro-pharyngeal gonorrhea is lower):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Spectinomycin",
+                "dose": "2 gm",
+                "route": "IM",
+                "duration": "1 dose"
+              }
+            ],
+            "notes": "Resistance can emerge rapidly."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Cefixime",
+                "dose": "800 mg",
+                "route": "PO",
+                "duration": "1 dose"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Options if patient fails treatment:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "500 mg",
+                "route": "IM",
+                "duration": "1 dose"
+              }
+            ],
+            "notes": "+ treat sex partners; NAAT test of cure 1-2 weeks-post treatment."
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Regimens used as salvage therapy or for patients allergic or intolerant to cephalosporins:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Gentamicin",
+                "dose": "240 mg IM (5 mg/kg if <45 kg)",
+                "duration": "1"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "2 gm po",
+                "duration": "1",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Gemifloxacin",
+                "dose": "320 mg po",
+                "duration": "1"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "2 gm po",
+                "duration": "1",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Results: Microbiologic cure in 100% of those given Gentamicin + Azithromycin and 98% of those given Gemifloxacin + Azithromycin. Responses included 25 patients with pharyngeal GC and 6 with rectal GC: Clin Infect Dis 59:1092, 2014."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Due to rapid emerging resistance of many organisms to macrolides with routine use, routine dual therapy of gonorrhea no longer recommended by CDC: MMWR 69:1911 2020",
+        "See CDC report on 2018 STI resistance patterns"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Screen all patients with gonococcal infections for syphilis and HIV.",
+        "Partners can be treated with Cefixime 800 mg po +/- Doxycycline 100 mg bid x 7 days if permitted by local laws",
+        "Experts recommend re-testing for C. trachomatis 3 months after treatment owing to frequent re-infection.",
+        "If pregnant and treating for Chlamydia, use Azithromycin 1gm po instead of doxycycline.",
+        "2020 CDC Guidelines for treatment of gonorrhea: MMWR 69:1911 2020 and updated 2021 CDC Guidelines for STD MMWR Recomm Rep 70 (RR-4):1 2021",
+        "2020 European Guidelines for treatment of gonorrhea: Int J STD & AIDS 2020",
+        "UK case report of high-level GC resistance to Azithromycin (MIC >512 µg/mL) with resistance to Ceftriaxone (Euro Surveill 23(27), 2018) that was treated with Ertapenem.",
+        "Both US and European guidelines significantly revised in 2020",
+        "European guidelines (Int J STD & AIDS 2020) recommend Ceftriaxone 1 gm IM + 2 gm Azithromycin OR Ceftriaxone 1gm IM with test of cure (US guidelines do not recommend test of cure except for pharyngeal gonorrhea).",
+        "Randomized control trials show Doxycycline 100 bid x 7 days superior to Azithromycin 2 gm x1 in MSM with rectal Chlamydia CID [Clin Inf Dis. 73: 824, 2021, NEJM 384:2418, 2021]",
+        "Rectum may the only site of Chlamydia infection and may not be associated with a history of anal intercourse Clin Infect Dis 74:S112 2022",
+        "Doxycycline 100 bid x 7 days superior to Azithromycin 2 gm x1 in men with symptomatic urogenital symptoms Clin Infect Dis 74:S112 2022",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S95 2022 (Gonorrhea) and Clin Infect Dis 74:S112 2022 (Chlamydia)"
+      ]
+    }
+  ]
+}

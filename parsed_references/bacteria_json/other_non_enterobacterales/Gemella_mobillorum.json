@@ -1,0 +1,417 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Gemella morbillorum",
+      "aliases": [],
+      "lastUpdated": "2021-08-31",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Cocci",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Often stains Gram-variable or Gram-negative",
+          "Resembles viridans streptococci but can be decolorized easily"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci that often stain Gram-variable or Gram-negative; facultative anaerobe, catalase –, PYR –, LAP +. Resembles viridans streptococci but can be differentiated by its variable Gram stain."
+    },
+    "clinicalProfile": {
+      "summary": "Gemella morbillorum is a commensal of the human upper respiratory and gastrointestinal tracts. It is an opportunistic pathogen that can cause serious infections such as endocarditis, meningitis, brain abscesses, and pleuropulmonary infections, particularly in immunocompromised hosts or those with underlying comorbidities.",
+      "pathophysiologyPearls": [
+        "Infections often arise from translocation from mucosal surfaces into the bloodstream.",
+        "Can be misidentified as viridans group streptococci, which may delay appropriate diagnosis."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Symptoms of endocarditis (e.g., new heart murmur, embolic events)",
+        "Focal neurological deficits (in CNS infections)",
+        "Productive cough, pleuritic chest pain (in pulmonary infections)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A significant manifestation, affecting both native and prosthetic valves."
+        },
+        {
+          "syndromeName": "Central Nervous System Infections",
+          "description": "Includes meningitis and brain abscesses."
+        },
+        {
+          "syndromeName": "Pleuropulmonary Infections",
+          "description": "Can cause pneumonia, empyema, and lung abscesses."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur without a clear focus of infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised patients",
+        "Patients with underlying cardiac disease",
+        "Individuals with poor dentition or recent dental procedures"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Sulfonamides",
+          "notes": "Generally resistant."
+        },
+        {
+          "drugOrClass": "Trimethoprim",
+          "notes": "Generally resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Generally susceptible to penicillins, cephalosporins, carbapenems, vancomycin, and clindamycin."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Serious Infections (e.g., Endocarditis, Bacteremia)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, sterile sites"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks (for endocarditis)",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "18-24 million units/day",
+                      "route": "IV",
+                      "frequency": "continuous infusion or divided q4h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "1 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Synergy for the first 2 weeks of therapy is often recommended for endocarditis."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks (for endocarditis)",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "For penicillin-allergic patients or resistant strains. Maintain trough 15-20 mcg/mL."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood cultures are essential for diagnosing bacteremia and endocarditis.",
+        "Culture of other sterile sites (e.g., CSF, abscess fluid) as clinically indicated."
+      ],
+      "methodologyNotes": [
+        "May be misidentified as viridans group streptococci or Abiotrophia/Granulicatella species.",
+        "Gram stain can be misleading (Gram-variable or Gram-negative)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Microbiology Reviews",
+          "citation": "Clin Microbiol Rev 2008; 21:494–512",
+          "summaryOrNote": "Comprehensive review of Gemella species."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.331Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Gemella morbillorum"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2021-08-31"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Cocci",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Often stains Gram-variable or Gram-negative",
+          "Resembles viridans streptococci but can be decolorized easily"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Gemella morbillorum is a commensal of the human upper respiratory and gastrointestinal tracts. It is an opportunistic pathogen that can cause serious infections such as endocarditis, meningitis, brain abscesses, and pleuropulmonary infections, particularly in immunocompromised hosts or those with underlying comorbidities.",
+      "pathophysiologyPearls": [
+        "Infections often arise from translocation from mucosal surfaces into the bloodstream.",
+        "Can be misidentified as viridans group streptococci, which may delay appropriate diagnosis."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Symptoms of endocarditis (e.g., new heart murmur, embolic events)",
+        "Focal neurological deficits (in CNS infections)",
+        "Productive cough, pleuritic chest pain (in pulmonary infections)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A significant manifestation, affecting both native and prosthetic valves."
+        },
+        {
+          "syndromeName": "Central Nervous System Infections",
+          "description": "Includes meningitis and brain abscesses."
+        },
+        {
+          "syndromeName": "Pleuropulmonary Infections",
+          "description": "Can cause pneumonia, empyema, and lung abscesses."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur without a clear focus of infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised patients",
+        "Patients with underlying cardiac disease",
+        "Individuals with poor dentition or recent dental procedures"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Sulfonamides",
+          "notes": "Generally resistant."
+        },
+        {
+          "drugOrClass": "Trimethoprim",
+          "notes": "Generally resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Endocarditis, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, sterile sites"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "18-24 million units/day",
+              "route": "IV",
+              "frequency": "continuous infusion or divided q4h",
+              "duration": "4-6 weeks (for endocarditis)",
+              "comments": "",
+              "originalText": "Penicillin G 18-24 million units/day IV continuous infusion or divided q4h"
+            },
+            {
+              "drugName": "Gentamicin",
+              "dose": "1 mg/kg",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "4-6 weeks (for endocarditis)",
+              "comments": "Synergy for the first 2 weeks of therapy is often recommended for endocarditis.",
+              "originalText": "Gentamicin 1 mg/kg IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infections (e.g., Endocarditis, Bacteremia)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, sterile sites"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "4-6 weeks (for endocarditis)",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 IV daily"
+            },
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "4-6 weeks (for endocarditis)",
+              "comments": "For penicillin-allergic patients or resistant strains. Maintain trough 15-20 mcg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood cultures are essential for diagnosing bacteremia and endocarditis.",
+        "Culture of other sterile sites (e.g., CSF, abscess fluid) as clinically indicated."
+      ],
+      "methodologyNotes": [
+        "May be misidentified as viridans group streptococci or Abiotrophia/Granulicatella species.",
+        "Gram stain can be misleading (Gram-variable or Gram-negative)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

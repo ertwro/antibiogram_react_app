@@ -1,0 +1,160 @@
+
+{
+  "drug_name": "Doxycycline",
+  "tradename": "Vibramycin, Doryx, Monodox, Adoxa, Periostat",
+  "drug_shortage_information": {
+    "prep": "oral suspension",
+    "started_at": null,
+    "notes": ""
+  },
+  "usage_and_dosing": {
+    "description": "Doxycycline, FDA approved in 1967, is a tetracycline antibiotic. The drug binds to the 30S ribosomal subunit and inhibits the binding of aminoacyl-tRNA to the A site. This prevents peptide chain elongation and inhibits protein synthesis. It is considered bacteriostatic.",
+    "clinical_uses": [
+      "Brucellosis",
+      "Cellulitis (suspected community-acquired MRSA)",
+      "Chlamydial urethritis, cervicitis",
+      "Cholera",
+      "Community-acquired pneumonia",
+      "Leptospirosis",
+      "Malaria",
+      "Plague",
+      "Q fever",
+      "Tick-borne diseases: Ehrlichiosis, Lyme, relapsing fever, tularemia, Rickettsiae spp."
+    ],
+    "notes": [
+      "Several mechanisms of resistance: change in ribosomal target (high level resistance), efflux pumps (low level resistance), porin closure (rare), and enzymatic alteration.",
+      "Two forms: hyclate and monohydrate. Both are equally effective. The monohydrate has reduced Gl side effects compared to the hyclate due to slower dissolution in the esophagus. However, it is not as bioavailable at higher pH as the other forms (could be an issue in patients on long term acid suppression).",
+      "Pediatric use. Use of tetracyclines in pediatric patients has historically been limited because of reports of permanent tooth discoloration in children age <8 years caused by incorporation of the drugs and their colored degradation products in enamel. Doxycycline binds less readily to calcium compared with other members of the tetracycline class, and recent comparative data suggest that doxycycline is not likely to cause visible teeth staining or enamel hypoplasia in children age <8 years. The American Academy of Pediatrics now recommends that doxycycline can safely be administered without regard to the patient's age or duration of therapy (AAP Red Book 2024-2027, Section 4).",
+      "Protocol for Doxycycline desensitization."
+    ],
+    "adult_dose": {
+      "usual_dose": "100 mg po/IV q12h"
+    },
+    "pediatric_dose": {
+      "dose": "2.2-4.4 mg/kg/day (divided q12h)",
+      "max_day": "200 mg"
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": "18",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "100 mg po/IV q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "ecmo": "See ECMO Drug Dosing Adjustment."
+  },
+  "adverse_effects": [
+    "Increased nausea on empty stomach. Erosive esophagitis, especially if taken orally at bedtime. Take with lots of water.",
+    "Photosensitivity and onycholysis occur, but less than with other tetracycline drugs. In the tropics, significance of the photosensitivity reaction is increased. Photosensitivity can persist for several days after the last dose",
+    "Permanent yellow-gray-brown discoloration of the teeth. Deposition in teeth less than with tetracycline (J Antimicrob Chemother 2017;72:2887). Can occur with exposure of fetus in pregnancy. Data from the US and Europe suggest that doxycycline is not likely to cause visible teeth staining or enamel hypoplasia in children <8 years. See Usage and Dosing for further details.",
+    "Blue subungual discoloration: Cureus 2020;12:e7810.",
+    "Can be used in patients with renal failure.",
+    "Less catabolic effect than tetracycline hydrochloride.",
+    "Other rare adverse effects:",
+    "Drug Rash with Eosinophilia and Systemic Symptoms (DRESS)",
+    "CNS: Light-headedness, dizziness, or vertigo",
+    "C.difficile infection with diarrhea",
+    "Intracranial hypertension"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in 2nd and 3rd TM due to risk of permanent teeth discoloration or inhibition of bone growth. No evidence of substantial teratogenic risk if used in 1st TM, but data insufficient to conclude no risk.",
+    "lactation": "Short-term use safe, monitor infant for Gl toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Arcanobacterium sp.",
+      "Bartonella hensalae, B. quintana",
+      "Borrelia burgdorferi",
+      "Chlamydia trachomatis",
+      "Chlamydophila psittaci, C. pneumoniae",
+      "Coxiella burnetii",
+      "Ehrlichia sp., Anaplasma sp.",
+      "Francisella tularensis",
+      "Klebsiella granulomatis (granuloma inguinale)",
+      "Leptospira sp.",
+      "Mycoplasma pneumoniae",
+      "Rickettsia rickettsii (RMSF)",
+      "Vibrio cholera, toxigenic",
+      "Vibrio parahemolyticus"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": {
+      "monohydrate": [
+        "Cap (50, 75, 100, 150 mg)",
+        "Tab (100, 150 mg)",
+        "Delayed-release cap (40 mg)",
+        "Oral susp (25 mg/5 mL)"
+      ],
+      "hyclate": [
+        "Cap (100 mg)",
+        "Tab (20, 50, 75, 100, 150 mg)",
+        "DR tab (50, 60, 75, 80, 100, 120, 150, 200 mg)",
+        "Injection"
+      ]
+    },
+    "food_recs": "Tab/cap/susp + food",
+    "oral_absorption": "90",
+    "tmax_hr": "2 (not DR)",
+    "peak_serum_conc": "1.5-2.1 (100 mg po, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": ">90",
+    "volume_of_distribution": "0.7 L/kg",
+    "avg_serum_t1_2": "18-24",
+    "elimination": "Biliary, renal",
+    "bile_penetration": "200-3200",
+    "csf_blood": "26",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "31.7 (100 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Aluminum, bismuth, iron, magnesium salts",
+      "effect": "↓ doxycycline absorption",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Barbiturates",
+      "effect": "↓ doxycycline",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Carbamazepine",
+      "effect": "↓ doxycycline",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Digoxin",
+      "effect": "↑ digoxin",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Phenytoin",
+      "effect": "↓ doxycycline",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Rifampin",
+      "effect": "↓ doxycycline (AAC 1994;38:2798)",
+      "suggestion": "Adjust"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ INR",
+      "suggestion": "Monitor"
+    }
+  ]
+}

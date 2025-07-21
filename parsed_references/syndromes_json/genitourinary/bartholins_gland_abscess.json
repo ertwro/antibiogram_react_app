@@ -1,0 +1,75 @@
+{
+  "documentMetadata": {
+    "title": "Bartholin's Gland Abscess",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Bartholin's Gland Abscess.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pain and swelling of labia major, perivaginally, typically unilateral",
+        "Erythema, + fluctulance, purulent drainage",
+        "Secondary to obstruction of Bartholin gland duct"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E. coli",
+        "Staphylococcus aureus",
+        "Streptococcal species",
+        "Sexually transmitted pathogens less common"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Word catheter or marsupialization preferred to needle aspiration or simple incision and drainage, which are not recommended due to high rates of recurrence",
+        "Success rate of about 50% with needle aspiration in one non-randomized prospective study (Eur J Obstet Gynecol Reprod Biol. 2022; 276:92)",
+        "Antimicrobial therapy not recommended unless concomitant infection.",
+        "If concomitant UTI, extensive cellulitis, sexually transmitted infection, or recurrent infection:",
+        "Amoxicillin-clavulanate 875/125 mg po bid x 5-7 days",
+        "TMP-SMX 160 mg/800 mg po bid x 5-7 days",
+        "See gonococcal infection and chlamydial infection for abscess associated with sexually transmitted infection (Am J Emerg Med. 2021; 44:323)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Review articles: American Family Physician. 2019; 99:760 and Prim Care. 2021; 48:569."
+      ]
+    }
+  ]
+}

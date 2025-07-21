@@ -1,0 +1,61 @@
+{
+  "documentMetadata": {
+    "title": "Typhus, Murine",
+    "sourceFile": "Typhus, Murine.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Murine (Endemic) Typhus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Murine typhus is caused by Rickettsia typhi and is transmitted by fleas, primarily the rat flea (Xenopsylla cheopis). It is a milder illness than epidemic typhus."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clinical presentation is similar to epidemic typhus but less severe. Symptoms include fever, headache, and rash. The rash is typically maculopapular and less extensive than in epidemic typhus."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is made by serology (IFA)."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Adults and children with murine typhus"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "PO",
+            "frequency": "twice daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-10 days"
+        }
+      }
+    }
+  ]
+}

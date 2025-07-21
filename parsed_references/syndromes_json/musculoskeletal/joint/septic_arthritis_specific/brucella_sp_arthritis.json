@@ -1,0 +1,221 @@
+{
+  "documentMetadata": {
+    "title": "Brucella sp. Arthritis",
+    "lastUpdated": "2023-10-10",
+    "sourceFile": "Brucella sp., Arthritis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Subacute or chronic presentation, often preceded by a flu-like illness. Most cases in the U.S. are imported.",
+        "History of animal exposure (e.g., veterinarian, farmer, butcher or others with contact to goats, cattle, pigs) or exposure to unpasteurized milk or milk products.",
+        "Sacroiliac joint involved in ~60% of cases, spondylodiscitis in ~40% (Intern Med 50:421, 2011).",
+        "See Brucella sp. for full disease spectrum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Joint fluid findings often non-specific and synovial fluid cultures sterile;"
+      ]
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Culture",
+        "notes": "Slow growing coccobacilli. Can culture from blood, bone marrow, or other body fluids. Sensitivity of culture varies with severity of illness and lab methods employed (15-70%). Inform lab personnel of possible brucella so as to protect technologists from exposure"
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Serology",
+        "notes": "Can detect elevated or rising titers of serum antibodies using a variety of techniques, e.g., serum agglutination, ELISA. Be sure to screen with serial dilutions of serum as prozone phenomena can occur."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Molecular tests (PCR)",
+        "notes": "are emerging; Sensitive and can detect organism within 10 days of onset"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Brucella abortus (cattle)",
+        "Brucella melitensis (goats)",
+        "Brucella suis (pigs)",
+        "Brucella canis (dogs)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Adult and child age ≥ 8 years"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "drug": "Rifampin",
+            "dose": "600-900 mg",
+            "route": "po",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "5 mg/kg",
+            "frequency": "once daily",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3 months"
+        },
+        "notes": "Gentamicin for first 7 days"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Adult and child age ≥ 8 years"
+        },
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "drug": "Rifampin",
+            "dose": "600-900 mg",
+            "route": "po",
+            "frequency": "once daily",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "minimum of 3 months"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Child age < 8 years"
+        },
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "5 mg/kg (TMP component)",
+            "route": "po",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "5 mg/kg",
+            "route": "IV/IM",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6 weeks"
+        },
+        "notes": "Gentamicin for 2 weeks"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Pregnancy"
+        },
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "1 DS tab (160 mg TMP component)",
+            "route": "po",
+            "frequency": "qid"
+          },
+          {
+            "drug": "Rifampin",
+            "dose": "600-900 mg",
+            "route": "po",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6 weeks"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy for osteomyelitis or spondylitis is 3 months."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Brucellosis is a reportable disease in many states and is listed as an agent of possible bioterrorism by CDC.",
+        "Refs: MMWR 61:461, 2012; PLoS One 7:e32090, 2012.",
+        "Spondylodiscitis case report. Ann Med Surg. 2022. 82: 104782"
+      ]
+    }
+  ]
+}

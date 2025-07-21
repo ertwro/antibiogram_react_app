@@ -1,0 +1,467 @@
+
+{
+  "drug_name": "Rifampin",
+  "tradename": "Rifadin, Rimactane, Rifocin, Rifamate, Rifater",
+  "usage_and_dosing": {
+    "description": "Rifampin is used clinically in the management of infections due to mycobacteria, Staph. aureus, Neisseria sp., Legionella sp. and other organisms.",
+    "notes": [
+      "Rifampin is often used in combination therapy both to achieve additive or synergistic antibacterial efficacy and to reduce the risk of development of resistance.",
+      "Rifampin is one of the Rifamycin class of antibiotics (Rifampin, Rifabutin, Rifapentine, Rifaximin). All drugs in the class have significant and important drug-drug interactions.",
+      "Caution: numerous drug interactions (see list below, not all-inclusive)."
+    ],
+    "adult_dose": {
+      "active_m_tuberculosis": [
+        "Rifampin 10 mg/kg/day po once daily (max 600 mg/day) (IV form is also available from Ben Venue Laboratories)",
+        "Rifamate Combination (300 mg Rifampin / 150 mg Isoniazid). Dose as 2 tabs once daily",
+        "Rifater Combination (50 mg Isoniazid / 120 mg Rifampin / 300 mg Pyrazinamide). Dose for wt >55 kg: 6 tabs once daily"
+      ],
+      "non_tuberculous_mycobacterial_infections": "Rifampin is used as part of multi-drug therapy: 10 mg/kg/day po once daily",
+      "m_leprae": [
+        "Multibacillary (Lepromatous): (Rifampin 600 mg + Clofazimine 50 mg + Dapsone 100 mg) po once daily",
+        "Paucibacillary (Tuberculoid): (Rifampin 600 mg + Dapsone 100 mg) po once daily",
+        "Single lesion: (Rifampin 600 mg + Ofloxacin 400 mg + Minocycline 100 mg) po x one dose (Lancet 353:655, 1999)"
+      ],
+      "staph_aureus": "Rifampin 600 mg po once daily (always in combination with other drugs). For risk benefit of adding Rifampin to standard therapy for the treatment of Staph. aureus native valve endocarditis: AAC 52:2463, 2008",
+      "h_influenzae_meningitis_prophylaxis": "Rifampin 600 mg po once daily x 4 days",
+      "n_meningitidis_meningitis_prophylaxis": "600 mg po q12h x 2 days",
+      "brucellosis": "Used as part of combination therapy for the treatment of brucellosis."
+    },
+    "pediatric_dose": {
+      "h_influenzae_prophylaxis": {
+        "dose": "20 mg/kg q24h x4 days",
+        "max": "600 mg"
+      },
+      "n_meningitidis_prophylaxis": {
+        "dose": "Age <1 mon: 5 mg/kg q12h x4 doses, Infants, children: 10 mg/kg q12h x4 doses",
+        "max": "600 mg"
+      },
+      "active_tb": {
+        "dose": "10-20 mg/kg/day (once daily)",
+        "max": "600 mg"
+      }
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "notes": [
+      "Dosage adjustment may be required in hepatic disease."
+    ],
+    "half_life_normal": "1.5-5",
+    "half_life_esrd": "up to 11",
+    "dose_renal_function_normal": "600 mg po q24h",
+    "dosing": [
+      {
+        "crcl": ">50",
+        "adjustment": "No dosage adjustment"
+      },
+      {
+        "crcl": "≤50",
+        "adjustment": "300-600 mg q24h"
+      },
+      {
+        "dialysis": "Hemodialysis",
+        "adjustment": "300-600 mg q24h"
+      },
+      {
+        "dialysis": "CAPD",
+        "adjustment": "300-600 mg q24h"
+      },
+      {
+        "dialysis": "CRRT",
+        "adjustment": "300-600 mg q24h"
+      },
+      {
+        "dialysis": "SLED",
+        "adjustment": "No data"
+      }
+    ]
+  },
+  "hepatic_adjustment": {
+    "note": "Some experts recommend reducing the dose in liver failure but no specific guidance is available. Monitor LFTs.",
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "obesity": "See Obesity Dosing Adjustments."
+  },
+  "adverse_effects": {
+    "effects": [
+      "Potentially hepatotoxic. Use with caution in patients with impaired liver function or in patients with history of, or ongoing, excessive use of alcohol.",
+      "If elevated bilirubin and/or substantive increase in liver-associated enzymes occurs, discontinue Rifampin therapy.",
+      "Many potential important drug-drug interactions.",
+      "Flu-like syndrome described with intermittent dosing regimens or intermittent non-compliance.",
+      "Red-orange discoloration of urine, feces, saliva, sweat, tears and CSF. Can permanently stain contact lenses.",
+      "Thrombocytopenia and vasculitis can occur (Ann Pharmacother 42:727, 2008). Documentation of drug-induced immune thrombocytopenia (J Thrombosis & Haemostasis 11:169, 2012)",
+      "Can cause interstitial nephritis."
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Humans: No well-controlled studies, does not appear to be teratogenic. Animals: Teratogenic in rodents, embryotoxic in rabbits.",
+    "lactation": "Probably safe, monitor infant for toxicity. Breast milk may be stained a yellow, orange, red, or brown color."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Cap (150, 300 mg) Injection",
+    "food_recs": "Cap no food",
+    "oral_absorption": "70-90",
+    "tmax_hr": "1.5-2.0",
+    "peak_serum_conc": "7 (600 mg po, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "80",
+    "volume_of_distribution": "0.65 L/kg",
+    "avg_serum_t1_2": "1.5-5.0",
+    "elimination": "Metabolism, biliary, fecal",
+    "bile_penetration": "10,000",
+    "csf_blood": "7-56",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc": "40-60 (600 mg po q24h, 0-24 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_substrate": [],
+    "transporters_substrate": [
+      "PGP",
+      "OATP1B1"
+    ],
+    "ugts_substrate": [],
+    "cyp450s_inhibited": [],
+    "transporters_inhibited": [
+      "OATP1B1"
+    ],
+    "ugts_inhibited": [],
+    "cyp450s_induced": [
+      "CYP1A2",
+      "CYP2B6",
+      "CYP2C8",
+      "CYP2C9",
+      "CYP2C19",
+      "CYP2D6 (weak)",
+      "CYP3A4"
+    ],
+    "transporters_induced": [
+      "PGP"
+    ],
+    "ugts_induced": [
+      "UGT1A1",
+      "UGT1A4"
+    ],
+    "impact_on_serum_drug_concentrations": "↓"
+  },
+  "major_drug_interactions": {
+    "note": "Rifampin has numerous drug interactions (Refs: Arch Intern Med 162:985, 2002, Clin Pharmocokinet 42:819, 2003).",
+    "interactions": [
+      {
+        "drug": "Amiodarone",
+        "effect": "↓ amiodarone",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Amitriptyline",
+        "effect": "↓ amitriptyline",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Antacids",
+        "effect": "↓ rifampin",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Atazanavir/r",
+        "effect": "↓ atazanavir, ↓ or ↑ rifampin",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Atovaquone",
+        "effect": "↑ rifampin, ↓ atovaquone",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Caspofungin",
+        "effect": "↓ caspofungin",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Chlorpropamide",
+        "effect": "↓ chlorpropamide",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Citalopram",
+        "effect": "↓ citalopram",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Clarithromycin",
+        "effect": "↑ rifampin, ↓ clarithromycin",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Clindamycin",
+        "effect": "↓ clindamycin (J Infect 2015;71:200)",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Cyclosporine",
+        "effect": "↑ rifampin, ↓ cyclosporine",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Dapsone",
+        "effect": "↓ dapsone",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Darunavir/r",
+        "effect": "↓ darunavir, ↓ or ↑ rifampin",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Desipramine",
+        "effect": "↓ desipramine",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Dexamethasone",
+        "effect": "↓ rifampin, ↓ dexamethasone",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Diazepam",
+        "effect": "↓ diazepam",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Digoxin",
+        "effect": "↓ digoxin",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Dihydroartemisinin-piperaquine",
+        "effect": "↓ PPQ, ↓ DHA",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Diltiazem",
+        "effect": "↑ rifampin, ↓ diltiazem",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Disopyramide",
+        "effect": "↓ disopyramide",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Divalproex",
+        "effect": "↓ valproic acid (Ment Health Clin 2021;11:19)",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Doxycycline",
+        "effect": "↓ doxycycline (AAC 1994;38:2798)",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Efavirenz",
+        "effect": "↓ efavirenz",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Ethinyl estradiol",
+        "effect": "↓ ethinyl estradiol",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Etravirine",
+        "effect": "↓ etravirine",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Fexinidazole",
+        "effect": "↑ M1, M2 (fexinidazole) metabolites",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Fluconazole",
+        "effect": "↓ fluconazole",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Fluvastatin",
+        "effect": "↓ fluvastatin",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Fusidic acid",
+        "effect": "↓ fusidic acid, ↑ rifampin",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Haloperidol",
+        "effect": "↓ haloperidol",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Ibrexafungerp",
+        "effect": "↓ ibrexafungerp",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Imipramine",
+        "effect": "↓ imipramine",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Isavuconazonium",
+        "effect": "↓ isavuconazole, ↑ rifampin",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Itraconazole",
+        "effect": "↓ itraconazole, ↑ rifampin",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Lamotrigine",
+        "effect": "↓ lamotrigine (Br J Clin Pharmacol 2019;85:1859)",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Lenacapavir",
+        "effect": "↓ lenacapavir",
+        "suggestion": "Co-administration contraindicated"
+      },
+      {
+        "drug": "Letermovir",
+        "effect": "↓ letermovir",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Linezolid",
+        "effect": "↓ linezolid",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Lorlatinib",
+        "effect": "↓ lorlatinib, hepatotoxicity",
+        "suggestion": "Co-administration contraindicated"
+      },
+      {
+        "drug": "Maribavir",
+        "effect": "↓ maribavir",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Methadone",
+        "effect": "↓ methadone",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Metoprolol",
+        "effect": "↓ metoprolol",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Moxifloxacin",
+        "effect": "↓ moxifloxacin",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Nifedipine",
+        "effect": "↓ nifedipine",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Nirmatrelvir/RTV",
+        "effect": "↓ nirmatrelvir or ↓ ritonavir",
+        "suggestion": "Co-administration contraindicated"
+      },
+      {
+        "drug": "Nortriptyline",
+        "effect": "↓ nortriptyline",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Phenytoin",
+        "effect": "↓ phenytoin",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Posaconazole",
+        "effect": "↓ posaconazole, ↑ rifampin",
+        "suggestion": "Adjust"
+      },
+      {
+        "drug": "Prednisone",
+        "effect": "↓ prednisone",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Propranolol",
+        "effect": "↓ propranolol",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Quinidine",
+        "effect": "↑ rifampin, ↓ quinidine",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Raltegravir",
+        "effect": "↓ raltegravir",
+        "suggestion": "Use Rifabutin"
+      },
+      {
+        "drug": "Rilpivirine",
+        "effect": "↓ rilpivirine",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Risperidone",
+        "effect": "↓ risperidone",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Tacrolimus",
+        "effect": "↑ rifampin, ↓ tacrolimus",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Theophylline",
+        "effect": "↓ theophylline",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Triazolam",
+        "effect": "↓ triazolam",
+        "suggestion": "Monitor"
+      },
+      {
+        "drug": "Voriconazole",
+        "effect": "↓ voriconazole",
+        "suggestion": "Co-administration contraindicated"
+      },
+      {
+        "drug": "Warfarin",
+        "effect": "↓ warfarin",.
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Zanubrutinib",
+        "effect": "↓ zanubrutinib (Cancer Chemother Pharmacol 2020;85:391)",
+        "suggestion": "Avoid"
+      },
+      {
+        "drug": "Zidovudine",
+        "effect": "↓ zidovudine",
+        "suggestion": "Avoid"
+      }
+    ]
+  },
+  "comments": {
+    "resistance": "Resistance can develop quickly due to single step mutations within the rpoB gene of the RNA polymerase."
+  }
+}

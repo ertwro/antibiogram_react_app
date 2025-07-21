@@ -1,0 +1,534 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus lugdunensis",
+      "aliases": [
+        "Coagulase-negative staphylococcus"
+      ],
+      "lastUpdated": "2024-03-27",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci, catalase +, coagulase – (slide test) but may be positive (tube test), PYR +, ornithine decarboxylase +."
+    },
+    "clinicalProfile": {
+      "summary": "A coagulase-negative species, but the severity of infection resembles that of Staph. aureus. It can cause endocarditis, vascular catheter-related bloodstream infections, and bone, joint, skin, and soft-tissue infections.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Infection of the heart valves, can be aggressive."
+        },
+        {
+          "syndromeName": "Catheter-Related Bloodstream Infection",
+          "description": "Infection associated with vascular catheters."
+        },
+        {
+          "syndromeName": "Bone and Joint Infections",
+          "description": "Includes osteomyelitis and septic arthritis."
+        },
+        {
+          "syndromeName": "Skin and Soft-Tissue Infections",
+          "description": "Can cause abscesses and other skin infections."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Increasing Methicillin Resistance",
+          "details": "The prevalence of methicillin resistance has historically been low (~5%) but may be increasing."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment is similar to that for S. aureus infections; the duration of therapy is determined by the severity and site of infection.",
+        "Approximately 75% of strains are penicillin-susceptible."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Rifampin + Gentamicin",
+          "condition": "Prosthetic valve endocarditis",
+          "details": "Often added to primary therapy."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Serious Infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Varies"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Oxacillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "For methicillin-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Nafcillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "For methicillin-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "2 million units",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": "If beta-lactamase negative strain."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "For methicillin-resistant strains or severe beta-lactam allergy. Target AUC24 400-600 µg/mL x hr or trough of 15-20 µg/mL."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "10 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "For methicillin-resistant strains or severe beta-lactam allergy."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "For methicillin-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "May be confused with Staph. aureus because its clumping factor reacts with the latex agglutination test used for Staph. aureus identification."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Journal of Clinical Microbiology",
+          "citation": "J Clin Microbiol. 2017 Feb 55(2):585-595",
+          "summaryOrNote": "Review article."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.350Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus lugdunensis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Coagulase-negative staphylococcus"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-03-27"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "A coagulase-negative species, but the severity of infection resembles that of Staph. aureus. It can cause endocarditis, vascular catheter-related bloodstream infections, and bone, joint, skin, and soft-tissue infections.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Infection of the heart valves, can be aggressive."
+        },
+        {
+          "syndromeName": "Catheter-Related Bloodstream Infection",
+          "description": "Infection associated with vascular catheters."
+        },
+        {
+          "syndromeName": "Bone and Joint Infections",
+          "description": "Includes osteomyelitis and septic arthritis."
+        },
+        {
+          "syndromeName": "Skin and Soft-Tissue Infections",
+          "description": "Can cause abscesses and other skin infections."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Increasing Methicillin Resistance",
+          "details": "The prevalence of methicillin resistance has historically been low (~5%) but may be increasing."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Oxacillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "",
+              "comments": "For methicillin-susceptible strains.",
+              "originalText": "Oxacillin 2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nafcillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "",
+              "comments": "For methicillin-susceptible strains.",
+              "originalText": "Nafcillin 2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "2 million units",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "",
+              "comments": "If beta-lactamase negative strain.",
+              "originalText": "Penicillin G 2 million units IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "",
+              "comments": "For methicillin-resistant strains or severe beta-lactam allergy. Target AUC24 400-600 µg/mL x hr or trough of 15-20 µg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "10 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "",
+              "comments": "For methicillin-resistant strains or severe beta-lactam allergy.",
+              "originalText": "Daptomycin 10 mg/kg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "For methicillin-susceptible strains.",
+              "originalText": "Cefazolin 2 gm IV q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "May be confused with Staph. aureus because its clumping factor reacts with the latex agglutination test used for Staph. aureus identification."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

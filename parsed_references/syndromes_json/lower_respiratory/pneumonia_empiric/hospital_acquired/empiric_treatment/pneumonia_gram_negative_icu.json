@@ -1,0 +1,296 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Gram-negative, ICU",
+    "lastUpdated": "2025-01-06",
+    "sourceFile": "Pneumonia, Gram-negative, ICU.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric coverage for pneumonia due to aerobic gram-negative bacilli (e.g., Gram-negative bacilli seen on Gram stain)",
+        "Risk factors: alcohol use disorder with necrotizing pneumonia, underlying chronic bronchiectasis (e.g., cystic fibrosis), chronic tracheostomy, mechanical ventilation, febrile neutropenia and pulmonary infiltrates, septic shock, underlying malignancy, or organ failure."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Klebsiella pneumoniae",
+        "E. coli, other Gram-negative enteric organisms",
+        "Acinetobacter baumannii",
+        "P. aeruginosa"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "community-acquired infections",
+          "criteria": [
+            {
+              "parameter": "acquisition",
+              "value": "community-acquired"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "community-acquired infections",
+          "criteria": [
+            {
+              "parameter": "acquisition",
+              "value": "community-acquired"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Ceftaroline",
+            "dose": "600 mg",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "community-acquired infections",
+          "criteria": [
+            {
+              "parameter": "acquisition",
+              "value": "community-acquired"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV (over 4 hr)",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "community-acquired infections",
+          "criteria": [
+            {
+              "parameter": "acquisition",
+              "value": "community-acquired"
+            }
+          ]
+        },
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po/IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "or"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "known or suspected Pseudomonas aeruginosa (double coverage, at least initially) or possibility of infection with multiple-drug resistant organisms",
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV [over 4 hr]",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "1 gm",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "known or suspected Pseudomonas aeruginosa (double coverage, at least initially) or possibility of infection with multiple-drug resistant organisms",
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV [over 4 hr]",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "1 gm",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Tobramycin",
+            "dose": "5 mg/kg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Acinetobacter pneumonia for specific recommendations.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Acinetobacter pneumonia"
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Pneumonia, Ventilator-associated and Pneumonia, Hospital-acquired for guidance in treatment of these infection",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Pneumonia, Ventilator-associated and Pneumonia, Hospital-acquired"
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Resistant Gram-negative Bacilli for treatment options for these organisms.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Resistant Gram-negative Bacilli"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "severe IgE-mediated beta-lactam allergy",
+        "components": [
+          {
+            "drug": "Aztreonam",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q6h"
+          }
+        ],
+        "notes": "can substitute Aztreonam 2 gm IV q6h for Cefepime, Piperacillin-tazobactam, or Meropenem."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "De-escalate and tailor regimen based on results of culture and sensitivity.",
+        "Avoid aminoglycoside monotherapy.",
+        "Monotherapy selected on the basis of in vitro susceptibility test results is as efficacious as combination therapy.",
+        "IDSA Guidelines recommend combination therapy for pneumonia caused by Pseudomonas aeruginosa in patients who are in septic shock or have risk factors for high mortality (weak recommendation, very low quality evidence).",
+        "Patient can be switched to oral therapy when clinically stable. improvina clinically. and able to take oral medications.",
+        "Duration of therapy for CAP is determined by clinical response:",
+        "Patient afebrile for 48-72h + resolution of CAP-associated clinical instability.",
+        "5-7 days of therapy usually effective for CAP, longer in more complicated cases.",
+        "8 days of therapy in ventilator-associated cases as effective as 15 days (see 2016 IDSA Practice Guidelines for hospital-acquired and ventilator-associated pneumonia: Clin Infect Dis2016 Sep 1;63(5):e61-e111)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    }
+  ]
+}

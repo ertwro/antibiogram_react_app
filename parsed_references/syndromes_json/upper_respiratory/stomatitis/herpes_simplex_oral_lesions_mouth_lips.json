@@ -1,0 +1,57 @@
+{
+  "name": "Herpes Simplex, Oral Lesions (Mouth, Lips)",
+  "general_information": "Mucocutaneous Herpes Simplex Virus (HSV) infection, also known as oral labial HSV infection. It can manifest as gingivostomatitis or stomatitis, which is a vesicular infection of the mouth (usually anterior) and lips. The lesions are often referred to as fever blisters. They can be painful, more severe, and recurrent in immunocompromised hosts. Treatment is most effective when started during the prodromal phase (tingling/burning sensation) before lesions appear.",
+  "presenting_symptoms": "Vesicular lesions on the mouth and lips, often preceded by symptoms of tingling or burning.",
+  "diagnostic_tests": "Diagnosis is typically made based on clinical presentation.",
+  "common_pathogens": [
+    "Herpes simplex virus (HSV) (Types 1, 2)"
+  ],
+  "treatment_guidelines": {
+    "antiviral_therapy": {
+      "primary_regimens": {
+        "oral": [
+          {
+            "drug": "Valacyclovir",
+            "dosage": "2 gm po q12h x 1 day",
+            "notes": "See comment for dosing reference."
+          },
+          {
+            "drug": "Acyclovir",
+            "dosage": "400 mg po tid x 5 days"
+          },
+          {
+            "drug": "Famciclovir",
+            "dosage": "500 mg po bid x 7 days",
+            "notes": "FDA-approved for HIV patients only."
+          }
+        ]
+      },
+      "alternative_regimens": {
+        "oral_prodrome": [
+          {
+            "drug": "Famciclovir",
+            "dosage": "1500 mg one dose or 750 mg q12h x 1 day",
+            "notes": "To be taken at the first sign of a prodrome."
+          }
+        ],
+        "topical": [
+          {
+            "drug": "Penciclovir",
+            "dosage": "1% cream q2h during day x 4 days",
+            "notes": "Less preferred."
+          },
+          {
+            "drug": "Acyclovir",
+            "dosage": "5% cream 6x/day (q3h) x 7 days",
+            "notes": "Approved for HIV patients only. Less preferred."
+          }
+        ]
+      }
+    }
+  },
+  "comments": "A meta-analysis found Valacyclovir to be more effective overall for symptom reduction. Oral regimens are generally shorter course (Valacyclovir 1 day, Famciclovir 2 days) compared to topical regimens (Penciclovir 1 day, Acyclovir 0.5 day).",
+  "references": [
+    "J Amer Acad Dermatol 55:47, 2006",
+    "J Oral Path Med 46:561, 2017"
+  ]
+}

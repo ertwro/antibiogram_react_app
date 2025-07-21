@@ -1,0 +1,106 @@
+{
+  "drug_name": "Cefuroxime axetil",
+  "tradename": "Ceftin, Zinacef",
+  "usage_and_dosing": {
+    "general": [
+      "Cefuroxime axetil is a second generation oral cephalosporin with enhanced activity against H. influenzae (as compared to 1st generation oral cephalosporins). It retains activity against MSSA, Penicillin-sensitive Strep. pneumoniae, E. coli, P. mirabilis and Klebsiella sp.",
+      "Cefuroxime axetil is used to treat bacterial bronchitis, Strep. pyogenes skin infections, Lyme disease and other infections.",
+      "For class-wide adverse effects, see Cephalosporins, Overview.",
+      "For parenteral form of drug, see Cefuroxime.",
+      "NOTE: Suspension formulation not available in the US. May be available in other markets."
+    ],
+    "adult_dose": {
+      "usual_dose": "250-500 mg po q12h",
+      "note": "tablets and oral suspension are not bioequivalent. Do not substitute on a mg/mg basis."
+    },
+    "pediatric_dose": {
+      "pharyngitis": "20 mg/kg/day (div q12h)",
+      "aom_abs_impetigo": "30 mg/kg/day (div q12h)",
+      "max_day": "1 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.5",
+    "half_life_esrd": "17",
+    "dose_renal_function_normal": "250-500 mg po q12h",
+    "crcl_or_egfr": "CrCl ≥30: No dosage adjustment. CrCl 10-29: 250-500 mg q24h. CrCl <10: 250-500 mg q48h",
+    "hemodialysis": "250-500 mg q48h (give extra 250-500 mg AD)",
+    "capd": "250-500 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (2.2%), fever (rare), rash (rare), anaphylaxis (rare), positive Coombs (rare), eosinophilia (1%), nausea/vomiting (3%), diarrhea (4-11%-duration dependent), C. difficile colitis, ↑ LFTs (2%), headache (rare).",
+    "For Penicillin cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Borrelia burgdorferi"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Tab (250, 500 mg), Oral susp (125 mg/5 mL, 250 mg/5 mL) (oral susp not available in US)",
+    "food_recommendation": "Susp + food, Tab ± food",
+    "oral_absorption_percent": "52",
+    "tmax_hr": "2.5",
+    "peak_serum_conc_ug_ml": "4.1 (250 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "50",
+    "volume_of_distribution_vd_l_kg_vf": "0.66 L/kg (V/F)",
+    "avg_serum_half_life_hr": "1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "35-80",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "12.9 (250 mg po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Antacids",
+          "effect": "↓ cefuroxime",
+          "management": "Stagger administration"
+      },
+      {
+          "drug": "H2-antagonists",
+          "effect": "↓ cefuroxime",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Oral contraceptives",
+          "effect": "↓ efficacy of oral contraceptives",
+          "management": "Use non-hormonal method"
+      },
+      {
+          "drug": "Probenecid",
+          "effect": "↑ cefuroxime",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Proton pump inhibitors",
+          "effect": "↓ cefuroxime",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

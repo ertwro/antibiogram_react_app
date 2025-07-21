@@ -1,0 +1,327 @@
+
+{
+  "documentMetadata": {
+    "title": "Pleural empyema in older children and adults (Age > 5 years)",
+    "sourceFile": "Empyema, Adult, Child gt 5 yrs.pdf",
+    "lastUpdated": "2025-01-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pleural empyema in older children and adults (Age > 5 years).",
+        "Presents as either acute (usually parapneumonic) or subacute (chronic).",
+        "If blood, respiratory, or pleural fluid culture and Gram-stain are negative, treat as subacute.",
+        "Drainage is indicated.",
+        "Tuberculosis or tumor are considerations if epidemiological risk are present, the presentation is subacute or chronic, and routine cultures are negative."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Acute:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Strep. pneumoniae",
+            "Streptococcus sp. (Group A)",
+            "Staph. aureus (MSSA and MRSA)",
+            "H. influenzae"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Subacute/Chronic:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Anaerobic streptococci",
+            "S. milleri group",
+            "Bacteroides sp.",
+            "Oral Gram-negative anaerobes",
+            "Enterobacteriaceae",
+            "M. tuberculosis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Perform diagnostic thoracentesis; catheter or chest tube drainage for empyema (See Comments).",
+        "Choice of regimen is determined by clinical presentation and etiology."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Acute"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Empiric therapy, cultures pending"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "components": [
+                  {
+                    "drug": "Ampicillin-sulbactam",
+                    "notes": "Adult 3 gm IV q6h, Child: 100-300 mg/kg/day IV divided q6h"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "condition": "Suspected or possible MRSA infection",
+                "components": [
+                  {
+                    "drug": "Vancomycin",
+                    "notes": "Adult 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL), Child 60-80 mg/kg/day in 3-4 divided doses",
+                    "connector": "or"
+                  },
+                  {
+                    "drug": "Linezolid",
+                    "notes": "Adult 600 mg IV q12h, Child: 10 mg/kg q8h up to age 12"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "condition": "Suspected or possible pseudomonal infection (e.g., hospital-acquired)",
+                "components": [
+                  {
+                    "drug": "Piperacillin-tazobactam",
+                    "notes": "Adult: 4.5 gm IV (over 4 hr) q8h, Child: 300 mg/kg/day IV divided q6h"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Strep. pneumoniae or Streptococcus sp (Group A):"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "notes": "Adult 2 gm IV q24h, Child 75-100 mg/kg IV q24h",
+                    "connector": "or"
+                  },
+                  {
+                    "drug": "Cefotaxime",
+                    "notes": "(where available): Adult 2 gm IV q8h, Child 200 mg/kg/d divided q6-8h"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Staph. aureus:"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "condition": "MSSA",
+                "components": [
+                  {
+                    "drug": "Nafcillin",
+                    "connector": "or"
+                  },
+                  {
+                    "drug": "Oxacillin",
+                    "notes": "Adult 2 gm IV q4h; Child 37 mg/kg IV q6h"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "condition": "MRSA",
+                "components": [
+                  {
+                    "drug": "Vancomycin",
+                    "connector": "or"
+                  },
+                  {
+                    "drug": "Linezolid",
+                    "notes": "as above"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "H. influenzae:"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "notes": "Adult 2 gm IV q24h, Child 50 mg/kg IV q24h"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Subacute or chronic"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "notes": "Adult 2 gm IV q24h; Child 50 mg/kg IV q24h)",
+                "connector": "+"
+              },
+              {
+                "drug": "Metronidazole",
+                "notes": "Adult 500 mg IV q6-8h, Child 30 mg/kg/d divided q6-8h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cefoxitin",
+            "notes": "Adult 2 gm IV q6-8h; Child 80-160 mg/kg/day IV divided q6h"
+          },
+          {
+            "drug": "Imipenem-cilastatin",
+            "notes": "Adult 0 .5 gm IV q6h; Child 15-25 mg/kg/day [max dose 2 gm/day]) IV divided q6h"
+          },
+          {
+            "drug": "Piperacillin-tazobactam",
+            "notes": "Adult 4.5 gm IV (over 4 hr) q8h; Child: 300 mg/kg/day IV divided q6h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy: ill-defined but 4-6 weeks is typical.",
+        "Can step-down to oral therapy once drainage has been established and the patient has responded; depending on the microbiology oral options include Amoxicillin, Amoxicillin-clavulanate, Clindamycin, Moxifloxacin, Linezolid.",
+        "For culture-negative cases or if cultures are positive for oral flora (e.g., microaerophilic strep species such as S. milleri) select an oral agent that provides coverage for anaerobes as this are difficult to isolate in culture and may be present"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Intrapleural tissue plasminogen activator (t-PA), 10 mg + DNase 5 mg administered via chest tube twice daily for 3 days improved fluid drainage, reduced the frequency of surgery, and reduced the duration of the hospital stay; neither agent was effective alone (N Engl J Med 365:518, 2011).",
+        "In children however, addition of DNase to t-PA did not improve outcomes JAMA Pediatr. 2020 Apr 1;174(4):332",
+        "Pros and cons of intrapleural fibrinolytics for complicated parapneumonic effusion (Chest 145:142, 2014).",
+        "See Empyema, Overview for general comments and additional references.",
+        "Reference: StatPearls; 2022 Jan. 2021 Aug 11."
+      ]
+    }
+  ]
+}

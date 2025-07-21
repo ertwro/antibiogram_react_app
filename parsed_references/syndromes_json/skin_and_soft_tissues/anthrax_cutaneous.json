@@ -1,0 +1,281 @@
+
+{
+  "documentMetadata": {
+    "title": "Anthrax, Cutaneous",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Anthrax, Cutaneous.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The most common form of anthrax infection, usually naturally acquired but may be acquired from a bioterrorism event.",
+        "History of exposure to hides, hair or wool with introduction of spores into non-intact skin.",
+        "Painless enlarging papule on exposed skin of face, neck, arms or hands. Lesions enlarge with central painless ulcer covered by black eschar and edema of surrounding tissue. Lymphadenitis and regional adenopathy can occur."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gram stain and culture or PCR."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacillus anthracis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy of cutaneous anthrax and no evidence of systemic disease based on 2023 CDC guidelines."
+        },
+        {
+          "type": "list",
+          "items": [
+            "If systemic symptoms, treat for more severe disease."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Duration of therapy: 7 to 10 days unless an aerosol exposure may have occurred in which case transition to a post-exposure prophylaxis regimen to complete 60 days of treatment."
+        }
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Nonpregnant adults age > 18 yrs"
+        },
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "q12h",
+            "connector": "or"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Pediatric regimen, age > 1 month to < 18 yrs"
+        },
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "15 mg/kg (max dose 500 mg)",
+            "route": "po",
+            "frequency": "q12h",
+            "connector": "or"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "2.2 mg/kg (max dose 100 mg)",
+            "route": "po",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Preterm and full-term newborns, one of the following:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "32 to < 37 weeks gestational age"
+            },
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "10 mg/kg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "All others"
+            },
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "15 mg/kg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "32 to < 37 weeks gestational age"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "5 mg/kg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Full-term"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "5 mg/kg",
+                "route": "po",
+                "frequency": "x1 then 2.5 mg/kg po q12h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Pregnant or lactating persons"
+        },
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "q12h",
+            "connector": "or"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "crossReference",
+          "referenceData": {
+            "text": "See 2023 CDC guidelines for full recommendations and specific dosing.",
+            "targetType": "externalURL",
+            "targetIdentifier": "https://www.cdc.gov/anthrax/treatment/index.html"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "First line agents:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Levofloxacin, Clindamycin, Minocycline (nonpregnant adults age > 18 yrs or children age > 1 month or older)",
+            "Penicillin susceptible strains only: Penicillin VK or Amoxicillin"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternative agents:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Moxifloxacin, Linezolid, Meropenem, Vancomycin, Dalbavancin, Omadacycline"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Antitoxin (Raxibacumab or Obiltoxaximab or Anthrax Immune Globulin Intravenous) only to be used as post-exposure prophylaxis if antimicrobial drugs are not available or not appropriate."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Recent References:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "2023 CDC Guidelines",
+            "Clinical features (Clin Infect Dis 2022, 75: S341)",
+            "Treatment outcomes (Clin Infect Dis 2022, 75: S392)",
+            "Antitoxin (Clin Infect Dis 2022, 75: S432)"
+          ]
+        }
+      ]
+    }
+  ]
+}

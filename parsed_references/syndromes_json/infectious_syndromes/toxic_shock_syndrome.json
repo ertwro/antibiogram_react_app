@@ -1,0 +1,141 @@
+
+{
+  "documentMetadata": {
+    "title": "Toxic Shock Syndrome",
+    "sourceFile": "syndromes/infectious_syndromes/Toxic Shock Syndrome.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Toxic Shock Syndrome"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxic shock syndrome (TSS) is a rare, life-threatening complication of certain types of bacterial infections. Often, toxic shock syndrome results from toxins produced by Staphylococcus aureus (staph) bacteria, but the condition may also be caused by toxins produced by group A streptococcus (strep) bacteria."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (most common)",
+        "Streptococcus pyogenes (Group A Strep)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "High fever, possibly with chills",
+        "Hypotension (low blood pressure)",
+        "A rash resembling a sunburn, particularly on the palms and soles",
+        "Vomiting or diarrhea",
+        "Muscle aches",
+        "Redness of eyes, mouth and throat",
+        "Confusion",
+        "Headaches",
+        "Seizures"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Staphylococcal TSS"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "600-900 mg",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "Until clinically stable"
+            },
+            "notes": "Vancomycin is for MRSA coverage. If MSSA is confirmed, can switch to nafcillin or oxacillin."
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Streptococcal TSS"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Penicillin G",
+                "dose": "4 million units",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Clindamycin",
+                "dose": "600-900 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Supportive Care",
+        "indication": "Management of shock and organ failure",
+        "notes": "Includes intravenous fluids, medications to treat hypotension, and supportive therapies for any organ dysfunction."
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Source Control",
+        "indication": "Eradication of the source of infection",
+        "notes": "Removal of foreign bodies (e.g., tampons) and surgical debridement of infected tissues."
+      }
+    }
+  ]
+}

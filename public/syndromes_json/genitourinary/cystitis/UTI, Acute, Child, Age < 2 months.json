@@ -1,0 +1,43 @@
+
+{
+  "documentMetadata": {
+    "title": "UTI, Acute, Child, Age < 2 months",
+    "sourceFile": "UTI, Acute, Child, Age < 2 months.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "UTI, Acute, Child, Age < 2 months"
+    },
+    {
+      "type": "paragraph",
+      "text": "Infants younger than 2 months with a urinary tract infection require hospitalization and parenteral antibiotics."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "100 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided q8h"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "7.5 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided q8h",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-14 days"
+        }
+      }
+    }
+  ]
+}

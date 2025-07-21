@@ -1,0 +1,47 @@
+
+{
+  "drug_name": "Fecal Microbiota, Vowst",
+  "tradename": "Vowst",
+  "usage_and_dosing": {
+    "description": "Fecal microbiota spores, live-brpk (Vowst, VOS), the second live biotherapeutic product (LBP) to be approved by the US FDA, is a bacterial spore suspension in capsules for oral administration. It is indicated to prevent the recurrence of C. difficile infection (CDI) in individuals ≥18 years of age following antibacterial treatment for recurrent CDI. Not indicated for treatment of CDI. VOS is sourced from qualified donors after screening for pathogens. Donated stool is filtered and centrifuged, and the supernatant is treated with ethanol to kill vegetative organisms. It is then pelleted by centrifugation, washed with normal saline, resuspended with glycerol, and transferred to capsules. The goal is between 1 x 10^6 and 3 x 10^7 CFU of Firmicutes spores per capsule. Each patient receives VOS from a single donor, but each donor may contribute stool to multiple lots. Good review: Clin Infect Dis 2023;77(Suppl 6):S487.",
+    "adult_dose": {
+      "dose": "4 capsules po once daily for 3 consecutive days.",
+      "administration_timing": "Take each dose on an empty stomach prior to the first meal of the day. Complete antibacterial treatment for recurrent CDI 2-4 days before beginning VOS. Do not eat or drink, except for small amount of water, for at least 8 hours prior to taking the first dose.",
+      "pre_dose_preparation": "The patient should drink 296 mL (10 oz) of magnesium citrate, or 250 mL of polyethylene glycol solution, the day before the first dose."
+    },
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "dose_renal_function_normal": "4 caps po q24h x3 days",
+    "crcl_or_egfr": "No adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No dosage adjustment"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Gastrointestinal (abdominal distension, constipation, chills, diarrhea)",
+    "Fatigue"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No data",
+    "use_during_lactation": "No data"
+  },
+  "pharmacology": {
+    "pharmaceutical_preparations": "Oral capsules",
+    "food_rec_po_drugs": "Cap no food"
+  },
+  "major_drug_interactions": [
+    "Because VOS contains bacterial spores, antibacterials should not be administered concurrently."
+  ]
+}

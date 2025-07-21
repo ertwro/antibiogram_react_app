@@ -1,0 +1,66 @@
+{
+  "documentMetadata": {
+    "title": "Perinephric Abscess",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Perinephric Abscess.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Perinephric abscess associated with either hematogenous spread (bacteremia) or direct extension from ascending pyelonephritis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus",
+        "Enterobacteriaceae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Drainage of collection an antibacterial therapy should be directed against pathogen identified in blood, urine, and/or drainage of perinephric collection",
+        "Empiric therapy could be same as pyelonephritis or if S. aureus bacteremia depending on likely source"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Percutaneous catheter drainage preferred to surgical drainage; abscesses < 3 cm may respond to medical therapy alone."
+      ]
+    }
+  ]
+}

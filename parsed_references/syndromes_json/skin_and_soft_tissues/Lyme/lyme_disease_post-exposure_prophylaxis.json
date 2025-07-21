@@ -1,0 +1,131 @@
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Post-Exposure Prophylaxis",
+    "lastUpdated": "2024-12-01",
+    "sourceFile": "Lyme Disease, Post-Exposure Prophylaxis.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bite by infected Ixodes tick (deer tick) in an endemic area (Image: nymphal stage).",
+            "In endemic areas, patient with a partially engorged Ixodes (deer) tick. CDC statistics by State.",
+            ""High Risk" tick bite = Ixodes vector + bite occurred in highly endemic area + tick attached for > 36 hours (all 3 criteria must be present)",
+            "Think about concomitant tick-borne diseases: babesiosis, ehrlichiosis, anaplasmosis as well as Lyme. For additional images, see Tick Gallery."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Borrelia burgdorferi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Only use If "High Risk" tick bite (see definition above) and administered within 72 hours of tick removal:"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "200 mg",
+                "route": "po",
+                "frequency": "x 1 dose with food"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Child of any age"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "4 mg/kg",
+                "route": "po",
+                "frequency": "x one dose",
+                "notes": "not to exceed 200 mg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "None"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "2020 Clinical practice guidelines (Neurology 96:262, 2021).",
+            "Efficacy of prophylaxis, N Engl J Med 345:79, 2001; N Engl J Med 345:133, 2001.",
+            "Recommendation only for patient groups in whom Doxycycline can be used safely.",
+            "Prevention of tick bites and prompt removal of attached ticks is of primary importance.",
+            "Experience of Doxy-PEP for Lyme from 2010-2020 suggests it is underutilized for children (OFID 11(10) 2024)"
+          ]
+        }
+      ]
+    }
+  ]
+}

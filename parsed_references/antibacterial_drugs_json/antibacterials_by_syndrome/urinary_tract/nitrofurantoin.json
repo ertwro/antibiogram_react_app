@@ -1,0 +1,113 @@
+{
+  "drug_name": "Nitrofurantoin",
+  "tradename": "Macrodantin, Furadantin, Macrobid",
+  "drug_shortage_information": [
+    {
+      "prep": "Oral suspension",
+      "started_at": "2018-06-05",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "description": [
+      "Nitrofurantoin is used to treat uncomplicated lower urinary tract infections (UTI), e.g., cystitis, urethritis.",
+      "Not effective for infections outside of the urinary tract.",
+      "Because nitrofurantoin is a weak acid with a pKa of 7.2, absorption is enhanced in an acidic environment. Renal clearance is enhanced in an alkaline environment (Urology 1988;32:67).",
+      "Increased activity in acidic urine.",
+      "Original marketed form was nitrofurantoin microcrystals (Furadantin), which caused a lot of nausea. The drug was later formulated in a macrocrystalline form (Macrodantin) with slower dissolution and less Gl toxicity. Both products dosed four times daily for UTI treatment, however. Finally, a longer acting form (Macrobid): 25% macrocrystals (slower dissolution than monohydrate), 75% monohydrate that forms a gel matrix and releases nitrofurantoin slowly over time after coming into contact with Gl fluids. This is the basis for twice-daily dosing.",
+      "Long-standing admonition to not use in patients with CrCl <50-60 mL/min for fear of inadequate urine concentrations and/or increased adverse effects. However, in retrospective study, there was no difference in the safety and efficacy of nitrofurantoin in patients with CrCl ",
+      "50 mL/min or CrCl >50 mL/min. Current American Geriatric Society recommendation is that nitrofurantoin can be used with relative safety and efficacy in patients with CrCl >30 mL/min (J Am Geriatr Soc 67:674, 2019). Not effective in end-stage renal disease.",
+      "Contraindicated in infants under one month of age (potential for hemolysis).",
+      "Systematic review: J Antimicrob Chemother 70:2456, 2015"
+    ]
+  },
+  "adult_dose": {
+    "active_uti": [
+      "(Furadantin or Macrodantin) 50-100 mg po qid x5-7 days or for at least 3 days after sterile urine achieved",
+      "(Macrobid) 100 mg po bid x5-7 days"
+    ],
+    "uti_prophylaxis": "(Any form) 50-100 mg po at bedtime"
+  },
+  "pediatric_dose": {
+    "cystitis": "5-7 mg/kg/day (divided q6h)",
+    "uti_prophylaxis": "1-2 mg/kg/day (once daily)"
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "1",
+    "half_life_hrs_esrd": "No data",
+    "dose_renal_function_normal": "100 mg po q12h (Macrobid)",
+    "crcl_or_egfr": "CrCl >30: No dosage adjustment\nCrCl ",
+    "30: Avoid use",
+    "hemodialysis": "Avoid use",
+    "capd": "Avoid use",
+    "crrt": "Avoid use",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Rare but serious liver injury.",
+    "Peripheral neuropathy can occur.",
+    "May impart a brown color to the urine.",
+    "Interstitial pneumonitis with progressive fibrosis can occur, usually after 6 months of therapy.",
+    "Hemolytic anemia if G6PD-deficient. Risk is low. Short treatment courses can be administered without G6PD testing. Patients should self-monitor for hemolytic anemia (e.g., dark urine). Pharmacovigilance recommended in countries with high prevalence of G6PD deficiency (JAC Antimicrob Resist 2022;4:dlac045).",
+    "DRESS syndrome: Drug rash, eosinophilia, systemic symptoms hypersensitivity syndrome reported (Neth J Med 67:147, 2009).",
+    "In retrospective study, Nitrofurantoin was associated with increased risk of birth defects (Arch Ped Adol Med 163:978, 2009); in contrast, subsequent study shows no risk of major malformations after exposure to Nitrofurantoin during the first trimester (J Clin Pharmacol 53:991, 2013)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Contraindicated at term (38-42 wks gestation), during labor and delivery, or when the onset of labor is imminent.",
+    "use_during_lactation": "Avoid if infant <8 days of age, or if G6PD-deficient (any age)"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["None"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Macrocrystalline cap (25, 50, 100 mg)\nOral susp (25 mg/5 mL)\nSlow-release cap (100 mg)",
+    "food_rec_po_drugs": "All preps + food",
+    "oral_absorption_percent": "80-90",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "<1 (100 mg, SD)",
+    "peak_urine_conc_ug_ml": "50-200 (100 mg, SD)",
+    "protein_binding_percent": "No data",
+    "volume_of_distribution_vd": "No data",
+    "avg_serum_t1_2_hr": "0.5-2.0",
+    "elimination": "Renal, metabolism",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "1-3 (100 mg, 0-inf)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Antacids",
+      "effect_on_concentration": "
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "
+      "suggested_management": "Monitor or avoid"
+    },
+    {
+      "drug": "Sulfinpyrazone",
+      "effect_on_concentration": "
+      "suggested_management": "Monitor or avoid"
+    }
+  ],
+  "comments": [
+    "None"
+  ]
+}

@@ -1,0 +1,121 @@
+
+{
+  "documentMetadata": {
+    "title": "Whipple's Disease",
+    "sourceFile": "syndromes/infectious_syndromes/Whipple's Disease.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Whipple's Disease"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whipple's disease is a rare, systemic infectious disease caused by the bacterium Tropheryma whipplei. It primarily affects the gastrointestinal system but can involve any organ system in the body, including the joints, central nervous system, and cardiovascular system."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tropheryma whipplei"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Classic Presentation:** Arthralgias (often migratory and non-deforming), chronic diarrhea with malabsorption and weight loss, and abdominal pain.",
+        "**Neurologic Manifestations:** Cognitive impairment, dementia, ophthalmoplegia, myoclonus. Can occur without gastrointestinal symptoms.",
+        "**Cardiac Manifestations:** Endocarditis (often culture-negative), myocarditis, pericarditis.",
+        "**Other:** Fever, lymphadenopathy, hyperpigmentation."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Initial Phase (Induction Therapy)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+                "description": "All patients, especially those with CNS involvement"
+            },
+            "components": [
+              { "drug": "Ceftriaxone", "dose": "2 g", "route": "IV", "frequency": "daily" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2-4 weeks"
+            },
+            "notes": "The goal of the initial phase is to rapidly clear the infection and cross the blood-brain barrier."
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Maintenance Phase"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "suppression",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Trimethoprim-sulfamethoxazole", "dose": "1 double-strength tablet (160 mg/800 mg)", "route": "PO", "frequency": "q12h" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "1-2 years"
+            },
+            "notes": "Long-term maintenance therapy is crucial to prevent relapse, especially neurologic relapse."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Duodenal Biopsy with PAS Staining",
+        "strengthOfRecommendation": "Recommended",
+        "interpretation": "The gold standard for diagnosis. Histology shows foamy macrophages in the lamina propria that stain positive with periodic acid-Schiff (PAS).",
+        "sampleType": "Duodenal tissue"
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "PCR for T. whipplei",
+        "sampleType": "Duodenal tissue, cerebrospinal fluid, or other affected tissues",
+        "notes": "Highly sensitive and specific. Can be used for diagnosis and to monitor treatment response."
+      }
+    }
+  ]
+}

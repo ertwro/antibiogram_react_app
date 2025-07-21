@@ -1,0 +1,229 @@
+{
+  "documentMetadata": {
+    "title": "Toxic Shock Syndrome (TSS), Staphylococcal",
+    "sourceFile": "Toxin_mediated/Toxic Shock Syndrome (TSS), Staphylococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxic shock syndrome (TSS) in patient colonized or locally invaded with toxin producing Staphylococcus aureus."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Includes vaginal (tampon-associated), surgical or traumatic wounds, endometrium, burns.",
+        "Can also occur concomitant with local S. aureus necrotizing abscesses in skin, lungs, or elsewhere"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In distinction to streptococcal TSS, staphylococcal TSS need not have any overt evidence of infection by the colonizing toxigenic S. aureus."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Definition of TSS:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fever and hypotension, erythroderma (desquamates after a week or more) with evidence of multisystem injury:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nausea/vomiting, diarrhea, renal insufficiency, encephalopathy, ARDS, thrombocytopenia.",
+            "There is often reduction in the free serum calcium concentration (mechanism unknown)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Aggressive parenteral fluid replacement",
+        "indication": "Toxin causes capillary leak"
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Examine for and remove any colonized foreign body",
+        "notes": "e.g., vaginal tampon, surgical packing"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MSSA",
+        "components": [
+          {
+            "drug": "Nafcillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Oxacillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h",
+            "connector": "or"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          },
+          {
+            "drug": "IVIG",
+            "dose": "1 gm/kg day 1, then 0.5 gm/kg days 2 and 3",
+            "connector": "+"
+          }
+        ],
+        "notes": "For patients unresponsive to fluids and vasopressors."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MRSA",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "To achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL). For either MSSA or MRSA, If unresponsive to fluids and vasopressors, consider adding IVIG 1 gm/kg day 1, then 0.5 gm/kg days 2 and 3"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MSSA",
+        "components": [
+          {
+            "drug": "Cefazolin",
+            "dose": "1-2 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "Can consider adding IVIG 1 gm/kg day 1, then 0.5 gm/kg days 2 and 3 for patients unresponsive to fluids and vasopressors."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MRSA",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Daptomycin",
+            "dose": "6 mg/kg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "or"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "To achieve preferred target AUC24 400-600 µg/mL x hr [see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL]. Can consider adding IVIG 1 gm/kg day 1, then 0.5 gm/kg days 2 and 3 for patients unresponsive to fluids and vasopressors."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If unable to use clindamycin",
+        "components": [
+          {
+            "drug": "Linezolid"
+          }
+        ],
+        "notes": "To suppress toxin production"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ability of IVIG to neutralize S. aureus TSS toxin less than ability to neutralize S. pyogenes TSST (Clin Infect Dis 38:836, 2004); IVIG efficacy unproven.",
+        "Adjunctive clindamycin used to inhibit bacterial production of TSS toxin.",
+        "In vitro, can inhibit toxin production with clindamycin, linezolid, or tedizolid",
+        "Support for clinical efficacy of combination therapy with clindamycin limited to poorly-controlled clinical trials and case reports",
+        "In retrospective review of patients with necrotizing S. aureus pneumonia, MRSA patients treated with both vanco and clinda, or linezolid, had shorter hospitalizations and a lower relapse rate",
+        "No matched controls (Respiration 2011; 81:448)",
+        "Despite absence of well-controlled clinical trials, Guidelines support \"consideration\" of clindamycin in addition to standard therapy in patient's with S. aureus, TSS.",
+        "Review of use of clindamycin, linezolid, and tedizolid to inhibit toxin production: J Antimicrob Chemother 2019;74:1",
+        "Reviews:",
+        "Antibiotics (Basel). 2024; 13:96",
+        "Lancet Infect Dis 9:281, 2009."
+      ]
+    }
+  ]
+}

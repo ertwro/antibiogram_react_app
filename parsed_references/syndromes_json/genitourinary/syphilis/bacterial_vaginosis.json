@@ -1,0 +1,65 @@
+{
+  "name": "Bacterial Vaginosis",
+  "updates": [
+    {
+      "date": "2023-12-29",
+      "content": {}
+    }
+  ],
+  "clinical_setting": "Causes vaginitis and cervicitis (Amsel's criteria = 3 of 4 of below; Nugent's criteria = vaginal gram stain)\nCopious, malodorous, thin, milky vaginal discharge,\npH >4.5.\nWhiff Test (fishy odor when10% Potassium Hydroxide added to vaginal discharge; ).\n\"Clue\" Cell (epithelial cell coated with bacteria).\nMay be transmitted sexually but not a STD; no need to treat sexual partners unless balanitis is present.",
+  "etiologies": [
+    "Gardnerella vaginalis",
+    "Mobiluncus sp.",
+    "Mycoplasma hominis",
+    "Prevotella sp.",
+    "Atopobium vaginae"
+  ],
+  "diagnosis": "NAAT tests based upon presence of above bacteria.",
+  "primary_regimens": [
+    {
+      "drug": "Metronidazole",
+      "dosage": "0.5 gm po bid x 7 days (DO NOT USE 2 gm po x one dose)"
+    },
+    {
+      "drug": "Metronidazole vaginal gel",
+      "dosage": "(1 applicator intravaginally) once daily x 5 days",
+      "notes": "1 applicator contains 5 gm of gel with 37.5 mg Metronidazole"
+    },
+    {
+      "drug": "Lactobacillus",
+      "notes": "In randomized, double-blind, placebo-controlled trial, the vaginal probiotic Lactin-V (Lactobacillus crispatus) reduced recurrence, week 12, from 45% in the placebo group to 30% in the Lactin-V patients, p 0.01. Lactin-V study regimen starting at the end of the metronidazole. Daily vaginal instillation daily x 4 days and then twice a week for 10 weeks. Ref: N Engl J Med. 2020;382:1906."
+    },
+    {
+      "drug": "Clindamycin",
+      "dosage": "2% vaginal cream 5 gm intravaginally at bedtime x 7 days"
+    }
+  ],
+  "alternative_regimens": [
+    {
+      "drug": "Tinidazole",
+      "dosage": "(2 gm po once daily x 2 days or 1 gm po once daily x 5 days)"
+    },
+    {
+      "drug": "Clindamycin",
+      "dosage": "300 mg bid po x 7 days"
+    },
+    {
+      "drug": "Clindamycin ovules",
+      "dosage": "100 mg intravaginally at bedtime x 3 days"
+    },
+    {
+      "drug": "Secnidazole (Solosec)",
+      "dosage": "one dose of 2 gm packet of granules with yogurt, applesauce or pudding over 30 minutes",
+      "notes": "Clinical response in 68% of patients treated with secnidazole vs 18% of placebo patients"
+    }
+  ],
+  "comments": [
+    "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021",
+    "Metronidazole and tinidazole do not induce acetaldehyde dehydrogenase and data to support disulfiram reactions with alcohol consumption are not strong Antimicrob Agents Chemother 64:e02167 2020",
+    "2021 CDC STI guidelines no longer recommend avoidance of alcohol when receiving metronidazole for treatment of Trichomonas or bacterial vaginosis Clin Inf Dis 74:S152 2022",
+    "Pathogenesis is complex and incompletely understood: J Infect Dis 2016;214 (supplement S1): S1-S5",
+    "Reported 50% increase in cure rate if patient abstains from sex or uses condoms, Clin Infect Dis 44:213, 2007 & Clin Infect Dis 44:220, 2007.",
+    "Metronidazole extended release tabs 750 mg po q24h x 7 days are available, but no published data.",
+    "Pregnancy: Metronidazole or Clindamycin oral 7-day regimens, see Canadian Ob/Gyn practice guidelines in J Obstet Gynecol Can 30:702, 2008. US preventive services task force recommends NOT screening for bacterial vaginosis in pregnancy (JAMA 2020; 323:1286)"
+  ]
+}

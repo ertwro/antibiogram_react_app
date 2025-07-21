@@ -1,0 +1,98 @@
+{
+  "documentMetadata": {
+    "title": "Cellulitis, Buccal",
+    "sourceFile": "syndromes/head_and_neck/Cellulitis, Buccal.pdf",
+    "lastUpdated": "2024-05-28"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Woody induration of the soft tissues of the cheek or face in children less than 5 years old",
+        "Usually due to H. influenza; marked decrease in incidence due to effectiveness of the H. influenza immunization.",
+        "Can occur in infants prior to immunization.",
+        "Marked cheek swelling with minimal trismus and systemic symptoms, e.g., fever."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Haemophilus influenzae, type B",
+        "Streptococcus pneumoniae (rare)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "50 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "45-90 mg/kg",
+            "route": "po",
+            "frequency": "divided bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "8-12 mg/kg (TMP component)",
+            "route": "po/IV",
+            "frequency": "divided bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Immunization has decreased rates of invasive haemophilus and pneumococcal infections. See immunize.org/askexperts."
+      ]
+    }
+  ]
+}

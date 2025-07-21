@@ -1,0 +1,110 @@
+{
+  "documentMetadata": {
+    "title": "Febrile Infant, Neonatal Sepsis",
+    "lastUpdated": "2023-09-05",
+    "sourceFile": "Febrile Infant, Neonatal Sepsis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever > 38.0 C in infants 1-29 days and children 30-89 days",
+        "Serious bacterial infection (SBI), e.g., UTI, bacteremia, or meningitis present in about 7-11%",
+        "Most SBI are UTI (7-9%); bacteremia (1-2%), meningitis (0.5%) Risk decreases with each week of life",
+        "Low risk criteria (age >29 days, WBC <15,000, Urine WBC < 10/hpf, CSF WBC < 10) identify group with ~3% chance of SBI",
+        "Diagnosis & Evaluation",
+        "Several approaches stratify risk",
+        "Use risk calculator based on clinical features, WBC, ANC, procalcitonin and UA. [JAMA Pediatr. 2019 Apr 1;173(4):342-351](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2724328).",
+        "Stratify by appearance, age, WBC, ANC and enterovirus PCR and respiratory viral studies.[Pediatrics 130:e16, 2012](https://publications.aap.org/pediatrics/article/130/1/e16/30109/Febrile-Infants-Aged-29-to-90-Days-A-New-Algorithm).",
+        "Perform blood culture, urine culture; enterovirus PCR and respiratory viral studies for high risk infants.",
+        "Inflammatory markers CRP and procalcitonin further stratify risk. Procalcitonin is the most accurate for risk stratification if available",
+        "UTI is the most common bacterial infection.",
+        "Detecting viral cause, e.g., enterovirus, respiratory virus other than rhinovirus, further lowers risk of SBI in high risk: ~ 5% if high risk and virus positive; ~17% if HR and virus negative. Detection of rhinovirus does not lower risk to a similar degree ([Pediatrics 113:1662, 2004](https://publications.aap.org/pediatrics/article/113/6/1662/65919/The-Febrile-Infant-The-Role-of-Viral-Testing), [Pediatrics. 2018 Feb;141(2)](https://publications.aap.org/pediatrics/article/141/2/e20172502/37399/Rhinovirus-in-Febrile-Infants-and-Risk-of-Serious)).",
+        "The role of viral testing is uncertain when procalcitonin is available",
+        "Consider risk factors and clues for HSV: Genital lesions in mother 48 hours before to 48 hours after delivery, vessicles, mucosal ulcers, seizures, transaminitis, hypothermia in infant",
+        "Recommended HSV studies:CSF PCR; HSV blood PCR; HSV surface swabs of the mouth, nasopharynx, conjunctivae, and anus for an HSV culture (if available) or PCR assay; alanine aminotransferase."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Etiologies have changed over time due to maternal screening, vaccinations and food safety",
+        "Viral (most common):",
+        "Enterovirus",
+        "RSV",
+        "Influenza",
+        "hMPV",
+        "Adenovirus",
+        "Parainfluenza virus",
+        "HSV rare but extremely serious. Consider especially if vesicular skin lesions, transaminitis, seizures, or CSF pleocytosis or failure to improve",
+        "Bacterial causes:",
+        "UTI (most common): E. coli, Group B Strep (GBS), Klebisella, Enterococcus, other Enterobacteraciae",
+        "Bacteremia: E. coli, GBS, Enterococcus, other Enterobacteraciae, rarely Listeria",
+        "Meningitis: GBS, E. coli, pneumococcus, meningococcus, rarely Listeria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For bacterial causes:",
+        "Age <29 days: (Ceftriaxone 75-100 mg/kg/day once daily in term infants without hyperbilirubinemia or Cefotaxime 200 mg/kg/d div q6h (where available outside the US) or Ampicillin 200 mg/kg/day div q6h) + Gentamicin 5 mg/kg/day once daily",
+        "Age >29 days: Ceftriaxone 75-100 mg/kg/day once daily until cultures negative at 24-36 hours if low risk",
+        "Observation alone can be considered for low risk infants >29 days with normal UA, normal inflammatory markers +/- normal LP",
+        "If risk factors for HSV, initiate acyclovir 60 mg/kg/day div q 8h and send HSV studies. Discontinue if studies are negative",
+        "Above adapted from [Pediatrics. 2021 Aug;148(2):e2021052228](https://publications.aap.org/pediatrics/article/148/2/e2021052228/180837/Clinical-Practice-Guideline-Evaluation-and)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ampicillin and Gentamicin. Once considered gold standard but may not be adequate for E. coli, Klebsiella or other Enterobacteraciae given emergence of resistance. Need susceptibility data."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider observation without antibiotics for patients at low risk given that viral causes are the most common etiologies.",
+        "Using evidence-based algorithm, infants at low risk of SBI can be safely sent home when blood culture is negative at 24 hours ([Pediatrics 130:e16, 2012](https://publications.aap.org/pediatrics/article/130/1/e16/30109/Febrile-Infants-Aged-29-to-90-Days-A-New-Algorithm))."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Complex and evolving field. Not all diagnostic modalities are available in all settings",
+        "AAP Clinical Practice Guideline [Pediatrics. 2021 Aug;148(2):e2021052228](https://publications.aap.org/pediatrics/article/148/2/e2021052228/180837/Clinical-Practice-Guideline-Evaluation-and)",
+        "Review: [Pediatrics. 2018 Dec;142(6)](https://publications.aap.org/pediatrics/article/142/6/e20182849/37412/Updates-on-the-Management-of-Febrile-Infants); [Infect Dis Clin North Am 2015 Jul 16](https://www.sciencedirect.com/science/article/pii/S089155201500048X); [Infect Dis Clin North Am 29:575, 2015](https://www.sciencedirect.com/science/article/pii/S089155201500048X).",
+        "Ceftriaxone is contraindicated in neonates if they require (or are expected to require) treatment with calcium-containing IV solutions, including continuous calcium-containing infusions such as total parenteral nutrition"
+      ]
+    }
+  ]
+}

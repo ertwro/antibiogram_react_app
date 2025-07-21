@@ -1,0 +1,93 @@
+{
+  "documentMetadata": {
+    "title": "Encephalitis, Encephalopathy",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Encephalitis, Encephalopathy.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Encephalitis, encephalopathy caused by a viral etiology.",
+        "Fever, altered level of consciousness (drowsiness, confusion, stupor, coma), and focal neurologic deficits.",
+        "Clinical features of cat scratch (Bartonella) encephalopathy: children under 10 with tender regional lymphadenopathy, and IgG antibody titer > 1:250.",
+        "CSF pleocytosis, predominantly lymphocytes.",
+        "International consensus statement on diagnostic tests (Clin Infect Dis 57:1114, 2013).",
+        "Review of etiologies, treatment, and prognosis (Neurology 84:359, 2015).",
+        "Review of acute viral encephalitis (N Engl J Med 2018; 379: 557)",
+        "Review of encephalitis induced by Immune Checkpoint Inhibitors (JAMA Neuro 78:864, 2021)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Etiology determined in half of cases. Of cases with a known cause, 20-50% attributed to viruses.",
+        "H. simplex (HSV) (50-70 %), varicella zoster (VZV)(Clin Infect Dis 72:1192, 2021), enteroviruses, arboviruses, West Nile, rabies, cat scratch disease, parvo B19, SARS-CoV-2",
+        "Other (Clin Infect Dis 49:1838, 2009): tuberculosis (15%), malaria, listeria (10%), others, including, R. rickettsii, anaplasma, ehrlichia or mycoplasma",
+        "Powassan is a tick borne virus increasingly recognized in Massachusetts and northern New England (N Engl J Med 2019; 380:380)",
+        "Autoimmune antibody-mediated encephalitis, e.g., anti-N-methyl-D-aspartate (Anti-NMDA) receptor most often recognized but many others recognized (New Engl J Med 2018;378:840) (see Comment)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nucleic Acid Amplification Tests are used to diagnose most viral encephalitis disorders (CID Mar 2024)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Presumed viral etiology: Acyclovir 10 mg/kg IV (infuse over 1 hr) q8h while awaiting results of CSF PCR for H. simplex and Varicella zoster.",
+        "Suspected R. rickettsii, anaplasma, ehrlichia or mycoplasma: Doxycycline 100 mg IV q12h",
+        "Modify treatment based on pathogen identification"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "HSV and VZV most common viral etiologies in a prospective study from England (Lancet Infect Dis 10:835, 2010).",
+        "In persons < 30 years old autoimmune encephalitis with anti-N-methyl-D-aspartate receptor (NMDAR) antibodies was the most common cause of encephalitis (41%) among specimens referred to the California Encephalitis Project between 2007 and 2011 (vs. Enterovirus 38%, HSV-19%, VZV or WNV 6% each) (Clin Infect Dis 54:899, 2012).",
+        "Now recognition of many other neuronal cell surface antibodies with a similar clinical syndrome (N Engl J Med 2018;378:840)",
+        "Features included seizures, hallucinations/psychosis, autonomic instability, movement disorders, language dysfunction. Possible that the anti-NMDAR can be a non-specific response to tissue injury; anti-NMDAR found in 30% of patients with proven H. simplex encephalitis: Ann Neurol 72:902, 2012.",
+        "Need to demonstrate antibody to cell surface neuronal antigens. Antibody panels available in commercial (e.g., Mayo) and research labs.",
+        "Review emphasizes early diagnosis and treatment with steroids, immunoglobulins, and/or plasmapheresis associated with good neurologic outcomes: Crit Care Med 2018;46:1514."
+      ]
+    }
+  ]
+}

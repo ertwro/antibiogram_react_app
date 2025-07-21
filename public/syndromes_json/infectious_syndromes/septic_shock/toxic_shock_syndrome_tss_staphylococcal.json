@@ -1,0 +1,64 @@
+{
+  "documentMetadata": {
+    "title": "Toxic Shock Syndrome (TSS), Staphylococcal",
+    "sourceFile": "Toxic Shock Syndrome (TSS), Staphylococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Staphylococcal Toxic Shock Syndrome (TSS)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Staphylococcal TSS is a toxin-mediated illness caused by Staphylococcus aureus. It is classically associated with tampon use in menstruating women, but it can also occur in other settings such as surgical wound infections."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Criteria"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever >38.9°C (102°F)",
+        "Hypotension",
+        "Diffuse macular erythroderma",
+        "Desquamation, particularly of the palms and soles, 1-2 weeks after onset of illness",
+        "Involvement of three or more organ systems"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Management includes aggressive fluid replacement, vasopressors, and removal of the source of infection (e.g., tampon removal, wound debridement)."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Patients with staphylococcal TSS"
+        },
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "600-900 mg",
+            "route": "IV",
+            "frequency": "every 8 hours"
+          },
+          {
+            "drug": "Vancomycin or Nafcillin/Oxacillin",
+            "connector": "+"
+          }
+        ],
+        "notes": "Clindamycin is used for its antitoxin effect. Vancomycin is used for MRSA coverage, while nafcillin or oxacillin is used for MSSA."
+      }
+    }
+  ]
+}

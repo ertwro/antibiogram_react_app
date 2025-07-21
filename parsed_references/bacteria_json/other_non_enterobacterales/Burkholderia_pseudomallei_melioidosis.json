@@ -1,0 +1,525 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Burkholderia pseudomallei",
+      "aliases": [
+        "Melioidosis"
+      ],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli",
+        "respiration": "Aerobic",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative rod, oxidase +, motile, catalase +, non-lactose fermenter, arginine dihydrolase +, resistant to gentamicin and colistin."
+    },
+    "clinicalProfile": {
+      "summary": "Burkholderia pseudomallei causes melioidosis, a serious infection with diverse manifestations including pneumonia, skin and deep tissue abscesses, bacteremia, and bone, joint, or CNS infections. It is a major cause of fatal pneumonia and sepsis in endemic regions.",
+      "pathophysiologyPearls": [
+        "Infection is acquired through percutaneous inoculation, inhalation, or ingestion from contaminated soil or water.",
+        "The bacterium can remain latent for years before reactivation."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cough, chest pain (pneumonia)",
+        "Localized pain, swelling, ulceration (skin/soft tissue)",
+        "Focal neurological deficits (CNS infection)",
+        "Bone or joint pain"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pneumonia",
+          "description": "The most common presentation of melioidosis."
+        },
+        {
+          "syndromeName": "Skin and Soft Tissue Infection",
+          "description": "Can present as cellulitis or abscesses."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur with or without a clear focus of infection."
+        },
+        {
+          "syndromeName": "Bone and Joint Infection",
+          "description": "Septic arthritis and osteomyelitis can occur."
+        },
+        {
+          "syndromeName": "Central Nervous System (CNS) Infection",
+          "description": "Can manifest as brain abscesses or meningoencephalitis."
+        },
+        {
+          "syndromeName": "Deep Tissue Abscess",
+          "description": "Abscesses can form in various organs, such as the liver, spleen, or prostate."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals in endemic areas (Southeast Asia, northern Australia)",
+        "Travelers to endemic areas",
+        "Patients with diabetes, chronic kidney disease, or alcohol use disorder"
+      ],
+      "transmissionVectors": [
+        "Contaminated soil and water"
+      ],
+      "prognosisNotes": [
+        "Relapse is a concern, necessitating long-term eradication therapy."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Gentamicin",
+          "notes": ""
+        },
+        {
+          "drugOrClass": "Colistin",
+          "notes": ""
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Bioterrorism Agent",
+          "details": "Burkholderia pseudomallei is considered a potential agent of bioterrorism."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment consists of an initial intravenous (IV) phase followed by a prolonged oral eradication phase to prevent relapse."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Melioidosis",
+            "patientPopulation": [
+              "Adults",
+              "Children"
+            ],
+            "isolateSource": "Various"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "See Antimicrobial Stewardship section",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftazidime",
+                      "dose": "2 gm (child 50 mg/kg)",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1 gm (child 25 mg/kg)",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Preferred for CNS disease at double the dose."
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "At least 3 months",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "6-8 mg/kg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Dosed based on TMP component."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Eradication therapy is initiated following initial IV therapy to prevent relapse."
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 2,
+                  "duration": "At least 3 months",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Less effective than TMP-SMX."
+                    },
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "20 mg/5 mg/kg",
+                      "route": "PO",
+                      "frequency": "TID",
+                      "comments": "Less effective than TMP-SMX. Dose may be poorly tolerated due to GI intolerance."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Alternative eradication therapies are considered less effective than TMP-SMX."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Culture from blood, sputum, wound, or other relevant sites is essential for diagnosis."
+      ],
+      "methodologyNotes": [
+        "Laboratory staff should be alerted to the possibility of B. pseudomallei as it is a BSL-3 pathogen."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "Burkholderia pseudomallei is a BSL-3 pathogen. Laboratory personnel should be notified of suspected cases to ensure appropriate safety precautions are taken.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "In an open-label randomized controlled trial, TMP-SMX for 12 weeks was non-inferior to 20 weeks for total mortality and a composite of mortality and disease recurrence.",
+        "Duration of IV therapy depends on the site and severity of infection: Septic joint, deep tissue abscess: 4 weeks; Osteomyelitis: 6 weeks; CNS infection: 8 weeks.",
+        "Darwin Melioidosis Treatment Guideline suggests a minimum of 3 weeks of IV antibiotic if bacteremic plus single lobe infiltrate or multi-lobe pneumonia without bacteremia, and a minimum of 4 weeks if bacteremic with multi-lobe pneumonia."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "PLoS Neglected Tropical Diseases",
+          "citation": "PLoS Negl Trop Dis. 2023; 17:e0011382",
+          "summaryOrNote": "Meta-analysis comparing various treatment regimens."
+        },
+        {
+          "source": "Australian Journal of General Practice",
+          "citation": "Aust J Gen Pract. 2019; 48:327-332",
+          "summaryOrNote": "Review of melioidosis."
+        },
+        {
+          "source": "Clinical Microbiology Reviews",
+          "citation": "Clin Microbiol Rev. 2020;33:e00006",
+          "summaryOrNote": "Review of melioidosis."
+        },
+        {
+          "source": "Current Opinion in Infectious Diseases",
+          "citation": "Curr Opin Infect Dis. 2022; 35:517",
+          "summaryOrNote": "Review of melioidosis."
+        },
+        {
+          "source": "New England Journal of Medicine",
+          "citation": "N Engl J Med 2022;386:861",
+          "summaryOrNote": "Report on a US outbreak associated with imported aromatherapy spray."
+        },
+        {
+          "source": "PLoS Neglected Tropical Diseases",
+          "citation": "PLoS Negl Trop Dis. 2020; 14:e0008659",
+          "summaryOrNote": "Darwin Melioidosis Treatment Guideline."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis. 2021; 73:e3627",
+          "summaryOrNote": "Trial comparing 12 vs 20 weeks of TMP-SMX eradication therapy."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.324Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Burkholderia pseudomallei"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Melioidosis"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli",
+        "respiration": "Aerobic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Burkholderia pseudomallei causes melioidosis, a serious infection with diverse manifestations including pneumonia, skin and deep tissue abscesses, bacteremia, and bone, joint, or CNS infections. It is a major cause of fatal pneumonia and sepsis in endemic regions.",
+      "pathophysiologyPearls": [
+        "Infection is acquired through percutaneous inoculation, inhalation, or ingestion from contaminated soil or water.",
+        "The bacterium can remain latent for years before reactivation."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cough, chest pain (pneumonia)",
+        "Localized pain, swelling, ulceration (skin/soft tissue)",
+        "Focal neurological deficits (CNS infection)",
+        "Bone or joint pain"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Pneumonia",
+          "description": "The most common presentation of melioidosis."
+        },
+        {
+          "syndromeName": "Skin and Soft Tissue Infection",
+          "description": "Can present as cellulitis or abscesses."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur with or without a clear focus of infection."
+        },
+        {
+          "syndromeName": "Bone and Joint Infection",
+          "description": "Septic arthritis and osteomyelitis can occur."
+        },
+        {
+          "syndromeName": "Central Nervous System (CNS) Infection",
+          "description": "Can manifest as brain abscesses or meningoencephalitis."
+        },
+        {
+          "syndromeName": "Deep Tissue Abscess",
+          "description": "Abscesses can form in various organs, such as the liver, spleen, or prostate."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals in endemic areas (Southeast Asia, northern Australia)",
+        "Travelers to endemic areas",
+        "Patients with diabetes, chronic kidney disease, or alcohol use disorder"
+      ],
+      "transmissionVectors": [
+        "Contaminated soil and water"
+      ],
+      "prognosisNotes": [
+        "Relapse is a concern, necessitating long-term eradication therapy."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Gentamicin",
+          "notes": ""
+        },
+        {
+          "drugOrClass": "Colistin",
+          "notes": ""
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Bioterrorism Agent",
+          "details": "Burkholderia pseudomallei is considered a potential agent of bioterrorism."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Melioidosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": "Various"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftazidime",
+              "dose": "2 gm (child 50 mg/kg)",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "See Antimicrobial Stewardship section",
+              "comments": "",
+              "originalText": "Ceftazidime 2 gm (child 50 mg/kg) IV q6h"
+            },
+            {
+              "drugName": "Meropenem",
+              "dose": "1 gm (child 25 mg/kg)",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "See Antimicrobial Stewardship section",
+              "comments": "Preferred for CNS disease at double the dose.",
+              "originalText": "Meropenem 1 gm (child 25 mg/kg) IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-0-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Melioidosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": "Various"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "6-8 mg/kg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "At least 3 months",
+              "comments": "Dosed based on TMP component.",
+              "originalText": "TMP-SMX 6-8 mg/kg PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Melioidosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children"
+              ],
+              "labFindings": "Various"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "At least 3 months",
+              "comments": "Less effective than TMP-SMX.",
+              "originalText": "Doxycycline 100 PO BID"
+            },
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "20 mg/5 mg/kg",
+              "route": "PO",
+              "frequency": "TID",
+              "duration": "At least 3 months",
+              "comments": "Less effective than TMP-SMX. Dose may be poorly tolerated due to GI intolerance.",
+              "originalText": "Amoxicillin-clavulanate 20 mg/5 mg/kg PO TID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Culture from blood, sputum, wound, or other relevant sites is essential for diagnosis."
+      ],
+      "methodologyNotes": [
+        "Laboratory staff should be alerted to the possibility of B. pseudomallei as it is a BSL-3 pathogen."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

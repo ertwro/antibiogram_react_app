@@ -1,0 +1,72 @@
+{
+    "documentMetadata": {
+        "title": "Catfish Sting",
+        "sourceFile": "Catfish Sting.pdf",
+        "lastUpdated": "2024-06-06"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Sting wound from catfish spines.",
+                "Presents as immediate pain, erythema and edema.",
+                "Resembles Streptococcal cellulitis.",
+                "May become secondarily infected with marine organisms or staphylococci."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Toxins"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Prophylaxis: Amoxicillin-clavulanate 875/125 mg po bid + Doxycycline 100 mg po bid (reasonable choice)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "None"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "May resemble severe cellulitis or necrotizing fasciitis (Plast Reconstruct Surg 126:226e, 2010).",
+                "Clean and irrigate wound with saline, remove spines, image for foreign body, leave wound open (secondary closure can be considered for large wounds or in case of cosmetic issue)",
+                "Heat has been recommended to enhance degradation of toxins and reduce pain, e.g., 42-45\u00b0 C or the highest temperature that can be tolerated below these levels, for 30-90 minutes or for as long as tolerated, taking care to avoid burns (Emerg Med J 23:503, 2006).",
+                "Initial antibiotic therapy directed at Staph and Strep sp. If immunocompromised, wound primarily repaired and is more than minor, or if infection develops, antibiotic coverage should be broadened to include Vibrio spp.",
+                "Review tetanus immunization status.",
+                "Review of catfish stings in Clin Infect Dis 14: 689, 1992 and of marine envenomations in N Engl J Med 325:486, 1991."
+            ]
+        }
+    ]
+}

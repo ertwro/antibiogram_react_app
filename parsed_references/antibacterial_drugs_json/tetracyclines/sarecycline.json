@@ -1,0 +1,136 @@
+{
+  "drug_name": "Sarecycline",
+  "tradename": "Seysara",
+  "usage_and_dosing": {
+    "indicated_for": "treatment of the inflammatory lesions of non-nodular moderate-to-severe acne vulgaris in patients age ≥9 years.",
+    "efficacy_and_safety_notes": [
+      "Efficacy beyond 12 weeks and safety beyond 12 months are not established.",
+      "Avoid using in males attempting to conceive a child (adverse effects in an animal fertility study).",
+      "Take each dose with adequate fluid to reduce risk of esophageal irritation or ulceration.",
+      "Not evaluated in the treatment of infections."
+    ],
+    "adult_dose": [
+      {
+        "body_weight_kg": "33-54",
+        "dose": "60 mg po q24h"
+      },
+      {
+        "body_weight_kg": "55-84",
+        "dose": "100 mg po q24h"
+      },
+      {
+        "body_weight_kg": "85-136",
+        "dose": "150 mg po q24h"
+      }
+    ],
+    "pediatric_dose": {
+      "age_gt_9_yrs": [
+        {
+          "weight_kg": "33-54",
+          "dose": "60 mg po q24h"
+        },
+        {
+          "weight_kg": "55-84",
+          "dose": "100 mg po q24h"
+        },
+        {
+          "weight_kg": "85-136",
+          "dose": "150 mg po q24h"
+        }
+      ]
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": "21-22",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "60-150 mg po q24h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment (not studied in ESRD)",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No data"
+  },
+  "adverse_effects": {
+    "adverse_effects": [
+      "GI (most common adverse effect is nausea, incidence ≥1%).",
+      "Esophageal irritation or erosion if inadequate fluid taken with each dose. Risk of esophageal adverse effects possibly higher than with other tetracyclines (J Am Acad Dermatol 2022;87:1150).",
+      "CNS (lightheadedness, dizziness, vertigo, pseudotumor cerebri).",
+      "Intracranial hypertension.",
+      "Photosensitivity, possibly more likely than with other tetracyclines (J Am Acad Dermatol 2022;87:1150).",
+      "C. difficile-associated diarrhea."
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Do not use (risk of fetal harm, tooth discoloration, inhibition of bone growth)",
+    "lactation": "No data, avoid use"
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (60, 100, 150 mg)",
+    "food_recs": "Tab + food",
+    "oral_absorption": "No data",
+    "tmax_hr": "1.5-2.0",
+    "peak_serum_conc": "No data",
+    "peak_urine_conc": "No data",
+    "protein_binding": "62.5-74.7",
+    "volume_of_distribution": "91.4-97.0 (Vss)",
+    "avg_serum_t1_2": "21-22",
+    "elimination": "Fecal, renal",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "transporters_inhibited": [
+      "PGP"
+    ],
+    "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Antacids (Al, Ca, Mg)",
+      "effect": "↓ sarecycline",
+      "suggestion": "Separate dosing"
+    },
+    {
+      "drug": "Bismuth subsalicylate",
+      "effect": "↓ sarecycline",
+      "suggestion": "Separate dosing"
+    },
+    {
+      "drug": "Digoxin",
+      "effect": "↑ digoxin (inhibition of P-glycoprotein)",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Iron-containing preps",
+      "effect": "↓ sarecycline",
+      "suggestion": "Separate dosing"
+    },
+    {
+      "drug": "Penicillin",
+      "effect": "↓ penicillin bactericidal activity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Retinoids",
+      "effect": "↑ intracranial pressure (pseudotumor cerebri)",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ INR",
+      "suggestion": "Monitor INR, adjust dosage"
+    }
+  ],
+  "comments": [
+    "Review: Med Lett Drugs Ther 2019;61:43."
+  ]
+}

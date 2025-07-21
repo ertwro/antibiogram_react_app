@@ -1,0 +1,371 @@
+{
+  "documentMetadata": {
+    "title": "Otitis Media, Treatment Failure",
+    "sourceFile": "Otitis Media, Treatment Failure.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Otitis media, treatment for clinical failure after 3 days of therapy.",
+        "Definition of failure: no change in ear pain, fever, bulging TM or otorrhea."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Drug-resistant Streptococcus pneumoniae (Int J Pediatr Otorhinolaryngol 79:2129, 2015)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "90 mg/kg/day po of Amoxicillin component",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefdinir",
+                "dose": "7 mg/kg",
+                "route": "po",
+                "frequency": "q12h or 14 mg/kg po q24h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefpodoxime proxetil",
+                "dose": "10 mg/kg/day",
+                "route": "po",
+                "notes": "as single daily dose",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefprozil",
+                "dose": "15 mg/kg",
+                "route": "po",
+                "frequency": "q12h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefuroxime axetil",
+                "dose": "30 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q12h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                },
+                "notes": "Note: Cefuroxime susp not available in the US, may be available in other markets."
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "50 mg/kg",
+                "route": "IM",
+                "durationDetail": {
+                  "fixedDuration": "3 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Patient has had no antibiotics in the prior month other than in last 3 days:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patient has had antibiotics in the prior month in addition to the last 3 days:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "50 mg/kg",
+                "route": "IM",
+                "durationDetail": {
+                  "fixedDuration": "3 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "for patients in whom Ceftriaxone is contraindicated or refractory infection",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "10 mg/kg",
+                "route": "po",
+                "frequency": "q12h",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ],
+            "appliesTo": {
+              "description": "Age < 5 years"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "for patients in whom Ceftriaxone is contraindicated or refractory infection",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "10 mg/g",
+                "route": "po",
+                "frequency": "once daily",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                },
+                "notes": "(max daily dose 750 mg)"
+              }
+            ],
+            "appliesTo": {
+              "description": "Age > 5 years"
+            }
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Tympanocentesis"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Duration: see regimens above; unknown if these are optimal for persistent disease."
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefdinir",
+                "dose": "600 mg",
+                "route": "po",
+                "frequency": "once daily",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefpodoxime proxetil",
+                "dose": "200 mg",
+                "route": "po",
+                "frequency": "bid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefprozil",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefuroxime axetil",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1-2 gm",
+                "route": "IV/IM",
+                "durationDetail": {
+                  "fixedDuration": "3 days"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "po",
+                "frequency": "once daily",
+                "durationDetail": {
+                  "fixedDuration": "10 days"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tympanocentesis allows for etiologic diagnosis, susceptibility testing, and pathogen-directed therapy",
+        "Reference: StatPearls; 2022 Jan. 2022 Jan 21"
+      ]
+    }
+  ]
+}

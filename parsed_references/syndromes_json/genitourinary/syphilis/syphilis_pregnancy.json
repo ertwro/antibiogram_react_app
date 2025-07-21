@@ -1,0 +1,93 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, Pregnancy",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, Pregnancy.pdf",
+    "lastUpdated": "2022-08-25"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Syphilis in pregnancy is associated with high rate of transmission to the fetus and still births.",
+        "All pregnant women should be screened for syphilis early in pregnancy (JAMA 2018; 320:911)",
+        "If a woman is high risk (see comments) or in a community with high prevalence, screening should occur early in pregnancy, at 28 weeks, and at delivery.",
+        "Highest risk of transmission to fetus is during the primary and secondary stages of syphilis.",
+        "Skin test for penicillin allergy.",
+        "Desensitize penicillin-allergic patients if necessary, as parenteral Penicillin G is the only therapy with documented efficacy.",
+        "See Penicillin Allergy, Overview and Methods for Penicillin Desensitization: Oral (Pen VK), Parenteral (Pen G)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can test using traditional syphilis screening algorithm or by treponemal antibody testing using the reverse sequence algorithm.",
+        "Unless a documented history of treatment with decreased titers, assume positive serology is active infection.",
+        "A woman with fetal death after 20 weeks' gestation should be tested for syphilis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Syphilis in pregnancy should be treated with the same penicillin regimen as for non-pregnant patients, as appropriate for the stage of infection.",
+        "For situations where a single IM dose of benzathine penicillin G would be used in a non-pregnant patient, some recommend 2nd dose (2.4 million units) Benzathine Penicillin G one week after initial dose especially in the 3rd trimester or in patients with secondary syphilis.",
+        "See specific setting or Syphilis, Overview."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None (see Comments)",
+        "Pregnant women with a history of penicillin allergy should be desensitized and treated with penicillin"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The post-treatment RPR titer may not decrease 2-fold by the end of the pregnancy. The rate of decrease in the RPR titer depends on the stage of the syphilis, the trimester of the pregnancy, and the age of the patient. A failure to achieve a 2-fold decrease is not an indication that the treatment was a failure (Clin Infect Dis 60:686, 2015; Clin Infect Dis 60:691, 2015)",
+        "Doxycycline and Tetracycline are contraindicated in pregnancy.",
+        "Erythromycin is associated with high treatment failure rate in fetus.",
+        "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021 or 2020 European Guidelines",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022",
+        "Current CDC recommendations are to screen at initial prenatal visit and to screen all women twice during the third trimester (28 weeks and at birth) if in a region of high community prevalence or at high risk.",
+        "In a theoretical cohort of 3.9 million women, repeat syphilis screening in the third trimester is cost effective. Model indicates 41 fewer neonates with congenital syphilis, 73 fewer still births, 27 fewer infant deaths and a cost saving of $52 million (Obstet Gynecol 2018;132:699).",
+        "Maternal risk factors for syphilis in pregnancy: sex with multiple partners, sex with drug use or transactional sex, late prenatal care (second trimester or later) or no prenatal care, methamphetamine or heroin use, incarceration of woman or her partner, and unstable housing or homelessness"
+      ]
+    }
+  ]
+}

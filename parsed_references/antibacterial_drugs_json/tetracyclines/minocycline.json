@@ -1,0 +1,121 @@
+{
+  "drug_name": "Minocycline",
+  "tradename": "Minocin, Dynacin, Solodyn, Arestin, Amzeeq",
+  "usage_and_dosing": {
+    "description": "Broad spectrum member of the tetracycline group of antibiotics. Most lipid soluble and has the longest serum half-life.",
+    "activity": {
+      "like_other_tetracyclines": "broad spectrum of activity",
+      "common_uses": "Commonly used to treat acne; an alternative for Lyme Disease.",
+      "meningococcal_prophylaxis": "No longer recommended for meningococcal prophylaxis due to high incidence of vestibular side effects.",
+      "mdr_gnb_activity": {
+        "summary": "Most active of the tetracycline antibiotics vs. MDR gram-negative bacilli (GNB), e.g., Acinetobacter baumannii (Infect Dis Ther 2017;6:199), Stenotrophomonas maltophilia (Diag Microbiol Infect Dis 2016; 85:352)",
+        "in_vitro_acinetobacter": "In vitro activity vs. Acinetobacter enhanced with combination therapy with a polymyxin",
+        "animal_model_acinetobacter": "Minocycline + Colistin effective in animal model of Acinetobacter pneumonia but not in infected biofilms (Antimicrob Agents Chemother 2016; 60: 4047)",
+        "clinical_effectiveness_acinetobacter": "Potential clinical effectiveness vs. Acinetobacter in small observational clinical studies (Am J Health System Pharm 2016;73: 279; Drugs 2016;76: 1467)"
+      },
+      "other_activity": "See Antimicrobial Spectrum (below) for other activity"
+    },
+    "resistance_mechanisms": "Several mechanisms of resistance: Efflux pumps (common, low level resistance), ribosomal target change (high level resistance), porin closure (rare), enzymatic alteration.",
+    "availability": "Available for oral, subgingival, topical, and intravenous use.",
+    "adult_dose": "Usual dose: 200 mg po/IV as initial loading dose, then 100 mg po/IV q12h. Infuse IV doses over 60 minutes",
+    "pediatric_dose": {
+      "age_gt_8_yrs": "4 mg/kg/day po (divided q12h)"
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": "16",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "100 mg po/IV q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Vestibular symptoms (30-90% in some groups, none in others): vertigo 33%, ataxia 43%, nausea 50%, vomiting 3%, women more frequently than men.",
+    "Hypersensitivity pneumonitis, reversible.",
+    "Can increase skin pigmentation described as slate-gray or blue-black of the skin and other tissues with long-term use; for picture see JAMA 2021;326:1851.",
+    "Also: Fever (rare), rash, photosensitivity, neutropenia, eosinophilia, thrombocytopenia, C. difficile colitis, increased LFTs, hepatic failure, increased BUN/Creatinine, headache.",
+    "In children given Minocycline for acne, induced autoimmunity reported (J Peds 153:314, 2008)",
+    "Intracranial hypertension:e.g., pseudotumor cerebri",
+    "Under the age of 8 yrs: abnormal skeletal and tooth development.",
+    "Minocycline preps contain magnesium. Monitor magnesium levels in patients with renal impairment and/or heart block."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "D",
+    "lactation": "Short-term use safe, monitor infant for GI toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Mycoplasma pneumoniae"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab/cap (50, 75, 100 mg), extended-release tab (45, 55, 65, 80, 90, 105, 115, 135 mg), 1 gm pwd for subgingival use, 4% topical foam, injection",
+    "food_recs": "Cap/tab/ER tab ± food",
+    "oral_absorption": "No data",
+    "tmax_hr": "2.1",
+    "peak_serum_conc": {
+      "po": "2.0-3.5 (200 mg po, SD)",
+      "iv": "4.2 (200 mg IV, SD)"
+    },
+    "peak_urine_conc": "No data",
+    "protein_binding": "76",
+    "volume_of_distribution": "80-114 L (Vss)",
+    "avg_serum_t1_2": "16",
+    "elimination": "Biliary",
+    "bile_penetration": "200-3200",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "48.3 (200 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Al, Bi, Fe, Mg (e.g. antacids)",
+      "effect": "↓ minocycline absorption",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Ergot alkaloids",
+      "effect": "↑ risk of ergotism",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Isotretinoin",
+      "effect": "↑ risk of pseudotumor cerebri",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Methoxyflurane",
+      "effect": "↑ renal toxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Oral contraceptives",
+      "effect": "↓ OC effectiveness",
+      "suggestion": "Use alternative method"
+    },
+    {
+      "drug": "Sucralfate",
+      "effect": "↓ minocycline absorption",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ INR",
+      "suggestion": "Monitor INR, adjust dose"
+    }
+  ],
+  "comments": [
+    "Disease modifying agent for rheumatoid arthritis, but not an approved indication: 100 mg po bid (Arth Rheum 59:762, 2008)."
+  ]
+}

@@ -1,0 +1,130 @@
+
+{
+  "documentMetadata": {
+    "title": "Dacryocystitis",
+    "sourceFile": "syndromes/ocular/lacrimal/Dacryocystitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dacryocystitis is an infection or inflammation of the lacrimal sac. It almost always occurs secondary to an obstruction of the nasolacrimal duct (NLD), the channel that drains tears from the lacrimal sac into the nasal cavity. The stagnant tears within the obstructed sac provide a fertile medium for bacterial growth. It can be acute or chronic."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Acute Dacryocystitis"
+        },
+        {
+          "type": "keyValuePairs",
+          "pairs": [
+            {
+              "key": "Symptoms",
+              "value": "Sudden onset of severe pain, redness, and swelling over the medial canthal area (the inner corner of the eye). Tearing (epiphora) is common, and fever may be present."
+            },
+            {
+              "key": "Signs",
+              "value": "A tender, erythematous, tense swelling is present over the lacrimal sac. Pressure over the sac may cause reflux of purulent material from the punctum. Preseptal cellulitis is a common complication."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Chronic Dacryocystitis"
+        },
+        {
+          "type": "keyValuePairs",
+          "pairs": [
+            {
+              "key": "Symptoms",
+              "value": "The primary symptom is persistent tearing (epiphora). There may be a chronic, low-grade, mucopurulent discharge."
+            },
+            {
+              "key": "Signs",
+              "value": "A mucocele (a non-tender, fluid-filled swelling) may be palpable over the lacrimal sac. Reflux of mucoid material from the punctum upon sac compression is a key sign. There is little to no inflammation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Microbiology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Common causative organisms include Staphylococcus aureus, Streptococcus pneumoniae, Haemophilus influenzae, and Pseudomonas aeruginosa."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Acute Dacryocystitis"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Required",
+            "appliesTo": {
+              "description": "Patients with acute dacryocystitis"
+            },
+            "components": [
+              {
+                "drug": "Oral antibiotics (e.g., Clindamycin or Trimethoprim-sulfamethoxazole for MRSA coverage; Amoxicillin-clavulanate for broader coverage)",
+                "route": "PO"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            },
+            "notes": "Warm compresses and analgesics are also used. Hospitalization and IV antibiotics may be required for severe cases or if orbital cellulitis is suspected. Incision and drainage may be performed if a large abscess forms."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Chronic Dacryocystitis & Definitive Treatment"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Dacryocystorhinostomy (DCR)",
+            "indication": "This is the definitive treatment for the underlying NLD obstruction that causes both chronic and recurrent acute dacryocystitis.",
+            "description": "A surgical procedure that creates a new bypass channel between the lacrimal sac and the nasal cavity, allowing tears to drain properly. It can be performed externally (through a skin incision) or endonasally (using an endoscope).",
+            "timing": "DCR is performed after the acute infection has resolved."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Orbital Cellulitis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Orbital Cellulitis"
+      }
+    }
+  ]
+}

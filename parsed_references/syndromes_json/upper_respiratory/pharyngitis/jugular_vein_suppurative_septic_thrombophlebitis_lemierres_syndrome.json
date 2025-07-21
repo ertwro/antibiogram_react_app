@@ -1,0 +1,182 @@
+{
+  "documentMetadata": {
+    "title": "Jugular Vein Suppurative (Septic) Thrombophlebitis, Lemierre's syndrome",
+    "sourceFile": "Jugular Vein Suppurative (Septic) Thrombophlebitis, Lemierre's syndrome.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Suppurative thrombophlebitis of the internal jugular vein is commonly referred to as Lemierre, or Lemierre's syndrome, when:",
+        "The syndrome develops after, or during, an acute pharyngeal infection (viral or bacterial) in healthy young adults and",
+        "Accompanied by positive blood cultures for Fusobacterium necrophorum",
+        "Maybe complicated by pulmonary septic emboli and/or hematogenous seeding of other sites: e.g., septic arthritis, osteomyelitis, liver abscess, brain abscess",
+        "Other, less common, bacterial etiologies listed below",
+        "Excellent reviews: J Microbiol Immunol Infection 2020;53: 513 and Cureus. 2023;15:e43685"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fusobacterium necrophorum (most common) and other Fusobacterium species.",
+        "Various Enterobacterales",
+        "Other anaerobic bacteria: Eikenella corrodens, Porphyromonas sp, Bacteroides species",
+        "Streptococcus pyogenes and Streptococcus anginosus group",
+        "Rarely Staphylococcus aureus to include MRSA"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy focuses on possible F. necrophorum; specific therapy tailored to the identified organism",
+        "Treatment is a combination of surgical drainage/debridement and antimicrobial therapy",
+        "F. necrophorum is resistant to penicillin G due to production of penicillinase"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Suggested empiric therapy:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Metronidazole",
+                "dose": "500 mg",
+                "route": "IV/po",
+                "frequency": "q8h",
+                "connector": "+"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "once daily"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV (over 4 hr)",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Imipenem-cilastatin",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "or"
+          },
+          {
+            "drug": "another carbapenem"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can potentially narrow therapy based on culture results. NOTE: in vitro susceptibility of F. necrophorum is not routinely available",
+        "If the suppuration is due to an infected IV internal jugular line, and not a complication of pharyngitis, start empiric treatment for MRSA with Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see Vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "600-900 mg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "is active vs F. necrophorum"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Due to location and/or necrosis, treatment duration often continues for 3-6 weeks.",
+        "Avoid macrolides and fluoroquinolones as Fusobacteria are resistant."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "F. necrophorum produces beta-lactamases; hence, recommendation for Piperacillin-tazobactam",
+        "Also, activity of antibacterial regimen should include oral streptococci"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Other References:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J Microbiol Immunol Infect 2020;53: 513 and Cureus. 2023;15:e43685",
+            "Original report by Lemierre: Lancet 1936; 227:701"
+          ]
+        }
+      ]
+    }
+  ]
+}

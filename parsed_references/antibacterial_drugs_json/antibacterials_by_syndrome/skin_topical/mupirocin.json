@@ -1,0 +1,39 @@
+{
+  "drug_name": "Mupirocin",
+  "usage_and_dosing": {
+    "description": [
+      "Mupirocin is used in attempts to eradicate nasal carriage of Staph. aureus.",
+      "Inhibits bacterial protein synthesis via binding to isoleucyl-transfer RNA (tRNA) synthetase.",
+      "Used in the topical therapy of mild Streptococcal impetigo.",
+      "Mupirocin calcium 2% nasal ointment is no longer available. However, the skin ointment is used for intranasal administration off-label.",
+      "Not active vs. enterococci or Gram-negative bacteria. Summary of resistance: Clin Infect Dis 49:935, 2009.",
+      "If resistance is an issue, see Bacitracin, Polymixin (triple-antibiotic ointments) or Retapamulin.",
+      "Reference: Clin Infect Dis 49:1541, 2009, Clin Micro Rev 30(3): 827, 2019."
+    ],
+    "adult_dose": {
+      "usual_dose": "Skin cream or ointment 2%: Apply tid x10 days.\nNasal: Apply bid x5 days."
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "2% cream (age >3 mon): apply q8h x10 days\n2% oint (age >2 mon): apply q8h x10 days",
+      "max_day": "-"
+    },
+    "renal_adjustment": "N/A",
+    "hepatic_adjustment": "N/A"
+  },
+  "adverse_effects": [
+    "Skin cream: itch, burning, stinging (1-1.5%), headache (9%), rhinitis (6%), respiratory congestion (5%)."
+  ],
+  "antimicrobial_spectrum": [
+    "S. aureus",
+    "S. epidermidis (most isolates)",
+    "S. pyogenes"
+  ],
+  "pharmacology": "No data",
+  "major_drug_interactions": "No data",
+  "comments": [
+    "For review of antiseptics and topical antibiotics, see Clin Infect Dis 49:1541, 2009, Clin Micro Rev 30(3): 827, 2019.",
+    "If large amounts in azotemic patients, can accumulate polyethylene glycol (Clin Infect Dis 49:1541, 2009).",
+    "Reported percent of S. aureus strains resistant to Mupirocin is highly variable. Usual range is quoted as from 2.1% to 13.2%. In survey of 2093 MRSA isolates in 2011 that included VISA strains, high level resistance was found in 3.2% (Antimicrob Ag Chemother 58:740, 2014). In 2015 literature review, range of resistance varied from 1 to 81% (J Antimicrob Chemother 70:2681, 2015).",
+    "Data from study of attempted eradication of MRSA colonization with intra-nasal mupirocin indicated increased percent of high-level mupirocin resistance in 4 of 19 patients who failed decolonization and did not previously harbor resistant isolates (Antimicrob Ag Chemother 2018: doi10.1128/AAC.00819-18)."
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Moraxella catarrhalis",
+      "aliases": [],
+      "lastUpdated": "2024-07-30",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Diplococci",
+        "respiration": "Aerobic",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative diplococcus, oxidase +, catalase +, DNase +, asaccharolytic (does not ferment carbohydrates), tributyrin hydrolysis +."
+    },
+    "clinicalProfile": {
+      "summary": "Moraxella catarrhalis is a common cause of respiratory tract infections, including sinusitis, otitis media, and exacerbations of chronic bronchitis, particularly in smokers. It can also cause pneumonia.",
+      "pathophysiologyPearls": [
+        "Colonization of the upper respiratory tract is common, especially in children.",
+        "Infection often occurs when host defenses are impaired, such as in chronic obstructive pulmonary disease (COPD) or following a viral respiratory infection."
+      ],
+      "keySignsAndSymptoms": [
+        "Cough, sputum production, shortness of breath (bronchitis/pneumonia)",
+        "Facial pain, pressure, purulent nasal discharge (sinusitis)",
+        "Ear pain, fever (otitis media)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Acute Exacerbation of Chronic Bronchitis (AECB)",
+          "description": "A frequent cause of exacerbations in patients with COPD."
+        },
+        {
+          "syndromeName": "Otitis Media",
+          "description": "A common cause of middle ear infections, particularly in children."
+        },
+        {
+          "syndromeName": "Sinusitis",
+          "description": "A common cause of acute bacterial sinusitis."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Can cause community-acquired pneumonia, especially in the elderly or those with underlying lung disease."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Smokers",
+        "Patients with chronic obstructive pulmonary disease (COPD)",
+        "Children",
+        "Elderly"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets",
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "The vast majority of strains produce beta-lactamase, conferring resistance to penicillin and amoxicillin."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Erythromycin, doxycycline, and fluoroquinolones are also effective agents."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Sinusitis, Otitis Media, Acute Exacerbation of Chronic Bronchitis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Respiratory"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "875/125",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Cefuroxime axetil",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX DS",
+                      "dose": "1 tab",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500mg day 1, then 250mg daily",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": "4 day course following initial dose."
+                    },
+                    {
+                      "drugName": "Cefprozil",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Cefdinir",
+                      "dose": "600",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Culture of sputum, sinus aspirate, or middle ear fluid may be performed in severe or refractory cases."
+      ],
+      "methodologyNotes": [
+        "Grows well on standard laboratory media."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.334Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Moraxella catarrhalis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-07-30"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Diplococci",
+        "respiration": "Aerobic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Moraxella catarrhalis is a common cause of respiratory tract infections, including sinusitis, otitis media, and exacerbations of chronic bronchitis, particularly in smokers. It can also cause pneumonia.",
+      "pathophysiologyPearls": [
+        "Colonization of the upper respiratory tract is common, especially in children.",
+        "Infection often occurs when host defenses are impaired, such as in chronic obstructive pulmonary disease (COPD) or following a viral respiratory infection."
+      ],
+      "keySignsAndSymptoms": [
+        "Cough, sputum production, shortness of breath (bronchitis/pneumonia)",
+        "Facial pain, pressure, purulent nasal discharge (sinusitis)",
+        "Ear pain, fever (otitis media)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Acute Exacerbation of Chronic Bronchitis (AECB)",
+          "description": "A frequent cause of exacerbations in patients with COPD."
+        },
+        {
+          "syndromeName": "Otitis Media",
+          "description": "A common cause of middle ear infections, particularly in children."
+        },
+        {
+          "syndromeName": "Sinusitis",
+          "description": "A common cause of acute bacterial sinusitis."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Can cause community-acquired pneumonia, especially in the elderly or those with underlying lung disease."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Smokers",
+        "Patients with chronic obstructive pulmonary disease (COPD)",
+        "Children",
+        "Elderly"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets",
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "The vast majority of strains produce beta-lactamase, conferring resistance to penicillin and amoxicillin."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Sinusitis, Otitis Media, Acute Exacerbation of Chronic Bronchitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Respiratory"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "875/125",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Amoxicillin-clavulanate 875/125 PO BID"
+            },
+            {
+              "drugName": "Cefuroxime axetil",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Cefuroxime axetil 500 PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Sinusitis, Otitis Media, Acute Exacerbation of Chronic Bronchitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Respiratory"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX DS",
+              "dose": "1 tab",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "TMP-SMX DS 1 tab PO BID"
+            },
+            {
+              "drugName": "Azithromycin",
+              "dose": "500mg day 1, then 250mg daily",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "5-7 days",
+              "comments": "4 day course following initial dose.",
+              "originalText": "Azithromycin 500mg day 1, then 250mg daily PO daily"
+            },
+            {
+              "drugName": "Cefprozil",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Cefprozil 500 PO q12h"
+            },
+            {
+              "drugName": "Cefdinir",
+              "dose": "600",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Cefdinir 600 PO daily"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Culture of sputum, sinus aspirate, or middle ear fluid may be performed in severe or refractory cases."
+      ],
+      "methodologyNotes": [
+        "Grows well on standard laboratory media."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

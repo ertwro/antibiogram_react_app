@@ -1,0 +1,145 @@
+
+{
+  "documentMetadata": {
+    "title": "Hematogenous Osteomyelitis",
+    "sourceFile": "syndromes/musculoskeletal/bone/Osteomyelitis, Hematogenous.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hematogenous osteomyelitis is an infection of the bone caused by the seeding of microorganisms from the bloodstream. It is the most common route of bone infection in children. In adults, it is less common than contiguous spread but is frequently seen in specific populations, such as IV drug users or patients with indwelling catheters. The infection typically begins in the metaphysis of long bones in children and in the vertebral bodies in adults, due to the unique vascular anatomy of these areas."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Pathophysiology"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "In Children",
+          "value": "The metaphyseal capillaries of long bones have sluggish blood flow and sharp loops, which allows bacteria to settle and establish an infection. The infection can then spread to the cortex and form a subperiosteal abscess."
+        },
+        {
+          "key": "In Adults",
+          "value": "The vertebral column is the most common site. The rich, slow-flowing sinusoidal venous system of the vertebral bodies is susceptible to bacterial seeding. Infection often starts near the endplate and can spread to the adjacent disc and vertebral body."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Microbiology"
+    },
+    {
+      "type": "paragraph",
+      "text": "The causative organism varies by age and risk factors."
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Population", "Most Common Pathogens"],
+        "rows": [
+          ["Children (>4 years) and Adults", "Staphylococcus aureus (most common overall)"],
+          ["Neonates (<2 months)", "S. aureus, Group B Streptococcus, E. coli"],
+          ["Children (2 months - 4 years)", "S. aureus, Streptococcus pneumoniae, Kingella kingae"],
+          ["Patients with Sickle Cell Disease", "Salmonella species, S. aureus"],
+          ["IV Drug Users", "S. aureus (often MRSA), Pseudomonas aeruginosa, Candida species"]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation and Diagnosis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Acute Presentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Typically seen in children. Presents with acute onset of fever, malaise, and localized signs of inflammation over the affected bone: focal tenderness, warmth, swelling, and erythema. The child may refuse to use the affected limb (pseudoparalysis)."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Subacute/Chronic Presentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "More common in adults with vertebral osteomyelitis. Presents with insidious onset of dull, constant back or neck pain that is worse at night. Fever is present in less than 50% of cases. Neurological symptoms can occur with spinal cord or nerve root compression."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Diagnosis",
+          "interpretation": "Diagnosis relies on a combination of clinical suspicion, inflammatory markers (ESR, CRP are usually elevated), imaging, and microbiology. Blood cultures are positive in about 50% of cases and can identify the pathogen, precluding the need for a bone biopsy. MRI is the imaging modality of choice. If blood cultures are negative, a CT-guided or open bone biopsy is required to obtain a microbiologic diagnosis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Antibiotic Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Required",
+            "appliesTo": {
+              "description": "Patients with hematogenous osteomyelitis"
+            },
+            "components": [
+              {
+                "drug": "Pathogen-directed therapy based on blood or bone cultures."
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "Total duration is typically 4-6 weeks. A course of initial IV antibiotics is often given, followed by a switch to a highly bioavailable oral antibiotic once the patient is clinically stable and inflammatory markers are improving."
+            },
+            "notes": "Empiric therapy should be based on the patient's age and risk factors. For a typical adult, this would involve coverage for MRSA (e.g., Vancomycin). For a child, an anti-staphylococcal penicillin (e.g., Nafcillin/Oxacillin) or a first-generation cephalosporin (e.g., Cefazolin) is often used."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical Management"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Surgical Debridement",
+            "indication": "Surgery is indicated for failure to respond to antibiotic therapy, presence of a large abscess, or in vertebral osteomyelitis with spinal instability or neurological compromise."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Osteomyelitis, Overview; Osteomyelitis, Vertebral",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Osteomyelitis, Overview"
+      }
+    }
+  ]
+}

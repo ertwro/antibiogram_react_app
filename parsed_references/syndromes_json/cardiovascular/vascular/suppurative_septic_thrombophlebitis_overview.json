@@ -1,0 +1,35 @@
+{
+  "documentMetadata": {
+    "title": "Suppurative (Septic) Thrombophlebitis, Overview",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Suppurative (Septic) Thrombophlebitis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial infection of venous blood clots",
+        "Diagnosis requires the presence of positive blood culture results plus radiographic evidence of a thrombus",
+        "Can be complicated by downstream emboli"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Topics Links"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cavernous sinus suppurative (septic) thrombophlebitis",
+        "Jugular vein suppurative (septic) thrombophlebitis: Lemierre's Syndrome",
+        "Pelvic vein suppurative (septic) thrombophlebitis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "documentMetadata": {
+    "title": "Toxic Shock Syndrome (TSS), Streptococcal",
+    "sourceFile": "Toxin_mediated/Toxic Shock syndrome (TSS), Streptococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Patient with invasive streptococcal disease who develops toxic shock syndrome (TSS). Selected streptococci may be \"toxigenic\" and carry gene for Toxic Shock Syndrome Toxin (TSST). Isolation of Streptococcus species (usually group A), hypotension and multiorgan dysfunction as manifest by 2 or more of the following: Nausea/vomiting, diarrhea, renal impairment, coagulopathy, liver injury, acute respiratory distress syndrome (ARDS), generalized rash, or a focus of soft tissue infection. Associated with invasive streptococcal disease, i.e., erysipelas, necrotizing fasciitis; secondary Streptococcal infection of varicella."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Streptococcal TSS also can occur as a complication of infection with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "S. agalactiae (group B)",
+            "S. dysgalactiae (groups C, G)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus pyogenes (group A)",
+        "Streptococcus agalactiae (group B)",
+        "Streptococcus dysgalactiae (groups C, G)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Early surgical debridement",
+        "indication": "If any evidence of possible associated necrotizing fasciitis"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Empiric",
+        "condition": "Clinical diagnosis and/or streptococci identified but in vitro antibiotic susceptibilities pending",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "24 million units/day",
+            "route": "IV",
+            "frequency": "in divided doses"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "To turn off toxin production. If Penicillin allergic: Clindamycin + Vancomycin. Also, start IVIG: 1 gm/kg on day 1, then 0.5 gm/kg on days 2 and 3 (see Comments)"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Specific",
+        "condition": "Streptococci identified and in vitro susceptibility reported",
+        "components": [
+          {
+            "drug": "Clindamycin"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "5-7 days"
+        },
+        "notes": "If Clindamycin-susceptible, continue Clindamycin for 5-7 days while continuing the Penicillin. If Clindamycin-resistant, can use Linezolid, 600 mg IV bid or Tedizolid 200 mg IV once daily to both inhibit toxin production and treat the streptococcus. If penicillin-allergic rash (past or during penicillin therapy) and streptococcus is Clindamycin-susceptible, can continue with Clindamycin monotherapy."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Empiric",
+        "condition": "Streptococci identified but in vitro susceptibility pending",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "Also, start IVIG: 1 gm/kg on day 1, then 0.5 gm/kg on days 2 and 3 (see Comments)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "paragraph",
+      "text": "Duration of therapy is individualized; minimum of 14 days if associated bacteremia"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "TSST-induced erythroderma may evolve to skin desquamation over 7-14 days",
+        "Clindamycin: Results of prospective observational studies (Clin Infect Dis 59:358, 2014; Clin Infect Dis 59:366, 2014; Clin Infect Dis 59: 851, 2014): Study data suggests that Clindamycin use reduces mortality. In large observational study, adjunctive clindamycin associated with survival benefit for infections due to Group A beta-hemolytic streptococcal infections but not for non-Group A beta-hemolytic streptococcal infections (Lancet Infect Dis 2021;21:697). Increasing streptococcal resistance to clindamycin (Lancet Infect Dis. 2021, 21:1208). Based on in vitro data, linezolid may be a suitable alternative (Clin Infect Dis. 2023; 76:346).",
+        "The reduction in mortality may be enhanced by IVIG. Use supported by meta-analysis of adjunctive use of IVIG in clindamycin-treated patients; one randomized study and 4 non-randomized studies (Clin Infect Dis 2018;67:1434). IVIG recommended regimen based on dose necessary to neutralize circulating levels of GpA strep. superantigen: Clin Infect Dis 2020; 71:1772.",
+        "Surgery required in patients with necrotizing fasciitis. Mortality with fasciitis 30-50%, myositis 80% even with early therapy, Clin Infect Dis 14:2, 1992.",
+        "Use of NSAIDs may predispose to toxic shock syndrome (TSS): Curr Opin Infect Dis 28:231, 2015.",
+        "For discussion of reasons Penicillin G may fail in fulminant S. pyogenes infections, see J Infect Dis 167:1401, 1993."
+      ]
+    }
+  ]
+}

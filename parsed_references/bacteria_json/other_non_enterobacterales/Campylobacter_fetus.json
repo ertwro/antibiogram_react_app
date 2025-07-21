@@ -1,0 +1,469 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Campylobacter fetus",
+      "aliases": [],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod (gull-wing appearance)",
+        "respiration": "Microaerophilic",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative S-shaped rod, microaerophilic, motile, oxidase +, catalase +, grows at 25°C but not 42°C, H2S production in TSI."
+    },
+    "clinicalProfile": {
+      "summary": "Campylobacter fetus is an opportunistic pathogen that primarily causes systemic disease, such as bacteremia and focal infections, in debilitated, immunocompromised, or elderly individuals. While it can be a food-borne illness, diarrhea is an uncommon presentation.",
+      "pathophysiologyPearls": [
+        "Infection is often associated with exposure to livestock or consumption of contaminated food products.",
+        "Tends to cause extraintestinal and systemic infections more commonly than other Campylobacter species."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Malaise",
+        "Symptoms of bacteremia",
+        "Focal signs depending on the site of infection (e.g., meningitis, endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": "A common presentation, particularly in immunocompromised hosts."
+        },
+        {
+          "syndromeName": "Meningitis",
+          "description": "Can occur, especially in neonates and immunocompromised individuals."
+        },
+        {
+          "syndromeName": "Endovascular Infections",
+          "description": "Includes endocarditis and mycotic aneurysms."
+        },
+        {
+          "syndromeName": "Prosthetic Device Infections",
+          "description": "Can infect prosthetic joints and other implanted materials."
+        },
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Uncommon, but can occur."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised hosts (e.g., HIV, malignancy)",
+        "Debilitated individuals",
+        "Elderly",
+        "Pregnant women",
+        "Individuals with occupational exposure to animals (e.g., veterinarians, abattoir workers)"
+      ],
+      "transmissionVectors": [
+        "Contaminated food (unpasteurized milk, undercooked meat)",
+        "Contact with infected animals (cattle, sheep)"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Fluoroquinolone Resistance",
+          "details": "Resistance to fluoroquinolones is common. Susceptibility testing is essential if these agents are considered for treatment."
+        },
+        {
+          "alertTitle": "Third-Generation Cephalosporin Resistance",
+          "details": "Resistance to third-generation cephalosporins is found in 10-20% of isolates and has been associated with treatment failure in meningitis."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment recommendations are primarily for bacteremia or focal infections, especially in immunocompromised hosts.",
+        "Consider a beta-lactam-gentamicin combination for prosthetic valve infections."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Macrolides",
+          "condition": "Serious infections",
+          "reason": "Not recommended for the treatment of serious infections caused by C. fetus."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia or Focal Infections",
+            "patientPopulation": [
+              "Immunocompromised hosts",
+              "Debilitated or elderly patients"
+            ],
+            "isolateSource": "Blood or other sterile sites"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+                  "drugs": [
+                    {
+                      "drugName": "Imipenem-cilastatin",
+                      "dose": "500",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "For meningitis, use Meropenem 2 gm IV q8h for up to 4-6 weeks."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "100 mg/kg/day",
+                      "route": "IV",
+                      "frequency": "divided q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ertapenem",
+                      "dose": "1",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood cultures and cultures from other relevant sites are necessary for diagnosis.",
+        "Susceptibility testing is crucial due to variable resistance patterns."
+      ],
+      "methodologyNotes": [
+        "C. fetus can be difficult to culture and may require special laboratory procedures and prolonged incubation."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 65:1751, 2017",
+          "summaryOrNote": "Report on a cluster of intestinal and extraintestinal cases linked to men who have sex with men (MSM)."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 58:1579, 2014",
+          "summaryOrNote": "Review on the epidemiology, clinical manifestations, and difficulty in culturing C. fetus."
+        },
+        {
+          "source": "Medicine (Baltimore)",
+          "citation": "Medicine (Baltimore) 95:e2858, 2016",
+          "summaryOrNote": "Information on the treatment of C. fetus meningitis."
+        },
+        {
+          "source": "Medicine",
+          "citation": "Medicine 89:319, 2010",
+          "summaryOrNote": "Information on antimicrobial resistance in C. fetus."
+        },
+        {
+          "source": "Texas Heart Institute Journal",
+          "citation": "Tex Heart Inst J 38:584, 2011",
+          "summaryOrNote": "Case report on prosthetic valve infection treated with a beta-lactam-gentamicin combination."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.325Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Campylobacter fetus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod (gull-wing appearance)",
+        "respiration": "Microaerophilic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Campylobacter fetus is an opportunistic pathogen that primarily causes systemic disease, such as bacteremia and focal infections, in debilitated, immunocompromised, or elderly individuals. While it can be a food-borne illness, diarrhea is an uncommon presentation.",
+      "pathophysiologyPearls": [
+        "Infection is often associated with exposure to livestock or consumption of contaminated food products.",
+        "Tends to cause extraintestinal and systemic infections more commonly than other Campylobacter species."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Malaise",
+        "Symptoms of bacteremia",
+        "Focal signs depending on the site of infection (e.g., meningitis, endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": "A common presentation, particularly in immunocompromised hosts."
+        },
+        {
+          "syndromeName": "Meningitis",
+          "description": "Can occur, especially in neonates and immunocompromised individuals."
+        },
+        {
+          "syndromeName": "Endovascular Infections",
+          "description": "Includes endocarditis and mycotic aneurysms."
+        },
+        {
+          "syndromeName": "Prosthetic Device Infections",
+          "description": "Can infect prosthetic joints and other implanted materials."
+        },
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Uncommon, but can occur."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised hosts (e.g., HIV, malignancy)",
+        "Debilitated individuals",
+        "Elderly",
+        "Pregnant women",
+        "Individuals with occupational exposure to animals (e.g., veterinarians, abattoir workers)"
+      ],
+      "transmissionVectors": [
+        "Contaminated food (unpasteurized milk, undercooked meat)",
+        "Contact with infected animals (cattle, sheep)"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Fluoroquinolone Resistance",
+          "details": "Resistance to fluoroquinolones is common. Susceptibility testing is essential if these agents are considered for treatment."
+        },
+        {
+          "alertTitle": "Third-Generation Cephalosporin Resistance",
+          "details": "Resistance to third-generation cephalosporins is found in 10-20% of isolates and has been associated with treatment failure in meningitis."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia or Focal Infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Immunocompromised hosts",
+                "Debilitated or elderly patients"
+              ],
+              "labFindings": "Blood or other sterile sites"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Imipenem-cilastatin",
+              "dose": "500",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+              "comments": "",
+              "originalText": "Imipenem-cilastatin 500 IV q6h"
+            },
+            {
+              "drugName": "Meropenem",
+              "dose": "1",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+              "comments": "For meningitis, use Meropenem 2 gm IV q8h for up to 4-6 weeks.",
+              "originalText": "Meropenem 1 IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia or Focal Infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Immunocompromised hosts",
+                "Debilitated or elderly patients"
+              ],
+              "labFindings": "Blood or other sterile sites"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ampicillin",
+              "dose": "100 mg/kg/day",
+              "route": "IV",
+              "frequency": "divided q6h",
+              "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+              "comments": "",
+              "originalText": "Ampicillin 100 mg/kg/day IV divided q6h"
+            },
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+              "comments": "",
+              "originalText": "Gentamicin 5 mg/kg IV q24h"
+            },
+            {
+              "drugName": "Ertapenem",
+              "dose": "1",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "7-14 days for uncomplicated bacteremia; at least 4 weeks for endocarditis",
+              "comments": "",
+              "originalText": "Ertapenem 1 IV q24h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood cultures and cultures from other relevant sites are necessary for diagnosis.",
+        "Susceptibility testing is crucial due to variable resistance patterns."
+      ],
+      "methodologyNotes": [
+        "C. fetus can be difficult to culture and may require special laboratory procedures and prolonged incubation."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

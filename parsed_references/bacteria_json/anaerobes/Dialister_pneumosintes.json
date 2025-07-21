@@ -1,0 +1,120 @@
+{
+  "_originalData": {
+    "aliases": [
+      "Dialister pneumosintes"
+    ],
+    "updated": "2024-04-29",
+    "clinical_setting": [
+      "Positive lab result",
+      "Oral flora associated with periodontal and other oral infections. Rarely intra-abdominal and soft tissue abscesses."
+    ],
+    "classification": [
+      "Anaerobic gram-negative rod"
+    ],
+    "primary_regimens": [
+      "Amoxicillin or Piperacillin"
+    ],
+    "alternative_regimens": [
+      "Metronidazole",
+      "Carbapenems"
+    ],
+    "comments": [
+      "Limited data on susceptibility: see Antimicrob Agents Chemother 2007; 51:4498"
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "aliases",
+      "updated",
+      "clinical_setting",
+      "classification",
+      "primary_regimens",
+      "alternative_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.257Z",
+    "sourceFormat": "legacy_cdiff"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": [
+        "Dialister pneumosintes"
+      ]
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinical_setting"
+    ],
+    "value": [
+      "Positive lab result",
+      "Oral flora associated with periodontal and other oral infections. Rarely intra-abdominal and soft tissue abscesses."
+    ]
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_cdiff",
+      "hasMixedContent": true,
+      "hasTaperingRegimens": false
+    },
+    "standardizedRegimens": [],
+    "narrativeTreatments": {
+      "primaryRegimens": {
+        "sources": [
+          "primary_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Amoxicillin or Piperacillin"
+        ]
+      },
+      "alternativeRegimens": {
+        "sources": [
+          "alternative_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Metronidazole",
+          "Carbapenems"
+        ]
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "Limited data on susceptibility: see Antimicrob Agents Chemother 2007; 51:4498"
+        ]
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "updated": "2024-04-29"
+    }
+  }
+}

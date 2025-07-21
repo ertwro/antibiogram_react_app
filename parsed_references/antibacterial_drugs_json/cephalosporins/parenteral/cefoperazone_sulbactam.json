@@ -1,0 +1,116 @@
+{
+  "drug_name": "Cefoperazone-sulbactam",
+  "tradename": "Sulperazon, Magnex",
+  "usage_and_dosing": {
+    "general": [
+      "Cefoperazone is a 3rd generation parenteral extended spectrum cephalosporin active vs cell wall and cell membrane.",
+      "It is available in a fixed dose combination with Sulbactam (a Class A beta-lactamase inhibitor).",
+      "Sulbactam-Cefoperazone is active against all organisms susceptible to Cefoperazone with up to a 4-fold reduction in MICs for the combination compared to the Cefoperazone component against selected enteric Gram-negative species.",
+      "Used for a variety of respiratory, skin-soft tissue, urinary tract and intra-abdominal infections.",
+      "Product availability:"
+    ],
+    "product_availability": [
+        {"vial_size": "1 gm", "sulbactam": "0.5 gm", "cefoperazone": "0.5 gm", "ratio": "1:1"},
+        {"vial_size": "1.5 gm", "sulbactam": "0.5 gm", "cefoperazone": "1 gm", "ratio": "1:2"},
+        {"vial_size": "2 gm", "sulbactam": "1 gm", "cefoperazone": "1 gm", "ratio": "1:1"},
+        {"vial_size": "3 gm", "sulbactam": "1 gm", "cefoperazone": "2 gm", "ratio": "1:2"}
+    ],
+    "class_wide_issues": "For class-wide issues, see Cephalosporins, Overview.",
+    "adult_dose": {
+      "usual_dose": "Sulbactam-Cefoperazone 2 to 4 gm/day IV or IM in equally divided doses q12h (i.e., 1 to 2 gm per day Cefoperazone activity).",
+      "severe_or_refractory_infections": "Sulbactam-Cefoperazone may be increased up to 8 gm of the 1:1 ratio (i.e., 4 g Cefoperazone activity) IV in equally divided doses or 12 g (i.e., 8 gm Cefoperazone activity) of the 1:2 ratio.",
+      "max_sulbactam_dose": "The recommended maximum total daily dose of Sulbactam: 4 gm."
+    },
+    "pediatric_dose": {
+        "standard": {
+            "dose": "40-80 mg/kg/day (divided q6-12h)",
+            "cefoperazone_equivalent": "(20-40 mg/kg/day cefoperazone using 1:1 ratio)"
+        },
+        "serious_infection": {
+            "dose": "160 mg/kg/day (divided q6-12h) (80 mg/kg/day cefoperazone using 1:1 ratio) OR 240 mg/kg/day (divided q6-12h) (160 mg/kg/day cefoperazone using 1:2 ratio)"
+        }
+    }
+  },
+  "renal_adjustment": {
+    "notes": [
+        "Dosage adjustment may be required in hepatic disease.",
+        "Administer extra cefoperazone separately as needed (cefoperazone does not require dosage adjustment in renal impairment)."
+    ],
+    "half_life_normal": "Cefoperazone: 1.7.2.0, Sulbactam: 1.0",
+    "half_life_esrd": "Cefoperazone: No change, Sulbactam: 6.9-9.7",
+    "dose_renal_function_normal": "2-4 gm/day (divided q12h) (i.e., cefoperazone 1-2 gm/day)",
+    "crcl_or_egfr": "Adjustment necessary for the sulbactam: CrCl ≥30: No dosage adjustment. CrCl 15-30: Sulbactam 1 gm q12h. CrCl <15: Sulbactam 500 mg q12h",
+    "hemodialysis": "Sulbactam 500 mg q12h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "Sulbactam 1 gm q8h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "Limit dosage to 2 gm/day (cefoperazone) in patients with concomitant hepatic and renal dysfunction.",
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "Limit dosage to 2 gm/day (cefoperazone)"
+  },
+  "adverse_effects": [
+    "See Cephalosporins, Overview",
+    "Hypersensitivity reactions",
+    "Anaphylaxis",
+    "Stevens-Johnson syndrome, toxic epidermal necrolysis",
+    "C. difficile-associated diarrhea",
+    "Increased LFTs",
+    "Hematologic: anemia, neutropenia, thrombocytopenia",
+    "May increase INR and cause bleeding, possibly related to the MTT side chain."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "susceptibility_breakpoints": "Susceptibility breakpoints established for Cefoperazone have not been re-affirmed by modern analytic criteria",
+    "previous_breakpoint_activity": "At the previously established breakpoint of \"susceptible at 16 mcg/mL or less\", Sulbactam-Cefoperazone inhibited the following percentages of a large world-wide collection of organisms (Diagn Microbiol Infect Dis 88: 177, 2017):",
+    "organism_activity": {
+        "enterobacteriaceae": "91.4%",
+        "pseudomonas_aeruginosa": "74.5%",
+        "stenotrophomonas_maltophilia": "50%",
+        "acinetobacter_spp": "40%"
+    },
+    "anaerobes": "Potent vs anaerobes"
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Cef: 236.8 (1 gm IV over 5 min, SD), Sul: 130 (1 gm IV over 5 min, SD)",
+    "peak_urine_conc_ug_ml": "Cef: >2200 (2 gm IV over 15 min, SD)",
+    "protein_binding_percent": "Cef: 87-90",
+    "volume_of_distribution_vd_l": "Cef: 10.2-11.3 L, Sul: 18.0-27.6 L",
+    "avg_serum_half_life_hr": "Cef: 1.7-2.0, Sul: 1.0",
+    "elimination": "Cef: Biliary (main), Sul: renal",
+    "bile_penetration_percent": "Cef: Up to 100x serum conc",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Sulbactam: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Ethanol",
+          "effect": "Possible disulfiram-type reaction",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

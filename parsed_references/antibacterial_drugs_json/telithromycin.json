@@ -1,0 +1,171 @@
+{
+  "drug_name": "Telithromycin",
+  "tradename": "Ketek",
+  "usage_and_dosing": {
+    "general": [
+      "Telithromycin is a ketolide antibiotic (similar to macrolides) used for treatment of mild to moderate community-acquired pneumonia (CAP). Telithromycin is active against multi-drug resistant strains of Strep. pneumoniae.",
+      "Contraindicated in myasthenia gravis. Other antibiotics that may unmask or exacerbate myasthenia gravis: aminoglycosides, polymyxins, fluoroquinolones.",
+      "May cause fatal hepatotoxicity.",
+      "Blurred vision due to slow accommodation.",
+      "Hepatic, vision, and myasthenic complications may be due to inhibition of nicotinic acetylcholine receptors at neuromuscular junctions; Antimicrob Ag Chemother 54:5399, 2010."
+    ],
+    "adult_dose": {
+      "community_acquired_pneumonia": "800 mg po once daily x 7-10 days"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "notes": [
+        "Body weight and Creatinine Clearance calculations",
+        "CrCl = Creatinine clearance (mL/min)",
+        "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+        "CRRT = Continuous Renal Replacement Therapy",
+        "AD = after hemodialysis",
+        "SLED = sustained low efficiency dialysis",
+        "Dosage adjustment may be required in hepatic disease."
+    ],
+    "half_life_normal": "10",
+    "half_life_esrd": "15",
+    "dose_normal_function": "800 mg po q24h",
+    "crcl_or_egfr": "CrCl ≥30: No dosage adjustment. CrCl <30: 600 mg q24h",
+    "hemodialysis": "600 mg q24h (give AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "Reduce dose to 400 mg q24h in patients with CrCl <30 mL/min plus coexisting hepatic impairment.",
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "2 cases acute liver failure and 23 cases serious liver injury reported, or 23 cases per 10 million prescriptions. Occurred during or immediately after treatment (Ann Intern Med 144:415, 2006; Ann Intern Med 144:447, 2006).",
+    "Uncommon: blurred vision 2° to slow accommodation; may cause exacerbation of myasthenia gravis (Black Box Warning). Potential QTc prolongation. Several drug-drug interactions, N Engl J Med 355:2260, 2006.",
+    "Nausea (7%), vomiting (2%), diarrhea (10%), C. difficile colitis, hepatic failure, headache (2%).",
+    "Transient loss of consciousness has been reported; avoid hazardous activities.",
+    "Potential for QTc prolongation and drug interactions."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "C",
+    "lactation": "Probably safe with monitoring, but no data available; avoid if possible.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (300, 400 mg)",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "57",
+    "tmax_hr": "1",
+    "peak_serum_conc_ug_ml": "2.3 (800 mg q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "60-70",
+    "volume_of_distribution_vd_l_kg": "2.9 L/kg",
+    "avg_serum_half_life_hr": "10",
+    "elimination": "Metabolized, biliary, renal",
+    "bile_penetration_percent": "7",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "12.5 (800 mg q24h, 0-24h)"
+  },
+  "enzyme_interactions": {
+    "cyp450_substrate": [],
+    "transporter_substrate": [],
+    "ugt_substrate": [],
+    "cyp450_inhibited": ["CYP3A4"],
+    "transporters_inhibited": ["PGP (?)"],
+    "ugts_inhibited": [],
+    "cyp450_induced": [],
+    "transporters_induced": [],
+    "ugts_induced": [],
+    "serum_drug_concentration_impact": "↑"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Carbamazepine",
+      "effect": "↓ telithromycin",
+      "management": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Digoxin",
+      "effect": "↑ digoxin",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Eplerenone",
+      "effect": "↑ eplerenone",
+      "management": "Contraindicated"
+    },
+    {
+      "drug": "Ergot alkaloids",
+      "effect": "↑ ergot alkaloid",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Itraconazole",
+      "effect": "↑ telithromycin",
+      "management": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Ketoconazole",
+      "effect": "↑ telithromycin",
+      "management": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Metoprolol",
+      "effect": "↑ metoprolol",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Midazolam",
+      "effect": "↑ midazolam",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Phenobarbital",
+      "effect": "↓ telithromycin",
+      "management": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Phenytoin",
+      "effect": "↓ telithromycin",
+      "management": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Pimozide",
+      "effect": "↑ pimozide",
+      "management": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Simvastatin",
+      "effect": "↑ simvastatin",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Sotalol",
+      "effect": "↓ sotalol",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Theophylline",
+      "effect": "↑ theophylline",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ warfarin (↑ INR)",
+      "management": "Monitor INR, adjust dosage"
+    }
+  ],
+  "comments": [
+    "2007 Safety review led to removal of acute bacterial exacerbation of chronic bronchitis and acute bacterial sinusitis and use of Medication Guide for prescribing for CABP",
+    "No longer marketed in US."
+  ]
+}

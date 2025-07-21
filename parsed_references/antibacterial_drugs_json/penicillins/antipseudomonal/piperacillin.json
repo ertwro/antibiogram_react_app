@@ -1,0 +1,85 @@
+{
+  "drug_name": "Piperacillin",
+  "usage_and_dosing": {
+    "general": [
+      "Piperacillin is one of the penicillins with an expanded spectrum of activity (compared to Amoxicillin) against aerobic Gram-negative bacilli. The spectrum of activity includes P. aeruginosa.",
+      "Piperacillin alone may be found in some markets; in the U.S. market it is usually combined with Tazobactam, see Piperacillin-tazobactam.",
+      "Can be administered IV or IM."
+    ],
+    "adult_dose": {
+      "usual_dose": "3-4 gm IV q4-6h (max 24 gm/day)",
+      "urinary_tract_infection": "2 gm IV q6h",
+      "p_aeruginosa": "4 gm IV q4h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "400 mg/kg/day (divided q6h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1",
+    "half_life_esrd": "3-5",
+    "dose_renal_function_normal": "3-4 gm IV q4-6h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 30-50: 3-4 gm q6-8h. CrCl 10-30: 3-4 gm q8h",
+    "hemodialysis": "2 gm q8h (+ extra 1 gm AD)",
+    "capd": "3-4 gm q8h",
+    "crrt": "3-4 gm q6-8h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Platelet dysfunction may occur with Piperacillin (or any of the antipseudomonal penicillins), especially in renal failure patients (J Lab Clin Med 108:217, 1986; J Infect Dis 155:1242, 1987).",
+    "Can contribute to excessive sodium administration: 1.85 mEq Na+/gm of Piperacillin.",
+    "Treatment stopped due to adverse effects (3.2%), local phlebitis (4%), fever, rash (1%), serum sickness, positive Coombs, neutropenia (6%), eosinophilia, thrombocytopenia, increased PT/PTT, nausea/vomiting, diarrhea (2%), C. difficile colitis, increased LFTs, increased BUN/Creatinine, headache (rare), confusion (rare).",
+    "Allergic reactions can occur with any of the beta-lactam antibiotics."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Insufficient human data, evidence of fetotoxicity in animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "full_comparative_spectrum_of_activity": true
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "242 (3 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "16",
+    "volume_of_distribution_vd_l_kg": "0.24 L/kg",
+    "avg_serum_half_life_hr": "1",
+    "elimination": "Renal",
+    "bile_penetration_percent": ">100",
+    "csf_blood_percent": "30",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "242 (3 gm IV q6h, 0-6h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Aminoglycosides", "effect": "Possible aminoglycoside inactivation", "management": "SL"},
+      {"drug": "Anticoagulant drugs", "effect": "↑ risk of bleeding", "management": null},
+      {"drug": "Methotrexate", "effect": "↑ MTX", "management": null},
+      {"drug": "Probenecid", "effect": "↑ piperacillin", "management": "A"},
+      {"drug": "Vancomycin", "effect": "↑ risk of AKI", "management": null},
+      {"drug": "Vecuronium", "effect": "↑ neuromuscular blockade", "management": null}
+  ]
+}

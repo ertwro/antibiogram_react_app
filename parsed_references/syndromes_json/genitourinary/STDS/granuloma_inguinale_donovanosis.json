@@ -1,0 +1,167 @@
+
+{
+  "documentMetadata": {
+    "title": "Granuloma Inguinale (Donovanosis)",
+    "lastUpdated": "2024-04-01",
+    "sourceFile": "Granuloma inguinale (Donovanosis).pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Granuloma inguinale or Donovanosis",
+        "Painless, progressive ulcerative disease without regional lymphadenopathy.",
+        "Highly vascular (beefy red) lesions that bleed easily.",
+        "Rare in US; common in Southeast Asia (India), South America & Southern Africa. Was endemic in Australia, but now relatively rare."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Klebsiella granulomatis (formerly Calymmatobacterium granulomatis)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Culture of causative organism is difficult and unreliable.",
+        "Darkfield microscopy; Donovan Bodies organisms visible in macrophages using Wright-Giemsa on biopsy.",
+        "PCR techniques for diagnosis also available in some labs."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "once weekly (or 500 mg daily)",
+            "duration": "x at least 3 weeks (or until resolved)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If no evident improvement in the first few days, some experts add Gentamicin 1 mg/kg IV q8h."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 3 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "DS",
+            "route": "po",
+            "frequency": "q12h",
+            "duration": "x 3 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 3 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Erythromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "qid",
+            "duration": "x 3 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration: clinical response is usually seen in 1 week. Treat until all lesions are healed. This may take 4 weeks.",
+        "Treatment failures and recurrence seen with Doxycycline and TMP-SMX."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sexual partners within 60 days should be evaluated. Role of empiric therapy in asymptomatic contacts unclear.",
+        "Screen all patients for HIV.",
+        "Treatment is no different for HIV patients with Granuloma inguinale.",
+        "Relapse can occur 6-18 months after apparently effective therapy.",
+        "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021 or 2016 European Guideline on Donovanosis Int J STD AIDS 27:605, 2016.",
+        "Review non syphilis non HSV genital ulcers: Infect Dis Clin North Am 37:369 2023."
+      ]
+    }
+  ]
+}

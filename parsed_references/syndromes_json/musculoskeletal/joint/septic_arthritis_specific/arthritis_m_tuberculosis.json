@@ -1,0 +1,67 @@
+{
+  "documentMetadata": {
+    "title": "Arthritis, M. tuberculosis",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Arthritis, M. tuberculosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Subacute or chronic inflammatory arthritis, usually monoarticular, with soft tissue swelling, pain, slowly progressive stiffness and loss of function.",
+        "Synovial fluid cell counts 10-20,000 cells/mm³, but routine cultures are negative.",
+        "Synovial fluid smears AFB positive ~20% of time; sensitivities of synovial fluid culture and synovial tissue biopsy are ~80% and >90%, respectively."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mycobacterium tuberculosis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Choice regimen is based on isolate susceptibility: see Susceptible, Mono-resistant, MDR-TB or XDR-TB.",
+        "Some experts favor a total duration of therapy of 9 months instead of 6 months."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Not applicable"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference: Infect Dis Clin North Am 2017; 31:369."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+
+{
+  "documentMetadata": {
+    "title": "Diabetic Foot Osteomyelitis",
+    "sourceFile": "syndromes/musculoskeletal/bone/Osteomyelitis, Foot Bone.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Osteomyelitis of the foot in persons with diabetes is a common and serious complication of diabetic foot infections (DFIs). It is a form of contiguous osteomyelitis with vascular insufficiency. The triad of neuropathy, peripheral vascular disease, and immunopathy in diabetes creates a high-risk environment. A seemingly minor skin ulceration can penetrate deep into the underlying bone, leading to infection. It is a major risk factor for lower-extremity amputation."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Pathophysiology"
+    },
+    {
+      "type": "paragraph",
+      "text": "A foot ulcer, often at a site of trauma or pressure unnoticed due to sensory neuropathy, serves as the portal of entry for bacteria. The infection spreads through the soft tissue to the bone. Poor blood supply from peripheral artery disease impairs the delivery of antibiotics and immune cells, hindering the ability to fight the infection and heal the wound."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diagnosing diabetic foot osteomyelitis (DFO) can be challenging. The classic signs of acute infection are often blunted."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Clinical Examination",
+          "interpretation": "The presence of a deep or large (>2 cm²) foot ulcer, or an ulcer that has been present for a long time, increases suspicion. The single best clinical sign is a positive 'probe-to-bone' test, where a sterile, blunt metal probe can be passed through the ulcer crater directly to bone. This has a high positive predictive value."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Imaging",
+          "interpretation": "Plain X-rays are the first step but may be negative for 2-4 weeks. They may show bone destruction, cortical erosion, or periosteal reaction. MRI is the most sensitive and specific imaging test. It can detect bone marrow edema (a sign of osteomyelitis) and differentiate it from soft-tissue abscess or Charcot neuroarthropathy."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Microbiology",
+          "sampleType": "Bone biopsy",
+          "interpretation": "A bone biopsy, obtained through uninfected skin or during surgical debridement, is the gold standard for confirming the diagnosis and identifying the causative pathogens. Superficial wound swabs are unreliable.",
+          "notes": "Infections are often polymicrobial. Common pathogens include Staphylococcus aureus, Streptococci, Enterococci, gram-negative rods (e.g., Pseudomonas, E. coli), and anaerobes."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management is complex and requires a multidisciplinary team including podiatry, infectious diseases, vascular surgery, and wound care specialists."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical vs. Medical Management"
+        },
+        {
+          "type": "paragraph",
+          "text": "The choice between surgical and medical management depends on the clinical scenario. Surgery is generally required for extensive bone necrosis, spreading infection, or if the foot is unstable. Medical management may be an option for patients with limited bone involvement, no significant ischemia, and who are not surgical candidates."
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Surgical Debridement/Amputation",
+            "description": "This involves resection of all infected and necrotic bone and soft tissue. This may range from a limited debridement to a partial foot amputation (e.g., toe or ray amputation). The goal is to remove the nidus of infection and create a stable, healable wound."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Antibiotic Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Patients with DFO"
+            },
+            "components": [
+              {
+                "drug": "Pathogen-directed therapy based on bone culture."
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Duration depends on the extent of surgical resection. If all infected bone is removed (amputation), a short course (e.g., 2-5 days) may suffice. If infected bone remains, a prolonged course of 4-6 weeks or longer is necessary."
+              }
+            },
+            "notes": "Empiric therapy should be broad-spectrum, covering gram-positives (including MRSA), gram-negatives, and anaerobes. Examples: Vancomycin + Piperacillin-tazobactam, or Vancomycin + Ceftazidime + Metronidazole."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Adjunctive Measures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wound offloading is critical to allow healing.",
+            "Vascular assessment and revascularization if significant peripheral artery disease is present.",
+            "Glycemic control."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Osteomyelitis, Vascular Insufficiency; Puncture Wound, Foot",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Osteomyelitis, Vascular Insufficiency"
+      }
+    }
+  ]
+}

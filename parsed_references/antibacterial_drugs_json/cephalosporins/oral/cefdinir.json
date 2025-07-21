@@ -1,0 +1,91 @@
+{
+  "drug_name": "Cefdinir",
+  "tradename": "Omnicef",
+  "drug_shortage": [
+    {
+      "preparation": "All oral formulations",
+      "start_date": "2023-06-30",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Cefdinir is an oral 3rd generation cephalosporin with enhanced activity against aerobic gram-negative bacilli, e.g., E. coli, Klebsiella sp., and P. mirabilis, as well as some oral anaerobic bacteria.",
+      "Rendered inactive by extended spectrum beta-lactamases (ESBLs).",
+      "Not active vs. P. aeruginosa.",
+      "Used in treatment of pharyngitis, sinusitis, otitis media and uncomplicated skin and skin structure infections; off-label use for UTI in absence of alternative (Clin Infect Dis 52(5): e103; 2011).",
+      "Perspective on the use of cefdinir for common infections: J Hosp Med 2024 June 2 [ahead of print].",
+      "For cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "300 mg po q12h or 600 mg po q24h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "14 mg/kg/day (divided q12-24h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.7",
+    "half_life_esrd": "16",
+    "dose_renal_function_normal": "300 mg po q12h",
+    "crcl_or_egfr": "CrCl ≥30: No dosage adjustment. CrCl <30: 300 mg q24h",
+    "hemodialysis": "300 mg q48h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (3%), rash (rare), neutropenia (rare), eosinophilia (rare), GI (3%), diarrhea (15%), C. difficile colitis, increased LFTs (1%), increased BUN/Creatinine (rare), headache (2%).",
+    "Cefdinir-associated red stools in up to 1% of patients. Occurs if co-administered with iron-fortified infant formula or iron supplement. Thought to be due to cefdinir or metabolites combining with iron to form a nonabsorbable reddish precipitant. OK to continue cefdinir with adequate patient reassurance (Pediatr Emerg Care 2021;37:e421).",
+    "For cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (300 mg), Oral susp (125 mg/5 mL, 250 mg/5 mL)",
+    "food_recommendation": "All preps ± food",
+    "oral_absorption_percent": "Caps 16-21, Susp 25",
+    "tmax_hr": "2-4",
+    "peak_serum_conc_ug_ml": "1.6 (300 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "60-70",
+    "volume_of_distribution_vd_l_kg_vf": "0.35 L/kg (V/F)",
+    "avg_serum_half_life_hr": "1.7",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "7.1 (300 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Antacids (Al, Mg)",
+          "effect": "↓ cefdinir",
+          "management": "Stagger dosing by 2 hours"
+      },
+      {
+          "drug": "Iron supplements",
+          "effect": "↓ cefdinir",
+          "management": "Stagger dosing by 2 hours"
+      },
+      {
+          "drug": "Probenecid",
+          "effect": "↑ cefdinir",
+          "management": "Monitor"
+      }
+  ]
+}

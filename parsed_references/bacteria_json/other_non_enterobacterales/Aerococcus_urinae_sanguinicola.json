@@ -1,0 +1,490 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Aerococcus urinae / sanguinicola",
+      "aliases": [
+        "Aerococcus urinae",
+        "Aerococcus sanguinicola"
+      ],
+      "lastUpdated": "2021-08-31",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Cocci in tetrads or clusters",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Resembles staphylococci on Gram stain",
+          "Alpha-hemolytic, resembling viridans streptococci on culture"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci in tetrads or clusters (resembles staphylococci), catalase –, alpha-hemolytic (resembles viridans streptococci), PYR +, LAP +."
+    },
+    "clinicalProfile": {
+      "summary": "Aerococcus urinae and Aerococcus sanguinicola are emerging pathogens primarily associated with urinary tract infections, particularly in elderly and debilitated patients. They can also cause more severe infections like bacteremia and infective endocarditis.",
+      "pathophysiologyPearls": [
+        "Often misidentified as viridans group streptococci or staphylococci due to similar colony morphology and Gram stain appearance.",
+        "A. urinae is the more common species isolated from UTIs.",
+        "Infections are often associated with underlying urological abnormalities."
+      ],
+      "keySignsAndSymptoms": [
+        "Dysuria",
+        "Urinary frequency",
+        "Fever",
+        "Symptoms of bacteremia or endocarditis in severe cases"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Cystitis",
+          "description": "Common cause of cystitis, especially in elderly patients with predisposing conditions. A. sanguinicola is the second most common Aerococcus species causing UTIs."
+        },
+        {
+          "syndromeName": "Bacteremia and Infective Endocarditis",
+          "description": "A. urinae is a rare cause of bacteremia, endocarditis (including prosthetic valve endocarditis and pacer infection), and spondylodiscitis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Elderly patients",
+        "Patients with underlying urological conditions"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Variable Fluoroquinolone Susceptibility",
+          "details": "In vitro susceptibility to fluoroquinolones is variable, and resistance occurs, more often in A. sanguinicola."
+        },
+        {
+          "alertTitle": "Uncertain TMP-SMX Efficacy",
+          "details": "In vitro studies show variable susceptibilities to TMP-SMX, and it is unclear if this would be effective in vivo. It is generally avoided unless the isolate tests susceptible and no other good options are available."
+        },
+        {
+          "alertTitle": "Fosfomycin Resistance in A. sanguinicola",
+          "details": "High fosfomycin MICs have been reported for A. sanguinicola."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Best regimen and duration of therapy are not well-established due to limited clinical studies.",
+        "Penicillin/amoxicillin are highly active against both A. urinae and A. sanguinicola, although isolates with minimally reduced susceptibility have been reported.",
+        "MICs of ceftriaxone/cefotaxime are generally higher than those of penicillin.",
+        "Vancomycin is active in vitro and has been used for severe infections like endocarditis.",
+        "For endocarditis, a combination of penicillin and gentamicin has been used."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Trimethoprim-sulfamethoxazole (TMP-SMX)",
+          "condition": "All infections",
+          "reason": "Variable in vitro susceptibility and uncertain in vivo efficacy."
+        },
+        {
+          "drugOrClass": "Fosfomycin",
+          "condition": "Infections caused by A. sanguinicola",
+          "reason": "High MICs reported."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Cystitis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5 - 10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "TID",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "Nitrofurantoin",
+                      "dose": "100",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Best regimen and duration of therapy unknown; limited clinical studies"
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "1 dose",
+                  "drugs": [
+                    {
+                      "drugName": "Fosfomycin",
+                      "dose": "3",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": "Applicable to A. urinae only."
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Use only if isolate tests as susceptible."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Best regimen and duration of therapy unknown; limited clinical studies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Susceptibility testing is recommended for all clinically significant isolates, especially from sterile sites or in cases of treatment failure."
+      ],
+      "methodologyNotes": [
+        "May be misidentified as viridans streptococci, so careful identification is necessary.",
+        "Standard susceptibility testing methods can be used, but interpretive criteria may not be well-established."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Identification can be challenging as it may be confused with alpha-hemolytic streptococci on culture.",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Microbiology and Infection",
+          "citation": "Clin Microbiol Infect 18:546, 2012",
+          "summaryOrNote": "Case report on endocarditis treatment using penicillin and gentamicin."
+        },
+        {
+          "source": "Clinical Microbiology and Infection",
+          "citation": "Clin Microbiol Infect 22:22, 2016",
+          "summaryOrNote": "Review of Aerococcus infections."
+        },
+        {
+          "source": "Open Microbiology Journal",
+          "citation": "Open Microbiol Journal 11: 160, 2017",
+          "summaryOrNote": "Paper on susceptibility testing methods and results for several antimicrobials."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.321Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Aerococcus urinae / sanguinicola"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Aerococcus urinae",
+        "Aerococcus sanguinicola"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2021-08-31"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Cocci in tetrads or clusters",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Resembles staphylococci on Gram stain",
+          "Alpha-hemolytic, resembling viridans streptococci on culture"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Aerococcus urinae and Aerococcus sanguinicola are emerging pathogens primarily associated with urinary tract infections, particularly in elderly and debilitated patients. They can also cause more severe infections like bacteremia and infective endocarditis.",
+      "pathophysiologyPearls": [
+        "Often misidentified as viridans group streptococci or staphylococci due to similar colony morphology and Gram stain appearance.",
+        "A. urinae is the more common species isolated from UTIs.",
+        "Infections are often associated with underlying urological abnormalities."
+      ],
+      "keySignsAndSymptoms": [
+        "Dysuria",
+        "Urinary frequency",
+        "Fever",
+        "Symptoms of bacteremia or endocarditis in severe cases"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Cystitis",
+          "description": "Common cause of cystitis, especially in elderly patients with predisposing conditions. A. sanguinicola is the second most common Aerococcus species causing UTIs."
+        },
+        {
+          "syndromeName": "Bacteremia and Infective Endocarditis",
+          "description": "A. urinae is a rare cause of bacteremia, endocarditis (including prosthetic valve endocarditis and pacer infection), and spondylodiscitis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Elderly patients",
+        "Patients with underlying urological conditions"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Variable Fluoroquinolone Susceptibility",
+          "details": "In vitro susceptibility to fluoroquinolones is variable, and resistance occurs, more often in A. sanguinicola."
+        },
+        {
+          "alertTitle": "Uncertain TMP-SMX Efficacy",
+          "details": "In vitro studies show variable susceptibilities to TMP-SMX, and it is unclear if this would be effective in vivo. It is generally avoided unless the isolate tests susceptible and no other good options are available."
+        },
+        {
+          "alertTitle": "Fosfomycin Resistance in A. sanguinicola",
+          "details": "High fosfomycin MICs have been reported for A. sanguinicola."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "TID",
+              "duration": "5 - 10 days",
+              "comments": "",
+              "originalText": "Amoxicillin 500 PO TID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-0-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nitrofurantoin",
+              "dose": "100",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "5 days",
+              "comments": "",
+              "originalText": "Nitrofurantoin 100 PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Fosfomycin",
+              "dose": "3",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "1 dose",
+              "comments": "Applicable to A. urinae only.",
+              "originalText": "Fosfomycin 3 PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "3 days",
+              "comments": "Use only if isolate tests as susceptible.",
+              "originalText": "Ciprofloxacin 500 PO BID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Susceptibility testing is recommended for all clinically significant isolates, especially from sterile sites or in cases of treatment failure."
+      ],
+      "methodologyNotes": [
+        "May be misidentified as viridans streptococci, so careful identification is necessary.",
+        "Standard susceptibility testing methods can be used, but interpretive criteria may not be well-established."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

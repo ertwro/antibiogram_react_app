@@ -1,0 +1,81 @@
+{
+    "documentMetadata": {
+        "title": "Mastitis, Breast Implant",
+        "sourceFile": "Mastitis, Breast Implant.pdf",
+        "lastUpdated": "2024-09-16"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Mastitis occurs in approximately 2% of breast implant procedures.",
+                "Empiric therapy."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Acute infection",
+                "Staph. aureus",
+                "S. pyogenes",
+                "Coagulase-negative staphylococci",
+                "Chronic infection",
+                "Rapidly growing mycobacteria",
+                "Mycobacterium avium"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Outpatient:",
+                "Suspected or confirmed MSSA: Dicloxacillin 500 mg po qid or Cephalexin 500 mg po qid",
+                "Suspected or confirmed MRSA: TMP-SMX 160-800 mg 1-2 tabs po bid",
+                "Inpatient:",
+                "Empiric therapy, acute infection: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 \u00b5g/mL)",
+                "For suspected Gram-negative infection or Gram stain showing Gram-negative organisms add Cefepime 1 gm IV q8h (or Aztreonam 2 gm IV q6h or Levofloxacin 750 mg IV/po q24h for serious penicillin allergy)",
+                "MRSA confirmed: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 \u00b5g/mL)",
+                "MSSA: Nafcillin 2 gm IV q4-6h or Oxacillin 2 gm IV q4-6h OR Cefazolin 2 gm IV q8h",
+                "For chronic infection: wait for culture results and treat accordingly."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Penicillin-allergic patient: TMP-SMX 160-800 mg 1-2 tabs po bid or Clindamycin 300 mg po tid or Linezolid 600 mg po bid"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Antibiotics alone may not be successful and salvage reconstruction or explantation required (Plast Reconstr Surg 131:1223, 2013)",
+                "Outcomes worse in patients with MRSA infection or history of radiation therapy.",
+                "Implant colonized or infected with S.aureus can result in S.aureus toxic shock syndrome."
+            ]
+        }
+    ]
+}

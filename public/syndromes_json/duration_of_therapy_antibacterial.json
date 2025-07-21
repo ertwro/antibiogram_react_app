@@ -1,0 +1,65 @@
+{
+  "documentMetadata": {
+    "title": "Suggested Duration of Therapy",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Duration of Therapy, Antibacterial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Suggested Duration of Therapy"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a given clinical infection:\nGoal is selection of the right drug, in the right dose for the right period of time.\nPast traditional treatment durations were based on observational studies, expert opinion, and FDA approved \"gold standard\" regimens.\nThis Table summarizes the duration of therapy suggested for selected common clinical settings. See specific syndromes for detail regarding the settings listed here.\nMost are the traditional durations used in Guidelines or drug package inserts or expert opinion\nIf the traditional gold standard duration was found non-inferior to a shorter regimen in one or more Randomized Clinical Trials (RCT), the validating number of RCTs is shown.\nPertinent \"Shorter is Better\" references: Clin Microbiol Infect, doi.org/10.1016/j.cmi.2022.08.024; Ann Intern Med 2021 174:822\nNOTE: Whatever duration is selected, cessation of therapy requires evidence of “source control\" as manifest by resolution of clinical signs and symptoms plus trending, or resolved, biomarkers of inflammation (Inf.Dis.Clin.No.Amer. 2017; 31:435)."
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Site", "Diagnosis", "Duration of Therapy"],
+        "rows": [
+          ["Bacteremia", "Gram-negative (GNB) bacteremia with removable focus (no endocarditis)", "7-14 days"],
+          ["Bone", "Osteomyelitis, adult, acute", "42-56 days"],
+          ["Bone", "Osteomyelitis, adult, chronic", "42 days"],
+          ["Bone", "Child, acute, Staph, Strep, enterobacterales", "21-28 days until ESR normal"],
+          ["CNS: Meningitis", "Child, acute, Meningococcal, Haemophilus", "14-21 days"],
+          ["CNS: Meningitis", "N. meningitidis", "7 days"],
+          ["CNS: Meningitis", "H. influenzae", "7 days"],
+          ["CNS: Meningitis", "S. pneumoniae", "10-14 days"],
+          ["CNS: Meningitis", "L. monocytogenes, Streptococcus sp. (Group B), Coliforms", "21 days"],
+          ["Ear", "Otitis media with effusion", "10 days (age < 2 yrs)\n5-7 days (age ≥ 2 yrs)"],
+          ["Gastrointestinal", "Bacillary dysentery (Shigellosis) or traveler's diarrhea", "1 dose, but up to 3 days if no response"],
+          ["Gastrointestinal", "Typhoid fever (S. typhi): Uncomplicated", "Azithromycin x 5-7 days (child/adolescent) Ceftriaxone x 7-14 days Fluoroquinolone x 7-10 days Chloramphenicol x 14 days"],
+          ["Gastrointestinal", "H. pylori", "14 days"],
+          ["Gastrointestinal", "C. difficile", "10 days"],
+          ["Genital", "Pelvic inflammatory disease", "14 days"],
+          ["Heart", "Pericarditis (purulent)", "28 days"],
+          ["Joint", "Arthritis, septic, non-gonococcal, adult", "14-28 days"],
+          ["Joint", "Arthritis, septic, non-gonococcal, child", "10-14 days"],
+          ["Joint", "Arthritis, disseminated, gonococcal", "7 days"],
+          ["Kidney", "Cystitis, acute", "3 days (fluoroquinolone or TMP-SMX), 5 days (Nitrofurantoin) 1 day (Fosfomycin)"],
+          ["Kidney", "Pyelonephritis, acute", "7 days (Ciprofloxacin)\n5 days (Levofloxacin)"],
+          ["Kidney", "Asymptomatic bacteriuria", "No treatment unless pregnancy or urologic surgery"],
+          ["Intra-abdominal", "Peritonitis, secondary", "4-7 days (with source control)"],
+          ["Lung", "Pneumonia, pneumococcal, CAP", "3-5 days vs. 5-14 days"],
+          ["Lung", "Pneumonia, Gram negative, e.g., Pseudomonas, VAP", "7-8 days vs. 10-15 days"],
+          ["Lung", "Pneumonia, staphylococcal", "21-28 days (variable, until biomarkers normalize)"],
+          ["Lung", "Pneumonia, legionella", "7-10 days"],
+          ["Lung", "Pneumonia, chlamydia, mycoplasma", "Azithromycin 1 dose vs. 3 days 5 vs. 10 days"],
+          ["Lung", "Lung abscess", "28-42 days (but variable)"],
+          ["Muscle", "Gas gangrene, clostridial", "10 days depending on severity"],
+          ["Peritoneum", "Peritonitis from bowel flora", "4-8 days"],
+          ["Pharynx", "Strep pharyngitis", "Grp A: 10 days (Penicillin VK), 5 days (oral Cephalosporin or Azithromycin) Grp C/G: 5 days"],
+          ["Pharynx", "Diphtheria (membranous)", "14 days (Penicillin G, Erythromycin)\nIf carrier: 1 dose (Penicillin G), 7-10 days (Erythromycin)"],
+          ["Prostate", "Prostatitis, chronic", "30-90 days (TMP-SMX)\n28-42 days (FQ)"],
+          ["Sinuses", "Sinusitis, acute bacterial", "3-7 days vs. 6-10 days"],
+          ["Skin", "Cellulitis", "5-7 days"],
+          ["Systemic", "Brucellosis", "42 days"],
+          ["Systemic", "Rocky Mountain Spotted Fever", "Until afebrile 2 days"],
+          ["Systemic", "Tularemia", "7-21 days"]
+        ]
+      }
+    }
+  ]
+}

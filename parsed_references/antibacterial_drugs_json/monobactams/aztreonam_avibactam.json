@@ -1,0 +1,94 @@
+{
+  "drug_name": "Aztreonam-avibactam",
+  "tradename": "Emblaveo",
+  "usage_and_dosing": {
+    "general": [
+      "Aztreonam-avibactam is a monobactam plus ẞ-lactamase inhibitor co-formulation.",
+      "Approved by the US FDA in February 2025 for complicated intra-abdominal infection (in combination with metronidazole) in adults with limited or no alternative treatment options.",
+      "Approved by the European Commission in April 2024 for adults with complicated intra-abdominal infection (± metronidazole), HAP/VAP, complicated UTI including pyelonephritis, and infections caused by aerobic gram-negative organisms in patients with limited treatment options.",
+      "Aztreonam is a monobactam ẞ-lactam that is active against many Enterobacterales, P. aeruginosa, and other gram-negative organisms. It has no useful activity vs anaerobes or gram-positive organisms. It is generally stable to hydrolysis by Ambler class B enzymes (metallo-ẞ-lactamases).",
+      "Avibactam is a non-ẞ-lactam, ẞ-lactamase inhibitor. It inhibits Ambler class A and class C ẞ-lactamases and some class D enzymes, including ESBLs, KPC and OXA-48 carbapenemases, and AmpC. Avibactam does not inhibit class B enzymes, and it is not able to inhibit many class D enzymes.",
+      "Aztreonam and avibactam are co-formulated in a 3:1 ratio (e.g., 2.67 gm = aztreonam 2 gm + avibactam 0.67 gm)."
+    ],
+    "adult_dose": {
+      "dose": "2.67 gm IV (over 3 hr) load, then 2 gm IV (over 3 hr) q6h (x5-14 days).",
+      "concurrent_metronidazole": "Administer metronidazole concurrently for complicated intra-abdominal infection.",
+      "compatibility": "Reconstituted drug compatible with D5W, NS, and LR."
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "combination_product": "Combination product in a fixed 3:1 ratio",
+    "infusion_time": "Infuse aztreonam-avibactam doses over 3 hours",
+    "half_life_normal": "Aztreonam: 2-3, Avibactam: 2-3",
+    "half_life_esrd": "Aztreonam: 6-8, Avibactam: no data",
+    "dose_renal_function_normal": "2.67 gm IV load, then 2 gm IV q6h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl >30 to 50: 2.67 gm x1, then 1 gm q6h. CrCl >15 to 30: 1.8 gm x1, then 0.9 gm q8h. CrCl ≤15: 1.33 gm x1, then 0.9 gm q12h",
+    "hemodialysis": "1.33 gm x1, then 0.9 gm q12h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "GI: nausea, vomiting, diarrhea, abdominal pain, C. difficile infection",
+    "Hypersensitivity: rash, flushing, bronchospasm, anaphylaxis, toxic epidermal necrolysis",
+    "Liver: increased AST, ALT",
+    "Hematologic: anemia, thrombocytopenia",
+    "Confusion, dizziness"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Aztreonam: milk concentrations low. Avibactam: no data.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Aztreonam: 54.5, Avibactam: 11.3 (2 gm IV q6h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Aztreonam: 38, Avibactam: 8",
+    "volume_of_distribution_vd_l_vss": "Aztreonam: 21.4 L (Vss), Avibactam: 37.8 L (Vss)",
+    "avg_serum_half_life_hr": "Aztreonam: 2.0, Avibactam: 2.0",
+    "elimination": "Aztreonam: renal, Avibactam: renal",
+    "bile_penetration_percent": "Aztreonam: 115-405, Avibactam: no data",
+    "csf_blood_percent": "Aztreonam: 3-52, Avibactam: no data",
+    "therapeutic_levels_in_csf": "Aztreonam: no data, Avibactam: no data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Aztreonam: OAT1, OAT3, Avibactam: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ aztreonam, ↑ avibactam",
+          "management": "Avoid co-administration"
+      }
+  ],
+  "comments": [
+      "Good review: Pharmacotherapy 2024;44:927."
+  ]
+}

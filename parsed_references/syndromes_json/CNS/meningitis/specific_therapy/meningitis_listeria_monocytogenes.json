@@ -1,0 +1,54 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Listeria monocytogenes",
+    "sourceFile": "Meningitis, Listeria monocytogenes.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Listeria monocytogenes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Listeria monocytogenes is a common cause of meningitis in newborns, the elderly, and immunocompromised individuals."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "21 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Trimethoprim-sulfamethoxazole",
+            "dose": "15-20 mg/kg/day (of trimethoprim component)",
+            "route": "IV",
+            "frequency": "divided q6-8h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "21 days"
+        }
+      }
+    }
+  ]
+}

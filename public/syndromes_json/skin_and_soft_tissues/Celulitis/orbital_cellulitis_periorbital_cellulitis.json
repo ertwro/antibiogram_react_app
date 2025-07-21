@@ -1,0 +1,205 @@
+{
+  "documentMetadata": {
+    "title": "Orbital cellulitis, periorbital cellulitis",
+    "lastUpdated": "2025-01-07",
+    "sourceFile": "Orbital cellulitis, periorbital cellulitis.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Regimens below are for empiric therapy of orbital cellulitis, pending microbiologic diagnosis (see Comments for periorbital cellulitis)",
+            "Orbital vs. Periorbital cellulitis",
+            "Orbital cellulitis is a serious, potentially life-threatening, infection involving the fat and ocular muscles of the orbit but not the orbit itself. Cardinal features include ophthalmoplegia, pain with eye movements, visual changes, proptosis and characteristic findings on imaging such as inflammation of extraocular tissues muscles, fat stranding, and anterior displacement of the globe. See StatPearls Publishing; 2022.",
+            "Periorbital cellulitis (also called preseptal cellulitis) is infection of the eyelid and surrounding skin and tissues anterior to the orbital septum. It is typically milder than orbital cellulitis, which it may be confused but vision is normal and there is no pain with eye movement.",
+            "Clinicians should treat patients for orbital cellulitis if the exact diagnosis is uncertain.",
+            "CT or MRI imaging of orbit recommended to rule out orbital cellulitis and to determine extent of disease.",
+            "Urgent surgical consultation indicated for orbital cellulitis.",
+            "See also, Facial erysipelas."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Strep. pneumoniae",
+            "H. influenzae",
+            "M. catarrhalis",
+            "Staph. aureus",
+            "Also: Anaerobes (odontogenic source), Streptococcus sp. (Group A), Gram-negative bacilli (post-trauma)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h",
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see Vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "Metronidazole",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV (over 4 hr)",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ampicillin-sulbactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "If penicillin/cephalosporin allergy",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "notes": "as above"
+              },
+              {
+                "drug": "Moxifloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Options for MRSA",
+            "components": [
+              {
+                "drug": "Daptomycin",
+                "dose": "6 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              },
+              {
+                "drug": "Linezolid",
+                "dose": "600 mg",
+                "route": "IV",
+                "frequency": "q12h",
+                "connector": "or"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Antimicrobial Stewardship"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Modify regimen based on microbiologic diagnosis",
+            "May transition to oral regimen once patient is stable and infection controlled",
+            "Duration of therapy 7-14 days depending on clinical response."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mild cases of periorbital cellulitis in whom orbital cellulitis has been ruled out and without signs of systemic toxicity can be treated as outpatients with therapy directed to likely pathogens (see Etiologies): Amoxicillin-clavulanate or Cefpodoxime or Cefdinir (Add TMP-SMX or Linezolid if MRSA is a concern).",
+            "Review of periorbital cellulitis: StatPearls Publishing; 2022"
+          ]
+        }
+      ]
+    }
+  ]
+}

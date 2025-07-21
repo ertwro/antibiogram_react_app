@@ -1,0 +1,113 @@
+{
+  "documentMetadata": {
+    "title": "Ventricular Assist Device Infection",
+    "lastUpdated": "2020-08-03",
+    "sourceFile": "Ventricular Assist Device Infection.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy.",
+        "Obtain cultures of the following: blood, wounds, drive line, device pocket and, maybe, the pump."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus",
+        "Staph. epidermidis",
+        "Aerobic Gram-negative bacilli",
+        "Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Fluconazole",
+            "dose": "800 mg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Can substitute as follows:",
+        "Daptomycin 10 mg/kg/day for Vancomycin",
+        "(Ciprofloxacin 400 mg IV q12h or Levofloxacin 750 mg IV q24h) for Cefepime",
+        "Voriconazole, Caspofungin, Micafungin or Anidulafungin for Fluconazole"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For definitive therapy, modify regimen based on results of culture and susceptibility tests."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "It is often not feasible to remove the device, so suppression is typically required after initial treatment course.",
+        "Higher than FDA-approved dose for Daptomycin indicated because of potential for emergence of resistance.",
+        "References: Clin Infect Dis 57:1438, 2013, Clin Infect Dis 64: 222, 2017."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Nocardia sp.",
+    "lastUpdated": "2024-02-29",
+    "sourceFile": "Pneumonia, Nocardia sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pneumonia in an immunocompromised host.",
+        "Culture positive for Nocardia sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Over 40 species of Nocardia have been identified in human infections (Clin Microbiol Rev. 2006; 19:259; Clin Microbiol Rev. 2022; 35:e0002721). The more common are listed below.",
+        "Nocardia nova complex",
+        "Nocardia farcinica",
+        "Nocardia cyriacigeorgica",
+        "Nocardia brasiliensis",
+        "Nocardia abscessus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "TMP-SMX 15 mg/kg/day (dose of TMP component) IV/po divided in 2-4 doses + Imipenem-cilastatin 500 mg IV q6h x 3-4 weeks; then TMP-SMX 10 mg/kg/day IV/po divided in 2-4 doses x 3-6 months"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Imipenem-cilastatin 500 mg IV q6h + Amikacin 7.5 mg/kg IV q12h x 3-4 weeks; then TMP-SMX po"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nocardia spp. have a propensity for CNS involvement. Brain imaging (CT or MRI) should be performed in patients with pulmonary nocardiosis.",
+        "Speciation and susceptibility testing are recommended to confirm in vitro activity of antimicrobial regimen",
+        "Antimicrobial susceptibilities vary among species.",
+        "N. farcinica is resistant to Ceftriaxone, which should not be used in infection caused by this organism.",
+        "TMP-SMX is a drug of choice for all species. Although in vitro resistance reportedly increasing (Clin Infect Dis 51:1445, 2010) unknown if this is predictive of worse outcomes and may reflect difficulty in interpretation of MIC end-points (J Clin Microbiol 50:670, 2012).",
+        "Resistance to TMP/SMX, amikacin and linezolid is rare.",
+        "Linezolid is highly active in vitro (Clin Microbiol Infect 17:690, 2011; Clin Microbiol Infect 12:905, 2006) and limited clinical data suggest in vivo efficacy (Open Forum Infect Dis. 2020 Mar 16;7(4):ofaa090). Duration of therapy may be limited by toxicity.",
+        "Tedizolid is active in vitro and perhaps better tolerated, but efficacy not well documented, use limited to case reports (J Infect Chemother. 2022;28:1172).",
+        "Other agents with in vitro activity against some species, although few efficacy data: Amoxicillin-clavulanate, Ceftriaxone, Clarithromycin, Minocycline (Clin Microbiol Infect 17:690, 2011; Clin Microbiol Infect 12:905, 2006; Medicine 88:250, 2009).",
+        "If organism is sulfonamide-resistant or patient is sulfa-allergic, use Amikacin plus one of: Imipenem, Meropenem, Ceftriaxone.",
+        "Duration of therapy: 3 months if patient is immunocompetent; 6 months if immunocompromised.",
+        "Help Lines for susceptibility testing: Wallace Lab (+1) 903-877-7680; CDC (+1) 404-639-3158."
+      ]
+    }
+  ]
+}

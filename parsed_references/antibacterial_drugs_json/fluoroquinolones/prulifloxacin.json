@@ -1,0 +1,101 @@
+{
+  "drug_name": "Prulifloxacin",
+  "tradename": "Quisnon, Sword, Pruquin, Unidrox",
+  "usage_and_dosing": {
+    "general": [
+      "Prulifloxacin is a fluoroquinolone marketed in several countries, but not approved in the US.",
+      "Prulifloxacin is a lipophilic oral prodrug of Ulifloxacin.",
+      "Originally developed in Japan and marketed there under the trade names Quisnon and Sword. Also available in Europe. Pruquin and Unidrox are among other trade names.",
+      "Only available as oral formulation.",
+      "Approved in Italy and Japan for:",
+      "Acute uncomplicated lower urinary tract infections (cystitis)",
+      "Complicated lower urinary tract infections",
+      "Acute exacerbations of chronic bronchitis",
+      "Japan: Infectious Diarrhea, e.g., traveler's diarrhea",
+      "Spectrum of in vitro activity similar to Ciprofloxacin.",
+      "Long half-life allows once daily dosing.",
+      "See Fluoroquinolones, Overview for class-wide issues, including usage, resistance mechanisms, adverse effects, pharmacology."
+    ],
+    "adult_dose": {
+      "note": "Dose by indication (see Comments):",
+      "acute_uncomplicated_cystitis": "600 mg po (single dose)",
+      "complicated_lower_utis": "600 mg po q24h for up to 10 days",
+      "acute_exacerbations_of_chronic_bronchitis": "600 mg po q24h for up to 10 days"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "10.6-12.1",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "600 mg po q24h",
+    "crcl_or_egfr": "CrCl ≥60: No dosage adjustment. CrCl <60: No data",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": {
+      "contraindications": [
+          "Persons with celiac disease",
+          "Do not use in children, pregnancy, nursing mothers, and patients with a seizure disorder."
+      ],
+      "class_wide_adverse_effects": "For class-wide adverse effects, see Fluoroquinolones, Overview.",
+      "drug_interactions": "Many drug-drug interactions, see below",
+      "qtc_prolongation": "Interaction with concomitant drugs may increase the risk of prolongation of the QTc.",
+      "lactose": "Marketed formulation contains lactose."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Francisella tularensis",
+        "Haemophilus ducreyi",
+        "Klebsiella granulomatis (granuloma inguinale)",
+        "Legionella sp.",
+        "Yersinia enterocolitica"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (600 mg)",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "No data",
+    "tmax_hr": "1",
+    "peak_serum_conc_ug_ml": "Ulifloxacin 1.6 (600 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "45",
+    "volume_of_distribution_vd_l": "1231 L",
+    "avg_serum_half_life_hr": "10.6-12.1",
+    "elimination": "Fecal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "Negligible",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "7.3 (600 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Mg)", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"},
+      {"drug": "Calcium supplements", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"},
+      {"drug": "Cimetidine", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"},
+      {"drug": "Didanosine", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"},
+      {"drug": "Insulin", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Iron supplements", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"},
+      {"drug": "Nicardipine", "effect": "↑ risk of prulifloxacin phototoxicity", "management": "Monitor or avoid"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or avoid"},
+      {"drug": "Oral hypoglycemics", "effect": "↑↓ blood glucose", "management": "Monitor"},
+      {"drug": "Sucralfate", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"},
+      {"drug": "Theophylline", "effect": "↑ theophylline", "management": "Monitor or avoid"},
+      {"drug": "Warfarin", "effect": "↑ warfarin, ↑ INR", "management": "Monitor INR, adjust dosa"},
+      {"drug": "Zinc", "effect": "↓ prulifloxacin", "management": "Give prulifloxacin 2 hr before after"}
+  ],
+  "comments": [
+      "References: Drugs 64:2221, 2004; Int J Antimicrob Agts 37:283, 2011.",
+      "Spectrum and traveler's diarrhea pathogen susceptibility: Antimicrob Agents Chemother 53:1221,2009."
+  ]
+}

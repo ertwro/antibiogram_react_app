@@ -1,0 +1,74 @@
+{
+  "drug_name": "Fidaxomicin",
+  "tradename": "Dificid, Dificlir",
+  "usage_and_dosing": {
+    "general": [
+      "Fidaxomicin, FDA approved in 2011, is an oral macrolide antibiotic for treatment of moderately severe to severe C. difficile toxin-mediated diarrhea.",
+      "More potent than vancomycin in vitro vs. C. difficile, including the hypervirulent NAP1/B1/027 strains.",
+      "Minimal absorption; high fecal concentration; limited activity against bowel flora.",
+      "More efficacious (though very expensive); latest guidelines recommend as first line therapy if feasible: Clin Infect Dis 2021;73:755; Med Lett Drugs Ther 2021;63:137.",
+      "Fidaxomicin had lower rate of recurrence than vancomycin for diarrhea with non-NAP1 strains (N Engl J Med 2011;364:422; Lancet Infect Dis 2012;12:281). For patients who required concomitant antibiotics during treatment of C. difficile infection, 10-day fidaxomicin treatment reported to result in higher cure and lower relapse rate than vancomycin (Clin Infect Dis 2011;53:440).",
+      "Review of fidaxomicin: Clin Infect Dis 2012;54:568.",
+      "See C. difficile."
+    ],
+    "adult_dose": {
+      "usual_dose": "200 mg tab po bid x10 days (age >18 yrs)"
+    },
+    "pediatric_dose": {
+      "oral_suspension_age_gt_6_mon": {
+          "4_to_lt_7_kg": "80 mg (2 mL) bid",
+          "7_to_lt_9_kg": "120 mg (3 mL) bid",
+          "9_to_lt_12_5_kg": "160 mg (4 mL) bid",
+          "ge_12_5_kg": "200 mg (5 ml) bid (or use tabs)"
+      },
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "200 mg po q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Most common: nausea 11%, vomiting 7%, abdominal pain 6%, GI hemorrhage 4%, anemia 2%, neutropenia 2%.",
+    "Product labeling warns of the potential for cross-reactivity in patients with known macrolide allergy. In a large database analysis (compared to patients without macrolide allergies), the odds of fidaxomicin allergy were 2.31, 8.37, and 1.58 times higher in patients with azithromycin, clarithromycin, and erythromycin allergies, respectively. The highest risk of anaphylaxis and angioedema was observed within one year of the initial allergy (Antimicrob Agents Chemother 2025;69:e0192424)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Human data limited. Nontoxic in animals. Low oral bioavailability limits risk. Consider use if benefit outweighs risk. 8",
+    "lactation": "Probably safe, but no data available",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category. 8: Ref: Pharmacotherapy 2025;45:227"
+  },
+  "antimicrobial_spectrum": {
+    "clostridioides_difficile": true
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Tab (200 mg), oral susp (40 mg/mL)",
+    "food_recommendation": "Tab/susp ± food",
+    "oral_absorption_percent": "Minimal",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "0.005 (200 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "No data",
+    "volume_of_distribution_vd": "No data",
+    "avg_serum_half_life_hr": "2",
+    "elimination": "Fecal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "0.063 (200 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "None known"
+  ]
+}

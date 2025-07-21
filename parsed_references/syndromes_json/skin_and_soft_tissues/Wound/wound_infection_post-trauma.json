@@ -1,0 +1,63 @@
+{
+  "name": "Wound Infection, Post-trauma",
+  "updates": [
+    {
+      "date": "2023-11-07",
+      "content": {}
+    }
+  ],
+  "clinical_setting": "Uncomplicated, mild or moderate wound infection (usually outpatient management in afebrile patient).\nDebridement of wound may be indicated: Obtain culture and sensitivity, check Gram stain.\nGive tetanus prophylaxis and vaccine if indicated.\nSee also, Wounds, Bites and Burns: Overview.\nComplicated, severe (usually hospitalized patient who is often febrile):\nDebridement as needed\nCollect specimen for culture and sensitivity\nTetanus toxoid if indicated",
+  "etiologies": [
+    "Polymicrobic (Microbial flora dependent on nature of the trauma):",
+    "Staphylococcus aureus (MSSA, MRSA)",
+    "Streptococcus sp. (aerobic and anaerobic)",
+    "Enterobacterales",
+    "Clostridium perfringens",
+    "Clostridium tetani",
+    "Pseudomonas sp. (water exposure)",
+    "Aeromonas sp.",
+    "Acinetobacter species; esp. problem in soldiers infected in Afghanistan, Iraq"
+  ],
+  "primary_regimens": [
+    {
+      "drug": "TMP-SMX",
+      "dosage": "double strength 1-2 tabs po bid"
+    },
+    {
+      "drug": "Clindamycin",
+      "dosage": "300-450 mg po tid",
+      "notes": "If Gram-negative bacilli are suspected: add Amoxicillin-clavulanate 875/125 mg po bid or a fluoroquinolone)."
+    },
+    {
+      "drug": "Piperacillin-tazobactam or Imipenem-cilastatin or Meropenem or Ertapenem) + Vancomycin",
+      "dosage": "15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 µg/mL",
+      "notes": "Complicated, severe, febrile patient:"
+    }
+  ],
+  "alternative_regimens": [
+    {
+      "drug": "Minocycline",
+      "dosage": "100 mg po bid"
+    },
+    {
+      "drug": "Linezolid",
+      "dosage": "600 mg po bid"
+    },
+    {
+      "drug": "Omadacycline",
+      "dosage": "200 mg IV (over 60 min) loading dose and then 100 mg (over 30 min) q24 h\n100 mg IV over 30 min bid on day one and then 100 mg iv over 30 min q24h\n450 mg po q24h on days 1 and 2 and then 300 mg po q24h",
+      "notes": "Do not use an older tetracycline for reason of resistance and/or clinical failures."
+    },
+    {
+      "drug": "(Vancomycin (as above) or Daptomycin 6 mg/kg IV q 24h or Linezolid 600 mg IV/po q12h or Telavancin 10 mg/kg IV q24h) + either Ciprofloxacin or Levofloxacin IV",
+      "notes": "Complicated, severe:"
+    }
+  ],
+  "antimicrobial_stewardship": [
+    "In randomized trial TMP-SMX and Clindamycin both regimens efficacious, but fewer recurrences with Clindamycin: Clin Infect Dis 62:1505, 2016",
+    "If S. aureus are Erythromycin-resistant in vitro, may have inducible resistance to Clindamycin; make sure lab checks if using the latter."
+  ],
+  "comments": [
+    "Acinetobacter sp. infection seen in traumatic wounds in soldiers (Iraq, Afghanistan, elsewhere in Middle East): Clin Infect Dis 47:444, 2008."
+  ]
+}

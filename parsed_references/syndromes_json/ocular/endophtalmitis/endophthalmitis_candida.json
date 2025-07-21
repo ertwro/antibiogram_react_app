@@ -1,0 +1,162 @@
+{
+  "documentMetadata": {
+    "title": "Candida Endophthalmitis",
+    "sourceFile": "syndromes/ocular/endophtalmitis/Endophthalmitis, Candida.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Candida endophthalmitis is the most common form of endogenous (hematogenous) endophthalmitis. It occurs when Candida species, typically Candida albicans, spread to the eye through the bloodstream from a distant site of infection. Major risk factors include candidemia, central venous catheters, recent abdominal surgery, total parenteral nutrition (TPN), broad-spectrum antibiotic use, and intravenous drug use. The infection seeds the highly vascular choroid and retina."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Early on, may be asymptomatic. As it progresses, patients report floaters, blurred vision, and eye pain. Systemic symptoms of candidemia (fever, chills) may be present."
+        },
+        {
+          "key": "Signs",
+          "value": "The classic finding is a chorioretinitis, which appears as a creamy-white, fluffy lesion in the retina or choroid. Lesions can extend into the vitreous, forming \"fluff balls\" or a \"string of pearls\" appearance. Vitritis (inflammation of the vitreous) is common. Anterior chamber inflammation and hypopyon can also occur."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis and Screening"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diagnosis is often clinical, based on the characteristic funduscopic findings in a patient with risk factors or confirmed candidemia. A dilated fundus examination by an ophthalmologist is mandatory for all patients with candidemia, even if asymptomatic."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Blood Cultures",
+          "sampleType": "Blood",
+          "interpretation": "Positive blood cultures for Candida confirm the systemic infection.",
+          "notes": "Blood cultures can be negative in up to 50% of cases of proven Candida endophthalmitis."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Vitreous or Aqueous Humor Biopsy",
+          "sampleType": "Intraocular fluid",
+          "interpretation": "Culture or PCR of intraocular fluid provides a definitive diagnosis but is reserved for cases where the diagnosis is uncertain or there is no response to therapy.",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management requires both systemic and local (intravitreal) antifungal therapy and should be coordinated between an infectious disease specialist and an ophthalmologist."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic Antifungal Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Chorioretinitis without vitritis",
+            "appliesTo": {
+              "description": "Patients with Candida chorioretinitis"
+            },
+            "components": [
+              {
+                "drug": "Fluconazole",
+                "dose": "400-800 mg (6-12 mg/kg) daily"
+              },
+              {
+                "drug": "Voriconazole",
+                "dose": "Loading dose, then 200-300 mg (4 mg/kg) twice daily",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Treat for 4-6 weeks, or until lesions resolve on ophthalmic exam."
+              }
+            },
+            "notes": "Choice depends on Candida species and local susceptibility patterns. Voriconazole has better activity against non-albicans species."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Endophthalmitis with significant vitritis",
+            "appliesTo": {
+              "description": "Patients with significant vitreous involvement"
+            },
+            "components": [
+              {
+                "drug": "Liposomal Amphotericin B",
+                "dose": "3-5 mg/kg/day",
+                "route": "IV"
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Treat for 4-6 weeks. May be stepped down to an oral azole."
+              }
+            }
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Intravitreal Therapy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Intravitreal Injection",
+            "indication": "For patients with significant vitritis or sight-threatening lesions.",
+            "notes": "Amphotericin B (5-10 mcg) or Voriconazole (100 mcg) is injected directly into the vitreous. This provides high local drug concentrations."
+          }
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Pars Plana Vitrectomy",
+            "indication": "For severe, vision-threatening endophthalmitis, or cases that do not respond to medical therapy.",
+            "notes": "Surgical removal of the infected vitreous can reduce the fungal burden and clear inflammatory debris."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Endophthalmitis, Hematogenous or Endogenous",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Endophthalmitis, Hematogenous or Endogenous"
+      }
+    }
+  ]
+}

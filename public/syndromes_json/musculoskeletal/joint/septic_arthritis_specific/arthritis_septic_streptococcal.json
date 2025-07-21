@@ -1,0 +1,134 @@
+{
+  "documentMetadata": {
+    "title": "Definitive therapy of septic arthritis caused by hemolytic and non-hemolytic streptococci",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Arthritis, Septic, Streptococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Definitive therapy of septic arthritis caused by hemolytic and non-hemolytic streptococci",
+        "Signs and symptoms of septic arthritis.",
+        "Synovial fluid WBC >25,000.",
+        "Gram strain positive for Gram-positive cocci in chains and/or positive synovial fluid or blood culture for streptococci."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Group A, B, C streptococci",
+        "Streptococcus pneumoniae",
+        "Viridans group streptococci",
+        "Other streptococcal species"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Drainage or debridement",
+        "notes": "In addition to antimicrobial therapy, drainage or debridement should always be performed by needle aspiration (repeated as needed), arthroscopy, or arthrotomy."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "2 mU",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-3 weeks"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-3 weeks"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-3 weeks"
+        },
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough level of 15-20 µg/mL)"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-3 weeks"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Large series of streptococcal prosthetic joint infection managed with debridement, implant retention, and antibiotics found a failure rate of 42% (Clin Infect Dis 2017;64:1742).",
+        "Predictors of failure were rheumatoid arthritis, late post-surgical infection (> 3 months), bacteremia, infection with S. pyogenes.",
+        "Predictors of success were exchange of removable components, use of rifampin within the first 30 days, a prolonged course (>21 days) of a beta-lactam antibiotic with or without Rifampin.",
+        "Role of oral step-down therapy is unclear; potentially effective agents include Linezolid 600 mg po bid, Clindamycin 600 mg po tid, or Amoxicillin 1 gm po tid."
+      ]
+    }
+  ]
+}

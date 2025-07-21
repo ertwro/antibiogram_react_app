@@ -1,0 +1,537 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Kingella kingae",
+      "aliases": [],
+      "lastUpdated": "2024-05-28",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacilli",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Member of the HACEK group",
+          "Slow-growing and fastidious"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative coccobacillus, facultative anaerobe, oxidase +, catalase –, ferments glucose, indole –, urease –."
+    },
+    "clinicalProfile": {
+      "summary": "Kingella kingae is a fastidious gram-negative coccobacillus, primarily recognized as a leading cause of septic arthritis and osteomyelitis in young children (6-48 months). It is also a member of the HACEK group, causing culture-negative endocarditis, mainly in adults.",
+      "pathophysiologyPearls": [
+        "Colonizes the respiratory tract, particularly in young children.",
+        "Infection is often preceded by a viral upper respiratory infection, which may damage the respiratory epithelium and facilitate bacterial invasion."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Limp or refusal to bear weight (in septic arthritis/osteomyelitis)",
+        "Joint pain, swelling, and decreased range of motion",
+        "Symptoms of endocarditis (e.g., new heart murmur, embolic phenomena) in adults"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Septic Arthritis and Osteomyelitis",
+          "description": "A leading cause of skeletal infections in children aged 6-48 months."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur, often in young children, and may be occult."
+        },
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A rare cause of endocarditis, typically as part of the HACEK group, affecting both native and prosthetic valves."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Children aged 6-48 months"
+      ],
+      "transmissionVectors": [
+        "Endogenous respiratory flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Vancomycin",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Antistaphylococcal Penicillins (Oxacillin, Nafcillin)",
+          "notes": "Predictably resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Susceptible in vitro to cephalosporins, aminoglycosides, TMP-SMX, tetracyclines, and fluoroquinolones.",
+        "Cephalosporin therapy is preferred in children."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Tetracyclines",
+          "condition": "Treatment in children under 8 years",
+          "reason": "Potential for dental staining, though the American Academy of Pediatrics now considers Doxycycline safe for up to 21 days of therapy in children."
+        },
+        {
+          "drugOrClass": "Fluoroquinolones",
+          "condition": "Treatment in children under 8 years",
+          "reason": "Concerns about cartilage damage, though use may be justified in some situations."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Haematogenous osteomyelitis in a child not responding to empiric therapy for S. aureus",
+            "patientPopulation": [
+              "Children"
+            ],
+            "isolateSource": "Bone/Joint"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Pending culture results",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "Varies by age/weight",
+                      "route": "IV",
+                      "frequency": "Varies",
+                      "comments": "Add to existing empiric therapy (e.g., Vancomycin)."
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "Varies by age/weight",
+                      "route": "IV",
+                      "frequency": "Varies",
+                      "comments": "Add to existing empiric therapy (e.g., Vancomycin)."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Endocarditis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "Low-dose for synergy",
+                      "route": "IV",
+                      "frequency": "Varies",
+                      "comments": "Combination based on theoretical data."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750",
+                      "route": "IV/PO",
+                      "frequency": "daily",
+                      "comments": "For beta-lactam allergic patients. Based on in vitro susceptibility; no clinical data."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Osteomyelitis/Septic Arthritis",
+            "patientPopulation": [
+              "Children under 4 years with beta-lactam allergy"
+            ],
+            "isolateSource": "Bone/Joint"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "Varies by age/weight",
+                      "route": "IV/PO",
+                      "frequency": "Varies",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood cultures, joint aspirates, or bone biopsies are required for diagnosis.",
+        "Inoculating specimens into blood culture bottles may enhance recovery."
+      ],
+      "methodologyNotes": [
+        "Kingella kingae is a slow-growing, fastidious organism.",
+        "Growth is enhanced on blood or chocolate agar in a CO2-enriched atmosphere."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.332Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Kingella kingae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-05-28"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacilli",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Member of the HACEK group",
+          "Slow-growing and fastidious"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Kingella kingae is a fastidious gram-negative coccobacillus, primarily recognized as a leading cause of septic arthritis and osteomyelitis in young children (6-48 months). It is also a member of the HACEK group, causing culture-negative endocarditis, mainly in adults.",
+      "pathophysiologyPearls": [
+        "Colonizes the respiratory tract, particularly in young children.",
+        "Infection is often preceded by a viral upper respiratory infection, which may damage the respiratory epithelium and facilitate bacterial invasion."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Limp or refusal to bear weight (in septic arthritis/osteomyelitis)",
+        "Joint pain, swelling, and decreased range of motion",
+        "Symptoms of endocarditis (e.g., new heart murmur, embolic phenomena) in adults"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Septic Arthritis and Osteomyelitis",
+          "description": "A leading cause of skeletal infections in children aged 6-48 months."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur, often in young children, and may be occult."
+        },
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A rare cause of endocarditis, typically as part of the HACEK group, affecting both native and prosthetic valves."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Children aged 6-48 months"
+      ],
+      "transmissionVectors": [
+        "Endogenous respiratory flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Vancomycin",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Clindamycin",
+          "notes": "Predictably resistant."
+        },
+        {
+          "drugOrClass": "Antistaphylococcal Penicillins (Oxacillin, Nafcillin)",
+          "notes": "Predictably resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Haematogenous osteomyelitis in a child not responding to empiric therapy for S. aureus",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children"
+              ],
+              "labFindings": "Bone/Joint"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "Varies by age/weight",
+              "route": "IV",
+              "frequency": "Varies",
+              "duration": "Pending culture results",
+              "comments": "Add to existing empiric therapy (e.g., Vancomycin).",
+              "originalText": "Cefazolin Varies by age/weight IV Varies"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "Varies by age/weight",
+              "route": "IV",
+              "frequency": "Varies",
+              "duration": "Pending culture results",
+              "comments": "Add to existing empiric therapy (e.g., Vancomycin).",
+              "originalText": "Ceftriaxone Varies by age/weight IV Varies"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "4-6 weeks",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 IV daily"
+            },
+            {
+              "drugName": "Gentamicin",
+              "dose": "Low-dose for synergy",
+              "route": "IV",
+              "frequency": "Varies",
+              "duration": "4-6 weeks",
+              "comments": "Combination based on theoretical data.",
+              "originalText": "Gentamicin Low-dose for synergy IV Varies"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750",
+              "route": "IV/PO",
+              "frequency": "daily",
+              "duration": "4-6 weeks",
+              "comments": "For beta-lactam allergic patients. Based on in vitro susceptibility; no clinical data.",
+              "originalText": "Levofloxacin 750 IV/PO daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Osteomyelitis/Septic Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children under 4 years with beta-lactam allergy"
+              ],
+              "labFindings": "Bone/Joint"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "Varies by age/weight",
+              "route": "IV/PO",
+              "frequency": "Varies",
+              "duration": "Varies",
+              "comments": "",
+              "originalText": "TMP-SMX Varies by age/weight IV/PO Varies"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood cultures, joint aspirates, or bone biopsies are required for diagnosis.",
+        "Inoculating specimens into blood culture bottles may enhance recovery."
+      ],
+      "methodologyNotes": [
+        "Kingella kingae is a slow-growing, fastidious organism.",
+        "Growth is enhanced on blood or chocolate agar in a CO2-enriched atmosphere."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

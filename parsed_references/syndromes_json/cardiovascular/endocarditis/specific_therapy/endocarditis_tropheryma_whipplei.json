@@ -1,0 +1,132 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Tropheryma whipplei",
+    "lastUpdated": "2020-09-15",
+    "sourceFile": "Endocarditis, Tropheryma whipplei.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for endocarditis caused by Tropheryma whipplei.",
+        "Culture-negative endocarditis (see Comments).",
+        "Extracardiac manifestations including polyarthralgias, chronic diarrhea, weight loss, abdominal pain, neurologic symptoms may be present, but only in a minority of patients.",
+        "Diagnosis by demonstrating the organism on biopsy of involved tissue, polymerase chain reaction (PCR), or culture."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tropheryma whipplei"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "frequency": "bid"
+          },
+          {
+            "drug": "Hydroxychloroquine",
+            "dose": "200 mg",
+            "frequency": "tid",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "12 months"
+        },
+        "notes": "followed by Doxycycline long-term (possibly life-long) suppression (J Infect 69:103, 2014)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "daily"
+          },
+          {
+            "drug": "TMP-SMX",
+            "dose": "160-800 mg",
+            "frequency": "twice daily",
+            "connector": "then"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "1-2 years"
+        },
+        "notes": "(Clin Micro Rev 30(2): 529, 2017)"
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "160-800 mg",
+            "frequency": "twice daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "1-2 years"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clinical failures with and resistance to TMP-SMX have been reported (Int J Antimicrob Agents 41: 592, 2013)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Review: Clin Micro Rev 30(2): 529, 2017; Curr Opin Infect Dis 31(6): 463, 2018.",
+        "Prolonged therapy is indicated to prevent relapse; optimal duration not clear. Clinical follow-up is critical. Watch for IRIS first 1-2 weeks of therapy",
+        "German study of explanted valve material suggests that Tropheryma whipplei may be the fourth most common cause of endocarditis (after staphylococci, streptococci, and enterococci) and the most common cause of culture-negative endocarditis, accounting for approximately a third of cases. Patients typically do not have other signs and symptoms of Whipple's disease, have slowly progressive valvular disease, and do not meet Duke criteria for diagnosis of endocarditis (J Clin Micro 50:216, 2012).",
+        "Diagnosis can only be established by histopathologic examination, culture, or PCR of valve material."
+      ]
+    }
+  ]
+}

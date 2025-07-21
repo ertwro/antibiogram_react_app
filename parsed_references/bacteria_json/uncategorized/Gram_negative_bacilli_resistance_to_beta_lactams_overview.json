@@ -1,0 +1,238 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Gram-Negative Bacilli",
+      "aliases": [
+        "GNB"
+      ],
+      "lastUpdated": "2024-09-30",
+      "clsiCategory": "Overview",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Variable",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "This is an overview document and does not pertain to a single organism."
+    },
+    "clinicalProfile": {
+      "summary": "This document provides an overview of beta-lactam resistance mechanisms in Gram-negative bacilli, which are a major cause of healthcare-associated and community-acquired infections. Resistance to beta-lactam antibiotics (penicillins, cephalosporins, carbapenems) is a significant clinical challenge.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic degradation",
+          "description": "Production of enzymes that hydrolyze the beta-lactam ring, inactivating the antibiotic. This is the most common mechanism of resistance."
+        },
+        {
+          "mechanismName": "Decreased Permeability",
+          "mechanismType": "Porin mutation",
+          "description": "Mutations in porin proteins in the outer membrane reduce the entry of beta-lactam antibiotics into the bacterial cell."
+        },
+        {
+          "mechanismName": "Efflux Pumps",
+          "mechanismType": "Active transport",
+          "description": "Active transport systems that pump antibiotics out of the bacterial cell."
+        },
+        {
+          "mechanismName": "Altered Penicillin-Binding Proteins (PBPs)",
+          "mechanismType": "Target modification",
+          "description": "Mutations in the target PBPs reduce the binding affinity of beta-lactam antibiotics."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Co-resistance",
+          "details": "Resistance to beta-lactams is often associated with concomitant resistance to other antibiotic classes, such as fluoroquinolones, tetracyclines, TMP-SMX, and aminoglycosides."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment of infections caused by multi-drug resistant Gram-negative bacilli is complex and often requires consultation with an infectious diseases specialist.",
+        "The choice of therapy depends on the specific resistance mechanism (e.g., ESBL, KPC, MBL, OXA) and the site of infection."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": []
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Phenotypic methods are used to detect carbapenemase-producing bacteria in the clinical laboratory."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "IDSA",
+          "citation": "2024 Updated IDSA Guidance on the Treatment of Antimicrobial Resistant Gram-Negative Infections",
+          "summaryOrNote": "Provides comprehensive recommendations for the treatment of infections caused by ESBL-producing, AmpC-producing, and carbapenemase-producing Gram-negative bacilli."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.381Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Gram-Negative Bacilli"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "GNB"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-09-30"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Variable",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "This document provides an overview of beta-lactam resistance mechanisms in Gram-negative bacilli, which are a major cause of healthcare-associated and community-acquired infections. Resistance to beta-lactam antibiotics (penicillins, cephalosporins, carbapenems) is a significant clinical challenge.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic degradation",
+          "description": "Production of enzymes that hydrolyze the beta-lactam ring, inactivating the antibiotic. This is the most common mechanism of resistance."
+        },
+        {
+          "mechanismName": "Decreased Permeability",
+          "mechanismType": "Porin mutation",
+          "description": "Mutations in porin proteins in the outer membrane reduce the entry of beta-lactam antibiotics into the bacterial cell."
+        },
+        {
+          "mechanismName": "Efflux Pumps",
+          "mechanismType": "Active transport",
+          "description": "Active transport systems that pump antibiotics out of the bacterial cell."
+        },
+        {
+          "mechanismName": "Altered Penicillin-Binding Proteins (PBPs)",
+          "mechanismType": "Target modification",
+          "description": "Mutations in the target PBPs reduce the binding affinity of beta-lactam antibiotics."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Co-resistance",
+          "details": "Resistance to beta-lactams is often associated with concomitant resistance to other antibiotic classes, such as fluoroquinolones, tetracyclines, TMP-SMX, and aminoglycosides."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Phenotypic methods are used to detect carbapenemase-producing bacteria in the clinical laboratory."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

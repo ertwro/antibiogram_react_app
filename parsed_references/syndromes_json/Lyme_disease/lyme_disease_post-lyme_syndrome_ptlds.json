@@ -1,0 +1,71 @@
+
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Post-Lyme Syndrome (PTLDS)",
+    "sourceFile": "Lyme Disease, Post-Lyme Syndrome (PTLDS).pdf",
+    "lastUpdated": "2025-05-05"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Post Treatment Lyme Disease Syndrome (PTLDS) is defined as persistent subjective symptoms such as fatigue, musculoskeletal pain, and/ or cognitive difficulties following treatment of objective manifestations of Lyme Disease. Up to 10-15% of individuals with previous Lyme disease can develop PTLDS, regardless of treatment for acute Lyme disease.",
+        "The pathophysiology of PTLDS is poorly understood, however there is no evidence of B burgdoferi.",
+        "PTLDS is a diagnosis of exclusion",
+        "For variability between laboratories in Lyme Disease serologic testing see: Clin Infect Dis 59:1705, 2014.",
+        "For details on diagnostic methods see: Lyme Disease, Diagnosis and Emerging Infect Dis 22:1169, 2016."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Borrelia burgdorferi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotic therapy is not recommended, see Comments"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In prospective blinded placebo-controlled trials, there was no benefit from antibiotic therapy (N Engl J Med 345: 85, 2001; N Engl J Med 374: 1209, 2016) Further, there is the risk of patient harm attributable to either the antibiotic treatment (drug reactions and drug-induced cholecystitis) and/or the IV catheter (bacteremia, thromboembolism). In short, there is no demonstrable clinical benefit from prolonged antibiotic therapy. See also N Engl J Med 374:1277, 2016.",
+        "2020 clinical practice guidelines (Neurology 96:262, 2021) and (Clin Infect Dis 72:e1-e48, 2021)",
+        "Review in Clin Rev in Allergy and Immunology 62: 264, 2022."
+      ]
+    }
+  ]
+}

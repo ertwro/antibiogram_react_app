@@ -1,0 +1,147 @@
+{
+  "drug_name": "Erythromycin Base, Esters",
+  "tradename": "Erythrocin, Ilosone, Erythromycin lactobionate, Eryc, E-mycin, Erythromid",
+  "drug_shortage": [
+    {
+      "preparation": "Injection (lactobionate)",
+      "start_date": "2025-04-23",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Erythromycin is the original macrolide antibiotic, first approved in 1952. It is used to treat respiratory tract and skin infections caused by susceptible organisms.",
+      "Binds to the 50S ribosomal subunit to interfere with protein synthesis. Mechanism of resistance: methylation of ribosomal target (high level resistance) and activation of efflux pumps (low level resistance).",
+      "Available in a variety of pharmaceutical preparations. Conversion: 400 mg erythromycin ethylsuccinate = 250 mg erythromycin base.",
+      "Gastroparesis: see Comments.",
+      "Caution: numerous drug interactions (see chart below, not all-inclusive)."
+    ],
+    "adult_dose": {
+      "usual_oral_dose": {
+          "base": "250-500 mg po q6-12h",
+          "ethylsuccinate": "400-800 mg po q6-12h"
+      },
+      "usual_iv_dose_lactobionate": "500-1000 mg IV q6h (max 4 gm/day)",
+      "other_uses": "Colorectal surgery prophylaxis"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "40-50 mg/kg/day (divided q6h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2-4",
+    "half_life_esrd": "5-6",
+    "dose_renal_function_normal": "250-500 mg po q6h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Gastrointestinal: nausea/vomiting (common), diarrhea, C. difficile colitis",
+    "Increased LFTs",
+    "Confusion, headache",
+    "Ototoxicity (with high doses in ESRD)",
+    "Combination of erythromycin and a statin can result in elevated statin serum levels and subsequent rhabdomyolysis (Ann Intern Med 2013;158:869).",
+    "See QTc prolongation.",
+    "See Macrolides, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Safety data conflict. Macrolide exposure associated with ↑ risk of spontaneous abortion (1st TM use) and ↑ risk of major birth defects in some studies. Use with caution. 8",
+    "lactation": "Safe, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category. 8: Ref: Pharmacotherapy 2025;45:227"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Actinomyces sp.",
+        "Arcanobacterium sp.",
+        "Campylobacter jejuni",
+        "Corynebacterium diphtheriae",
+        "Haemophilus ducreyi",
+        "Klebsiella granulomatis (granuloma inguinale)",
+        "Legionella sp."
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Base tab (250, 500 mg), Delayed-release (DR) tab (250, 333, 500 mg), DR cap (250 mg), Ethylsuccinate tab (400 mg), Ethylsuccinate oral susp (200 mg/5 mL, 400 mg/5 mL), 2% topical gel/pad/soln, 0.5% oph ointment, Lactobionate injection",
+    "food_recommendation": "Base no food, DR/ethylsucc ± food",
+    "oral_absorption_percent": "18-45",
+    "tmax_hr": "DR preps 3",
+    "peak_serum_conc_ug_ml": "0.1-2.0 (500 mg base po, SD), 3-4 (500 mg IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "70-74",
+    "volume_of_distribution_vd_l_kg": "0.6 L/kg",
+    "avg_serum_half_life_hr": "2-4",
+    "elimination": "Biliary",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "2-13",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": ["CYP3A4"],
+      "transporters_substrate": ["PGP"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP3A4"],
+      "transporters_inhibited": ["PGP", "OATP1B1"],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {"drug": "Alfentanil", "effect": "↑ alfentanil", "management": "Monitor or avoid"},
+      {"drug": "Alprazolam", "effect": "↑ alprazolam", "management": "Monitor, adjust dosage"},
+      {"drug": "Amiodarone", "effect": "↑ amiodarone", "management": "Monitor or avoid"},
+      {"drug": "Amlodipine", "effect": "↑ amlodipine", "management": "Monitor or avoid"},
+      {"drug": "Atorvastatin", "effect": "↑ atorvastatin", "management": "Adjust dosage or avoid"},
+      {"drug": "Bromocriptine", "effect": "↑ bromocriptine", "management": "Monitor or avoid"},
+      {"drug": "Carbamazepine", "effect": "↑ carbamazepine", "management": "Monitor, adjust dosage"},
+      {"drug": "Cilostazol", "effect": "↑ cilostazol", "management": "Monitor or avoid"},
+      {"drug": "Clozapine", "effect": "↑ clozapine", "management": "Monitor, adjust dosage"},
+      {"drug": "Colchicine", "effect": "↑ colchicine", "management": "Monitor, adjust dosage"},
+      {"drug": "Cyclosporine", "effect": "↑ cyclosporine", "management": "Monitor or avoid"},
+      {"drug": "Digoxin", "effect": "↑ digoxin", "management": "Monitor, adjust dosage"},
+      {"drug": "Diltiazem", "effect": "↑ diltiazem", "management": "Monitor or avoid"},
+      {"drug": "Disopyramide", "effect": "↑ disopyramide", "management": "Monitor or avoid"},
+      {"drug": "Dofetilide", "effect": "↑ dofetilide", "management": "Monitor or avoid"},
+      {"drug": "Eplerenone", "effect": "↑ eplerenone", "management": "Monitor, adjust dosage"},
+      {"drug": "Ergot alkaloids", "effect": "↑ ergot alkaloid", "management": "Contraindicated"},
+      {"drug": "Fexinidazole", "effect": "↓ M1, M2 (fexinidazole) metabolites", "management": "Monitor or avoid"},
+      {"drug": "Lovastatin", "effect": "↑ lovastatin", "management": "Contraindicated"},
+      {"drug": "Methylprednisolone", "effect": "↑ methylprednisolone", "management": "Monitor"},
+      {"drug": "Midazolam", "effect": "↑ midazolam", "management": "Monitor, adjust dosage"},
+      {"drug": "Nirmatrelvir/RTV", "effect": "↑ erythromycin", "management": "Monitor, adjust dosage"},
+      {"drug": "Phenytoin", "effect": "↑ phenytoin", "management": "Monitor, adjust dosage"},
+      {"drug": "Pimozide", "effect": "↑ pimozide", "management": "Contraindicated"},
+      {"drug": "Procainamide", "effect": "↑ QT interval", "management": "Monitor or avoid"},
+      {"drug": "Quinidine", "effect": "↑ quinidine", "management": "Monitor or avoid"},
+      {"drug": "Rifabutin", "effect": "↓ erythromycin, ↑ rifabutin", "management": "Monitor, adjust dosage"},
+      {"drug": "Sildenafil", "effect": "↑ sildenafil", "management": "Adjust dosage or avoid"},
+      {"drug": "Simvastatin", "effect": "↑ simvastatin", "management": "Contraindicated"},
+      {"drug": "Sotalol", "effect": "↑ QT interval", "management": "Monitor or avoid"},
+      {"drug": "Tacrolimus", "effect": "↑ tacrolimus", "management": "Monitor or avoid"},
+      {"drug": "Theophylline", "effect": "↑ theophylline, ↓ erythromycin?", "management": "Monitor, adjust dosage"},
+      {"drug": "Triazolam", "effect": "↑ triazolam", "management": "Monitor, adjust dosage"},
+      {"drug": "Valproic acid", "effect": "↑ valproic acid", "management": "Monitor, adjust dosage"},
+      {"drug": "Verapamil", "effect": "↑ verapamil", "management": "Monitor or avoid"},
+      {"drug": "Vinca alkaloids", "effect": "↑ vinca alkaloid", "management": "Avoid co-administration"},
+      {"drug": "Warfarin", "effect": "↑ warfarin", "management": "Monitor INR, adjust dosage"}
+  ],
+  "comments": [
+      "Gastroparesis: Use of erythromycin to stimulate peristalsis is controversial (Expert Opin Pharmacother 2013;14:1171; Eur J Pharmacol 2013;715:10). Despite absence of controlled studies, still used as an alternative agent.",
+      "Erythromycin initiates peristalsis by binding to motilin receptors and apparently improves gastric emptying for about 2 weeks. Thereafter the motilin receptors are downregulated and tachyphylaxis ensues.",
+      "If used, the recommended IV dose is 1.5-3 mg/kg IV (infused over 45 min) q6h. If oral suspension used, dose is 125 mg po bid.",
+      "Reference: Gastroenterol Clin North Am 2015;44:97."
+  ]
+}

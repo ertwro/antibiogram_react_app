@@ -1,0 +1,118 @@
+{
+  "drug_name": "Flucloxacillin",
+  "tradename": "Floxapen, Lutropin, Staphcil",
+  "usage_and_dosing": {
+    "general_info": [
+      "An oral penicillinase-resistant antistaphylococcal antibiotic with activity similar to Dicloxacillin.",
+      "Not active vs. methicillin-resistant Staphylococcus aureus (MRSA).",
+      "Relatively poor activity vs. Strep. pyogenes; Penicillin G (IV) or Penicillin V (po) is preferred.",
+      "For oral use for MSSA, Flucloxacillin is interchangeable with Dicloxacillin.",
+      "Due to risk of cholestatic hepatitis, use only for severe infections. See Adverse Effects.",
+      "Allergy: Protocol for Flucloxacillin desensitization."
+    ],
+    "adult_dose": [
+      "Oral: 250-500 mg po q6h",
+      "Parenteral: 1-2 gm IV q4-6h"
+    ],
+    "pediatric_dose": [
+      {
+        "age": "<2 yrs",
+        "dose": "62.5-125 mg po q6h or 25 mg/kg IV q4-6h"
+      },
+      {
+        "age": "2-10 yrs",
+        "dose": "125-250 mg po q6h or 25-50 mg/kg IV q6h"
+      }
+    ],
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": 0.75,
+      "half_life_hrs_esrd": "No data",
+      "dose_renal_function_normal": [
+        "250-500 mg po q6h",
+        "1-2 gm IV q4-6h"
+      ],
+      "crcl_or_egfr": "Dosage recommendations not available. Consider 50% reduction if CrCl <10 mL/min",
+      "hemodialysis": "No data (not significantly removed by HD)",
+      "capd": "No data",
+      "crrt": "CVVH: 4 gm IV q8h",
+      "sled": "1 gm IV q4h"
+    },
+    "hepatic_adjustment": "No data"
+  },
+  "adverse_effects": [
+    "GI (nausea, vomiting, diarrhea, C. difficile infection)",
+    "Hypersensitivity",
+    "Cholestatic hepatitis:",
+    "Incidence estimated at 1 in 15,000 exposures.",
+    "Occurs more frequently in patients >55 years of age, in females, and in patients treated for >2 weeks.",
+    "Cholestasis can appear up to several weeks after the end of therapy and can take weeks to resolve.",
+    "Drug-induced liver injury (DILI) related to flucloxacillin is associated with HLA-B*57:01 in a genome-wide association study (Nat Genet 2009;41:816).",
+    "DILI is selective for flucloxacillin on the basis of HLA restriction, and no cross-reactivity with other beta-lactams is apparent. Given the low positive predictive value of this allele for DILI, testing is not a part of routine clinical practice (N Engl J Med 2019;381:2338).",
+    "Hematologic: leukopenia, anemia, thrombocytopenia."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Staphylococcus aureus, methicillin-sensitive (MSSA)",
+      "Staphylococcus epidermidis, methicillin-susceptible (MSSE)",
+      "Staphylococcus lugdunensis",
+      "Staphylococcus sp., coagulase-negative (Methicillin susceptible); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": [
+      "Cap (250, 500 mg)",
+      "Oral syrup (125 mg/5 mL, 250 mg/5 mL)",
+      "Injection"
+    ],
+    "food_rec_po_drugs": "Cap no food",
+    "oral_absorption_percent": 50,
+    "tmax_hr": "po: 1",
+    "peak_serum_conc_mcg_ml": "10 (250 mg po, SD)",
+    "protein_binding_percent": 95,
+    "avg_serum_t1_2_hr": 0.75,
+    "elimination": "Renal"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_induced_by_drug": "CYP3A4?",
+    "transporters_induced_by_drug": "PGP?",
+    "impact_on_serum_drug_concentrations": "↓"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Isavuconazonium",
+      "effect_on_conc": "↓ isavuconazole",
+      "management": "Monitor, adjust (EJCMID 2022)"
+    },
+    {
+      "drug": "Posaconazole",
+      "effect_on_conc": "↓ posaconazole",
+      "management": "Monitor, adjust (JAC 2023 Apr 1)"
+    },
+    {
+      "drug": "Probenecid",
+      "effect_on_conc": "↑ flucloxacillin",
+      "management": "Monitor, adjust"
+    },
+    {
+      "drug": "Tacrolimus",
+      "effect_on_conc": "↓ tacrolimus",
+      "management": "Monitor, adjust (Eur J Clin Pharmacol)"
+    },
+    {
+      "drug": "Voriconazole",
+      "effect_on_conc": "↓ voriconazole",
+      "management": "Monitor, adjust (AAC 61:e0091)"
+    },
+    {
+      "drug": "Warfarin",
+      "effect_on_conc": "↓ warfarin",
+      "management": "Monitor INR, adjust (Int Med J 48:8)"
+    }
+  ]
+}

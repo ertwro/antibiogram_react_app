@@ -1,0 +1,169 @@
+
+{
+  "documentMetadata": {
+    "title": "Urethritis, Cervicitis_ Chlamydial",
+    "lastUpdated": "2022-10-13",
+    "sourceFile": "Urethritis, Cervicitis_ Chlamydial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chlamydia, non- or post-gonococcal urethritis or cervicitis.",
+        "Concomitant gonorrhea should be assumed. See Gonococcal urethritis/cervicitis.",
+        "Evaluate and treat sex partners (and advise to abstain from sex until treatment complete).",
+        "Re-test for cure in pregnancy.",
+        "For rectal chlamydia, see Comments"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chlamydia trachomatis (50%)",
+        "Mycoplasma hominis",
+        "Other known etiologies (10–15%):",
+        "Trichomonas",
+        "H. simplex virus",
+        "Mycoplasma genitalium",
+        "Ureaplasma urealyticum (controversial)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nucleic acid amplification tests for C. trachomatis and N. gonorrhoeae on urine, urethral, or endocervical sample.",
+        "Another alternative is patient collected vaginal swab: New Engl J Med 2017; 367: 765."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "Pregnancy",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1 gm",
+            "route": "po"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "1 dose"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "for urethritis",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "notes": "x 1 dose followed by 250 mg po x 4 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "for cervicitis or urethritis",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1 gm",
+            "route": "po"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "1 dose"
+        },
+        "notes": "Some evidence that single dose regimen more likely to select for resistant M. genitalium"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mycoplasma genitalium is associated with 30% of non-gonococcal urethritis (NGU), cervicitis, and pelvic inflammatory disease (PID) (Clin Infect Dis 56:934, 2013) and may account for treatment failures. Macrolide resistance found in almost 40% of M. genitalium-positive patients tested in STI clinic patients in Denmark (Clin Infect Dis 59:24 (Jul 1), 2014). Resistance increasing world wide, with increasing resistance to fluoroquinolones. See 2021 CDC STI guidelines for explanation of new 2 stage treatment",
+        "Macrolide treatment also associated with increased resistance of other pulmonary and Gl microbes."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pregnancy",
+        "All pregnant women should be screened for chlamydia infection on initial prenatal visit.",
+        "Doxycycline and Fluoroquinolones are contraindicated for use during pregnancy.",
+        "If patient fails treatment for Chlamydia trachomatis, possibilities are:",
+        "Trichomonas vaginalis",
+        "Mycoplasma genitalium",
+        "Herpes simplex",
+        "All patients with chlamydia infection should be tested for HIV.",
+        "Rectal chlamydia:",
+        "Prevalence of 6% but up to 68% among women with vaginal chlamydia",
+        "In cohort study, microbiologic cure with single dose azithromycin 78.5% vs 95.5% with 7 days of doxycycline bid.Sex Transm Dis 2014 41:79",
+        "In RCT in MSM with rectal Chlamydia doxycycline 100 bid superior to azithromycin (100% vs. 74% microbiological cure). Clin Infect Dis 2021 doi: 10.1093/cid/ciab153.",
+        "Preponderance of evidence indicates Doxycycline is more efficacious for rectal chlamydia and in men with urogenital symptoms. Clin Infect Dis 74:S112 2022",
+        "Treat LGV for 3 weeks with doxycycline.",
+        "See 2021 CDC STI guidelines MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S95 2022 (Gonorrhea) and Clin Infect Dis 74:S112 2022 (Chlamydia)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, Congenital",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, Congenital.pdf",
+    "lastUpdated": "2024-01-04"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infants with congenital syphilis and those exposed to syphilis in utero.",
+        "Effective prevention and detection depends on the routine serological screening for syphilis in pregnancy.",
+        "Dramatic increased incidence of reported congenital syphilis in the United States since 2012. From 2015-2019, the rate of congenital syphilis increased 291.1% (12.4 to 48.5 per 100,000 live births) mirroring increases in the rate of primary and secondary syphilis among females aged 15–44 years (a 171.9% increase, from 3.2 to 8.7 per 100,000 females). MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Diagnosis of congenital syphilis is challenging and depends on:",
+        "  Diagnosis of syphilis in the mother",
+        "  Knowledge of maternal treatment including timing and documentation of serologic response",
+        "  Knowledge of clinical, laboratory or radiographic findings in infant",
+        "  Comparison of maternal and infant non treponemal test titers (VDRL or RPR) at the time of birth, preferably in the same lab",
+        "For details of the evaluation, see AAP Red Book 2021-2024 or 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021 or European 2020 Syphilis Guidelines",
+        "If clinical findings or if maternal treatment was not adequate, not documented or completed less than 4 weeks before delivery, perform physical exam, CBC with diff, CSF analysis for VDRL, cell count, protein, CBC with platelets as well as long bone radiographs, ophthalmologic and audiologic exam as clinically indicated."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Aqueous crystalline Penicillin G",
+            "dose": "100,000–150,000 units/kg body weight/day, administered as 50,000 units/kg body weight/dose",
+            "route": "IV",
+            "frequency": "every 12 hours during the first 7 days of life and every 8 hours thereafter"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Procaine penicillin G",
+            "dose": "50,000 units/kg body weight/dose",
+            "route": "IM",
+            "frequency": "in a single daily dose"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If clinical evaluation of CSF (including normal protein and VDRL), long bone radiographs and CBC are completely normal can treat for possible congenital syphilis with Benzathine penicillin G 50,000 units/kg body weight/dose IM in a single dose, but if any doubt exists, err on the side of complete treatment.",
+        "Benzathine penicillin G 50,000 units/kg body weight/dose IM in a single dose may be appropriate for children less likely to have congenital syphilis; e.g. with normal exam and evaluation, and appropriate maternal treatment >4 weeks before delivery, and RPR less than 4-fold the maternal titer. Alternatively, close followup to demonstrate clearance of RPR is an alternative when good followup is possible."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatrics alternative:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Age ≤ 30 days"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "75 mg/kg",
+                "route": "IV/IM",
+                "frequency": "q24h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            },
+            "notes": "(use with caution in infants with jaundice)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Age > 30 days"
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "100 mg/kg",
+                "route": "IV/IM",
+                "frequency": "q24h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Important note: If more than 1 day of therapy is missed, restart the entire course.",
+        "Serologic nontreponemal tests should be performed every 2 to 3 months until the nontreponemal test becomes nonreactive on infected and exposed infants. Nontreponemal antibody titers should decrease by 3 months of age and should be nonreactive by 6 months of age, whether the infant was infected and adequately treated or was not infected and initially seropositive because of transplacentally acquired maternal antibody.",
+        "Reviews: 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021; European 2020 Syphilis Guidelines and N Engl J Med. 2020;382:845",
+        "For allergic patients requiring desensitization, see Method for Ceftriaxone Desensitization or Methods for Penicillin desensitization.",
+        "See also prevention and treatment of opportunistic infections in children with or exposed to HIV (clinicalinfo.HIV.gov)."
+      ]
+    }
+  ]
+}

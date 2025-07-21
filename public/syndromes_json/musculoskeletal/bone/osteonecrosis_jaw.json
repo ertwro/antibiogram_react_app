@@ -1,0 +1,82 @@
+{
+  "documentMetadata": {
+    "title": "Osteonecrosis, Jaw",
+    "lastUpdated": "2024-07-30",
+    "sourceFile": "Osteonecrosis, Jaw.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Osteonecrosis of the jaw, medication related, typically seen in oncology patients.",
+        "Infection is secondary to bone necrosis and loss of overlying mucosa."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Adverse reaction to bisphosphonates",
+        "Denosumab",
+        "Angiogenesis inhibitors (e.g., bevacizumab)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Minimal surgical debridement.",
+        "Chlorohexidine rinses, optimize oral hygiene.",
+        "Role of antimicrobial therapy and optimal regimens not well established (Cochrane Database Syst Rev 2016 Feb 26;2:CD008455).",
+        "Numerous agents have been used but antibiotics should cover oral aerobic and anaerobic organisms (see Oral Surg Oral Med Oral Pathol Oral Radiol 2017;123(4):436) (e.g., Piperacillin-tazobactam, Ampicillin-sulbactam, Moxifloxacin, Amoxicillin-clavulanate, Doxycycline)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy not well established, highly variable (see J Oral Maxillofac Surg 69:362, 2011).",
+        "3-4 weeks of pre-operative antibiotics followed by 3-4 weeks of post-operative antibiotics is a typical regimen"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "References: Cureus. 2023; 15:e51183; Int J Oral Sci. 2020;12:30; J Oral Maxillofac Surg. 2022;80:920-943."
+      ]
+    }
+  ]
+}

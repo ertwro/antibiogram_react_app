@@ -1,0 +1,117 @@
+{
+  "drug_name": "Fosfomycin disodium (IV)",
+  "tradename": "Ivozfo",
+  "usage_and_dosing": {
+    "general": [
+      "Fosfomycin is a low molecular weight (138 g/mol) phosphonic acid derivative. The IV preparation is fosfomycin disodium.",
+      "Mechanism of action: Inhibition of MurA (UDP-N-acetylglucosamine-enolpyruvyltransferase), which catalyzes the first committed step in peptidoglycan synthesis. Considered bactericidal with time-dependent killing.",
+      "In vitro activity:",
+      "In vitro activity includes ESBL-producing and some carbapenem-resistant Enterobacteriaceae (Int J Antimicrob Agents 2011;37:415).",
+      "Activity often enhanced when tested in combination: e.g., carbapenems increased fosfomycin activity vs P. aeruginosa in a hollow-fiber infection model (Antimicrob Agents Chemother 2018;62:e01682-18).",
+      "Gram-positive bacteria: Staph. aureus (including MRSA), Staph. epidermidis, Strep. pneumoniae, E. faecalis, VRE.",
+      "Gram-negative bacteria: E. coli, Proteus sp., Klebsiella/Enterobacter sp., Serratia sp., Salmonella sp., Citrobacter sp., Providencia sp.",
+      "Resistance:",
+      "Acinetobacter sp., Pseudomonas sp., Stenotrophomonas sp., and Bacteroides sp. are resistant.",
+      "Resistance primarily chromosomal; rare plasmid-mediated resistance.",
+      "Mechanisms: decrease in drug transport across the cell wall, or enzymatic alteration of the drug.",
+      "Cross resistance to other classes of antibiotics is rare.",
+      "Clinical use:",
+      "Parenteral therapy for a wide variety of system infections. For oral formulation, see Fosfomycin po.",
+      "Availability:",
+      "Parenteral (IV) formulation is approved and available in Europe, Australia, and Canada (as of May 2019).",
+      "U.S.: Possible to obtain emergency use of IV drug: single patient IND from the Division of Anti-infective Products at the FDA (Main number: 1-888-463-6332 or (+)1-301-796-1400; Emergency operations: (+) 1-301-796-8240 or 1-866-300-4374)."
+    ],
+    "adult_dose": {
+        "meningitis": "16-24 gm/day IV (divided q6-8h)",
+        "bone_and_joint_infection": "16-24 gm/day IV (divided q6-8h)",
+        "complicated_intraabdominal_infection": "12-24 gm/day IV (divided q8-12h)",
+        "complicated_ssti": "12-24 gm/day IV (divided q8-12h)",
+        "complicated_uti": "12-24 gm/day IV (divided q8-12h)",
+        "hap_vap": "12-24 gm/day IV (divided q8-12h)",
+        "infective_endocarditis": "12-24 gm/day IV (divided q8-12h)"
+    },
+    "pediatric_dose": {
+      "prem_neonate_ga_pna_lt_40_wk": "100 mg/kg/day (div q12h)",
+      "neonate_ga_pna_40_44_wk": "200 mg/kg/day (div q8h)",
+      "age_1_12_mon_wt_le_10_kg": "200-300 mg/kg/day (div q8h)",
+      "age_1_12_years_wt_10_40_kg": "200-400 mg/kg/day (div q6-8h)",
+      "age_ge_12_years_wt_gt_40_kg": "Dose as adult"
+    }
+  },
+  "renal_adjustment": {
+    "notes": [
+        "Body weight and Creatinine Clearance calculations",
+        "CrCl = Creatinine clearance (mL/min)",
+        "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+        "CRRT = Continuous Renal Replacement Therapy",
+        "AD = after hemodialysis",
+        "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_normal": "2.0",
+    "half_life_esrd": "50",
+    "dose_normal_function": "Varies with indication",
+    "crcl_or_egfr": "Shown is % of normal daily dose. Loading dose: increase first dose by 100% (max 8 gm). CrCl >40: No dosage adjustment. CrCl >30 to 40: 70% (divided q8-12h). CrCl >20 to 30: 60% (divided q8-12h). CrCl >10 to 20: 40% (divided q8-12h). CrCl ≤10: 20% (divided q12-24h)",
+    "hemodialysis": "2 gm q48h (give AD)",
+    "capd": "No data",
+    "crrt": "CVVH: No dosage adjustment (based on limited data)",
+    "sled": "5 gm q8h; another study recommends 8 gm load, then 5 gm post-SLED. 30"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "No data"
+  },
+  "other_adjustment": [
+      "ECMO: See ECMO Drug Dosing Adjustment.",
+      "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": [
+    "Large sodium load: 14.4 mEq of sodium per gram. Thus, 10 grams has about the same amount of sodium as a liter of normal saline. Use with caution in patients with a history of CHF or underlying comorbidities such as nephrotic syndrome, liver cirrhosis, hypertension, hyperaldosteronism, hypernatremia, pulmonary edema, and hypoalbuminemia.",
+    "High sodium load may result in hypokalemia, which can potentiate the pharmacologic effects of digitalis glycosides.",
+    "Clostridium difficile-associated disease, ranging in severity from mild diarrhea to fatal colitis.",
+    "Hematologic toxicity (e.g., neutropenia).",
+    "Liver injury, including hepatitis. Usually reversible.",
+    "Hypersensitivity reactions, ranging from erythematous rash to anaphylaxis.",
+    "Headache, taste disturbances."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data. No evidence of toxicity in animals.",
+    "lactation": "Low quantities found in breast milk. Probably safe with monitoring of infant for GI toxicity, but data are limited.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection (disodium salt)",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "552 (8 gm q8h, SS) (healthy volunteers)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Negligible",
+    "volume_of_distribution_vd_l_kg": "0.3 L/kg",
+    "avg_serum_half_life_hr": "2.0",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "20-50",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "3679 (8 gm q8h, 0-24h) (healthy volunteers)"
+  },
+  "major_drug_interactions": "None reported",
+  "comments": [
+    "Homologues of the fosA resistance gene have been found in chromosomes of a large proportion of isolates from various gram-negative species (mBio 2017;8:e00749-17).",
+    "For in vitro activity (vs US bacterial isolates), see Diagn Microbiol Infect Dis 2019;93:143. Note low level of activity and/or variable activity vs:",
+    "Acinetobacter baumannii",
+    "Morganella species",
+    "Pseudomonas aeruginosa",
+    "Stenotrophomonas maltophilia",
+    "Bacteroides fragilis",
+    "Fusobacterium species",
+    "In prospective randomized double blind study, fosfomycin 6 gm IV (over 1 hr) q8h was found to be non-inferior to piperacillin-tazobactam, 4.5 gm IV q8h in patients with complicated UTIs including acute pyelonephritis.",
+    "Hypokalemia (perhaps related to large sodium load) was mild and transient.",
+    "Reference: Clin Infect Dis 2019;69:2045; editorial Clin Infect Dis 2019;69:2057."
+  ]
+}

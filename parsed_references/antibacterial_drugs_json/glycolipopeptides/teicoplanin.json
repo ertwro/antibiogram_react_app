@@ -1,0 +1,103 @@
+{
+  "drug_name": "Teicoplanin",
+  "tradename": "Targocid",
+  "usage_and_dosing": {
+    "general": [
+      "Teicoplanin is a parenteral glycopeptide, similar to Vancomycin, available in Europe, Asia-Pacific and Africa.",
+      "In U.S. trials, doses needed to clear Staph. aureus bacteremia were toxic with the most common adverse event being the development of thrombocytopenia. Not licensed for use in the U.S.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Can be administered intramuscularly (max 400 mg at any site)."
+    ],
+    "adult_dose": {
+        "complicated_skin_and_soft_tissue_infection_pneumonia_complicated_uti": {
+            "loading_dose": "6 mg/kg q12h x3 doses",
+            "target_trough_fpia": ">15 µg/mL (day 3-5)",
+            "maintenance_dose": "6 mg/kg q24h",
+            "maintenance_target_trough_fpia": ">"
+        },
+        "bone_and_joint_infection": {
+            "loading_dose": "12 mg/kg q12h x3-5 doses",
+            "target_trough_fpia": ">20 µg/mL (day 3-5)",
+            "maintenance_dose": "12 mg/kg q24h",
+            "maintenance_target_trough_fpia": ">"
+        },
+        "endocarditis": {
+            "loading_dose": "12 mg/kg q12h x3-5 doses",
+            "target_trough_fpia": "30-40 µg/mL (day 3-5)",
+            "maintenance_dose": "12 mg/kg q24h",
+            "maintenance_target_trough_fpia": ">"
+        },
+        "c_difficile_infection": {
+            "loading_dose": "None, see maintenance",
+            "maintenance_dose": "100-200 mg orally twi days"
+        },
+        "fpia_note": "FPIA = Fluorescence Polarization Immunoassay"
+    },
+    "pediatric_dose": {
+      "age_0_to_le_2_mon": "16 mg/kg IV x1 dose, then 8 mg/kg IV q24h",
+      "age_2_mon_to_12_yrs": "10 mg/kg IV q12h x3 doses, then 6-10 mg/kg IV q24h",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "70-100",
+    "half_life_esrd": "up to 230",
+    "dose_renal_function_normal": "6-12 mg/kg IV q12h x3 doses (load), then 6-12 mg/kg IV q24h",
+    "crcl_or_egfr": "CrCl >80: No dosage adjustment. CrCl 30-80: Load, then 6-12 mg/kg q48h. CrCl <30: Load, then 6-12 mg/kg q72h",
+    "hemodialysis": "Not removed by HD",
+    "capd": "No data",
+    "crrt": "Load, then 6-12 mg/kg q48h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment table.",
+    "Obesity: See Obesity Dosing Adjustments table."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity: fever (at 3 mg/kg 2.2%, at 24 mg/kg 8.2%), skin reactions (2.4%).",
+    "Marked decrease in platelets (high dose ≥15 mg/kg/day); anemia and neutropenia can occur.",
+    "Histamine-release syndrome less common than with Vancomycin."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "B3 (Australia)",
+    "lactation": "Unknown if excreted into breast milk. Use only if potential benefit outweighs risk.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Enterococcus faecalis, susceptible to vancomycin",
+        "Staphylococcus epidermidis, methicillin-resistant (MRSE)",
+        "Staphylococcus sp., coagulase-negative (Methicillin resistant); S. hominis, S. capitis, others",
+        "Viridans group streptococci"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "70 (6 mgkg IV q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "90-95",
+    "volume_of_distribution_vd_l_kg_vss": "0.9-1.6 L/kg (Vss)",
+    "avg_serum_half_life_hr": "70-100",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "negligible",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "500-600 (6 mg/kg IV, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "Use caution in patients receiving concurrent nephrotoxic or ototoxic drugs, such as aminoglycosides, amphotericin B, cyclosporine and furosemide."
+  ],
+  "comments": [
+    "In endocarditis, Teicoplanin has often been used in combination regimens."
+  ]
+}

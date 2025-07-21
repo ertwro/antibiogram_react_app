@@ -1,0 +1,56 @@
+
+{
+  "drug_name": "Bezlotoxumab",
+  "tradename": "Zinplava",
+  "usage_and_dosing": {
+    "description": "NOTE: This product discontinued by Merck on 31 JAN 2025. Bezlotoxumab (Zinplava) is a human monoclonal antibody that binds to Clostridioides difficile toxin B to reduce recurrence of C. diff infection (CDI). It is used only in combination with an antibacterial agent that is active vs. C.difficile. Reduced CDI recurrence by rates by 11 and 14 % vs placebo in two FDA registration trials. Significant benefit found in patients with one or more of following predefined risk factors: Age > 65 years, Past history of C. difficile infection or severe CDI, Immunocompromised host. References: Clin Infect Dis 2019; 68: 699 and J Clin Gastroenterol. 2021;55:43-51. See Clin Inf Dis 73:755, 2021 for focused IDSA guidelines for use of Bezlotoxumab to prevent recurrences",
+    "adult_dose": {
+      "dose": "10 mg/kg IV (single dose) infused over 60 min"
+    },
+    "pediatric_dose": [
+      {
+        "age": "≥1 yr",
+        "dose": "10 mg/kg IV (over 1 hr) x1"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "19 days",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "10 mg/kg IV x1",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Warnings: heart failure more common in patients with a history of congestive heart failure.",
+    "Most common (≥4%): nausea, pyrexia, headache"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human or animal data",
+    "use_during_lactation": "No data, but milk concentrations are likely very low and adverse effects are not expected. Use in nursing mothers is acceptable."
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "185 (10 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "No data",
+    "volume_of_distribution": "7.33 L",
+    "avg_serum_t1_2": "19 days",
+    "elimination": "Catabolized",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "53000 (10 mg/kg IV, 0-inf)"
+  }
+}

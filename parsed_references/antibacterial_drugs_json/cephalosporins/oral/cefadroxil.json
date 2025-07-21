@@ -1,0 +1,69 @@
+{
+  "drug_name": "Cefadroxil",
+  "tradename": "Duricef",
+  "usage_and_dosing": {
+    "general": [
+      "Cefadroxil is a 1st generation oral cephalosporin with in vitro activity against streptococci, MSSA, E. coli, P. mirabilis, Klebsiella sp. Activity against Penicillin-resistant Strep. pneumoniae is poor.",
+      "Longer serum half-life than Cephalexin. Same R1 side chain as Amoxicillin and Cefprozil, thus risk of cross-allergenicity if given to patients allergic to those drugs.",
+      "For class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "500-1000 mg po q12h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "30 mg/kg/day (divided q12h)",
+      "max_day": "2 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.5",
+    "half_life_esrd": "20",
+    "dose_renal_function_normal": "1 gm po q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 1 gm, then 500 mg q12-24h. CrCl <10: 1 gm, then 500 mg q36h",
+    "hemodialysis": "1 gm, then 1 gm AD",
+    "capd": "500 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "No data"
+  },
+  "adverse_effects": [
+    "Rash, serum sickness, neutropenia, C. difficile colitis, increased LFTs."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Staphylococcus saprophyticus"],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (500 mg), Tab (1 gm), Oral susp (250 mg/5 mL, 500 mg/5 mL)",
+    "food_recommendation": "All preps ± food",
+    "oral_absorption_percent": "90",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "16 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "1800 (500 mg po, SD)",
+    "protein_binding_percent": "20",
+    "volume_of_distribution_vd_l_kg_vf": "0.305 L/kg (V/F)",
+    "avg_serum_half_life_hr": "1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "22",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "47.4 (500 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ cefadroxil",
+          "management": "Monitor, adjust dosage"
+      }
+  ]
+}

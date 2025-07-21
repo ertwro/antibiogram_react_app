@@ -1,0 +1,63 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from Prairie dog",
+    "sourceFile": "Bite_ Prairie Dog.pdf",
+    "lastUpdated": "2025-01-31"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bite wound from Prairie dog."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Monkey pox virus"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "No therapy recommended"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See also, Mpox.",
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose.",
+        "A pediatric case of tularemia has been reported following a prairie dog bite (Clin Microbiol Rev 24: 231, 2011).",
+        "Rabies virus very rarely identified in this species (J Infect Dis 126:565, 1972). During 2010, there was no instance among > 6,000 rabid animals in the US (J Amer Vet Med Assn 239:773, 2011).",
+        "Tularemia has been reported after prairie dog bite (Clin Microbiol Rev 24: 231, 2011)",
+        "Bubonic plague has been reported after bite of Gunnison's prairie dog (Zoonoses Public Health 65: e254, 2018)"
+      ]
+    }
+  ]
+}

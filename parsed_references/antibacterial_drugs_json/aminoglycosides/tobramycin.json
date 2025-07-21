@@ -1,0 +1,143 @@
+{
+  "drug_name": "Tobramycin",
+  "tradename": "Nebcin, Tobi",
+  "usage_and_dosing": {
+    "description": "Tobramycin, approved in 1968, is an aminoglycoside that is active against a wide range of gram-negative bacteria, including P. aeruginosa. Produced by Streptoalloteichus tenebrarius (formerly Streptomyces tenebrarius), a soil actinomycete. No activity against anaerobes, poor activity in a low pH environment.",
+    "adult_dose": [
+      {
+        "route": "Conventional dosing",
+        "dose": "2 mg/kg IV load, then 1.7-2 mg/kg IV q8h"
+      },
+      {
+        "route": "Extended-interval dosing",
+        "dose": "7 mg/kg IV q24h (Antimicrob Agents Chemother 1995;39:650)"
+      },
+      {
+        "route": "Intrathecal administration",
+        "dose": "4-10 mg once daily"
+      },
+      {
+        "route": "CAPD-related peritonitis",
+        "dose": "See Intraperitoneal Drug Dosing, CAPD"
+      },
+      {
+        "route": "CF (systemic, inhalation therapy)",
+        "dose": "See Cystic Fibrosis"
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "5-7 mg/kg/day (once daily) or 2.5 mg/kg q8h"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "2-3 hrs",
+    "half_life_esrd": "30-70 hrs",
+    "dose_renal_function_normal": {
+      "conventional": "1.7-2.0 mg/kg IV q8h"
+    },
+    "crcl_or_egfr": {
+      "conventional": {
+        "crcl_>50": "No dosage adjustment",
+        "crcl_10_50": "1.7-2.0 mg/kg q12-24h",
+        "crcl_<10": "1.7-2.0 mg/kg q48h"
+      }
+    },
+    "hemodialysis": {
+      "conventional": "1.7-2.0 mg/kg q48h (+ extra 0.85-1.0 mg/kg AD)"
+    },
+    "capd": "For peritonitis only: 0.6 mg/kg IP once daily",
+    "crrt": {
+      "conventional": "1.7-2.0 mg/kg q24h"
+    },
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "ecmo": "See ECMO Drug Dosing Adjustment.",
+    "obesity": "See Obesity Dosing Adjustments."
+  },
+  "adverse_effects": [
+    "Nephrotoxicity (acute tubular necrosis)",
+    "Ototoxicity (cochlear and vestibular).",
+    "Enhancement of neuromuscular blockade (rare).",
+    "With inhaled tobramycin: transient voice alteration (13%), transient tinnitus (3%)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Associated with fetal harm, especially 1st TM use. Avoid in pregnancy, although short-term use may be acceptable if benefit outweighs risk. Topical use probably safe.",
+    "use_during_lactation": "Probably safe, monitor infant for GI toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection, 0.3% oph ointment, 0.3% eye drops, Inhalation",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "4-6 (1.7 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "0-10%",
+    "volume_of_distribution": "0.26 L/kg",
+    "avg_serum_t1_2": "2-3 hr",
+    "elimination": "Renal",
+    "bile_penetration": "10-60%",
+    "csf_blood": "0-30%",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "70-100 (7 mg/kg, 0-inf)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Amphotericin B (all forms)",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Cisplatin",
+      "effect": "↑ nephrotoxicity, ↑ ototoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Furosemide",
+      "effect": "↑ ototoxicity",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Neuromuscular blocking agents",
+      "effect": "↑ apnea or respiratory paralysis",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "NSAIDS",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Piperacillin-tazobactam",
+      "effect": "Possible tobramycin inactivation",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Radiographic contrast",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Vancomycin",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid co-administration"
+    }
+  ]
+}

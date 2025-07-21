@@ -1,0 +1,87 @@
+{
+  "drug_name": "Doripenem",
+  "tradename": "Doribax",
+  "usage_and_dosing": {
+    "general": [
+      "NOTE: Doripenem is not currently available in the United States.",
+      "Doripenem is a carbapenem with a broad spectrum of activity against aerobic and anaerobic Gram-negative bacilli.",
+      "FDA-approved for treatment of complicated intra-abdominal and complicated urinary tract infections.",
+      "Safety announcement from the FDA (2012). Trial of Doripenem for the treatment of VAP stopped early due to safety concerns. Compared to Imipenem, patients treated with Doripenem were observed to have excess mortality and poorer cure rate. NOTE: Doripenem is not approved to treat any type of pneumonia; Doripenem is not approved for doses greater than 500 mg q8h.",
+      "Doripenem has longer stability in solution than either Imipenem or Meropenem (J Antimicrob Chemother 65:1073, 2010; Clin Infect Dis 49:291, 2009).",
+      "Optimal Doripenem dosing requires longer infusion times.",
+      "For discussion of carbapenem seizure risk, see Carbapenems, Overview."
+    ],
+    "adult_dose": {
+      "complicated_intra_abdominal_or_complicated_uti": "500 mg IV q8h (1-hour infusion)",
+      "prolonged_infusion_dosing": {
+        "crcl_ge_50": "500 mg (over 4 hr) q8h",
+        "crcl_30_49": "250 mg (over 4 hr) q8h",
+        "crcl_10_29": "250 mg (over 4 hr) q12h"
+      }
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1",
+    "half_life_esrd": "18",
+    "dose_renal_function_normal": "500 mg IV q8h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 30-50: 250 mg q8h. CrCl 10-30: 250 mg q12h. CrCl <10: No data",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "500 mg q8h (JAC 69:2508, 2014)",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No data",
+    "moderate_impairment_child_pugh_b": "No data",
+    "severe_impairment_child_pugh_c": "No data"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments page."
+  ],
+  "adverse_effects": [
+    "Most common adverse reactions (>5%): headache, nausea, diarrhea, rash, phlebitis. Seizures reported in post-marketing surveillance. Can lower serum valproic acid levels.",
+    "Cross-allergenicity: see Carbapenems, Overview and Penicillin (Beta Lactam) Allergy Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Probably safe with monitoring, but no data available",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": ["Providencia sp."],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "23 (500 mg IV, SD)",
+    "peak_urine_conc_ug_ml": "601 (500 mg IV, SD)",
+    "protein_binding_percent": "8.1",
+    "volume_of_distribution_vd_l_vss": "16.8 L (Vss)",
+    "avg_serum_half_life_hr": "1",
+    "elimination": "Renal",
+    "bile_penetration_percent": "117 (0-611)",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "36.3 (500 mg, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ doripenem",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Valproic acid",
+          "effect": "↓ valproic acid",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

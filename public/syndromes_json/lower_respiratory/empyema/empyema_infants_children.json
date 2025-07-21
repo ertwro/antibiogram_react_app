@@ -1,0 +1,132 @@
+{
+  "documentMetadata": {
+    "title": "Empyema, Infants & Children",
+    "lastUpdated": "2024-02-15",
+    "sourceFile": "Empyema, Infants_Children.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Parapneumonic empyema in infants and children age < 5 years.",
+        "Pneumonia with parapneumonic effusion plus positive pleural fluid culture or pleural fluid WBC > 50,000 µL."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Strep. pneumoniae",
+        "Staph. aureus (MSSA and MRSA)",
+        "Strep. pyogenes",
+        "H. influenzae (rare in vaccinated population)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Catheter or chest tube drainage (± fibrinolytics) or video-assisted thorascopic surgery (VATS)."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "100 mg/kg",
+            "route": "IV",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "100 mg/kg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or",
+            "notes": "where available outside the US"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MRSA",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "60-80 mg/kg",
+            "route": "IV",
+            "frequency": "divided 3-4 times a day"
+          },
+          {
+            "drug": "Cefotaxime",
+            "connector": "+"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "connector": "or"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred) + (Cefotaxime or Ceftriaxone) (if H. influenzae suspected). PCR studies show MRSA is rare in culture negative empyema (Pediatr Infect Dis J 30:289, 2011)."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If organism is known, tailor antibiotics appropriately.",
+        "If cultures are negative, Staph aureus is unlikely based on PCR studies and therapy can be narrowed Pediatr Infect Dis. 2011 Apr;30(4):289 Acta Paediatr. 2023 Jul;112(7):1555",
+        "Optimal duration of treatment unclear; some experts treat 7-10 days after resolution of fever in drained effusion, others 4 weeks after drainage.",
+        "After initial response, completion with high dose oral therapy as effective as prolonged outpatient IV therapy. Hosp Pediatr. 2015 Dec;5(12):605-12."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See IDSA treatment guidelines: Clin Infect Dis 53:e25, 2011.",
+        "Ceftriaxone appropriate for term infants without hyperbilirubinemia",
+        "Vancomycin: traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020",
+        "Ceftriaxone is contraindicated in neonates if they require (or are expected to require) treatment with calcium-containing IV solutions, including continuous calcium-containing infusions such as total parenteral nutrition",
+        "Indications for diagnostic thoracentesis:",
+        "Moderate (> 10 mm rim of fluid or opacification of 1/4 to 1/2 of hemithorax), particularly if there is respiratory compromise or worsening of condition with IV antibiotics alone.",
+        "Large effusion (opacification of > half of hemithorax).",
+        "Indications for chest tube drainage or VATS:",
+        "Empyema (positive fluid culture of > 50,000 µL WBCs in pleural fluid, septations on ultrasound or CT scan).",
+        "Large effusion.",
+        "Chest-tube drainage + fibrinolytics (regimens below) or VATs recommended if fluid is loculated:",
+        "Tissue plasminogen activator, 4 mg in 40 mL normal saline once daily per chest tube with 1-hour dwell time for 3 doses. Alternative 0.1 mg/kg in 30 mL normal saline with 1 hour dwell time 3 x daily for total 9 doses.",
+        "Urokinase 10,000 U in 10 mL normal saline (< 1 year old) or 40,000 U in 40 mL normal saline (> 1 year old) with 4-hour dwell time repeated every 12 hours for 6 doses.",
+        "PCR based studies increase yield - especially S. pneumoniae. Staph aureus empyema usually culture positive even with some pretreatment. Pediatr Infect Dis J 30(4):289-94, 2011",
+        "See Empyema, Overview for general comments and references.",
+        "See also, pneumonia in infants and young children."
+      ]
+    }
+  ]
+}

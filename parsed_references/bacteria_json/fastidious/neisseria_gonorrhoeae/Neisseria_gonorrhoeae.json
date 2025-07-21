@@ -1,0 +1,786 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Neisseria gonorrhoeae",
+      "aliases": [
+        "Gonococcus",
+        "GC"
+      ],
+      "lastUpdated": "2022-11-29",
+      "clsiCategory": "Neisseria gonorrhoeae",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Diplococcus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Kidney-bean shaped"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative diplococcus, kidney-bean shaped, oxidase +, catalase +, requires enriched media (e.g., Thayer-Martin) and CO2, utilizes glucose only."
+    },
+    "clinicalProfile": {
+      "summary": "Neisseria gonorrhoeae is the causative agent of gonorrhea, a sexually transmitted infection. Diagnosis is typically made by culture or nucleic acid amplification test (NAAT). Resistance to antibiotics is a major public health concern.",
+      "pathophysiologyPearls": [
+        "Differentiated from Neisseria meningitidis by its ability to ferment glucose but not maltose."
+      ],
+      "keySignsAndSymptoms": [
+        "Urethral discharge",
+        "Cervical discharge",
+        "Rectal pain or discharge",
+        "Sore throat (pharyngitis)",
+        "Joint pain (disseminated infection)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urethritis",
+          "description": "Inflammation of the urethra."
+        },
+        {
+          "syndromeName": "Cervicitis",
+          "description": "Inflammation of the cervix."
+        },
+        {
+          "syndromeName": "Proctitis",
+          "description": "Inflammation of the rectum."
+        },
+        {
+          "syndromeName": "Pharyngitis",
+          "description": "Inflammation of the pharynx."
+        },
+        {
+          "syndromeName": "Disseminated Gonococcal Infection (DGI)",
+          "description": "A systemic infection that can cause arthritis, tenosynovitis, and dermatitis."
+        },
+        {
+          "syndromeName": "Conjunctivitis",
+          "description": "Infection of the conjunctiva of the eye."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Infection of the heart valves."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Sexually active individuals, particularly men who have sex with men (MSM)"
+      ],
+      "transmissionVectors": [
+        "Sexual contact"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Emerging Resistance",
+          "details": "Previous CDC recommendations for dual therapy (Ceftriaxone + Azithromycin) were revised in 2020 to Ceftriaxone 500 mg IM alone due to increasing azithromycin resistance and stable resistance patterns to Ceftriaxone. Multiple drug resistance is increasing, with reports of strains resistant to both ceftriaxone and azithromycin."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "If chlamydial infection cannot be ruled out, treat empirically with Doxycycline 100 mg po bid x 7 days."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Fluoroquinolones",
+          "condition": "All infections",
+          "reason": "High rates of resistance."
+        },
+        {
+          "drugOrClass": "Oral cephalosporins",
+          "condition": "All infections",
+          "reason": "Generally less effective, especially for pharyngeal infections."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Uncomplicated gonococcal infection of the urethra, cervix, rectum, or pharynx",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "500 mg (1 gm if weight >= 150kg)",
+                      "route": "IM",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Uncomplicated gonococcal urethritis, cervicitis, or rectal infection (alternative)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "2 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "240 mg",
+                      "route": "IM",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Test of Cure is recommended one week after treatment."
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Cefixime",
+                      "dose": "800 mg",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": "Use if Ceftriaxone IM is not available; has limited efficacy for pharyngeal infection."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Test of Cure recommended."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Uncomplicated gonococcal infection in severely cephalosporin-allergic patients",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "2 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "240 mg",
+                      "route": "IM",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "2 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gemifloxacin",
+                      "dose": "320 mg",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Treatment failure",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "1 gm",
+                      "route": "IM",
+                      "frequency": "single dose",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "2 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "240 mg",
+                      "route": "IM",
+                      "frequency": "single dose",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "2 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "High-risk patients (e.g., MSM) should have multiple sites tested (rectum, urethra, pharynx)."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [
+        {
+          "topic": "Test of Cure",
+          "details": "Recommended one week after treatment for patients treated with an alternative regimen and for all patients with pharyngeal infection."
+        },
+        {
+          "topic": "Partner Treatment",
+          "details": "In locations where allowed, treat partners with Cefixime 800 mg po + Doxycycline 100 mg po bid x 7 days."
+        }
+      ],
+      "antimicrobialStewardship": [
+        "The development of gonococcal resistance has been inexorable. Multiple drug resistance is increasing, with reports of strains resistant to both ceftriaxone and azithromycin.",
+        "National and international guidelines have been formulated to slow the selection and spread of resistant organisms.",
+        "Double coverage had been recommended since 1985, but due to the effects of macrolides on the microbiome and resistance emergence, azithromycin is no longer recommended with Ceftriaxone in the US as of the 2020 recommendations."
+      ],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Azithromycin",
+          "pearl": "A 2g dose is associated with frequent GI side effects, high cost, and concerns about increasing resistance."
+        },
+        {
+          "drugName": "Spectinomycin",
+          "pearl": "Available outside the U.S. but is not efficacious for pharyngeal infections."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "MMWR",
+          "citation": "69:1911 2020",
+          "summaryOrNote": "CDC guideline update on the treatment of gonococcal infections."
+        },
+        {
+          "source": "MMWR Recomm Rep",
+          "citation": "70 (RR-4):1 2021",
+          "summaryOrNote": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021."
+        },
+        {
+          "source": "Int J. STD & AIDS",
+          "citation": "2020",
+          "summaryOrNote": "2020 European guideline on the diagnosis and treatment of gonorrhoea in adults."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.319Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Neisseria gonorrhoeae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Gonococcus",
+        "GC"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2022-11-29"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Diplococcus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Kidney-bean shaped"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Neisseria gonorrhoeae is the causative agent of gonorrhea, a sexually transmitted infection. Diagnosis is typically made by culture or nucleic acid amplification test (NAAT). Resistance to antibiotics is a major public health concern.",
+      "pathophysiologyPearls": [
+        "Differentiated from Neisseria meningitidis by its ability to ferment glucose but not maltose."
+      ],
+      "keySignsAndSymptoms": [
+        "Urethral discharge",
+        "Cervical discharge",
+        "Rectal pain or discharge",
+        "Sore throat (pharyngitis)",
+        "Joint pain (disseminated infection)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urethritis",
+          "description": "Inflammation of the urethra."
+        },
+        {
+          "syndromeName": "Cervicitis",
+          "description": "Inflammation of the cervix."
+        },
+        {
+          "syndromeName": "Proctitis",
+          "description": "Inflammation of the rectum."
+        },
+        {
+          "syndromeName": "Pharyngitis",
+          "description": "Inflammation of the pharynx."
+        },
+        {
+          "syndromeName": "Disseminated Gonococcal Infection (DGI)",
+          "description": "A systemic infection that can cause arthritis, tenosynovitis, and dermatitis."
+        },
+        {
+          "syndromeName": "Conjunctivitis",
+          "description": "Infection of the conjunctiva of the eye."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Infection of the heart valves."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Sexually active individuals, particularly men who have sex with men (MSM)"
+      ],
+      "transmissionVectors": [
+        "Sexual contact"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Emerging Resistance",
+          "details": "Previous CDC recommendations for dual therapy (Ceftriaxone + Azithromycin) were revised in 2020 to Ceftriaxone 500 mg IM alone due to increasing azithromycin resistance and stable resistance patterns to Ceftriaxone. Multiple drug resistance is increasing, with reports of strains resistant to both ceftriaxone and azithromycin."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated gonococcal infection of the urethra, cervix, rectum, or pharynx",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "500 mg (1 gm if weight >= 150kg)",
+              "route": "IM",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Ceftriaxone 500 mg (1 gm if weight >= 150kg) IM single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated gonococcal urethritis, cervicitis, or rectal infection (alternative)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "2 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 2 gm PO single dose"
+            },
+            {
+              "drugName": "Gentamicin",
+              "dose": "240 mg",
+              "route": "IM",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Gentamicin 240 mg IM single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated gonococcal urethritis, cervicitis, or rectal infection (alternative)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cefixime",
+              "dose": "800 mg",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "Use if Ceftriaxone IM is not available; has limited efficacy for pharyngeal infection.",
+              "originalText": "Cefixime 800 mg PO single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated gonococcal infection in severely cephalosporin-allergic patients",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "2 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 2 gm PO single dose"
+            },
+            {
+              "drugName": "Gentamicin",
+              "dose": "240 mg",
+              "route": "IM",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Gentamicin 240 mg IM single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-1-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Uncomplicated gonococcal infection in severely cephalosporin-allergic patients",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "2 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 2 gm PO single dose"
+            },
+            {
+              "drugName": "Gemifloxacin",
+              "dose": "320 mg",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Gemifloxacin 320 mg PO single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-0-0",
+          "extractedFrom": "treatment.regimens[3].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Treatment failure",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "1 gm",
+              "route": "IM",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Ceftriaxone 1 gm IM single dose"
+            },
+            {
+              "drugName": "Azithromycin",
+              "dose": "2 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 2 gm PO single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-1-0",
+          "extractedFrom": "treatment.regimens[3].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Treatment failure",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Gentamicin",
+              "dose": "240 mg",
+              "route": "IM",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Gentamicin 240 mg IM single dose"
+            },
+            {
+              "drugName": "Azithromycin",
+              "dose": "2 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 2 gm PO single dose"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "High-risk patients (e.g., MSM) should have multiple sites tested (rectum, urethra, pharynx)."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

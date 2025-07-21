@@ -1,0 +1,95 @@
+
+{
+  "documentMetadata": {
+    "title": "Hordeolum and Chalazion",
+    "sourceFile": "syndromes/ocular/eyelid/Hordeolum, Stye.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Hordeolum (Stye)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A hordeolum, commonly known as a stye, is an acute, painful, pyogenic (pus-producing) infection of a gland in the eyelid. Most are caused by Staphylococcus aureus."
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "External Hordeolum"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is an infection of a gland of Zeis (sebaceous gland) or a gland of Moll (sweat gland) at the base of the eyelashes. It presents as a tender, red swelling on the eyelid margin that points externally and typically develops a pustule."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Internal Hordeolum"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is an infection of a meibomian gland within the tarsal plate. It is usually larger and more painful than an external hordeolum and points internally toward the conjunctival surface. It can lead to a chalazion."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Chalazion"
+    },
+    {
+      "type": "paragraph",
+      "text": "A chalazion is a sterile, chronic, lipogranulomatous inflammation of a meibomian gland. It is not an infection. It results from the blockage of a gland's duct, leading to the leakage of lipid secretions into the surrounding tarsal plate, which incites a granulomatous inflammatory response. It often follows an internal hordeolum or can arise from chronic blepharitis."
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Presentation",
+          "value": "A firm, rubbery, non-tender nodule within the eyelid. There are typically no signs of acute inflammation (e.g., redness, pain). It develops over weeks to months."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Condition", "Primary Treatment", "Secondary/Medical Treatment", "Surgical Treatment"],
+        "rows": [
+          ["Hordeolum (Stye)", "Warm compresses (10-15 minutes, 4 times a day) are the mainstay of treatment. This promotes drainage.", "Topical antibiotic ointment (e.g., erythromycin) may be used if there is associated blepharitis or if the stye is actively draining to prevent spread.", "Incision and drainage may be performed if it does not resolve with conservative treatment."],
+          ["Chalazion", "Warm compresses can be tried initially to liquefy the trapped lipids and promote drainage.", "Intralesional steroid injection (e.g., triamcinolone) by an ophthalmologist can resolve the lesion by reducing inflammation.", "Incision and curettage is the definitive treatment for large, persistent, or symptomatic chalazia. The procedure is typically performed from the conjunctival side."]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Differential Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Preseptal cellulitis: A more diffuse infection of the eyelid anterior to the orbital septum. The globe itself is not involved.",
+        "Sebaceous gland carcinoma: A rare but important consideration for recurrent or atypical chalazia, especially in older adults. A biopsy is warranted if there is suspicion.",
+        "Pyogenic granuloma: A benign vascular lesion that can appear on the conjunctival surface."
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Blepharitis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Blepharitis"
+      }
+    }
+  ]
+}

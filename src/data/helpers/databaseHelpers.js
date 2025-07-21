@@ -23,35 +23,46 @@ export const getSearchableList = (bacteriaDatabase) => {
     const searchList = Object.entries(bacteriaDatabase).map(([key, bacteria]) => {
         // Pre-process search terms for efficiency
         const baseTerms = [
+            bacteria._originalData?.identity?.bacteriumName,
             bacteria.identity?.bacteriumName,
             bacteria.name,
             bacteria.taxonomy?.genus,
             bacteria.taxonomy?.species,
             bacteria.identity?.classification?.gramStain,
             bacteria.identity?.clsiCategory
-        ].filter(Boolean).map(term => term.toLowerCase());
+        ].filter(Boolean).filter(term => typeof term === 'string').map(term => term.toLowerCase());
 
-        const aliasTerms = (bacteria.identity?.aliases || []).map(alias => alias.toLowerCase());
+        const aliasTerms = (bacteria._originalData?.identity?.aliases || bacteria.identity?.aliases || [])
+            .filter(alias => typeof alias === 'string')
+            .map(alias => alias.toLowerCase());
         
-        const syndromeTerms = (bacteria.clinicalProfile?.clinicalSyndromes || [])
-            .map(s => s.syndromeName?.toLowerCase())
-            .filter(Boolean);
+        const syndromeTerms = (bacteria._originalData?.clinicalProfile?.clinicalSyndromes || bacteria.clinicalProfile?.clinicalSyndromes || [])
+            .map(s => s.syndromeName)
+            .filter(name => typeof name === 'string')
+            .map(name => name.toLowerCase());
         
-        const mechanismTerms = (bacteria.resistanceProfile?.majorMechanisms || [])
-            .map(rm => rm.mechanismName?.toLowerCase())
-            .filter(Boolean);
+        const mechanismTerms = (bacteria._originalData?.resistanceProfile?.majorMechanisms || bacteria.resistanceProfile?.majorMechanisms || [])
+            .map(rm => rm.mechanismName)
+            .filter(name => typeof name === 'string')
+            .map(name => name.toLowerCase());
 
         const allSearchTerms = [...baseTerms, ...aliasTerms, ...syndromeTerms, ...mechanismTerms];
 
         // Extract genus from bacterium name if no taxonomy exists
-        const bacteriumName = bacteria.identity?.bacteriumName || bacteria.name || 'Unknown';
-        const genus = bacteria.taxonomy?.genus || bacteriumName.split(' ')[0] || '';
-        const species = bacteria.taxonomy?.species || bacteriumName.split(' ')[1] || '';
+        const bacteriumName = bacteria._originalData?.identity?.bacteriumName || bacteria.identity?.bacteriumName || bacteria.name || 'Unknown';
+        const safeName = typeof bacteriumName === 'string' ? bacteriumName : 'Unknown';
+        const genus = bacteria._originalData?.identity?.classification?.taxonomy?.genus || 
+                     bacteria.taxonomy?.genus || 
+                     safeName.split(' ')[0] || '';
+        const species = bacteria._originalData?.identity?.classification?.taxonomy?.species ||
+                       bacteria.taxonomy?.species || 
+                       safeName.split(' ')[1] || '';
 
         return {
             id: key,
-            name: bacteriumName,
-            gramStain: bacteria.identity?.classification?.gramStain || 'unknown',
+            name: safeName,
+            gramStain: bacteria._originalData?.identity?.classification?.gramStain || 
+                      bacteria.identity?.classification?.gramStain || 'unknown',
             clinicalSignificance: 2, // Default for new structure
             significance: 2,
             taxonomy: {

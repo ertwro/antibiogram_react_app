@@ -1,0 +1,589 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Chlamydia trachomatis",
+      "aliases": [],
+      "lastUpdated": "2025-02-03",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Not applicable (does not Gram stain)",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacterium"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Serovar Group",
+          "value": "A, B, Ba, C",
+          "notes": "Cause trachoma, a chronic keratoconjunctivitis."
+        },
+        {
+          "type": "Serovar Group",
+          "value": "D-K",
+          "notes": "Cause urogenital syndromes like urethritis and cervicitis."
+        },
+        {
+          "type": "Serovar Group",
+          "value": "L1-L3",
+          "notes": "Cause Lymphogranuloma venereum (LGV)."
+        }
+      ],
+      "biochemicalTests": "Obligate intracellular bacterium; cannot be Gram-stained or cultured on standard media. Diagnosis relies on NAATs."
+    },
+    "clinicalProfile": {
+      "summary": "Chlamydia trachomatis is the most common reportable bacterial sexually transmitted infection in the U.S. It causes a variety of clinical syndromes depending on the serovar, including urogenital infections (urethritis, cervicitis, PID), lymphogranuloma venereum (LGV), and trachoma, the leading infectious cause of blindness worldwide.",
+      "pathophysiologyPearls": [
+        "As an obligate intracellular parasite, C. trachomatis infects epithelial cells, leading to inflammation and tissue damage.",
+        "Many infections, particularly in women, are asymptomatic, which facilitates transmission and can lead to long-term complications like infertility if untreated."
+      ],
+      "keySignsAndSymptoms": [
+        "Urethral or cervical discharge",
+        "Dysuria",
+        "Pelvic pain",
+        "Proctitis symptoms (rectal pain, discharge, tenesmus)",
+        "Painful inguinal lymphadenopathy (LGV)",
+        "Conjunctivitis and corneal scarring (Trachoma)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urogenital Infections (Serovars D-K)",
+          "description": "Includes cervicitis, urethritis, and pelvic inflammatory disease (PID). Often asymptomatic."
+        },
+        {
+          "syndromeName": "Lymphogranuloma Venereum (LGV) (Serovars L1-L3)",
+          "description": "A systemic STI characterized by a transient genital ulcer followed by painful inguinal and/or femoral lymphadenopathy (buboes)."
+        },
+        {
+          "syndromeName": "Trachoma (Serovars A, B, Ba, C)",
+          "description": "A chronic keratoconjunctivitis endemic in resource-poor regions, leading to corneal scarring and blindness if untreated."
+        },
+        {
+          "syndromeName": "Neonatal Infections",
+          "description": "Can cause ophthalmia neonatorum (conjunctivitis) or pneumonia in infants born to infected mothers."
+        }
+      ],
+      "highRiskPopulations": [
+        "Sexually active individuals <25 years old",
+        "Men who have sex with men (MSM)",
+        "Individuals with new or multiple sexual partners",
+        "Residents of or travelers to trachoma-endemic regions"
+      ],
+      "transmissionVectors": [
+        "Sexual contact (urogenital, anal, oral)",
+        "Perinatal transmission from mother to infant",
+        "Flies and direct contact with ocular/nasal secretions (Trachoma)"
+      ],
+      "prognosisNotes": [
+        "Untreated urogenital infections can lead to PID, ectopic pregnancy, and infertility in women.",
+        "Re-infection is common; re-screening 3 months after treatment is recommended."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Treatment Failures",
+          "details": "Clinical failures are reported, and some studies suggest they are more common with single-dose azithromycin compared to a 7-day course of doxycycline, especially for rectal infections."
+        },
+        {
+          "alertTitle": "Persistent State",
+          "details": "Exposure to penicillin-class antibiotics (e.g., amoxicillin in pregnancy) may induce a persistent, non-replicative state in the organism, potentially affecting treatment efficacy."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Doxycycline 100 mg PO BID for 7 days is the preferred regimen for most uncomplicated urogenital infections per 2021 CDC STI guidelines.",
+        "LGV requires a longer duration of treatment (3 weeks).",
+        "Treatment of all sexual partners from the preceding 60 days is recommended (Expedited Partner Therapy - EPT)."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Doxycycline, Fluoroquinolones",
+          "condition": "Pregnancy",
+          "reason": "Potential fetal harm."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Urethritis, Cervicitis, Proctitis (uncomplicated)",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Preferred regimen."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "1 g",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": "Less effective for rectal infections."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Urogenital Infection in Pregnancy",
+            "patientPopulation": [
+              "Pregnant women"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "1 g",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "TID",
+                      "comments": "May induce a persistent state in the organism."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Annual screening for all sexually active women <25 years.",
+        "Screening for older women and MSM with risk factors.",
+        "Evaluation of individuals with symptoms of STI (e.g., discharge, dysuria, pelvic pain).",
+        "Evaluation of neonates with conjunctivitis or pneumonia."
+      ],
+      "methodologyNotes": [
+        "NAATs are the most sensitive tests for diagnosing C. trachomatis infections.",
+        "NAATs cannot distinguish between different serovars (e.g., D-K vs. L1-L3); PCR genotyping is required for this purpose.",
+        "NAATs can remain positive for up to 3 weeks after successful treatment due to the detection of non-viable organisms."
+      ],
+      "recommendedPanel": [
+        "Nucleic Acid Amplification Test (NAAT)"
+      ],
+      "specialTests": [
+        {
+          "testName": "PCR Genotyping",
+          "trigger": "Clinical suspicion of LGV",
+          "purpose": "To differentiate LGV serovars (L1-L3) from non-LGV serovars (D-K)."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is primarily by NAAT on first-catch urine or swabs from the affected site (cervix, urethra, rectum, pharynx). Vaginal swabs (patient- or clinician-collected) are also highly sensitive.",
+        "biosafetyWarning": "Standard precautions are sufficient for handling clinical specimens.",
+        "methods": [
+          {
+            "methodName": "NAAT",
+            "details": "The gold standard for diagnosis due to high sensitivity and specificity. Can be performed on various specimen types."
+          }
+        ]
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Screening",
+          "details": "Annual screening is recommended for all sexually active women aged <25 years, as well as older women with risk factors (e.g., new or multiple sex partners). Screening of MSM is also advisable.",
+          "targetPopulation": "Sexually active women <25, at-risk older women, MSM."
+        }
+      ],
+      "treatmentLifecycle": [
+        {
+          "topic": "Test of Cure",
+          "details": "Not routinely recommended, except in pregnancy. NAAT can remain positive for 2-3 weeks post-treatment."
+        },
+        {
+          "topic": "Retesting for Re-infection",
+          "details": "Recommended for all treated individuals 3 months after treatment to detect re-infection."
+        },
+        {
+          "topic": "Partner Treatment",
+          "details": "All sexual contacts within the 60 days prior to diagnosis or symptom onset should be tested and treated. Expedited Partner Therapy (EPT) is an option."
+        }
+      ],
+      "antimicrobialStewardship": [
+        "Doxycycline for 7 days is more effective than single-dose azithromycin for rectal chlamydial infections."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "CDC",
+          "citation": "MMWR Recomm Rep 70 (RR-4):1 2021",
+          "summaryOrNote": "2021 CDC STI Treatment Guidelines."
+        },
+        {
+          "source": "N Engl J Med",
+          "citation": "2017;376:765",
+          "summaryOrNote": "Review on screening for Chlamydia trachomatis."
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2019;69:1946",
+          "summaryOrNote": "Study on azithromycin efficacy in rectal infections."
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2021;73:824",
+          "summaryOrNote": "RCT showing doxycycline is more effective for rectal chlamydia in MSM."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.369Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-02-03"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Not applicable (does not Gram stain)",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacterium"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Chlamydia trachomatis is the most common reportable bacterial sexually transmitted infection in the U.S. It causes a variety of clinical syndromes depending on the serovar, including urogenital infections (urethritis, cervicitis, PID), lymphogranuloma venereum (LGV), and trachoma, the leading infectious cause of blindness worldwide.",
+      "pathophysiologyPearls": [
+        "As an obligate intracellular parasite, C. trachomatis infects epithelial cells, leading to inflammation and tissue damage.",
+        "Many infections, particularly in women, are asymptomatic, which facilitates transmission and can lead to long-term complications like infertility if untreated."
+      ],
+      "keySignsAndSymptoms": [
+        "Urethral or cervical discharge",
+        "Dysuria",
+        "Pelvic pain",
+        "Proctitis symptoms (rectal pain, discharge, tenesmus)",
+        "Painful inguinal lymphadenopathy (LGV)",
+        "Conjunctivitis and corneal scarring (Trachoma)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urogenital Infections (Serovars D-K)",
+          "description": "Includes cervicitis, urethritis, and pelvic inflammatory disease (PID). Often asymptomatic."
+        },
+        {
+          "syndromeName": "Lymphogranuloma Venereum (LGV) (Serovars L1-L3)",
+          "description": "A systemic STI characterized by a transient genital ulcer followed by painful inguinal and/or femoral lymphadenopathy (buboes)."
+        },
+        {
+          "syndromeName": "Trachoma (Serovars A, B, Ba, C)",
+          "description": "A chronic keratoconjunctivitis endemic in resource-poor regions, leading to corneal scarring and blindness if untreated."
+        },
+        {
+          "syndromeName": "Neonatal Infections",
+          "description": "Can cause ophthalmia neonatorum (conjunctivitis) or pneumonia in infants born to infected mothers."
+        }
+      ],
+      "highRiskPopulations": [
+        "Sexually active individuals <25 years old",
+        "Men who have sex with men (MSM)",
+        "Individuals with new or multiple sexual partners",
+        "Residents of or travelers to trachoma-endemic regions"
+      ],
+      "transmissionVectors": [
+        "Sexual contact (urogenital, anal, oral)",
+        "Perinatal transmission from mother to infant",
+        "Flies and direct contact with ocular/nasal secretions (Trachoma)"
+      ],
+      "prognosisNotes": [
+        "Untreated urogenital infections can lead to PID, ectopic pregnancy, and infertility in women.",
+        "Re-infection is common; re-screening 3 months after treatment is recommended."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Treatment Failures",
+          "details": "Clinical failures are reported, and some studies suggest they are more common with single-dose azithromycin compared to a 7-day course of doxycycline, especially for rectal infections."
+        },
+        {
+          "alertTitle": "Persistent State",
+          "details": "Exposure to penicillin-class antibiotics (e.g., amoxicillin in pregnancy) may induce a persistent, non-replicative state in the organism, potentially affecting treatment efficacy."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Urethritis, Cervicitis, Proctitis (uncomplicated)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "7 days",
+              "comments": "Preferred regimen.",
+              "originalText": "Doxycycline 100 mg PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Urethritis, Cervicitis, Proctitis (uncomplicated)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "1 g",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "Less effective for rectal infections.",
+              "originalText": "Azithromycin 1 g PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Urogenital Infection in Pregnancy",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Pregnant women"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "1 g",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 1 g PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Urogenital Infection in Pregnancy",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Pregnant women"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "TID",
+              "duration": "7 days",
+              "comments": "May induce a persistent state in the organism.",
+              "originalText": "Amoxicillin 500 mg PO TID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Annual screening for all sexually active women <25 years.",
+        "Screening for older women and MSM with risk factors.",
+        "Evaluation of individuals with symptoms of STI (e.g., discharge, dysuria, pelvic pain).",
+        "Evaluation of neonates with conjunctivitis or pneumonia."
+      ],
+      "methodologyNotes": [
+        "NAATs are the most sensitive tests for diagnosing C. trachomatis infections.",
+        "NAATs cannot distinguish between different serovars (e.g., D-K vs. L1-L3); PCR genotyping is required for this purpose.",
+        "NAATs can remain positive for up to 3 weeks after successful treatment due to the detection of non-viable organisms."
+      ],
+      "recommendedPanel": [
+        "Nucleic Acid Amplification Test (NAAT)"
+      ],
+      "specialTests": [
+        {
+          "testName": "PCR Genotyping",
+          "trigger": "Clinical suspicion of LGV",
+          "purpose": "To differentiate LGV serovars (L1-L3) from non-LGV serovars (D-K)."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

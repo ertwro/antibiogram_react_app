@@ -1,0 +1,82 @@
+{
+  "drug_name": "Azithromycin",
+  "tradename": "Zithromax, Z-Pak",
+  "usage_and_dosing": {
+    "general": [
+      "Azithromycin is a macrolide antibiotic with a broad spectrum of activity against many aerobic and anaerobic gram-positive and gram-negative organisms.",
+      "It is also active against some protozoa.",
+      "For class-wide adverse effects, see Macrolides, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "500 mg po/IV x1, then 250 mg po/IV q24h",
+      "note": "Dosing varies by indication"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "10 mg/kg (max 500 mg) po/IV on day 1, then 5 mg/kg (max 250 mg) q24h",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "68",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "500 mg po/IV q24h",
+    "crcl_or_egfr": "No dosage adjustment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "For complete class-wide adverse effects see Macrolides, Overview and for QTc prolongation, see QTc Interval Prolongation.",
+    "Any of the macrolides may exacerbate muscle weakness in persons with myasthenia gravis."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Probably safe, monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Chlamydia trachomatis",
+        "Haemophilus ducreyi",
+        "Mycoplasma pneumoniae"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (250, 500, 600 mg), Oral susp (100 mg/5 mL, 200 mg/5 mL), Injection",
+    "food_recommendation": "Tab ± food, Susp no food",
+    "oral_absorption_percent": "37",
+    "tmax_hr": "2-3",
+    "peak_serum_conc_ug_ml": "0.4 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "7-50",
+    "volume_of_distribution_vd_l_kg": "31 L/kg",
+    "avg_serum_half_life_hr": "68",
+    "elimination": "Biliary, renal",
+    "bile_penetration_percent": "High",
+    "csf_blood_percent": "Low",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "10.3 (500 mg po, 0-72h)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Mg)", "effect": "↓ azithromycin", "management": "Separate administration by 2 hours"},
+      {"drug": "Antiarrhythmics (Class IA/III)", "effect": "↑ QT interval", "management": "Avoid co-administration"},
+      {"drug": "Atorvastatin", "effect": "↑ atorvastatin", "management": "Monitor"},
+      {"drug": "Cyclosporine", "effect": "↑ cyclosporine", "management": "Monitor"},
+      {"drug": "Digoxin", "effect": "↑ digoxin", "management": "Monitor"},
+      {"drug": "Ergot alkaloids", "effect": "↑ ergot alkaloid", "management": "Avoid co-administration"},
+      {"drug": "Lovastatin", "effect": "↑ lovastatin", "management": "Monitor"},
+      {"drug": "Pimozide", "effect": "↑ pimozide", "management": "Avoid co-administration"},
+      {"drug": "Simvastatin", "effect": "↑ simvastatin", "management": "Monitor"},
+      {"drug": "Tacrolimus", "effect": "↑ tacrolimus", "management": "Monitor"},
+      {"drug": "Theophylline", "effect": "↑ theophylline", "management": "Monitor"},
+      {"drug": "Warfarin", "effect": "↑ INR", "management": "Monitor INR, adjust dosage"}
+  ]
+}

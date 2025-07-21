@@ -1,0 +1,84 @@
+{
+  "documentMetadata": {
+    "title": "Rocky Mountain Spotted Fever",
+    "sourceFile": "Rocky Mountain Spotted Fever.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Rocky Mountain Spotted Fever (RMSF)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rocky Mountain Spotted Fever (RMSF) is a tick-borne disease caused by the bacterium Rickettsia rickettsii. It is the most severe rickettsial illness in the United States. Despite its name, RMSF is most commonly reported in the southeastern and south-central United States."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "paragraph",
+      "text": "The classic triad of fever, rash, and history of tick bite is seen in a minority of patients at the initial presentation. The rash typically appears 2-5 days after fever onset and may be maculopapular, often becoming petechial. It characteristically begins on the ankles and wrists and spreads centrally."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Early diagnosis is critical and is based on clinical suspicion. Serology (indirect immunofluorescence assay for IgM and IgG) is the standard diagnostic method, but antibodies may not be detectable until the second week of illness. PCR of blood or tissue samples can be used for early detection."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Adults and children with suspected or confirmed RMSF"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "PO or IV",
+            "frequency": "twice daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "at least 3 days after the fever subsides and there is evidence of clinical improvement, for a minimum total course of 5-7 days"
+        },
+        "notes": "Doxycycline is the first-line treatment for RMSF in patients of all ages. Treatment should be initiated as soon as RMSF is suspected."
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Pregnant women"
+        },
+        "components": [
+          {
+            "drug": "Chloramphenicol",
+            "dose": "50 mg/kg/day",
+            "route": "IV",
+            "frequency": "in 4 divided doses"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        },
+        "notes": "Chloramphenicol is an alternative treatment for pregnant women, but it is associated with higher mortality rates compared to doxycycline."
+      }
+    }
+  ]
+}

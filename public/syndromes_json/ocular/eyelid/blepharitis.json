@@ -1,0 +1,178 @@
+
+{
+  "documentMetadata": {
+    "title": "Blepharitis",
+    "sourceFile": "syndromes/ocular/eyelid/Blepharitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blepharitis is a common, chronic inflammatory condition of the eyelids. It is not typically a vision-threatening condition but can cause significant ocular discomfort and irritation. It is broadly classified into anterior and posterior blepharitis, although they often coexist."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Classification and Features"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Anterior Blepharitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "This involves inflammation at the base of the eyelashes. It can be staphylococcal (bacterial) or seborrheic."
+        },
+        {
+          "type": "keyValuePairs",
+          "pairs": [
+            {
+              "key": "Staphylococcal Type",
+              "value": "Characterized by hard, fibrinous scales and crusts around the eyelashes (collarettes), chronic redness, and recurrent hordeola. Often associated with an overgrowth of Staphylococcus aureus."
+            },
+            {
+              "key": "Seborrheic Type",
+              "value": "Characterized by greasy, dandruff-like scales on the eyelashes and lid margins. Often associated with seborrheic dermatitis of the scalp and face."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Posterior Blepharitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the more common type and involves inflammation of the meibomian glands (Meibomian Gland Dysfunction or MGD). These glands produce the lipid layer of the tear film. Dysfunction leads to an unstable tear film and evaporative dry eye."
+        },
+        {
+          "type": "keyValuePairs",
+          "pairs": [
+            {
+              "key": "Signs",
+              "value": "Clogged meibomian gland orifices, thickened and hyperemic lid margins, telangiectasias, and a frothy or oily tear film. Gentle pressure on the eyelid may express thick, toothpaste-like material from the glands instead of clear oil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Symptoms"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Burning, grittiness, foreign body sensation",
+        "Itching and crusting of the eyelids, especially upon waking",
+        "Red, swollen eyelids",
+        "Fluctuating or blurry vision (due to poor tear film)",
+        "Light sensitivity",
+        "Red eyes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management is chronic and focuses on improving eyelid hygiene and controlling inflammation. Patient education is key."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Cornerstone of Therapy: Eyelid Hygiene"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Warm Compresses: Applied to the eyelids for 5-10 minutes, once or twice daily. This helps to soften crusts and melt the thick secretions in the meibomian glands.",
+            "Lid Scrubs/Cleansers: After the warm compress, the eyelid margins are gently scrubbed with a commercial lid scrub, diluted baby shampoo, or a hypochlorous acid spray to remove debris and reduce bacterial load.",
+            "Lid Massage: Gently massaging the eyelids towards the lid margin can help express the contents of the meibomian glands."
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Medical Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "symptomRelief",
+            "strengthOfRecommendation": "Supportive",
+            "condition": "Associated Dry Eye",
+            "components": [
+              {
+                "drug": "Preservative-free artificial tears",
+                "route": "topical",
+                "frequency": "As needed"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "For moderate to severe cases",
+            "condition": "Anterior or Posterior Blepharitis",
+            "components": [
+              {
+                "drug": "Topical antibiotic ointment (e.g., erythromycin, bacitracin)",
+                "dose": "Applied to the lid margins",
+                "route": "topical",
+                "frequency": "Typically at bedtime"
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Used for acute exacerbations, not typically for long-term continuous use."
+              }
+            },
+            "notes": "Helps to reduce bacterial load and has some anti-inflammatory properties."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "For refractory posterior blepharitis (MGD)",
+            "condition": "Posterior Blepharitis",
+            "components": [
+              {
+                "drug": "Oral tetracyclines (e.g., Doxycycline)",
+                "dose": "Low dose (e.g., 50-100 mg daily)",
+                "route": "PO"
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Used for several weeks to months."
+              }
+            },
+            "notes": "Used for their anti-inflammatory and lipid-regulating properties, not for their antibiotic effect."
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Short courses of topical steroids may be used by an ophthalmologist for severe inflammation, but long-term use should be avoided."
+        }
+      ]
+    }
+  ]
+}

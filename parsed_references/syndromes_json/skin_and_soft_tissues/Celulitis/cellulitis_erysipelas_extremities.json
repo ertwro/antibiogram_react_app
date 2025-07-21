@@ -1,0 +1,117 @@
+{
+    "documentMetadata": {
+        "title": "Cellulitis, Erysipelas_ Extremities",
+        "sourceFile": "Cellulitis, Erysipelas_ Extremities.pdf",
+        "lastUpdated": "2025-04-01"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Treatment of uncomplicated cellulitis, erysipelas in extremities, non-diabetic; acute bacterial skin and skin structure infection (ABSSSI)",
+                "Complications: necrotizing cellulitis, toxic shock, necrotizing fasciitis",
+                "Acute onset of rapidly spreading, red, edematous, tender plaque-like area of skin usually on the lower leg. Almost always unilateral. Often febrile.",
+                "May be associated with lymphangitis or lymphadenitis.",
+                "Portal of entry is frequently fungal infection between the toes (Tinea pedis).",
+                "If facial skin is involved, see Facial erysipelas.",
+                "Usually can clinically distinguish between red indurated demarcated inflamed skin of erysipelas (S. pyogenes) from the abscess of Staph. aureus. Dual infection is thought to be uncommon. Bedside ultrasound may be helpful in detection of deep S. aureus abscess. If in doubt, treat for both.",
+                "Practice Guideline: Clin Infect Dis 59:147, 2014.",
+                "In 216 patients with extremity non-purulent cellulitis (erysipelas), the etiology was identified as a beta-hemolytic streptococcus (Group A, C, or G) in the vast majority: Open Forum Infect Dis 3:Nov 25, 2015, doi: 10.1093/ofid/ofv181.",
+                "Beware of stasis dermatitis; often misdiagnosed as erysipelas. See Comments."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Streptococcus pyogenes (Group A)",
+                "Other beta-hemolytic streptococci, e.g. Groups B, C, and G (may be as common as Group A strep) (Open Forum Infect Dis 3:Nov 25, 2015, doi: 10.1093/ofid/ofv181)",
+                "Staphylococcus aureus (less common in non-purulent cases)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Elevate the involved leg",
+                "Obtain cultures of purulent drainage, if available",
+                "Initial therapy, hospitalized patient",
+                "No MRSA risk factors, low community prevalence of MRSA, non-purulent cellulitis, moderately ill patients, hemodynamically stable: Cefazolin 1 gm IV q8h",
+                "Nafcillin 1 gm IV q4h or Oxacillin 1 gm IV q4h are also reasonable options",
+                "MRSA risk (prior MRSA infection or colonization, history of injection drug use), purulent drainage, high community prevalence of MRSA, hemodynamic instability or other signs of systemic toxicity, beta-lactam allergy",
+                "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 \u00b5g/mL",
+                "Linezolid 600 mg IV/po bid",
+                "Initial outpatient therapy for less ill patients, uncomplicated infection or oral step-down options from IV therapy",
+                "Non-purulent cellulitis, no fluctuance (more likely beta-hemolytic strep than S. aureus, unlikely MRSA)",
+                "Cephalexin 500 mg po qid for 10 days (JAMA. 2017; 317:2088)",
+                "Trimethoprim/sulfamethoxazole DS (160 ma/800 ma) 1-2 tablets po BID (higher dose for BMI > 30) also an option (N Engl J Med. 2015; 372:1093) for 7-10 days)",
+                "Penicillin VK 500 mg po qid or Amoxicillin 500 mg po q8h for 7-10 days",
+                "Purulent lesion and/or fluctuance (likely S. aureus, either MSSA or MRSA)",
+                "Obtain culture of purulent drainage, perform incision and drainage of abscess if present",
+                "Trimethoprim/sulfamethoxazole DS (160 mg/800 mg) 1-2 tablets po BID (higher dose for BMI > 30)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Initial therapy, hospitalized patient",
+                "No MRSA risk, low community prevalence of MRSA, non-purulent cellulitis, moderately ill patients, hemodynamically stable: Ceftriaxone 2 gm IV q24h",
+                "Proven or strongly suspected beta-hemolytic streptococcal infection (e.g., classic erysipelas), stable patient: Penicillin G 2-4 million units IV q4-6h",
+                "Acute bacterial skin and skin structure infections, moderately ill in-patient or out-patient who refuses hospitalization or is unlikely to comply with a multidose oral regimen",
+                "Dalbavancin 1.5 gm IV x 1",
+                "Outpatient therapy for less ill patients, uncomplicated infection, or oral step-down from IV therapy, covers strep, MSSA, MRSA",
+                "Clindamycin 300-450 mg po tid also an option provided local resistance rates for MRSA and Group A strep are low (e.g., < 10-15%), although there is a small risk of Clostridioides difficile associated diarrhea for 7-10 days",
+                "Linezolid 600 mg po bid x 7 days or Tedizolid 200 mg po once daily x 6 days",
+                "Other options for or suspected Staph. aureus (fluctuance, purulence or positive gram stain):",
+                "MSSA (outpatient): Dicloxacillin 500 mg po qid",
+                "MRSA (outpatient): Doxycycline 100 mg po bid"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Stewardship"
+        },
+        {
+            "type": "list",
+            "items": [
+                "MRSA nasal swab surveillance culture has a high negative predictive value, 97.5% in one study (Am J Infect Control. 2022; 50:941) in patients with uncomplicated skin and soft tissue infection). Beta-lactam antibiotic therapy is good alternative to Vancomycin in those with a negative MRSA nasal swab culture (provided no growth of MRSA from blood or purulent drainage cultures, if obtained)."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Other treatment options: Oritavancin, Delafloxacin, Omadacycline",
+                "If abscess is present, need to perform incision and drainage.",
+                "For uncommon causes of cellulitis, see review: JAMA 316: 325, 2018.",
+                "Usual duration of therapy is 7-10 days. Some treat until the patient is afebrile for 3-5 days, then stop.",
+                "Treat Tinea pedis if present.",
+                "Stasis dermatitis due to venous insufficiency can masquerade as bacterial cellulitis/erysipelas; condition is often bilateral, chronic and patient afebrile, Ann Intern Med 142:47, 2005. No benefit from systemic antibiotics. The only topical therapy with evidence of benefit is cadexomer iodine gel (e.g., lodosorb) (JAMA 311:2534, 2014).",
+                "For conditions mimicking cellulitis: Clev Clin J Med 79: 547, 2014; J Am Acad Dermatol 73;70, 2015."
+            ]
+        }
+    ]
+}

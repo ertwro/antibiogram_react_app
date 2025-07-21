@@ -1,0 +1,121 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Gram-negative bacilli",
+    "lastUpdated": "2025-01-06",
+    "sourceFile": "Endocarditis, Gram-negative bacilli.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for endocarditis with blood cultures positive for aerobic gram-negative bacilli.",
+        "Signs and symptoms of endocarditis. Patient often has a prosthetic valve."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterobacteriaceae",
+        "P. aeruginosa"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          },
+          {
+            "drug": "Tobramycin",
+            "dose": "1.5-2 mg/kg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "Could substitute a fluoroquinolone for the aminoglycoside, see Comment"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "notes": "(over 4 hr)",
+            "connector": "+"
+          },
+          {
+            "drug": "Tobramycin",
+            "dose": "1.5-2 mg/kg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Choice of agents based on in vitro susceptibilities: select definitive regimen to obtain optimal activity.",
+        "Infectious Diseases consultation recommended; antibiotic choice dictated by susceptibility data.",
+        "Optimal regimens and duration of therapy not well characterized; 6 weeks of therapy is reasonable."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fluoroquinolone an option instead of aminoglycoside, but few data; Ann Intern Med. 2007;147:829-835.",
+        "A rare, often fatal disease with much uncertainty as to its management.",
+        "Medical therapy alone has a high failure rate, so early valve replacement should be considered.",
+        "References: Circulation. 2015;132:1435-1486; Infect Dis (Lond). 2023; 55:599."
+      ]
+    }
+  ]
+}

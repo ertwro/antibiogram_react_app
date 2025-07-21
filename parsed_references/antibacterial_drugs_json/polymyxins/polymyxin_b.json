@@ -1,0 +1,116 @@
+{
+  "drug_name": "Polymyxin B",
+  "tradename": "Poly-Rx",
+  "usage_and_dosing": {
+    "general_info": [
+      "Polymyxin B and Polymyxin E (Colistin) are parenteral antibiotics in the polymyxin class. Their spectrum of activity and toxic potentials are similar. However, their pharmacology is dramatically different.",
+      "Polymyxin B is administered as an active sulfate salt; it is not excreted by the kidneys. Hence, polymyxin B should be avoided in the treatment of UTI. In contrast, colistin is administered as a prodrug; the active drug formed in vivo is excreted in the urine.",
+      "Choice of Polymyxin B vs Colistin (Reference: Pharmacotherapy 2019;39:10):",
+      "If providers have a choice, the current preference for IV therapy is Polymyxin B, unless the patient has a UTI, based on the following:",
+      "The dose calculation for polymyxin B is much simpler, as polymyxin B is not a prodrug like colistin.",
+      "With the recommended loading dose, \"therapeutic\" serum concentrations are achieved much sooner than with colistin.",
+      "There is less interpatient variability in pharmacokinetics with polymyxin B.",
+      "Unlike colistin, there is no need to adjust dosage of polymyxin B in patients with renal insufficiency.",
+      "Colistin is associated with higher rates of renal failure than polymyxin B (Antimicrob Agents Chemother 2016;60:2443).",
+      "Polymyxin B is NOT recommended for inhalation therapy due to potential for damage to lung epithelial cells (Antimicrob Agents Chemother 2017;61:e02690-16).",
+      "Polymyxin B is not available in Japan, South Africa, Europe or Australia.",
+      "Like colistin, polymyxin B has activity against multidrug-resistant aerobic Gram-negative bacilli, e.g., P. aeruginosa, Acinetobacter baumannii and carbapenemase-producing E. coli and Klebsiella pneumoniae.",
+      "NOTE : Serratia sp., Proteus sp., Providencia sp., Morganella sp., and Burkholderia cepacia are intrinsically resistant to polymyxins.",
+      "Polymyxin/colistin resistance gene (mcr-1) found on plasmids in carbapenem-resistant Enterobacteriaceae: Antimicrob Agents Chemother 2016;60:5033. Mcr-1 encodes change in the lipid A membrane target of the polymyxins.",
+      "Polymyxin B was licensed in the late 1950s. The US package insert recommends a maximum daily dose of 25,000 IU/kg (2.5 mg/kg) with adjustment downward for renal insufficiency. Based on 2013 published data, the recommended dosage is generally higher and there is no need to adjust for renal insufficiency (Clin Infect Dis 2013;57:524).",
+      "The standard unit of dosage for polymyxin B is the International Unit (IU); 10,000 IU = 1 mg. However, in the US and elsewhere, it is common to express the dosage in mg and not IU.",
+      "In a retrospective case series, polymyxin B monotherapy for carbapenem-resistant Klebsiella pneumoniae infections was associated with breakthrough bacteremia with polymyxin B-resistant K. pneumoniae in 3 of 40 patients (Antimicrob Agents Chemother 2013;57:5394).",
+      "As with colistin, polymyxin B has a \"detergent effect\" on the cell membrane that allows restoration of antibacterial activity of drugs considered resistant as monotherapy.",
+      "Acinetobacter, Pseudomonas, E. coli, or Klebsiella isolates may be resistant to carbapenems in vitro due to carbapenemase activity. When concomitantly exposed to a polymyxin, the cell permeability increases dramatically so as to allow rapid penetration of the carbapenem to its antibacterial target before the carbapenem is rendered inactive by the carbapenemase.",
+      "In a clinical cohort study, polymyxin B plus meropenem vs monotherapy with polymyxin B substantively lowered mortality in patients critically ill with A. baumannii or P. aeruginosa infections (Antimicrob Agents Chemother 2015;59:6575). A pertinent clinical trial is in progress.",
+      "The doses recommended below derive from a pharmacokinetic study of IV polymyxin B in critically ill patients (Clin Infect Dis 2013;57:524).",
+      "Important note: Colistin resistance gene, mcr-1, found on plasmids in E. coli and Klebsiella species in animals and humans.",
+      "Some strains have concomitant production of metallo-carbapenemases and express resistance to polymyxins (Lancet Infect Dis 2016;16:161; Lancet Infect Dis 2016;16:287; Lancet Infect Dis 2016;16:288).",
+      "See comments."
+    ],
+    "adult_dose": {
+      "pathogens_mic_le_2": {
+        "dosing_non_obese": "Dosing in non-obese persons is based on actual body weight.",
+        "loading_dose": "2.5 mg/kg IV (over 2 hours).",
+        "maintenance_dose": "12 hrs later, start 1.5 mg/kg IV (over 1 hour) q12h.",
+        "ascorbic_acid": "Concomitant ascorbic acid, 1 gm IV q4-6h, may attenuate the risk of nephrotoxicity (Clin Infect Dis 2015;61:1771)"
+      },
+      "optimize_efficacy": "To optimize efficacy and reduce risk of resistance, suggest combination therapy with a carbapenem (most of the available data is with meropenem), regardless of in vitro carbapenem susceptibility.",
+      "combination_therapy_mic_ge_4": "Combination therapy essential if MIC is ≥4 µg/mL.",
+      "dosing_strategies": "Dosing strategies are evolving; see Antimicrob Agents Chemother 2017;61:e02023-16"
+    },
+    "intrathecal_dose": "5 mg q24h into CSF x3-4 days, then 5 mg q48h x ≥2 weeks",
+    "pediatric_dose": {
+      "systemic": {
+        "age_ge_2": "use adult dosing",
+        "age_lt_2": "1.5-4.5 mg/kg/day (divided q12h)"
+      },
+      "intrathecal": {
+        "age_ge_2": "use adult dosing",
+        "age_lt_2": "2 mg q24h x3-4 days, then 2.5 mg q48h for ≥2 weeks"
+      }
+    },
+    "renal_adjustment": {
+      "ref_pk_renal_insufficiency": "Clin Transl Sci 2024;17:e70110.",
+      "half_life_hrs_renal_function_normal": 5.4,
+      "half_life_hrs_esrd": {
+        "mild_insufficiency": 7.4,
+        "hd": 15.2
+      },
+      "dose_renal_function_normal": "2.5 mg/kg IV x1, then 1.5 mg/kg IV q12h",
+      "crcl_or_egfr": "No dosage adjustment for renal impairment",
+      "hemodialysis": "No dosage adjustment",
+      "capd": "No dosage adjustment",
+      "crrt": "No dosage adjustment",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": "No dosage adjustment",
+    "other_adjustment": {
+      "ecmo": "See ECMO Drug Dosing Adjustment.",
+      "obesity": "See Obesity Dosing Adjustments."
+    }
+  },
+  "adverse_effects": [
+    "Neurologic: Variable complaints including perioral paresthesias, numbness of extremities, blurred vision, ataxia, drowsiness, irritability and dizziness. Polymyxin B associated with respiratory arrest, presumably due to neuromuscular blockade: Chest 2012;141:515.",
+    "Polymyxins may unmask or exacerbate myasthenia gravis.",
+    "Nephrotoxicity (Antimicrob Agents Chemother 2017;61:e02319-16):",
+    "Dose dependent reversible tubular necrosis. Drug accumulates in proximal tubular cells.",
+    "Data unclear as to relative toxic potential of polymyxin B vs. colistin.",
+    "Risk factors: Polymyxin daily dose, cumulative dose and length of therapy. In addition: concomitant nephrotoxins, obesity, age, diabetes mellitus, and hypertension.",
+    "In animal model, prophylactic high dose ascorbic acid or melatonin prevented polymyxin nephrotoxicity.",
+    "Skin hyperpigmentation associated with melanocyte activation reported (J Clin Pharm Ther 2017;42:573)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "C",
+    "use_during_lactation": "Topical administration safe (no data with systemic use)"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "Free AUC/MIC",
+    "pharmaceutical_preparations": "Injection, topical (in combination)",
+    "peak_serum_conc_mcg_ml": "2.8 (1.5 mg/kg IV q12h, avg conc at SS)",
+    "protein_binding_percent": 60,
+    "avg_serum_t1_2_hr": "4.5-6 (old data)",
+    "elimination": "Nonrenal",
+    "auc_mcg_hr_ml": "66.9 (1.5 mg/kg IV q12h, 0-24h)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Pancuronium (and other curare-like drugs)",
+      "effect_on_concentration_or_other": "↑ risk of neuromuscular blockade",
+      "suggested_management": "Avoid co-administration"
+    }
+  ],
+  "comments": [
+    "Polymyxin B is administered as its sulfate salt. Polymyxin B is a multicomponent antibiotic, with polymyxin B1 and B2 predominating.",
+    "Shown in rabbits that drug binds to membrane lipids in liver, kidney, lung, brain, muscle and heart. Toxicity occurs after saturation of tissue binding sites (J Infect Dis 1971:124:394: Clin Infect Dis 2009:48:842).",
+    "Nephrotoxicity is the major adverse effect (Antimicrob Agents Chemother 2017;61:e02319-16).",
+    "If renal function is normal, proximal renal tubules can reabsorb entire daily dose of polymyxin B; even with impaired CrCl, a substantial portion of each dose undergoes reabsorption in the proximal renal tubules.",
+    "Mechanism of renal toxicity uncertain. Renal tubules can regenerate in patients that suffer acute tubular necrosis.",
+    "In multicenter prospective cohort study, higher rates of renal failure with colistin as compared to polymyxin B (Antimicrob Agents Chemother 2016;60:2443).",
+    "Colistin/polymyxin resistance gene (mcr-1) in carbapenem-resistant Enterobacteriaceae detected in many parts of the world: Antimicrob Agents Chemother 2016;60:5033; Infect Dis Clin N Am 2020;34:723. Unclear how to treat aerobic gram-negative rods that are both polymyxin resistant due to mcr-1 and express metallo-carbapenemases."
+  ]
+}

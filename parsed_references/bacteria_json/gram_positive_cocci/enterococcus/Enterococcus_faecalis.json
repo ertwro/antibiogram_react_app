@@ -1,0 +1,1157 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Enterococcus faecalis",
+      "aliases": [
+        "E. faecalis"
+      ],
+      "lastUpdated": "2025-01-31",
+      "clsiCategory": "Enterococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Cocci in pairs and chains",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci in pairs or short chains, catalase –, grows in 6.5% NaCl, hydrolyzes esculin in the presence of bile, PYR +, does not ferment arabinose."
+    },
+    "clinicalProfile": {
+      "summary": "Enterococcus faecalis is a common cause of nosocomial infections, including urinary tract infections, bacteremia, and endocarditis. It is less commonly resistant to vancomycin than E. faecium.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Symptoms specific to the site of infection (e.g., dysuria in UTI, heart murmur in endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urinary Tract Infection (UTI)",
+          "description": "Can cause both cystitis and pyelonephritis."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Often associated with intravascular catheters or other medical devices."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "A serious infection of the heart valves."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Hospitalized patients",
+        "Patients with indwelling catheters",
+        "Immunocompromised patients"
+      ],
+      "transmissionVectors": [
+        "Endogenous (from the patient's own gastrointestinal flora)",
+        "Contaminated medical equipment"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Penicillin resistance (uncommon)",
+          "mechanismType": "Penicillin-binding protein (PBP) alteration or beta-lactamase production (rare)",
+          "description": "Resistance to penicillin is usually due to altered PBPs."
+        },
+        {
+          "mechanismName": "High-level aminoglycoside resistance (HLAR)",
+          "mechanismType": "Enzymatic modification",
+          "description": "Increasingly resistant to streptomycin and/or gentamicin, which eliminates synergy with cell wall active agents like penicillin or vancomycin."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "For specific recommendations for endocarditis, see Enterococcal Endocarditis guidelines."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Systemic infection, Penicillin-susceptible",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "3 million units",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Cystitis, Penicillin-susceptible",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Nitrofurantoin",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "q6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Fosfomycin",
+                      "dose": "3 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Amoxicillin",
+                      "dose": "1 gm",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Systemic infection, Penicillin-resistant",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Systemic infection, Penicillin-resistant (beta-lactamase positive)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin-Sulbactam",
+                      "dose": "3 gm",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Cystitis, Penicillin-resistant",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Nitrofurantoin",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Fosfomycin",
+                      "dose": "3 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia, severe systemic infection, Vancomycin-resistant (VRE)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "10 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Linezolid",
+                      "dose": "600 mg",
+                      "route": "IV/PO",
+                      "frequency": "q12h",
+                      "comments": "See drug-specific pearls."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Endocarditis, Vancomycin-resistant (VRE)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": ""
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "10 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "10 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "10 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftaroline",
+                      "dose": "600 mg",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Cystitis, Vancomycin-resistant (VRE)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Urine"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Nitrofurantoin",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "q6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Fosfomycin",
+                      "dose": "3 gm",
+                      "route": "PO",
+                      "frequency": "single dose",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Linezolid",
+          "pearl": "3 meta-analyses comparing Linezolid alone to Daptomycin alone for VRE bloodstream infections suggested a survival benefit with the use of Linezolid. However, a VA cohort study of VRE bacteremia comparing Linezolid alone vs Daptomycin alone found that Linezolid was associated with greater 30-day mortality and microbiologic failure. Linezolid is bacteriostatic, a theoretical disadvantage in endocarditis, and long term use carries a risk of bone marrow toxicity and neurotoxicity."
+        },
+        {
+          "drugName": "Oritavancin",
+          "pearl": "Oritavancin has in vitro activity against vancomycin-resistant enterococci but its role in therapy is not well defined."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2015; 61:871",
+          "summaryOrNote": "Comparison of linezolid and daptomycin for VRE bacteremia."
+        },
+        {
+          "source": "Infect Dis Clin North Am",
+          "citation": "2016; 30:953",
+          "summaryOrNote": "Review of VRE."
+        },
+        {
+          "source": "Infect Dis Clin North Am",
+          "citation": "2020; 34:751",
+          "summaryOrNote": "Review of VRE."
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "2022; 66:e0166721",
+          "summaryOrNote": "Oritavancin activity against VRE."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.313Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Enterococcus faecalis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "E. faecalis"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-01-31"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Cocci in pairs and chains",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Enterococcus faecalis is a common cause of nosocomial infections, including urinary tract infections, bacteremia, and endocarditis. It is less commonly resistant to vancomycin than E. faecium.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Symptoms specific to the site of infection (e.g., dysuria in UTI, heart murmur in endocarditis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Urinary Tract Infection (UTI)",
+          "description": "Can cause both cystitis and pyelonephritis."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Often associated with intravascular catheters or other medical devices."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "A serious infection of the heart valves."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Hospitalized patients",
+        "Patients with indwelling catheters",
+        "Immunocompromised patients"
+      ],
+      "transmissionVectors": [
+        "Endogenous (from the patient's own gastrointestinal flora)",
+        "Contaminated medical equipment"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Penicillin resistance (uncommon)",
+          "mechanismType": "Penicillin-binding protein (PBP) alteration or beta-lactamase production (rare)",
+          "description": "Resistance to penicillin is usually due to altered PBPs."
+        },
+        {
+          "mechanismName": "High-level aminoglycoside resistance (HLAR)",
+          "mechanismType": "Enzymatic modification",
+          "description": "Increasingly resistant to streptomycin and/or gentamicin, which eliminates synergy with cell wall active agents like penicillin or vancomycin."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Systemic infection, Penicillin-susceptible",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "3 million units",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Penicillin G 3 million units IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Systemic infection, Penicillin-susceptible",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ampicillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ampicillin 2 gm IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Penicillin-susceptible",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nitrofurantoin",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Nitrofurantoin 100 mg PO q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Penicillin-susceptible",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Fosfomycin",
+              "dose": "3 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Fosfomycin 3 gm PO single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-2-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Penicillin-susceptible",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Amoxicillin",
+              "dose": "1 gm",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Amoxicillin 1 gm PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Systemic infection, Penicillin-resistant",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-0-0",
+          "extractedFrom": "treatment.regimens[3].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Systemic infection, Penicillin-resistant (beta-lactamase positive)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ampicillin-Sulbactam",
+              "dose": "3 gm",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ampicillin-Sulbactam 3 gm IV q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-4-0-0",
+          "extractedFrom": "treatment.regimens[4].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Penicillin-resistant",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nitrofurantoin",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Nitrofurantoin 100 mg PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-4-1-0",
+          "extractedFrom": "treatment.regimens[4].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Penicillin-resistant",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Fosfomycin",
+              "dose": "3 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Fosfomycin 3 gm PO single dose"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-5-0-0",
+          "extractedFrom": "treatment.regimens[5].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia, severe systemic infection, Vancomycin-resistant (VRE)",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "10 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Daptomycin 10 mg/kg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-5-1-0",
+          "extractedFrom": "treatment.regimens[5].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia, severe systemic infection, Vancomycin-resistant (VRE)",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Linezolid",
+              "dose": "600 mg",
+              "route": "IV/PO",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "See drug-specific pearls.",
+              "originalText": "Linezolid 600 mg IV/PO q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-6-0-0",
+          "extractedFrom": "treatment.regimens[6].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis, Vancomycin-resistant (VRE)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "10 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Daptomycin 10 mg/kg IV q24h"
+            },
+            {
+              "drugName": "Ampicillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ampicillin 2 gm IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-6-1-0",
+          "extractedFrom": "treatment.regimens[6].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis, Vancomycin-resistant (VRE)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "10 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Daptomycin 10 mg/kg IV q24h"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-6-2-0",
+          "extractedFrom": "treatment.regimens[6].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis, Vancomycin-resistant (VRE)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": ""
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "10 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Daptomycin 10 mg/kg IV q24h"
+            },
+            {
+              "drugName": "Ceftaroline",
+              "dose": "600 mg",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftaroline 600 mg IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-7-0-0",
+          "extractedFrom": "treatment.regimens[7].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Vancomycin-resistant (VRE)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nitrofurantoin",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Nitrofurantoin 100 mg PO q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-7-1-0",
+          "extractedFrom": "treatment.regimens[7].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cystitis, Vancomycin-resistant (VRE)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Urine"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Fosfomycin",
+              "dose": "3 gm",
+              "route": "PO",
+              "frequency": "single dose",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Fosfomycin 3 gm PO single dose"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

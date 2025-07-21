@@ -1,0 +1,62 @@
+{
+  "documentMetadata": {
+    "title": "Sepsis, Child, Age > 1 mo",
+    "sourceFile": "Sepsis, Child, Age > 1 mo.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Sepsis in Children (Age > 1 month)"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document provides guidance on the management of sepsis in children older than one month."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Initial Management"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Establish vascular access immediately.",
+        "Administer a bolus of 20 mL/kg of isotonic crystalloid solution over 5 to 10 minutes.",
+        "Obtain blood cultures.",
+        "Administer broad-spectrum antibiotics."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Empiric Antibiotic Therapy"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Children (> 1 month) with suspected sepsis"
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "50-100 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided every 12-24 hours"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "40-60 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided every 6-8 hours",
+            "connector": "+"
+          }
+        ],
+        "notes": "Adjust therapy based on culture results and clinical course."
+      }
+    }
+  ]
+}

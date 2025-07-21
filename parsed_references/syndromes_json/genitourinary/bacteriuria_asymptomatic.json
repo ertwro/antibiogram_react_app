@@ -1,0 +1,75 @@
+{
+  "documentMetadata": {
+    "title": "Bacteriuria, Asymptomatic",
+    "lastUpdated": "2024-03-27",
+    "sourceFile": "Bacteriuria, Asymptomatic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Asymptomatic bacteriuria (ASB) is common in many populations and studies have NOT demonstrated any benefit of treating ASB in preventing symptomatic infections in most of these groups (prremenopausal, nonpregnant women, diabetic women, older persons living in the community, elderly, institutionalized subjects, persons with spinal cord injury, catheterized patients while the catheter remains in situ, patients > 2 months post kidney transplant).",
+        "Pyuria (WBC in urine) is very common in patients with ASB and is NOT an indication for treatment.",
+        "Screening and treatment is only recommended in the following patients:",
+        "Pregnant women: Screen 12-16 weeks of pregnancy with urine culture, consider rescreening high risk women (prior recurrent UTIs, DM) and those with ASB",
+        "Patients undergoing invasive urological procedures.",
+        "In patients with high rates of ASB (DM, ICU patients, patients with indwelling catheters, elderly patients, etc.) who develop clinical signs and symptoms of infection, be sure to consider alternative cause of infection and do not stop work up with urine testing."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aerobic gram-negative bacilli",
+        "Enterococcus sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment of ASB is NOT recommended in most patients since treatment of ASB does not offer clinical benefit.",
+        "Treatment of ASB is only recommended in pregnant women and in patients undergoing invasive urologic procedures. In patients where ASB is identified, treatment can be directed based on antibiotic susceptibilities and refer to section on UTI, cystitis.",
+        "When active, regimens to consider in pregnant women include Amoxicillin, Nitrofurantoin, oral Cephalosporin (TMP-SMX can be used in the second trimester) x 3-7 days. Avoid nitrofurantoin in 3rd trimester due to risk of hemolytic anemia in the newborn.",
+        "Confirmation of clearance of ASB is recommended in pregnant women."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA Guidelines on asymptomatic bacteriuria: Clin Infect Dis. 2019; 68:1611.",
+        "US Preventive Services Task Force Recommendations on Screening for Asymptomatic Bacteriuria in Adults: JAMA 2019;322:1188.",
+        "Clinical review of UTIs in older women: JAMA 311:844, 2014."
+      ]
+    }
+  ]
+}

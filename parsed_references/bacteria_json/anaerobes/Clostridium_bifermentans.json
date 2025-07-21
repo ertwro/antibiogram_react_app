@@ -1,0 +1,116 @@
+{
+  "_originalData": {
+    "aliases": [
+      "Clostridium bifermentans"
+    ],
+    "updated": "2024-05-09",
+    "clinical_setting": [
+      "Anaerobic infection caused by Clostridium bifermentans"
+    ],
+    "classification": [
+      "Anaerobic spore-forming Gram-positive bacillus"
+    ],
+    "primary_regimens": [
+      "Optimal regimen not defined, case reports only: in vitro susceptibilities similar to other Clostridium spp. (see Comments)"
+    ],
+    "alternative_regimens": [
+      "Not defined"
+    ],
+    "comments": [
+      "Case report of isolate susceptible to Amoxicillin-clavulanate, Cefoxitin, Clindamycin, Meropenem, Metronidazole, Penicillin (Can J Infect Dis Med Microbiol. 2015; 26: 105–107)."
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "aliases",
+      "updated",
+      "clinical_setting",
+      "classification",
+      "primary_regimens",
+      "alternative_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.255Z",
+    "sourceFormat": "legacy_cdiff"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": [
+        "Clostridium bifermentans"
+      ]
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinical_setting"
+    ],
+    "value": [
+      "Anaerobic infection caused by Clostridium bifermentans"
+    ]
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_cdiff",
+      "hasMixedContent": true,
+      "hasTaperingRegimens": false
+    },
+    "standardizedRegimens": [],
+    "narrativeTreatments": {
+      "primaryRegimens": {
+        "sources": [
+          "primary_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Optimal regimen not defined, case reports only: in vitro susceptibilities similar to other Clostridium spp. (see Comments)"
+        ]
+      },
+      "alternativeRegimens": {
+        "sources": [
+          "alternative_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Not defined"
+        ]
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "Case report of isolate susceptible to Amoxicillin-clavulanate, Cefoxitin, Clindamycin, Meropenem, Metronidazole, Penicillin (Can J Infect Dis Med Microbiol. 2015; 26: 105–107)."
+        ]
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "updated": "2024-05-09"
+    }
+  }
+}

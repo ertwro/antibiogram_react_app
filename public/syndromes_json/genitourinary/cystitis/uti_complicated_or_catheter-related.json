@@ -1,0 +1,251 @@
+{
+  "documentMetadata": {
+    "title": "Complicated Urinary Tract Infection or Catheter-related Infection",
+    "sourceFile": "UTI, Complicated or Catheter-related.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Complicated urinary tract infections (UTI): obstruction, reflux, azotemia, transplant.",
+        "Foley catheter-related infection. For catheter management, see Comment below.",
+        "Important to rule out obstruction."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterobacteriaceae",
+        "Pseudomonas aeruginosa",
+        "Enterococcus sp.",
+        "Staphylococcus aureus (rare), Clin Infect Dis 42:46, 2006"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "500 mg",
+                "route": "po",
+                "frequency": "bid"
+              },
+              {
+                "drug": "Ciprofloxacin extended release",
+                "dose": "1000 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q12h",
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "po/IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "If patient with systemic illness or high risk for multi-drug resistant organisms, consider alternative regimens below for empiric therapy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Specific therapy: based on bacterial speciation and drug susceptibility testing"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "if without signs or symptoms of systemic infection - fever, flank pain",
+        "components": [
+          {
+            "drug": "Nitrofurantoin (Macrobid)",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "If local prevalence of resistance to TMP/SMX is < 20%",
+        "components": [
+          {
+            "drug": "TMP-SMX-DS",
+            "dose": "1 tab",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If high risk for multi-drug resistant infection or systemic illness (see also Pyelonephritis):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ertapenem",
+                "dose": "1gm",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 4 hr"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ceftazidime-avibactam",
+                "dose": "2.5 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Plazomicin",
+                "dose": "15 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For tiered approach to prevent catheter-associated UTI : Ann Int Med 2019;171:S30",
+        "Duration of therapy: Recommended treatment in 7-14 days. If signs or symptoms of upper tract infection (fever, flank pain) treat for 14 days. Treat for 7 days for catheter-associated UTI if prompt resolution of symptoms, 10-14 days if delayed response; a 3-day course of therapy may be consider for women < 65 years of age (Clin Infect Dis 50:625, 2010)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Replacing catheters: For patients with concomitant chronic necessary Foley catheter, results of a prospective hospital based study indicates no benefit to replacing the bladder catheter (J Am Geriatr Soc 2018; 66:1779).",
+        "Special considerations:",
+        "Cephalosporins and Ertapenem are not predictably active vs. Enterococcus sp. or P. aeruginosa.",
+        "Ciprofloxacin is approved in children (age 1-17 yrs) as alternative but is not a first choice due to increased incidence of joint adverse effects.",
+        "Pediatrics dose: Ciprofloxacin 6-10 mg/kg (400 mg max) IV q8h or 10-20 mg/kg (750 mg max) po q12h.",
+        "See N Engl J Med 365:239, 2011 for recent review of diagnosis and treatment of pyelonephritis in children.",
+        "Reference: Clin Infect Dis 50:625, 2010 for IDSA guidelines."
+      ]
+    }
+  ]
+}

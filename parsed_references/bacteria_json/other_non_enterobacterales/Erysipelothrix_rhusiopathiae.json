@@ -1,0 +1,547 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Erysipelothrix rhusiopathiae",
+      "aliases": [],
+      "lastUpdated": "2021-08-31",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Pleomorphic rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Non-spore-forming"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive rod, catalase –, non-motile, microaerophilic, H2S production in TSI agar (a key feature for a Gram-positive rod)."
+    },
+    "clinicalProfile": {
+      "summary": "Erysipelothrix rhusiopathiae is a zoonotic bacterium that causes erysipeloid, a skin infection, in humans. It can also cause more severe systemic infections like bacteremia and endocarditis, particularly in immunocompromised individuals or those with occupational exposure.",
+      "pathophysiologyPearls": [
+        "Infection is typically acquired through direct contact with infected animals or animal products.",
+        "The organism enters the body through cuts or abrasions in the skin."
+      ],
+      "keySignsAndSymptoms": [
+        "Violaceous, well-demarcated skin lesion with raised borders (erysipeloid)",
+        "Itching and burning at the site of infection",
+        "Fever and chills (in systemic disease)",
+        "Joint pain",
+        "Symptoms of endocarditis (e.g., new murmur, embolic phenomena)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Erysipeloid",
+          "description": "A localized cutaneous infection, typically on the hands, characterized by a painful, purplish-red, slowly spreading lesion."
+        },
+        {
+          "syndromeName": "Diffuse Cutaneous Erysipeloid",
+          "description": "A more widespread skin infection, often accompanied by systemic symptoms like fever."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur, with or without a clear primary focus of infection."
+        },
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A serious complication that can occur in the setting of bacteremia."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Fishermen",
+        "Fish handlers",
+        "Butchers",
+        "Veterinarians",
+        "Abattoir workers"
+      ],
+      "transmissionVectors": [
+        "Direct contact with infected animals (especially fish and swine) or their products"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Vancomycin",
+          "notes": "Resistant."
+        },
+        {
+          "drugOrClass": "Antipseudomonal aminoglycosides",
+          "notes": "Resistant."
+        },
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Variable Susceptibility",
+          "details": "Not consistently active against macrolides, chloramphenicol, and tetracyclines."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Localized Skin Infection (Erysipeloid)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Skin"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin VK",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "QID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Amoxicillin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "TID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Cephalexin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "250",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Clindamycin",
+                      "dose": "300",
+                      "route": "PO",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Widespread Skin Infection or Bacteremia",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Skin, Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4 weeks or more",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "2-4 million units",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Imipenem-cilastatin",
+                      "dose": "500",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": "Other carbapenems are also active."
+                    },
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Culture of skin biopsy or aspirate, or blood cultures in systemic disease."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.330Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Erysipelothrix rhusiopathiae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2021-08-31"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Pleomorphic rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Non-spore-forming"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Erysipelothrix rhusiopathiae is a zoonotic bacterium that causes erysipeloid, a skin infection, in humans. It can also cause more severe systemic infections like bacteremia and endocarditis, particularly in immunocompromised individuals or those with occupational exposure.",
+      "pathophysiologyPearls": [
+        "Infection is typically acquired through direct contact with infected animals or animal products.",
+        "The organism enters the body through cuts or abrasions in the skin."
+      ],
+      "keySignsAndSymptoms": [
+        "Violaceous, well-demarcated skin lesion with raised borders (erysipeloid)",
+        "Itching and burning at the site of infection",
+        "Fever and chills (in systemic disease)",
+        "Joint pain",
+        "Symptoms of endocarditis (e.g., new murmur, embolic phenomena)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Erysipeloid",
+          "description": "A localized cutaneous infection, typically on the hands, characterized by a painful, purplish-red, slowly spreading lesion."
+        },
+        {
+          "syndromeName": "Diffuse Cutaneous Erysipeloid",
+          "description": "A more widespread skin infection, often accompanied by systemic symptoms like fever."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur, with or without a clear primary focus of infection."
+        },
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A serious complication that can occur in the setting of bacteremia."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Fishermen",
+        "Fish handlers",
+        "Butchers",
+        "Veterinarians",
+        "Abattoir workers"
+      ],
+      "transmissionVectors": [
+        "Direct contact with infected animals (especially fish and swine) or their products"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Vancomycin",
+          "notes": "Resistant."
+        },
+        {
+          "drugOrClass": "Antipseudomonal aminoglycosides",
+          "notes": "Resistant."
+        },
+        {
+          "drugOrClass": "TMP-SMX",
+          "notes": "Resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Variable Susceptibility",
+          "details": "Not consistently active against macrolides, chloramphenicol, and tetracyclines."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Localized Skin Infection (Erysipeloid)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin VK",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "QID",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Penicillin VK 500 PO QID"
+            },
+            {
+              "drugName": "Amoxicillin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "TID",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Amoxicillin 500 PO TID"
+            },
+            {
+              "drugName": "Cephalexin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "q6h",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Cephalexin 500 PO q6h"
+            },
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "250",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 250 PO BID"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Levofloxacin 750 PO daily"
+            },
+            {
+              "drugName": "Clindamycin",
+              "dose": "300",
+              "route": "PO",
+              "frequency": "q8h",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Clindamycin 300 PO q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Widespread Skin Infection or Bacteremia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "2-4 million units",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "4 weeks or more",
+              "comments": "",
+              "originalText": "Penicillin G 2-4 million units IV q4h"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "4 weeks or more",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 IV q24h"
+            },
+            {
+              "drugName": "Imipenem-cilastatin",
+              "dose": "500",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "4 weeks or more",
+              "comments": "Other carbapenems are also active.",
+              "originalText": "Imipenem-cilastatin 500 IV q6h"
+            },
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "4 weeks or more",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400 IV q12h"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "4 weeks or more",
+              "comments": "",
+              "originalText": "Levofloxacin 750 IV q24h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Culture of skin biopsy or aspirate, or blood cultures in systemic disease."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

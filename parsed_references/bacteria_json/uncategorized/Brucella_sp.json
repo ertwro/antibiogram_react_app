@@ -1,0 +1,1406 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Brucella sp.",
+      "aliases": [
+        "Brucellosis",
+        "Malta fever",
+        "Mediterranean fever",
+        "Undulant fever"
+      ],
+      "lastUpdated": "2023-09-12",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Slow growing"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Brucella melitensis",
+          "notes": ""
+        },
+        {
+          "type": "Species",
+          "value": "Brucella abortus",
+          "notes": ""
+        },
+        {
+          "type": "Species",
+          "value": "Brucella suis",
+          "notes": ""
+        },
+        {
+          "type": "Species",
+          "value": "Brucella canis",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-negative coccobacillus, aerobic, slow-growing, non-motile, catalase +, oxidase +, urease + (rapidly for B. suis and B. canis)."
+    },
+    "clinicalProfile": {
+      "summary": "Brucellosis is a zoonotic infection caused by Brucella species, typically transmitted through unpasteurized dairy or contact with infected animals. It presents with a wide range of symptoms, from a non-specific febrile illness to focal infections like osteoarticular disease, and rarely, endocarditis.",
+      "pathophysiologyPearls": [
+        "Brucella is an intracellular pathogen that can survive and replicate within phagocytic cells, leading to chronic and relapsing infections."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever (in 90% of cases, often undulant)",
+        "Malodorous perspiration (pathognomonic but uncommon)",
+        "Arthralgia and myalgia",
+        "Headache",
+        "Fatigue",
+        "Leukopenia and relative lymphocytosis",
+        "Mild hepatitis"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Febrile illness",
+          "description": "A non-specific presentation with fever, sweats, malaise, and anorexia."
+        },
+        {
+          "syndromeName": "Osteoarticular disease",
+          "description": "Occurs in 20-30% of cases, with sacroiliitis being a common manifestation."
+        },
+        {
+          "syndromeName": "Neurobrucellosis",
+          "description": "A rare but serious complication that can manifest as meningitis, encephalitis, or myelitis."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "A rare but life-threatening complication requiring both medical and surgical intervention."
+        }
+      ],
+      "highRiskPopulations": [
+        "Farmers, veterinarians, and slaughterhouse workers",
+        "Consumers of unpasteurized dairy products",
+        "Laboratory personnel working with Brucella cultures"
+      ],
+      "transmissionVectors": [
+        "Ingestion of unpasteurized dairy products",
+        "Direct contact with infected animals, their tissues, or secretions"
+      ],
+      "prognosisNotes": [
+        "Relapse rate after treatment is approximately 10%."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Rifampin",
+          "notes": "B. abortus strain RB51 is resistant to Rifampin."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Combination therapy is preferred to decrease the risk of relapse.",
+        "Prolonged duration of therapy is often necessary."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Surgery",
+          "condition": "Endocarditis",
+          "details": "Almost always required in addition to antibiotic therapy."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Non-localizing disease",
+            "patientPopulation": [
+              "Adults",
+              "Children > 8 years"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "600-900 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Non-localizing disease",
+            "patientPopulation": [
+              "Children < 8 years"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "6 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "5 mg/kg (TMP component)",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "15-20 mg/kg (max 900 mg/day)",
+                      "route": "PO",
+                      "frequency": "divided in one or two doses",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": ">= 12 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "600-900 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg",
+                      "route": "IM/IV",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": ">= 3 months",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "750 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "600-900 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "patientPopulation": [
+              "Children >= 8 years"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": ">= 12 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "4.4 mg/kg/day (max 200mg/day)",
+                      "route": "PO",
+                      "frequency": "in 2 divided doses",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "15-20 mg/kg/day (max 900mg/day)",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg",
+                      "route": "IV/IM",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "patientPopulation": [
+              "Children < 8 years"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": ">= 12 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "10 mg/kg/day TMP (max. 320 mg/day), 50 mg/kg/day SMX (max. 1.6 mg/day)",
+                      "route": "PO",
+                      "frequency": "in 2 divided doses",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "15-20 mg/kg/day (max. 900 mg/day)",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg",
+                      "route": "IV/IM",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Pregnancy (<36 weeks gestation)",
+            "patientPopulation": [
+              "Pregnant women"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "5 mg/kg of TMP component",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "600-900 mg",
+                      "route": "PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Pregnancy (>=36 weeks gestation)",
+            "patientPopulation": [
+              "Pregnant women"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Until delivery",
+                  "drugs": [
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "",
+                      "route": "",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Neurobrucellosis",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Until CSF is normal",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "600-900 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Endocarditis",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "6 weeks to 6 months",
+                  "drugs": [
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "",
+                      "route": "",
+                      "frequency": "",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "",
+                      "route": "",
+                      "frequency": "",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "",
+                      "route": "",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "2-4 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Almost always need surgery plus antibiotics."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Febrile illness with a history of exposure to unpasteurized dairy products or infected animals.",
+        "Osteoarticular infection, especially sacroiliitis."
+      ],
+      "methodologyNotes": [
+        "False negative serology can occur due to the prozone phenomenon."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Serology",
+          "trigger": "Clinical suspicion of brucellosis",
+          "purpose": "To detect antibodies against Brucella sp. All positive rapid serologies require confirmation with Brucella sp. specific agglutination."
+        },
+        {
+          "testName": "Bone marrow culture",
+          "trigger": "High clinical suspicion with negative blood cultures",
+          "purpose": "To isolate Brucella sp."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "When available and certified",
+          "purpose": "For sensitive and specific detection of Brucella DNA."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is made by a combination of clinical suspicion, serology, and culture or molecular methods.",
+        "biosafetyWarning": "Inform the laboratory of possible brucellosis to lower the risk of occupational exposure (BSL-3 practices recommended for culture).",
+        "methods": [
+          {
+            "methodName": "Serology",
+            "details": "Remains a useful diagnostic tool, especially in resource-limited settings. Confirmation of positive rapid tests is necessary."
+          },
+          {
+            "methodName": "Culture",
+            "details": "Blood and bone marrow cultures can be positive, but growth is slow."
+          },
+          {
+            "methodName": "NAAT",
+            "details": "PCR and 16S rRNA gene sequencing are the most sensitive and specific methods when available."
+          }
+        ]
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Prophylaxis",
+          "details": "Post-exposure prophylaxis with Doxycycline + Rifampin for 3 weeks is recommended after laboratory exposure. If B. abortus strain RB51 is suspected, use Doxycycline alone. If Doxycycline is not tolerated or in pregnancy, use TMP-SMX with or without Rifampin.",
+          "targetPopulation": "Laboratory personnel with exposure to Brucella."
+        }
+      ],
+      "treatmentLifecycle": [
+        {
+          "topic": "Test of Cure",
+          "details": "Antibody testing of exposed personnel via State labs or CDC at 2, 4, 6 and 24 weeks. Note the poor antibody response to B. abortus strain RB51."
+        }
+      ],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "CDC",
+          "citation": "",
+          "summaryOrNote": "CDC guidance on Brucella infections in humans."
+        },
+        {
+          "source": "Antimicrob Agents Chemother",
+          "citation": "58:7541, 2014",
+          "summaryOrNote": "Observational study reports higher frequency (p 0.026) of clearance of Brucella DNA from whole blood with triple therapy: (Gentamicin or Streptomycin) + Doxycycline + Rifampin."
+        },
+        {
+          "source": "N Engl J Med",
+          "citation": "352:2325, 2005",
+          "summaryOrNote": "Brucellosis review."
+        },
+        {
+          "source": "PLoS One",
+          "citation": "7:e32090, 2012",
+          "summaryOrNote": "Brucellosis review."
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "56:1407, 2013",
+          "summaryOrNote": "Brucellosis review."
+        },
+        {
+          "source": "MMWR",
+          "citation": "61:461, 2012",
+          "summaryOrNote": "Refs for arthritis."
+        },
+        {
+          "source": "Clin Micro Rev",
+          "citation": "2019;33: e00073",
+          "summaryOrNote": "Reference for diagnosis."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.365Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Brucella sp."
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Brucellosis",
+        "Malta fever",
+        "Mediterranean fever",
+        "Undulant fever"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-09-12"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Slow growing"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Brucellosis is a zoonotic infection caused by Brucella species, typically transmitted through unpasteurized dairy or contact with infected animals. It presents with a wide range of symptoms, from a non-specific febrile illness to focal infections like osteoarticular disease, and rarely, endocarditis.",
+      "pathophysiologyPearls": [
+        "Brucella is an intracellular pathogen that can survive and replicate within phagocytic cells, leading to chronic and relapsing infections."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever (in 90% of cases, often undulant)",
+        "Malodorous perspiration (pathognomonic but uncommon)",
+        "Arthralgia and myalgia",
+        "Headache",
+        "Fatigue",
+        "Leukopenia and relative lymphocytosis",
+        "Mild hepatitis"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Febrile illness",
+          "description": "A non-specific presentation with fever, sweats, malaise, and anorexia."
+        },
+        {
+          "syndromeName": "Osteoarticular disease",
+          "description": "Occurs in 20-30% of cases, with sacroiliitis being a common manifestation."
+        },
+        {
+          "syndromeName": "Neurobrucellosis",
+          "description": "A rare but serious complication that can manifest as meningitis, encephalitis, or myelitis."
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "A rare but life-threatening complication requiring both medical and surgical intervention."
+        }
+      ],
+      "highRiskPopulations": [
+        "Farmers, veterinarians, and slaughterhouse workers",
+        "Consumers of unpasteurized dairy products",
+        "Laboratory personnel working with Brucella cultures"
+      ],
+      "transmissionVectors": [
+        "Ingestion of unpasteurized dairy products",
+        "Direct contact with infected animals, their tissues, or secretions"
+      ],
+      "prognosisNotes": [
+        "Relapse rate after treatment is approximately 10%."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Rifampin",
+          "notes": "B. abortus strain RB51 is resistant to Rifampin."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Non-localizing disease",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children > 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "6 weeks",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-0-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Non-localizing disease",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children > 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Gentamicin 5 mg/kg IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Non-localizing disease",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children > 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "6 weeks",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg PO BID"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "600-900 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "6 weeks",
+              "comments": "",
+              "originalText": "Rifampin 600-900 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Non-localizing disease",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "5 mg/kg (TMP component)",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "6 weeks",
+              "comments": "",
+              "originalText": "TMP-SMX 5 mg/kg (TMP component) PO q12h"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "15-20 mg/kg (max 900 mg/day)",
+              "route": "PO",
+              "frequency": "divided in one or two doses",
+              "duration": "6 weeks",
+              "comments": "",
+              "originalText": "Rifampin 15-20 mg/kg (max 900 mg/day) PO divided in one or two doses"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": ">= 12 weeks",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg PO BID"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "600-900 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": ">= 12 weeks",
+              "comments": "",
+              "originalText": "Rifampin 600-900 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-1",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg",
+              "route": "IM/IV",
+              "frequency": "once daily",
+              "duration": "7-14 days",
+              "comments": "",
+              "originalText": "Gentamicin 5 mg/kg IM/IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-1-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "750 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": ">= 3 months",
+              "comments": "",
+              "originalText": "Ciprofloxacin 750 mg PO BID"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "600-900 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": ">= 3 months",
+              "comments": "",
+              "originalText": "Rifampin 600-900 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-0-0",
+          "extractedFrom": "treatment.regimens[3].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children >= 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "4.4 mg/kg/day (max 200mg/day)",
+              "route": "PO",
+              "frequency": "in 2 divided doses",
+              "duration": ">= 12 weeks",
+              "comments": "",
+              "originalText": "Doxycycline 4.4 mg/kg/day (max 200mg/day) PO in 2 divided doses"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "15-20 mg/kg/day (max 900mg/day)",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": ">= 12 weeks",
+              "comments": "",
+              "originalText": "Rifampin 15-20 mg/kg/day (max 900mg/day) PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-3-0-1",
+          "extractedFrom": "treatment.regimens[3].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children >= 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg",
+              "route": "IV/IM",
+              "frequency": "once daily",
+              "duration": "7-14 days",
+              "comments": "",
+              "originalText": "Gentamicin 5 mg/kg IV/IM once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-4-0-0",
+          "extractedFrom": "treatment.regimens[4].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "10 mg/kg/day TMP (max. 320 mg/day), 50 mg/kg/day SMX (max. 1.6 mg/day)",
+              "route": "PO",
+              "frequency": "in 2 divided doses",
+              "duration": ">= 12 weeks",
+              "comments": "",
+              "originalText": "TMP-SMX 10 mg/kg/day TMP (max. 320 mg/day), 50 mg/kg/day SMX (max. 1.6 mg/day) PO in 2 divided doses"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "15-20 mg/kg/day (max. 900 mg/day)",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": ">= 12 weeks",
+              "comments": "",
+              "originalText": "Rifampin 15-20 mg/kg/day (max. 900 mg/day) PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-4-0-1",
+          "extractedFrom": "treatment.regimens[4].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Spondylitis/Sacroiliitis/Arthritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 8 years"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg",
+              "route": "IV/IM",
+              "frequency": "once daily",
+              "duration": "7-14 days",
+              "comments": "",
+              "originalText": "Gentamicin 5 mg/kg IV/IM once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-5-0-0",
+          "extractedFrom": "treatment.regimens[5].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Pregnancy (<36 weeks gestation)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Pregnant women"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "5 mg/kg of TMP component",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "4 weeks",
+              "comments": "",
+              "originalText": "TMP-SMX 5 mg/kg of TMP component PO BID"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "600-900 mg",
+              "route": "PO",
+              "frequency": "q24h",
+              "duration": "4 weeks",
+              "comments": "",
+              "originalText": "Rifampin 600-900 mg PO q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-6-0-0",
+          "extractedFrom": "treatment.regimens[6].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Pregnancy (>=36 weeks gestation)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Pregnant women"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Rifampin",
+              "dose": "",
+              "route": "",
+              "frequency": "",
+              "duration": "Until delivery",
+              "comments": "",
+              "originalText": "Rifampin   "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-7-0-0",
+          "extractedFrom": "treatment.regimens[7].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Neurobrucellosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "BID",
+              "duration": "Until CSF is normal",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg IV/PO BID"
+            },
+            {
+              "drugName": "Rifampin",
+              "dose": "600-900 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "Until CSF is normal",
+              "comments": "",
+              "originalText": "Rifampin 600-900 mg PO once daily"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Until CSF is normal",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-8-0-0",
+          "extractedFrom": "treatment.regimens[8].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Rifampin",
+              "dose": "",
+              "route": "",
+              "frequency": "",
+              "duration": "6 weeks to 6 months",
+              "comments": "",
+              "originalText": "Rifampin   "
+            },
+            {
+              "drugName": "Doxycycline",
+              "dose": "",
+              "route": "",
+              "frequency": "",
+              "duration": "6 weeks to 6 months",
+              "comments": "",
+              "originalText": "Doxycycline   "
+            },
+            {
+              "drugName": "TMP-SMX",
+              "dose": "",
+              "route": "",
+              "frequency": "",
+              "duration": "6 weeks to 6 months",
+              "comments": "",
+              "originalText": "TMP-SMX   "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-8-0-1",
+          "extractedFrom": "treatment.regimens[8].recommendations[0].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "2-4 weeks",
+              "comments": "",
+              "originalText": "Gentamicin 5 mg/kg IV once daily"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Febrile illness with a history of exposure to unpasteurized dairy products or infected animals.",
+        "Osteoarticular infection, especially sacroiliitis."
+      ],
+      "methodologyNotes": [
+        "False negative serology can occur due to the prozone phenomenon."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Serology",
+          "trigger": "Clinical suspicion of brucellosis",
+          "purpose": "To detect antibodies against Brucella sp. All positive rapid serologies require confirmation with Brucella sp. specific agglutination."
+        },
+        {
+          "testName": "Bone marrow culture",
+          "trigger": "High clinical suspicion with negative blood cultures",
+          "purpose": "To isolate Brucella sp."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "When available and certified",
+          "purpose": "For sensitive and specific detection of Brucella DNA."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

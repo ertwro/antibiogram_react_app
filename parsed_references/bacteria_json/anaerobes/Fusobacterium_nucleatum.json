@@ -1,0 +1,213 @@
+{
+  "_originalData": {
+    "title": "Fusobacterium nucleatum",
+    "lastUpdated": "Apr 29, 2024",
+    "clinicalInfo": {
+      "setting": "Positive lab result",
+      "notes": [
+        "Oral and gastrointestinal flora. Rare cause of liver and other abscesses. Often polymicrobial; linked to gastrointestinal cancers."
+      ]
+    },
+    "classification": {
+      "description": "Anaerobic gram-negative rod"
+    },
+    "regimens": {
+      "primary": {
+        "title": "Typically susceptible to",
+        "options": [
+          "Penicillin",
+          "Clindamycin",
+          "Metronidazole"
+        ]
+      },
+      "alternative": {
+        "options": [
+          "A carbapenem"
+        ]
+      }
+    },
+    "comments": [
+      "See Eur J Clin Microbiol Infect Dis. 2024;43:423 for typical antimicrobial susceptibilities."
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "lastUpdated",
+      "clinicalInfo",
+      "classification",
+      "regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:45:00.000Z",
+    "sourceFormat": "legacy_reference"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": ["title"],
+      "value": "Fusobacterium nucleatum"
+    },
+    "aliases": {
+      "sources": ["aliases"],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": ["lastUpdated"],
+      "value": "Apr 29, 2024"
+    },
+    "classification": {
+      "sources": ["classification"],
+      "value": {
+        "description": "Anaerobic gram-negative rod"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "summary": {
+      "sources": ["clinicalInfo.notes"],
+      "value": "Oral and gastrointestinal flora. Rare cause of liver and other abscesses. Often polymicrobial; linked to gastrointestinal cancers."
+    },
+    "clinicalSetting": {
+      "sources": ["clinicalInfo"],
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "setting": "Positive lab result",
+          "notes": [
+            "Oral and gastrointestinal flora. Rare cause of liver and other abscesses. Often polymicrobial; linked to gastrointestinal cancers."
+          ]
+        }
+      }
+    }
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_reference",
+      "hasSusceptibilityOptions": true,
+      "hasOptionsArray": true
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "primary-penicillin",
+        "extractedFrom": "regimens.primary.options[0]",
+        "context": {
+          "type": "directed",
+          "condition": "Typical susceptibility - Primary option",
+          "note": "Typically susceptible to"
+        },
+        "preference": "primary",
+        "strategy": "monotherapy",
+        "drugs": [
+          {
+            "drugName": "Penicillin",
+            "originalText": "Penicillin",
+            "susceptibilityNote": "Typically susceptible"
+          }
+        ],
+        "originalFormat": {
+          "type": "susceptibility_option",
+          "preservedContent": "Penicillin"
+        }
+      },
+      {
+        "regimenId": "primary-clindamycin",
+        "extractedFrom": "regimens.primary.options[1]",
+        "context": {
+          "type": "directed",
+          "condition": "Typical susceptibility - Primary option",
+          "note": "Typically susceptible to"
+        },
+        "preference": "primary",
+        "strategy": "monotherapy",
+        "drugs": [
+          {
+            "drugName": "Clindamycin",
+            "originalText": "Clindamycin",
+            "susceptibilityNote": "Typically susceptible"
+          }
+        ],
+        "originalFormat": {
+          "type": "susceptibility_option",
+          "preservedContent": "Clindamycin"
+        }
+      },
+      {
+        "regimenId": "primary-metronidazole",
+        "extractedFrom": "regimens.primary.options[2]",
+        "context": {
+          "type": "directed",
+          "condition": "Typical susceptibility - Primary option",
+          "note": "Typically susceptible to"
+        },
+        "preference": "primary",
+        "strategy": "monotherapy",
+        "drugs": [
+          {
+            "drugName": "Metronidazole",
+            "originalText": "Metronidazole",
+            "susceptibilityNote": "Typically susceptible"
+          }
+        ],
+        "originalFormat": {
+          "type": "susceptibility_option",
+          "preservedContent": "Metronidazole"
+        }
+      },
+      {
+        "regimenId": "alternative-carbapenem",
+        "extractedFrom": "regimens.alternative.options[0]",
+        "context": {
+          "type": "directed",
+          "condition": "Alternative treatment option"
+        },
+        "preference": "alternative",
+        "strategy": "monotherapy",
+        "drugs": [
+          {
+            "drugName": "Carbapenem",
+            "drugClass": "Carbapenem antibiotics",
+            "originalText": "A carbapenem",
+            "note": "Any carbapenem antibiotic"
+          }
+        ],
+        "originalFormat": {
+          "type": "drug_class_option",
+          "preservedContent": "A carbapenem"
+        }
+      }
+    ],
+    "referenceBasedTreatments": {
+      "primaryRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "title": "Typically susceptible to",
+          "options": [
+            "Penicillin",
+            "Clindamycin",
+            "Metronidazole"
+          ]
+        }
+      },
+      "alternativeRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "options": [
+            "A carbapenem"
+          ]
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "comments": {
+      "sources": ["comments"],
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "See Eur J Clin Microbiol Infect Dis. 2024;43:423 for typical antimicrobial susceptibilities."
+        ]
+      }
+    },
+    "allOtherKeys": {}
+  }
+}

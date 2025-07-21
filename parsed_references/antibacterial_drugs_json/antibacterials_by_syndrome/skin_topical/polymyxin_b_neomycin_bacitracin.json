@@ -1,0 +1,47 @@
+
+{
+  "drug_name": "Bacitracin, Polymyxin B, Neomycin",
+  "tradename": "Baciguent, Polysporin, Neosporin",
+  "drug_shortage_information": [
+    {
+      "prep": "Bacitracin oph oint 500 u/gm",
+      "started_at": "2024-09-12",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "description": "Topical antibacterials used to treat mild skin infections. Various ointment preparations: Bacitracin (complexed with zinc to improve stability), Bacitracin + Polymyxin B, Bacitracin + Polymyxin B + Neomycin (referred to as triple-antibiotic ointment). All three of above available without a prescription. Bacitracin is active against staphylococci, streptococci, and Clostridium species. Polymyxin B is active against aerobic Gram-negative bacteria but not Proteus sp., Serratia sp. Not active vs. Gram-positive bacteria. Neomycin is active vs. Gram-negative bacteria and staphylococci. Not active vs. streptococci. Triple-antibiotic ointments have broader spectrum than mupirocin alone and may be active against mupirocin-resistant strains (Diag Micro Inf Dis 54:63, 2006). The USA300 clone of CA-MRSA (community-acquired methicillin-resistant Staph. aureus) has been found resistant to both neomycin and bacitracin in 50% of 18 isolates (Emerg Infect Dis 17:1917, 2011); also deficient MRSA bactericidal activity in time-kill studies (J Antimicrob Chemo 62:769, 2008).",
+    "adult_dose": [
+      {
+        "drug": "Bacitracin",
+        "dose": "Bacitracin zinc 500 units/gm. Apply 1-3x per day to affected area"
+      },
+      {
+        "drug": "Bacitracin + Polymyxin B (Polysporin)",
+        "dose": "Bacitracin zinc 500 units/gm, Polymyxin B 10,000 ur. Apply 1-3x per day to affected area"
+      },
+      {
+        "drug": "Bacitracin + Polymyxin B + Neomycin (Neosporin)",
+        "dose": "Bacitracin zinc 400 units/gm, Polymyxin B 5000 unit. Apply 1-3x per day to affected area"
+      }
+    ],
+    "pediatric_dose": "As above for adults"
+  },
+  "renal_adjustment": "N/A",
+  "hepatic_adjustment": "N/A",
+  "adverse_effects": {
+    "bacitracin": "Contact dermatitis incidence 9.2% (Infect Dis Clin N Am 18:717, 2004). Risk of anaphylaxis if sensitized.",
+    "neomycin": "Contact dermatitis incidence 1%; risk of nephro- & ototoxicity if absorbed."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Mild skin infections"
+    ],
+    "alternative": []
+  },
+  "pharmacology": "No data",
+  "major_drug_interactions": "N/A",
+  "comments": [
+    "Reviews: Clin Infect Dis 49:1541, 2009, Clin Micro Rev 30(3): 827, 2017."
+  ]
+}

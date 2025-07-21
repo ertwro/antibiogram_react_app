@@ -1,0 +1,204 @@
+{
+  "documentMetadata": {
+    "title": "Amnionitis, Chorioamnionitis, Septic Abortion",
+    "lastUpdated": "2025-01-07",
+    "sourceFile": "Amnionitis, Chorioamnionitis, Septic Abortion.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Amnionitis, septic abortion.",
+        "Indication for dilation and curettage (D & C) of uterus.",
+        "Culture amniotic fluid and blood; hopefully culture results will allow early switch from empiric to specific (directed) therapy.",
+        "Some use NAATs to screen for the presence of C. trachomatis and/or N. gonorrhoeae.",
+        "Ureaplasma sp./Mycoplasma sp. may be pathogenic but not detected with routine culture.",
+        "Chorioamnionitis (Intraamniotic infection)",
+        "Based on clinical findings alone.",
+        "There are no controlled randomized treatment trials. Following recommendations are based on known in vitro susceptibilities of frequent pathogens, observational data, and expert opinions:",
+        "As such, our opinions may differ from that of the American College of Obstetrics and Gynecology (Obst & Gyn 2017;130: 490)",
+        "Pertinent refs: Cochrane Database of Systematic Reviews (12) CD010976, 2014 Dec.19.; Review: Frontiers in Pharmacol 2017;8:97(PMID:28352229)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacteroides sp., especially Prevotella bivia",
+        "Streptococcus sp. (Groups A, B)",
+        "Enterobacteriaceae",
+        "Chlamydia trachomatis",
+        "Ureaplasma urealyticum (less common)",
+        "Mycoplasma sp"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "notes": "over 4 hr, see drug page for comment on loading dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If critically ill",
+        "components": [
+          {
+            "drug": "Meropenem",
+            "dose": "1-2 gm",
+            "route": "IV",
+            "notes": "loading dose, then 0.5-1 gm IV q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Other potential empiric regimens:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Doripenem",
+                "dose": "500 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Imipenem",
+                "dose": "0.5 gm",
+                "route": "IV",
+                "frequency": "q6h",
+                "connector": "or"
+              },
+              {
+                "drug": "Ertapenem",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ],
+            "notes": "NAI"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Ampicillin-sulbactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ],
+            "notes": "up to 50% of E.coli are now resistant in some locations"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "900 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ],
+            "notes": "NOTE: one-third of Group B streptococci are resistant to Clindamycin"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "If NAAT is positive for C. trachomatis, Ureaplasma, or Mycoplasma, add Doxycycline 100 mg IV q12h"
+        },
+        {
+          "type": "paragraph",
+          "text": "After discharge: Doxycycline or continue Clindamycin for C. trachomatis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IV Clindamycin is effective for C. trachomatis, but not sure about efficacy of doses used orally.",
+        "See Comment regarding avoidance of Ampicillin + Gentamicin + Clindamycin"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "American College of Obstetricians and Gynecologists (Obst & Gyn 2017;130:490) opinion summary of suggested management of amnionitis with ampicillin + gentamicin + clindamycin",
+        "We are concerned by the ever increasing resistance of Enterobacteriaceae to early-generation beta lactams and aminoglycosides",
+        "Avoidance, if possible, of the inherent risk of nephrotoxicity and ototoxicity with the use of aminoglycosides",
+        "Increasing resistance of anaerobic gram negative pathogens to clindamycin",
+        "Absence of any controlled comparative clinical trials of various treatment regimens",
+        "In septic abortion, C. perfringens may cause fulminant intravascular hemolysis.",
+        "In postpartum patients with enigmatic fever and/or pulmonary emboli, consider septic pelvic vein thrombophlebitis.",
+        "NAI = not an FDA-approved indication."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Wound Infection, Post-Operative, Positive Gram Stain",
+  "updates": [
+    {
+      "date": "2022-04-07",
+      "content": {}
+    }
+  ],
+  "clinical_setting": "Empiric therapy for post-operative wound infection with positive gram stain for gram-positive cocci, culture result pending.",
+  "etiologies": [
+    "Staphylococcus aureus (MSSA, MRSA)"
+  ],
+  "primary_regimens": [
+    {
+      "drug": "TMP-SMX-DS",
+      "dosage": "1-2 tabs po bid",
+      "notes": "Open and drain the wound"
+    },
+    {
+      "drug": "Clindamycin",
+      "dosage": "300–450 mg po tid"
+    },
+    {
+      "drug": "Vancomycin",
+      "dosage": "15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 µg/mL"
+    },
+    {
+      "drug": "Daptomycin",
+      "dosage": "(4 mg/kg IV q24h or 6 mg/kg IV q24h)"
+    },
+    {
+      "drug": "Ceftaroline",
+      "dosage": "600 mg IV q12h"
+    }
+  ],
+  "alternative_regimens": [
+    {
+      "drug": "Minocycline",
+      "dosage": "100 mg po q12h"
+    },
+    {
+      "drug": "Doxycycline",
+      "dosage": "100 mg po bid"
+    },
+    {
+      "drug": "Linezolid",
+      "dosage": "600 mg po q12h"
+    },
+    {
+      "drug": "Telavancin",
+      "dosage": "10 mg/kg IV q24h"
+    }
+  ],
+  "antimicrobial_stewardship": [
+    "In randomized trial of TMP-SMX and Clindamycin both regimens efficacious, but fewer recurrences with Clindamycin: Clin Infect Dis 62:1505, 2016",
+    "If S. aureus is Clindamycin-sensitive but Erythromycin-resistant, watch out for inducible Clindamycin resistance."
+  ],
+  "comments": [
+    "Based on a 2011 global survey of ~ 5,000 S. aureus isolates, for MSSA approx. 94% were susceptible to Tetracycline and >98% were susceptible to minocycline. For MRSA, approx. 85% were susceptible to Tetracycline, and 88.3% (by Eucast breakpoint) or 97.2% (by CLSI breakpoint) were susceptible to Minocycline (Diag Microbiol Infect Dis 75:402, 2013).",
+    "Avoid Telavancin in pregnancy; potential for fetal risk."
+  ]
+}

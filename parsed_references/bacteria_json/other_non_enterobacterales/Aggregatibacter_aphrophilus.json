@@ -1,0 +1,302 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Aggregatibacter aphrophilus",
+      "aliases": [],
+      "lastUpdated": "2023-04-12",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Member of the HACEK group of organisms"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative coccobacillus, facultative anaerobe, catalase –, oxidase –, does not require X or V factors, ferments glucose, maltose, sucrose, and lactose."
+    },
+    "clinicalProfile": {
+      "summary": "Aggregatibacter aphrophilus is a fastidious gram-negative coccobacillus and a member of the HACEK group. It is a rare cause of infective endocarditis and can also cause other infections such as sinusitis, brain abscesses, and osteomyelitis.",
+      "pathophysiologyPearls": [
+        "Colonizes the human respiratory tract.",
+        "Can cause endocarditis on both native and prosthetic valves.",
+        "Infections often occur in patients with underlying cardiac conditions or other comorbidities."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Heart murmur",
+        "Embolic phenomena",
+        "Symptoms related to the site of infection (e.g., headache, focal neurological deficits)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A rare but important cause of culture-negative or slow-growing endocarditis."
+        },
+        {
+          "syndromeName": "Brain Abscess",
+          "description": "Can occur, often in association with endocarditis or sinusitis."
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": "Has been reported as a rare manifestation."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with pre-existing valvular heart disease",
+        "Immunocompromised patients"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment recommendations are largely based on case series and expert opinion due to the rarity of infections.",
+        "Ceftriaxone is generally the drug of choice.",
+        "Consultation with an infectious diseases specialist is recommended."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Infective Endocarditis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4 weeks (native valve) or 6 weeks (prosthetic valve)",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood cultures should be held for an extended period (at least 2 weeks) if HACEK organisms are suspected."
+      ],
+      "methodologyNotes": [
+        "Grows slowly on standard culture media."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.323Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Aggregatibacter aphrophilus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-04-12"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Member of the HACEK group of organisms"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Aggregatibacter aphrophilus is a fastidious gram-negative coccobacillus and a member of the HACEK group. It is a rare cause of infective endocarditis and can also cause other infections such as sinusitis, brain abscesses, and osteomyelitis.",
+      "pathophysiologyPearls": [
+        "Colonizes the human respiratory tract.",
+        "Can cause endocarditis on both native and prosthetic valves.",
+        "Infections often occur in patients with underlying cardiac conditions or other comorbidities."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Heart murmur",
+        "Embolic phenomena",
+        "Symptoms related to the site of infection (e.g., headache, focal neurological deficits)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Infective Endocarditis",
+          "description": "A rare but important cause of culture-negative or slow-growing endocarditis."
+        },
+        {
+          "syndromeName": "Brain Abscess",
+          "description": "Can occur, often in association with endocarditis or sinusitis."
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": "Has been reported as a rare manifestation."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with pre-existing valvular heart disease",
+        "Immunocompromised patients"
+      ],
+      "transmissionVectors": [
+        "Endogenous flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Infective Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "4 weeks (native valve) or 6 weeks (prosthetic valve)",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 IV daily"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood cultures should be held for an extended period (at least 2 weeks) if HACEK organisms are suspected."
+      ],
+      "methodologyNotes": [
+        "Grows slowly on standard culture media."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

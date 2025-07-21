@@ -1,0 +1,76 @@
+{
+  "documentMetadata": {
+    "title": "Puncture Wound, Foot",
+    "lastUpdated": "2025-02-10",
+    "sourceFile": "Puncture Wound, Foot.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Puncture wound to foot from sharp pointed object, e.g., nail or a toothpick",
+        "Osteomyelitis evolves in only 1-2% of plantar puncture wounds.",
+        "Risk factors for infection",
+        "Diabetes",
+        "Deep puncture wound",
+        "Retained foreign body",
+        "Wound contamination with organic matter"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "P. aeruginosa (more common in non-diabetics than diabetics; children)",
+        "Staph. aureus, Streptococcus sp., mixed flora (particularly in diabetics)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cleanse wound",
+        "Consider X-ray or ultrasound to exclude presence of foreign body",
+        "Tetanus booster (if due; other tetanus prevention steps as appropriate)",
+        "Observe for evidence of infection, treat based on culture results (see Comments)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Role of prophylactic antibiotics unclear and these are not routinely recommended, but may be considered for those with risk factors for infection.",
+        "Reference: J Am Podiatr Med Assoc. 2020 Nov 2;20-206.",
+        "Outcomes of puncture wound infections in diabetics and non-diabetics: diabetics do worse (J Foot Ankle Surg. 2019; 58:1064-1066)."
+      ]
+    }
+  ]
+}

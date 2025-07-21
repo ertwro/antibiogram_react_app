@@ -1,0 +1,71 @@
+{
+  "documentMetadata": {
+    "title": "Gangrene, Muscle",
+    "lastUpdated": "2021-08-31",
+    "sourceFile": "Gangrene, Muscle.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gas gangrene, myonecrosis; usually contaminated traumatic wound infection.",
+        "Can also occur spontaneously without trauma.",
+        "Rarely a marker for occult gastrointestinal malignancy.",
+        "Surgical debridement is the primary therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "C. perfringens",
+        "Other histotoxic Clostridium sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical debridement + (Clindamycin 900 mg IV q8h) + (Penicillin G 24 million units/day divided q4-6h IV)",
+        "Hyperbaric oxygen is adjunctive and efficacy debated. Probably worthwhile, if easily available, but always after surgical debridement and antibiotic therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ceftriaxone 2 gm IV q12h or Erythromycin 1 gm q6h IV (not by bolus)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clindamycin is given to decrease toxin production.",
+        "IDSA guidelines: Clin Infect Dis 59: 147, 2014",
+        "Potential alternatives (in vitro data): tetracycline, erythromycin, chloramphenicol, and metronidazole"
+      ]
+    }
+  ]
+}

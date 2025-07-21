@@ -1,0 +1,98 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound: horse",
+    "sourceFile": "Bite_ Horse.pdf",
+    "lastUpdated": "2024-05-24"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound: horse. Pathogens may include normal oral flora of animal, organisms from recently consumed food remaining in mouth, or from skin of person bitten inoculated into wound.",
+        "Oral flora from horses include Actinobacillus spp., Pasteurella spp., and anaerobes among others."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Actinobacillus lignieresii, A. equili, A. suis",
+        "Pasteurella caballi, P. multocida",
+        "Neisseria spp.",
+        "Prevotella spp. and other anaerobes",
+        "Staphylococcus aureus and streptococci",
+        "Enterobacteriaceae",
+        "B. fragilis",
+        "Campylobacter ureolyticus",
+        "Yersinia spp.",
+        "Nipah virus /Hendra virus (Australia only)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Horse bites may be associated with significant tissue injury. Wound irrigation and debridement useful (Plast Reconstruct Surg 125: 251e, 2010)",
+        "Administer tetanus and consider rabies prophylaxis as appropriate.",
+        "Bites caused by livestock, almost never require initiation of PEP.",
+        "Consultation with local public health is advised. U.S. State by State rabies points of contact https://www.cdc.gov/rabies/resources/contacts.html",
+        "Infections often polymicrobial; culturing wound can reveal target organisms on which to base definitive antimicrobial therapy if required.",
+        "Parenteral antibiotic therapy may be necessary for wounds that are already severely infected; consider blood cultures for severe wounds/admitted patients.",
+        "Case report of Streptococcus equi subsp zooepidemicus bacteremia,meningitis and brain abscess after horse bite (Lancet 376: 1194, 2010)",
+        "Case report of Staphylococcus hyicus subsp hyicus after donkey bite (Scan J Infect Dis 29: 95, 1997)",
+        "Microbiology of bite wound infections (Clin Microbiol Rev 24: 231, 2011)"
+      ]
+    }
+  ]
+}

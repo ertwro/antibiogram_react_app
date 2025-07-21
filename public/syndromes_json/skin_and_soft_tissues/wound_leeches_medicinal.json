@@ -1,0 +1,88 @@
+{
+  "documentMetadata": {
+    "title": "Wound, Leeches, Medicinal",
+    "lastUpdated": "2021-09-13",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Wound, Leeches, Medicinal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Complication of medicinal use of leeches to debride wounds.",
+        "Wound infection from Aeromonas hydrophila found in the intestinal tract of leeches."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aeromonas hydrophila"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg po or 400 mg IV",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Parenteral cephalosporin (3rd Gen)"
+          }
+        ],
+        "notes": "Choice of alternative agents based on susceptibility testing. Aeromonas sp. universally resistant to ampicillin, penicillin and cefazolin"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "TMP-SMX DS",
+            "dose": "1 tab",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Some use prophylactic antibiotics when leeches are used medicinally, but not universally accepted as necessary. Some base this on periodic microbiologic sampling of leech tank fluid (Eur J Clin Microbiol Infect Dis 35:1001, 2016)",
+        "Cellulitis due to Ciprofloxacin-resistant Aeromonas hydrophila from medicinal leech use has been described, J Clin Microbiol 51:1324, 2013.",
+        "Other organisms such as Vibrio spp. have been encountered, Clin Infect Dis 22:709, 1996.",
+        "Other reference, Clin Infect Dis 35:E1, 2002."
+      ]
+    }
+  ]
+}

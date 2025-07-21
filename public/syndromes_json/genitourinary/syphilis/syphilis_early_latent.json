@@ -1,0 +1,135 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, Early Latent",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, Early Latent.pdf",
+    "lastUpdated": "2022-08-31"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Latent syphilis infection less than one year duration.",
+        "Remember: chancre is painless"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Benzathine Penicillin G (Bicillin L-A)",
+            "dose": "2.4 million units",
+            "route": "IM",
+            "frequency": "x 1 dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Tetracycline",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "qid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1 gm",
+            "route": "IM/IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "though exact duration and dose unclear"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "European 2020 Syphilis Guidelines recommend Procaine penicillin 600 000 units IM daily for 10-14 days, if benzathine not available.",
+        "Follow-up is mandatory.",
+        "Pregnancy: all should be treated with Penicillin; If penicillin-allergic, the patient should be desensitized. See Methods for Penicillin Desensitization."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Azithromycin non-inferior to penicillin (J Infect Dis 201:1729, 2010). However, due to emerging resistant T. pallidum (New Engl J Med 351:154, 2004; Antimicrob Agents Chemother 54:583, 2010) no longer recommended in latest CDC 2021 guidelines."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Penicillin allergy: Method for Penicillin desensitization.",
+        "Test all patients with syphilis for HIV and all HIV patients for syphilis.",
+        "Treatment the same for HIV patients with syphilis as non-HIV patients with syphilis.",
+        "Perform quantitative nontreptonemal test (VDRL or RPR) at 0, 3, 6, 12 and 24 months after treatment: expect 2 tubes decrease titer (4-fold) at 12 months.",
+        "Current 2021 CDC recommendations no longer recommend to examine CSF if titers fail to fall 4-fold, rather to follow titers and neurological exam.",
+        "Syphilis references: JAMA 312: 1905, 2014; Clin Infect Dis 2015 61:S818.; Lancet 2017 389:1550 and N Engl J Med. 2020;382:845",
+        "2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021; European 2020 Syphilis Guidelines",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022"
+      ]
+    }
+  ]
+}

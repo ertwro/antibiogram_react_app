@@ -1,0 +1,110 @@
+{
+  "drug_name": "Delafloxacin",
+  "tradename": "Baxdela",
+  "usage_and_dosing": {
+    "general": [
+      "Delafloxacin is a fluoroquinolone that is FDA-approved for treatment of:",
+      "Acute bacterial skin and skin structure infections.",
+      "Community-acquired bacterial pneumonia caused by various susceptible bacteria. Review of its potential role in CAP: Drugs 2022;82:913.",
+      "In vitro spectrum of antibacterial activity includes:",
+      "Streptococci and staphylococci, including strains resistant to levofloxacin.",
+      "Delafloxacin is the first fluoroquinolone with activity vs. methicillin-resistant Staph. aureus (MRSA).",
+      "MRSA is included in the SSSI indication but not the CABP indication.",
+      "Selected gram-negative bacteria: e.g, E. coli, Klebsiella pneumoniae, Enterobacter spp. .",
+      "Stable in the presence of ESBLs.",
+      "Less active vs P. aeruginosa than ciprofloxacin.",
+      "In vitro active vs both gram-positive and gram-negative anaerobic bacteria: e.g., Peptostreptococcus sp and Bacteroides fragilis.",
+      "In vitro activity vs Legionella pneumophilia and Mycobacterium tuberculosis.",
+      "In two randomized prospective clinical trials of patients with acute bacterial skin and skin structure infections, Delafloxacin was non-inferior to the control arm of a combination of Vancomycin + Aztreonam.",
+      "Limited clinical trial details are provided in the package insert.",
+      "It appears that patients suffered a mixture of suppurative (often S. aureus) to non-suppurative (often streptococcal species) infections.",
+      "Of note, in six Delafloxacin patients, the skin infection was complicated by S. aureus bacteremia (not clear if MRSA) and 5 of 6 \"responded\". Bacteremia occurred once due to Klebsiella pneumoniae, once due to Pseudomonas aeruginosa; both patients responded to Delafloxacin therapy.",
+      "The intravenous formulation of Delafloxacin contains the excipient sulfobutylether-β-cyclodextrin (SBECD) as a solubilizing agent. SBECD is cleared exclusively by the kidneys so it may accumulate in moderate to severe renal impairment. Clinical significance of this is not clear."
+    ],
+    "adult_dose": {
+      "iv": "300 mg IV q12h infused over 1 hr (x 5-14 days for SSSI, x 5-10 days for CABP).",
+      "po": "450 mg po q12h (x 5-14 days for SSSI, x 5-10 days for CABP).",
+      "switch": "Can switch from IV to po during course of treatment."
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "4.2-8.5",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "450 mg po q12h, 300 mg IV q12h",
+    "crcl_or_egfr": {
+        "oral": "eGFR ≥15: No dosage adjustment. eGFR <15: Not recommended (no data)",
+        "iv": "eGFR ≥30: No dosage adjustment. eGFR 15-29: 200 mg IV q12h. eGFR <15: Not recommended (no data)"
+    },
+    "hemodialysis": "Not recommended (no data)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments table."
+  ],
+  "adverse_effects": {
+      "disabling_and_potentially_irreversible": [
+          "Tendinitis, tendon rupture",
+          "Arthralgia, myalgia, peripheral neuropathy",
+          "CNS: hallucinations, anxiety, depression, insomnia, severe headaches, confusion",
+          "Muscle weakness in patients with myasthenia gravis",
+          "Hypersensitivity",
+          "C. difficile-associated diarrhea",
+          "Risk of aortic aneurysm and dissection",
+          "Blood glucose disturbances"
+      ],
+      "most_common": [
+          "Nausea (8%), diarrhea (8%), headache (3%), transaminase elevations (3%), vomiting (2%)"
+      ],
+      "qtc_interval": "Unlike other fluoroquinolones, delafloxacin has not been associated with prolongation of the QTc interval",
+      "photosensitivity": "Has not been associated with photosensitivity, despite the presence of a halogen atom at C-8. This may be due to the mitigating effect of a large polar substituent at N-1 (Photochem Photobiol Sci 17:773, 2018).",
+      "class_wide_aes": "For class-wide AEs, see Fluoroquinolones, Overview."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "No data, avoid use",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (450 mg), Injection",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "59",
+    "tmax_hr": "1",
+    "peak_serum_conc_ug_ml": "9.3 (300 mg IV q12h, SS), 7.45 (450 mg po q12h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "84",
+    "volume_of_distribution_vd_l_vss": "30-48 L (Vss)",
+    "avg_serum_half_life_hr": "4.2-8.5",
+    "elimination": "Renal, some fecal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "23.4 (300 mg IV q12h, 0-12 hr), 30.8 (450 mg po q12h, 0-12 hr)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Al-, Mg-containing antacids", "effect": "↓ delafloxacin (oral only)", "management": "Give oral delafloxacin 2 hr bef antacids"},
+      {"drug": "Didanosine (or any formulation containing multivalent cations)", "effect": "↓ delafloxacin (oral only)", "management": "Give oral delafloxacin 2 hr bef didanosine"},
+      {"drug": "IV solution containing multivalent cations (e.g. magnesium)", "effect": "↓ delafloxacin (IV only)", "management": "Avoid co-administr"},
+      {"drug": "Iron-containing preparations", "effect": "↓ delafloxacin (oral only)", "management": "Give oral delafloxacin 2 hr bef iron-containing prepa"},
+      {"drug": "Multivitamins with iron or zinc", "effect": "↓ delafloxacin (oral only)", "management": "Give oral delafloxacin 2 hr bef multivitamins"},
+      {"drug": "Sucralfate", "effect": "↓ delafloxacin (oral only)", "management": "Give oral delafloxacin 2 hr bef sucralfate"}
+  ],
+  "comments": [
+      "General References: Medical Letter 2018;60:49; Clin. Infect. Dis. 2019;68:1058 ; Clin Infect Dis 2019;68(Suppl.3): S191."
+  ]
+}

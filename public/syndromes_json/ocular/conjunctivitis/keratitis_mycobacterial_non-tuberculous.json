@@ -1,0 +1,121 @@
+{
+  "documentMetadata": {
+    "title": "Non-tuberculous Mycobacterial (NTM) Keratitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Keratitis, Mycobacterial, Non-tuberculous.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-tuberculous mycobacterial (NTM) keratitis is a rare and challenging-to-treat corneal infection caused by rapidly growing mycobacteria, such as Mycobacterium chelonae and Mycobacterium abscessus. These infections are often associated with ocular trauma or surgery, particularly LASIK, where the infection can develop at the flap interface. Contaminated water sources or non-sterile surgical instruments can be a source of infection."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Onset",
+          "value": "Typically has a delayed onset, with symptoms appearing weeks to months after the inciting event (e.g., surgery)."
+        },
+        {
+          "key": "Symptoms",
+          "value": "Progressive blurred vision, foreign body sensation, and mild to moderate pain. Pain may be less severe than in bacterial keratitis."
+        },
+        {
+          "key": "Signs",
+          "value": "A characteristic \"cracked windshield\" appearance of the cornea or crystalline stromal infiltrates. In post-LASIK cases, multiple, discrete, whitish opacities are often seen at the flap interface. The overlying epithelium is often intact, and there may be minimal inflammation initially."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "name": "Corneal Scraping or Biopsy for Stains and Culture",
+      "sampleType": "Corneal tissue, which may require lifting a LASIK flap",
+      "interpretation": "Acid-fast staining (Ziehl-Neelsen or Kinyoun) is used to identify the mycobacteria. Cultures must be performed on specialized media (e.g., Löwenstein-Jensen, Middlebrook 7H9) and may take several weeks to grow.",
+      "notes": "Diagnosis is frequently delayed due to the indolent course and non-specific early signs. A high index of suspicion is crucial in post-surgical keratitis that is unresponsive to standard antibiotics."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management requires a prolonged course of multiple antibiotics and should be overseen by a corneal specialist. Treatment is often complicated by antibiotic resistance."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Medical Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Patients with NTM keratitis"
+            },
+            "components": [
+              {
+                "drug": "Amikacin (e.g., 2.5% topical drops)",
+                "route": "topical",
+                "frequency": "Intensive, often hourly"
+              },
+              {
+                "drug": "Clarithromycin (e.g., 1% topical drops)",
+                "route": "topical",
+                "frequency": "Intensive, often hourly",
+                "connector": "+"
+              },
+              {
+                "drug": "Fourth-generation fluoroquinolone (e.g., Moxifloxacin)",
+                "route": "topical",
+                "frequency": "Often used in combination",
+                "connector": "+"
+              }
+            ],
+            "notes": "Combination therapy is essential. Treatment is guided by sensitivity testing when available. Systemic antibiotics (e.g., clarithromycin, doxycycline) may be added for severe or deep infections."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical Intervention"
+        },
+        {
+          "type": "list",
+          "items": [
+            "In post-LASIK cases, lifting the flap for irrigation and debridement is often necessary.",
+            "Flap amputation may be required in refractory cases.",
+            "Therapeutic penetrating keratoplasty may be needed for severe scarring or perforation, but there is a high risk of recurrence."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Keratitis, Overview",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Keratitis, Overview"
+      }
+    }
+  ]
+}

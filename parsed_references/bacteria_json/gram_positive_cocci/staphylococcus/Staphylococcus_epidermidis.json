@@ -1,0 +1,674 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus epidermidis",
+      "aliases": [
+        "Coagulase-negative staphylococcus"
+      ],
+      "lastUpdated": "2024-03-27",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci in clusters, catalase +, coagulase –, urease +, Novobiocin sensitive."
+    },
+    "clinicalProfile": {
+      "summary": "The most common species among coagulase-negative staphylococcal pathogens and a frequent contaminant. It is an important cause of infections related to prosthetic or implantable devices, vascular catheters, and peritoneal dialysis catheters. Strains are often methicillin-resistant.",
+      "pathophysiologyPearls": [
+        "Forms biofilms on prosthetic materials, which contributes to its pathogenicity."
+      ],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Prosthetic Device Infection",
+          "description": "Infection of artificial joints, heart valves, etc."
+        },
+        {
+          "syndromeName": "Catheter-Related Bloodstream Infection (CRBSI)",
+          "description": "Infection associated with central or peripheral vascular catheters."
+        },
+        {
+          "syndromeName": "Peritonitis",
+          "description": "Inflammation of the peritoneum, often associated with peritoneal dialysis catheters."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with prosthetic or implantable devices",
+        "Patients with indwelling catheters",
+        "Patients on peritoneal dialysis"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "mecA-mediated methicillin resistance",
+          "mechanismType": "Target Modification",
+          "description": "Common in clinical isolates."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "The regimens listed are for more serious infections like bacteremia or prosthetic device infections.",
+        "Infections due to other coagulase-negative species are treated similarly to those caused by Staph. epidermidis."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Rifampin",
+          "condition": "Prosthetic device infections",
+          "details": "Rifampin 300-450 mg q12h is often added in combination with one of the primary agents."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, Device"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Nafcillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "For methicillin-susceptible isolates."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Oxacillin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "For methicillin-susceptible isolates."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "For methicillin-susceptible isolates."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "For methicillin-resistant isolates. Target AUC24 400-600 µg/mL x hr or trough of 15-20 µg/mL."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "6 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "For methicillin-resistant isolates."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Linezolid",
+                      "dose": "600 mg",
+                      "route": "PO/IV",
+                      "frequency": "q12h",
+                      "comments": "For methicillin and intermediate glycopeptide resistance."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Prosthetic device infection (oral therapy)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Device"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "",
+                      "route": "PO",
+                      "frequency": "",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "",
+                      "route": "PO",
+                      "frequency": "",
+                      "comments": "For susceptible organisms."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Rifampin",
+                      "dose": "",
+                      "route": "PO",
+                      "frequency": "",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Fluoroquinolone",
+                      "dose": "",
+                      "route": "PO",
+                      "frequency": "",
+                      "comments": "For susceptible organisms."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.347Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus epidermidis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Coagulase-negative staphylococcus"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-03-27"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "The most common species among coagulase-negative staphylococcal pathogens and a frequent contaminant. It is an important cause of infections related to prosthetic or implantable devices, vascular catheters, and peritoneal dialysis catheters. Strains are often methicillin-resistant.",
+      "pathophysiologyPearls": [
+        "Forms biofilms on prosthetic materials, which contributes to its pathogenicity."
+      ],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Prosthetic Device Infection",
+          "description": "Infection of artificial joints, heart valves, etc."
+        },
+        {
+          "syndromeName": "Catheter-Related Bloodstream Infection (CRBSI)",
+          "description": "Infection associated with central or peripheral vascular catheters."
+        },
+        {
+          "syndromeName": "Peritonitis",
+          "description": "Inflammation of the peritoneum, often associated with peritoneal dialysis catheters."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with prosthetic or implantable devices",
+        "Patients with indwelling catheters",
+        "Patients on peritoneal dialysis"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "mecA-mediated methicillin resistance",
+          "mechanismType": "Target Modification",
+          "description": "Common in clinical isolates."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Device"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nafcillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "",
+              "comments": "For methicillin-susceptible isolates.",
+              "originalText": "Nafcillin 2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Device"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Oxacillin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "",
+              "comments": "For methicillin-susceptible isolates.",
+              "originalText": "Oxacillin 2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Device"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "For methicillin-susceptible isolates.",
+              "originalText": "Cefazolin 2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Device"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "",
+              "comments": "For methicillin-resistant isolates. Target AUC24 400-600 µg/mL x hr or trough of 15-20 µg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Device"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "6 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "",
+              "comments": "For methicillin-resistant isolates.",
+              "originalText": "Daptomycin 6 mg/kg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infection (e.g., bacteremia, prosthetic device infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Device"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Linezolid",
+              "dose": "600 mg",
+              "route": "PO/IV",
+              "frequency": "q12h",
+              "duration": "",
+              "comments": "For methicillin and intermediate glycopeptide resistance.",
+              "originalText": "Linezolid 600 mg PO/IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Prosthetic device infection (oral therapy)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Device"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Rifampin",
+              "dose": "",
+              "route": "PO",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Rifampin  PO "
+            },
+            {
+              "drugName": "TMP-SMX",
+              "dose": "",
+              "route": "PO",
+              "frequency": "",
+              "duration": "",
+              "comments": "For susceptible organisms.",
+              "originalText": "TMP-SMX  PO "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Prosthetic device infection (oral therapy)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Device"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Rifampin",
+              "dose": "",
+              "route": "PO",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Rifampin  PO "
+            },
+            {
+              "drugName": "Fluoroquinolone",
+              "dose": "",
+              "route": "PO",
+              "frequency": "",
+              "duration": "",
+              "comments": "For susceptible organisms.",
+              "originalText": "Fluoroquinolone  PO "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

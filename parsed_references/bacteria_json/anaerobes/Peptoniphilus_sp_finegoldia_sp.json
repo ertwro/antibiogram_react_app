@@ -1,0 +1,170 @@
+{
+  "_originalData": {
+    "title": "Peptoniphilus sp - Finegoldia sp",
+    "last_updated": "2022-11-08",
+    "classification": {
+      "description": "Anaerobic streptococcus.",
+      "species_included": [
+        "Peptoniphilus anaerobius",
+        "Peptoniphilus stomatis",
+        "Finegoldia magna"
+      ],
+      "former_name": "Peptostreptococcus species",
+      "susceptibility_note": "Species might vary somewhat in in vitro susceptibility."
+    },
+    "clinical_setting": {
+      "summary": "These are anaerobic streptococci that are part of the normal flora of the upper respiratory tract, pharynx, GI tract, and vagina.",
+      "infections": "Local infections like periodontal disease or endometritis can occur. Bacteremia can also ensue and may be complicated by brain abscess, endocarditis, or other focal infections."
+    },
+    "treatment_regimens": {
+      "primary": [
+        {
+          "drug": "Penicillin G",
+          "dosage": "Dose depends on the site of infection. For meningitis/brain abscess, the dose is 18-24 million units per day."
+        }
+      ],
+      "alternative": [
+        {
+          "drug": "Metronidazole",
+          "dosage": "500 mg IV q8h"
+        },
+        {
+          "drug": "Clindamycin",
+          "dosage": "Dose depends on the site of infection. IV dose ranges from 600-900 mg IV q8h (see Comment)."
+        }
+      ]
+    },
+    "comments": {
+      "clindamycin_resistance": "One French study reported 28% resistance. Another study showed that the majority, but not all, of isolates were susceptible to Clindamycin, Moxifloxacin, Metronidazole, and Penicillins.",
+      "case_reports": [
+        "A case report described successful treatment of a brain abscess with Linezolid.",
+        "A series of 15 cases of Peptoniphilus sp bloodstream infection has been published."
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "last_updated",
+      "classification",
+      "clinical_setting",
+      "treatment_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.259Z",
+    "sourceFormat": "mixed"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title"
+      ],
+      "value": "Peptoniphilus sp - Finegoldia sp"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "mixed"
+      },
+      "standardizedRegimens": [],
+      "preservedData": {
+        "title": "Peptoniphilus sp - Finegoldia sp",
+        "last_updated": "2022-11-08",
+        "classification": {
+          "description": "Anaerobic streptococcus.",
+          "species_included": [
+            "Peptoniphilus anaerobius",
+            "Peptoniphilus stomatis",
+            "Finegoldia magna"
+          ],
+          "former_name": "Peptostreptococcus species",
+          "susceptibility_note": "Species might vary somewhat in in vitro susceptibility."
+        },
+        "clinical_setting": {
+          "summary": "These are anaerobic streptococci that are part of the normal flora of the upper respiratory tract, pharynx, GI tract, and vagina.",
+          "infections": "Local infections like periodontal disease or endometritis can occur. Bacteremia can also ensue and may be complicated by brain abscess, endocarditis, or other focal infections."
+        },
+        "treatment_regimens": {
+          "primary": [
+            {
+              "drug": "Penicillin G",
+              "dosage": "Dose depends on the site of infection. For meningitis/brain abscess, the dose is 18-24 million units per day."
+            }
+          ],
+          "alternative": [
+            {
+              "drug": "Metronidazole",
+              "dosage": "500 mg IV q8h"
+            },
+            {
+              "drug": "Clindamycin",
+              "dosage": "Dose depends on the site of infection. IV dose ranges from 600-900 mg IV q8h (see Comment)."
+            }
+          ]
+        },
+        "comments": {
+          "clindamycin_resistance": "One French study reported 28% resistance. Another study showed that the majority, but not all, of isolates were susceptible to Clindamycin, Moxifloxacin, Metronidazole, and Penicillins.",
+          "case_reports": [
+            "A case report described successful treatment of a brain abscess with Linezolid.",
+            "A series of 15 cases of Peptoniphilus sp bloodstream infection has been published."
+          ]
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "clindamycin_resistance": "One French study reported 28% resistance. Another study showed that the majority, but not all, of isolates were susceptible to Clindamycin, Moxifloxacin, Metronidazole, and Penicillins.",
+          "case_reports": [
+            "A case report described successful treatment of a brain abscess with Linezolid.",
+            "A series of 15 cases of Peptoniphilus sp bloodstream infection has been published."
+          ]
+        }
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "last_updated": "2022-11-08",
+      "treatment_regimens": {
+        "primary": [
+          {
+            "drug": "Penicillin G",
+            "dosage": "Dose depends on the site of infection. For meningitis/brain abscess, the dose is 18-24 million units per day."
+          }
+        ],
+        "alternative": [
+          {
+            "drug": "Metronidazole",
+            "dosage": "500 mg IV q8h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dosage": "Dose depends on the site of infection. IV dose ranges from 600-900 mg IV q8h (see Comment)."
+          }
+        ]
+      }
+    }
+  }
+}

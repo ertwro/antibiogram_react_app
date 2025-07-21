@@ -1,0 +1,181 @@
+{
+  "documentMetadata": {
+    "title": "Cardiac Implantable Electronic Device Infections",
+    "lastUpdated": "2025-01-27",
+    "sourceFile": "Cardiac Implantable Electronic Device Infections.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Presence of cardiac implantable electronic device (CIED). Infection resulting from pacemaker, defibrillator.",
+        "Pocket discomfort, erythema, swelling, wound drainage, erosion of device or lead through overlying skin; fever, other systemic signs or symptoms of infection.",
+        "Positive blood cultures for gram-positive cocci or unexplained bacteremia from other organisms"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Transeophageal echocardigram indicated to evaluate for possible endocarditis, lead vegetation (see Comments)"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (40%)",
+        "Staphylococcus epidermidis (40%)",
+        "Other staphylococcal species (10%)",
+        "Other potential organisms",
+        "Gram-negative bacilli (5%)",
+        "Enterococcus sp. (5%)",
+        "Streptococcus sp (5%)",
+        "Propionibacterium (now Cutibacterium acnes) (1-5%)",
+        "Fungi (5%)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Methicillin-resistant staphylococci",
+        "components": [
+          {
+            "drug": "Device removal"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Methicillin-susceptible staphylococci",
+        "components": [
+          {
+            "drug": "Device removal"
+          },
+          {
+            "drug": "Nafcillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h",
+            "connector": "+"
+          },
+          {
+            "drug": "Cefazolin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Device removal",
+        "indication": "Gram-negative infection",
+        "notes": "antimicrobial therapy is guided by in vitro susceptibility test result"
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Antimicrobial Stewardship for duration of treatment",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Antimicrobial Stewardship"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "Staphylococci",
+        "components": [
+          {
+            "drug": "Device removal"
+          },
+          {
+            "drug": "Daptomycin",
+            "dose": "8-10 mg/kg",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ],
+        "notes": "not FDA approved"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Duration of treatment after device removal:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For \"pocket\" or subcutaneous infection, negative blood cultures: 10-14 days",
+            "Bacteremia, no evidence of endocarditis: at least 14 days and 4-6 weeks for staphylococcal infection",
+            "If lead-associated endocarditis, up to 4-6 weeks depending on the organism. See CIED Endocarditis for details.",
+            "For patients in whom device removal is not feasible, e.g., those with major co-morbid illness, high risk for poor outcome from the extraction procedure, limited life expectancy, consider pathogen-directed, life-long oral suppressive antibiotic therapy."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider 18F-fluoro-2-deoxyglucose positron emission tomography with CT (FDG-PET/CT) in patients with suspected device infection and negative or inconclusive TEE (JACC Cardiovasc Imaging. 2022;15:891).",
+        "Device removal (which is key) and absence of valvular vegetation associated with significantly greater survival at 1 year (JAMA 307:1727, 2012).",
+        "American Heart Association guidelines: Circulation. 2024;149:e201 and Circulation. 2010;121:458.",
+        "British guidelines: J Antimicrob Chemother 70:325, 2015."
+      ]
+    }
+  ]
+}

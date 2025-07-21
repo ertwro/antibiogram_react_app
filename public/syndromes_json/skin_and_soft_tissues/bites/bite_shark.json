@@ -1,0 +1,103 @@
+{
+  "documentMetadata": {
+    "title": "Bite of shark, in saltwater or occasionally brackish water",
+    "sourceFile": "Bite_ Shark.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite of shark, in saltwater or occasionally brackish water",
+        "Obtain cultures",
+        "Manage crush injury and trauma (Am Surg 76:101 2010)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gram negative organisms (60-80% of flora)",
+        "Vibrio spp.",
+        "Pasteurella spp.",
+        "Aeromonas spp.",
+        "Klebsiella spp",
+        "Pseudomonas spp",
+        "Gram positive organisms",
+        "Staph spp",
+        "Clostridia perfringens and other Clostridia spp.",
+        "Enterococcus spp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ceftriaxone"
+          },
+          {
+            "connector": "+",
+            "drug": "Doxycycline"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Meropenem"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "General review of bite wounds Clin Microbiol Rev 24:211 2011",
+        "Vibrio infections Ann Intern Med 11:85, 1989",
+        "Review of Shark bite infections Pediatr Infect Dis J. 1997 May;16(5):531",
+        "Surgical Management and infections. J Trauma Acute Care Surg 2018;85:398; Am Surg 2010, 76:101"
+      ]
+    }
+  ]
+}

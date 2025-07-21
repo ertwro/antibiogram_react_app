@@ -1,0 +1,414 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Gardnerella vaginalis",
+      "aliases": [],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-variable",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-variable coccobacillus, catalase –, oxidase –, hippurate hydrolysis +, beta-hemolytic on human blood agar."
+    },
+    "clinicalProfile": {
+      "summary": "Gardnerella vaginalis is a key player in bacterial vaginosis (BV), a polymicrobial condition characterized by a shift in the vaginal flora away from lactobacilli towards a mixed anaerobic population. While G. vaginalis can be found in asymptomatic women, its overgrowth, in synergy with other anaerobes, leads to the characteristic signs and symptoms of BV.",
+      "pathophysiologyPearls": [
+        "G. vaginalis produces a sialidase that can degrade cervical mucus, potentially facilitating ascending infections.",
+        "It forms a dense biofilm on the vaginal epithelium, which is a hallmark of bacterial vaginosis and contributes to treatment failure and recurrence."
+      ],
+      "keySignsAndSymptoms": [
+        "Thin, grayish-white, homogeneous vaginal discharge",
+        "Malodorous \"fishy\" vaginal odor, especially after intercourse",
+        "Vaginal pH > 4.5",
+        "Presence of \"clue cells\" on wet mount microscopy",
+        "Minimal or absent vaginal inflammation, itching, or irritation"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacterial Vaginosis (BV)",
+          "description": "A vaginal dysbiosis resulting from an overgrowth of anaerobic bacteria, including G. vaginalis, leading to a characteristic malodorous discharge."
+        }
+      ],
+      "highRiskPopulations": [
+        "Sexually active women",
+        "Women with new or multiple sexual partners",
+        "Women who douche",
+        "Users of copper IUDs"
+      ],
+      "transmissionVectors": [
+        "Primarily associated with sexual activity, though it is not considered a classic STI as it can be found in women who are not sexually active."
+      ],
+      "prognosisNotes": [
+        "Bacterial vaginosis is associated with an increased risk of acquiring other STIs, including HIV, and can lead to complications in pregnancy such as preterm birth."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment is aimed at relieving symptoms and reducing the risk of complications. Asymptomatic colonization does not require treatment.",
+        "Single-dose metronidazole (2g) is not recommended due to lower efficacy."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacterial Vaginosis",
+            "patientPopulation": [
+              "Non-pregnant women"
+            ],
+            "isolateSource": "Vaginal"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Metronidazole",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5 days",
+                  "drugs": [
+                    {
+                      "drugName": "Metronidazole gel 0.75%",
+                      "dose": "5 g (1 applicator)",
+                      "route": "Intravaginal",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Clindamycin cream 2%",
+                      "dose": "5 g (1 applicator)",
+                      "route": "Intravaginal",
+                      "frequency": "at bedtime",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Symptomatic women complaining of vaginal discharge or odor."
+      ],
+      "methodologyNotes": [
+        "Diagnosis is typically made using Amsel's criteria (requires 3 of 4: thin, white discharge; pH >4.5; positive whiff test; >20% clue cells) or by Nugent scoring of a Gram-stained vaginal smear."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Vaginal Wet Mount Microscopy",
+          "trigger": "Symptoms of bacterial vaginosis",
+          "purpose": "To identify clue cells, which are vaginal epithelial cells studded with coccobacilli, obscuring the cell borders."
+        },
+        {
+          "testName": "Whiff Test",
+          "trigger": "Symptoms of bacterial vaginosis",
+          "purpose": "Addition of 10% KOH to vaginal discharge releases a characteristic fishy odor due to the volatilization of amines."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is clinical, based on Amsel's criteria, or by Nugent score. Culture of G. vaginalis is not recommended for diagnosis as it is found in many asymptomatic women.",
+        "biosafetyWarning": "Standard precautions are sufficient for handling clinical specimens.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [
+        {
+          "drugName": "Clindamycin (intravaginal)",
+          "pearl": "Ovules and creams use an oleaginous base that might weaken latex or rubber products like condoms and diaphragms."
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "CDC",
+          "citation": "MMWR Recomm Rep. 2021;70(No. RR-4):1–187",
+          "summaryOrNote": "2021 CDC STI Treatment Guidelines."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.380Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Gardnerella vaginalis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-variable",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Gardnerella vaginalis is a key player in bacterial vaginosis (BV), a polymicrobial condition characterized by a shift in the vaginal flora away from lactobacilli towards a mixed anaerobic population. While G. vaginalis can be found in asymptomatic women, its overgrowth, in synergy with other anaerobes, leads to the characteristic signs and symptoms of BV.",
+      "pathophysiologyPearls": [
+        "G. vaginalis produces a sialidase that can degrade cervical mucus, potentially facilitating ascending infections.",
+        "It forms a dense biofilm on the vaginal epithelium, which is a hallmark of bacterial vaginosis and contributes to treatment failure and recurrence."
+      ],
+      "keySignsAndSymptoms": [
+        "Thin, grayish-white, homogeneous vaginal discharge",
+        "Malodorous \"fishy\" vaginal odor, especially after intercourse",
+        "Vaginal pH > 4.5",
+        "Presence of \"clue cells\" on wet mount microscopy",
+        "Minimal or absent vaginal inflammation, itching, or irritation"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacterial Vaginosis (BV)",
+          "description": "A vaginal dysbiosis resulting from an overgrowth of anaerobic bacteria, including G. vaginalis, leading to a characteristic malodorous discharge."
+        }
+      ],
+      "highRiskPopulations": [
+        "Sexually active women",
+        "Women with new or multiple sexual partners",
+        "Women who douche",
+        "Users of copper IUDs"
+      ],
+      "transmissionVectors": [
+        "Primarily associated with sexual activity, though it is not considered a classic STI as it can be found in women who are not sexually active."
+      ],
+      "prognosisNotes": [
+        "Bacterial vaginosis is associated with an increased risk of acquiring other STIs, including HIV, and can lead to complications in pregnancy such as preterm birth."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacterial Vaginosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Non-pregnant women"
+              ],
+              "labFindings": "Vaginal"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Metronidazole",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Metronidazole 500 mg PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacterial Vaginosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Non-pregnant women"
+              ],
+              "labFindings": "Vaginal"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Metronidazole gel 0.75%",
+              "dose": "5 g (1 applicator)",
+              "route": "Intravaginal",
+              "frequency": "daily",
+              "duration": "5 days",
+              "comments": "",
+              "originalText": "Metronidazole gel 0.75% 5 g (1 applicator) Intravaginal daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacterial Vaginosis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Non-pregnant women"
+              ],
+              "labFindings": "Vaginal"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Clindamycin cream 2%",
+              "dose": "5 g (1 applicator)",
+              "route": "Intravaginal",
+              "frequency": "at bedtime",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Clindamycin cream 2% 5 g (1 applicator) Intravaginal at bedtime"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Symptomatic women complaining of vaginal discharge or odor."
+      ],
+      "methodologyNotes": [
+        "Diagnosis is typically made using Amsel's criteria (requires 3 of 4: thin, white discharge; pH >4.5; positive whiff test; >20% clue cells) or by Nugent scoring of a Gram-stained vaginal smear."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Vaginal Wet Mount Microscopy",
+          "trigger": "Symptoms of bacterial vaginosis",
+          "purpose": "To identify clue cells, which are vaginal epithelial cells studded with coccobacilli, obscuring the cell borders."
+        },
+        {
+          "testName": "Whiff Test",
+          "trigger": "Symptoms of bacterial vaginosis",
+          "purpose": "Addition of 10% KOH to vaginal discharge releases a characteristic fishy odor due to the volatilization of amines."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

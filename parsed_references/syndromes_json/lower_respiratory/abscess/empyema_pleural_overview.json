@@ -1,0 +1,41 @@
+
+{
+  "documentMetadata": {
+    "title": "Pleural Empyema, Non-tuberculous, Overview",
+    "lastUpdated": "2025-02-06",
+    "sourceFile": "Empyema, Pleural, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "list",
+      "items": [
+        "Criteria for differentiating transudative (i.e., non-inflammatory) from exudative pleural effusion (see Am Fam Physician 2014;90:99).",
+        "Light's criteria: fluid is exudative of pleural fluid to serum protein ratio >0.5 or pleural fluid to serum LDH >0.6 or pleural fluid LDH > 0.67 x upper limit of normal serum LDH",
+        "Alternative, more specific criteria (JAMA 311: 2422, 2014): fluid is exudative if cholesterol is > 55 mg/dl, LDH > 200 U/L, or the the ratio of pleural fluid to serum cholesterol is > 0.3.",
+        "Differentiation:",
+        "Uncomplicated parapneumonic effusions: small to moderate and free-flowing, pH > 7.20, glucose > 60 mg/dL, negative culture and Gram stain; tend to resolve on their own.",
+        "Complicated paraneumonic effusions: large volume, loculated, associated with thickened parietal pleura, negative culture and Gram stain, pH < 7.20, glucose < 60 mg/dL; often require drainage.",
+        "Empyema: presence of pus, positive culture or Gram-stain in addition to features of complicated effusion; requires drainage + decortication procedure or video-assisted thorascopic surgery (VATS) for loculated effusions with extensive pleural fibrosis..",
+        "See IDSA treatment guidelines for empyema in children: Clin Infect Dis 53:e25, 2011.",
+        "Intrapleural administration of both tissue plasminogen activator (t-PA), 10 mg, and DNase, 5 mg, administered via chest tube twice daily for 3 days improved fluid drainage, reduced the frequency of surgery, and reduced the duration of the hospital stay in patients with empyema; neither agent was effective when administered alone (N Engl J Med 365:518, 2011).",
+        "Cochrane review (Cochrane Database Syst Rev. 2019 Oct 30;2019(10):CD002312) of 12 randomized controlled trials found that intrapleural fibrinolytic therapy was associated with a reduction in surgical intervention and overall treatment failure but no mortality benefit in patients with complicated pleural effusion or empyema.",
+        "If tuberculosis is suspected, send pleural fluid for adenosine deaminase (ADA) (Expert Rev Respir Med. 2019; 13:747) and perform pleural biopsy with culture for mycobacteria and histology. Molecular tests are too insensitive to rule out the diagnosis.",
+        "Staphylococcal empyema is usually complication of contiguous infection, pneumonia, septic embolism.",
+        "Review of pathophsiology, diagnosis, management: Life (Basel). 2023; 13:376."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Topics Links"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Neonatal Empyema",
+        "Empyema in Infants and Children",
+        "Empyema in Adult, Older Child"
+      ]
+    }
+  ]
+}

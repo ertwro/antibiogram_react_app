@@ -1,0 +1,41 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Age 1 month to 50 years",
+    "sourceFile": "Meningitis, Age 1 mo to 50 years.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Age 1 month to 50 years"
+    },
+    {
+      "type": "paragraph",
+      "text": "Empiric treatment of bacterial meningitis in this age group must cover Streptococcus pneumoniae and Neisseria meningitidis."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          }
+        ],
+        "notes": "Dexamethasone 0.15 mg/kg IV q6h for 4 days should be given before or with the first dose of antibiotics."
+      }
+    }
+  ]
+}

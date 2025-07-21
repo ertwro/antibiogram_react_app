@@ -1,0 +1,76 @@
+{
+  "documentMetadata": {
+    "title": "Reactive Arthritis",
+    "lastUpdated": "2023-07-27",
+    "sourceFile": "Reactive Arthritis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Occurs weeks after infection (see Etiologies) and presents as urethritis, conjunctivitis, arthritis, and sometimes eye findings, and rash.",
+        "Arthritis: asymmetrical oligoarthritis of ankles, knees, feet, sacroiliitis.",
+        "Rash: palms and soles - keratoderma blennorrhagia; circinate balanitis of glans penis.",
+        "Eye findings: conjunctivitis; iritis and uveitis less commonly.",
+        "HLA-B27 positive predisposes to Reiter's."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "May follow infections caused by",
+        "C. trachomatis",
+        "C. jejuni",
+        "Y. enterocolitica, Y. pseudotuberculosis",
+        "Shigella sp.",
+        "Salmonella sp.",
+        "C. difficile"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Non-steroidal anti-inflammatory drugs (NSAID)",
+        "No antimicrobial therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Corticosteroids, intra-articular or systemic, for those not responding to NSAIDs",
+        "Sulfasalazine or methotrexate for refractory or chronic disease (> 6 month duration)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Review of reactive arthritis syndromes: Autoimmun Rev 13:546, 2014; Clin Rheumatol 38(8):2083, 2019; J R Coll Physicians Edinb 51(3): 288, 2021"
+      ]
+    }
+  ]
+}

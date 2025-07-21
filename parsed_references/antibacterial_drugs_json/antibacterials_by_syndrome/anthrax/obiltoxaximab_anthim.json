@@ -1,0 +1,72 @@
+
+{
+  "drug_name": "Anthim (Obiltoxaximab)",
+  "tradename": "Anthim",
+  "usage_and_dosing": {
+    "description": "Anthim (Obiltoxaximab) is a monoclonal antibody, directed against the protective antigen of B. anthracis, indicated as part of combination therapy for treatment of inhalational anthrax in adults and children, and for prophylaxis in the absence of other alternatives. Hypersensitivity reactions, including anaphylaxis, reported during infusion.",
+    "adult_dose": {
+      "premedicate": "Pre-medicate with diphenhydramine",
+      "dilution": "Dilute in 0.9% saline",
+      "usual_dose": "16 mg/kg IV infused over 1 hr 30 min"
+    },
+    "pediatric_dose": [
+      {
+        "weight": "≤15 kg",
+        "dose": "32 mg/kg IV (over 90 min) x1"
+      },
+      {
+        "weight": ">15 to 40 kg",
+        "dose": "24 mg/kg IV (over 90 min) x1"
+      },
+      {
+        "weight": ">40 kg",
+        "dose": "16 mg/kg IV (over 90 min) x1"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "≥16 days",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "16 mg/kg IV x1",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Hypersensitivity reactions, including anaphylaxis",
+    "Most common (≥1.5%): headache, pruritus, upper respiratory infection, cough, infusion site bruise / swelling / pain, nasal congestion, urticaria and pain in extremity"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data",
+    "use_during_lactation": "No data"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Bacillus anthracis"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "400 (16 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "No data",
+    "volume_of_distribution": "No data",
+    "avg_serum_t1_2": "≥16 days",
+    "elimination": "Catabolized",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "5170 (16 mg/kg IV, 0-inf)"
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "_originalData": {
+    "title": "Acinetobacter baumannii-calcoaceticus complex",
+    "lastUpdated": "May 5, 2025",
+    "clinicalInfo": {
+      "setting": "Acinetobacter baumannii-calcoaceticus complex causes a variety of local and systemic infections in both immunocompetent and immunocompromised patients",
+      "infections": [
+        "Hospital-acquired opportunistic pathogen, frequent cause of ventilator-associated pneumonia",
+        "Can cause a variety of other infections: e.g., soft tissue, wounds and bone; UTIs; meningitis; eye infections",
+        "Any of the above can be associated with bacteremia."
+      ],
+      "resistance": {
+        "title": "Resistance is a problem",
+        "notes": [
+          "Acinetobacter sp. have among the largest number and variety of resistance mechanisms of all gram-negative bacilli",
+          "Roughly 50% of Acinetobacter baumanii isolates demonstrate multi-drug resistance (MDR). In certain locations, substantive % of isolates demonstrate extensive drug resistance and even pan-drug resistance"
+        ],
+        "mechanisms": {
+          "title": "Resistance mechanisms, alone or in combination, include:",
+          "options": [
+            "Production of extended spectrum beta-lactamases (ESBLs)",
+            "Production of AmpC cephalosporinases (rare)",
+            "Production of serine-, metallo-, and OXA-carbapenemases",
+            "Production of aminoglycoside-modifying enzymes",
+            "Change in drug target binding sites, e.g., penicillin binding protein sites and DNA gyrase mutations",
+            "Presence of efflux pumps",
+            "Mutant porins proteins with subsequent decreased outer membrane permeability"
+          ]
+        },
+        "phenotypicReliance": "Clinically, reliance is on phenotypic in vitro patterns of resistance. Outside of a research environment, it is not possible to identify which mechanism, or combination of mechanisms, is responsible for the lab's report of antibiotic resistance.",
+        "furtherDiscussion": "For further discussion of drug resistance classes and mechanisms see Gram-negative Resistance, Overview. See Comments for other recent references on evolving treatment considerations and options."
+      }
+    },
+    "classification": {
+      "description": "Strictly aerobic non-fermentative coccobacillary gram negative bacillus",
+      "species": {
+        "title": "Five Acinetobacter species are associated with human diseases:",
+        "options": [
+          "Acinetobacter baumannii is most important, responsible for 80% of infections",
+          "A. pittii and A. nosocomialis also considered clinically important",
+          "A. seifertii and A. dijkshoorniae also isolated from human clinical specimens"
+        ]
+      },
+      "nonPathogenic": "Acinetobacter calcoaceticus in sensu stricto is considered a nonpathogenic environmental organism, rarely involved in causing disease",
+      "taxonomyReference": "See Future Sci OA. 2019. doi: 10.2144/fsoa-2018-0127 for additional taxonomy."
+    },
+    "regimens": {
+      "primary": {
+        "title": "Treatment options below are for therapy of moderately severe, or severe infections such as the following:",
+        "infections": [
+          "Complicated UTI",
+          "Ventilator-associated Bacterial Pneumonia or Hospital acquired bacterial pneumonia",
+          "Bacteremia",
+          "Meningitis: see Comments"
+        ],
+        "table": [
+          {
+            "labReports": "Acinetobacter in sputum or sterile body site, antibiotic susceptibility results pending",
+            "circumstances": "Local rate of MDR <10-15%, not critically ill, monotherapy is reasonable",
+            "regimen": "Empiric therapy Cefepime IV q8h or Meropenem gm IV infused over 3 hrs repeat continuously (continuous infusion regimen) OR Ampicillin-sulbactam gm amp/gm sulb IV over and repeat"
+          },
+          {
+            "labReports": "",
+            "circumstances": "Local rate of MDR/carbapenem resistance >10-15% and/or patient is critically ill, consider combination therapy to increase odds of administering at least one active drug:",
+            "regimen": "Empiric therapy Sulbactam-durlobactam gm/1gm infused over 3 hours q6h or Imipenem-cilastatin IV infused over 1 hour. If Sulbactam-durlobactam unavailable, Ampicillin-sulbactam gm Ampicillin/gm Sulbactam IV infused over 4 hr q8h or Meropenem gm IV infused over 3 h q8h + Polymyxin 2.5 mg/kg infused over 2 hours then 1.5 mg/kg IV infused over 1 hour"
+          },
+          {
+            "labReports": "Susceptibility to multiple antibiotics",
+            "circumstances": "",
+            "regimen": "Monotherapy with Cefepime, Meropenem or Ampicillin-sulbactam as above (see Comments)"
+          },
+          {
+            "labReports": "Resistance to all cephalosporins, aztreonam, and carbapenems; susceptibility to polymyxins",
+            "circumstances": "",
+            "regimen": "Recommend infectious disease consult. Sulbactam-durlobactam or Imipenem-cilastatin as above. If Sulbactam-durlobactam unavailable, Ampicillin-sulbactam, Meropenem or Polymyxin as above"
+          },
+          {
+            "labReports": "Resistance to all antibiotics tested, including polymyxins",
+            "circumstances": "",
+            "regimen": "No known effective therapy. Recommend infectious disease consult. Sulbactam-durlobactam, Imipenem-cilastatin. Consider Cefiderocol 2 gm q8h over 3 hrs + Minocycline 200 mg q12h"
+          }
+        ]
+      },
+      "alternative": {
+        "multipleAntibiotics": {
+          "title": "Lab reports susceptibility to multiple antibiotics",
+          "options": [
+            "(Ciprofloxacin 400 mg IV q8h) or (Levofloxacin 750 mg IV q24h ) or",
+            "TMP-SMX 10 mg/kg/day (TMP component) IV divided q8h or q12h"
+          ]
+        },
+        "mdrResistance": {
+          "title": "Lab reports MDR or extensive drug resistance",
+          "susceptibilityTest": {
+            "title": "Test for in vitro susceptibility to:",
+            "aminoglycosides": {
+              "title": "Aminoglycosides:",
+              "options": [
+                "Amikacin more frequently active in vitro than gentamicin (Antimicrob Agents Chemother 2019; 63: e01154-19)",
+                "Plazomicin: Aminoglycoside that is stable in presence of enzymes that inactivate gentamicin, tobramycin, and amikacin. Limited observational reports of success vs MDR pathogens."
+              ]
+            },
+            "tetracyclines": {
+              "title": "Eravacycline and Omadacycline:",
+              "description": "Next generation tetracyclines. Better pharmacokinetics than Tigecycline. Active in vitro vs Acinetobacter. No clinical data."
+            }
+          }
+        }
+      }
+    },
+    "comments": [
+      "In hollow fiber in vitro model, pan-drug resistant strains of Acinetobacter were found susceptible to the combination of high concentrations of Ampicillin-sulbactam + Meropenem + Polymyxin B (Antimicrob Agents Chemother 2017;61:e01268-16).",
+      "Cannot assume in vitro resistance of one carbapenem predicts resistance for another without testing.",
+      "Acinetobacter is intrinsically resistant to Ertapenem.",
+      "Susceptibility to Meropenem may not indicate susceptibility to Imipenem and vice versa",
+      {
+        "title": "Disease specific treatment considerations:",
+        "pneumonia": {
+          "title": "Acinetobacter pneumonia:",
+          "notes": [
+            "Based on current data, adjunctive inhaled/nebulized antibiotic therapy not recommended because of failure to show benefit in prospective randomized clinical trials (Chest 2017;151:1239, Crit Care Med 2019;47: 880 and e470)",
+            "Patients with pneumonia and/or bacteremia were prospectively randomized to either colistin or sulbactam-durlobactam (both groups received imipenem therapy). All cause mortality was 32% in the colistin group vs. 19% in the sulbactam-durlobactam group. Ref.: Lancet Infect Dis 2023;23: 1072."
+          ]
+        },
+        "meningitis": {
+          "title": "For Meningitis due to Acinetobacter species:",
+          "notes": [
+            "If possible, remove CNS devices that may be a source",
+            "If susceptible, meropenem is the preferred carbapenem due to CNS penetration and lower risk of seizures as compared to other carbapenems",
+            "If resistance to Meropenem, intraventricular or lumbar sac: Colistin; wide range of recommended doses: 0.75 mg to 7.5 mg of Colistin Base Activity per day"
+          ]
+        },
+        "uti": {
+          "title": "For UTI:",
+          "notes": [
+            "If carbapenem resistant and systemic therapy with a polymyxin is used, Colistin is preferred rather than Polymyxin B, which achieves low concentrations in the urine",
+            "If possible, remove Foley catheter"
+          ]
+        }
+      },
+      {
+        "title": "Use of other agents",
+        "notes": [
+          "Combination of Meropenem + polymyxin (either Polymyxin B or Colistin) not recommended (Lancet Infect Dis 2018;18:391). Other trials found no benefit to combining a polymyxin with either Rifampin or Tigecycline",
+          "Doripenem is not approved to treat any type of pneumonia and it is not approved for doses > 500 mg q8h.",
+          "Tigecycline is not first line due to sub-therapeutic serum concentrations in bacteremia plus increased risk of all cause mortality compared with other agents (Clin Infect Dis 2012 Jun;54(12):1699)",
+          {
+            "drug": "Minocycline IV:",
+            "notes": [
+              "Limited clinical experience (Infect Dis Ther 2017; 6:199)",
+              "In vitro data (Antimicrob Agents Chemother 2019;63:e01154-19) indicates susceptibility of 67-86% of clinical isolates",
+              "In retrospective study of 76 patients, clinical cure and microbiologic eradication in 79% and 82% of those with monomicrobial infection (Antimicrob Agents Chemother 2019;63:e01154-19)."
+            ]
+          },
+          "IDSA 2023 Guidance recommend use in combination with another agent for serious infections caused by carbapenem-resistant strains"
+        ]
+      },
+      {
+        "drug": "Cefiderocol",
+        "notes": [
+          "In an open label randomized trial (Lancet Infect Dis 2021; 21:226) comparing best available therapy (BAT) to Cefiderocol in patients with nosocomial pneumonia, sepsis, cUTI, or bacteremia due to carbapenemase producing bacteria, 28 day all cause mortality was numerically higher in Cefiderocol patients, 9/49 (18%) for BAT vs 25/101 (24.5%) for Cefiderocol, and in the pneumonia subgroup, 4/22 (18%) for BAT vs 14/45 (31%) for Cefiderocol, neither of which difference is statistically significant.",
+          "In a double-blind randomized trial (Lancet Infect Dis 2021;21:213) Cefidercol was non-inferior to Meropenem for Gram-negative HAP/VAP/HCAP; in 16 patients with Acinetobacter spp. with Meropenem MICs > 64 µg/mL, day 14 all-cause mortality was 0% (0/5) in the Cefiderocol group and 46% (5/11) in the Meropenem group."
+        ]
+      },
+      {
+        "title": "References: Evolving treatment considerations and options",
+        "notes": [
+          "IDSA Guideline on treatment of ESBL, AmpC, and carbapenemase producers: Updated 2024 IDSA Guidelines.",
+          "Semin Respir Crit Care Med 2022, 43:97"
+        ]
+      }
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "lastUpdated",
+      "clinicalInfo",
+      "classification",
+      "regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.243Z",
+    "sourceFormat": "legacy_table"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title"
+      ],
+      "value": "Acinetobacter baumannii-calcoaceticus complex"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalInfo"
+    ],
+    "value": {
+      "setting": "Acinetobacter baumannii-calcoaceticus complex causes a variety of local and systemic infections in both immunocompetent and immunocompromised patients",
+      "infections": [
+        "Hospital-acquired opportunistic pathogen, frequent cause of ventilator-associated pneumonia",
+        "Can cause a variety of other infections: e.g., soft tissue, wounds and bone; UTIs; meningitis; eye infections",
+        "Any of the above can be associated with bacteremia."
+      ],
+      "resistance": {
+        "title": "Resistance is a problem",
+        "notes": [
+          "Acinetobacter sp. have among the largest number and variety of resistance mechanisms of all gram-negative bacilli",
+          "Roughly 50% of Acinetobacter baumanii isolates demonstrate multi-drug resistance (MDR). In certain locations, substantive % of isolates demonstrate extensive drug resistance and even pan-drug resistance"
+        ],
+        "mechanisms": {
+          "title": "Resistance mechanisms, alone or in combination, include:",
+          "options": [
+            "Production of extended spectrum beta-lactamases (ESBLs)",
+            "Production of AmpC cephalosporinases (rare)",
+            "Production of serine-, metallo-, and OXA-carbapenemases",
+            "Production of aminoglycoside-modifying enzymes",
+            "Change in drug target binding sites, e.g., penicillin binding protein sites and DNA gyrase mutations",
+            "Presence of efflux pumps",
+            "Mutant porins proteins with subsequent decreased outer membrane permeability"
+          ]
+        },
+        "phenotypicReliance": "Clinically, reliance is on phenotypic in vitro patterns of resistance. Outside of a research environment, it is not possible to identify which mechanism, or combination of mechanisms, is responsible for the lab's report of antibiotic resistance.",
+        "furtherDiscussion": "For further discussion of drug resistance classes and mechanisms see Gram-negative Resistance, Overview. See Comments for other recent references on evolving treatment considerations and options."
+      }
+    }
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_table",
+      "hasDecisionTables": true
+    },
+    "complexTreatmentTables": {
+      "sources": [
+        "regimens.primary.table"
+      ],
+      "tables": [
+        {
+          "labReports": "Acinetobacter in sputum or sterile body site, antibiotic susceptibility results pending",
+          "circumstances": "Local rate of MDR <10-15%, not critically ill, monotherapy is reasonable",
+          "regimen": "Empiric therapy Cefepime IV q8h or Meropenem gm IV infused over 3 hrs repeat continuously (continuous infusion regimen) OR Ampicillin-sulbactam gm amp/gm sulb IV over and repeat"
+        },
+        {
+          "labReports": "",
+          "circumstances": "Local rate of MDR/carbapenem resistance >10-15% and/or patient is critically ill, consider combination therapy to increase odds of administering at least one active drug:",
+          "regimen": "Empiric therapy Sulbactam-durlobactam gm/1gm infused over 3 hours q6h or Imipenem-cilastatin IV infused over 1 hour. If Sulbactam-durlobactam unavailable, Ampicillin-sulbactam gm Ampicillin/gm Sulbactam IV infused over 4 hr q8h or Meropenem gm IV infused over 3 h q8h + Polymyxin 2.5 mg/kg infused over 2 hours then 1.5 mg/kg IV infused over 1 hour"
+        },
+        {
+          "labReports": "Susceptibility to multiple antibiotics",
+          "circumstances": "",
+          "regimen": "Monotherapy with Cefepime, Meropenem or Ampicillin-sulbactam as above (see Comments)"
+        },
+        {
+          "labReports": "Resistance to all cephalosporins, aztreonam, and carbapenems; susceptibility to polymyxins",
+          "circumstances": "",
+          "regimen": "Recommend infectious disease consult. Sulbactam-durlobactam or Imipenem-cilastatin as above. If Sulbactam-durlobactam unavailable, Ampicillin-sulbactam, Meropenem or Polymyxin as above"
+        },
+        {
+          "labReports": "Resistance to all antibiotics tested, including polymyxins",
+          "circumstances": "",
+          "regimen": "No known effective therapy. Recommend infectious disease consult. Sulbactam-durlobactam, Imipenem-cilastatin. Consider Cefiderocol 2 gm q8h over 3 hrs + Minocycline 200 mg q12h"
+        }
+      ]
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "table-entry-0",
+        "extractedFrom": "regimens.primary.table[0]",
+        "context": {
+          "type": "empiric",
+          "labFindings": "Acinetobacter in sputum or sterile body site, antibiotic susceptibility results pending",
+          "clinicalScenario": "Local rate of MDR <10-15%, not critically ill, monotherapy is reasonable"
+        },
+        "preference": "primary",
+        "drugs": [],
+        "originalFormat": {
+          "type": "table",
+          "preservedContent": {
+            "labReports": "Acinetobacter in sputum or sterile body site, antibiotic susceptibility results pending",
+            "circumstances": "Local rate of MDR <10-15%, not critically ill, monotherapy is reasonable",
+            "regimen": "Empiric therapy Cefepime IV q8h or Meropenem gm IV infused over 3 hrs repeat continuously (continuous infusion regimen) OR Ampicillin-sulbactam gm amp/gm sulb IV over and repeat"
+          }
+        }
+      },
+      {
+        "regimenId": "table-entry-1",
+        "extractedFrom": "regimens.primary.table[1]",
+        "context": {
+          "type": "empiric",
+          "labFindings": "",
+          "clinicalScenario": "Local rate of MDR/carbapenem resistance >10-15% and/or patient is critically ill, consider combination therapy to increase odds of administering at least one active drug:"
+        },
+        "preference": "primary",
+        "drugs": [
+          {
+            "drugName": "Polymyxin",
+            "dose": "2.5 mg",
+            "route": "Po",
+            "originalText": "Polymyxin 2.5 mg"
+          },
+          {
+            "drugName": "hours then",
+            "dose": "1.5 mg",
+            "originalText": "hours then 1.5 mg"
+          }
+        ],
+        "originalFormat": {
+          "type": "table",
+          "preservedContent": {
+            "labReports": "",
+            "circumstances": "Local rate of MDR/carbapenem resistance >10-15% and/or patient is critically ill, consider combination therapy to increase odds of administering at least one active drug:",
+            "regimen": "Empiric therapy Sulbactam-durlobactam gm/1gm infused over 3 hours q6h or Imipenem-cilastatin IV infused over 1 hour. If Sulbactam-durlobactam unavailable, Ampicillin-sulbactam gm Ampicillin/gm Sulbactam IV infused over 4 hr q8h or Meropenem gm IV infused over 3 h q8h + Polymyxin 2.5 mg/kg infused over 2 hours then 1.5 mg/kg IV infused over 1 hour"
+          }
+        }
+      },
+      {
+        "regimenId": "table-entry-2",
+        "extractedFrom": "regimens.primary.table[2]",
+        "context": {
+          "type": "empiric",
+          "labFindings": "Susceptibility to multiple antibiotics",
+          "clinicalScenario": ""
+        },
+        "preference": "primary",
+        "drugs": [],
+        "originalFormat": {
+          "type": "table",
+          "preservedContent": {
+            "labReports": "Susceptibility to multiple antibiotics",
+            "circumstances": "",
+            "regimen": "Monotherapy with Cefepime, Meropenem or Ampicillin-sulbactam as above (see Comments)"
+          }
+        }
+      },
+      {
+        "regimenId": "table-entry-3",
+        "extractedFrom": "regimens.primary.table[3]",
+        "context": {
+          "type": "empiric",
+          "labFindings": "Resistance to all cephalosporins, aztreonam, and carbapenems; susceptibility to polymyxins",
+          "clinicalScenario": ""
+        },
+        "preference": "primary",
+        "drugs": [],
+        "originalFormat": {
+          "type": "table",
+          "preservedContent": {
+            "labReports": "Resistance to all cephalosporins, aztreonam, and carbapenems; susceptibility to polymyxins",
+            "circumstances": "",
+            "regimen": "Recommend infectious disease consult. Sulbactam-durlobactam or Imipenem-cilastatin as above. If Sulbactam-durlobactam unavailable, Ampicillin-sulbactam, Meropenem or Polymyxin as above"
+          }
+        },
+        "clinicalNotes": [
+          "Infectious disease consultation recommended"
+        ]
+      },
+      {
+        "regimenId": "table-entry-4",
+        "extractedFrom": "regimens.primary.table[4]",
+        "context": {
+          "type": "empiric",
+          "labFindings": "Resistance to all antibiotics tested, including polymyxins",
+          "clinicalScenario": ""
+        },
+        "preference": "primary",
+        "drugs": [
+          {
+            "drugName": "Consider Cefiderocol",
+            "dose": "2 gm",
+            "originalText": "Consider Cefiderocol 2 gm"
+          },
+          {
+            "drugName": "Minocycline",
+            "dose": "200 mg",
+            "originalText": "Minocycline 200 mg"
+          }
+        ],
+        "originalFormat": {
+          "type": "table",
+          "preservedContent": {
+            "labReports": "Resistance to all antibiotics tested, including polymyxins",
+            "circumstances": "",
+            "regimen": "No known effective therapy. Recommend infectious disease consult. Sulbactam-durlobactam, Imipenem-cilastatin. Consider Cefiderocol 2 gm q8h over 3 hrs + Minocycline 200 mg q12h"
+          }
+        },
+        "clinicalNotes": [
+          "Infectious disease consultation recommended"
+        ]
+      }
+    ],
+    "diseaseSpecificModifications": {
+      "sources": [
+        "comments"
+      ],
+      "modifications": {
+        "pneumonia": {
+          "considerations": [
+            "Based on current data, adjunctive inhaled/nebulized antibiotic therapy not recommended because of failure to show benefit in prospective randomized clinical trials (Chest 2017;151:1239, Crit Care Med 2019;47: 880 and e470)",
+            "Patients with pneumonia and/or bacteremia were prospectively randomized to either colistin or sulbactam-durlobactam (both groups received imipenem therapy). All cause mortality was 32% in the colistin group vs. 19% in the sulbactam-durlobactam group. Ref.: Lancet Infect Dis 2023;23: 1072."
+          ],
+          "originalLocation": "comments[].pneumonia"
+        },
+        "meningitis": {
+          "considerations": [
+            "If possible, remove CNS devices that may be a source",
+            "If susceptible, meropenem is the preferred carbapenem due to CNS penetration and lower risk of seizures as compared to other carbapenems",
+            "If resistance to Meropenem, intraventricular or lumbar sac: Colistin; wide range of recommended doses: 0.75 mg to 7.5 mg of Colistin Base Activity per day"
+          ],
+          "originalLocation": "comments[].meningitis"
+        },
+        "uti": {
+          "considerations": [
+            "If carbapenem resistant and systemic therapy with a polymyxin is used, Colistin is preferred rather than Polymyxin B, which achieves low concentrations in the urine",
+            "If possible, remove Foley catheter"
+          ],
+          "originalLocation": "comments[].uti"
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "In hollow fiber in vitro model, pan-drug resistant strains of Acinetobacter were found susceptible to the combination of high concentrations of Ampicillin-sulbactam + Meropenem + Polymyxin B (Antimicrob Agents Chemother 2017;61:e01268-16).",
+          "Cannot assume in vitro resistance of one carbapenem predicts resistance for another without testing.",
+          "Acinetobacter is intrinsically resistant to Ertapenem.",
+          "Susceptibility to Meropenem may not indicate susceptibility to Imipenem and vice versa",
+          {
+            "title": "Disease specific treatment considerations:",
+            "pneumonia": {
+              "title": "Acinetobacter pneumonia:",
+              "notes": [
+                "Based on current data, adjunctive inhaled/nebulized antibiotic therapy not recommended because of failure to show benefit in prospective randomized clinical trials (Chest 2017;151:1239, Crit Care Med 2019;47: 880 and e470)",
+                "Patients with pneumonia and/or bacteremia were prospectively randomized to either colistin or sulbactam-durlobactam (both groups received imipenem therapy). All cause mortality was 32% in the colistin group vs. 19% in the sulbactam-durlobactam group. Ref.: Lancet Infect Dis 2023;23: 1072."
+              ]
+            },
+            "meningitis": {
+              "title": "For Meningitis due to Acinetobacter species:",
+              "notes": [
+                "If possible, remove CNS devices that may be a source",
+                "If susceptible, meropenem is the preferred carbapenem due to CNS penetration and lower risk of seizures as compared to other carbapenems",
+                "If resistance to Meropenem, intraventricular or lumbar sac: Colistin; wide range of recommended doses: 0.75 mg to 7.5 mg of Colistin Base Activity per day"
+              ]
+            },
+            "uti": {
+              "title": "For UTI:",
+              "notes": [
+                "If carbapenem resistant and systemic therapy with a polymyxin is used, Colistin is preferred rather than Polymyxin B, which achieves low concentrations in the urine",
+                "If possible, remove Foley catheter"
+              ]
+            }
+          },
+          {
+            "title": "Use of other agents",
+            "notes": [
+              "Combination of Meropenem + polymyxin (either Polymyxin B or Colistin) not recommended (Lancet Infect Dis 2018;18:391). Other trials found no benefit to combining a polymyxin with either Rifampin or Tigecycline",
+              "Doripenem is not approved to treat any type of pneumonia and it is not approved for doses > 500 mg q8h.",
+              "Tigecycline is not first line due to sub-therapeutic serum concentrations in bacteremia plus increased risk of all cause mortality compared with other agents (Clin Infect Dis 2012 Jun;54(12):1699)",
+              {
+                "drug": "Minocycline IV:",
+                "notes": [
+                  "Limited clinical experience (Infect Dis Ther 2017; 6:199)",
+                  "In vitro data (Antimicrob Agents Chemother 2019;63:e01154-19) indicates susceptibility of 67-86% of clinical isolates",
+                  "In retrospective study of 76 patients, clinical cure and microbiologic eradication in 79% and 82% of those with monomicrobial infection (Antimicrob Agents Chemother 2019;63:e01154-19)."
+                ]
+              },
+              "IDSA 2023 Guidance recommend use in combination with another agent for serious infections caused by carbapenem-resistant strains"
+            ]
+          },
+          {
+            "drug": "Cefiderocol",
+            "notes": [
+              "In an open label randomized trial (Lancet Infect Dis 2021; 21:226) comparing best available therapy (BAT) to Cefiderocol in patients with nosocomial pneumonia, sepsis, cUTI, or bacteremia due to carbapenemase producing bacteria, 28 day all cause mortality was numerically higher in Cefiderocol patients, 9/49 (18%) for BAT vs 25/101 (24.5%) for Cefiderocol, and in the pneumonia subgroup, 4/22 (18%) for BAT vs 14/45 (31%) for Cefiderocol, neither of which difference is statistically significant.",
+              "In a double-blind randomized trial (Lancet Infect Dis 2021;21:213) Cefidercol was non-inferior to Meropenem for Gram-negative HAP/VAP/HCAP; in 16 patients with Acinetobacter spp. with Meropenem MICs > 64 µg/mL, day 14 all-cause mortality was 0% (0/5) in the Cefiderocol group and 46% (5/11) in the Meropenem group."
+            ]
+          },
+          {
+            "title": "References: Evolving treatment considerations and options",
+            "notes": [
+              "IDSA Guideline on treatment of ESBL, AmpC, and carbapenemase producers: Updated 2024 IDSA Guidelines.",
+              "Semin Respir Crit Care Med 2022, 43:97"
+            ]
+          }
+        ]
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

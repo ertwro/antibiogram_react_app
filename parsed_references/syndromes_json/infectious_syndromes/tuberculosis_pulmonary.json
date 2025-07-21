@@ -1,0 +1,122 @@
+
+{
+  "documentMetadata": {
+    "title": "Tuberculosis, Pulmonary",
+    "sourceFile": "syndromes/infectious_syndromes/Tuberculosis, Pulmonary.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Pulmonary Tuberculosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pulmonary tuberculosis (TB) is a contagious bacterial infection that primarily affects the lungs but can spread to other parts of the body. It is caused by the bacterium Mycobacterium tuberculosis."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Persistent cough lasting more than 3 weeks, often with sputum production (may be bloody)",
+        "Fever, chills, night sweats",
+        "Unexplained weight loss, fatigue, malaise",
+        "Chest pain"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment of Drug-Susceptible Pulmonary TB"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Initial Phase (Intensive Phase)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "All patients with new-onset pulmonary TB"
+            },
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" },
+              { "drug": "Pyrazinamide", "route": "PO", "frequency": "Daily", "connector": "+" },
+              { "drug": "Ethambutol", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "2 months"
+            },
+            "notes": "Standard four-drug regimen (RIPE). Ethambutol can be discontinued if drug susceptibility testing shows sensitivity to isoniazid and rifampin."
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Continuation Phase"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              { "drug": "Isoniazid", "route": "PO", "frequency": "Daily" },
+              { "drug": "Rifampin", "route": "PO", "frequency": "Daily", "connector": "+" }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4 months"
+            },
+            "notes": "The continuation phase is extended to 7 months (for a total of 9 months of therapy) in patients with cavitary pulmonary disease whose sputum culture at 2 months is positive."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Sputum Smear and Culture",
+        "analyte": "Mycobacterium tuberculosis",
+        "sampleType": "Sputum",
+        "strengthOfRecommendation": "Recommended",
+        "notes": "At least 3 sputum specimens should be collected for acid-fast bacilli (AFB) smear and mycobacterial culture. Culture is the gold standard."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Nucleic Acid Amplification Test (NAAT)",
+        "sampleType": "Sputum",
+        "notes": "Recommended for at least one sputum specimen. Provides rapid identification of M. tuberculosis."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Chest X-ray",
+        "interpretation": "Typical findings include upper lobe infiltrates, cavitation, and hilar adenopathy. However, findings can be variable."
+      }
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis Prevention, Dental Procedures",
+    "lastUpdated": "2023-11-04",
+    "sourceFile": "Endocarditis Prevention, Dental Procedures.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Predisposing cardiac conditions and/or type of dental procedure guide prophylaxis recommendation.",
+        "Antibiotic prophylaxis is recommended for patients with the following predisposing cardiac conditions:",
+        "Prosthetic cardiac valve or prosthetic material used for cardiac valve repair.",
+        "Previous infective endocarditis (IE).",
+        "Congenital heart disease (CHD) (unrepaired cyanotic CHD, including palliative shunts and conduits; completely repaired congenital heart defect with prosthetic material or device within the first 6 months after the procedure; repaired CHD with residual defects at the site or adjacent to the site of a prosthetic patch or prosthetic device).",
+        "Cardiac transplantation recipients who develop cardiac valvulopathy.",
+        "Prophylaxis is recommended for the following dental procedures:",
+        "Any manipulation of gingival tissue, dental periapical regions, or perforation of the oral mucosa.",
+        "Prophylaxis is NOT RECOMMENDED for the following:",
+        "Cardiac conditions other than those listed above (e.g., mitral valve prolapse, gastrointestinal or genitourinary procedure).",
+        "Anesthetic injections (unless through infected area), dental x-rays, shedding of primary teeth, adjustment of orthodontic appliances or placement of orthodontic brackets or removable appliances, bleeding from trauma to the lips or oral mucosa."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral streptococci"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Usual oral prophylaxis"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "2 gm",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "50 mg/kg",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Patient unable to take oral medications"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Ampicillin",
+                "dose": "2 gm",
+                "route": "IV/IM"
+              },
+              {
+                "drug": "Cefazolin",
+                "dose": "1 gm",
+                "route": "IV/IM",
+                "connector": "or"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 gm",
+                "route": "IV/IM",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Ampicillin",
+                "dose": "50 mg/kg",
+                "route": "IV/IM"
+              },
+              {
+                "drug": "Cefazolin",
+                "dose": "50 mg/kg",
+                "route": "IV/IM",
+                "connector": "or"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "50 mg/kg",
+                "route": "IV/IM",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Penicillin allergy, oral regimen (NOTE: Cephalosporins should not be administered to an individual with history of an immediate type hypersensitivity reaction to penicillins)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "2 gm",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "500 mg",
+                "route": "po"
+              },
+              {
+                "drug": "Clarithromycin",
+                "dose": "500 mg",
+                "route": "po",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "50 mg/kg",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "15 mg/kg",
+                "route": "po"
+              },
+              {
+                "drug": "Clarithromycin",
+                "dose": "15 mg/kg",
+                "route": "po",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "< 45 kg: 2.2 mg/kg; > 45 kg: 100 mg",
+                "route": "po"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Both unable to take oral medications and penicillin allergy (NOTE: Cephalosporins should not be administered to an individual with history of an immediate type hypersensitivity reaction to penicillins)"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Cefazolin",
+                "dose": "1 gm",
+                "route": "IV/IM"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 gm",
+                "route": "IV/IM",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "appliesTo": {
+              "description": "Pediatric"
+            },
+            "components": [
+              {
+                "drug": "Cefazolin",
+                "dose": "50 mg/kg",
+                "route": "IV/IM"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "50 mg/kg",
+                "route": "IV/IM",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "30-60 minutes before procedure"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference for most recent and updated American Heart Association (AHA) guidelines: Circulation. 2021;143:e963-e978.",
+        "Pediatric dose should not exceed the adult dose.",
+        "AHA lists other 1st or 2nd generation cephalosporins in equivalent doses as potential alternatives to Cephalexin."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+
+{
+  "documentMetadata": {
+    "title": "Clostridioides difficile, C. diff",
+    "lastUpdated": "2025-01-05",
+    "sourceFile": "syndromes/intra-abdominal/Clostridioides difficile, C. diff.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clostridioides difficile associated diarrhea (CDAD), C. difficile infection (CDI) and abbreviated as C diff.",
+        "Inflammation almost always limited to colonic mucosa: C. diff. toxin-mediated colitis",
+        "Rarely, post-colectomy, C. diff. toxin can cause inflammation of small intestine: C.diff. toxin-mediated enteritis (Open Forum Inf Dis 6:ofz409, 2019)",
+        "Risk factors include advanced age, hospitalization, prior or concomitant systemic antibacterial therapy, cancer chemotherapy, gastrointestinal surgery.",
+        "Suspect if new onset of diarrhea with > 3 unformed stools per day.",
+        "Asymptomatic carriage",
+        "There is a substantial rate of C. difficile asymptomatic carriage particularly in children <2, so NAAT testing may be positive without clinical diarrhea.",
+        "Although associated with transmission of CDI (Microbiol Spectr 10:e0132221, 2022), screening and treatment of carriage is not currently recommended. (Clin Infect Dis 66:987, 2018)",
+        "Repeat testing to document cure of CDI or during same episode of diarrhea is not recommended. For recurrence, see Comments.",
+        "Clinical stages of CDI"
+      ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Mild to moderate disease"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "WBC < 15,000",
+                    "No increase in serum creatinine"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Fulminant (Severe) disease"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "WBC > 15,000",
+                    "≥50% increase in serum creatinine",
+                    "Zar score > 2 (see Clin Infect Dis 45:302, 2007)"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "tableData": {
+            "headers": ["Zar Score Factors", "Point(s)"],
+            "rows": [
+                ["Age > 60 years", "1"],
+                ["Body temperature > 38.3°C", "1"],
+                ["Albumin < 2.5 g per deciliter", "1"],
+                ["WBC > 15,000", "1"],
+                ["Endoscopic evidence of pseudomembranous colitis", "2"],
+                ["Treatment in ICU", "2"]
+            ]
+        }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Optimal diagnostic algorithms are still the subject of studies and not all centers offer the same panel of diagnostic tests. For a summary see: Clin Infect Dis 67:e1 2018",
+        "NAAT tests will be positive for asymptomatic carriers",
+        "Testing recommended only in cases of diarrhea (> 3 unformed stools per day), no laxatives for 48 hrs, or where there is a high suspicion of disease (e.g. megacolon, severe ileus).",
+        "For patients with symptoms consistent with C. difficile-associated infection (CDI) diagnosis made with nucleic acid amplification test (NAAT) alone or 2- or 3-step testing (e.g., glutamate dehydrogenase [GDH] immunoassay + toxin assay followed by NAAT only if either the GDH assay and toxin assay, but not both, are negative). NAAT positive for C.difficile but negative toxin assay (Clin Infect Dis 2024, 78:430)",
+        "Automated clinical testing criteria for appropriate testing can enforce appropriate testing and treatment (Infect Control Hosp Epidemiol 39:625-627, 2018)"
+      ]
+    },
+    {
+        "type": "header",
+        "level": 2,
+        "text": "Classification"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Gram positive anaerobic bacilli, spore former"
+        ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Treatment considerations"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "If possible, stop the inciting antibiotic",
+                    "Up to 20-25% patients relapse though less frequent with fidaxomicin",
+                    "In general, avoid antiperistaltic medicine during acute phase",
+                    "Generally 10 days recommended, but course can be extended to 14 days if improving but not resolved."
+                ]
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Mild Disease or Moderate disease, initial episode:"
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Fidaxomicin", "dose": "200 mg", "route": "po", "frequency": "bid"}
+                    ],
+                    "durationDetail": {
+                        "fixedDuration": "10 days"
+                    },
+                    "notes": "significantly more expensive than vancomycin"
+                }
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Vancomycin", "dose": "125 mg", "route": "po", "frequency": "qid"}
+                    ],
+                    "durationDetail": {
+                        "fixedDuration": "10 days"
+                    },
+                    "notes": "see Comments"
+                }
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Fulminant (Severe) disease, initial episode:"
+            },
+            {
+                "type": "regimen",
+                "regimenData": {
+                    "intent": "treatment",
+                    "components": [
+                        {"drug": "Vancomycin", "dose": "500 mg", "route": "po or via nasogastric tube", "frequency": "q6h", "connector": "+"},
+                        {"drug": "Metronidazole", "dose": "500 mg", "route": "IV", "frequency": "q8h"}
+                    ],
+                    "notes": "particularly if ileus is present. For patients with ileus, administer Vancomycin 500 mg in 100 mL normal saline per rectum as a retention enema q6h. In retrospective study of ICU patients, Vancomycin + Metronidazole combination associated with decrease in mortality from 36 to 16% (Clin Infect Dis 61:934, 2015)."
+                }
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Severe disease with toxic megacolon: treatment as above PLUS"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Sometimes only option is colectomy",
+                    "Alternative: loop ileostomy coupled with antegrade colonic irrigation with Vancomycin + intravenous Metronidazole (Ann Surg 254:423, 2011)",
+                    "No data on the efficacy of Fidaxomicin in patients with severe life-threatening disease.",
+                    "Fecal microbiota transplant (FMT) is promising; supportive evidence in one retrospective cohort study (Open Forum Infect Dis 6:ofz398, 2019)"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Recurrent CDI"
+            },
+            {
+                "type": "nestedContent",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "First Recurrence (use a regimen different from original, if possible)"
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Fidaxomicin", "dose": "200 mg", "route": "po", "frequency": "bid"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "10 days"
+                            }
+                        }
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Fidaxomicin", "dose": "200 mg", "route": "po", "frequency": "bid"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "5 days"
+                            },
+                            "notes": "extended regimen, 200 mg po every other day x 20 days"
+                        }
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Vancomycin", "dose": "125 mg", "route": "po", "frequency": "qid"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "10 days"
+                            }
+                        }
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "appliesTo": {
+                                "description": "Vancomycin taper as follows"
+                            },
+                            "components": [
+                                {"drug": "Vancomycin", "dose": "125 mg", "route": "po", "frequency": "qid"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "10 days"
+                            },
+                            "notes": "followed by 125 mg tid x 1 week, then 125 mg bid x 1 week, then 125 mg q24h x 1 week, then 125 mg q48h x 1 week, then 125 mg once every third day x 1 week"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "nestedContent",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Recurrence following treatment with Metronidazole as primary regimen"
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Vancomycin", "dose": "125 mg", "route": "po", "frequency": "qid"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "10 days"
+                            }
+                        }
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Fidaxomicin", "dose": "200 mg", "route": "po", "frequency": "bid"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "10 days"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "nestedContent",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Multiple recurrences:"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "Fecal microbiota transplantation (FMT) emerging as a treatment of choice for recurrent infections (J Hosp Med 11:56, 2016).",
+                            "For details of donor screening used for commercial product from Open Biome see N Engl J Med 2019; 381:2070.",
+                            "Vancomycin 125 mg po qid x 10 days followed by Rifaximin 400 po tid x 20 days"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "header",
+        "level": 2,
+        "text": "Alternative Regimens"
+    },
+    {
+        "type": "regimen",
+        "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+                "description": "Mild disease only"
+            },
+            "components": [
+                {"drug": "Metronidazole", "dose": "500 mg", "route": "po", "frequency": "tid"}
+            ],
+            "notes": "in resource constrained settings if limited access to Vancomycin or Fidaxomicin."
+        }
+    },
+    {
+        "type": "paragraph",
+        "text": "More severe disease: Avoid Metronidazole which is associated with higher mortality than Vancomycin (JAMA Intern Med 177:546, 2017)."
+    },
+    {
+        "type": "header",
+        "level": 2,
+        "text": "Antimicrobial Stewardship"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Limit the number of systemic antibiotics used and duration of antibiotic therapy.",
+            "Avoid unnecessary antibiotics and discontinue suspected offending antibiotics as soon as possible.",
+            "Consider restriction of higher risk antibiotics such as fluoroquinolones, clindamycin, cephalosporins, carbapenems, particularly in outbreaks and high infection rates.",
+            "Consider discontinuation of proton-pump inhibitor therapy."
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Infection Control"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Handwashing with soap and water is more effective for removal of spores than alcohol-based hand hygiene agents."
+                ]
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "text": "Reference: Ann Int Med 2019; 171 (suppl 7): S45"
+    },
+    {
+        "type": "list",
+        "items": [
+            "Emergence of strains with reduced susceptibility (Clin Inf Dis 74:120, 2022) to both vancomycin and metronidazole is reported but susceptibility testing not routinely available.",
+            "FMT now requires screening of donors for MDRO as per FDA guidelines (see Comments)"
+        ]
+    },
+    {
+        "type": "header",
+        "level": 2,
+        "text": "Comments"
+    },
+    {
+        "type": "list",
+        "items": [
+            "See summary of approach in IDSA / SHEA 2018 guidelines Clin Infect Dis 66:987, 2018. IDSA / SHEA 2021 focused guidelines recommend fidaxomicin and bezlotoxumab: Clin Inf Dis 73:755, 2021. Because fidaxomicin is more efficacious (though very expensive) latest guidelines recommend as first line therapy, if feasible (Clin Inf Dis 73:755, 2021, Med Lett 2021, 63:137)",
+            "Specific virulent ribotypes (NAP1/BI/ribotype 027) are associated with epidemics and more severe disease.",
+            "Salvage therapy for CDI:",
+            "Summarized in N Engl J Med 372:1539, 2015.",
+            "Antibiotics with poorly documented efficacy are rifaximin, nitazoxanide, ramoplanin, teicoplanin, and tigecycline.",
+            "Use of these agents is not recommended but may be considered for salvage therapy when other options have failed.",
+            "Probiotics:",
+            "Guidelines state insufficient data to recommend use for primary prevention of CDI Clin Infect Dis 2018;66:987",
+            "In studies with high risk patients (CDAD >5%) moderate evidence that probiotics are effective (Cochrane Database Syst Rev 2017 Dec 19;12:CD006095).",
+            "Antimotility agents:",
+            "Can be used cautiously in certain patients with mild disease who are receiving treatment (Clin Infect Dis 48:598, 2009)."
+        ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Recurrence:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Recurrence rates appear to be similar for Metronidazole and Vancomycin (although others have found higher cure rates with Vancomycin: Ann Intern Med 165:JC4, 2016) but mortality less in Vancomycin-treated patients with more severe disease (JAMA Intern Med 177:546, 2017).",
+                    "Fidaxomicin had lower rate of recurrence than Vancomycin for diarrhea with non-NAP1/BI strains (N Engl J Med 364:422, 2011 & Lancet Inf Dis 12:281, 2012) and for patients who required concomitant antibiotics during treatment of CDI (Clin Infect Dis 53:440, 2011); cure rates and recurrence rates similar for Vancomycin and Fidaxomicin for NAP1/BI/027 strains (Clin Infect Dis 55:351, 2012)",
+                    "Addition of a single intravenous 10 mg/kg dose of the anti-toxin monoclonal antibody Bezlotoxamab to standard of care (SOC) therapy (primarily Metronidazole or Vancomycin) did not improve initial cure rates but did reduce recurrence rates by 11% and 14% in two controlled trials vs placebo (N Engl J Med 376:305, 2017; Clin Infect Dis 68:699, 2019).",
+                    "IV Vancomycin is not effective as insufficient drug reaches lumen of the colon. (Med Lett 63:137, 2021).",
+                    "FMT is an investigational treatment governed by enforcement discretion by the FDA. Most practitioners do not get an IND, raising concerns that adverse outcomes are not consistently reported. Due to these concerns, FMT has become logistically difficult in many centers and commercial products (see above) are now recommended.",
+                    "After reports of transmission of MDRO organisms, FDA has issued regulatory requirements including extensive donor screening and MDRO testing prior to issue of IND and administration (Cell Host Microbe 27:173, 2020, FDA/CBER 2019a, FDA/CBER2019b) or alternatively, using donor feces collected prior to 2019.",
+                    "A FMT national registry tracks outcomes. Results for the first 259 patients from 20 centers (Gastroent 160:183, 2021): 30-day follow-up for 222 participants, 90% were cured; among them, 98% required only a single FMT.",
+                    "Synthetic alternatives to fecal transfer for FMT are being explored but are investigational."
+                ]
+            }
+        ]
+    }
+  ]
+}

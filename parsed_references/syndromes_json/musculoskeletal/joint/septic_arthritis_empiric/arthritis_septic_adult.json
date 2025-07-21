@@ -1,0 +1,434 @@
+{
+  "documentMetadata": {
+    "title": "Septic Arthritis in Adults",
+    "lastUpdated": "2024-02-29",
+    "sourceFile": "Arthritis, Septic, Adult.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Initial empiric therapy, septic arthritis in adults, acute/chronic monoarticular, polyarticular",
+        "Start empiric therapy after collection of blood and joint fluid for culture; review Gram stain of joint fluid.",
+        "Synovial fluid WBC > 50,000 with poly predominance."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Three settings:"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Acute monoarticular"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Review Gram stain-all empirical treatment are guided by Gram stain.",
+                "Differentiate between patient's risk for sexually-transmitted diseases (STD).",
+                "Differential diagnosis includes gout and chondrocalcinosis (pseudogout) (crystals in joint fluid)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Chronic monoarticular"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Polyarticular: suspect disseminated gonococcal infection:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Usually acute onset, Gram stain is typically negative for gonococci.",
+                "If patient is sexually active, culture urethra, cervix, anal canal, throat, blood, joint fluid.",
+                "If pustular/hemorrhagic skin lesions and tenosynovitis present, suspect N. gonorrhea.",
+                "Expanded differential includes gout, pseudogout, reactive arthritis (HLA-B27 positive), Lyme."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Acute monoarticular"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If risk of STD:",
+            "N. gonorrhea",
+            "Staph. aureus",
+            "Streptococcus spp.",
+            "Gram-negative bacilli",
+            "If no risk of STD:",
+            "Staph. aureus",
+            "Streptococcus spp.",
+            "Gram-negative bacilli"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Chronic monoarticular"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brucella spp.",
+            "Nocardia spp.",
+            "Mycobacteria",
+            "Fungi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Polyarticular"
+        },
+        {
+          "type": "list",
+          "items": [
+            "N. gonorrhea",
+            "B. burgdorferi (Lyme disease)",
+            "S. aureus",
+            "Group A streptococcus, pneumococcus",
+            "Acute rheumatic fever",
+            "Post-streptococcal arthritis",
+            "Reactive arthritis",
+            "Viral: Hepatitis B, Rubella vaccine, Parvo B19, Chikungunya (travel history)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treatment: adequate drainage of purulent joint fluid + systemic antimicrobial therapy"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Acute monoarticular"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Patient presents with STD risk",
+              "criteria": [
+                {
+                  "parameter": "gramStain",
+                  "value": "negative or positive for gram-negative diplococci"
+                }
+              ]
+            },
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q24h"
+              },
+              {
+                "drug": "Cefotaxime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              },
+              {
+                "drug": "Ceftizoxime",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              }
+            ],
+            "notes": "See comments for treatment of concomitant chlamydial infection."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Patient presents with STD risk",
+              "criteria": [
+                {
+                  "parameter": "gramStain",
+                  "value": "positive for gram-positive cocci"
+                }
+              ]
+            },
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "crossReference",
+          "referenceData": {
+            "text": "Gram stain positive for gram-negative bacilli: See Arthritis Gram-Negative Bacilli",
+            "targetType": "internalDocument",
+            "targetIdentifier": "Arthritis Gram-Negative Bacilli"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "No or low STD risk",
+              "criteria": [
+                {
+                  "parameter": "gramStain",
+                  "value": "negative"
+                }
+              ]
+            },
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "No or low STD risk",
+              "criteria": [
+                {
+                  "parameter": "gramStain",
+                  "value": "negative"
+                }
+              ]
+            },
+            "components": [
+              {
+                "drug": "Vancomycin"
+              },
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ],
+            "notes": "preferred for possible healthcare-associated infection"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "No or low STD risk",
+              "criteria": [
+                {
+                  "parameter": "gramStain",
+                  "value": "positive for gram-positive cocci"
+                }
+              ]
+            },
+            "components": [
+              {
+                "drug": "Vancomycin"
+              }
+            ]
+          }
+        },
+        {
+          "type": "crossReference",
+          "referenceData": {
+            "text": "Gram-stain positive for Gram-negative bacilli: See Arthritis Gram-Negative Bacilli",
+            "targetType": "internalDocument",
+            "targetIdentifier": "Arthritis Gram-Negative Bacilli"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Chronic monoarticular"
+        },
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy not generally recommended, treat for specific etiology"
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Polyarticular"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Acute monoarticular"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "No STD risk"
+            },
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q12h",
+                "connector": "+"
+              },
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "or"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy not well studied. One randomized controlled trial of septic arthritis in adults caused by a variety of pathogens found that two weeks of oral therapy was non-inferior to four weeks of oral therapy following surgical drainage and a median of 1-2 days of intravenous therapy; 99 of the 154 patients has arthritis of the hand or wrist (Ann Rheum Dis. 2019; 78:1114-1121)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Approximately 20% of patients with septic arthritis presentation have negative cultures; a proportion of these go on to develop rheumatic diseases (Joint Bone Spine 79:156, 2012)",
+        "For patients with STD risk, Azithromycin 1 gm po or Doxycycline 100 mg po twice daily for 7 days is for treatment of concomitant chlamydial infection",
+        "See also, Disseminated Gonorrhea.",
+        "If polyarticular arthritis, consider Lyme disease if exposure areas known to harbor infected ticks; typically involves large joints.",
+        "Specific therapy for S. aureus septic arthritis.",
+        "Reference: Curr Rheumatol Rep 15:332, 2013."
+      ]
+    }
+  ]
+}

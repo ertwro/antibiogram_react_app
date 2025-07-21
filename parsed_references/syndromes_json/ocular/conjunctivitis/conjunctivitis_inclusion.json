@@ -1,0 +1,133 @@
+
+{
+  "documentMetadata": {
+    "title": "Inclusion Conjunctivitis (Chlamydial Conjunctivitis)",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Conjunctivitis, Inclusion.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inclusion conjunctivitis is a sexually transmitted ocular infection caused by Chlamydia trachomatis serotypes D-K. It typically affects sexually active young adults and is often associated with a concurrent asymptomatic genital infection. The infection is transmitted to the eye via autoinoculation from infected genital secretions. In newborns, it presents as ophthalmia neonatorum, acquired during passage through an infected birth canal."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Onset",
+          "value": "Typically subacute, with symptoms developing over several weeks."
+        },
+        {
+          "key": "Symptoms",
+          "value": "Chronic, persistent redness, foreign body sensation, and a scant to moderate mucopurulent discharge. Often unilateral, but can become bilateral."
+        },
+        {
+          "key": "Signs",
+          "value": "Prominent follicular response in the inferior conjunctival fornix, conjunctival injection, and a non-tender preauricular lymph node may be present. A superior corneal pannus may develop in chronic cases."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "name": "Nucleic Acid Amplification Test (NAAT)",
+      "sampleType": "Conjunctival swab",
+      "interpretation": "NAAT is the gold standard for diagnosis due to its high sensitivity and specificity.",
+      "notes": "Giemsa staining of conjunctival scrapings may reveal characteristic basophilic intracytoplasmic inclusion bodies, but it is less sensitive than NAAT. Patients should also be tested for other sexually transmitted infections, including gonorrhea and HIV."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Systemic antibiotic therapy is required to treat both the ocular and potential concurrent genital infection. Topical therapy alone is insufficient."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic Antibiotic Regimens"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Adults and adolescents"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "1 g",
+                "route": "PO",
+                "frequency": "single dose"
+              },
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "PO",
+                "frequency": "twice daily",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7 days (for Doxycycline)"
+            },
+            "notes": "Doxycycline is contraindicated in pregnancy. Alternative regimens for pregnant women include Azithromycin or Amoxicillin."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Partner Management"
+    },
+    {
+      "type": "partnerManagement",
+      "partnerManagementData": {
+        "lookBackPeriod": "60 days",
+        "action": "Sexual partners within the last 60 days should be evaluated and treated.",
+        "partnerRegimen": {
+          "intent": "treatment",
+          "strengthOfRecommendation": "Recommended",
+          "components": [
+            {
+              "drug": "Azithromycin",
+              "dose": "1 g",
+              "route": "PO",
+              "frequency": "single dose"
+            }
+          ],
+          "notes": "Refer to current CDC STD Treatment Guidelines for comprehensive partner management strategies."
+        }
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Chlamydia trachomatis, Conjunctivitis, Newborn",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Chlamydia trachomatis"
+      }
+    }
+  ]
+}

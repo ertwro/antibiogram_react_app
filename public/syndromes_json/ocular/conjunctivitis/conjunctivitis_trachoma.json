@@ -1,0 +1,112 @@
+
+{
+  "documentMetadata": {
+    "title": "Trachoma",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Conjunctivitis, Trachoma.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trachoma is the leading infectious cause of preventable blindness worldwide. It is caused by repeated infections with specific serotypes (A, B, Ba, C) of Chlamydia trachomatis. The disease thrives in conditions of poverty, poor sanitation, and inadequate water supply. Chronic, repeated infections lead to a scarring process in the conjunctiva, causing inwardly turned eyelashes (trichiasis) that abrade the cornea, leading to corneal opacity and blindness."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "WHO Grading System for Trachoma"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Grade", "Name", "Description"],
+        "rows": [
+          ["TF", "Trachomatous inflammation—follicular", "Presence of five or more follicles in the upper tarsal conjunctiva."],
+          ["TI", "Trachomatous inflammation—intense", "Inflammatory thickening of the upper tarsal conjunctiva that obscures more than half of the normal deep tarsal vessels."],
+          ["TS", "Trachomatous scarring", "Presence of easily visible scars in the tarsal conjunctiva."],
+          ["TT", "Trachomatous trichiasis", "At least one eyelash rubs on the eyeball."],
+          ["CO", "Corneal opacity", "Easily visible corneal opacity over the pupil."]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management (WHO SAFE Strategy)"
+    },
+    {
+      "type": "publicHealthStrategy",
+      "publicHealthData": {
+        "name": "WHO SAFE Strategy",
+        "components": [
+          {
+            "componentName": "Surgery",
+            "description": "Surgical correction for trichiasis (TT) to prevent corneal damage."
+          },
+          {
+            "componentName": "Antibiotics",
+            "description": "Antibiotic treatment for active infection (TF and/or TI)."
+          },
+          {
+            "componentName": "Facial cleanliness",
+            "description": "Promoting personal hygiene, particularly face washing in children, to reduce transmission."
+          },
+          {
+            "componentName": "Environmental improvement",
+            "description": "Improving access to clean water and sanitation to reduce the reservoir of infection."
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Antibiotic Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Individuals with active trachoma (TF/TI)"
+            },
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "20 mg/kg (up to 1 g)",
+                "route": "PO",
+                "frequency": "single dose"
+              },
+              {
+                "drug": "Tetracycline 1% eye ointment",
+                "dose": "Apply to both eyes",
+                "route": "topical",
+                "frequency": "twice daily",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks (for Tetracycline ointment)"
+            },
+            "notes": "Azithromycin is preferred for mass drug administration (MDA) campaigns due to its single-dose convenience. Tetracycline ointment is an alternative for individual cases."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Chlamydia trachomatis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Chlamydia trachomatis"
+      }
+    }
+  ]
+}

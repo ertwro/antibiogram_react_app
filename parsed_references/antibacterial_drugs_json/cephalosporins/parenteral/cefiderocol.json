@@ -1,0 +1,120 @@
+{
+  "drug_name": "Cefiderocol",
+  "tradename": "Fetroja",
+  "usage_and_dosing": {
+    "general": [
+      "Cefiderocol is a parenteral cephalosporin FDA-approved for the treatment of adults with:",
+      "Complicated urinary tract infections (UTI), including pyelonephritis, caused by susceptible strains of these aerobic gram-negative bacilli: E. coli, K. pneumoniae, P. mirabilis, P. aeruginosa, E. cloacae complex.",
+      "Hospital-acquired and ventilator-associated pneumonia caused by susceptible strains of these aerobic gram-negative bacilli: A. baumannii complex, E. coli, E. cloacae complex, K. pneumoniae, P. aeruginosa, S. marcescens.",
+      "In randomized clinical trial, Cefiderocol 2 gm IV, over 3hr, q8h was non-inferior to high dose meropenem vs MDR GNB (to include carbapenem resistant organisms (Lancet Infect Dis 2021; 21:213)",
+      "The drug should be reserved for use in patients with limited or no alternative treatment options. It is inactive against Gram-positive and anaerobic bacteria.",
+      "Cefiderocol functions as a siderophore, chelating ferric ions and taking advantage of the bacterial iron transport system for enhanced accumulation in the bacterial periplasmic space.",
+      "Active in vitro vs broad range of fermentative and non-fermentative multidrug resistant gram-negative bacilli.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Good review: Drugs 2019;79:271.",
+      "Possible OPAT option: see Outpatient Parenteral Antimicrobial Therapy.",
+      "For clinical trial references, see Comments."
+    ],
+    "adult_dose": {
+      "fda_approved_dosing": "2 gm IV (over 3 hours) q8h x 7-14 days",
+      "compatibility": "Compatible with normal saline and D5W",
+      "stability": "Stability of reconstituted infusion solution added to 100 mL infusion bags: Room temperature for up to 6 hours, 2°C to 8°C for up to 24 hours protected from light",
+      "amr_guidance": "Consistent with AMR gram-negative infection guidance (Clin Infect Dis 2024 Aug 7:ciae403. doi: 10.1093/cid/ciae403):"
+    },
+    "pediatric_dose": {
+      "amr_gram_negative_guidance": "J Pediatric Infect Dis Soc 2025;14:piaf004",
+      "per_fda": {
+        "safety_and_efficacy": "not established"
+      },
+      "per_amr_gram_negative_guidance": {
+        "doses_infused_iv_over_3_hrs": {
+            "age_le_3_mon": {
+                "ga_lt_32_wk_pna_lt_2_mon": "30 mg/kg q8h",
+                "ga_ge_32_wk_pna_lt_2_mon": "40 mg/kg q8h",
+                "ga_lt_32_wk_pna_2_to_lt_3_mon": "40 mg/kg q8h",
+                "ga_ge_32_wk_pna_2_to_lt_3_mon": "60 mg/kg q8h"
+            },
+            "age_3_mon_to_18_yrs": "60 mg/kg q8h"
+        }
+      },
+      "max_day": "6 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2-3",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "2 gm IV q8h",
+    "crcl_or_egfr": "CrCl ≥120: 2 gm q6h. CrCl 60-119: 2 gm q8h. CrCl 30-59: 1.5 gm q8h. CrCl 15-29: 1 gm q8h. CrCl <15: 0.75 gm q12h",
+    "hemodialysis": "0.75 gm q12h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "Dose per effluent rate (all modalities): ≤2 L/hr: 1.5 gm q12h, 2.1 to 3 L/hr: 2 gm q12h, 3.1 to 4 L/hr: 1.5 gm q8h, ≥4.1 L/hr: 2 gm q8h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment page."
+  ],
+  "adverse_effects": {
+    "contraindications": "Persons with severe beta-lactam allergy",
+    "warnings": "Higher all-cause mortality in an open-label randomized trial comparing cefiderocol to best-available therapy (BAT) in persons with pneumonia, bloodstream infection/sepsis, or complicated UTI caused by carbapenem-resistant gram-negative bacteria, including Acinetobacter and Enterobacteriaceae (Lancet Infect Dis 2021;21:226). All-cause mortality at 14 days, 28 days, and end of study for cefiderocol-treated patients was 19/101 (18.8%), 25/101 (24.8%), and 34/101 (33.7%), respectively, versus 6/49 (12.2%), 9/49 (18.4%), and 9/49 (18.4%) for BAT-treated patients, although these differences are not statistically significant. Study interpretation difficult due to confounding variables.",
+    "beta_lactam_hypersensitivity": "Beta-lactam hypersensitivity reactions. Cefiderocol has the same R1 side chain as ceftazidime and aztreonam, so cross-allergenicity may occur. See Drug Allergy: Penicillins, Cephalosporins, Overview page.",
+    "cdad": "C. difficile-associated diarrhea (CDAD)",
+    "seizure_risk": "Seizure risk",
+    "other": [
+        "Diarrhea",
+        "Infusion site reactions",
+        "Constipation",
+        "Rash",
+        "Candidiasis",
+        "Cough",
+        "Elevations in liver tests",
+        "Headache",
+        "Hypokalemia",
+        "Nausea and vomiting",
+        "Interesting case report of dark red urine discoloration related to co-administration of cefiderocol and an accelerated intravenous ferric gluconate regimen for iron deficiency anemia. Clinical significance uncertain (Ann Pharmacother 2022;56:1082)."
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "138 (2 gm IV q8h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "40-60",
+    "volume_of_distribution_vd_l": "18 L",
+    "avg_serum_half_life_hr": "2-3",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "44 19",
+    "therapeutic_levels_in_csf": "Possibly",
+    "auc_ug_hr_ml": "394.7 (SS, 0-8 hr)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Urine dipstick tests (protein, ketones, blood)",
+          "effect": "False-positive results",
+          "management": "Use alternate methods"
+      }
+  ],
+  "comments": [
+      "References for major clinical trials:",
+      "Cefiderocol vs imipenem-cilastatin for complicated UTIs: Lancet Infect Dis 2018;18:1319.",
+      "Cefiderocol vs best available therapy for systemic infection due to carbapenem resistant gram-negative bacilli: Lancet Infect Dis 2021;21:226.",
+      "Cefiderocol vs meropenem for nosocomial pneumonia: Lancet Infect Dis 2021;21:213."
+  ]
+}

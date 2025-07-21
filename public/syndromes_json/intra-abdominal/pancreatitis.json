@@ -1,0 +1,51 @@
+{
+  "documentMetadata": {
+    "title": "Pancreatitis",
+    "sourceFile": "Pancreatitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Infected Pancreatic Necrosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Infected pancreatic necrosis is a serious complication of acute pancreatitis, associated with high morbidity and mortality. It occurs when parts of the pancreas die and become infected, usually with gut-derived organisms."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "The diagnosis of infected pancreatic necrosis is suspected in patients with pancreatitis who deteriorate or fail to improve after 7-10 days of hospitalization. CT-guided fine-needle aspiration (FNA) for Gram stain and culture is the gold standard for diagnosis."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Management involves supportive care, antibiotics, and often drainage or debridement of the necrotic tissue. A step-up approach, starting with percutaneous or endoscopic drainage followed by minimally invasive surgical debridement if needed, is often preferred."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Patients with confirmed or suspected infected pancreatic necrosis"
+        },
+        "components": [
+          {
+            "drug": "Carbapenems (e.g., imipenem, meropenem) or a combination of a broad-spectrum cephalosporin and metronidazole"
+          }
+        ],
+        "notes": "Antibiotics should be tailored based on culture results. Antifungal therapy should be considered in patients with prolonged antibiotic use or other risk factors for fungal infection."
+      }
+    }
+  ]
+}

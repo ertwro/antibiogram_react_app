@@ -1,0 +1,620 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus sp. (Coagulase-negative)",
+      "aliases": [
+        "CoNS"
+      ],
+      "lastUpdated": "2024-06-06",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species Example",
+          "value": "Staphylococcus epidermidis",
+          "notes": ""
+        },
+        {
+          "type": "Species Example",
+          "value": "Staphylococcus haemolyticus",
+          "notes": ""
+        },
+        {
+          "type": "Species Example",
+          "value": "Staphylococcus lugdunensis",
+          "notes": "Severity and spectrum of disease similar to S. aureus."
+        },
+        {
+          "type": "Species Example",
+          "value": "Staphylococcus capitis",
+          "notes": ""
+        },
+        {
+          "type": "Species Example",
+          "value": "Staphylococcus hominis",
+          "notes": ""
+        },
+        {
+          "type": "Species Example",
+          "value": "Staphylococcus caprae",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-positive cocci in clusters, catalase +, coagulase –, novobiocin susceptibility is variable (e.g., S. epidermidis is sensitive, S. saprophyticus is resistant)."
+    },
+    "clinicalProfile": {
+      "summary": "Coagulase-negative Staphylococcus species are part of the skin flora and are a frequent contaminant of cultures. However, they can cause serious infections, usually involving implanted devices. These infections include those related to prosthetics, peritoneal dialysis catheters, and vascular devices. They are frequently methicillin-resistant.",
+      "pathophysiologyPearls": [
+        "Biofilm formation on foreign materials is a key virulence factor."
+      ],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Prosthetic Device Infection",
+          "description": "Infection of artificial joints, heart valves, etc."
+        },
+        {
+          "syndromeName": "Catheter-Related Bloodstream Infection (CRBSI)",
+          "description": "Infection associated with central or peripheral vascular catheters."
+        },
+        {
+          "syndromeName": "Peritonitis",
+          "description": "Inflammation of the peritoneum, often associated with peritoneal dialysis catheters."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with implanted medical devices"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "mecA-mediated methicillin resistance",
+          "mechanismType": "Target Modification",
+          "description": "Frequently found in clinical isolates."
+        }
+      ],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "See Staphylococcus epidermidis for more detailed treatment regimens."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Suspected CoNS infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Varies"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": "Recommended for empiric therapy due to high rates of methicillin resistance."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Methicillin-susceptible CoNS infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Varies"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Nafcillin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Oxacillin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Methicillin-resistant CoNS infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Varies"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Linezolid",
+                      "dose": "",
+                      "route": "PO/IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.352Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus sp. (Coagulase-negative)"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "CoNS"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-06-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Coagulase-negative Staphylococcus species are part of the skin flora and are a frequent contaminant of cultures. However, they can cause serious infections, usually involving implanted devices. These infections include those related to prosthetics, peritoneal dialysis catheters, and vascular devices. They are frequently methicillin-resistant.",
+      "pathophysiologyPearls": [
+        "Biofilm formation on foreign materials is a key virulence factor."
+      ],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Prosthetic Device Infection",
+          "description": "Infection of artificial joints, heart valves, etc."
+        },
+        {
+          "syndromeName": "Catheter-Related Bloodstream Infection (CRBSI)",
+          "description": "Infection associated with central or peripheral vascular catheters."
+        },
+        {
+          "syndromeName": "Peritonitis",
+          "description": "Inflammation of the peritoneum, often associated with peritoneal dialysis catheters."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with implanted medical devices"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "mecA-mediated methicillin resistance",
+          "mechanismType": "Target Modification",
+          "description": "Frequently found in clinical isolates."
+        }
+      ],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Suspected CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "Recommended for empiric therapy due to high rates of methicillin resistance.",
+              "originalText": "Vancomycin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Methicillin-susceptible CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nafcillin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Nafcillin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Methicillin-susceptible CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Oxacillin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Oxacillin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-2-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Methicillin-susceptible CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Cefazolin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Methicillin-resistant CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Vancomycin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-1-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Methicillin-resistant CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Linezolid",
+              "dose": "",
+              "route": "PO/IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Linezolid  PO/IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-2-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Methicillin-resistant CoNS infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Varies"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "",
+              "originalText": "Daptomycin  IV "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

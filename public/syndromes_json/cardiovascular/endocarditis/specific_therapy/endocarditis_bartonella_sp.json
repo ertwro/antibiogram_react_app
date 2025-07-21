@@ -1,0 +1,151 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Bartonella sp.",
+    "lastUpdated": "2024-04-24",
+    "sourceFile": "Endocarditis, Bartonella sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella is the second most common cause of culture-negative endocarditis",
+        "Bartonella quintana endocarditis is associated with alcoholism, homelessness and body lice.",
+        "Bartonella henselae is associated with cats and valvular disease."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Methods (see J Clin Micro 2021.59: e02217-20 for advantages and limitations of these methods):",
+        "Positive serology",
+        "Recommend EIA",
+        "Titer of ≥ 1:800 good correlation with infective endocarditis",
+        "NOTE: low titer cross-reactivity with Coxiella burnetii, Brucella spp, and rarely Enterococcus faecalis",
+        "Bartonella-specific RT-PCR of resected heart valve",
+        "Valve tissue histopathology",
+        "Culture for Bartonella sp. (Rarely positive)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Due to risk of relapse, treatment of bartonella endocarditis is prolonged. Suggest repeat antibody titers every 6-8 weeks as guide to duration of therapy.",
+        "Specific therapy:"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV/po",
+            "frequency": "bid",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "1 mg/kg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6 weeks and first 2 weeks"
+        },
+        "notes": "Gentamicin target serum levels: peak 3-4 ug/mL and trough <1 ug/mL. Duration of Doxycycline therapy depends on valve resection surgery: If infected valve is resected, continue Doxycycline for another 6 wks. If no valve surgery, continue Doxycycline for another 3 months"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If cannot use Doxycycline, substitute",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "IV/po",
+            "frequency": "once daily",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        },
+        "notes": "If infected valve is surgically resected, continue Azithromycin for another 3 months. If infected valve is not resected, continue Azithromycin for another 6 months"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If Gentamicin toxicity precludes its use, consultation is suggested",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "notes": "as above",
+            "connector": "+"
+          },
+          {
+            "drug": "Rifampin",
+            "dose": "300 mg",
+            "route": "IV/po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "first 14 days"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Resistance of Bartonella to Doxycyline has not been documented; hence treatment failures likely indicate relapse, not resistance.",
+        "TMP-SMX, fluoroquinolones, 1st generation cephalosporins and penicillins are not predictably active against Bartonella quintana and should not be used."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comment"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Review: Copycat. N Engl J Med. 2021;385: 1797"
+      ]
+    }
+  ]
+}

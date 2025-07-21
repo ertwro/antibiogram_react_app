@@ -1,0 +1,218 @@
+{
+  "documentMetadata": {
+    "title": "Empiric Therapy of Septic Arthritis in a Child (3 months to 14 years)",
+    "lastUpdated": "2024-01-04",
+    "sourceFile": "Arthritis, Septic, Child.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy of septic arthritis in a child age 3 months to 14 years.",
+        "In general:",
+        "Treatment of septic arthritis requires both adequate drainage of purulent joint fluid and appropriate antimicrobial therapy.",
+        "White blood cell count, differential and routine cultures should be performed on joint fluid",
+        "Start empiric therapy only after collection of blood and joint fluid for culture and cell count; review Gram stain of joint fluid unless the child appears seriously ill. If seriously ill, administer antibiotics after blood cultures are obtained and obtain joint specimens as soon as feasible",
+        "There is no need to inject antimicrobial agents into joints.",
+        "Steroids are not recommended for acute septic arthritis",
+        "Be aware of imitators: contiguous osteomyelitis, toxic synovitis, reactive arthritis, Lyme arthritis, acute rheumatic fever, post-streptococcal arthritis, juvenile inflammatory arthritis (juvenile rheumatoid arthritis).",
+        "Contiguous osteomyelitis is common. Consider MRI to exclude contiguous osteomyelitis which will impact duration of therapy",
+        "If osteomyelitis is present, treat according to recommendations for osteomyelitis",
+        "If clinical response after 2-4 days of therapy is poor, consider MRI if not already done and repeat surgery for source control"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "PCR of joint fluid can be considered if blood and joint fluid cultures negative",
+        "If initial CRP is elevated, follow serial CRP to assess response"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus (27%)",
+        "S. pyogenes/Strep. pneumoniae (14%)",
+        "H. influenzae (3%)",
+        "Gram-negative bacilli especially Kingella kingae (6%). In Europe, K. kingae was the most common pathogen causing septic arthritis and/or osteomyelitis in children age 6-48 months (Pediatrics 2019;144: e20191509)",
+        "Other (including N. gonorrhea, N. meningitidis) (14%)",
+        "Culture negative or unknown (36%)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Drainage of purulent joint fluid",
+        "notes": "Needle aspiration may be sufficient in some cases; re-accumulation requires repeat drainage or arthrotomy. Consultation with orthopedics is helpful"
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Initial antimicrobial therapy depends on prevalence of MRSA in community:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "If MRSA prevalance is high",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "60-80 mg/kg",
+                "route": "IV",
+                "frequency": "divided 3-4 times a day"
+              },
+              {
+                "drug": "Cefotaxime",
+                "dose": "50 mg/kg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "100 mg/kg",
+                "route": "IV",
+                "frequency": "daily",
+                "connector": "or"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "If MRSA prevalence is low",
+            "components": [
+              {
+                "drug": "Cefazolin",
+                "dose": "150 mg/kg/day",
+                "frequency": "divided q6-8h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "For true beta-lactam allergy"
+        },
+        "strengthOfRecommendation": "Alternative",
+        "notes": "for empiric coverage",
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "10 mg/kg",
+            "route": "IV",
+            "frequency": "q8h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "7.5 mg/kg",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "or"
+          },
+          {
+            "drug": "Aztreonam",
+            "dose": "30 mg/kg",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "For confirmed MRSA"
+        },
+        "components": [
+          {
+            "drug": "Linezolid",
+            "dose": "10 mg/kg",
+            "route": "IV",
+            "frequency": "q8h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "7.5 mg/kg",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "or"
+          },
+          {
+            "drug": "Daptomycin",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "After initial response, therapy is usually completed with oral therapy. 2 weeks appropriate when there is rapid and complete response to initial therapy. 3 weeks may be necessary with more severe disease, more virulent pathogens (e.g. MRSA)",
+        "Narrow therapy once susceptibility is known",
+        "MRSA unlikely if cultures are negative - negative nasal PCR of MRSA has high negative predictive value and can be used to narrow therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2023 IDSA/Pediatric ID Society Guidelines: Pediatr Infect Dis J 2023 Nov 6 online ahead of print.",
+        "Vancomycin: traditional dosing of 45-60 mg/kg/day frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020.",
+        "Septic arthritis due to Salmonella has no association with sickle cell disease, unlike Salmonella osteomyelitis.",
+        "Start empiric therapy only after collection of blood and joint fluid for culture; review Gram stain of joint fluid.",
+        "Marked decrease in H. influenzae since use of conjugate vaccine.",
+        "In one trial 10 days of therapy was as effective as a 30-day treatment course if there is a good clinical response and CRP levels normalize quickly, Clin Infect Dis 48:1201, 2009.",
+        "One small randomized, double-blind, placebo controlled trial found that dexamethasone 0.15 mg/kg q6h IV for 16 doses improved clinical response with shorter durations of fever, parenteral antibiotic therapy, and hospital stay (J Pediatr Orthop 31:211, 2011). Not generally recommended as risk may outweigh benefit (Pediatr Infect Dis J 2023)",
+        "No need to inject antimicrobial agents into joints.",
+        "PCR has been used to identify organisms in culture negative septic arthritis but is not widely available J Pediatr Orthop. 2016 Mar;36(2):167-72"
+      ]
+    }
+  ]
+}

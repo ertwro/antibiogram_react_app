@@ -1,0 +1,128 @@
+
+{
+  "documentMetadata": {
+    "title": "Hematogenous (Endogenous) Endophthalmitis",
+    "sourceFile": "syndromes/ocular/endophtalmitis/Endophthalmitis, Hematogenous or Endogenous.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Endogenous endophthalmitis is a rare but severe intraocular infection caused by the seeding of the eye by microorganisms from a distant source via the bloodstream. It accounts for a small percentage of all endophthalmitis cases but is associated with significant morbidity and mortality, as it is often a manifestation of a systemic infection. The infection typically seeds the posterior segment (retina and choroid) first due to its rich blood supply."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiology and Risk Factors"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Pathogen Type", "Common Organisms", "Associated Risk Factors"],
+        "rows": [
+          ["Fungal", "Candida species (most common overall), Aspergillus species", "Candidemia, central venous catheters, TPN, IV drug use, recent surgery, immunosuppression. Aspergillus is associated with IV drug use and immunosuppression (e.g., transplant patients)."],
+          ["Bacterial (Gram-Positive)", "Staphylococcus aureus, Streptococcus species, Bacillus cereus", "Infective endocarditis, IV drug use, skin/soft tissue infections, indwelling catheters. B. cereus is strongly linked to IV drug use."],
+          ["Bacterial (Gram-Negative)", "Klebsiella pneumoniae, Escherichia coli, Pseudomonas aeruginosa", "Liver abscess (especially Klebsiella in East Asian populations), urinary tract infections, intra-abdominal infections, diabetes mellitus."]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Decreased vision, floaters, eye pain, red eye. Symptoms can be bilateral in up to 25% of cases. Patients often have systemic signs of infection (fever, sepsis)."
+        },
+        {
+          "key": "Signs",
+          "value": "Posterior segment findings are prominent: focal chorioretinal lesions, vitritis, vitreous abscess ('fluff balls' in Candida). Anterior segment inflammation (cells, flare, hypopyon) can also be present. The presentation can range from subtle focal retinitis to fulminant panophthalmitis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis and Workup"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A high index of suspicion is required in any patient with a systemic infection and new ocular symptoms. An emergent ophthalmology consultation is mandatory."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Systemic Workup",
+          "interpretation": "A comprehensive medical evaluation is crucial to identify the primary source of infection. This includes blood cultures, urine cultures, and imaging (e.g., echocardiogram for endocarditis, abdominal CT for liver abscess)."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Ocular Workup",
+          "interpretation": "Diagnosis is often clinical. However, an aqueous or vitreous tap for culture and PCR can confirm the causative organism, especially if blood cultures are negative. This is often performed at the time of intravitreal antibiotic injection."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management is twofold: treating the systemic infection and treating the intraocular infection."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic Antimicrobial Therapy"
+        },
+        {
+          "type": "paragraph",
+          "text": "High-dose parenteral antibiotics or antifungals are required, guided by blood culture results and sensitivities. The chosen agent must have good intraocular penetration."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Local Ocular Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Intravitreal Antimicrobials: Injection of antibiotics (e.g., vancomycin and ceftazidime) or antifungals (e.g., voriconazole or amphotericin B) is the cornerstone of treatment for the ocular infection.",
+            "Pars Plana Vitrectomy (PPV): Surgical removal of the infected vitreous is often indicated, especially in cases with severe vitritis or abscess formation, to reduce the microbial load and clear inflammatory debris."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Prognosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "The prognosis for both vision and life can be poor. Visual outcome is often guarded, particularly with bacterial causes. Klebsiella pneumoniae endophthalmitis is notoriously associated with very poor visual outcomes. The condition carries a significant mortality rate due to the underlying systemic sepsis."
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Endophthalmitis, Candida; Infective Endocarditis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Endophthalmitis, Candida"
+      }
+    }
+  ]
+}

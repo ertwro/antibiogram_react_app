@@ -1,0 +1,134 @@
+{
+  "drug_name": "Amoxicillin-clavulanate",
+  "tradename": "Augmentin, Augmentin ES-600, Augmentin XR, Amoclan, Clavulin",
+  "drug_shortage": [
+    {
+      "preparation": "All oral formulations",
+      "start_date": "2022-11-17",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Amoxicillin-clavulanate, FDA approved in 1984, is the co-formulation of an aminopenicillin (amoxicillin) plus a beta-lactamase inhibitor, clavulanate (clavulanic acid). Clavulanic acid extends the spectrum to selected beta-lactamase producing bacteria.",
+      "Clavulanic acid is a naturally occurring ẞ-lactam isolated from Streptomyces clavuligerus with essentially no antibacterial activity of its own. It inhibits only narrow-spectrum penicillinases, and TEM and SHV (Ambler Class A) enzymes found in common gram-negative bacilli such as E. coli, Proteus, and Klebsiella. Clavulanic acid inhibits no Class B, C, or D enzymes.",
+      "Amoxicillin-clavulanate is available in a somewhat bewildering array of oral formulations. See the Adult Dose section below for a complete listing.",
+      "IV formulation (5:1) available in some countries (not in the US).",
+      "Doses are based on the amoxicillin component. They are expressed below as mg as the amoxicillin component/mg of the clavulanate component, e.g., 500 mg/125 mg.",
+      "Amoxicillin is eliminated by the kidney, whereas clavulanate undergoes extensive hepatic metabolism. As the dose of a combination is decreased in renal impairment, a relative clavulanate deficiency can occur (JAMA 2001;285:386). Thus, lower-ratio products (e.g., 4:1 amoxicillin:clavulanate) are preferred if CrCl <30 mL/min. See Renal Adjustment table below."
+    ],
+    "adult_dose": {
+        "usual_doses": [
+            "500 mg/125 mg po q8h",
+            "875 mg/125 mg po q12h",
+            "Extended release 2000 mg/125 mg po q12h",
+            "1000 mg/200 mg IV q8h (where available)"
+        ],
+        "available_formulations": [
+            {"dosage_form": "Suspension", "amoxicillin": "125 mg/5 mL", "clavulanate": "31.25 mg/5 mL", "ratio": "4:1"},
+            {"dosage_form": "Suspension", "amoxicillin": "200 mg/5 mL", "clavulanate": "28.5 mg/5 mL", "ratio": "7:1"},
+            {"dosage_form": "Suspension", "amoxicillin": "250 mg/5 mL", "clavulanate": "62.5 mg/5 mL", "ratio": "4:1"},
+            {"dosage_form": "Suspension", "amoxicillin": "400 mg/5 mL", "clavulanate": "57 mg/5 mL", "ratio": "7:1"},
+            {"dosage_form": "Suspension", "amoxicillin": "600 mg/5 mL", "clavulanate": "42.9 mg/5 mL", "ratio": "14:1"},
+            {"dosage_form": "Tablet", "amoxicillin": "250 mg", "clavulanate": "125 mg", "ratio": "2:1"},
+            {"dosage_form": "Tablet", "amoxicillin": "500 mg", "clavulanate": "125 mg", "ratio": "4:1"},
+            {"dosage_form": "Tablet", "amoxicillin": "875 mg", "clavulanate": "125 mg", "ratio": "7:1"},
+            {"dosage_form": "Extended-release tablet", "amoxicillin": "1000 mg", "clavulanate": "62.5 mg", "ratio": "16:1"},
+            {"dosage_form": "Chewable tablet", "amoxicillin": "200 mg", "clavulanate": "28.5 mg", "ratio": "7:1"},
+            {"dosage_form": "Chewable tablet", "amoxicillin": "400 mg", "clavulanate": "57 mg", "ratio": "7:1"}
+        ]
+    },
+    "pediatric_dose": {
+        "oral_7_1_formulation": "45 mg/kg/day (divided q12h)",
+        "oral_14_1_formulation_for_aom": "90 mg/kg/day (divided q12h) for wt <40 kg",
+        "iv_5_1_formulation": {
+            "age_lt_3_mon_wt_lt_4_kg": "25 mg/kg q12h",
+            "age_lt_3_mon_wt_ge_4_kg": "25 mg/kg q8h",
+            "age_ge_3_mon_wt_lt_40_kg": "25 mg/kg q8h",
+            "age_ge_3_mon_wt_ge_40_kg": "use adult dosing"
+        }
+    }
+  },
+  "renal_adjustment": {
+    "note": "Doses based on amoxicillin component. ER tab contraindicated if CrCl <30 mL/min (including HD). 600 mg/42.9 mg (per 5 mL) susp: No dosing recommendations for renal impairment.",
+    "half_life_normal": "Amoxicillin: 1.4, Clavulanate: 1",
+    "half_life_esrd": "Amoxicillin: 5-20, Clavulanate: 4",
+    "dose_renal_function_normal": "500 mg po q8h (4:1), 875 mg po q12h (7:1), 1gm IV q8h (5:1)",
+    "crcl_or_egfr": {
+        "oral": "CrCl >30: No dosage adjustment. CrCl 10-30: 250-500 mg q12h. CrCl <10: 250-500 mg q24h",
+        "iv": "CrCl >30: No dosage adjustment. CrCl 10-30: 1 gm x1, then 500 mg q12h. CrCl <10: 1 gm x1, then 500 mg q24h"
+    },
+    "hemodialysis": {
+        "oral": "250-500 mg q24h (+ extra dose AD)",
+        "iv": "1 gm x1, then 500 mg q24h (+ extra dose AD)"
+    },
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": {
+      "gastrointestinal": "Gastrointestinal (diarrhea, C. difficile infection). 125-250 mg per day of clavulanic acid is a reasonable target. Exceeding that target (e.g., with q8h regimens) may result in more diarrhea.",
+      "hypersensitivity": "Hypersensitivity reactions. Fever, rash, anaphylaxis. Persons with infectious mononucleosis, i.e., Epstein-Barr virus (EBV), are likely to develop rash. It is not a permanent allergy. In patients with true amoxicillin allergy, there is an increased risk of cross allergenicity with oral cephalosporins that have an identical R1 side chain (cefadroxil, cefprozil). See Drug Allergy: Penicillins, Cephalosporins, Overview page. In patients with immediate allergic reaction to amoxicillin-clavulanate, 1/3 are due to the clavulanate (J Allergy Clin Immunol 2010;125:502).",
+      "hematologic": "Hematologic: neutropenia, thrombocytopenia",
+      "hepatotoxicity": "Hepatotoxicity. Linked to clavulanic acid. Amoxicillin-clavulanate is a common cause (13-23%) of drug-induced cholestatic liver injury. Onset of injury is a few days to as long as 8 weeks after initiation of therapy. Often occurs after the course of amoxicillin-clavulanate is completed. Typical presentation: fatigue, low grade fever, nausea and abdominal pain, followed by pruritus and jaundice. The pattern of liver enzyme elevations is typically cholestatic with marked elevations in alkaline phosphatase and GGT, as well as bilirubin. In some instances, aminotransferase levels are markedly elevated, giving a mixed or hepatocellular pattern, particularly in younger patients with earlier onset of injury. Drug-induced liver injury (DILI) related to amoxicillin-clavulanate has been associated with HLA-DRB1*15:01 and its haplotype, DQB1*06:02, and with HLA-A*02:01 in northern European populations. DILI is selective on the basis of HLA restriction, and no cross-reactivity with other beta-lactams is apparent. Given the low positive predictive value of these alleles for DILI, testing is not a part of routine clinical practice (N Engl J Med 2019;381:2338). Additional refs: N Engl J Med 2019;381:264; Gastroenterology 2015;148:1340.",
+      "seizures": "Seizures (rare)",
+      "crystalluria": "Crystalluria (rare)",
+      "beta_d_glucan": "Positive blood test for 1,3-beta-D-glucan in patients given IV amoxicillin-clavulanate (N Engl J Med 2006;354:2834)."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Bacteroides fragilis",
+        "Capnocytophaga sp.",
+        "Haemophilus influenzae",
+        "Moraxella catarrhalis",
+        "Pasteurella multocida",
+        "Staphylococcus saprophyticus"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "dosage_expression": "Dosage is expressed as mg of amoxicillin/mg of clavulanic acid",
+    "iv_formulations": "IV formulations not available in US",
+    "pk_pd_index": "T>MIC",
+    "preparations": "Tab (250 mg/125 mg, 500 mg/125 mg, 875 mg/125 mg), Chewtab (200 mg/28.5 mg, 400 mg/57 mg), Extended-release (ER) tab (1000 mg/62.5 mg), Oral susp per 5 mL (125 mg/31.25 mg, 250 mg/62.5 mg, 200 mg/28.5 mg, 400 mg/57 mg, 600 mg/42.9 mg), Injection (500 mg/100 mg, 1000 mg/200 mg, 2000 mg/200 mg)",
+    "food_recommendation": "Immediate release preps ± food, ER + food",
+    "oral_absorption_percent": "Amoxicillin: 80, Clavulanate: 30-98",
+    "tmax_hr": "ER: Amoxicillin 1.5, Clavulanate: 1.03",
+    "peak_serum_conc_ug_ml": "Immediate release: amox 11.6, clav 2.2 (875 mg/125 mg, SD). ER: amox 17, clav 2.1 (2000 mg/125 mg, SD). IV: amox 105.4, clav 28.5 (1000 mg/200 mg, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Amoxicillin: 18, Clavulanate: 25",
+    "volume_of_distribution_vd_l_kg": "Amoxicillin: 0.36 L/kg, Clavulanate: 0.21 L/kg",
+    "avg_serum_half_life_hr": "Amoxicillin: 1-1.4, Clavulanate: 1",
+    "elimination": "Amoxicillin: renal, Clavulanate: hepatic metabolism",
+    "bile_penetration_percent": "Amoxicillin: 100-3000",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "Immediate-release: amox 26.8, clav 5.1 (875 mg/125 mg po, 0-inf). ER: amox 71.6, clav 5.3 (2000 mg/125 mg po, 0-inf). IV: amox 76.3, clav 27.9 (1000 mg/200 mg po, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Amoxicillin: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Allopurinol", "effect": "↑ frequency of rash", "management": "Monitor"},
+      {"drug": "Probenecid", "effect": "↑ amoxicillin", "management": "Monitor, adjust dosage"}
+  ]
+}

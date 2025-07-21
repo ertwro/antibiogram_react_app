@@ -1,0 +1,33 @@
+{
+  "name": "Cellulitis, Buccal",
+  "general_information": "Buccal cellulitis is characterized by a woody induration of the soft tissues of the cheek or face, primarily affecting children under 5 years old. The incidence has significantly decreased due to the Haemophilus influenzae type b (Hib) vaccine.",
+  "presenting_symptoms": "Marked cheek swelling with minimal trismus and potential systemic symptoms like fever.",
+  "diagnostic_tests": "Diagnosis is primarily clinical, based on the characteristic presentation.",
+  "common_pathogens": [
+    "Haemophilus influenzae, type B",
+    "Streptococcus pneumoniae (rare)"
+  ],
+  "treatment_guidelines": {
+    "antibiotic_therapy": {
+      "empiric_therapy": [
+        {
+          "drug": "Ceftriaxone",
+          "dosage": "50 mg/kg IV q24h"
+        }
+      ],
+      "alternative_therapy": [
+        {
+          "drug": "Amoxicillin-clavulanate",
+          "dosage": "45-90 mg/kg po divided bid"
+        },
+        {
+          "drug": "TMP-SMX",
+          "dosage": "8-12 mg/kg (TMP component) po/IV divided bid"
+        }
+      ]
+    }
+  },
+  "references": [
+    "immunize.org/askexperts"
+  ]
+}

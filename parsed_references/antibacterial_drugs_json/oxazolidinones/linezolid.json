@@ -1,0 +1,123 @@
+{
+  "drug_name": "Linezolid",
+  "tradename": "Zyvox",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2024-10-16",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Linezolid is an oxazolidinone antibiotic with in vitro activity against gram-positive cocci: methicillin-sensitive Staph. aureus (MSSA), methicillin-resistant Staph. aureus (MRSA), Vancomycin-resistant E. faecium and Strep. pneumoniae.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "It has excellent oral bioavailability; oral and IV doses are the same.",
+      "Linezolid inhibits monoamine oxidase. Hence, there is potential for serotonin syndrome if given to patients taking selective serotonin re-uptake inhibitors or serotonin norepinephrine reuptake inhibitors. See adverse effects.",
+      "Inhibits toxin production in patients with toxic shock syndrome from either Staph. aureus or Strep. pyogenes (Antimicrob Agents Chemother 2012;56:1744; J Antimicrob Chemother 2019;74:1)."
+    ],
+    "adult_dose": {
+      "skin_skin_structure_infections_uncomplicated": "400-600 mg po/IV q12h",
+      "all_other_indications": "600 mg po/IV q12h"
+    },
+    "pediatric_dose": {
+        "age_le_28_days": {
+            "ga_lt_34_wk_pna_le_7_days": "20 mg/kg/day (div q12h)",
+            "all_others": "30 mg/kg/day (div q8h)"
+        },
+        "age_gt_28_days_all_indications_except_uncomp_ssti": {
+            "le_11_yrs": "30 mg/kg/day (div q8h)",
+            "gt_11_yrs": "600 mg q12h"
+        },
+        "age_gt_28_days_uncomplicated_ssti": {
+            "lt_5_yrs": "30 mg/kg/day (div q8h)",
+            "5_to_11_years": "20 mg/kg/day (div q12h)",
+            "gt_11_years": "600 mg q12h"
+        },
+        "max_day": "1200 mg"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "5",
+    "half_life_esrd": "6-8",
+    "dose_renal_function_normal": "600 mg po/IV q12h",
+    "crcl_or_egfr": "No dosage adjustment (product labeling). Debated: 300 mg q12h for eGFR <60 41",
+    "hemodialysis": "No dosage adjustment (dose AD)",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "PK modeling data suggest the need for dosage reduction in patients with liver cirrhosis depending on pathogen MIC (AAC 2020;64:e00133-20).",
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Burns: potentially subtherapeutic concentrations (J Burn Care Res 2010;31:207).",
+    "ECMO: see ECMO Drug Dosing Adjustment page.",
+    "Obesity: see Obesity Dosing Adjustments page."
+  ],
+  "adverse_effects": {
+      "short_term": "Short term exposure: Rash, nausea (3%), vomiting (1%), diarrhea (4%), C. difficile colitis, increased LFTs (1.3%).",
+      "long_term": {
+          "myelosuppression": "Reversible myelosuppression: thrombocytopenia, anemia, and neutropenia reported. Most often after >2 weeks of therapy. Higher risk in end-stage renal disease (Clin Infect Dis 2006;42:66).",
+          "lactic_acidosis": "Lactic acidosis; peripheral neuropathy, optic neuropathy (after ≥4 weeks of therapy).",
+          "mitochondrial_toxicity": "Data consistent with time and dose-dependent inhibition of intra-mitochondrial protein synthesis. Trend toward association of mitochondrial toxicity with specific mitochondrial 16S RNA polymorphisms (Antimicrob Agents Chemother 2017;61:e00542-17). In vitro studies demonstrate that both linezolid and tedizolid cause a rapid and complete inhibition of mitochondrial enzymes involved in oxidative phosphorylation. With drug withdrawal, all effects were rapidly and fully reversible.",
+          "marrow_toxicity": "Lower frequency of clinical marrow toxicity with tedizolid may relate to reduced exposure due to the once daily dosing schedule. Ref: Antimicrob Agents Chemother 2018;62: e01599-17"
+      },
+      "monoamine_oxidase_inhibitor": "Inhibitor of monoamine oxidase. Risk of severe hypertension if taken with foods rich in tyramine. Avoid concomitant pseudoephedrine, phenylpropanolamine, and caution with SSRIs (selective serotonin reuptake inhibitors, e.g., fluoxetine (Prozac)).",
+      "serotonin_syndrome": "Risk of serotonin syndrome (fever, agitation, mental status changes, tremors) if linezolid given with concomitant SSRIs (Clin Infect Dis 2006;42:1578; Clin Infect Dis 2006;43:180). The reported incidence of serotonin toxicity among patients also taking a serotonergic medication was <1% (J Antimicrob Chemother 2012;67:494); similar low incidence in a Veterans Affairs population (Antimicrob Agents Chemother 2013;57:5901). Nonetheless, an FDA Drug Safety Communication warns of increased risk of combining linezolid with any of the following serotonin reuptake inhibitors: meperidine, paroxetine, fluvoxamine, fluoxetine, sertraline, citalopram, escitalopram, vilazodone, venlafaxine, desvenlafaxine, and duloxetine.",
+      "review": "Review of linezolid and serotonin syndrome: J Int Med Res 2025;53:3000605251315355.",
+      "black_hairy_tongue": "Black hairy tongue (rare): Infect Drug Resist 2022;15:5449.",
+      "tooth_discoloration": "Reversible tooth discoloration after prolonged use (Clin Infect Dis 2016;62:617)."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "Humans: no evidence of toxicity. Animals: embryo-fetal lethality in mice at 6.5x human exposure.",
+    "lactation": "Probably safe with monitoring for GI toxicity. Infant serum levels resulting from drug received through breast milk would be trivial.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Enterococcus faecalis, vancomycin-resistant (VRE)",
+        "Enterococcus faecium, susceptible to vancomycin",
+        "Enterococcus faecium, vancomycin resistant (VRE)",
+        "Staphylococcus aureus, methicillin-resistant, (MRSA)",
+        "Staphylococcus epidermidis, methicillin-resistant (MRSE)",
+        "Staphylococcus sp., coagulase-negative (Methicillin resistant); S. hominis, S. capitis, others"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (600 mg), Oral susp (100 mg/5 mL), Injection",
+    "food_recommendation": "Tab/susp ± food",
+    "oral_absorption_percent": "100",
+    "tmax_hr": "1-2",
+    "peak_serum_conc_ug_ml": "15-20 (600 mg IV/po q12h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "31",
+    "volume_of_distribution_vd_l_vss": "40-50 L (Vss)",
+    "avg_serum_half_life_hr": "5",
+    "elimination": "Metabolized, renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "60-70",
+    "therapeutic_levels_in_csf": "Possibly 18",
+    "auc_ug_hr_ml": "179 (600 mg IV q12h, 0-24h), 276 (600 mg po q12h, 0-24h)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Adrenergic agents", "effect": "Risk of hypertension"},
+      {"drug": "Aged, fermented, pickled, or smoked foods", "effect": "Risk of hypertension"},
+      {"drug": "Fentanyl", "effect": "Risk of serotonin syndrome (J Clin Pharm Ther 2020;45:825)"},
+      {"drug": "Meperidine", "effect": "Risk of serotonin syndrome"},
+      {"drug": "Rasagiline", "effect": "Risk of serotonin syndrome"},
+      {"drug": "Rifampin", "effect": "↓ linezolid"},
+      {"drug": "Serotonergic drugs (SSRIs)", "effect": "Risk of serotonin syndrome"}
+  ],
+  "comments": [
+      "Linezolid vs. Vancomycin: Prospective randomized double-blind trial of Linezolid vs. Vancomycin for patients with hospital-acquired pneumonia (HAP), healthcare-associated pneumonia (HCAP), or ventilator associated pneumonia (VAP) caused by MRSA. End of study clinical success favored Linezolid, p <0.04 (Clin Infect Dis 2012;54:621). The difference disappeared when analyzed by subgroup (HCAP, HAP, and VAP). No difference in all cause 60-day mortality. There was no requirement to document VAP by quantitative cultures of the lower airway. More nephrotoxicity in the Vancomycin patients. Overall, the data favor Linezolid and are supported by similar results in an animal model (Chest 2009;135:1564).",
+      "Serum level variability: Reports of significant variability of serum peak and trough serum levels after standard doses. Subtherapeutic trough concentrations found in 30% of patients with acute S. aureus infections (Antimicrob Agents Chemother 2013;57:1913).",
+      "Antibacterial activity is time dependent. Target is an AUC/MIC ratio of >80 or having the serum concentration exceed the MIC of the pathogen for >85% of the dosage interval. When serum levels were measured, there was a failure to achieve the latter targets in 60-70% of patients (Antimicrob Agents Chemother 2010;54:4605). Interesting, but serum levels of Linezolid are not routinely available.",
+      "Pharmacokinetics in cystic fibrosis: Antimicrob Agents Chemother 2004;48:281."
+  ]
+}

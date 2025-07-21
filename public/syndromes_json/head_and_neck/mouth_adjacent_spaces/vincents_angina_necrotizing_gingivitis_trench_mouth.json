@@ -1,0 +1,151 @@
+{
+  "documentMetadata": {
+    "title": "Vincent's Angina, Necrotizing Gingivitis, Trench mouth",
+    "sourceFile": "Vincent's Angina, Necrotizing Gingivitis, Trench mouth.pdf",
+    "lastUpdated": "2023-09-25"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Person with poor dental hygiene develops inflamed, ulcerated and painful gingiva with associated halitosis.",
+        "Can mimic scurvy",
+        "Most severe form is called Noma or cancrum oris (Lancet 368:147, 2006)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mixture of usual oral anaerobic bacteria and fusospirochetal organisms",
+        "Associated with vitamin deficiencies (vitamins A-D)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Severe infection",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "4 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Less severe and able to take po meds",
+        "components": [
+          {
+            "drug": "Penicillin VK",
+            "dose": "500-1000 mg",
+            "route": "po",
+            "frequency": "qid"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "tid",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Replete vitamins"
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Dental care"
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "If severe",
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "600 mg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "Less severe and can take oral medications",
+        "components": [
+          {
+            "drug": "Clindamycin",
+            "dose": "300-450 mg",
+            "route": "po",
+            "frequency": "qid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Replete vitamins"
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    }
+  ]
+}

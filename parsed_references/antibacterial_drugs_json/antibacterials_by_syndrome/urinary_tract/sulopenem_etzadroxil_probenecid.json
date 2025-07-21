@@ -1,0 +1,172 @@
+{
+  "drug_name": "Sulopenem Etzadroxil-Probenecid",
+  "tradename": "Orlynvah",
+  "usage_and_dosing": {
+    "description": [
+      "Sulopenem etzadroxil-probenecid is Indicated for the treatment of uncomplicated UTI caused by E. coli, K. pneumoniae, or P. mirabilis in adult women with limited or no alternative oral treatment options.",
+      "Sulopenem etzadroxil is a thiopenem ester prodrug that is hydrolyzed to sulopenem (a substrate of OAT3) upon oral administration. Systemic exposure is boosted by probenecid (an OAT1 and OAT3 inhibitor).",
+      "Sulopenem inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs). In E. coli, binding affinity is as follows: PBP2 > PBP1A > PBP2A > PBP4 > PBP3 > PBP5/6.",
+      "Resistance to sulopenem is mediated by certain ESBLs including carbapenemases, altered PBPs, efflux pumps, and loss of outer membrane porin channels. Active against Enterobacterales in the presence of certain beta-lactamases: AmpC, CTX-M, TEM, SHV.",
+      "Some drug-drug interactions are expected (see chart below). Of note, no clinically significant reduction in valproic acid concentrations has been observed following concurrent use (in contrast to carbapenems).",
+      "May interfere with copper sulfate urine glucose tests, resulting in a false-positive for glycosuria.",
+      "Good review: Drugs 2022;82:533."
+    ]
+  },
+  "adult_dose": {
+    "dose": "One tablet po q12h x 5 days.",
+    "note": "Each tablet contains sulopenem etzadroxil 500 mg and probenecid 500 mg."
+  },
+  "pediatric_dose": {
+    "dose_age_gt_28_days": "Safety and efficacy not established"
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": {
+      "sulopenem": "1.3",
+      "probenecid": "3.8"
+    },
+    "half_life_hrs_esrd": "No data",
+    "dose_renal_function_normal": "1 tab q12h x5 days",
+    "crcl_or_egfr": "CrCl ",
+    "hemodialysis": "Not recommended",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No data",
+    "moderate_impairment_child_pugh_class_b": "No data",
+    "severe_impairment_child_pugh_class_c": "No data"
+  },
+  "adverse_effects": [
+    "Gastrointestinal (nausea, vomiting, diarrhea)",
+    "The most common adverse effect resulting in treatment discontinuation in phase 3 trials.",
+    "Hypersensitivity (rash, angioedema, anaphylaxis)",
+    "Headache",
+    "C. difficile-associated diarrhea",
+    "May cause gout exacerbation. When used in patients with a history of gout, institute measures to reduce the risk of uric acid kidney stone development, such as increased fluids and urinary tract alkalinization. Contraindicated in patients with known uric acid kidney stones."
+  ],
+  "pregnancy_risk": {
+    "sulopenem": "No data in humans; evidence of fetal and maternal toxicity in animals.",
+    "probenecid": "No evidence of toxicity in humans.",
+    "use_if_benefit_of_short_term_use_outweighs_risk": true,
+    "use_during_lactation": {
+      "sulopenem": "no data on presence in milk, effects on the breastfed infant, or effects on milk production.",
+      "probenecid": "present in milk, no reports of adverse effects in breastfed infants."
+    }
+  },
+  "antimicrobial_spectrum": {},
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Tablet (500 mg sulo/500 mg prob)",
+    "food_rec_po_drugs": "Tab + food",
+    "oral_absorption_percent": {
+      "sulopenem": "64",
+      "probenecid": "no data"
+    },
+    "tmax_hr": {
+      "sulopenem": "2",
+      "probenecid": "2"
+    },
+    "peak_serum_conc_ug_ml": {
+      "sulopenem": "2.7",
+      "probenecid": "30.4",
+      "note": "(500 mg/500 mg, SD)"
+    },
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": {
+      "sulopenem": "11",
+      "probenecid": "no data"
+    },
+    "volume_of_distribution_vd": {
+      "sulopenem": "92.1 L",
+      "probenecid": "11.9 L"
+    },
+    "avg_serum_t1_2_hr": {
+      "sulopenem": "1.3",
+      "probenecid": "3.8"
+    },
+    "elimination": "Sulopenem: metabolized, renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": {
+      "sulopenem": "7.4",
+      "probenecid": "237",
+      "note": "(500 mg/500 mg, 0-inf)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cy_p450s_that_drug_is_a_substrate_for": null,
+    "transporters_that_drug_is_a_substrate_for": {
+      "sulopenem": "OAT3",
+      "probenecid": "BCRP"
+    },
+    "ug_ts_that_drug_is_a_substrate_for": null,
+    "cy_p450s_inhibited_by_drug": null,
+    "transporters_inhibited_by_drug": "Probenecid: OAT1, OAT3",
+    "ug_ts_inhibited_by_drug": null,
+    "cy_p450s_induced_by_drug": null,
+    "transporters_induced_by_drug": null,
+    "ug_ts_induced_by_drug": null,
+    "impact_on_serum_drug_concentrations": "
+"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Indomethacin",
+      "effect_on_concentration": "
+ indomethacin",
+      "suggested_management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Ketoprofen",
+      "effect_on_concentration": "
+ ketoprofen",
+      "suggested_management": "Avoid co-administration"
+    },
+    {
+      "drug": "Ketorolac",
+      "effect_on_concentration": "
+ ketorolac",
+      "suggested_management": "Contraindicated"
+    },
+    {
+      "drug": "Lorazepam",
+      "effect_on_concentration": "
+ lorazepam",
+      "suggested_management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Methotrexate",
+      "effect_on_concentration": "
+ methotrexate",
+      "suggested_management": "Monitor, avoid if possible"
+    },
+    {
+      "drug": "Naproxen",
+      "effect_on_concentration": "
+ naproxen",
+      "suggested_management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Oral sulfonylureas",
+      "effect_on_concentration": "
+ oral sulfonylurea",
+      "suggested_management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Rifampin",
+      "effect_on_concentration": "
+ rifampin",
+      "suggested_management": "Monitor"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+
+{
+  "drug_name": "Voquezna",
+  "tradename": "Voquezna",
+  "usage_and_dosing": {
+    "description": "Vonoprazan/Amoxicillin/Clarithromycin (Voquezna Triple Pak) and Vonoprazan/Amoxicillin (Voquezna Dual Pak) are indicated for the treatment of Helicobacter pylori infection in adults. Co-packaged products consisting of vonoprazan + amoxicillin, with or without clarithromycin. Vonoprazan is an oral potassium-competitive acid blocker (PCAB). Caution: numerous drug interactions (see Major Drug Interactions chart below, not all-inclusive)",
+    "adult_dose": {
+      "triple_pak": {
+        "description": "Triple Pak (with or without food):",
+        "vonoprazan": "20 mg po bid x14 days",
+        "amoxicillin": "1000 mg po bid x14 days",
+        "clarithromycin": "500 mg po bid x14 days"
+      },
+      "dual_pak": {
+        "description": "Dual Pak (with or without food):",
+        "vonoprazan": "20 mg po bid x14 days",
+        "amoxicillin": "1000 mg po tid x14 days"
+      }
+    },
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": {
+      "vonoprazan": "6.8 hrs",
+      "amoxicillin": "1.4 hrs",
+      "clarithromycin": "5-7 hrs"
+    },
+    "half_life_esrd": {
+      "amoxicillin": "5-20 hrs",
+      "clarithromycin": "22 hrs"
+    },
+    "dose_renal_function_normal": {
+      "triple_pak": {
+        "vonoprazan": "20 mg q12h",
+        "amoxicillin": "1 gm q12h",
+        "clarithromycin": "500 mg q12h"
+      },
+      "dual_pak": {
+        "vonoprazan": "20 mg q12h",
+        "amoxicillin": "1 gm q8h"
+      }
+    },
+    "crcl_or_egfr": {
+      "egfr_>30": "No dosage adjustment",
+      "egfr_<30": "Not recommended"
+    },
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "Avoid use",
+    "severe_impairment": "Avoid use"
+  },
+  "adverse_effects": [
+    "Gastrointestinal (diarrhea, abdominal pain)",
+    "Hypersensitivity reactions",
+    "Severe cutaneous adverse reactions",
+    "C. difficile-associated diarrhea",
+    "Vulvovaginal candidiasis",
+    "Vonoprazan reduces intragastric acidity, which increases serum chromogranin A levels and may cause false positive results in diagnostic investigations for neuroendocrine tumors.",
+    "Dysgeusia (due to clarithromycin)",
+    "Hepatotoxicity (due to clarithromycin)",
+    "QT prolongation (due to clarithromycin)",
+    "High urine concentrations of amoxicillin may cause false-positive results when using glucose tests based on the Benedict's copper reduction reaction that determines the amount of reducing substances like glucose in the urine."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": {
+      "triple_pak": "not recommended",
+      "dual_pak": "no data"
+    },
+    "use_during_lactation": "Safety not established, avoid use"
+  },
+  "pharmacology": {
+    "pk_pd_index": {
+      "vonoprazan": "no data",
+      "amoxicillin": "T>MIC",
+      "clarithromycin": "24-hr AUC/MIC"
+    },
+    "pharmaceutical_preparations": "Vonoprazan 20 mg tab, Amoxicillin 500 mg cap, Clarithromycin 500 mg tab",
+    "food_rec_po_drugs": {
+      "vonoprazan": "+ food",
+      "amoxicillin": "+ food",
+      "clarithromycin": "+ food"
+    },
+    "oral_absorption": {
+      "vonoprazan": "no data",
+      "amoxicillin": "80%",
+      "clarithromycin": "50%"
+    },
+    "tmax": {
+      "vonoprazan": "3.0 hrs",
+      "amoxicillin": "1-2 hrs",
+      "clarithromycin": "2-2.5 hrs"
+    },
+    "peak_serum_conc": {
+      "vonoprazan": "0.038 (20 mg q12h, SS)",
+      "amoxicillin": "5.5-7.5 (500 mg, SD)",
+      "clarithromycin": "3-4 (500 mg q8-12h, SS)"
+    },
+    "peak_urine_conc": "No data",
+    "protein_binding": {
+      "vonoprazan": "85-88%",
+      "amoxicillin": "20%",
+      "clarithromycin": "65-70%"
+    },
+    "volume_of_distribution": {
+      "vonoprazan": "782.7 L (V/F)",
+      "amoxicillin": "0.36 L/kg",
+      "clarithromycin": "4 L/kg"
+    },
+    "avg_serum_t1_2": {
+      "vonoprazan": "6.8 hrs",
+      "amoxicillin": "1 hr",
+      "clarithromycin": "5-7 hrs"
+    },
+    "elimination": {
+      "vonoprazan": "metabolized",
+      "amoxicillin": "renal",
+      "clarithromycin": "metabolism, renal"
+    },
+    "bile_penetration": {
+      "vonoprazan": "no data",
+      "amoxicillin": "100-3000%",
+      "clarithromycin": "7000%"
+    },
+    "csf_blood": {
+      "vonoprazan": "no data",
+      "amoxicillin": "13-14%",
+      "clarithromycin": "no data"
+    },
+    "therapeutic_levels_in_csf": {
+      "vonoprazan": "no data",
+      "amoxicillin": "yes",
+      "clarithromycin": "no data"
+    },
+    "auc": {
+      "vonoprazan": "0.272 (20 mg q12h, 0-12h)",
+      "amoxicillin": "22 (500 mg, 0-inf)",
+      "clarithromycin": "20 (500 mg q12h, 0-24h)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_that_drug_is_a_substrate_for": {
+      "clarithromycin": "CYP3A4",
+      "vonoprazan": "CYP3A4/5, CYP2B6, CYP2C9, CYP2C19, CYP2D6"
+    },
+    "transporters_that_drug_is_a_substrate_for": {
+      "amoxicillin": "OAT1, OAT3"
+    },
+    "cyp450s_inhibited_by_drug": {
+      "clarithromycin": "CYP3A4",
+      "vonoprazan": "CYP2B6, CYP2C19, CYP3A4/5"
+    },
+    "transporters_inhibited_by_drug": {
+      "clarithromycin": "PGP, OATP1B1"
+    }
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Alfentanil",
+      "effect": "↑ alfentanil",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Allopurinol",
+      "effect": "↑ frequency of rash",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Alprazolam",
+      "effect": "↑ alprazolam",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Amiodarone",
+      "effect": "↑ amiodarone",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Amlodipine",
+      "effect": "↑ amlodipine",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Atazanavir",
+      "effect": "↓ atazanavir",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Atorvastatin",
+      "effect": "↑ atorvastatin",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Bromocriptine",
+      "effect": "↑ bromocriptine",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Cilostazol",
+      "effect": "↑ cilostazol",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Citalopram",
+      "effect": "↑ citalopram",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Clopidogrel",
+      "effect": "↓ clopidogrel active metabolite",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Colchicine (pts with renal or hepatic impairment)",
+      "effect": "↑ colchicine",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ cyclosporine",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "CYP3A inducers",
+      "effect": "↓ vonoprazan, ↓ clarithromycin",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Digoxin",
+      "effect": "↑ digoxin",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Diltiazem",
+      "effect": "↑ diltiazem",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Disopyramide",
+      "effect": "↑ disopyramide",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Dofetilide",
+      "effect": "↑ dofetilide",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Drugs requiring acid for absorption",
+      "effect": "↓ drug",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Ergot alkaloids",
+      "effect": "↑ ergot alkaloid",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Fluvastatin",
+      "effect": "↑ fluvastatin",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Itraconazole",
+      "effect": "↑ clarithromycin, ↑ itraconazole",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Lomitapide",
+      "effect": "↑ lomitapide",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Lovastatin",
+      "effect": "↑ lovastatin",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Maraviroc",
+      "effect": "↑ maraviroc",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Methylprednisolone",
+      "effect": "↑ methylprednisolone",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Midazolam",
+      "effect": "↑ midazolam",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Nateglinide",
+      "effect": "↑ nateglinide",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Nifedipine",
+      "effect": "↑ nifedipine",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Omeprazole",
+      "effect": "↑ clarithromycin conc in gastric tissue and mucus",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Phenobarbital",
+      "effect": "↓ clarithromycin",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Phenytoin",
+      "effect": "↑ phenytoin",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Pimozide",
+      "effect": "↑ pimozide",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Pioglitazone",
+      "effect": "↑ pioglitazone",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Pravastatin",
+      "effect": "↑ pravastatin",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Probenecid",
+      "effect": "↑ amoxicillin",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Procainamide",
+      "effect": "↑ procainamide",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Quetiapine",
+      "effect": "↑ quetiapine",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Quinidine",
+      "effect": "↑ quinidine",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Repaglinide",
+      "effect": "↑ repaglinide",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Rilpivirine",
+      "effect": "↓ rilpivirine",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Ritonavir (pts with reduced renal function)",
+      "effect": "↑ clarithromycin, ↑ ritonavir",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Rosiglitazone",
+      "effect": "↑ rosiglitazone",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Sildenafil",
+      "effect": "↑ sildenafil",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Simvastatin",
+      "effect": "↑ simvastatin",
+      "suggestion": "Contraindicated"
+    },
+    {
+      "drug": "Sotalol",
+      "effect": "↑ sotalol",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "St. John's wort",
+      "effect": "↓ clarithromycin",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Tacrolimus",
+      "effect": "↑ tacrolimus",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Tadalafil",
+      "effect": "↑ tadalafil",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Theophylline",
+      "effect": "↑ theophylline",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Tolterodine (if CYP2D6 deficient)",
+      "effect": "↑ tolterodine",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Triazolam",
+      "effect": "↑ triazolam",
+      "suggestion": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Valproate",
+      "effect": "↑ valproate",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Vardenafil",
+      "effect": "↑ vardenafil",
+      "suggestion": "Adjust dosage or avoid"
+    },
+    {
+      "drug": "Verapamil",
+      "effect": "↑ verapamil",
+      "suggestion": "Monitor or avoid"
+    },
+    {
+      "drug": "Vinca alkaloids",
+      "effect": "↑ vinca alkaloid",
+      "suggestion": "Avoid co-administration"
+    },
+    {
+      "drug": "Warfarin",
+      "effect": "↑ warfarin",
+      "suggestion": "Monitor INR, adjust dosage"
+    },
+    {
+      "drug": "Zidovudine",
+      "effect": "↓ zidovudine",
+      "suggestion": "Stagger admin by 2 hrs"
+    }
+  ]
+}

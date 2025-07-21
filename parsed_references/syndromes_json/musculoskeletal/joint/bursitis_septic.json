@@ -1,0 +1,113 @@
+{
+  "documentMetadata": {
+    "title": "Bursitis, Septic",
+    "lastUpdated": "2024-04-12",
+    "sourceFile": "Bursitis, Septic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Swelling, tenderness, and erythema (over superficial bursae) of a bursal sac.",
+        "Bursal fluid aspirate with 1000 to 20,000 polys/mm³.",
+        "Positive culture."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (> 80%)",
+        "Streptococci",
+        "Rarely mycobacteria, fungi, other organisms"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If MSSA:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "(Nafcillin or Oxacillin) 2 gm IV q4h or Cefazolin 2 gm IV q8h"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If MRSA:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) or Linezolid 600 mg po bid"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Incision and drainage or daily aspiration until fluid stops accumulating"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If MSSA: Dicloxacillin 500 mg po qid as oral step-down",
+        "If MRSA: Daptomycin 6 mg/kg IV q24h or Linezolid 600 mg po bid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy. Typically treat for 2 weeks, combined IV and oral, although duration of therapy seems not to be a risk factor for recurrence (Arch Orthop Trauma Surg. 2022;142:2445 and J Antimicrob Chemother 65:1008, 2010)",
+        "Non-immunocompromised patients undergoing bursectomy may be cured with as little as a week of therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical excision of bursa reserved for more refractory cases.",
+        "Review article: StatPearls Publishing; 2022 Jul 8.",
+        "French guidelines: Joint Bone Spine. 2024; 91:105664."
+      ]
+    }
+  ]
+}

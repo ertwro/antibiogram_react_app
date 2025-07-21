@@ -1,0 +1,221 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia caused by Streptococcus pneumoniae",
+    "sourceFile": "Pneumonia, Streptococcus pneumoniae.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for S. pneumoniae.",
+        "Blood or sputum culture positive for S. pneumoniae or positive urinary antigen or positive nucleic acid amplification test (NAAT)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus pneumoniae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For penicillin-susceptible organism (MIC ≤2 µg/mL):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "IV regimens",
+            "components": [
+              {
+                "drug": "Penicillin G",
+                "dose": "2 million U",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2gm",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Cefotaxime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "(where available)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Oral regimens",
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "1 gm",
+                "route": "po",
+                "frequency": "tid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Penicillin-allergic patient",
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po",
+                "frequency": "bid",
+                "notes": "(document susceptibility especially if the strain is intermediate or resistant to penicillin)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For penicillin-resistant or intermediate organism (MIC >2 µg/mL)"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "2gm",
+                "route": "IV",
+                "frequency": "q24h",
+                "connector": "or"
+              },
+              {
+                "drug": "Cefotaxime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "(where available)"
+              },
+              {
+                "drug": "Ceftaroline",
+                "dose": "600 mg",
+                "route": "IV",
+                "frequency": "q12h"
+              },
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "frequency": "q8-12h",
+                "notes": "(may be preferred if penicillin MIC >4 µg/mL)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Therapy"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "Penicillin susceptible, intermediate, or resistant strains (high level)",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po/IV",
+            "frequency": "q24h",
+            "connector": "or"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "po/IV"
+          },
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "route": "po/IV",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "600 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "notes": "(document susceptibility if strain is intermediate or resistant to penicillin)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treat until patient is afebrile, 3-5 days (minimum of 5 days therapy). Because of increasing resistance, confirm susceptibility if a macrolide is used.",
+        "Increasing resistance to beta-lactams and macrolides, particularly to the latter in Europe (Curr Opin Pulm Med 19:209, 2013).",
+        "For current CDC recommendations for pneumococcal vaccines click here.",
+        "For further details on vaccination see: Pneumococcal Vaccines, Adult"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use of adjunctive corticosteroids limited to severe CAP. See Comments, Community-acquired Pneumonia for definition of severe CAP and dosing.",
+        "An observational study (Clin Infect Dis 2022; 75:2219) found that in patients with pneumonia and pneumococcal bacteremia the addition for as few as two days of azithromycin to a beta-lactam reduced the odds for mortality by 45%.",
+        "Pneumococcus is identified in 10-15% of the patients with pneumonia. As the etiologic prevalence of Strep. pneumoniae has deceased over the years the frequency of respiratory viruses (25%) has increased (Clin Infect Dis 2017; 65:1736)."
+      ]
+    }
+  ]
+}

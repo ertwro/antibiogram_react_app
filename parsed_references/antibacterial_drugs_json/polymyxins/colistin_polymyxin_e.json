@@ -1,0 +1,234 @@
+
+{
+  "drug_name": "Polymyxin E, Colistin",
+  "usage_and_dosing": {
+    "description": "Polymyxin E (Colistin) is a parenteral antibiotic active against multi-drug resistant (MDR) gram negative bacilli, e.g., A. baumanii, P. aeruginosa, E. coli, K. pneumoniae.",
+    "preferred_for": [
+      "Urinary tract infections (UTI)",
+      "Adjunctive inhalation therapy for pneumonia caused by MDR gram-negative bacilli"
+    ],
+    "notes": [
+      "For all indications other than UTI, polymyxin B is preferred over colistin because of equivalent efficacy, faster attainment of target serum concentrations, less interpatient variability in pharmacokinetics, no dose adjustment for renal impairment and lower risk of renal toxicity (Antimicrob Agents Chemother 2016;60: 2443; Antimicrob Agents Chemother 2017:61: e02319-16).",
+      "Serratia sp, Proteus sp., Providencia sp., Morganella sp., and B. cepacia are intrinsically resistant to polymyxins.",
+      "Pan-resistant strains of Enterobacterales, including resistant to colistin mediated by plasmid-encoded gene mcr-1, have been identified worldwide.",
+      "See Comments for further discussion of resistance and allergy.",
+      "Colistin is formulated as a prodrug, colistimethate (CMS). Product vials may be labeled as international units (IU) or mg of CMS, or mg of colistin base activity (CBA). Always dose based on the CBA.",
+      "Conversions: 1 mg CBA = 30,000 IU CMS = 2.4 mg CMS",
+      "Dosing recommendations continue to evolve. The Sanford Guide favors the International Consensus Guidelines endorsed by IDSA, ESCMID, and other professional organizations (Pharmacotherapy 2019;39:10). For background, see Clin Infect Dis 2016;62:552; Clin Infect Dis 2017;64:565.",
+      "See Colistin Dosing Calculator to facilitate Guideline dosing. The calculator also provides EMA recommendations."
+    ],
+    "adult_dose": {
+      "loading_dose": {
+        "calculation": "4 x (body weight in kg), infused over 30-60 min.",
+        "notes": [
+          "Dose expressed as CBA.",
+          "Use lower of ideal body weight or actual body weight.",
+          "May result in a dose >300 mg CBA.",
+          "Start maintenance dosing 12 hours later."
+        ]
+      },
+      "maintenance_dose": {
+        "crcl_ge_90": "180 mg IV (infuse over 30-60 min) q12h.",
+        "notes": [
+          "Dose expressed as CBA.",
+          "See Renal Adjustment section if CrCl <90 mL/min."
+        ]
+      },
+      "inhalation_therapy": "See Inhalation Dosing & Therapy",
+      "intraventricular_or_intrathecal_administration": "10 mg/day x several weeks; intrathecal dose often combined with IV dosing."
+    },
+    "pediatric_dose": [
+      {
+        "type": "standard",
+        "dose": "2.5-5 mg/kg/day (divided q6-12h)"
+      },
+      {
+        "type": "CF",
+        "dose": "3-8 mg/kg/day (divided q8h)"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "notes": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis",
+      "NOTE: Doses are expressed as mg CBA."
+    ],
+    "half_life": {
+      "normal": "6.3-12",
+      "esrd": "≥48"
+    },
+    "dosing": [
+      {
+        "renal_function": "normal",
+        "dose": "Load: 4 x (wt in kg) Maintenance: 180 mg q12h"
+      },
+      {
+        "renal_function": "CrCl ≥90",
+        "dose": "180 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 80 to <90",
+        "dose": "170 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 70 to <80",
+        "dose": "150 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 60 to <70",
+        "dose": "137.5 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 50 to <60",
+        "dose": "122.5 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 40 to <50",
+        "dose": "110 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 30 to <40",
+        "dose": "97.5 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 20 to <30",
+        "dose": "87.5 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 10 to <20",
+        "dose": "80 mg q12h"
+      },
+      {
+        "renal_function": "CrCl 5 to <10",
+        "dose": "72.5 mg q12h"
+      },
+      {
+        "renal_function": "CrCl <5",
+        "dose": "65 mg q12h"
+      },
+      {
+        "renal_function": "Hemodialysis",
+        "dose": "Non-HD days: give 65 mg IV q12h. HD days: give supplemental dose of 40-50 mg after a 3-4 hr session. Give this supplement with the next regular dose after the dialysis has ended."
+      },
+      {
+        "renal_function": "CAPD",
+        "dose": "No data"
+      },
+      {
+        "renal_function": "CRRT",
+        "dose": "220 mg q12h"
+      },
+      {
+        "renal_function": "SLED",
+        "dose": "Add 13 mg per hour of SLED to the baseline dose of 65 mg q12h. Ex: For 10 hr SLED, dose is 130 mg q12h."
+      }
+    ]
+  },
+  "hepatic_adjustment": [
+    {
+      "impairment": "Mild impairment (Child-Pugh Class A)",
+      "adjustment": "No dosage adjustment"
+    },
+    {
+      "impairment": "Moderate impairment (Child-Pugh Class B)",
+      "adjustment": "No dosage adjustment"
+    },
+    {
+      "impairment": "Severe impairment (Child-Pugh Class C)",
+      "adjustment": "No dosage adjustment"
+    }
+  ],
+  "other_adjustment": [
+    {
+      "condition": "ECMO",
+      "adjustment": "See ECMO Drug Dosing Adjustment."
+    },
+    {
+      "condition": "Obesity",
+      "adjustment": "See Obesity Dosing Adjustments."
+    }
+  ],
+  "adverse_effects": {
+    "nephrotoxicity": {
+      "description": "Reversible acute tubular necrosis due to localization of drug in proximal tubular cells: Antimicrob Agents Chemother 2017;61:e02319-16.",
+      "incidence": "Depending on criteria, incidence of toxicity varies, average around 25%.",
+      "risk_factors": "length of therapy, daily dose, and cumulative dose; exposure to concomitant nephrotoxins; obesity, diabetes mellitus, age and hypertension.",
+      "notes": [
+        "In animal models, high dose ascorbic acid and melatonin prevented toxicity.",
+        "In critically ill, the benefit of patient salvage may exceed the risk of nephrotoxicity."
+      ]
+    },
+    "neurotoxicity": "Frequent vertigo, facial paresthesias, abnormal vision, confusion, ataxia. Rarely, neuromuscular blockade results in respiratory failure; may unmask or exacerbate myasthenia gravis. In cystic fibrosis patients, 29% experienced paresthesias, ataxia or both.",
+    "other": "Maybe hyperpigmentation (Clin Infect Dis 2007;45:136)."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "C",
+    "lactation": "Probably safe with monitoring, but data limited"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "Free AUC/MIC",
+    "pharmaceutical_preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "0.83 (30 mg CBA IV, SD) 24",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "≈ 50",
+    "volume_of_distribution_l_kg": "0.17 L/kg 24",
+    "avg_serum_t1_2_hr": "6.3-12",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "Poor",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "11.5-225 (СВА 75-410 mg/day IV, 0-24h)"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Aminoglycosides",
+      "effect": "↑ risk of nephrotoxicity, neuromuscular blockade",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Amphotericin B",
+      "effect": "↑ risk of nephrotoxicity",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Contrast agents",
+      "effect": "↑ risk of nephrotoxicity",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Pancuronium (and other curare-like drugs)",
+      "effect": "↑risk of neuromuscular blockade",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Vancomycin",
+      "effect": "↑ risk of nephrotoxicity",
+      "management": "Avoid co-administration"
+    }
+  ],
+  "comments": {
+    "resistance_and_treatment_issues": [
+      "For comprehensive review of polymyxin resistance: Infect Dis Clin North Am 2020;34:723.",
+      "The plasmid-encoded colistin resistance gene, mcr-1, has been found in E. coli and Klebsiella sp. Resistance is due to modification of the lipid A target of the polymyxins. Strains may also produce metallo-carbapenemases, resulting in pan-resistance (See Lancet Infect Dis 2016;16:161; Lancet Infect Dis 2016;16:287; Antimicrob Agents Chemother 2016;60:4420).",
+      "No clear alternatives for a companion drug with colistin.",
+      "Combination therapy with rifampin did not improve clinical response or 30-day mortality in patients with Actinetobacter infections (Clin Infect Dis 2013;57:349; Epidemiol Infect 2013;141:1214).",
+      "Combination therapy with a polymyxin (either colistin or polymyxin B) plus a carbapenem is no longer recommended for treatment of carbapenem-resistant strains of Enterobacteriaceae (KPCs), Acinetobacter sp., and P. aeruginosa.",
+      "The combination of colistin + meropenem was no more effective than colistin monotherapy in a prospective randomized controlled clinical trial (Lancet Infect Dis 2018;18:391).",
+      "Most (77%) of the infections were due to A. baumannii; the trial was underpowered to address efficacy vs KPCs and P. aeruginosa.",
+      "In vitro, colistin, in combination with both rifampin and azithromycin, was able to overcome mcr-1 mediated resistance (Antimicrob Agents Chemother 2018;62:e01631-18).",
+      "In vitro and in vivo exposure to polymyxins results in rapid selection of resistant subpopulations. In vitro, minocycline prevented emergence of resistance and augmented colistin activity, but no clinical trial data. Tigecycline may function similarly, but no data."
+    ]
+  }
+}

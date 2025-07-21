@@ -1,0 +1,97 @@
+
+{
+  "documentMetadata": {
+    "title": "Canaliculitis",
+    "sourceFile": "syndromes/ocular/lacrimal/Canaliculitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Canaliculitis is an infection of the lacrimal canaliculus, the small channel in the eyelid that drains tears into the lacrimal sac. It is a relatively uncommon cause of chronic, unilateral red eye and discharge. It is often misdiagnosed as chronic conjunctivitis or dacryocystitis. The most common causative organism is Actinomyces israelii, a filamentous gram-positive bacterium, which characteristically forms concretions (sulfur granules) within the canaliculus."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Chronic tearing (epiphora), mucopurulent discharge, and a red, swollen area over the inner corner of the eyelid. It is typically unilateral and mildly tender."
+        },
+        {
+          "key": "Pathognomonic Sign",
+          "value": "Pouting punctum: The opening of the canaliculus on the eyelid margin is red and swollen. Pressure over the canaliculus often results in the expression of purulent material or yellowish concretions (sulfur granules)."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is primarily clinical, based on the characteristic signs. Probing of the canaliculus may reveal a gritty sensation due to the presence of concretions. The expressed material can be sent for Gram stain and culture, which may grow Actinomyces or other bacteria like Staphylococcus and Streptococcus."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Definitive treatment requires a surgical procedure to remove the infectious concretions. Medical therapy alone is often insufficient due to poor antibiotic penetration into the concretions."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Conservative/Medical Management"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Warm compresses.",
+            "Digital massage over the canaliculus.",
+            "Topical antibiotics.",
+            "Canalicular irrigation with antibiotic solutions.",
+            "Systemic antibiotics (e.g., penicillin for Actinomyces)."
+          ],
+          "notes": "These measures are often used as adjuncts but are rarely curative on their own."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical Management"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Canaliculotomy with Curettage",
+            "indication": "This is the definitive treatment.",
+            "description": "The ophthalmologist makes an incision over the canaliculus (usually on the conjunctival side) to open it. The concretions and debris are then carefully and completely removed by curettage. The canaliculus is then irrigated with an antibiotic solution.",
+            "notes": "Complete removal of all concretions is essential to prevent recurrence."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Dacryocystitis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Dacryocystitis"
+      }
+    }
+  ]
+}

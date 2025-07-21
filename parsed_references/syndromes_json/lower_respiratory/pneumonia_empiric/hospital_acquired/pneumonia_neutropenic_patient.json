@@ -1,0 +1,72 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Neutropenic Patient",
+    "sourceFile": "Pneumonia, Neutropenic Patient.pdf",
+    "lastUpdated": "2025-02-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy for suspected bacterial pneumonia in neutropenic patients, i.e., patient with <500 neutrophils/mm3.",
+        "Classically, a setting in which Pseudomonas aeruginosa is concern."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pseudomonas aeruginosa",
+        "Any of the bacterial or viral pathogens listed for community-acquired or hospital-acquired pneumonia",
+        "Molds: Aspergillus sp., Mucor sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See regimens for hospital-acquired pneumonia.",
+        "Include an agent with anti-pseudomonal activity in the regimen."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See regimens for hospital-acquired pneumonia.",
+        "Include an agent with anti-pseudomonal activity in the regimen."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Inappropriate therapy for pseudomonas pneumonia is associated with increased mortality (Clin Infect Dis 2020; 70:1068)",
+        "Vancomycin is not included in initial therapy unless high suspicion of infected IV access, severe sepsis, hypotension, methicillin-resistant S. aureus (MRSA).",
+        "Antifungal coverage should not be used routinely; consider adding for a high clinical likelihood of fungal infection.",
+        "German Society of Hematology and Medical Oncology Guidelines: Ann Oncol 26:21, 2015."
+      ]
+    }
+  ]
+}

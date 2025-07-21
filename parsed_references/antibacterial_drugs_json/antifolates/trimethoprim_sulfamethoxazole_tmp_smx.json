@@ -1,0 +1,237 @@
+{
+  "drug_name": "Trimethoprim-sulfamethoxazole (TMP-SMX)",
+  "tradename": "Bactrim, Septra, Sulfatrim, Co-trimoxazole",
+  "usage_and_dosing": {
+    "general": [
+      "TMP-SMX, approved in 1973, is a co-formulation of Trimethoprim (TMP) and Sulfamethoxazole (SMX). The ratio of TMP to SMX administered is always 1:5.",
+      "TMP and SMX block sequential steps in folic acid synthesis in susceptible bacteria. SMX inhibits dihydropteroate synthase (DHPS), which produces dihydropteroic acid from PABA and pteridine. TMP inhibits dihydrofolate reductase (DHFR), which catalyzes the conversion of FH2 to tetrahydrofolate (FH4). See Comments.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "TMP-SMX, alone or in combination, is used to treat a wide range of infections, including:",
+      "Cyclosporiasis",
+      "Nocardia",
+      "PJP treatment",
+      "PJP prophylaxis (adult, pediatric)",
+      "Purulent cellulitis, outpatient",
+      "Stenotrophomonas maltophilia",
+      "UTI",
+      "Although active in vitro vs. Strep. pyogenes, clinical failures occur in the treatment of streptococcal pharyngitis (J Infect Dis 1973;128(suppl):693); Rev Infect Dis 1982;4:196).",
+      "Although active in vitro vs. some enterococci, should not be used to treat enterococcal cystitis due to treatment failures. In vitro systems do not replicate the influence of urine osmolality, pH, and interference with antibacterial activity due to the presence of folates.",
+      "Allergy: Protocol for TMP-SMX desensitization.",
+      "SMX is structurally different from non-antimicrobial sulfonamides (e.g., furosemide) because of its N4 arylamine. Therefore, there is minimal concern for a hypersensitivity reaction to a non-antimicrobial sulfonamide in a patient with a history of a reaction to TMP-SMX or any other sulfonamide antimicrobial, including dapsone, a sulfone (J Allergy Clin Immunol 2022;150:1333).",
+      "CAUTION when prescribing TMP-SMX to patients on chronic therapy with either an angiotensin converting enzyme inhibitor (ACEI) or angiotensin receptor blocker (ARB). Worrisome association with sudden death presumably due to cardiac dysrhythmias.",
+      "Drugs that block renin-angiotensin system can increase serum potassium level (BMJ 2014;349:g6196).",
+      "Also, in a case-control study, the use of TMP-SMX was associated with increased risk of sudden death among older patients taking spironolactone, presumably reflecting hyperkalemia (CMAJ 2015;187:E138)."
+    ],
+    "adult_dose": {
+        "notes": "Dosing specifics vary. Refer to syndrome pages for details.",
+        "usual_dosing": {
+            "oral": "1-2 DS tablets po q12h",
+            "iv": "10-20 mg/kg/day (divided q6-12h)"
+        },
+        "dosing_basis": "Dosing (if expressed in mg/kg) is based on the TMP component.",
+        "double_strength_tablets": "Double-strength (DS) oral tablets contain 160 mg TMP and 800 mg SMX."
+    },
+    "pediatric_dose": {
+      "uti_other": "8-10 mg TMP/kg/day (divided q12h)",
+      "pjp": "15-20 mg TMP/kg/day (divided q6-8h)"
+    }
+  },
+  "renal_adjustment": {
+    "notes": "Dosing is based on the TMP component.",
+    "half_life_normal": {
+        "tmp": "8-15",
+        "smx": "10"
+    },
+    "half_life_esrd": {
+        "tmp": "20-49",
+        "smx": "20-50"
+    },
+    "dose_renal_function_normal": {
+        "treatment": "5-20 mg/kg/day po/IV (div q6-12h)",
+        "prophylaxis": "1 DS tab po q24h or 3x/week"
+    },
+    "crcl_or_egfr": {
+        "treatment": "CrCl ≥30: No dosage adjustment. CrCl 10-29: 5-10 mg/kg/day (div q12h). CrCl <10: Not recommended (if used: 5-10 mg/kg q24h)",
+        "prophylaxis": "No dosage adjustment for renal impairment"
+    },
+    "hemodialysis": {
+        "treatment": "(if used: 5-10 mg/kg q24h, AD on dialysis days)",
+        "prophylaxis": "No data"
+    },
+    "capd": {
+        "treatment": "(if used: 5-10 mg/kg q24h)",
+        "prophylaxis": "No data"
+    },
+    "crrt": {
+        "treatment": "5 mg/kg q8h",
+        "prophylaxis": "No data"
+    },
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO: See ECMO Drug Dosing Adjustment.",
+    "Obesity: See Obesity Dosing Adjustments."
+  ],
+  "adverse_effects": {
+      "cns": "Drug fever, headache, confusion. Aseptic meningitis (review: Br J Clin Pharmacol 2025;91:236). Kernicterus in neonates.",
+      "dermatologic": "Photosensitivity, Stevens-Johnson syndrome, Sweet's syndrome, toxic epidermal necrolysis (TEN), urticaria. For UK guidelines on management of Stevens-Johnson syndrome and TEN, see: Br J Dermatol 2016;174:1194.",
+      "endocrine": "May potentiate effect of sulfonylureas in diabetes mellitus (JAMA Intern Med 2014;174:1605). Case series of TMP-SMX-induced hypoglycemia: Front Endocrinol 2023;14:1059522.",
+      "gastrointestinal": "Nausea/vomiting, diarrhea, pancreatitis.",
+      "hematologic": "Agranulocytosis, aplastic anemia, hemolysis if G6PD deficient, megaloblastic anemia, methemoglobinemia, drug-induced immune thrombocytopenia (J Thromb Haemost 2013;11:169).",
+      "lactic_acidosis": "The IV solution of TMP-SMX contains propylene glycol which is metabolized by the liver to lactate and pyruvate. Lactic acidosis can result. Risk factors include renal and/or hepatic insufficiency, or concomitant exposure to other drugs that contain propylene glycol (Medicine 2016;95:e3478).",
+      "liver": "Rarely drug-induced hepatitis.",
+      "pulmonary": "Acute respiratory failure. In a recent case series, five previously healthy adolescents receiving TMP-SMX developed acute severe ARDS requiring prolonged hospitalization and cardiopulmonary support. Four required prolonged ECMO, one underwent a heart and lung transplant, and two died. Four of the five were receiving TMP-SMX for acne vulgaris. The mechanism of pulmonary toxicity is unknown, but may be related to metabolism resulting in formation of reactive intermediates (Pediatrics 2019;143:e20183242).",
+      "renal": "TMP competes for tubular secretion of creatinine, with secondary increase in serum creatinine; expected magnitude of increase about 30% (Drug Metab Pharmacokinet 2018;33:103). TMP blocks distal tubular secretion of potassium, leading to hyperkalemia; can be exaggerated with concomitant use of ACE inhibitor (JAMA 2015;314:2405). Hyponatremia, thought most likely due to natriuresis although a recent report suggests SIADH (Medicine 2020;99:e20746). Crystalluria due to precipitation of SMX. Renal injury can also occur as a consequence of interstitial nephritis or acute tubular necrosis (J Antimicrob Chemother 2012;67:1271)."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "May cause fetal harm. Avoid unless benefit outweighs risk. If use is unavoidable, supplement with at least 4 mg daily of folic acid. 8, 10",
+    "lactation": "Probably safe after the newborn period in healthy, fullterm infants. Avoid in jaundiced, ill, stressed or premature infants because of the risk of kernicterus. Avoid while breastfeeding a G6PD-deficient infant. 9",
+    "footnotes": {
+        "1": "Capital letter = Old FDA risk category; Text = New FDA risk category",
+        "8": "Ref: Pharmacotherapy 2025;45:227",
+        "9": "Source: LactMed",
+        "10": "Source: Manufacturer's prescribing information"
+    }
+  },
+  "antimicrobial_spectrum": {
+      "preferred": [
+          "Klebsiella granulomatis (granuloma inguinale)",
+          "Nocardia sp.",
+          "Stenotrophomonas maltophilia"
+      ],
+      "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "SS tab (TMP 80 mg, SMX 400 mg), DS tab (TMP 160 mg, SMX 800 mg), Oral susp (TMP 40 mg + SMX 200 mg per 5 mL), Injection",
+    "food_recommendation": "Tab/susp ± food",
+    "oral_absorption_percent": {
+        "tmp": "70-90",
+        "smx": "70-90"
+    },
+    "tmax_hr": "po: TMP 1-4, SMX 1-4",
+    "peak_serum_conc_ug_ml": {
+        "ds_tab": "TMP 1-2, SMX 40-60 (DS tab po q12h, SS)",
+        "iv": "TMP 9, SMX 105 (160/800 mg IV q8h, SS)"
+    },
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "TMP 44, SMX 70",
+    "volume_of_distribution_l": "TMP 100-120 L, SMX 12-18 L",
+    "avg_serum_half_life_hr": "TMP 11, SMX 9",
+    "elimination": "Renal",
+    "bile_penetration_percent": "po 100-200, IV 40-70",
+    "csf_blood_percent": "TMP 50, SMX 40",
+    "therapeutic_levels_in_csf": "Most meningococci: resistant. Bacteriostatic vs. coliforms",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": "SMX: CYP2C9 (major), CYP3A4 (minor)",
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": "TMP: CYP2C8, SMX: CYP2C9",
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "6-mercaptopurine",
+          "effect": "↓ effect of 6-mecaptopurine",
+          "management": "Moni"
+      },
+      {
+          "drug": "ACE Inhibitors",
+          "effect": "↑ serum potassium",
+          "management": "Moni"
+      },
+      {
+          "drug": "ACE inhibitors/ARBs",
+          "effect": "↑ risk of sudden death",
+          "management": "Moni"
+      },
+      {
+          "drug": "Amantadine",
+          "effect": "↑ amantadine",
+          "management": "Moni"
+      },
+      {
+          "drug": "Azathioprine",
+          "effect": "Reports of leukopenia",
+          "management": "Moni"
+      },
+      {
+          "drug": "Cyclosporine",
+          "effect": "↓ cyclosporine",
+          "management": "Moni"
+      },
+      {
+          "drug": "Lamivudine",
+          "effect": "↑ lamivudine",
+          "management": "Moni"
+      },
+      {
+          "drug": "Loperamide",
+          "effect": "↑ loperamide",
+          "management": "Moni"
+      },
+      {
+          "drug": "Methenamine",
+          "effect": "↑ risk of crystalluria",
+          "management": "Avoid co-adn"
+      },
+      {
+          "drug": "Methotrexate",
+          "effect": "Enhanced marrow suppression",
+          "management": "Moni"
+      },
+      {
+          "drug": "Oral contraceptives",
+          "effect": "↓ effect of oral contraceptives",
+          "management": "Use alternat"
+      },
+      {
+          "drug": "Phenytoin",
+          "effect": "↑ phenytoin",
+          "management": "Moni"
+      },
+      {
+          "drug": "Pimozide",
+          "effect": "↓ effect of pimozide",
+          "management": "Moni"
+      },
+      {
+          "drug": "Rifampin",
+          "effect": "↑ rifampin? ↓ TMP-SMX (more likely)",
+          "management": "Moni"
+      },
+      {
+          "drug": "Spironolactone",
+          "effect": "↑ serum potassium",
+          "management": "Moni"
+      },
+      {
+          "drug": "Sulfonylureas",
+          "effect": "Hypoglycemia",
+          "management": "Moni"
+      },
+      {
+          "drug": "Warfarin",
+          "effect": "↑ activity of warfarin (↑ INR)",
+          "management": "Monitoi"
+      }
+  ],
+  "comments": [
+      "Mechanisms of TMP-SMX resistance:",
+      "For TMP: changes in target enzyme (DHFR no longer inhibited).",
+      "For SMX: target enzyme (DHPS) with reduced affinity for SMX.",
+      "Exogenous thymidine can render TMP-SMX inactive, as the blockade of the thymidine synthetic pathway is bypassed. Furthermore, a Staph. aureus enzyme (thermonuclease) can release thymidine from DNA of injured tissues (Clin Infect Dis 2008;46:584). Some streptococcal species can also salvage thymidine from the environment, which could explain failures in the treatment of S. pyogenes pharyngitis."
+  ]
+}

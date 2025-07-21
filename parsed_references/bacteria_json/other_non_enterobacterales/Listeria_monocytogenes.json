@@ -1,0 +1,497 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Listeria monocytogenes",
+      "aliases": [],
+      "lastUpdated": "2023-02-28",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Exhibits characteristic tumbling motility at room temperature"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive coccobacillus, catalase +, motile ('tumbling motility' at 25°C), beta-hemolytic (weak), hydrolyzes esculin, CAMP test + with S. aureus."
+    },
+    "clinicalProfile": {
+      "summary": "Listeria monocytogenes is a food-borne pathogen that causes listeriosis. CNS infection (meningitis, meningoencephalitis, brain abscess) is the most common presentation in non-pregnant adults. It can also cause bacteremia, endocarditis, and gastroenteritis. Infection during pregnancy can lead to serious fetal complications.",
+      "pathophysiologyPearls": [
+        "Capable of intracellular growth and cell-to-cell spread, which helps it evade the host immune system.",
+        "Grows at refrigeration temperatures, allowing it to multiply in contaminated food products."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever, headache, stiff neck (meningitis)",
+        "Altered mental status, seizures (meningoencephalitis)",
+        "Fever and chills (bacteremia)",
+        "Flu-like illness in pregnant women",
+        "Diarrhea, nausea, vomiting (gastroenteritis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Central Nervous System (CNS) Infection",
+          "description": "The most common presentation in non-pregnant adults, including meningitis, meningoencephalitis, and brain abscess."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur with or without a clear focus, particularly in immunocompromised individuals."
+        },
+        {
+          "syndromeName": "Infection in Pregnancy",
+          "description": "Can cause a mild, flu-like illness in the mother but may lead to miscarriage, stillbirth, premature delivery, or life-threatening infection of the newborn (granulomatosis infantiseptica)."
+        },
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "A less common, self-limited illness that can occur after ingesting a high inoculum of bacteria."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Pregnant women",
+        "Neonates",
+        "Elderly (over 60)",
+        "Immunocompromised hosts (e.g., transplant recipients, patients on corticosteroids or TNF-alpha inhibitors, hematologic malignancies)"
+      ],
+      "transmissionVectors": [
+        "Contaminated food (e.g., soft cheeses, deli meats, cantaloupe, unpasteurized milk)"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [
+        {
+          "drugOrClass": "Cephalosporins",
+          "notes": "Intrinsically resistant to all cephalosporins."
+        }
+      ],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Combination therapy with ampicillin and gentamicin is recommended for CNS infections and endocarditis to achieve synergy."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "CNS Infection or Endocarditis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "CSF, Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "4-6 weeks for endocarditis; 3-4 weeks for meningitis",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Gentamicin",
+                      "dose": "5 mg/kg/day",
+                      "route": "IV",
+                      "frequency": "divided q8h",
+                      "comments": "Synergy for at least the first 2 weeks."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "As per primary regimen",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "15-20 mg/kg/day (TMP component)",
+                      "route": "IV",
+                      "frequency": "divided q6-8h",
+                      "comments": "For patients with penicillin allergy."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Bacteremia",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "2 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "2 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "10-20 mg/kg/day (TMP component)",
+                      "route": "IV",
+                      "frequency": "divided q6-8h",
+                      "comments": "For patients with penicillin allergy."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood and/or CSF cultures are essential for diagnosis."
+      ],
+      "methodologyNotes": [
+        "Gram stain of CSF may be negative or show few organisms."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 38:1714, 2004",
+          "summaryOrNote": "IDSA practice guidelines for the management of bacterial meningitis."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.333Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Listeria monocytogenes"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-02-28"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccobacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Exhibits characteristic tumbling motility at room temperature"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Listeria monocytogenes is a food-borne pathogen that causes listeriosis. CNS infection (meningitis, meningoencephalitis, brain abscess) is the most common presentation in non-pregnant adults. It can also cause bacteremia, endocarditis, and gastroenteritis. Infection during pregnancy can lead to serious fetal complications.",
+      "pathophysiologyPearls": [
+        "Capable of intracellular growth and cell-to-cell spread, which helps it evade the host immune system.",
+        "Grows at refrigeration temperatures, allowing it to multiply in contaminated food products."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever, headache, stiff neck (meningitis)",
+        "Altered mental status, seizures (meningoencephalitis)",
+        "Fever and chills (bacteremia)",
+        "Flu-like illness in pregnant women",
+        "Diarrhea, nausea, vomiting (gastroenteritis)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Central Nervous System (CNS) Infection",
+          "description": "The most common presentation in non-pregnant adults, including meningitis, meningoencephalitis, and brain abscess."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur with or without a clear focus, particularly in immunocompromised individuals."
+        },
+        {
+          "syndromeName": "Infection in Pregnancy",
+          "description": "Can cause a mild, flu-like illness in the mother but may lead to miscarriage, stillbirth, premature delivery, or life-threatening infection of the newborn (granulomatosis infantiseptica)."
+        },
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "A less common, self-limited illness that can occur after ingesting a high inoculum of bacteria."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Pregnant women",
+        "Neonates",
+        "Elderly (over 60)",
+        "Immunocompromised hosts (e.g., transplant recipients, patients on corticosteroids or TNF-alpha inhibitors, hematologic malignancies)"
+      ],
+      "transmissionVectors": [
+        "Contaminated food (e.g., soft cheeses, deli meats, cantaloupe, unpasteurized milk)"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [
+        {
+          "drugOrClass": "Cephalosporins",
+          "notes": "Intrinsically resistant to all cephalosporins."
+        }
+      ],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "CNS Infection or Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ampicillin",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "4-6 weeks for endocarditis; 3-4 weeks for meningitis",
+              "comments": "",
+              "originalText": "Ampicillin 2 IV q4h"
+            },
+            {
+              "drugName": "Gentamicin",
+              "dose": "5 mg/kg/day",
+              "route": "IV",
+              "frequency": "divided q8h",
+              "duration": "4-6 weeks for endocarditis; 3-4 weeks for meningitis",
+              "comments": "Synergy for at least the first 2 weeks.",
+              "originalText": "Gentamicin 5 mg/kg/day IV divided q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "CNS Infection or Endocarditis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "15-20 mg/kg/day (TMP component)",
+              "route": "IV",
+              "frequency": "divided q6-8h",
+              "duration": "As per primary regimen",
+              "comments": "For patients with penicillin allergy.",
+              "originalText": "TMP-SMX 15-20 mg/kg/day (TMP component) IV divided q6-8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ampicillin",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "2 weeks",
+              "comments": "",
+              "originalText": "Ampicillin 2 IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Bacteremia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "10-20 mg/kg/day (TMP component)",
+              "route": "IV",
+              "frequency": "divided q6-8h",
+              "duration": "2 weeks",
+              "comments": "For patients with penicillin allergy.",
+              "originalText": "TMP-SMX 10-20 mg/kg/day (TMP component) IV divided q6-8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood and/or CSF cultures are essential for diagnosis."
+      ],
+      "methodologyNotes": [
+        "Gram stain of CSF may be negative or show few organisms."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

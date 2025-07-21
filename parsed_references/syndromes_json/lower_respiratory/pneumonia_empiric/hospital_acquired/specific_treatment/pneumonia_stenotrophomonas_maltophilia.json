@@ -1,0 +1,137 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia caused by Stenotrophomonas maltophilia",
+    "sourceFile": "Pneumonia, Stenotrophomonas maltophilia.pdf",
+    "lastUpdated": "2025-05-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for hospital acquired pneumonia (HAP) caused by Stenotrophomonas maltophilia.",
+        "Immunocompromised and/or debilitated pateints are predisposed.",
+        "Positive blood or sputum culture.",
+        "For further discussion of susceptibility and resistance, see Stenotrophomonas maltophilia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Stenotrophomonas maltophilia"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "10-15 mg/kg/day",
+            "route": "IV/po",
+            "frequency": "divided q8h or q12h",
+            "notes": "dosed based on TMP component"
+          },
+          {
+            "drug": "Minocycline",
+            "dose": "200 mg",
+            "route": "IV/po",
+            "frequency": "q12h",
+            "notes": "see Comments",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "notes": "Combination therapy with two of the following agents",
+        "components": [
+          {
+            "drug": "TMP-SMX",
+            "dose": "10-15 mg/kg/day",
+            "route": "IV/po",
+            "frequency": "divided q8h or q12h"
+          },
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV/po",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Minocycline",
+            "dose": "200 mg",
+            "route": "IV/po",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Tigecycline",
+            "dose": "200 mg",
+            "route": "IV x1, then 100 mg IV q12h"
+          },
+          {
+            "drug": "Cefiderocol",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "notes": "infused over 3 hours, Clin Infect Dis 2022; 74:2089"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Depending on severity of illness, with source control, and in vitro susceptibility, and clinical response can de-escalate to oral monotherapy with TMP-SMX (preferred) or Minocycline."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Another salvage therapy based mainly on in vitro studies (Antimicrob Agents Chemother 2017; 61:e00777-17) and case reports: Ceftazidime-avibactam 2.5 gm IV over 3h q8h + Aztreonam 2 gm IV over 2h q8h",
+        "Based on observational evidence levofloxacin is a reasonable alternative to TMP-SMX for the treatment of bloodstream and lower respiratory tract infections caused by S. maltophilia (Open Forum Infect Dis. 2022; 9:ofab644).",
+        "There is no standard of care regimen. IDSA guidance (Clin Infect Dis. 2024 Aug 7:ciae403) is to use combination therapy in a effort to prevent emergence of resistance on therapy, which is common, with the agents listed above.",
+        "Omadacycline and Eravacycline active in vitro but no clinical data",
+        "For status of in vitro susceptibility against 1,839 isolates: Antimicrob Agents Chemother 2020;64: e01433-20",
+        "TMP-SMX and Minocycline were most active of the drugs tested",
+        "Cefiderocol and Eravacycline were not tested"
+      ]
+    }
+  ]
+}

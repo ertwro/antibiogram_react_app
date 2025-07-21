@@ -1,0 +1,149 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Culture Negative",
+    "lastUpdated": "2021-12-11",
+    "sourceFile": "Endocarditis, Culture Negative.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Signs and symptoms of endocarditis (fever, valvular disease, embolization, evidence of vegetation on echocardiogram) but blood cultures are negative",
+        "Potential reasons for negative blood cultures:",
+        "Culture(s) obtained after initiation of empiric antimicrobial therapy",
+        "Blood cultures not incubated long enough to detect slow-growing bacteria, e.g., HACEK bacteria",
+        "Etiologic pathogen requires non-culture method(s) for detection:",
+        "Detection of microbial antigen and/or antibody",
+        "Molecular probes (RT-PCR) of serum and/or infected heart valve or other pertinent biopsy tissue",
+        "Histopathology with special stains",
+        "Example Non-infectious disease entities that mimic the clinical picture of endocarditis, e.g.:",
+        "Systemic lupus erythematosis that includes Libman-Sacks endocarditis",
+        "Advanced adenocarcinoma with marantic endocarditis"
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Guideline reference: Circulation 2015;132:1435",
+        "targetType": "externalURL",
+        "targetIdentifier": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000296"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Patients previously treated with antibiotics prior to obtaining blood cultures; these patients likely are infected with more typical organisms causing endocarditis, but suppressed by antibiotics:",
+        "Staphylococcus aureus (MSSA and MRSA)",
+        "Coagulase-negative staphylococci (prosthetic valve infection)",
+        "Viridans group streptococci (including nutritionally-deficient organisms)",
+        "Enterococci",
+        "HACEK bacteria",
+        "Patients infected with rare and fastidious organisms that do not grow well in routine blood culture media (often with associated epidemiological risk factors). Selected potential organisms in alphabetical order:",
+        "Bartonella sp.",
+        "Brucella sp.",
+        "Chlamydia sp.",
+        "C. burnetii (Q fever)",
+        "Fungi",
+        "Aspergillus sp.",
+        "Histoplasma sp.",
+        "Mallessezia restricta (See Comments)",
+        "Legionella sp.",
+        "Non-tuberculous mycobacteria, e.g., M. chimera",
+        "Tropheryma whipplei"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnostic Approach"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clarify and expand the history:",
+        "Timing of antibiotics and cultures",
+        "Detailed epidemiology: risk factors and exposures",
+        "Three sets of blood cultures incubated for 7 days",
+        "Other diagnostic tests as pertinent to epidemiology:",
+        "Serology for Coxiella, Bartonella, Tropheryma, and Brucella",
+        "Airway secretions for PCR for Legionella and Coxiella",
+        "Other potential diagnostic methods that may be helpful:",
+        "Submit resected valve tissue (or other pertinent tissue biopsies) for:",
+        "Histopathology",
+        "Tissue RT-PCR",
+        "Can do broad range PCR [16S rDNA (bacteria), 18S rDNA (fungi)] on serum and/or tissue",
+        "Successful diagnosis with metagenomic sequencing reported; see: Future Cardiology 15(6):411-424, 2019.",
+        "For details on diagnostics and treatment, see the specific potential pathogen"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Goal is specific therapy tailored for an identified pathogen. Empiric therapy is appropriate in individual patients pending results of blood cultures and other diagnostic tests"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In patients with acute symptoms and an illness spanning a few days, an empiric combination of Vancomycin + Cefepime is reasonable"
+        },
+        {
+          "type": "paragraph",
+          "text": "In patients with subacute symptoms and an illness spanning weeks, empiric therapy may not be necessary."
+        },
+        {
+          "type": "paragraph",
+          "text": "Should individual patient circumstances so dictate, an empiric combination of Vancomycin + Ampicillin-sulbactam is recommended"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "For the other fastidious pathogens listed above, see the pathogen page for treatment details"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dictated by detected pathogen(s)",
+        "See specific organisms/etiologies listed above."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For diagnostic strategy see JAMA 320: 72, 2018.",
+        "Report from Germany, in which PCR was used to detect bacteria, suggests that T. whipplei may be the fourth most common cause of bacterial endocarditis and the most common cause of culture-negative endocarditis, accounting for approximately a third of these (J Clin Micro 50:216, 2012).",
+        "Malassezia restricta culture-negative endocarditis reported in 3 cases; resistant to echinocandin therapy; see Clin Infect Dis 72:1222, 2021."
+      ]
+    }
+  ]
+}

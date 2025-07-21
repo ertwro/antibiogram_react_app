@@ -1,0 +1,158 @@
+{
+  "drug_name": "Piperacillin-tazobactam",
+  "tradename": "Zosyn, Tazocin",
+  "usage_and_dosing": {
+    "general": [
+      "Piperacillin-tazobactam, approved by the US FDA in 1993, is a combination of the expanded spectrum antipseudomonal beta-lactam Piperacillin with the beta-lactamase inhibitor Tazobactam.",
+      "The addition of Tazobactam protects Piperacillin from degradation by the beta-lactamases of MSSA, H. influenzae, M. catarrhalis and B. fragilis. Tazobactam inhibits no Ambler class B, C, or D enzymes.",
+      "The addition of Tazobactam does not increase the activity of Piperacillin against P. aeruginosa.",
+      "Available dosage forms for IV use (always 8:1 ratio)",
+      "2.25 gm vial (Piperacillin 2 gm + Tazobactam 0.25 gm)",
+      "3.375 gm vial (Piperacillin 3 gm + Tazobactam 0.375 gm)",
+      "4.5 gm vial (Piperacillin 4 gm + Tazobactam 0.5 gm)",
+      "The majority of available data suggest that, regardless of in vitro susceptibility results, it is best to avoid the use of Piperacillin-Tazobactam for infections suspected or proven to be due to ESBL-producing aerobic gram-negative bacilli (Antimicrob Agents Chemother 2013;57:3402)."
+    ],
+    "adult_dose": {
+        "extended_infusion": {
+            "dose": "4.5 gm IV (over 4 hr) q8h",
+            "loading_dose": "Consider a loading dose of 4.5 gm IV (over 30 min), administered immediately prior to the first extended-infusion dose, in critically ill patients. Goal is to minimize delay in achieving adequate concentrations (Int J Antimicrob Agents 2015;45:461).",
+            "references": "Published data demonstrate enhanced efficacy and reduced cost of extended infusion regimens. Extended infusion references: Clin Infect Dis 2007;44:357; Antimicrob Agents Chemother 2010;54:460."
+        },
+        "intermittent_infusion": {
+            "peritonitis_intra_abdominal_abscess": "3.375 gm IV (over 30 min) q6h",
+            "p_aeruginosa_pneumonia": "4.5 gm IV (over 30 min) q6h. Combine with an antipseudomonal aminoglycoside or fluoroquinolone"
+        }
+    },
+    "pediatric_dose": {
+        "note": "Dosing based on piperacillin component",
+        "per_red_book": {
+            "usual": "240-300 mg/kg/day (div q6-8h)",
+            "cf": "400-600 mg/kg/day (div q4h)"
+        },
+        "per_fda_wt_le_40_kg": {
+            "appendicitis_peritonitis": "Age 2 to 9 mon: 240 mg/kg/day (div q8h). Age >9 mon: 300 mg/kg/day (div q8h)",
+            "nosocomial_pneumonia": "Age 2 to 9 mon: 320 mg/kg/day (div q6h). Age >9 mon: 400 mg/kg/day (div q6h)"
+        },
+        "max_day": "16 gm (24 gm if CF)"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "Piperacillin: 1, Tazobactam: 1",
+    "half_life_esrd": "Piperacillin: 3-5, Tazobactam: 2.8",
+    "dose_renal_function_normal": {
+        "extended_infusion": "4.5 gm IV (over 4 hr) q8h",
+        "intermittent_infusion": {
+            "nosocomial_pneumonia": "4.5 gm IV (over 30 min) q6h",
+            "all_other_indications": "3.375 gm IV (over 30 min) q6h"
+        }
+    },
+    "crcl_or_egfr": {
+        "extended_infusion": "CrCl ≥20: No dosage adjustment. CrCl <20: 4.5 gm (over 4 hr) q12h",
+        "intermittent_infusion": {
+            "nosocomial_pneumonia": "CrCl >40: No dosage adjustment. CrCl 20-40: 3.375 gm q6h. CrCl <20: 2.25 gm q6h",
+            "all_other_indications": "CrCl >40: No dosage adjustment. CrCl 20-40: 2.25 gm q6h. CrCl <20: 2.25 gm q8h"
+        }
+    },
+    "hemodialysis": {
+        "extended_infusion": "4.5 gm (over 4 hr) q12h",
+        "intermittent_infusion": {
+            "nosocomial_pneumonia": "2.25 gm q8h (+0.75 gm AD on dialysis days)",
+            "all_other_indications": "2.25 gm q12h (+0.75 gm AD on dialysis days)"
+        }
+    },
+    "capd": {
+        "extended_infusion": "No data",
+        "intermittent_infusion": {
+            "nosocomial_pneumonia": "2.25 gm q8h",
+            "all_other_indications": "2.25 gm q12h"
+        }
+    },
+    "crrt": {
+        "extended_infusion": "3.375-4.5 gm (over 4 hr) q8h",
+        "intermittent_infusion": "3.375-4.5 gm q6h 42, 47"
+    },
+    "sled": {
+        "intermittent_infusion": "4.5 gm q8h. May use extended infusion 53"
+    }
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments page.",
+    "ECMO: See ECMO Drug Dosing Adjustment page."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity (rash, fever, serum sickness, anaphylaxis)",
+    "Local phlebitis",
+    "GI (nausea, vomiting, diarrhea, C. difficile colitis)",
+    "Hematologic (positive Coombs, neutropenia, eosinophilia, thrombocytopenia, increased INR)",
+    "Platelet dysfunction can occur in patients with renal failure, due to impaired platelet aggregation (J Infect Dis 1987;155:1242).",
+    "Drug-induced immune thrombocytopenia (J Thromb Haemost 2013;11:169). Can also occur with Vancomycin and patients often exposed to the combination. Hard to tell which drug is responsible (J Clin Anesth 2015;27:602).",
+    "Hypokalemia (Antibiotics 2023;12:240).",
+    "Increased LFTs",
+    "Headache, confusion (rare), seizures (rare)",
+    "Possible increased incidence of acute kidney injury. Does combining vancomycin with piperacillin-tazobactam amplify the risk of vancomycin nephrotoxicity? Many observational retrospective studies have reported an increased risk of acute kidney injury in association with the combination of piperacillin-tazobactam and vancomycin as compared to either drug alone (Clin Infect Dis 2017;65:2137). No reported increased risk of AKI if vancomycin is combined with cefepime or meropenem (Antimicrob Agents Chemother 2018;62:e00264-18). The attributable nephrotoxicity due to vancomycin due in part to multiple confounders (J Antimicrob Chemother 75:1031, 2020). In virtually all the pertinent studies the acute kidney injury endpoints utilized serum creatinine changes as a surrogate marker for changes in the glomerular filtration rate. In a rat model of vancomycin nephrotoxicity, there was a lack of augmentation of toxicity with concomitant piperacillin/tazobactam . Rather than changes in serum creatinine, a specific marker of tubular toxicity was utilized. The authors speculate that the rise in serum creatinine with piperacillin/tazobactam is the consequence of piperacillin competing with creatinine for tubular secretion. In short, a functional and not toxic marker. See Clin Infect Dis 71:426, 2020. Reference: J Antimicrob Chemother 75:1228, 2020."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Insufficient human data, evidence of fetotoxicity in animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Bacteroides fragilis",
+        "Capnocytophaga sp.",
+        "Citrobacter koseri, diversus",
+        "Escherichia coli, susceptible",
+        "K. oxytoca, Susceptible strains",
+        "Morganella morganii",
+        "Pseudomonas aeruginosa",
+        "Susceptible strains. K. pneumoniae, K. variicola"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Piperacillin: 242, Tazobactam: 24.2 (3.375 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "Piperacillin: 16, Tazobactam: 48",
+    "volume_of_distribution_vd_l_kg": "Piperacillin: 0.24 L/kg, Tazobactam: 0.4 L/kg",
+    "avg_serum_half_life_hr": "Piperacillin: 1, Tazobactam: 1",
+    "elimination": "Renal",
+    "bile_penetration_percent": ">100",
+    "csf_blood_percent": "VAI: Piperacillin: ≈4, Tazo: indeterminate 20",
+    "therapeutic_levels_in_csf": "Unlikely",
+    "auc_ug_hr_ml": "Piperacillin: 242, Tazobactam: 25 (3.375 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Piperacillin: OAT1, OAT3, Tazobactam: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Aminoglycosides", "effect": "Possible aminoglycoside inactivation", "management": "Monitor or"},
+      {"drug": "Anticoagulant drugs", "effect": "↑ risk of bleeding", "management": "Monito"},
+      {"drug": "Methotrexate", "effect": "↑ MTX", "management": "Monitor or"},
+      {"drug": "Probenecid", "effect": "↑ piperacillin, ↑ tazobactam", "management": "Avoid co-admi"},
+      {"drug": "Vancomycin", "effect": "↑ risk of AKI", "management": "Monito"},
+      {"drug": "Vecuronium", "effect": "↑ neuromuscular blockade", "management": "Monito"}
+  ],
+  "comments": [
+      "In general, Tazobactam is a more potent beta-lactamase inhibitor than Sulbactam.",
+      "Previously some lot numbers of commercial Piperacillin-tazobactam contained Aspergillus antigens as a consequence of the fermentation process, with associated false-positive serum antigen tests for galactomannan. The problem is now resolved."
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "documentMetadata": {
+    "title": "Necrotizing Fasciitis, Staph. aureus",
+    "lastUpdated": "2023-04-22",
+    "sourceFile": "Necrotizing Fasciitis, Staph. aureus.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Skin infection due to community-acquired methicillin-resistant Staph. aureus (CA-MRSA).",
+            "Infection extends into the fascial plane between muscle and subcutaneous fat with resulting necrotizing fasciitis."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Staphylococcus aureus (CA-MRSA)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Incision for exploration, drainage and debridement"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV q8-12h",
+                "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Incision for exploration, drainage and debridement"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Daptomycin",
+                "dose": "4-6 mg/kg",
+                "route": "IV q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Telavancin",
+                "dose": "10 mg/kg",
+                "route": "IV q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Linezolid",
+                "dose": "600 mg",
+                "route": "IV q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "900 mg",
+                "route": "IV q8h",
+                "notes": "is sometimes added to initial regimen as adjunct to inhibit protein (toxin) synthesis (which can occur if organism is susceptible; not needed if Linezolid is used as this is a protein synthesis inhibitor)."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Antimicrobial Stewardship"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Empiric regimens should include gram-negative and anaerobic coverage in addition to the above, until pathogen identified. Then, switch to targeted therapy."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Historically, Staph. aureus was not associated with necrotizing fasciitis, but community-acquired MRSA is different and can cause the disease.",
+            "See Necrotizing Fasciitis, Overview for further discussion and links to other etiologies.."
+          ]
+        }
+      ]
+    }
+  ]
+}

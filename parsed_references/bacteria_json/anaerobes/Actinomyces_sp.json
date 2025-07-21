@@ -1,0 +1,329 @@
+{
+  "_originalData": {
+    "title": "Actinomyces sp.",
+    "lastUpdated": "Oct 30, 2023",
+    "clinicalInfo": {
+      "infectionSyndromes": {
+        "title": "Actinomycosis typically presents as one of four infection syndromes",
+        "syndromes": [
+          {
+            "name": "Abdominal",
+            "description": "mass with or without fistula tract after abdominal surgery, e.g., a late complication of a ruptured appendix."
+          },
+          {
+            "name": "Cervicofacial",
+            "description": "\"lumpy jaw\", most common form of actinomycosis with lumps and sinus tracts after dental or jaw trauma."
+          },
+          {
+            "name": "Pelvic",
+            "description": "tubo-ovarian abscess, complication of intrauterine device (IUD), which should be removed."
+          },
+          {
+            "name": "Pulmonary",
+            "description": "chronic disease, mass lesion, dense infiltrate and can mimic lung cancer, tuberculosis, community-acquired pneumonia."
+          }
+        ]
+      },
+      "labResult": {
+        "title": "Positive lab result.",
+        "points": [
+          "The organism is a slow-growing, anaerobic gram-positive rod.",
+          "Several species cause disease in humans, the most common of which is Actinomyces israelii.",
+          "May grow in clumps in infected tissue, so-called \"sulfur granules.\""
+        ]
+      },
+      "polymicrobial": "Majority of infections are polymicrobial (Clin Microbiol Rev 28: 419, 2015)",
+      "specificDiseases": "For specific diseases or syndromes, see: Actinomycosis"
+    },
+    "classification": {
+      "type": "Gram positive bacilli",
+      "species": {
+        "title": "Numerous species: see J Antimicrob Chemother. 2016;71: 422-427",
+        "list": [
+          "Actinomyces israelii (most common)",
+          "Actinomyces meyeri",
+          "Actinomyces turicensis",
+          "Actinomyces europaeus",
+          "Other Actinomyces species (see: J Antimicrob Chemother. 2016;71: 422-427)"
+        ]
+      }
+    },
+    "regimens": {
+      "primary": [
+        {
+          "drug": "Ampicillin",
+          "dosage": "200 mg/kg/day IV divided in 3-4 doses x 2-6 weeks"
+        },
+        {
+          "drug": "Penicillin G",
+          "dosage": "10-20 million units/day, divided q4-6h, IV x 4-6 weeks, then Penicillin VK 2-4 gm/day po"
+        },
+        {
+          "drug": "Amoxicillin",
+          "dosage": "2 gm po bid x 6-12 months (see Comments)."
+        }
+      ],
+      "alternative": [
+        {
+          "drug": "Doxycycline",
+          "dosage": "100 mg IV bid for 2-6 weeks and then po for 6-12 months"
+        },
+        {
+          "drug": "Ceftriaxone",
+          "dosage": "2 gm IV once daily for 2-6 weeks and then one of the oral regimens for 6-12 months"
+        },
+        {
+          "drug": "Clindamycin",
+          "dosage": "600-900 mg IV q8h for 2-6 weeks and then 300 mg tid po for 6-12 months"
+        },
+        {
+          "drug": "Amoxicillin",
+          "dosage": "2 gm po bid for 6-12 months"
+        }
+      ]
+    },
+    "comments": [
+      "Also effective: Clindamycin, Erythromycin",
+      "Metronidazole is NOT ACTIVE.",
+      "The recommendations for a 2-6 week run-in with intravenous therapy prior to oral therapy are traditional and empirical. There are case reports of successful treatment with oral therapy preceded by much shorter durations of IV therapy, as little as 3 days, or no IV therapy at all (Chest 2005 Oct;128(4):2211-7), particularly for less severe disease. Durations shorter than 3 months may also be effective in less bulky disease.",
+      "If infection is polymicrobial, choose regimen that covers the other organisms.",
+      "Reference: StatPearls; 2023 Jan. 2023 Feb 19."
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "lastUpdated",
+      "clinicalInfo",
+      "classification",
+      "regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.248Z",
+    "sourceFormat": "legacy_simple"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title"
+      ],
+      "value": "Actinomyces sp."
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalInfo"
+    ],
+    "value": {
+      "infectionSyndromes": {
+        "title": "Actinomycosis typically presents as one of four infection syndromes",
+        "syndromes": [
+          {
+            "name": "Abdominal",
+            "description": "mass with or without fistula tract after abdominal surgery, e.g., a late complication of a ruptured appendix."
+          },
+          {
+            "name": "Cervicofacial",
+            "description": "\"lumpy jaw\", most common form of actinomycosis with lumps and sinus tracts after dental or jaw trauma."
+          },
+          {
+            "name": "Pelvic",
+            "description": "tubo-ovarian abscess, complication of intrauterine device (IUD), which should be removed."
+          },
+          {
+            "name": "Pulmonary",
+            "description": "chronic disease, mass lesion, dense infiltrate and can mimic lung cancer, tuberculosis, community-acquired pneumonia."
+          }
+        ]
+      },
+      "labResult": {
+        "title": "Positive lab result.",
+        "points": [
+          "The organism is a slow-growing, anaerobic gram-positive rod.",
+          "Several species cause disease in humans, the most common of which is Actinomyces israelii.",
+          "May grow in clumps in infected tissue, so-called \"sulfur granules.\""
+        ]
+      },
+      "polymicrobial": "Majority of infections are polymicrobial (Clin Microbiol Rev 28: 419, 2015)",
+      "specificDiseases": "For specific diseases or syndromes, see: Actinomycosis"
+    }
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_simple"
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "primary-0",
+        "extractedFrom": "regimens.primary[0]",
+        "preference": "primary",
+        "drugs": [
+          {
+            "drugName": "Ampicillin",
+            "dose": "200 mg",
+            "route": "IV",
+            "originalText": "200 mg/kg/day IV divided in 3-4 doses x 2-6 weeks"
+          }
+        ]
+      },
+      {
+        "regimenId": "primary-1",
+        "extractedFrom": "regimens.primary[1]",
+        "preference": "primary",
+        "drugs": [
+          {
+            "drugName": "Penicillin G",
+            "dose": "4 gm",
+            "route": "iv",
+            "frequency": "q4-6h",
+            "originalText": "10-20 million units/day, divided q4-6h, IV x 4-6 weeks, then Penicillin VK 2-4 gm/day po"
+          }
+        ]
+      },
+      {
+        "regimenId": "primary-2",
+        "extractedFrom": "regimens.primary[2]",
+        "preference": "primary",
+        "drugs": [
+          {
+            "drugName": "Amoxicillin",
+            "dose": "2 gm",
+            "route": "po",
+            "frequency": "bid",
+            "originalText": "2 gm po bid x 6-12 months (see Comments)."
+          }
+        ]
+      },
+      {
+        "regimenId": "alternative-0",
+        "extractedFrom": "regimens.alternative[0]",
+        "preference": "alternative",
+        "drugs": [
+          {
+            "drugName": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV",
+            "frequency": "bid",
+            "originalText": "100 mg IV bid for 2-6 weeks and then po for 6-12 months"
+          }
+        ]
+      },
+      {
+        "regimenId": "alternative-1",
+        "extractedFrom": "regimens.alternative[1]",
+        "preference": "alternative",
+        "drugs": [
+          {
+            "drugName": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "once daily",
+            "originalText": "2 gm IV once daily for 2-6 weeks and then one of the oral regimens for 6-12 months"
+          }
+        ]
+      },
+      {
+        "regimenId": "alternative-2",
+        "extractedFrom": "regimens.alternative[2]",
+        "preference": "alternative",
+        "drugs": [
+          {
+            "drugName": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "originalText": "600-900 mg IV q8h for 2-6 weeks and then 300 mg tid po for 6-12 months"
+          }
+        ]
+      },
+      {
+        "regimenId": "alternative-3",
+        "extractedFrom": "regimens.alternative[3]",
+        "preference": "alternative",
+        "drugs": [
+          {
+            "drugName": "Amoxicillin",
+            "dose": "2 gm",
+            "route": "po",
+            "frequency": "bid",
+            "originalText": "2 gm po bid for 6-12 months"
+          }
+        ]
+      }
+    ],
+    "narrativeTreatments": {
+      "primaryRegimens": {
+        "originalFormat": "object",
+        "content": [
+          {
+            "drug": "Ampicillin",
+            "dosage": "200 mg/kg/day IV divided in 3-4 doses x 2-6 weeks"
+          },
+          {
+            "drug": "Penicillin G",
+            "dosage": "10-20 million units/day, divided q4-6h, IV x 4-6 weeks, then Penicillin VK 2-4 gm/day po"
+          },
+          {
+            "drug": "Amoxicillin",
+            "dosage": "2 gm po bid x 6-12 months (see Comments)."
+          }
+        ]
+      },
+      "alternativeRegimens": {
+        "originalFormat": "object",
+        "content": [
+          {
+            "drug": "Doxycycline",
+            "dosage": "100 mg IV bid for 2-6 weeks and then po for 6-12 months"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dosage": "2 gm IV once daily for 2-6 weeks and then one of the oral regimens for 6-12 months"
+          },
+          {
+            "drug": "Clindamycin",
+            "dosage": "600-900 mg IV q8h for 2-6 weeks and then 300 mg tid po for 6-12 months"
+          },
+          {
+            "drug": "Amoxicillin",
+            "dosage": "2 gm po bid for 6-12 months"
+          }
+        ]
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "Also effective: Clindamycin, Erythromycin",
+          "Metronidazole is NOT ACTIVE.",
+          "The recommendations for a 2-6 week run-in with intravenous therapy prior to oral therapy are traditional and empirical. There are case reports of successful treatment with oral therapy preceded by much shorter durations of IV therapy, as little as 3 days, or no IV therapy at all (Chest 2005 Oct;128(4):2211-7), particularly for less severe disease. Durations shorter than 3 months may also be effective in less bulky disease.",
+          "If infection is polymicrobial, choose regimen that covers the other organisms.",
+          "Reference: StatPearls; 2023 Jan. 2023 Feb 19."
+        ]
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

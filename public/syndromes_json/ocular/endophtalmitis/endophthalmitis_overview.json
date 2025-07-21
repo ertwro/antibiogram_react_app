@@ -1,0 +1,118 @@
+
+{
+  "documentMetadata": {
+    "title": "Overview of Endophthalmitis",
+    "sourceFile": "syndromes/ocular/endophtalmitis/Endophthalmitis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Endophthalmitis: An Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Endophthalmitis is a severe and potentially blinding inflammation of the intraocular fluids (vitreous and aqueous humor), typically caused by infection. It is an ophthalmic emergency requiring prompt diagnosis and treatment to save vision. Endophthalmitis is broadly classified by its route of infection: exogenous (from outside the body) or endogenous (from a source within the body)."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Classification and Common Causes"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Classification", "Subtype", "Common Causes & Context"],
+        "rows": [
+          ["Exogenous (most common)", "Post-operative (Acute)", "Following intraocular surgery, most commonly cataract surgery. Presents within 6 weeks. Often caused by patient's own flora (e.g., Coagulase-negative staphylococci)."],
+          ["Exogenous", "Post-operative (Chronic)", "Presents >6 weeks after surgery. Often caused by less virulent organisms like P. acnes or fungi."],
+          ["Exogenous", "Post-traumatic", "Occurs after an open globe injury. High risk of infection with virulent organisms like Bacillus cereus or fungi."],
+          ["Exogenous", "Bleb-associated", "A late complication of glaucoma filtering surgery. Often involves virulent bacteria like Streptococcus or Haemophilus."],
+          ["Exogenous", "Post-injection", "Following intravitreal injections (e.g., for macular degeneration). Usually caused by skin flora."],
+          ["Endogenous (Hematogenous)", "Bacterial or Fungal", "Seeding of the eye from the bloodstream during systemic infection (e.g., endocarditis, liver abscess, candidemia). Associated with IV drug use, indwelling catheters, and immunosuppression."]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Core Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Universal Symptoms",
+          "value": "Decreased vision, eye pain, red eye, photophobia."
+        },
+        {
+          "key": "Key Signs",
+          "value": "Hypopyon (pus in the anterior chamber), vitritis (vitreous inflammation/haze), conjunctival injection, eyelid edema, and corneal edema. A poor red reflex is a critical sign."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "General Principles of Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Immediate Action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Any suspected case of endophthalmitis requires an emergent ophthalmology consultation."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "The 'Tap and Inject' Procedure"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Aqueous and/or Vitreous Tap and Intravitreal Injection",
+            "indication": "This is the cornerstone of diagnosis and initial treatment for most cases of endophthalmitis.",
+            "description": "A sample of intraocular fluid (aqueous or vitreous) is obtained for Gram stain, culture, and/or PCR to identify the causative organism. Immediately following the tap, broad-spectrum antibiotics are injected directly into the vitreous cavity.",
+            "notes": "Commonly used antibiotics are Vancomycin (for gram-positives) and Ceftazidime (for gram-negatives). Antifungals are used if fungus is suspected."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Role of Vitrectomy"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Pars Plana Vitrectomy (PPV)",
+            "indication": "Surgical removal of the infected vitreous. The Endophthalmitis Vitrectomy Study (EVS) showed a clear benefit for patients presenting with light perception-only vision. It is also often performed for post-traumatic cases, virulent organisms, or cases not responding to initial injection.",
+            "description": "PPV reduces the microbial and inflammatory load within the eye."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Systemic vs. Local Antibiotics"
+        },
+        {
+          "type": "paragraph",
+          "text": "For exogenous endophthalmitis, intravitreal antibiotics are the primary treatment. The role of systemic antibiotics is controversial and not routinely recommended by the EVS for post-cataract cases, but they are often used in specific situations (e.g., post-traumatic). For endogenous endophthalmitis, systemic antimicrobial therapy is crucial to treat the underlying source of infection."
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "For details, see specific endophthalmitis topics.",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Post-surgical Endophthalmitis, Post-traumatic Endophthalmitis, Endogenous Endophthalmitis"
+      }
+    }
+  ]
+}

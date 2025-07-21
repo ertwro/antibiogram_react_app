@@ -1,0 +1,115 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from cat",
+    "sourceFile": "Bite_ Cat.pdf",
+    "lastUpdated": "2025-01-31"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound from cat.",
+        "80% get infected. Culture and treat empirically. Pasteurella multocida infection develops within 24 hours.",
+        "Observe for Osteomyelitis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pasteurella multocida",
+        "Staphylococcus aureus",
+        "Capnocytophaga spp.",
+        "Bartonella henselae",
+        "oral Anaerobes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Amox-Clav",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "connector": "or",
+            "drug": "Amox-Clav",
+            "dose": "500/125 mg",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cefuroxime axetil",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "q12h"
+          },
+          {
+            "connector": "or",
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prophylaxis for bites not clinically infected and at risk (near joints, involving danger spaces of hands, face, genital area)",
+        "If culture is positive for only P. multocida, can switch to Penicillin G IV or Penicillin VK po."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "P. multocida is resistant to Dicloxacillin, Cephalexin and Clindamycin. In vitro sensitivity to fluoroquinolones. Also susceptible to ceftaroline; ceftaroline active vs. MRSA and Pasteurella sp.",
+        "Many strains appear susceptible to Azithromycin but no clinical data.",
+        "Prophylaxis for bites not clinically infected and at risk (near joints, involving danger spaces of hands, face, genital area), deep puncture, immunocompromised host",
+        "Reference: Clin Infect Dis. 2014; 59:147",
+        "Rabies considerations for penetrating dog bites:",
+        "If healthy appearing observe for 10 days, PEP only if animal develops clinical signs of rabies",
+        "Immediate PEP if animal suspected rabid",
+        "Escaped; consult local public health authority",
+        "See also, Cat-scratch disease."
+      ]
+    }
+  ]
+}

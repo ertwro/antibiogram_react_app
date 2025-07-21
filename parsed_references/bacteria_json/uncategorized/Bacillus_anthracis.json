@@ -1,0 +1,165 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Bacillus anthracis",
+      "lastUpdated": "2025-04-25",
+      "clsiCategory": "additional_bacteria",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "rod",
+        "notes": [
+          "Spore-forming"
+        ]
+      },
+      "biochemicalTests": "Gram-positive large rod, non-motile, non-hemolytic on blood agar ('Medusa head' colonies), catalase +, forms spores."
+    },
+    "clinicalProfile": {
+      "summary": "Infections naturally acquired, from animals or from animal hides and other animal products. Infection from exposure during laboratory accidents has been reported. Agent of bioterrorism.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Systemic infection",
+          "description": "includes, inhalational, gastrointestinal, oral"
+        },
+        {
+          "syndromeName": "Cutaneous"
+        }
+      ],
+      "transmissionVectors": [
+        "animals",
+        "animal hides",
+        "animal products",
+        "laboratory accidents",
+        "bioterrorism"
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "See Systemic infection or Cutaneous Anthrax"
+      ]
+    },
+    "additionalInformation": {
+      "preventionAndScreening": [
+        {
+          "type": "Vaccination",
+          "details": "See Anthrax, Vaccine"
+        }
+      ],
+      "guidelineReferences": [
+        {
+          "source": "MMWR",
+          "citation": "2023, 72 (RR-6):1-50",
+          "summaryOrNote": "2023 CDC treatment guidelines"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.361Z",
+    "sourceFormat": "mixed"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "mixed"
+      },
+      "standardizedRegimens": [],
+      "preservedData": {
+        "identity": {
+          "bacteriumName": "Bacillus anthracis",
+          "lastUpdated": "2025-04-25",
+          "clsiCategory": "additional_bacteria",
+          "classification": {
+            "gramStain": "Gram-positive",
+            "morphology": "rod",
+            "notes": [
+              "Spore-forming"
+            ]
+          },
+          "biochemicalTests": "Gram-positive large rod, non-motile, non-hemolytic on blood agar ('Medusa head' colonies), catalase +, forms spores."
+        },
+        "clinicalProfile": {
+          "summary": "Infections naturally acquired, from animals or from animal hides and other animal products. Infection from exposure during laboratory accidents has been reported. Agent of bioterrorism.",
+          "clinicalSyndromes": [
+            {
+              "syndromeName": "Systemic infection",
+              "description": "includes, inhalational, gastrointestinal, oral"
+            },
+            {
+              "syndromeName": "Cutaneous"
+            }
+          ],
+          "transmissionVectors": [
+            "animals",
+            "animal hides",
+            "animal products",
+            "laboratory accidents",
+            "bioterrorism"
+          ]
+        },
+        "treatment": {
+          "generalNotes": [
+            "See Systemic infection or Cutaneous Anthrax"
+          ]
+        },
+        "additionalInformation": {
+          "preventionAndScreening": [
+            {
+              "type": "Vaccination",
+              "details": "See Anthrax, Vaccine"
+            }
+          ],
+          "guidelineReferences": [
+            {
+              "source": "MMWR",
+              "citation": "2023, 72 (RR-6):1-50",
+              "summaryOrNote": "2023 CDC treatment guidelines"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

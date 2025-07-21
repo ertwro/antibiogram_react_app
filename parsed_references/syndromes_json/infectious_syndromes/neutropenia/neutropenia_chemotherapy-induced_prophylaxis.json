@@ -1,0 +1,110 @@
+{
+  "documentMetadata": {
+    "title": "Neutropenia, Chemotherapy-induced, Prophylaxis",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Neutropenia, Chemotherapy-induced, Prophylaxis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chemotherapy-induced neutropenia and mucositis can lead to invasive infection most often with bacteria and fungi.",
+        "Neutropenia is defined as an absolute neutrophil count (ANC) <500 cells/mm³ or an expected ANC of <500 cells/mm³ within the next 48 hours.",
+        "Neutropenic fever occurs in 10-50% with solid tumors and >80% of patients with hematological malignancies and those receiving hematopoietic stem cell transplant (HCT).",
+        "Strategies for prevention of infection in the neutropenic patient include prophylactic granulocyte colony stimulating factor (G-CSF), prophylactic antibacterials, prophylactic antifungals (see Candida prevention and Aspergillus prevention), and prophylactic antivirals."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacterial infections: often translocation of oral and GI flora, line infections, pneumonia, etc.",
+        "  - Gram positives: S. epidermidis, Viridans group streptococci, enterococci",
+        "  - Gram negatives: Enterbacterales (E. coli, Klebsiella, etc.), pseudomonas",
+        "Fungal infections: Candida sp, molds (aspergillus) with prolonged neutropenia",
+        "Viruses: HSV and VZV (see CMV prophylaxis in HCT recipients for information on that topic)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "G-CSF (N Engl J Med 368:1131, 2013):",
+        "  - Indications:",
+        "    - Risk of febrile neutropenia > 20%",
+        "    - Risk of febrile neutropenia 10-20% with associated risk factor such as ≥65 yrs, coexisting illness (e.g., renal, hepatic, or cardiac dysfunction), preexisting condition (e.g., infection, open wound, or recent surgery), or compromised marrow reserve",
+        "  - Regimen(s):",
+        "    - Filgrastim 5 µg/kg/day per subcutaneous injection starting 24-72 hours after chemotherapy until count recovery",
+        "    - Pegfilgrastim 6 mg subcutaneous once 24 hours after discontinuation of chemotherapy",
+        "Antibacterial prophylaxis (J Clin Oncol 31:794, 2013):",
+        "  - Indications: Anticipate ANC ≤ 100 cells/mm³ for > 7 days (most commonly HCT recipients and patients undergoing induction therapy for acute leukemia)",
+        "  - Regimen: Levofloxacin 500-750 mg po/IV q24h (N Engl J Med 353:977, 2005)",
+        "See comment below reference pediatric lymphoblastic leukemia",
+        "Anti-candidal prophylaxis (J Clin Oncol 31:794,2013):",
+        "  - Indications: Acute leukemia undergoing intensive induction or re-induction, autologous HCT recipients with mucositis pre-engraftment, allogeneic HCT recipients until engraftment when mold-active prophylaxis is not felt to be indicated",
+        "  - Regimen: Fluconazole 400 mg po/IV q24h until recovery of neutropenia",
+        "Anti-aspergillus prophylaxis:",
+        "  - Indications: Patients with AML/MDS with neutropenia and allogeneic HCT recipients, see Transplants, Aspergillosis Prevention.",
+        "  - Regimen: Posaconazole DR tabs 300 mg po daily (N Engl J Med 356:348, 2007)",
+        "Antiviral prophylaxis:",
+        "  - Indications: HSV-seropositive patients undergoing allogeneic HCT or induction for acute leukemia, often used for VZV prophylaxis as well in HCT population (see CMV prevention in stem cell transplant recipients for discussion of CMV prevention).",
+        "  - Regimen: Acyclovir 800 mg po 2x/day or 400 mg po 3-4x/day"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibacterial prophylaxis:",
+        "  - Ciprofloxacin 500-750 mg po/IV 2x/day",
+        "Anti-candida prophylaxis:",
+        "  - Caspofungin 70 mg IV loading dose, then 50 mg/day IV or Micafungin 150 mg/day IV or Anidulafungin 200 mg IV loading dose, then 100 mg/day IV",
+        "  - Itraconazole oral solution 200 mg po 2 x/day",
+        "  - Posaconazole DR tabs 300 mg po daily",
+        "  - Voriconazole 200 mg po/IV 2 x/day",
+        "  - Liposomal Amphotericin B 3-5 mg/kg/day IV",
+        "Anti-aspergillus prophylaxis:",
+        "  - Voriconazole 200 mg bid",
+        "  - Itraconazole 200 mg bid",
+        "  - Inhaled Amphotericin B 12.5 mg on 2 consecutive days/week",
+        "Antiviral prophylaxis:",
+        "  - Valacyclovir 500 mg po 2-3x/day",
+        "  - Famciclovir 250 mg po 2x/day"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recommendations above are based on NCCN Guidelines on Prevention and Treatment of Cancer-Related Infections (nccn.org).",
+        "References: Guidelines, Clin Infect Dis 34:730, 2002; Reviews, N Engl J Med 353:977, 2005; N Engl J Med 353:988, 2005; N Engl J Med 353:1052, 2005, IDSA Practice Guidelines (Clin Infect Dis 52:427, 2011)",
+        "In observational cohort study of pediatric patients with acute lymphoblastic leukemia (Clin Infect Dis 2017;65:1790), Levofloxacin compared to no prophylaxis or other drug regimens was associated with:",
+        "  - The greatest reduction in febrile neutropenia",
+        "  - The lowest incidence of C. difficile infection",
+        "  - Absence of emergence of resistant bacteria",
+        "Recent International Guideline recommends Levofloxacin prophylaxis for AML and relapsed ALL, but not for induction chemotherapy for new ALL (Clin Infect Dis 2020;71:226)"
+      ]
+    }
+  ]
+}

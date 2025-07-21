@@ -1,0 +1,127 @@
+{
+  "drug_name": "Oritavancin",
+  "tradename": "Orbactiv, Kimyrsa",
+  "usage_and_dosing": {
+    "general": [
+      "Oritavancin is a long acting IV lipoglycopeptide (similar to Vancomycin) approved for the single dose treatment of adults with acute skin and skin structure infections due to susceptible gram-positive bacteria.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Two IV formulations are available:",
+      "Orbactiv (400 mg vials), approved in 2014, administered over three hours.",
+      "Kimyrsa (1200 mg vials), approved in 2021, administered over one hour.",
+      "Other differences: vial size, reconstitution and dilution instructions, and compatible dilutents.",
+      "Active in vitro versus virtually all the gram-positive cocci. Based both on in vitro activity and clinical trials, the package Insert lists in vitro activity vs:",
+      "Staph. aureus (MSSA and MRSA)",
+      "Streptococcus pyogenes",
+      "Streptococcus agalactiae",
+      "Streptococcus dysgalactiae",
+      "Streptococcus anginosus group",
+      "Vancomycin-sensitive E. faecalis",
+      "FDA approved package insert advises users to not treat patients with osteomyelitis with oritavancin, even if the etiologic organism is susceptible in vitro. In phase III clinical trials, a higher incidence of osteomyelitis was observed in oritavancin patients vs. comparator group.",
+      "For results of registration controlled trial comparing oritavancin versus vancomycin for ABSSSIs (SOLO trial), see Clin Infect Dis 60:254, 2015.",
+      "No clinical data, but activity in vitro vs. Vancomycin-resistant enterococci (VRE), Vancomycin-intermediate (VISA), and Vancomycin-resistant Staph. aureus (VRSA).",
+      "Long terminal serum half-life of 245 hours permits single dose therapy. The single dose regimen may be useful in the patient requiring parenteral therapy but who does not otherwise need to be hospitalized.",
+      "Note: A single dose can cause a false elevation of certain lab coagulation tests. See Adverse Effects for details."
+    ],
+    "adult_dose": {
+        "orbactiv": {
+            "dose": "1200 mg IV over three hours as a single dose.",
+            "preparation": [
+                "Add 40 mL sterile water to each of three 400 mg vials. Swirl gently to avoid foaming.",
+                "Withdraw 120 mL from a 1000 mL bag of D5W, add drug.",
+                "Use within 6 hours when stored at room temperature, within 12 hours if refrigerated.",
+                "Normal saline (NS) is incompatible (drug may precipitate)."
+            ]
+        },
+        "kimyrsa": {
+            "dose": "1200 mg IV over one hour as a single dose.",
+            "preparation": [
+                "Add 40 mL sterile water to one 1200 mg vial. Swirl gently to avoid foaming.",
+                "Withdraw 40 mL from a 250 mL bag or NS or D5W, add drug.",
+                "Use within 4 hours when stored at room temperature, within 12 hours if refrigerated."
+            ],
+            "compatibility": "In contrast to Orbactiv, Kimyrsa is compatible with normal saline (NS)."
+        }
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "245 (terminal)",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "1200 mg IV x1",
+    "crcl_or_egfr": "No dosage adjustment in mild-moderate impairment. Not studied in severe impairment",
+    "hemodialysis": "Not removed by hemodialysis",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No data, use caution"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments table."
+  ],
+  "adverse_effects": [
+    "Most common, reported in ≥3% of recipients: nausea, vomiting, diarrhea, headache.",
+    "Acute urticaria/flushing/pruritis have occurred.",
+    "Similar to histamine-release syndrome reported with Vancomycin. If reactions do occur, discontinue therapy. In many patients with similar reactions to Vancomycin, it was possible to reinstitute therapy at a slower rate of infusion.",
+    "C. difficile colitis has occurred.",
+    "Oritavancin can bind to, and prevent the action of, the phospholipid reagents used in laboratory coagulation tests. Administration of IV unfractionated heparin is contraindicated due to artificially prolonged aPTT for up to 120 hrs (5 days) after drug administration. The PT and INR are prolonged for up to 12 hrs. D-dimer concentrations are artificially elevated for up to 72 hours. Note that Oritavancin has no effect on the coagulation system in vivo."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data, no evidence of toxicity in animals",
+    "lactation": "Probably safe with monitoring, but no data available; avoid if possible.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "148 (1200 mg IV over 1 hr, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "85",
+    "volume_of_distribution_vd_l": "87.6 L",
+    "avg_serum_half_life_hr": "245 (terminal)",
+    "elimination": "Renal, fecal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No",
+    "auc_ug_hr_ml": "1460 (1200 mg IV over 1 hr, 0-72 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": ["CYP2C9 (weak)", "CYP2C19 (weak)"],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": ["CYP2D6 (weak)", "CYP3A4 (weak)"],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "mild ↑ or ↓"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Unfractionated heparin",
+          "effect": "aPTT results falsely elevated for up to five days",
+          "management": "Contraindicated for 120 hours after oritavancin administration"
+      }
+  ],
+  "comments": [
+      "Three mechanisms of antibacterial action:",
+      "Inhibition of transglycosylation step of cell wall synthesis",
+      "Inhibition of cell wall transpeptidation (crosslinking) step of cell wall synthesis",
+      "Disruption of the integrity of the bacterial membrane: J Molec Biol 377: 281, 2008.",
+      "Osteomyelitis: Interesting case report of a single patient with E. faecium (VRE) vertebral osteomyelitis. Successfully treated with combination of weekly Oritavancin plus continuous infusion of ampicillin (Antimicrob Agt Chemother. 2019; 63: e02622-18)."
+  ]
+}

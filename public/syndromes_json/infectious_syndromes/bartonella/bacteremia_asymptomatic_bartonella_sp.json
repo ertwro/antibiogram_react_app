@@ -1,0 +1,68 @@
+{
+  "documentMetadata": {
+    "title": "Bacteremia, Asymptomatic, Bartonella sp.",
+    "lastUpdated": "2024-04-24",
+    "sourceFile": "Bacteremia, Asymptomatic, Bartonella sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Asymptomatic infection, usually not recognized.",
+        "Lice borne; often seen in homeless alcoholics.",
+        "Occurs in HIV/AIDS patients as well, but rarely asymptomatic. See Bacillary angiomatosis/Bacillary peliosis.",
+        "Can lead to endocarditis and/or trench fever."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella henselae",
+        "Bartonella quintana"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doxycycline 100 mg po/IV bid x 4 weeks + Gentamicin 1 mg/kg IV tid x 14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doxycycline 100 mg po/IV bid x 4 weeks + Rifampin 300 mg po bid x 14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference: Intl J Antimicrob Agents 44:16, 2014"
+      ]
+    }
+  ]
+}

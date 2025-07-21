@@ -1,0 +1,132 @@
+{
+  "documentMetadata": {
+    "title": "Herpes simplex, Bell's Palsy",
+    "lastUpdated": "2024-12-01",
+    "sourceFile": "Herpes simplex, Bell's Palsy.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bell's Palsy: facial muscle weakness (VII cranial nerve, peripheral)",
+            "Guidelines on evaluation and management (Otolaryngol Head Neck Surg 149:656, 2013)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Herpes simplex (HSV) (Types 1, 2) (most common)",
+            "Others: Varicella zoster (VZV), HHV-6, Lyme disease"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "paragraph",
+          "text": "As soon as possible after onset of palsy: Prednisone 1 mg/kg po divided bid x 5 days then taper to 5 mg bid over the next 5 days (total of 10 days prednisone) plus either:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Acyclovir",
+                "dose": "1600-2400 mg",
+                "route": "po daily (divided q4h)",
+                "frequency": "x 10 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Valacyclovir",
+                "dose": "1000-1500 mg",
+                "route": "po daily (divided bid or tid)",
+                "frequency": "x 7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Famciclovir",
+                "dose": "750 mg",
+                "route": "po daily",
+                "frequency": "x 7 days"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Corticosteroids alone (not as effective as combination regimens above)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Important to rule out Lyme disease in endemic areas; treatment is different (see Lyme disease).",
+            "Systemic review, meta-analysis demonstrated clear benefit of combination steroids plus antiviral therapy (Laryngoscope 2021)"
+          ]
+        }
+      ]
+    }
+  ]
+}

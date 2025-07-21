@@ -1,0 +1,134 @@
+{
+  "documentMetadata": {
+    "title": "Francisella tularensis, Tularemia",
+    "lastUpdated": "2024-10-07",
+    "sourceFile": "Francisella tularensis, Tularemia.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Francisella tularensis causes a variety of infections as a consequence of:",
+        "Direct contact with infected tissues of infected animals (hunters, farmers, veterinarians, landscapers, and meat handlers)",
+        "Inhalation of infected aerosol (hazard to clinical microbiologists)",
+        "Exposure to an infected biting insect (ticks, mosquitoes, deer and horse flies, and fleas)",
+        "Tularemia: Clinical illness can vary from asymptomatic to septic shock and death;",
+        "in aerosol form, a potential agent of bioterrorism.",
+        "Tularemia bioterrorism reference: [N Engl J Med 372:954, 2015](https://www.nejm.org/doi/full/10.1056/NEJMra1401205).",
+        "F. tularensis can cause one or more of several clinical syndromes:",
+        "Ulceroglandular: most common presentation",
+        "Oculoglandular",
+        "Glandular",
+        "Pharyngeal (oropharyngeal)",
+        "Pneumonia",
+        "Typhoidal (fever and hypotension)",
+        "Meningitis",
+        "For complications, see Comments.",
+        "References:",
+        "CDC-sponsored supplement: Tularemia: Update on Treatment and Clinical Findings: [Clin Infect Dis 2024; 78(:S1): S1-S75](https://academic.oup.com/cid/issue/78/Supplement_1)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Laboratory diagnosis is difficult:",
+        "Faintly staining, strictly aerobic, coccobacilli",
+        "Rarely see on gram-stain; fastidious, may need special media, Colonies may require up to 3 days to be visible on culture plates",
+        "Notify lab for both use of special culture media and to prevent infection of lab technologists",
+        "Four-fold rise in antibody confirms diagnosis but serology is not a timely clinical tool.",
+        "PCR best detection method; check availability with commercial and State Public Health Dept. Labs"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Classification"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aerobic Gram-negative coccobacilli"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Beta-lactams and clindamycin are not active",
+        "Ciprofloxacin",
+        "Adult: 400 mg IV q12h (or 750 mg po) bid x 14-21 days",
+        "Children: 20-40 mg/kg/day po (max 1.5 gm/day) divided bid (child) Treat for 14-21 days",
+        "NOTE: Levofloxacin should work but only limited observational data",
+        "IF Critically ill and not responding to monotherapy with ciprofloxacin, reasonable to add either an aminoglycoside or doxycycline:",
+        "Gentamicin or Tobramycin 5.1 mg/kg/day IV divided q8h or Streptomycin 10 mg/kg/day IV q12h",
+        "Adult: Treat for 10 days",
+        "Child: Treat for 5-7 days",
+        "Adult: Doxycycline 100 mg IV/po bid x 14-21 days",
+        "No discernable efficacy difference. Would be nice to avoid the potential toxicity of aminoglycosides",
+        "NOTE: General support for avoiding empiric monotherapy with gentamicin, streptomycin, or tobramycin.",
+        "See collected case series in the supplement:",
+        "CDC-sponsored supplement: Tularemia: Update on Treatment and Clinical Findings: Clin Infect Dis 2024; 78(:S1): S1-S75",
+        "Meningitis is a rare complication:",
+        "Reported empiric therapy",
+        "(Aminoglycoside) + Doxycycline 100 mg IV/po bid (adult) / 4 mg/kg/d divided q12h IV/po (max. dose 200 mg/day) (child)",
+        "(Aminoglycoside) + Ciprofloxacin 400 mg IV (or 750 mg po) q12h (adult) / 20-40 mg/kg/day po (max 1.5 gm/day) divided bid (child)",
+        "Treat for 14-21 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Less severe illness:",
+        "Monotherapy with the same drugs",
+        "Adult: Doxycycline 100 mg IV/po bid x 14-21 days or Ciprofloxacin 400 mg IV q12h (or 750 mg po) bid x 14-21 days",
+        "Child: Ciprofloxacin 20-40 mg/kg/day po (max 1.5 gm/day) divided bid x 10-14 days",
+        "Pregnancy: treatment recommendation is uncertain, but suggest same regimens as above for non-pregnant adults for at least 14 days",
+        "Prophylaxis for aerosol exposures (not for natural exposures): Doxycycline 100 mg po bid x 14 days or Ciprofloxacin 500 mg po bid x 14 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There are no controlled clinical trials:",
+        "Suggested therapy is based on combination of in vitro activity, infected animal models, and systematic reviews of observational data.",
+        "Monotherapy reported effective for mild illness and outpatient therapy: ciprofloxacin or doxycycline",
+        "Comination therapy with ciprofloxacin plus doxycycline is favored for hospitalized patients.",
+        "Try and avoid aminoglycosides due to risk of nephro- and ototoxicity",
+        "Beta-lactam antibiotics are not efficacious.",
+        "Doxycycline is bacteriostatic and hence, doxycycline monotherapy may result in relapses.",
+        "Large variety of potential complications:",
+        "Suppuration of infected regional lymph nodes",
+        "Acute renal injury",
+        "Rhabdomyolysis",
+        "Hepatitis",
+        "Empyema",
+        "Others: pericarditis, meningitis, osteomyelitis, prosthetic joint infection, and even endocarditis.",
+        "Tularemia bioterrorism reference: [N Engl J Med 372:954, 2015](https://www.nejm.org/doi/full/10.1056/NEJMra1401205)."
+      ]
+    }
+  ]
+}

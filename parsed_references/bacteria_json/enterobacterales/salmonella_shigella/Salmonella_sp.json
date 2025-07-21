@@ -1,0 +1,706 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Salmonella sp.",
+      "aliases": [
+        "Salmonella enterica serovars",
+        "Salmonella Typhi",
+        "Salmonella Paratyphi",
+        "Salmonella Choleraesuis",
+        "Salmonella Typhimurium"
+      ],
+      "lastUpdated": "2023-11-14",
+      "clsiCategory": "Salmonella and Shigella spp.",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      },
+      "strainDetails": [
+        {
+          "type": "Serovar Group",
+          "value": "Typhoidal Salmonella",
+          "notes": "Includes S. Typhi and S. Paratyphi, causes enteric fever."
+        },
+        {
+          "type": "Serovar Group",
+          "value": "Non-typhoidal Salmonella (NTS)",
+          "notes": "Includes serovars like Typhimurium and Enteritidis, typically causes gastroenteritis."
+        }
+      ],
+      "biochemicalTests": "Gram-negative rod, motile, lactose –, H2S +, citrate +, urease –, lysine decarboxylase +."
+    },
+    "clinicalProfile": {
+      "summary": "A foodborne or waterborne illness, often occurring in outbreaks. Clinical presentation ranges from self-limited gastroenteritis to severe systemic illness like enteric (typhoid) fever. Treatment is generally not recommended for mild-to-moderate gastroenteritis in immunocompetent patients but is indicated for severe illness, the immunocompromised, and others at risk of invasive disease.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea",
+        "Fever",
+        "Abdominal cramps",
+        "Headache",
+        "Rose spots (in Typhoid fever)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Inflammation of the stomach and intestines, typically resulting in vomiting and diarrhea."
+        },
+        {
+          "syndromeName": "Enteric Fever (Typhoid Fever)",
+          "description": "A systemic illness caused by Salmonella Typhi or Paratyphi, characterized by sustained fever, headache, and abdominal pain."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of Salmonella in the bloodstream, can occur with or without focal infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised patients",
+        "Young children",
+        "The elderly"
+      ],
+      "transmissionVectors": [
+        "Foodborne",
+        "Waterborne"
+      ],
+      "prognosisNotes": [
+        "Relapse can occur (1-6% with fluoroquinolones/Ceftriaxone, up to 20% with Chloramphenicol).",
+        "Chronic carriage (excretion for >1 year) occurs in 1-6% of patients, especially those with cholelithiasis."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Empiric Therapy Warning",
+          "details": "Ampicillin, TMP-SMX, and Chloramphenicol should not be used empirically due to high resistance rates. Treatment should be guided by the region where the isolate was acquired."
+        },
+        {
+          "alertTitle": "Extensively Drug-Resistant (XDR) Strains",
+          "details": "MDR and XDR isolates are emerging, especially in South Asia. S. Typhi is more frequently XDR than non-typhoidal Salmonella."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Longer duration of therapy (e.g., 14 days or more) is recommended for immunocompromised patients."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Dexamethasone",
+          "condition": "Severe Typhoid Fever",
+          "details": "Consider concomitant Dexamethasone (3 mg/kg IV loading dose, then 1 mg/kg IV q6h for 48 hrs)."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Severe illness, invasive disease",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg IV or 500 mg PO",
+                      "route": "IV/PO",
+                      "frequency": "bid",
+                      "comments": "Not recommended if Salmonella Typhi (Typhoid fever) is suspected due to extensive XDR, especially from Asia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV/PO",
+                      "frequency": "once daily",
+                      "comments": "Not recommended if Salmonella Typhi (Typhoid fever) is suspected due to extensive XDR, especially from Asia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": "Preferred if there is a history of travel to Asia or other regions with high fluoroquinolone resistance."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "For severely ill patients or when XDR is suspected."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "1 day",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "1 gm",
+                      "route": "IV/PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "4-6 days",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500 mg",
+                      "route": "IV/PO",
+                      "frequency": "once daily",
+                      "comments": "Total duration 5-7 days."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Chloramphenicol",
+                      "dose": "2-3 gm/day",
+                      "route": "IV/PO",
+                      "frequency": "in 4 divided doses",
+                      "comments": "Use if other agents are not available."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Cefixime",
+                      "dose": "20-30 mg/kg/day",
+                      "route": "PO",
+                      "frequency": "in two divided doses",
+                      "comments": "Experience is mixed; may not perform as well as other agents."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "8-10 mg/kg of TMP component",
+                      "route": "IV/PO",
+                      "frequency": "in 2-3 divided doses",
+                      "comments": "Use only if confirmed susceptible in vitro."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "CLSI has established breakpoints for Ciprofloxacin susceptibility. Specific testing methods are recommended to detect decreased ciprofloxacin susceptibility, as higher MICs correlate with resistance mechanisms."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "Antimicrobial therapy for uncomplicated gastroenteritis may prolong carriage."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.342Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Salmonella sp."
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Salmonella enterica serovars",
+        "Salmonella Typhi",
+        "Salmonella Paratyphi",
+        "Salmonella Choleraesuis",
+        "Salmonella Typhimurium"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2023-11-14"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "A foodborne or waterborne illness, often occurring in outbreaks. Clinical presentation ranges from self-limited gastroenteritis to severe systemic illness like enteric (typhoid) fever. Treatment is generally not recommended for mild-to-moderate gastroenteritis in immunocompetent patients but is indicated for severe illness, the immunocompromised, and others at risk of invasive disease.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea",
+        "Fever",
+        "Abdominal cramps",
+        "Headache",
+        "Rose spots (in Typhoid fever)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Inflammation of the stomach and intestines, typically resulting in vomiting and diarrhea."
+        },
+        {
+          "syndromeName": "Enteric Fever (Typhoid Fever)",
+          "description": "A systemic illness caused by Salmonella Typhi or Paratyphi, characterized by sustained fever, headache, and abdominal pain."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of Salmonella in the bloodstream, can occur with or without focal infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Immunocompromised patients",
+        "Young children",
+        "The elderly"
+      ],
+      "transmissionVectors": [
+        "Foodborne",
+        "Waterborne"
+      ],
+      "prognosisNotes": [
+        "Relapse can occur (1-6% with fluoroquinolones/Ceftriaxone, up to 20% with Chloramphenicol).",
+        "Chronic carriage (excretion for >1 year) occurs in 1-6% of patients, especially those with cholelithiasis."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Empiric Therapy Warning",
+          "details": "Ampicillin, TMP-SMX, and Chloramphenicol should not be used empirically due to high resistance rates. Treatment should be guided by the region where the isolate was acquired."
+        },
+        {
+          "alertTitle": "Extensively Drug-Resistant (XDR) Strains",
+          "details": "MDR and XDR isolates are emerging, especially in South Asia. S. Typhi is more frequently XDR than non-typhoidal Salmonella."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg IV or 500 mg PO",
+              "route": "IV/PO",
+              "frequency": "bid",
+              "duration": "7-14 days",
+              "comments": "Not recommended if Salmonella Typhi (Typhoid fever) is suspected due to extensive XDR, especially from Asia.",
+              "originalText": "Ciprofloxacin 400 mg IV or 500 mg PO IV/PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV/PO",
+              "frequency": "once daily",
+              "duration": "7-14 days",
+              "comments": "Not recommended if Salmonella Typhi (Typhoid fever) is suspected due to extensive XDR, especially from Asia.",
+              "originalText": "Levofloxacin 750 mg IV/PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "7-14 days",
+              "comments": "Preferred if there is a history of travel to Asia or other regions with high fluoroquinolone resistance.",
+              "originalText": "Ceftriaxone 2 gm IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Meropenem",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "For severely ill patients or when XDR is suspected.",
+              "originalText": "Meropenem 1-2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "1 gm",
+              "route": "IV/PO",
+              "frequency": "once",
+              "duration": "1 day",
+              "comments": "",
+              "originalText": "Azithromycin 1 gm IV/PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "500 mg",
+              "route": "IV/PO",
+              "frequency": "once daily",
+              "duration": "4-6 days",
+              "comments": "Total duration 5-7 days.",
+              "originalText": "Azithromycin 500 mg IV/PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Chloramphenicol",
+              "dose": "2-3 gm/day",
+              "route": "IV/PO",
+              "frequency": "in 4 divided doses",
+              "duration": "14 days",
+              "comments": "Use if other agents are not available.",
+              "originalText": "Chloramphenicol 2-3 gm/day IV/PO in 4 divided doses"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-6-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[6].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cefixime",
+              "dose": "20-30 mg/kg/day",
+              "route": "PO",
+              "frequency": "in two divided doses",
+              "duration": "7-14 days",
+              "comments": "Experience is mixed; may not perform as well as other agents.",
+              "originalText": "Cefixime 20-30 mg/kg/day PO in two divided doses"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-7-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[7].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe illness, invasive disease",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "8-10 mg/kg of TMP component",
+              "route": "IV/PO",
+              "frequency": "in 2-3 divided doses",
+              "duration": "",
+              "comments": "Use only if confirmed susceptible in vitro.",
+              "originalText": "TMP-SMX 8-10 mg/kg of TMP component IV/PO in 2-3 divided doses"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "CLSI has established breakpoints for Ciprofloxacin susceptibility. Specific testing methods are recommended to detect decreased ciprofloxacin susceptibility, as higher MICs correlate with resistance mechanisms."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

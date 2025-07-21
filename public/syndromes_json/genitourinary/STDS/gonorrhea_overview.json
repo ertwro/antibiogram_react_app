@@ -1,0 +1,49 @@
+{
+  "documentMetadata": {
+    "title": "Gonorrhea, Overview",
+    "sourceFile": "Gonorrhea, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Causative agent: Neisseria gonorrhoeae, a gram negative diplococcus.",
+        "Development of antimicrobial resistance has been inexorable.",
+        "Due to a high prevalence of resistance, Fluoroquinolones are not recommended for treatment of gonococcal infections (MMWR 56:332, 2007).",
+        "Due to rising in vitro resistance and clinical failures, Oral cephalosporins are also no longer recommended. For Cephalosporin resistance in North America, see JAMA 2013. 309:1989.",
+        "Previously the CDC recommended the combination of Ceftriaxone + Azithromycin to ensure cure and to prevent further development of resistance, but as of 2020 the CDC recommends targeted treatment with Ceftriaxone alone.",
+        "See the CDC report on 2018 resistance patterns",
+        "There are many case reports of isolates with multiple drug resistance. Treatment was successful in one MDR case in the UK with resistance to Ceftriaxone and high-level resistance to Azithromycin with Ertapenem Euro Surveill 2018 Jul;23(27).",
+        "See 2020 CDC guidelines MMWR 69:1911external icon 2020; or 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021",
+        "The 2020 revised recommendation is Ceftriaxone 500 mg IM x one dose",
+        "If chlamydial infection has not been excluded with negative NAAT or if concomitant C. trachomatis infection add Doxycycline 100 mg po bid x 7 days",
+        "See 2020 European guidelines Int J STD & AIDS, 2020",
+        "Revised recommendation is Ceftriaxone 1 gm IM x one dose + Azithromycin 2 gm po x 1 dose",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S95 2022 (Gonorrhea) and Clin Infect Dis 74:S112 2022 (Chlamydia)",
+        "Review of the history of gonorrhea treatment and diagnostics: Clin Infect Dis 2018 doi: 10.1093/cid/ciy271."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Topic Links"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pathogen: Neisseria gonorrhoeae",
+        "For specific treatment recommendations see:",
+        "Gonococcal conjunctivitis",
+        "Disseminated gonococcal infection",
+        "Gonococcal endocarditis",
+        "Gonococcal pharyngitis",
+        "Gonococcal urethritis, cervicitis, proctitis"
+      ]
+    }
+  ]
+}

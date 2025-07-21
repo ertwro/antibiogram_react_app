@@ -1,0 +1,140 @@
+{
+  "_originalData": {
+    "title": "Campylobacter gracilis",
+    "lastUpdated": "Apr 29, 2024",
+    "clinicalSetting": {
+      "labResult": "Positive lab result",
+      "oralFlora": "Oral flora, associated with periodontal, pleuropulmonary disease and, rarely, bacteremia (Emerging Infect Dis 2015 Jun;21(6):1084-5)"
+    },
+    "classification": {
+      "description": "Anaerobic gram-negative rod",
+      "formerName": "Formerly Bacteroides gracilis"
+    },
+    "regimens": {
+      "primary": {
+        "treatment": "Optimal treatment unknown; treat as for Bacteroides fragilis"
+      },
+      "alternative": {
+        "treatment": "None"
+      }
+    },
+    "comments": {
+      "comment": "None"
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "title",
+      "lastUpdated",
+      "clinicalSetting",
+      "classification",
+      "regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:30:00.000Z",
+    "sourceFormat": "legacy_reference"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": ["title"],
+      "value": "Campylobacter gracilis"
+    },
+    "aliases": {
+      "sources": ["aliases"],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": ["lastUpdated"],
+      "value": "Apr 29, 2024"
+    },
+    "classification": {
+      "sources": ["classification"],
+      "value": {
+        "description": "Anaerobic gram-negative rod",
+        "formerName": "Formerly Bacteroides gracilis"
+      }
+    }
+  },
+  "clinicalInformation": {
+    "summary": {
+      "sources": ["clinicalSetting.oralFlora"],
+      "value": "Oral flora, associated with periodontal, pleuropulmonary disease and, rarely, bacteremia"
+    },
+    "clinicalSetting": {
+      "sources": ["clinicalSetting"],
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "labResult": "Positive lab result",
+          "oralFlora": "Oral flora, associated with periodontal, pleuropulmonary disease and, rarely, bacteremia (Emerging Infect Dis 2015 Jun;21(6):1084-5)"
+        }
+      }
+    }
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_reference",
+      "hasReferenceBasedTreatments": true
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "reference-treatment",
+        "extractedFrom": "regimens.primary.treatment",
+        "context": {
+          "type": "reference",
+          "condition": "General treatment guidance"
+        },
+        "preference": "primary",
+        "treatmentGuidance": "Optimal treatment unknown; treat as for Bacteroides fragilis",
+        "originalFormat": {
+          "type": "treatment_text",
+          "preservedContent": {
+            "treatment": "Optimal treatment unknown; treat as for Bacteroides fragilis"
+          }
+        }
+      },
+      {
+        "regimenId": "alternative-treatment",
+        "extractedFrom": "regimens.alternative.treatment",
+        "context": {
+          "type": "reference",
+          "condition": "Alternative treatment guidance"
+        },
+        "preference": "alternative",
+        "treatmentGuidance": "None",
+        "originalFormat": {
+          "type": "treatment_text",
+          "preservedContent": {
+            "treatment": "None"
+          }
+        }
+      }
+    ],
+    "referenceBasedTreatments": {
+      "primaryRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "treatment": "Optimal treatment unknown; treat as for Bacteroides fragilis"
+        }
+      },
+      "alternativeRegimens": {
+        "originalFormat": "object",
+        "content": {
+          "treatment": "None"
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "comments": {
+      "sources": ["comments"],
+      "preservedStructure": {
+        "originalFormat": "object",
+        "content": {
+          "comment": "None"
+        }
+      }
+    },
+    "allOtherKeys": {}
+  }
+}

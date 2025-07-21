@@ -1,0 +1,124 @@
+{
+  "documentMetadata": {
+    "title": "Kawasaki Disease (Kawasaki Syndrome)",
+    "sourceFile": "Kawasaki Disease (Kawasaki Syndrome).pdf",
+    "lastUpdated": "2025-03-05"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Kawaski's disease (syndrome) is an acute self limited febrile vasculitis of children (most often under age 5 years). Usually affects medium sized arteries with the coronary artery aneurysms developing in 25% of untreated children.",
+        "Peaks at about age 1 year; 85% of cases are in children age <5 years",
+        "Reference: Circulation. 2024 Dec 3;150(23):e481; Circulation 2017; 135: e927; Expert Review Clinical Immunology 2019;15:1089",
+        "COVID-19, SARS-CoV-2: related multisystem inflammatory syndrome (MIS-C) can mimic Kawasaki disease. For specifics see: Arch Cardiovasc Dis 2021; 114:426."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unknown"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Classic KD is diagnosed in the presence of fever for at least 5 d together with at least 4 of the 5 following principal clinical features. Circulation. 2024 Dec 3;150(23):e481",
+        "Oral mucosal changes: Erythema and cracking of lips, strawberry tongue, and/or erythema of oral and pharyngeal mucosa",
+        "Bilateral non-puruluent bulbar conjunctival injection. Limbal sparing may be noted",
+        "Rash",
+        "Swelling of hands and/or feet in acute phase. Periungual desquamation later",
+        "Cervical lymphadenopathy (>=1.5 cm diameter)",
+        "Experienced clinician can make diagnosis of complete KD in presence of >=4 principal clinical features with 4 days of fever",
+        "Incomplete KD is more complex to diagnose",
+        "Consider with fever for at least 5 days, 2 or 3 clinical criteria, systemic inflammation (CPR > 3 or ESR >40) and positive echocardiogram or 3 or more lab abnormalities",
+        "Sterile pyuria",
+        "Thrombocytosis >450,000",
+        "Anemia for age",
+        "WBC >15,000",
+        "Elevated ALT",
+        "High risk features include age < 6 months, LAD or RCA z-score >= 2.5 on baseline echo"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antimicrobial therapy is NOT indicated.",
+        "IVIG + aspirin reduces number of coronary artery aneurysms and is cost-effective; mechanism of benefit is unknown."
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "IVIG",
+            "dose": "2 gm/kg",
+            "frequency": "over 12 hours",
+            "connector": "+"
+          },
+          {
+            "drug": "aspirin",
+            "dose": "20-25 mg/kg",
+            "frequency": "qid, then aspirin 3-5 mg/kg per day po q24h x 6-8 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infuse IVIG over 8-12 hrs",
+        "If patient is still febrile after 1st dose of IVIG, some give a 2nd dose.",
+        "In a multicenter, prospective, randomized open-label blinded-endpoints trial in Japan, there were fewer coronary artery abnormalities in patients treated with IVIG + prednisolone 2 mg/kg per day over 15 days as compared to IVIG + aspirin (Lancet 379:1613, 2012). American Heart Association recommends agains routine use of single dose of steroids.",
+        "Intensification of initial therapy (dual therapy with infliximab or longer course corticosterioids) may benefit high-risk patients with KD (baseline CAA Z score >=2.5, infants <6 months, or in high risk category using the Son risk score"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IV gamma globulin (2 gm/kg over 10 hours) before the 10th day of illness reduced coronary artery lesions.",
+        "Differential diagnosis in children with possible KD includes: measles, adenovirus infection, streptococcal scarlet fever, juvenile idiopathic arthritis, Covid-associated MIS-C",
+        "Biomarkers may help differentiate KD from MIS-C Pediatr Cardiol. 2025 Jan;46(1):116. Troponin and BNP were higher in MIS-C",
+        "In children, wait 11 months after IVIG before giving live virus vaccines."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Bacterial, Preterm to Age < 1 month",
+    "sourceFile": "Meningitis, Bacterial, Preterm to Age < 1 month.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Bacterial, Preterm to Age < 1 month"
+    },
+    {
+      "type": "paragraph",
+      "text": "Empiric treatment of bacterial meningitis in neonates must cover Group B Streptococcus, Escherichia coli, Listeria monocytogenes, and Klebsiella species."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "100 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8h"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "5 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "100 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "50 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ]
+      }
+    }
+  ]
+}

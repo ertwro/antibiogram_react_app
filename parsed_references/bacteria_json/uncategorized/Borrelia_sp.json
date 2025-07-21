@@ -1,0 +1,405 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Borrelia sp.",
+      "aliases": [
+        "Lyme Disease",
+        "Relapsing Fever"
+      ],
+      "lastUpdated": "2024-05-28",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-negative (weakly)",
+        "morphology": "Spirochete",
+        "respiration": "Microaerophilic",
+        "notes": [
+          "Best visualized by dark-field microscopy or Giemsa/Wright stain.",
+          "Does not grow on standard media."
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Borrelia burgdorferi",
+          "notes": "Causative agent of Lyme Disease in North America."
+        },
+        {
+          "type": "Species",
+          "value": "Borrelia afzelii",
+          "notes": "Causative agent of European Lyme borreliosis."
+        },
+        {
+          "type": "Species",
+          "value": "Borrelia garinii",
+          "notes": "Causative agent of European Lyme borreliosis."
+        },
+        {
+          "type": "Species",
+          "value": "Borrelia recurrentis",
+          "notes": "Causative agent of louse-borne relapsing fever."
+        },
+        {
+          "type": "Species",
+          "value": "Borrelia hermsii",
+          "notes": "Causative agent of tick-borne relapsing fever."
+        },
+        {
+          "type": "Species",
+          "value": "Borrelia miyamotoi",
+          "notes": "Related to relapsing fever Borrelia; harbored by same ticks that carry Lyme Disease. Clinical spectrum includes fever and meningoencephalitis."
+        }
+      ],
+      "biochemicalTests": "Spirochete, weakly Gram-negative but best visualized by dark-field or Giemsa/Wright stain. Does not grow on standard media. Identification is by serology or PCR."
+    },
+    "clinicalProfile": {
+      "summary": "Borrelia species are spirochetes transmitted by ticks or lice, causing a range of diseases including Lyme disease and relapsing fever. Clinical presentation varies significantly depending on the specific species and stage of infection.",
+      "pathophysiologyPearls": [
+        "Borrelia's spiral shape and motility, facilitated by endoflagella, allow it to disseminate through tissues and evade the immune system.",
+        "Antigenic variation, particularly in relapsing fever species, allows for immune evasion and recurrent febrile episodes."
+      ],
+      "keySignsAndSymptoms": [
+        "Erythema migrans (Lyme disease)",
+        "Fever, headache, myalgia, arthralgia",
+        "Neurological symptoms (meningitis, facial palsy, radiculopathy)",
+        "Carditis",
+        "Recurrent high fevers (Relapsing fever)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Lyme Disease",
+          "description": "A multi-stage illness caused primarily by B. burgdorferi, characterized initially by erythema migrans and later by potential rheumatologic, neurologic, and cardiac manifestations."
+        },
+        {
+          "syndromeName": "Relapsing Fever",
+          "description": "An illness caused by various Borrelia species (e.g., B. recurrentis, B. hermsii), characterized by recurring episodes of high fever, headache, and myalgia, corresponding to waves of spirochetemia."
+        }
+      ],
+      "highRiskPopulations": [
+        "Individuals with exposure to tick-infested areas (e.g., hikers, campers, outdoor workers).",
+        "Individuals in areas with louse-borne transmission (for B. recurrentis)."
+      ],
+      "transmissionVectors": [
+        "Ticks (e.g., Ixodes scapularis, Ixodes pacificus)",
+        "Body lice (Pediculus humanus humanus)"
+      ],
+      "prognosisNotes": [
+        "Early diagnosis and treatment of Lyme disease generally lead to excellent outcomes.",
+        "Post-Treatment Lyme Disease Syndrome (PTLDS) can occur in some patients.",
+        "Relapsing fever can be severe, but is generally treatable with antibiotics."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Jarisch-Herxheimer Reaction",
+          "details": "An acute febrile reaction that can occur after the initiation of antibiotic treatment for spirochetal infections, including Lyme disease and relapsing fever. It is thought to be caused by the release of endotoxin-like substances from dying organisms."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Choice of agent and duration of therapy depends on the specific Borrelia species, stage of disease, and clinical manifestations."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Lyme Disease",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [],
+              "notes": [
+                "See specific guidelines for Lyme Disease (e.g., IDSA/AAN/ACR guidelines) for detailed recommendations based on stage (early localized, early disseminated, late disseminated)."
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Relapsing Fever",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [],
+              "notes": [
+                "See specific guidelines for Relapsing Fever. Treatment often involves doxycycline or penicillin."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Clinical suspicion of Lyme disease based on exposure history and compatible symptoms (e.g., erythema migrans).",
+        "Febrile illness in a patient with exposure to ticks or lice in an endemic area for relapsing fever."
+      ],
+      "methodologyNotes": [
+        "Serologic testing for Lyme disease often involves a two-tiered approach (EIA followed by Western blot).",
+        "Direct visualization of spirochetes in peripheral blood smears is the primary diagnostic method for relapsing fever."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Dark-field microscopy",
+          "trigger": "Suspicion of relapsing fever",
+          "purpose": "To visualize motile spirochetes in a peripheral blood smear."
+        },
+        {
+          "testName": "Serology (Lyme)",
+          "trigger": "Suspicion of Lyme disease (outside of early localized stage)",
+          "purpose": "To detect antibodies against Borrelia burgdorferi."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "Suspicion of Borrelia infection, especially in CSF or synovial fluid.",
+          "purpose": "To detect Borrelia DNA."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is primarily clinical and supported by laboratory findings. Culture is not routinely performed.",
+        "biosafetyWarning": "Standard precautions are sufficient for patient care. Laboratory handling of cultures would require BSL-2.",
+        "methods": [
+          {
+            "methodName": "Serology",
+            "details": "The mainstay for diagnosing Lyme disease. Two-tiered testing is recommended to improve specificity."
+          },
+          {
+            "methodName": "Microscopy",
+            "details": "Giemsa or Wright-stained peripheral blood smears can reveal spirochetes during febrile episodes of relapsing fever."
+          },
+          {
+            "methodName": "PCR",
+            "details": "Can be useful for detecting Borrelia DNA in specific clinical samples, such as CSF in neuroborreliosis or synovial fluid in Lyme arthritis."
+          }
+        ]
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Prophylaxis",
+          "details": "A single dose of doxycycline may be considered for prophylaxis after a high-risk tick bite for Lyme disease prevention.",
+          "targetPopulation": "Individuals with Ixodes tick bites in highly endemic areas."
+        },
+        {
+          "type": "Prevention",
+          "details": "Avoiding tick bites through personal protective measures (e.g., repellents, protective clothing) and checking for ticks after outdoor activities.",
+          "targetPopulation": "General population in endemic areas."
+        },
+        {
+          "type": "Prevention",
+          "details": "Control of body lice to prevent louse-borne relapsing fever.",
+          "targetPopulation": "Populations at risk for louse infestation."
+        }
+      ],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "PLoS Negl Trop Dis",
+          "citation": "PLoS Negl Trop Dis 2022;16: e0010212",
+          "summaryOrNote": "Reference for Borrelia miyamotoi."
+        },
+        {
+          "source": "IDSA/AAN/ACR",
+          "citation": "Clin Infect Dis. 2021;72(1):e1-e48.",
+          "summaryOrNote": "2020 Guidelines for the Prevention, Diagnosis and Treatment of Lyme Disease."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.364Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Borrelia sp."
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Lyme Disease",
+        "Relapsing Fever"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-05-28"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative (weakly)",
+        "morphology": "Spirochete",
+        "respiration": "Microaerophilic",
+        "notes": [
+          "Best visualized by dark-field microscopy or Giemsa/Wright stain.",
+          "Does not grow on standard media."
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Borrelia species are spirochetes transmitted by ticks or lice, causing a range of diseases including Lyme disease and relapsing fever. Clinical presentation varies significantly depending on the specific species and stage of infection.",
+      "pathophysiologyPearls": [
+        "Borrelia's spiral shape and motility, facilitated by endoflagella, allow it to disseminate through tissues and evade the immune system.",
+        "Antigenic variation, particularly in relapsing fever species, allows for immune evasion and recurrent febrile episodes."
+      ],
+      "keySignsAndSymptoms": [
+        "Erythema migrans (Lyme disease)",
+        "Fever, headache, myalgia, arthralgia",
+        "Neurological symptoms (meningitis, facial palsy, radiculopathy)",
+        "Carditis",
+        "Recurrent high fevers (Relapsing fever)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Lyme Disease",
+          "description": "A multi-stage illness caused primarily by B. burgdorferi, characterized initially by erythema migrans and later by potential rheumatologic, neurologic, and cardiac manifestations."
+        },
+        {
+          "syndromeName": "Relapsing Fever",
+          "description": "An illness caused by various Borrelia species (e.g., B. recurrentis, B. hermsii), characterized by recurring episodes of high fever, headache, and myalgia, corresponding to waves of spirochetemia."
+        }
+      ],
+      "highRiskPopulations": [
+        "Individuals with exposure to tick-infested areas (e.g., hikers, campers, outdoor workers).",
+        "Individuals in areas with louse-borne transmission (for B. recurrentis)."
+      ],
+      "transmissionVectors": [
+        "Ticks (e.g., Ixodes scapularis, Ixodes pacificus)",
+        "Body lice (Pediculus humanus humanus)"
+      ],
+      "prognosisNotes": [
+        "Early diagnosis and treatment of Lyme disease generally lead to excellent outcomes.",
+        "Post-Treatment Lyme Disease Syndrome (PTLDS) can occur in some patients.",
+        "Relapsing fever can be severe, but is generally treatable with antibiotics."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Jarisch-Herxheimer Reaction",
+          "details": "An acute febrile reaction that can occur after the initiation of antibiotic treatment for spirochetal infections, including Lyme disease and relapsing fever. It is thought to be caused by the release of endotoxin-like substances from dying organisms."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": []
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Clinical suspicion of Lyme disease based on exposure history and compatible symptoms (e.g., erythema migrans).",
+        "Febrile illness in a patient with exposure to ticks or lice in an endemic area for relapsing fever."
+      ],
+      "methodologyNotes": [
+        "Serologic testing for Lyme disease often involves a two-tiered approach (EIA followed by Western blot).",
+        "Direct visualization of spirochetes in peripheral blood smears is the primary diagnostic method for relapsing fever."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Dark-field microscopy",
+          "trigger": "Suspicion of relapsing fever",
+          "purpose": "To visualize motile spirochetes in a peripheral blood smear."
+        },
+        {
+          "testName": "Serology (Lyme)",
+          "trigger": "Suspicion of Lyme disease (outside of early localized stage)",
+          "purpose": "To detect antibodies against Borrelia burgdorferi."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "Suspicion of Borrelia infection, especially in CSF or synovial fluid.",
+          "purpose": "To detect Borrelia DNA."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

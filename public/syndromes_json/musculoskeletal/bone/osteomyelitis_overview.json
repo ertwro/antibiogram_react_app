@@ -1,0 +1,48 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Overview",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Osteomyelitis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Microbiologic diagnosis of osteomyelitis is essential.",
+        "If blood culture is negative, then culture of bone is needed.",
+        "Culture of sinus drainage not recommended as it is not predictive of bone culture.",
+        "Cure rates are improved by surgical debridement of dead bone and drainage of associated abscesses.",
+        "For a comprehensive review of antimicrobial penetration into bone: Clinical Pharmacokinetics 48:89, 2009 and J Clin Pharm Ther 38:89, 2013.",
+        "Review: principles of therapy and use of oral agents: Infect Dis Clin North Am. 2025 Apr 11:S0891-5520(25)00014"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute osteomyelitis, children",
+        "Hematogenous osteomyelitis",
+        "Vertebral osteomyelitis",
+        "Staphylococcal osteomyelitis",
+        "Candida osteomyelitis",
+        "Contiguous focus",
+        "Vascular insufficiency",
+        "Prosthetic joint related osteomyelitis",
+        "Hemoglobinopathy",
+        "Chronic osteomyelitis",
+        "Sternal",
+        "Spinal Implant",
+        "Foot Bone"
+      ]
+    }
+  ]
+}

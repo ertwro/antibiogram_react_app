@@ -1,0 +1,90 @@
+{
+    "documentMetadata": {
+        "title": "Impetigo",
+        "sourceFile": "Impetigo.pdf",
+        "lastUpdated": "2021-04-06"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Superficial bacterial infection of the skin due to Streptococcus pyogenes or Staphylococcus aureus. Most frequently occurs in children in hot, humid environments.",
+                "Strep. pyogenes infection manifests as papules that progress to vesicles and then rupture to form \"honey crust\" lesions. If deeper into the epidermis, i.e., \"punched out\" ulcers. it is called ecthyma contagiosum (See Comments).",
+                "Complications of Strep. impetigo include post-streptococcal glomerulonephritis and rheumatic fever.",
+                "Toxin-producing strains of Staph. aureus cause flaccid fragile exudate filled bullae: bullous impetigo.",
+                "IDSA Guideline on skin and soft tissue infections: Clin Infect Dis 59:147, 2014."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Streptococcus sp. (Group A causes honey crust impetigo) (Group B, C, G are less common)",
+                "Staph. aureus (MSSA and MRSA) that produce exfoliative toxin A (leads to loss of cell adhesion) cause bullous impetigo"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "For Streptococcal impetigo:",
+                "With few lesions:",
+                "(Mupirocin ointment 2% tid or Fusidic acid 2% cream) x 5 days",
+                "Retapamulin 1% ointment bid x 5 days",
+                "With many lesions and oral therapy deemed desirable:",
+                "Penicillin VK 250-500 mg po qid x 7 days",
+                "TMP-SMX DS one tab po bid x 7 days",
+                "Note: Reports of in vitro resistance probably result of lab methods used (J Clin Micro 2012; 50:4067)",
+                "Benzathine Penicillin G 600,000 to 1,200,000 units IM x one dose",
+                "For MSSA bullous impetigo:",
+                "Seven days of therapy with (Mupirocin ointment or Retapamulin ointment) or (Dicloxacillin po or Cephalexin po)",
+                "For MRSA bullous impetigo:",
+                "Seven days of therapy with Mupirocin ointment tid or TMP-SMX DS tab po bid"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "For Streptococcal impetigo: Should not need oral antibiotics as topical therapy, unless large number of lesions, is as effective unless large number of lesions.",
+                "For MRSA bullous impetigo (all po regimens): TMP-SMX-DS OR (Doxycycline or Minocycline) OR (Clindamycin)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "OTC triple antibiotic ointment: not as efffective as Mupirocin (Ped Infect Dis J 16:708, 1997).",
+                "Watch out for macrolide resistance of both Staph. aureus and Streptococcal species.",
+                "Mupirocin:",
+                "46% of USA-300 CA-MRSA isolates carry gene encoding resistance to Mupirocin, Lancet 367:731, 2006",
+                "Ecthyma contagiousum:",
+                "A varient of Streptococcal impetigo. Instead of \"honey crusts\", infected skin has the appearance of fish scales because infection is deeper in the epidermis.",
+                "Military outbreaks reported: S. pyogenes, Clin Infect Dis 48:1213, 2009; Clin Infect Dis 48:1220, 2009 (good images).",
+                "Treatment is as for Streptococcal impetigo.",
+                "Most cases of post-streptococcal impetigo glomerulonephritis are sequelae from impetigo as opposed to streptococcal sore throat. Not clear if impetigo treatment reduces the risk."
+            ]
+        }
+    ]
+}

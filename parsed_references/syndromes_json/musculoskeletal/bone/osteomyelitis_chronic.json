@@ -1,0 +1,137 @@
+
+{
+  "documentMetadata": {
+    "title": "Chronic Osteomyelitis",
+    "sourceFile": "syndromes/musculoskeletal/bone/Osteomyelitis, Chronic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic osteomyelitis is a long-standing, persistent, and difficult-to-eradicate infection of the bone. It is defined by the presence of necrotic (dead) bone and is characterized by low-grade inflammation, fistulous tracts, and periods of quiescence alternating with exacerbations. It can arise from inadequately treated acute osteomyelitis, open fractures, or surgery with prosthetic implants."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Pathophysiology: The Hallmarks of Chronic Infection"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Sequestrum",
+          "value": "A segment of necrotic, avascular bone that has become separated from the healthy bone. It acts as a foreign body and a nidus for persistent infection, as systemic antibiotics cannot penetrate it."
+        },
+        {
+          "key": "Involucrum",
+          "value": "A layer of new, living bone that forms around the sequestrum. It is an attempt by the body to wall off the infection."
+        },
+        {
+          "key": "Sinus Tract (or Fistula)",
+          "value": "A channel that forms between the infected bone and the skin surface. It may intermittently drain pus or small bone fragments."
+        },
+        {
+          "key": "Biofilm",
+          "value": "Bacteria, particularly Staphylococcus aureus, form a protective biofilm on the surface of the sequestrum and any hardware, making them highly resistant to host defenses and antibiotics."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The presentation is often subtle and indolent. Systemic signs of infection like fever and malaise are usually absent. Key features include:",
+      "items": [
+        "A deep, persistent, dull pain in the affected limb.",
+        "Localized tenderness, swelling, and erythema over the bone.",
+        "A non-healing ulcer or a chronic, intermittently draining sinus tract over the affected area.",
+        "Pathologic fracture through the weakened bone."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "diagnosticTest",
+          "name": "Imaging",
+          "interpretation": "Plain X-rays are the initial study and may show classic signs like a sequestrum, involucrum, or cortical thickening. CT scans are excellent for delineating the extent of bone destruction and planning surgery. MRI is superior for evaluating soft tissue involvement, abscesses, and sinus tracts."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Bone Biopsy",
+          "interpretation": "A deep bone biopsy, obtained surgically from the site of suspected infection, is the gold standard for diagnosis. Multiple samples should be sent for both histopathology (to confirm osteomyelitis) and microbiology (to identify the pathogen and guide antibiotic therapy). Swab cultures from the sinus tract are unreliable."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Probing to Bone",
+          "interpretation": "In a patient with a diabetic foot ulcer or other ulcer, the ability to gently probe the base of the ulcer down to bone with a sterile instrument has a very high positive predictive value for underlying osteomyelitis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Successful treatment of chronic osteomyelitis requires a combined medical and surgical approach."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Surgical Debridement"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Sequestrectomy and Debridement",
+            "indication": "This is the cornerstone of therapy.",
+            "description": "The surgeon must aggressively debride all non-viable, necrotic bone and soft tissue until healthy, bleeding bone is reached. Any associated hardware is typically removed. This eliminates the nidus of infection."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Dead Space Management and Reconstruction"
+        },
+        {
+          "type": "paragraph",
+          "text": "The resulting bone and soft tissue defect (dead space) must be managed. Options include placing antibiotic-impregnated cement beads or spacers, followed by bone grafting. Soft tissue coverage may require muscle flaps."
+        },
+        {
+          "type":- "header",
+          "level": 3,
+          "text": "Antibiotic Therapy"
+        },
+        {
+          "type": "paragraph",
+          "text": "A prolonged course of pathogen-directed antibiotics is required following adequate surgical debridement. Treatment typically involves 4-6 weeks of high-dose intravenous or highly bioavailable oral antibiotics."
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Osteomyelitis, Overview; Osteomyelitis, Contiguous Focus",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Osteomyelitis, Overview"
+      }
+    }
+  ]
+}

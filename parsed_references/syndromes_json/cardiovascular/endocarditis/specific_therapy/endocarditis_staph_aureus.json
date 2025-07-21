@@ -1,0 +1,321 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Staph. aureus",
+    "lastUpdated": "2025-05-06",
+    "sourceFile": "Endocarditis, Staph. aureus.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for Staph. aureus endocarditis",
+        "Signs and symptoms of endocarditis.",
+        "Blood cultures positive for Staph. aureus. Susceptibility is known.",
+        "For MRSA treatment failure see Staph. aureus Bacteremia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Methicillin susceptible Staph. aureus (MSSA)",
+        "Methicillin resistant Staph. aureus (MRSA)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MSSA:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Native valve",
+            "components": [
+              {
+                "drug": "Nafcillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Oxacillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Tricupsid valve, uncomplicated",
+            "components": [
+              {
+                "drug": "Nafcillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Oxacillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "4 weeks"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Prosthetic valve",
+            "components": [
+              {
+                "drug": "Nafcillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h"
+              },
+              {
+                "drug": "Oxacillin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q4h",
+                "connector": "or"
+              },
+              {
+                "drug": "Rifampin",
+                "dose": "600-900 mg/day",
+                "route": "po/IV",
+                "frequency": "in 2-3 divided doses",
+                "connector": "+"
+              },
+              {
+                "drug": "Gentamicin",
+                "dose": "1 mg/kg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "≥ 6 weeks"
+            },
+            "notes": "(see Antimicrobial Stewardship)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MRSA:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Native valve",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks"
+            },
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Prosthetic valve",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              },
+              {
+                "drug": "Rifampin",
+                "dose": "600-900 mg/day",
+                "route": "po/IV",
+                "frequency": "in 2-3 divided doses",
+                "connector": "+"
+              },
+              {
+                "drug": "Gentamicin",
+                "dose": "1 mg/kg",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "≥ 6 weeks"
+            },
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL) (see Antimicrobial Stewardship)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MSSA:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Cefazolin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks"
+            },
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL) (only in setting of major penicillin and cephalosporin allergy)"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Daptomycin",
+                "dose": "8-12 mg/kg",
+                "frequency": "q24h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MRSA:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Daptomycin",
+                "dose": "8-12 mg/kg",
+                "frequency": "q24h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6 weeks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Targeting Vancomycin AUC preferred over trough concentration (Am J Health Sys Pharm 2020, 77:835).",
+        "Wait 3-5 days after starting vancomycin/gentamicin before starting rifampin, to decrease bacterial density and thus minimize risk of selecting for rifampin resistance."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "First-line choices:",
+        "Nafcillin (or other anti-staphylococcal penicillin) or Cefazolin for MSSA (comparable to anti-staphylcoccal penicillins, see Antimicrob Agents Chemother 55:5122, 2011, Clin Infect Dis 59:369, 2014, and J Antimicrob Chemother 70:1539, 2015)",
+        "Vancomycin or Daptomycin for MRSA (JAMA 312:1330, 2014).",
+        "Daptomycin FDA-approved for right-sided endocarditis and bacteremia; case series suggests that high-dose daptomycin 8-12 mg/kg q24h is safe and also efficacious for left-sided endocarditis (J Antimicrob Chemother 68:936, 2013 & J Antimicrob Chemother 68:2921, 2013; J Infect Chemother 19:698, 2013; Antimicrob Agents Chemother 57:6213, 2013).",
+        "American Heart Association (AHA) recommendations: Circulation 132:1435, 2015.",
+        "Low-dose Gentamicin (1 mg/kg q8h) even for only a few days is nephrotoxic: not recommended except in prosthetic valve infection (Clin Infect Dis 48:713, 2009).",
+        "Case reports of successful use of Telavancin for MRSA endocarditis, including infections caused by Vancomycin and Daptomycin non-susceptible strains (J Antimicrob Chemother 65:1315, 2010; Antimicrob Agents Chemother 54:5376, 2010; J Antimicrob Chemother 66:2186, 2011).",
+        "Reported use of Ceftaroline alone and in combination (mostly with Daptomycin) for MRSA blood stream infections including endocarditis (J Antimicrob Chemother 67: 1267, 2012; J Infect Chemother 19: 42, 2013; Antimicrob Agents Chemother 61: e02015, 2017; Open Forum Infect Dis 4: ofx084, May 2, 2017 (PMID 28702467)).",
+        "Recent publication describing risk factors for Staph. aureus endocarditis, S. aureus as the most common cause, and its association with healthcare (Clin Infect Dis 54:1230, 2012)."
+      ]
+    }
+  ]
+}

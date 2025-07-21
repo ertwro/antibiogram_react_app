@@ -1,0 +1,105 @@
+{
+  "documentMetadata": {
+    "title": "Herpes simplex, Genital",
+    "lastUpdated": "2021-11-22",
+    "sourceFile": "Herpes simplex, Genital.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Genital herpes simplex infection: Initial and recurrent episodes.",
+        "Review: N Engl J Med 2016;375: 666; 2021 CDC STI Guidelines MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Pregnancy considerations:",
+        "Acyclovir is safe even in the first trimester.",
+        "No proof that Acyclovir at delivery reduces risk/severity of neonatal herpes.",
+        "In contrast, C-section in women with active lesions reduces risk of transmission. See Obstet Gynecol 106:845, 2005.",
+        "Increased risk of dissemination to include severe, and even fatal, hepatitis: N Engl J Med 370: 2211, 2014.",
+        "For recalcitrant pseudotumoral anogenital herpes, type 2, in HIV patients, see Comment."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Herpes simplex virus (HSV) (Types 1, 2)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Primary (initial episode)",
+        "Acyclovir 400 mg po tid x 7-10 days",
+        "Valacyclovir 1000 mg po bid x 7-10 days",
+        "Famciclovir 250 mg po tid x 7-10 days",
+        "Subsequent recurrent episodes",
+        "Immunocompetent",
+        "Acyclovir 800 mg po tid x 2 days or 400 mg po tid x 5 days",
+        "Famciclovir 1000 mg bid x 1 day or 125 mg po bid x 5 days",
+        "Valacyclovir 500 mg po bid x 3 days or 1 gm po once daily x 5 days",
+        "Immunocompromised, HIV",
+        "Acyclovir 400 mg po tid x 5-10 days",
+        "Famciclovir 500 mg po bid x 5-10 days",
+        "Valacyclovir 1 gm po bid x 5-10 days"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For severe cases only: Acyclovir 5 mg/kg IV q8h x 5-7 days",
+        "Acyclovir-resistant HSV: Foscarnet 80 -120 mg/kg/day in 2 - 3 divided doses x 7 days OR",
+        "Cidofovir 5 mg/kg IV q wk until clinical response",
+        "Chronic suppression (daily)",
+        "Immunocompetent",
+        "Acyclovir 400 mg po bid",
+        "Famciclovir 250 mg po bid",
+        "Valacyclovir 1 gm po q24h",
+        "Patients with < 9 recurrences per year could use 500 mg po q24h and then 1 gm po q24h if breakthrough at 500 mg.",
+        "In Cochrane review, above regimens equally efficacious. Number of recurrences reduced by 40-60% (Cochrane Database Syst Rev 8:CD009036, 2014)",
+        "Immunocompromised, HIV",
+        "Acyclovir 400-800 mg po bid or tid",
+        "Famciclovir 500 mg po bid",
+        "Valacyclovir 500 mg po bid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acyclovir reduced by 2 days time to resolution of signs and symptoms, reduced by 4 days time to healing of lesions, reduced by 7 days duration of viral shedding. Does not prevent recurrences once discontinued.",
+        "Valacyclovir is an ester of acyclovir, which is well absorbed, bioavailability 3-5 > acyclovir.",
+        "Famciclovir is metabolized to penciclovir, which is active component. Side effects and activity similar to acyclovir. Famciclovir 250 mg po tid equal to Acyclovir 200 mg 5x/day.",
+        "Suppressive therapy reduces the frequency of genital herpes recurrences by 70-80% among patients who have frequent recurrences (i.e., >6 recurrences per year) and many report no symptomatic outbreaks.",
+        "References: 2021 CDC STI Guidelines MMWR Recomm Rep 70 (RR-4):1 2021 and N Engl J Med 2016;375, 666",
+        "Atypical hypertrophic, ulcerative or pseudotumor forms reported in HIV patients",
+        "CD4 count maybe normal and HIV viral \"load\" undetectable",
+        "Frequent failure to respond to acyclovir",
+        "In one report only 2 of 10 patients responded to acyclovir/valacyclovir, foscarnet, or cidofovir; 5 of 10 responded to imiquimod and/or thalidomide",
+        "See Clin Infect Dis 57:1648, 2013."
+      ]
+    }
+  ]
+}

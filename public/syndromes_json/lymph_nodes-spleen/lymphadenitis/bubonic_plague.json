@@ -1,0 +1,155 @@
+{
+  "documentMetadata": {
+    "title": "Bubonic Plague",
+    "sourceFile": "lymph_nodes-spleen/lymphadenitis/Bubonic Plague.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Febrile, regional, painful lymphadenitis (Buboes). Regional lymph nodes become enlarged and tender; inguinal lymph nodes are most common. Result of bite of infected rodent flea. If untreated can progress to bacteremia, with and without shock, and seeding of lungs and rarely meninges."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Antigen detection or PCR",
+        "notes": "Fastest method."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Stain of aspirate from Bubo (suppurative node)",
+        "interpretation": "With proper staining has bipolar appearance like a closed clothes pin."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Yersinia pestis (Small gram-negative bacillus)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Plague Pneumonia",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Plague Pneumonia"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Plague Pneumonia",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Plague Pneumonia"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comment"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment option."
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "200 mg",
+                "route": "IV/po",
+                "frequency": "for one dose and then starting 12 hrs later: 100 mg IV/po bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Children <45 kg"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "2.2 mg/kg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Children ≥45 kg"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po",
+                "frequency": "q12h"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "7-10 days"
+            }
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "No evidence of tooth staining in children."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comprehensive reviews of antibacterial therapy options: MMWR. Recommendations and Reports, July 16, 2021 / 70(3);1–27."
+        }
+      ]
+    }
+  ]
+}

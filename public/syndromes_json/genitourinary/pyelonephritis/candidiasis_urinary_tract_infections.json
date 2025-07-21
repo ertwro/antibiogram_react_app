@@ -1,0 +1,232 @@
+{
+  "documentMetadata": {
+    "title": "Candidiasis, Urinary Tract Infections",
+    "sourceFile": "Candidiasis, Urinary Tract Infections.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Urine culture positive for Candida sp.",
+        "Patients are often asymptomatic but may have traditional signs and symptoms of urinary tract infections.",
+        "See Clin Infect Dis 52 (Suppl 6):S452, 2011 for diagnosis of urinary tract infection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiology"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Candida albicans",
+        "Other non-albicans Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Asymptomatic candiduria: Most cases do not warrant treatment but consider treatment in patients with neutropenia, low birth-weight premature infants, and patients undergoing urologic procedures. Pre-procedure treatment options include:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Fluconazole",
+                "dose": "200-400 mg (3-6 mg/kg)",
+                "route": "po/IV",
+                "frequency": "once daily a few days before and after the procedure"
+              },
+              {
+                "drug": "Amphotericin B",
+                "dose": "0.3-0.6 mg/kg",
+                "frequency": "daily a few days before and after the procedure",
+                "connector": "or"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Symptomatic infection:"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cystitis:"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "components": [
+                  {
+                    "drug": "Fluconazole",
+                    "dose": "200 mg/day (3 mg/kg)",
+                    "duration": "14 days"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Ascending pyelonephritis:"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Recommended",
+                "components": [
+                  {
+                    "drug": "Fluconazole",
+                    "dose": "400 mg/day",
+                    "duration": "14 days"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Pyelonephritis via hematogenous seeding:"
+            },
+            {
+              "type": "crossReference",
+              "referenceData": {
+                "text": "Treat per section on disseminated candidiasis",
+                "targetType": "internalDocument",
+                "targetIdentifier": "disseminated candidiasis"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment of Fluconazole-resistant candida species or Fluconazole intolerance:"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cystitis"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Alternative",
+                "components": [
+                  {
+                    "drug": "Amphotericin B",
+                    "dose": "0.5 mg/kg",
+                    "duration": "1-7 days"
+                  },
+                  {
+                    "drug": "Flucytosine",
+                    "dose": "25 mg/kg",
+                    "frequency": "qid",
+                    "duration": "7-10 days",
+                    "connector": "or"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Ascending pyelonephritis"
+            },
+            {
+              "type": "drugRegimen",
+              "regimenData": {
+                "intent": "treatment",
+                "strengthOfRecommendation": "Alternative",
+                "components": [
+                  {
+                    "drug": "Amphotericin B",
+                    "dose": "0.5-0.7 mg/kg",
+                    "duration": "14 days"
+                  },
+                  {
+                    "drug": "Flucytosine",
+                    "dose": "25 mg/kg",
+                    "frequency": "qid",
+                    "duration": "14 days",
+                    "connector": "or"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Persistent candiduria in an immunocompromised patient warrants imaging of urinary system to rule out fungus ball, which is an indication for surgical intervention. Rule out obstruction in patients with recurrences or systemic signs of infection.",
+        "Antifungals that achieve poor urinary levels include:",
+        "Liposomal Amphotericin B, echinocandins, itraconazole, voriconazole, and posaconazole but may be considered for treatment in select cases.",
+        "Retrospective study compared efficacy of echinocandins vs fluconazole in patients with candidemia of urinary tract source: Clin Infect Dis 2017;64:1374. Despite high levels of protein binding and low concentrations in urine, the echinocandin patients did as well as the fluconazole patients. Need confirmation in a controlled study.",
+        "Amphotericin B bladder irrigation (50 µg Amphotericin B/mL sterile water) as a continuous irrigation of the bladder for 5-7 days may be efficacious. It should only be used in patient who require a urinary catheter for other reasons and other treatments should be considered first.",
+        "Guidelines on treatment of candida urinary tract infections: Clin Infect Dis 52(Suppl 6):S457, 2011.",
+        "Pregnant patients identified to have asymptomatic candiduria may have vaginal colonization and not urinary colonization (urine is contaminated). Given the risks associated with systemic antifungal treatment of candida in urine (opposed to treatment of asymptomatic bacteriuria) in pregnancy and absence of clear data showing benefit, routine treatment of asymptomatic candiduria may not be warranted",
+        "IDSA treatment guidelines: Clin Infect Dis 62:409, 2016."
+      ]
+    }
+  ]
+}

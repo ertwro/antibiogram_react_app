@@ -1,0 +1,43 @@
+{
+  "documentMetadata": {
+    "title": "Stomatitis, Aphthous",
+    "sourceFile": "Stomatitis, Aphthous.pdf",
+    "lastUpdated": "2023-08-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute oral lesions. Idiopathic ulcerations. Commonly called canker sores.",
+        "Painful, occasionally large, ulcers in the mouth or oropharynx. Recurrent outbreaks occur in persons with celiac disease and inflammatory bowel disease.",
+        "Can be presenting manifestation of Bechet's syndrome.",
+        "Part of PFAPA (Periodic fever, aphthous stomatitis, pharyngitis, and cervical adenitis) syndrome: Clinical Rheumatology 2019; 38: 11 (UI: 30488366)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Idiopathic (no known cause)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antimicrobial therapy is not indicated",
+        "Topical steroids (triamcinolone in orobase or in solution)",
+        

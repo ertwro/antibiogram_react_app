@@ -1,0 +1,139 @@
+
+{
+  "drug_name": "Antibacterial Drug Resistance Genotypes",
+  "gram_positive": [
+    {
+      "genotype": "vanA",
+      "resistance_mechanism": "Cell wall modifying enzyme",
+      "resistance_to": [
+        "Glycopeptides",
+        "Vancomycin",
+        "Teicoplanin",
+        "Dalbavancin",
+        "Telavancin"
+      ],
+      "alternative_antibiotics": [
+        "Oritavancin",
+        "Linezolid",
+        "Daptomycin"
+      ]
+    },
+    {
+      "genotype": "vanB",
+      "resistance_mechanism": "Cell wall modifying enzyme",
+      "resistance_to": [
+        "Vancomycin"
+      ],
+      "alternative_antibiotics": [
+        "Teicoplanin",
+        "Dalbavancin",
+        "Telavancin",
+        "Oritavancin",
+        "Linezolid",
+        "Daptomycin"
+      ]
+    },
+    {
+      "genotype": "mecA / mecC",
+      "resistance_mechanism": "Low-affinity PBP, PBP2a",
+      "resistance_to": [
+        "Penicillins",
+        "Carbapenems",
+        "All cephalosporins except ceftaroline and ceftobiprole"
+      ],
+      "alternative_antibiotics": [
+        "Ceftaroline",
+        "Ceftobiprole",
+        "Linezolid",
+        "Daptomycin",
+        "Vancomycin",
+        "Teicoplanin (NUS)"
+      ]
+    }
+  ],
+  "gram_negative": [
+    {
+      "genotype": "ampC",
+      "resistance_mechanism": "Penicillinase, cephalosporinase (class C serine beta-lactamase)",
+      "resistance_to": [
+        "Penicillins",
+        "Most cephalosporins"
+      ],
+      "alternative_antibiotics": [
+        "Cefepime",
+        "Ceftolozane-tazobactam",
+        "Ertapenem",
+        "Imipenem-cilastatin",
+        "Meropenem",
+        "Aminoglycosides",
+        "TMP-SMX",
+        "FQs"
+      ]
+    },
+    {
+      "genotype": "CTX-M, SHV, TEM (ESBLs)",
+      "resistance_mechanism": "Penicillinase, cephalosporinase (class A serine beta-lactamase)",
+      "resistance_to": [
+        "Penicillins",
+        "Penicillin-BLI combinations",
+        "Most cephalosporins (except cephamycins)",
+        "Aztreonam"
+      ],
+      "alternative_antibiotics": [
+        "Ceftolozane-tazobactam",
+        "Ertapenem",
+        "Imipenem-cilastatin",
+        "Meropenem",
+        "Aminoglycosides"
+      ]
+    },
+    {
+      "genotype": "KPC",
+      "resistance_mechanism": "Penicillinase, cephalosporinase carbapenemase (class A serine beta-lactamase)",
+      "resistance_to": [
+        "Penicillins",
+        "Penicillin-BLI combinations",
+        "Cephalosporins",
+        "Carbapenems",
+        "Aztreonam"
+      ],
+      "alternative_antibiotics": [
+        "Ceftazidime-avibactam",
+        "Meropenem-vaborbactam",
+        "Imipenem-cilastatin-relebactam",
+        "Cefiderocol",
+        "Certain Aminoglycosides"
+      ]
+    },
+    {
+      "genotype": "OXA-48, OXA-48-like",
+      "resistance_mechanism": "Penicillinase, carbapenemase (class D serine beta-lactamase)",
+      "resistance_to": [
+        "Penicillins",
+        "Penicillin-BLI combinations",
+        "Carbapenems",
+        "Aztreonam"
+      ],
+      "alternative_antibiotics": [
+        "Ceftazidime-avibactam",
+        "Cefiderocol",
+        "Aminoglycosides"
+      ]
+    },
+    {
+      "genotype": "IMP, VIM, NDM",
+      "resistance_mechanism": "Penicillinase, cephalosporinase carbapenemase (class B metallo-beta-lactamase)",
+      "resistance_to": [
+        "Penicillins",
+        "Penicillin-BLI combinations",
+        "Cephalosporins",
+        "Carbapenems"
+      ],
+      "alternative_antibiotics": [
+        "Aztreonam + Ceftazidime-avibactam",
+        "Cefiderocol"
+      ]
+    }
+  ],
+  "notes": "PBP = penicillin binding protein; NUS = where available but not in the U.S.; class A, B, C or D indicates Ambler classification of beta-lactamases; ESBL = extended spectrum beta-lactamases; KPC = Klebsiella pneumoniae carbapenemase; BLI = beta-lactamase inhibitor: clavulanic acid, sulbactam or tazobactam. Teicoplanin (where available) may be active in vitro against vanB strains, but resistance may emerge in vivo; likewise for dalbavancin and telavancin, which are derivatives of teicoplanin and vancomycin, respectively. Carbapenems: ertapenem, doripenem, imipenem-cilastatin, meropenem. AmpC may be either chromosomal and inducible or constitutive (i.e., de-repressed) or plasmid-encoded and constitutive. Constitutive expression of AmpC confers high level resistance to all penicillins, penicillin-BLI combinations and cephalosporins except cefepime. Strains with inducible resistance (especially Enterobacter cloacae complex, Citrobacter freundii, and Klebsiella aerogenes) may be susceptible to 3rd generation cephalosporins (e.g., ceftriaxone, cefotaxime, ceftazidime) in vitro, but resistant de-repressed mutants can emerge during therapy. Cefepime and ceftolozane-tazobactam are active against de-repressed mutants, but either may be inactivated by extended-spectrum AmpC. Experience with ceftolozane-tazobactam for treatment of infections caused by AmpC-producing species other than Pseudomonas aeruginosa is limited. ESBL- and carbapenemase-producers frequently contain resistance genes for multiple other drug classes as well, which is why these other agents are not listed as reliable alternatives. OXA-48 and OXA-48-like lack activity against cephalosporins, but the strains encoding these beta-lactamases often encode other beta-lactamases that can degrade cephalosporins, so these are not listed as options. Aztreonam is not hydrolyzed by metallo-beta-lactamases (MBLs), however strains encoding MBLs frequently encode other beta-lactamases which can hydrolyze this drug. If aztreonam is used, pending confirmation of in vitro activity, it should be in combination with ceftazidime-avibactam because the avibactam component inhibits class A, C, and some class D serine-beta-lactamases and may protect the aztreonam from inactivation by these other enzymes."
+}

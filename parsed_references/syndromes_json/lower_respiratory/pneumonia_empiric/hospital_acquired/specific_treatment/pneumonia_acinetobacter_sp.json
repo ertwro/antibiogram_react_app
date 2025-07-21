@@ -1,0 +1,184 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Acinetobacter sp.",
+    "lastUpdated": "2024-08-04",
+    "sourceFile": "Pneumonia, Acinetobacter sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ventilator-associated pneumonia (VAP) caused by Acinetobacter sp.",
+        "Suspect carbapenem or multi-drug resistant strains in patients previously treated with broad spectrum antibiotics.",
+        "Overview: Clin Infect Dis 2018: 67:1455."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acinetobacter calcoaceticus-Acinetobacter baumannii complex comprises several species that are difficult to identify to the species level.",
+        "Five Acinetobacter species are associated with human diseases (A. baumannii, A. pittii, A. nosocomialis, A. seifertti and A. dijkshoorniae) (Future Sci OA. 2019. doi: 10.2144/fsoa-2018-0127).",
+        "Acinetobacter baumannii accounts for ~80% of human disease."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lab reports presence of A. baumannii-calcoaceticus complex, susceptibility results pending, empiric therapy options:"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Rate of local multi-drug resistance <10-15%, patient not critically ill."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cefepime 2 gm q8h",
+                "Meropenem 2 gm IV infused over 3 hours q8h",
+                "Ampicillin-sulbactam 6 gm Ampicillin/3 gm Sulbactam IV infused over 4 hr q8h (see Comment)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Rate of carbapenem resistance >10-15% and /or patient critically ill:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sulbactam-durlobactam 1 gm/1gm IV infused over 3 hours q6h + Imipenem-cilastatin 1 gm IV infused over 1 hour q6h",
+                "Ampicillin-sulbactam 6 gm Ampicillin/3 gm Sulbactam IV infused over 4 hr q8h + Meropenem 2 gm IV infused over 3 hours q8h + Polymyxin B 2.5 mg/kg IV infused over 2 hours then 1.5 mg/kg IV over 1 hour q12h"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lab reports susceptibility to multiple drugs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Monotherapy with an agent active in vitro, Cefepime, Meropenem, or Ampicillin-sulbactam",
+            "Imipenem-cilastatin 500 mg IV q6h"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lab reports in vitro resistance to all carbapenems (See Comments)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Infectious diseases consultation recommended.",
+            "Sulbactam-durlobactam 1 gm/1gm IV infused over 3 hours q6h + Imipenem-cilastatin 1 gm IV infused over 1 hour q6h (see Lancet Infect Dis. 2023; 23:1072 for results of RCT)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Susceptible strain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ciprofloxacin 400 mg IV q8h",
+            "Levofloxacin 750 mg IV q24h",
+            "TMP-SMX 10 mg/kg/day (TMP component) in 2-3 divided doses (Antimicrob Agents Chemother 2016; 60:6903; Ann Pharmacother 2018;52:120)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Carbapenem-resistant strain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cefiderocol 2 gm IV over 3h q8h + Minocycline 200 mg IV/po q12h or Tigecycline 200 mg IV x1 then 100 mg IV q12h",
+            "Ampicillin-sulbactam 6 gm Ampicillin/3 gm Sulbactam IV infused over 4 hr q8h + Meropenem 2 gm IV infused over 3h q8h + Polymyxin B 2.5 mg/kg IV infused over 2 hours then 1.5 mg/kg IV over 1 hour q12h"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Carbapenems: Isolates maybe resistant to Imipenem-cilastatin and susceptible to Meropenem or vice versa.",
+        "Duration of therapy is unclear and should be guided by clinical response."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comment"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA Guideline on treatment of ESBL, AmpC, and carbapenemase producers: Updated 2024 IDSA Guidelines.",
+        "Use of other agents",
+        "Nebulized/inhaled antibiotic for adjunctive therapy of ventilator-associated pneumonia:",
+        "Data does not support adding inhaled antibiotic to above suggested therapies (Chest 2017;151:1239, Crit Care Med 2019;47: 880 and e470).",
+        "Cefiderocol",
+        "In an open label randomized trial (Lancet Infect Dis 2021; 21:226) comparing best available therapy (BAT) to Cefiderocol in patients with nosocomial pneumonia, sepsis, cUTI, or bacteremia due to carbapenemase producing bacteria, 28 day all cause mortality was numerically higher in Cefiderocol patients, 9/49 (18%) for BAT vs 25/101 (245%) for Cefiderocol, and in the pneumonia subgroup, 4/22 (18%) for BAT vs 14/45 (31%) for Cefiderocol, neither of which difference is statistically significant.",
+        "In a double-blind randomized trial (Lancet Infect Dis 2021;21:213) Cefidercol was non-inferior to Meropenem for Gram-negative HAP/VAP/HCAP; in 16 patients with Acinetobacter spp. with Meropenem MICs > 64 µg/mL, day 14 all-cause mortality was 0% (0/5) in the Cefiderocol group and 46% (5/11) in the Meropenem group.",
+        "Doripenem is not approved to treat any type of pneumonia nor is it approved for doses > 500 mg q8h.",
+        "Tigecycline is not recommended as first line use due to sub-therapeutic serum concentrations in bacteremic patients plus increased risk of all cause mortality compared with other agents (Clin Infect Dis 2012 Jun;54(12):1699)",
+        "Minocycline IV: very limited clinical experience (Infect Dis Ther 2017; 6:199) and in vitro data (Antimicrob Agents Chemother 2016; 60:4047; Am J Health Syst Pharm 2016; 73:279) suggest Minocycline in combination with other agents may have efficacy against carbapenem-resistant Acinetobacter."
+      ]
+    }
+  ]
+}

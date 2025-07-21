@@ -1,0 +1,94 @@
+{
+  "drug_name": "Ampicillin",
+  "tradename": "Omnipen, Polycillin, Principen",
+  "usage_and_dosing": {
+    "general": [
+      "Ampicillin (and Amoxicillin) are the aminopenicillins with predictable activity against streptococci, most enterococci, Listeria, clostridia and a variety of other anaerobic bacteria."
+    ],
+    "adult_dose": {
+      "usual_dose": {
+          "oral": "250-500 mg po q6h",
+          "iv": "1-2 gm IV q4-6h"
+      }
+    },
+    "pediatric_dose": {
+      "oral": "50-100 mg/kg/day (divided q6h)",
+      "iv_standard": "200 mg/kg/day (divided q6h)",
+      "iv_meningitis": "300-400 mg/kg/day (divided q4h)"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.2",
+    "half_life_esrd": "7-20",
+    "dose_renal_function_normal": "1-2 gm IV q4-6h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 30-50: 1-2 gm q6-8h. CrCl 10-30: 1-2 gm q8-12h",
+    "hemodialysis": "1-2 gm q12h (give one of the dialysis day doses AD)",
+    "capd": "500 mg - 1 gm q12h",
+    "crrt": "1-2 gm q8-12h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "ECMO. Serum concentrations may not be significantly altered by ECMO. See Table for details."
+  ],
+  "adverse_effects": [
+    "Allergy manifest as rash is common with all beta-lactam antibiotics, including Ampicillin.",
+    "In patients with Epstein-Barr virus (infectious mononucleosis) given Ampicillin, 65-100% develop rash; 90% of CLL patients and 15-20% of patients who take allopurinol. Do not label patient as penicillin-allergic as it is not a true allergy.",
+    "In patients with true Ampicillin allergy, risk of cross-allergenicity with po cephalosporins that have identical R1 side chains: i.e., Cefaclor, Cephalexin, Cephradine, Loracarbef.",
+    "Ampicillin: Fever, rash (5%), anaphylaxis (rare), +Coombs, neutropenia, eosinophilia (22%), thrombocytopenia (rare), increased PT/PTT, nausea/vomiting (2%), diarrhea (10%), C. difficile colitis (rare).",
+    "Drug-induced immune thrombocytopenia"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Actinomyces sp.",
+        "Borrelia burgdorferi",
+        "Enterococcus faecalis, susceptible to vancomycin",
+        "Listeria monocytogenes",
+        "Pasteurella multocida",
+        "Peptostreptococci"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Cap (250, 500 mg), Oral susp (125 mg/5 mL, 250 mg/5 mL), Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "100 (2 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "18-22",
+    "volume_of_distribution_vd_l_kg": "0.29 L/kg",
+    "avg_serum_half_life_hr": "1.2",
+    "elimination": "Renal",
+    "bile_penetration_percent": "100-3000",
+    "csf_blood_percent": "13-14",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "120 (2 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {"drug": "Allopurinol", "effect": "↑ frequency of rash", "management": "Monitor"},
+      {"drug": "Probenecid", "effect": "↑ ampicillin", "management": "Monitor, adjust dosage"}
+  ]
+}

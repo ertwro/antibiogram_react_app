@@ -1,0 +1,469 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Vibrio parahaemolyticus",
+      "aliases": [],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus (curved rod)",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Free-living bacterium present in marine-estuarine environments"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative curved rod, oxidase +, motile, does not ferment sucrose (green colonies on TCBS agar), requires NaCl for growth (halophilic), urease –."
+    },
+    "clinicalProfile": {
+      "summary": "Vibrio parahaemolyticus is a leading cause of seafood-associated gastroenteritis, particularly from shellfish. It can also cause severe cellulitis, wound infections, and bacteremia, especially in patients with underlying conditions like liver disease or diabetes.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Usually mild and self-limited. Antibacterial therapy is indicated in more severe disease or in fragile patients."
+        },
+        {
+          "syndromeName": "Wound Infection / Cellulitis",
+          "description": "Infection of the skin and soft tissues, often severe."
+        },
+        {
+          "syndromeName": "Sepsis",
+          "description": "Life-threatening bloodstream infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with liver disease",
+        "Patients with diabetes"
+      ],
+      "transmissionVectors": [
+        "Seafood",
+        "Shellfish"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment recommendations are often based on drugs proven successful in the treatment of V. cholerae."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Rehydration",
+          "condition": "Gastroenteritis",
+          "details": "Rehydration is the most important aspect of managing diarrhea."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Gastroenteritis, Wound Infection, Cellulitis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Stool, Wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500 mg",
+                      "route": "IV/PO",
+                      "frequency": "qd",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Suspected or proven bacteremia in ICU",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "IV",
+                      "frequency": "bid",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "1 gm",
+                      "route": "IV",
+                      "frequency": "qd",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Requires selective media (Thiosulfate Citrate Bile-salts Sucrose - TCBS) to detect in stool.",
+        "Does grow in standard blood culture bottles."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "New England Journal of Medicine",
+          "citation": "N Engl J Med 369:1573, 2013",
+          "summaryOrNote": "Report on an Atlantic coast outbreak."
+        },
+        {
+          "source": "Nature Reviews Disease Primers",
+          "citation": "Nat Rev Dis Primers 4:8 2018",
+          "summaryOrNote": "Review comparing different Vibrio infections."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.338Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Vibrio parahaemolyticus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus (curved rod)",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Free-living bacterium present in marine-estuarine environments"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Vibrio parahaemolyticus is a leading cause of seafood-associated gastroenteritis, particularly from shellfish. It can also cause severe cellulitis, wound infections, and bacteremia, especially in patients with underlying conditions like liver disease or diabetes.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Usually mild and self-limited. Antibacterial therapy is indicated in more severe disease or in fragile patients."
+        },
+        {
+          "syndromeName": "Wound Infection / Cellulitis",
+          "description": "Infection of the skin and soft tissues, often severe."
+        },
+        {
+          "syndromeName": "Sepsis",
+          "description": "Life-threatening bloodstream infection."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with liver disease",
+        "Patients with diabetes"
+      ],
+      "transmissionVectors": [
+        "Seafood",
+        "Shellfish"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis, Wound Infection, Cellulitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool, Wound"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "bid",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg IV/PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis, Wound Infection, Cellulitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool, Wound"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "500 mg",
+              "route": "IV/PO",
+              "frequency": "qd",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Azithromycin 500 mg IV/PO qd"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis, Wound Infection, Cellulitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool, Wound"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 500 mg PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Suspected or proven bacteremia in ICU",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "IV",
+              "frequency": "bid",
+              "duration": "",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg IV bid"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "1 gm",
+              "route": "IV",
+              "frequency": "qd",
+              "duration": "",
+              "comments": "",
+              "originalText": "Ceftriaxone 1 gm IV qd"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [
+        "Requires selective media (Thiosulfate Citrate Bile-salts Sucrose - TCBS) to detect in stool.",
+        "Does grow in standard blood culture bottles."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

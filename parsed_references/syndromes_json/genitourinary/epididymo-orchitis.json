@@ -1,0 +1,103 @@
+{
+  "documentMetadata": {
+    "title": "Epididymo-orchitis",
+    "lastUpdated": "2025-01-06",
+    "sourceFile": "Epididymo-orchitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Etiologies and treatment differentiated based on patient's age.",
+        "Midstream pyuria, dysuria; scrotal pain, erythema, and edema; thickened epididymis, swollen testis; typically unilateral",
+        "Also, men who have sex with men (MSM), the insertive partner in anal intercourse.",
+        "Rule out testicular torsion (ultrasonograthy useful to distinguish torsion from epididymitis/orchitis).",
+        "Differential diagnosis, if symptoms don't improve within 72 hours after treatment: tumor, abscess, infarction, testicular cancer, TB, and fungal epididymitis.",
+        "Reviews: Clin Infect Dis 61:S770, 2015; Eur J Clin Microbiol Infect Dis 37:1001, 2018."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Age ≤ 35 years",
+        "N. gonorrhoeae",
+        "C. trachomatis",
+        "Enterobacterales (occasional)",
+        "Age > 35 years",
+        "Enterobacterales",
+        "Less common causes:",
+        "Mycobacterium tuberculosis, Brucella spp., B. pseudomallei, mumps virus, BCG, fungal (histoplasmosis, coccidioides), Bechet's"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "All: Bed rest, scrotal elevation, and analgesics.",
+        "Age ≤ 35 years: Ceftriaxone 500 mg IM x 1 + Doxycycline 100 mg po bid x 10 days (1 g Ceftriaxone if >150 kg weight)",
+        "Age > 35 years: Levofloxacin 500-750 mg IV/po once daily x 10-14 days (see Comments)",
+        "In MSM, there is risk of both STI and enteric organisms so treat with Ceftriaxone + (Levofloxacin 750 mg qd x10-14 days or Ofloxacin 300 mg po bid x 10-14 days)",
+        "Note: Levo and Oflox are the only FQs with known reliable activity against Chlamydia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Age ≤ 35 years: Levofloxacin 500 mg po once daily x 10 days",
+        "Age > 35 years:",
+        "Ampicillin-sulbactam 3 gm IV q6h or Amoxicillin-clavulanate 875/125 po bid",
+        "Ceftriaxone 2 gm IV q24h",
+        "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h",
+        "TMP-SMX 1 DS po bid x 10-14 days if STI unlikely and local resistance <20% for E. coli"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Increasing incidence of fluoroquinolone-resistant enteric organisms a potential concern.",
+        "If enterobacteriaceae are suspected, choice of agent should be guided by local antibiotic susceptibility patterns."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Do urine NAAT (nucleic acid amplification test) to ensure absence of N. gonorrhoeae with concomitant risk of fluoroquinolone-resistant gonorrhoeae or of chlamydia if using agents without reliable activity in patients age < 35 years.",
+        "If STI etiology documented or suspected, sexual partners within the past 60 days should be evaluated.",
+        "See 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Chronic epidyidmitis is symptoms >6 weeks and is associated with granulomatous disease including tuberculosis.",
+        "Review article of differential diagnosis of scrotal pain and masses: Am Fam Physician 89:723, 2014.",
+        "Complete resolution of discomfort may take weeks after antibiotic treatment is completed, but swelling and tenderness that persist should be evaluated.",
+        "Levofloxacin: usual recommended dose is 500 mg; consider 750 mg dose because of higher drug levels and reports of treatment failures at the lower dose (similar to prostatitis)."
+      ]
+    }
+  ]
+}

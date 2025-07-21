@@ -1,0 +1,75 @@
+{
+  "documentMetadata": {
+    "title": "Otitis Media, Prophylaxis",
+    "sourceFile": "Otitis Media, Prophylaxis.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotic prophylaxis to prevent recurrent acute otitis media (AOM) in children",
+        "Selects for antibiotic-resistant Strep. pneumoniae",
+        "Is not recommended in current AAP guidelines (Pediatrics 131:e964, 2013)",
+        "Reduces the number of episodes by about half but risks may outweigh benefits",
+        "Pneumococcal protein conjugate vaccine decreases frequency of acute otitis media infections.",
+        "Evidence supporting benefits of adenoidectomy are inconclusive (Cochrane Database Syst Rev 2010:CD008282)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Strep. pneumoniae",
+        "H. influenzae",
+        "M. catarrhalis",
+        "Staph. aureus",
+        "Streptococcus sp. (Group A)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prophylactic antibiotics are not recommended",
+        "Recurrent AOM: Antibiotics may be prescribed to reduce the frequency of episodes of AOM in children"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tympanostomy tubes may be offered for recurrent AOM (3 episodes in 6 months or 4 episodes in 1 year with 1 episode in the preceding 6 months) (see Cochrane Database Syst Rev 2018 May 9;5:CD012017).",
+        "Avoid concomitant fluoroquinolone ear drops increased risk of TM perforation requiring tympanoplasty (Clin Inf Dis 2017;64: 1052)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reference: Cochrane Database Syst Rev 2006:CD004401"
+      ]
+    }
+  ]
+}

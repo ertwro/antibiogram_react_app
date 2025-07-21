@@ -1,0 +1,88 @@
+{
+  "drug_name": "Cefmetazole",
+  "tradename": "Zefazone",
+  "usage_and_dosing": {
+    "general": [
+      "Cefmetazole is a second-generation semisynthetic parenteral cephamycin.",
+      "Resistant in vitro to hydrolysis by ESBL-producing Enterobacterales.",
+      "Contains an N-methyl-tetrazole-thiol side chain, which inhibits vitamin K epoxide reductase and may inhibit synthesis of vitamin K-dependent coagulation factors.",
+      "Not available in the US but often used in Japan, Taiwan, and China.",
+      "Possible carbapenem-sparing alternative (where available) for ESBL-producing Enterobacterales infection: Open Forum Infect Dis 2023;10:ofad502; Antimicrob Agents Chemother 2023;67:e0051023.",
+      "Good overview: Pharmacotherapy 1991;11:2-19."
+    ],
+    "adult_dose": {
+      "urinary_tract_infection": "2 gm IV q12h",
+      "mild_to_moderate_infection": "2 gm IV q8h",
+      "severe_to_life_threatening_infection": "2 gm IV q6h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1-1.5",
+    "half_life_esrd": "29",
+    "dose_renal_function_normal": "2 gm IV q8-12h",
+    "crcl_or_egfr": "CrCl >90: No dosage adjustment. CrCl 50-90: 1-2 gm q12h. CrCl 30-49: 1 gm q12h. CrCl 10-29: 1-2 gm q24h. CrCl <10: 1-2 gm q48h",
+    "hemodialysis": "1-2 gm q48h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Gastrointestinal (nausea, vomiting, diarrhea)",
+    "Potential for C. difficile infection",
+    "Hypersensitivity reactions",
+    "Increased LFTs",
+    "Disulfiram-like reaction",
+    "Coagulopathy"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "No data",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {},
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "143 (2 gm IV, SD)",
+    "peak_urine_conc_ug_ml": ">2000 (2 gm IV, SD)",
+    "protein_binding_percent": "65-85",
+    "volume_of_distribution_vd_l_kg": "≈ 0.18 L/kg",
+    "avg_serum_half_life_hr": "1.1-1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "161 (2 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ cefmetazole",
+          "management": "Monitor, adjust dosage"
+      }
+  ]
+}

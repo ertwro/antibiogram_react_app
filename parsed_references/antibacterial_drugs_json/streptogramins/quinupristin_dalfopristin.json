@@ -1,0 +1,140 @@
+
+{
+  "drug_name": "Quinupristin-Dalfopristin",
+  "tradename": "Synercid",
+  "usage_and_dosing": {
+    "description": "Quinupristin-dalfopristin is a streptogramin antibiotic with activity vs. Staphylococcus, Streptococcus species and other gram-positive organisms.",
+    "note": "Current FDA indication is for skin and skin structure infections due to MSSA or S. pyogenes.",
+    "adult_dose": {
+      "skin_skin_structure_infection": "7.5 mg/kg IV q12h via central line"
+    },
+    "pediatric_dose": {
+      "safety_and_efficacy_not_established": true
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "note": "Dosage adjustment may be required in hepatic disease.",
+    "half_life_normal": {
+      "quin": 0.85,
+      "dalfo": 0.7
+    },
+    "half_life_esrd": {
+      "quin": "Unchanged",
+      "dalfo": "Unchanged"
+    },
+    "dose_renal_function_normal": "7.5 mg/kg IV q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "PK data, but not clinical data, suggest the need for dosage adjustment. Use caution.",
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Local phlebitis: requires central line.",
+    "Painful arthralgias in 2-50% of patients, also nausea, myalgias.",
+    "Asymptomatic increase in unconjugated bilirubin."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "B",
+    "lactation": "Probably safe with monitoring, but no data available; avoid if possible."
+  },
+  "antimicrobial_spectrum": {
+    "recommended": [],
+    "active": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "peak_serum_conc": "Quin 3.2, dalf 8 (7.5 mg/kg IV q8h, SS)",
+    "protein_binding": "Quin>dalf (not quantified)",
+    "volume_of_distribution": "Quin 0.45, dalf 0.24 (L/kg, Vss)",
+    "avg_serum_t1_2": "Quin 0.85, dalf 0.7",
+    "elimination": "Biliary",
+    "auc": "Quin 7.2, dalf 10.6 (7.5 mg/kg IV q8h, 0-24 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_inhibited": [
+      "Quinupristin: CYP3A4",
+      "Dalfopristin: CYP3A4"
+    ],
+    "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Calcium channel blockers",
+      "effect": "↑ calcium channel blocker",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Carbamazepine",
+      "effect": "↑ carbamazepine",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ cyclosporine",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Diazepam",
+      "effect": "↑ diazepam",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Docetaxel",
+      "effect": "↑ docetaxel",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Lidocaine",
+      "effect": "↑ lidocaine",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Methylprednisolone",
+      "effect": "↑ methylprednisolone",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Midazolam",
+      "effect": "↑ midazolam",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Paclitaxel",
+      "effect": "↑ paclitaxel",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Statins metabolized by CYP3A4",
+      "effect": "↑ statin",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Tacrolimus",
+      "effect": "↑ tacrolimus",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Vincristine",
+      "effect": "↑ vincristine",
+      "management": "Avoid co-administration"
+    }
+  ],
+  "comments": [
+    "Previous approval had included serious infections due to vancomycin-resistant isolates of Enterococcus faecium at a dose of 7.5 mg/kg q8h by central line.",
+    "General reference, Clin Infect Dis 36:473, 2003.",
+    "Pristinamycin is a closely-related member of the streptogramin group of antibiotics with activity against Staph. aureus (including MRSA) and streptococcal species:",
+    "Available in some European countries; not available in the US.",
+    "Mixture of two components with a synergistic antibacterial activity.",
+    "Usual dose is 2-4 gm po/day in divided doses.",
+    "No available parenteral preparation."
+  ]
+}

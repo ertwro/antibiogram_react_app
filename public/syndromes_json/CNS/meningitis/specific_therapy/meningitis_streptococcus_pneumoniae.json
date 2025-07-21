@@ -1,0 +1,63 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Streptococcus pneumoniae",
+    "sourceFile": "Meningitis, Streptococcus pneumoniae.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Streptococcus pneumoniae"
+    },
+    {
+      "type": "paragraph",
+      "text": "Streptococcus pneumoniae is the most common cause of bacterial meningitis in adults. Treatment depends on penicillin susceptibility."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Penicillin-susceptible (MIC <= 0.06 mcg/mL)",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "4 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Penicillin-resistant (MIC >= 0.12 mcg/mL)",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        }
+      }
+    }
+  ]
+}

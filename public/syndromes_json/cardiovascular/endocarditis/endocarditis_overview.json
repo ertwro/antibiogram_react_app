@@ -1,0 +1,64 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Overview",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Endocarditis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Endocarditis diagnostic criteria include (see 2023 Duke-International Society for Cardiovascular Infectious Diseases Criteria for complete list):",
+        "Echocardiographic evidence of valvular vegetation, valve/leaflet perforation, fistula, aneurysm, or abscess; significant, new valvular regurgitation",
+        "TEE (trans-esophageal) more sensitive than TTE (trans-thoracic)",
+        "Positive cardiac CT or PET-CT now included as a major criterion imaging modality",
+        "Two or more separate positive blood cultures for organisms that commonly cause endocarditis",
+        "Positive polymerase chain reaction or other nucleic acid-based technique for Coxiella burnetii, Bartonella species, or Tropheryma whipplei, postive serology for Bartonella henselae or Bartonella quintana with immunoglobulin G (IgG) titer \u22651:800 now major microbiologic criteria",
+        "Definite emboli; microembolic/immunologic phenomena",
+        "Updated modified Duke criteria: Clin Infect Dis 2023; 77:518",
+        "Review articles: N Engl J Med. 2020;383:567; JAMA 320:72, 2018.",
+        "Refs.: European Heart J 30:2369, 2009 (European Society Guidelines); Circulation 132:1435, 2015 (AHA Treatment Guidelines)",
+        "For surgical management of endocarditis, see Ann Thorac Surg 9:2012, 2011; N Engl J Med 368:1425, 2013; and Clin Infect Dis 60:741, 2015.",
+        "One randomized controlled trial found that early surgery significantly decreases risk of systemic embolization in patients with left-sided infective endocarditis and vegetations >10 mm in size (N Engl J Med 366:2466, 2012)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy",
+        "Native valve, empiric therapy",
+        "Prosthetic valve, empiric therapy",
+        "Specific therapy",
+        "Aspergillus",
+        "Bartonella",
+        "Candida",
+        "Cardiac implantable electronic device",
+        "Chlamydial",
+        "Coagulase-negative staphylococci (prosthetic valve)",
+        "Culture-negative",
+        "Enterococci",
+        "Gonococcal",
+        "Gram-negative bacilli",
+        "HACEK",
+        "Legionella",
+        "Nutritionally variant Gram-positive species",
+        "Q fever",
+        "Staph. aureus",
+        "Streptococci",
+        "Transcatheter valve replacement",
+        "Tropheryma whipplei",
+        "Dental procedures, Prevention"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "drug_name": "Macrolides, Overview",
+  "overview": {
+    "general": [
+      "See individual drugs for clinical use: Azithromycin, Clarithromycin, Erythromycin, Fidaxomicin",
+      "Adverse effects applicable to all macrolide antibiotics: GI distress, QTc prolongation, drug-drug interactions, tinnitus, and drug-induced hepatitis."
+    ],
+    "gi_distress": {
+        "motilin": "Motilin is a gastric hormone that activates duodenal/jejunal receptors to initiate peristalsis.",
+        "erythromycin": "Erythromycin and its esters, both po and IV, activate motilin receptors and cause uncoordinated peristalsis with resultant 20–25% incidence of anorexia, nausea or vomiting. No convincing beneficial prokinetic effect of macrolides in critically ill patients (Expert Opin Pharmacother 2013;14:1171; European J of Pharmacology 2013;715:10)",
+        "less_binding": "Less binding to motilin receptors and less GI distress with Azithromycin, Clarithromycin."
+    }
+  },
+  "adverse_effects": {
+    "pregnancy_risk": "Pregnancy risk (BMJ 2020;368:m331). Macrolides in first trimester: Associated with increased risk of malformation, specifically cardiovascular malformations as compared with penicillin antibiotics. Macrolides in any trimester associated with an increased risk of genital malformations",
+    "pyloric_stenosis": "Systemic Erythromycin in 1st 2 weeks of life is associated with infantile hypertrophic pyloric stenosis (J Ped 139:380, 2001). A retrospective study suggests an association with Azithromycin use as well (Pediatrics 135: 483, 2015)",
+    "qtc_prolongation": {
+        "general": "Prolonged EKG QTc interval with Azithromycin, Clarithromycin, and Erythromycin. List of drugs with potential for QTc prolongation.",
+        "congenital_or_acquired": "Prolonged QTc may be congenital or acquired.",
+        "congenital_prolongation": "Congenital prolongation of the QTc can occur as a result of mutations in the 6 genes (LQT 1–3) that determine the cardiac K+/Na+ channels.",
+        "variable_penetrance": "Variable penetrance with result that some patients have no symptoms, some suffer repeated syncope, and rarely sudden death can occur (N Engl J Med 358:169, 2008).",
+        "increased_risk": "Increased risk in males with QTc > 470 ms; in females if > 480 ms, and in either sex if QTc >500 msec!",
+        "risk_amplification": "Risk is amplified by other drugs [macrolides, azoles, antiarrhythmics and many other drugs. Prolongation of the QT can lead to torsades de pointes (ventricular tachycardia) and/or evolve into ventricular fibrillation. Ref.: Clin Infect Dis 43:1603, 2006. Risk greater in older age, female, pre-existing heart disease, electrolyte imbalance. Ref: J Clin Med. 2018 Dec; 7(12): 533.",
+        "azithromycin_cvd_risk": "In retrospective study, 5 days of Azithromycin increased the risk of cardiovascular death (hazard ratio 2.88, p 0.001); compared to Amoxicillin, estimated 47 additional cardiovascular deaths per 1 million courses of therapy (N Engl J Med 366:1881, 2012).",
+        "caution": "Hence, use caution in use of macrolide antibiotics in patients with history of unexplained syncope, family history of unexplained sudden cardiac death, known electrolyte abnormalities, or the need for concomitant administration of other drugs known to potentially prolong the QTc.",
+        "hospitalized_patients": "In hospitalized patients, reasonable to check the QTc before administering a macrolide, fluoroquinolone, or azole antifungal.",
+        "review": "Review of QTc issue; balance of risk vs benefit: Am J Med 128:1362, 2015"
+    },
+    "cholestatic_hepatitis": "Cholestatic hepatitis in approx. 1:1000 adults (not children) given Erythromycin estolate. Risk is similar with Clarithromycin and much lower with Azithromycin; Ref.: J Antimicrob Chemother 66:1431, 2011.",
+    "tinnitus_or_deafness": "Transient reversible tinnitus or deafness with ≥4 gm/day of Erythromycin IV in patients with renal or hepatic impairment. Reported with ≥600 mg/day of azithromycin (Clin Infect Dis 24:76, 1997). Reviews of macrolide ototoxicity: Front Neurol 2021;12:652674; J Antimicrob Chemother 2021; 76:2708.",
+    "myasthenia_gravis": "Azithromycin reported to exacerbate symptoms of myasthenia gravis."
+  },
+  "specific_agents": [
+    "Azithromycin",
+    "Clarithromycin",
+    "Erythromycin",
+    "Fidaxomicin"
+  ]
+}

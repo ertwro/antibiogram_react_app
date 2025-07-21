@@ -1,0 +1,40 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Post-Trauma or Post-Neurosurgery",
+    "sourceFile": "Meningitis, Post-Trauma or Post-Neurosurgery.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Post-Trauma or Post-Neurosurgery"
+    },
+    {
+      "type": "paragraph",
+      "text": "Post-traumatic or post-neurosurgical meningitis is often caused by skin flora or nosocomial pathogens. Empiric therapy should provide broad coverage."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ]
+      }
+    }
+  ]
+}

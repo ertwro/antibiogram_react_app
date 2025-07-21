@@ -1,0 +1,147 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Spinal Implant",
+    "lastUpdated": "2024-03-27",
+    "sourceFile": "Osteomyelitis, Spinal Implant.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Spinal implant associated osteomyelitis.",
+        "Early onset: within 30 days of hardware implantation.",
+        "Late onset: more than 30 days of hardware implantation.",
+        "Staph. aureus and coagulase-negative staphylococci account for most infections."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Early onset (most common)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Staphylococcus aureus",
+            "Coagulase-negative staphylococci",
+            "Gram negative bacilli: enterics and Pseudomonas aeruginosa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Late onset (most common)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Coagulase-negative staphylococci",
+            "Cutibacterium (Propionibacterium) acnes",
+            "Staphylococcus aureus"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Early onset: treat based on culture and susceptibility results (success ~90% with debridement, hardware retention, and a 3-month course of therapy as outlined below)",
+        "Late onset, debrided and hardware removed: same regimens as below but for total duration of 6 to 8 weeks once hardware is removed. May need external brace for stability.",
+        "Late onset, hardware retained: same regimens as below, consider oral suppressive therapy until there is bony fusion and hardware can be removed."
+      ]
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Condition", "Regimen"],
+        "rows": [
+          [
+            "MSSA/MSSE",
+            "[(Nafcillin 2 gm IV q4h or Oxacillin 2 gm IV q4h IV) + Rifampin 300 mg po bid] OR (Cefazolin 2 gm IV q8h + Rifampin 300 mg po bid) x 2 weeks followed by [(Ciprofloxacin 750 mg po bid OR Levofloxacin 750 mg po q24h) + Rifampin 300 mg po bid] x 10 weeks. Confirm that isolate is susceptible to fluoroquinolones and rifampin in vitro (see comments)."
+          ],
+          [
+            "MRSA/MRSE",
+            "(Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr [see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL]+ Rifampin 300 mg po bid) x 2 weeks followed by [(Ciprofloxacin 750 mg po bid OR Levofloxacin 750 mg po q24h) + Rifampin 300 mg po bid] x 10 weeks. Confirm that isolate is susceptible to fluoroquinolones and rifampin in vitro (see comments)."
+          ],
+          [
+            "Streptococci (Groups A, B, C, D, viridans, other)",
+            "Penicillin G 20 million units IV continuous infusion q24h or in 6 divided doses OR Ceftriaxone 2 gm IV q24h x 2 weeks followed by Amoxicillin 2 gm po bid x 10 weeks"
+          ],
+          [
+            "Enterococcus spp.",
+            "Pen-susceptible: Ampicillin 12 gm IV OR Penicillin G 20 million units IV continuous infusion q24h or in 6 divided doses x 2 weeks followed by Amoxicillin 2 gm po bid x 10 weeks"
+          ],
+          [
+            "Cutibacterium (Propionibacterium) acnes",
+            "Penicillin G 20 million units IV continuous infusion or in 6 divided doses OR Ceftriaxone 2 gm IV q24h followed by Amoxicillin 2 gm po bid x 10 weeks"
+          ],
+          [
+            "Gram-negative enteric bacilli",
+            "Ertapenem 1 gm q24h IV OR other beta-lactam (e.g., Ceftriaxone 2 gm IV q24h OR Cefepime 2 gm IV q12h, based on susceptibility) x 2 weeks followed by Ciprofloxacin 750 mg po bid OR Levofloxacin 750 mg po q24h x 10 weeks"
+          ],
+          [
+            "P. aeruginosa (see comments)",
+            "Cefepime 2 gm IV q12h OR Meropenem 1 gm IV q8h + Tobramycin 5.1 mg/kg once daily IV x 2 weeks followed by Ciprofloxacin 750 mg po bid OR Levofloxacin 750 mg po q24h x 10 weeks"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Based on results of antimicrobial susceptibility testing.",
+        "Select alternative oral agents based on in vitro activity and good oral bioavailability"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Avoid empiric therapy: cultures should be obtained prior to institution of antimicrobial therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cultures may need to be held for up to 14 days with blind subculture to enhance recovery of P. acnes.",
+        "If hardware is removed after a course of suppressive therapy, antimicrobial should be discontinued at least 2 weeks prior to surgery to enhance yield of intraoperative cultures, which should be obtained. If those are positive, the retreat for 6-8 weeks.",
+        "See Clin Infect Dis 55:1481, 2012 for further details of 3 month therapy for early onset infection."
+      ]
+    }
+  ]
+}

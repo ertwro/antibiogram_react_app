@@ -1,0 +1,247 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Bartonella sp.",
+      "lastUpdated": "2024-04-24",
+      "clsiCategory": "additional_bacteria",
+      "classification": {
+        "gramStain": "Gram negative",
+        "morphology": "bacilli",
+        "notes": [
+          "Slow growing fastidious gram-negative bacteria"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Bartonella henselae",
+          "notes": "Cat scratch disease"
+        },
+        {
+          "type": "Species",
+          "value": "Bartonella quintana",
+          "notes": "Trench Fever"
+        },
+        {
+          "type": "Species",
+          "value": "Bartonella bacilliformis",
+          "notes": "Carrion's disease"
+        }
+      ],
+      "biochemicalTests": "Gram-negative, slightly curved rod, fastidious, requires prolonged incubation (weeks) on enriched blood agar in CO2. Oxidase –, catalase –. Diagnosis is often by serology or PCR."
+    },
+    "clinicalProfile": {
+      "summary": "Slow growing fastidious gram-negative bacteria that cause a variety of human infections.",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Regional lymphadenitis",
+          "description": "Caused by Bartonella henselae"
+        },
+        {
+          "syndromeName": "Ocular disease",
+          "description": "Caused by Bartonella henselae"
+        },
+        {
+          "syndromeName": "Encephalitis",
+          "description": "Caused by Bartonella henselae"
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": "Rarely caused by Bartonella henselae, also associated with Bartonella quintana (culture negative)"
+        },
+        {
+          "syndromeName": "Fever",
+          "description": "Caused by Bartonella quintana"
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Caused by Bartonella quintana and Bartonella bacilliformis"
+        },
+        {
+          "syndromeName": "Vascular skin papules/nodules",
+          "description": "Late phase of Carrion's disease (Bartonella bacilliformis)"
+        }
+      ],
+      "stagesOfIllness": [
+        {
+          "stageName": "Carrion's disease (Bartonella bacilliformis)",
+          "duration": "Early",
+          "details": "bacteremia and hemolysis"
+        },
+        {
+          "stageName": "Carrion's disease (Bartonella bacilliformis)",
+          "duration": "Late",
+          "details": "Vascular skin papules/nodules"
+        }
+      ],
+      "transmissionVectors": [
+        "Fleas (cat) - Bartonella henselae",
+        "Body lice - Bartonella quintana",
+        "Nocturnal sand flies (Ecuador and Peru) - Bartonella bacilliformis"
+      ],
+      "prognosisNotes": [
+        "Manifestations vary with immune status of the host"
+      ]
+    },
+    "laboratoryProfile": {
+      "methodologyNotes": [
+        "Hold cultures for 21 days."
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Varies with clinical syndrome (see specific topic)"
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "laboratoryProfile",
+      "treatment"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.362Z",
+    "sourceFormat": "mixed"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "mixed"
+      },
+      "standardizedRegimens": [],
+      "preservedData": {
+        "identity": {
+          "bacteriumName": "Bartonella sp.",
+          "lastUpdated": "2024-04-24",
+          "clsiCategory": "additional_bacteria",
+          "classification": {
+            "gramStain": "Gram negative",
+            "morphology": "bacilli",
+            "notes": [
+              "Slow growing fastidious gram-negative bacteria"
+            ]
+          },
+          "strainDetails": [
+            {
+              "type": "Species",
+              "value": "Bartonella henselae",
+              "notes": "Cat scratch disease"
+            },
+            {
+              "type": "Species",
+              "value": "Bartonella quintana",
+              "notes": "Trench Fever"
+            },
+            {
+              "type": "Species",
+              "value": "Bartonella bacilliformis",
+              "notes": "Carrion's disease"
+            }
+          ],
+          "biochemicalTests": "Gram-negative, slightly curved rod, fastidious, requires prolonged incubation (weeks) on enriched blood agar in CO2. Oxidase –, catalase –. Diagnosis is often by serology or PCR."
+        },
+        "clinicalProfile": {
+          "summary": "Slow growing fastidious gram-negative bacteria that cause a variety of human infections.",
+          "clinicalSyndromes": [
+            {
+              "syndromeName": "Regional lymphadenitis",
+              "description": "Caused by Bartonella henselae"
+            },
+            {
+              "syndromeName": "Ocular disease",
+              "description": "Caused by Bartonella henselae"
+            },
+            {
+              "syndromeName": "Encephalitis",
+              "description": "Caused by Bartonella henselae"
+            },
+            {
+              "syndromeName": "Endocarditis",
+              "description": "Rarely caused by Bartonella henselae, also associated with Bartonella quintana (culture negative)"
+            },
+            {
+              "syndromeName": "Fever",
+              "description": "Caused by Bartonella quintana"
+            },
+            {
+              "syndromeName": "Bacteremia",
+              "description": "Caused by Bartonella quintana and Bartonella bacilliformis"
+            },
+            {
+              "syndromeName": "Vascular skin papules/nodules",
+              "description": "Late phase of Carrion's disease (Bartonella bacilliformis)"
+            }
+          ],
+          "stagesOfIllness": [
+            {
+              "stageName": "Carrion's disease (Bartonella bacilliformis)",
+              "duration": "Early",
+              "details": "bacteremia and hemolysis"
+            },
+            {
+              "stageName": "Carrion's disease (Bartonella bacilliformis)",
+              "duration": "Late",
+              "details": "Vascular skin papules/nodules"
+            }
+          ],
+          "transmissionVectors": [
+            "Fleas (cat) - Bartonella henselae",
+            "Body lice - Bartonella quintana",
+            "Nocturnal sand flies (Ecuador and Peru) - Bartonella bacilliformis"
+          ],
+          "prognosisNotes": [
+            "Manifestations vary with immune status of the host"
+          ]
+        },
+        "laboratoryProfile": {
+          "methodologyNotes": [
+            "Hold cultures for 21 days."
+          ]
+        },
+        "treatment": {
+          "generalNotes": [
+            "Varies with clinical syndrome (see specific topic)"
+          ]
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

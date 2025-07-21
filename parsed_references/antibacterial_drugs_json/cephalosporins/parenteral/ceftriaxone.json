@@ -1,0 +1,106 @@
+{
+  "drug_name": "Ceftriaxone",
+  "tradename": "Rocephin",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftriaxone is a 3rd generation parenteral cephalosporin with activity against many aerobic gram-negative bacilli and, in addition, Strep. pneumoniae, N. meningitidis, and MSSA.",
+      "Notable lack of activity against Listeria spp., enterococci, MRSA, P. aeruginosa and B. fragilis.",
+      "Ceftriaxone is susceptible to inactivation by extended spectrum beta-lactamases (ESBLs) and chromosomal induced cephalosporinases.",
+      "Ceftriaxone susceptibility is a reasonable proxy for susceptibility to the advanced-generation oral cephalosporins cefuroxime, cefdinir, cefpodoxime, and cefixime, particularly for common Enterobacterales species at low risk for AmpC production such as E. coli, K. pneumoniae, K. oxytoca, and P. mirabilis (Antimicrob Agents Chemother 2025;69:e0138724).",
+      "In a pilot study: 2 gm once daily by continuous infusion was superior to 2 gm bolus once daily (J Antimicrob Chemother 2007;59:285).",
+      "Desensitization: See Ceftriaxone Desensitization page."
+    ],
+    "adult_dose": {
+      "usual_dose": "1-2 gm IV q24h",
+      "other_dosing": "Meningitis, Overview, Gonorrhea, Overview"
+    },
+    "pediatric_dose": {
+      "standard": "50-100 mg/kg q24h",
+      "meningitis": "50 mg/kg q12h",
+      "meningococcal_proph_age_lt_15": "125 mg IM x1"
+    }
+  },
+  "renal_adjustment": {
+    "note": "In patients with significant renal and liver disease, limit dosage to 2 gm daily.",
+    "half_life_normal": "8",
+    "half_life_esrd": "Unchanged",
+    "dose_renal_function_normal": "1-2 gm IV q12-24h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "Limit dosage to 2 gm/day in patients with concomitant hepatic and renal dysfunction.",
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments page.",
+    "ECMO: See ECMO Drug Dosing Adjustment page."
+  ],
+  "adverse_effects": [
+    "For class-wide adverse effects, see Cephalosporins, Overview.",
+    "Pseudocholelithiasis secondary to sludge in gallbladder by ultrasound (50%), symptomatic (9%) (N Engl J Med 322:1821, 1990). More likely with Ceftriaxone ≥2 gm/day and with patient on total parenteral nutrition and not eating (Ann Intern Med 115:712, 1991). Clinical significance still unclear but has led to cholecystectomy (J Infect Dis 171:356, 1995) and gallstone pancreatitis (Ped Infect Dis J 17:662, 1998). Urinary precipitates, which may be detected on renal ultrasound and which may be asymptomatic or associated with signs and symptoms of urolithiasis, reported particularly in children; reversible on discontinuation of the drug which is recommended if these occur.",
+    "Local phlebitis (2%), fever (rare), rash (2%), neutropenia (2%), eosinophilia (6%), increased PT/PTT, nausea/vomiting (rare), diarrhea (3%), increased BUN/Creatinine (1%), headache (rare).",
+    "Ceftriaxone has the same R1 side chain as cefotaxime, cefpodoxime, cefpirome, cefditoren, ceftizoxime, and cefepime. Cross-allergenicity may occur. See Drug Allergy: Penicillins, Cephalosporins, Overview.",
+    "Drug-induced immune thrombocytopenia (J Thrombosis & Haemostasis 2012,11:169)",
+    "Patients on ceftriaxone plus lansoprazole had 12 ms longer QTc intervals than patients exposed to either drug alone, and were 1.4x as likely to have a QTc interval >500 ms (J Amer Coll Cardiol 2016;68:1756). In a retrospective cohort study, the combination was associated with increased risk of ventricular arrhythmia, cardiac arrest, and mortality compared to ceftriaxone plus other PPIs (JAMA Netw Open 2023;6:e2339893)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals. Use with caution at term due to risk of kernicterus in the newborn.",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Borrelia burgdorferi",
+        "Escherichia coli, susceptible",
+        "Haemophilus ducreyi",
+        "Haemophilus influenzae",
+        "K. oxytoca, Susceptible strains",
+        "Kingella sp.",
+        "Leptospira sp.",
+        "Morganella morganii",
+        "Neisseria meningitidis",
+        "Susceptible strains. K. pneumoniae, K. variicola",
+        "Viridans group streptococci",
+        "Yersinia enterocolitica"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "150 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "995 (1 gm IV, SD)",
+    "protein_binding_percent": "85-95",
+    "volume_of_distribution_vd_l": "5.8-13.5 L",
+    "avg_serum_half_life_hr": "8",
+    "elimination": "Renal, biliary",
+    "bile_penetration_percent": "200-500",
+    "csf_blood_percent": "8-16",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "1006 (1 gm IV, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Calcium-containing IV solutions",
+          "effect": "Precip of ceftriaxone-calcium if mixed in same IV line",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Lansoprazole",
+          "effect": "↑ risk of QTc interval prolongation",
+          "management": "Avoid co-administration"
+      }
+  ],
+  "comments": [
+      "Only free non-protein bound drug is active. In critically ill patients, the protein binding of Ceftriaxone was substantively less than predicted: Antimicrob Agents Chemother 57:6165, 2013."
+  ]
+}

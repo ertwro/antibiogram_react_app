@@ -1,0 +1,227 @@
+{
+  "documentMetadata": {
+    "title": "Relapsing Fever",
+    "sourceFile": "Relapsing Fever.pdf",
+    "lastUpdated": "2024-09-16"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Relapsing Fever is caused by Borrelia spirochetes that are spread by arthropods. There are two forms of relapsing fever: Louse-borne and Tick-borne.",
+        "Louse-borne relapsing fever is caused by the spirochete B. recurrentis; the vector is the body louse Pediculus humanus and humans are the only reservoir.",
+        "Tick-borne relapsing fever is caused by 8 or more species of Borrelia:",
+        "North America",
+        "B. hermsii (mountains of the US west)",
+        "B miyamotoii (northeastern and northern midwest of US)",
+        "B. tunicatel (southwestern and south central US)",
+        "Africa: B. hispanica, B. crocidurae, B. duttonii",
+        "Russia: B. miyamotoi (See Comment)",
+        "The reservoir/vector of most tick-borne relapsing fever are soft-bodied ticks that remain close to the habitats of animals and/or humans. B. miyamotoii is transmitted by Ixodes ticks.",
+        "Fever, headache, myalgia and/or arthralgia occur after exposure to infected Ornithodoros tick.",
+        "Rarely: acute respiratory distress syndrome (ARDS), liver dysfunction, encephalopathy.",
+        "In pregnancy:",
+        "More severe and more prolonged illness",
+        "Associated with increased risk of abortion and stillbirths",
+        "Can relapse up to 10 times."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Examine stained peripheral blood smear during fever for presence of spirochetes.",
+        "If negative, a more sensitive blood PCR is available"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "North America: Borrelia hermsii, Borrelia turicata (Image is the tick vector of Borrelia turicata: O. turicatae)",
+        "Africa:",
+        "Borrelia hispanica",
+        "Borrelia crocidurae",
+        "Borrelia duttonii (O. moubata)(image above)",
+        "Russia: Borrelia miyamotoi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "For Louse-borne"
+        },
+        "components": [
+          {
+            "drug": "Tetracycline",
+            "dose": "500 mg",
+            "route": "po/IV",
+            "frequency": "x one dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For Tick-borne:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Aqueous Penicillin G",
+                "dose": "5 million units",
+                "route": "IV",
+                "frequency": "q6h x 7-10 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Adult"
+            },
+            "components": [
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po/IV",
+                "frequency": "bid x 7-10 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": {
+              "description": "Child"
+            },
+            "components": [
+              {
+                "drug": "Doxycyline",
+                "dose": "4.4 mg/kg/day",
+                "frequency": "divided bid (max 200 mg /day)"
+              }
+            ],
+            "notes": "(See Comments)"
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prophylaxis, see Comments"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "For Louse-borne"
+        },
+        "components": [
+          {
+            "drug": "Erythromycin",
+            "dose": "500 mg",
+            "route": "po/IV",
+            "frequency": "x one dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "For Tick-borne"
+        },
+        "components": [
+          {
+            "drug": "Erythromycin",
+            "dose": "500 mg",
+            "route": "po/IV",
+            "frequency": "qid x 7-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Note relative resistance of Borrelia species to aminoglycosides, fluoroquinolones, and sulfonamides"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There is reported in vitro susceptibility to doxycycline, azithromycin, and ceftriaxone but resistance of B. miyamotoi to Amoxicillin (Antimicrob Agts Chemother 2018; 62:e00419-18 and Antimicrob Agts and Chemother. 2017; 61: e00535-17)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doxycycline can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015).",
+        "Note: Jarisch-Herxheimer reaction (fever, increased pulse, increased respiration, decreased blood pressure) may occur within the first 1-4 hours after the first dose of an effective antibiotic.",
+        "Not prevented by prior steroids.",
+        "Prophylaxis: Post-exposure Doxycycline pre-emptive therapy is highly effective, N Engl J Med 355:148, 2006; up to 72 hrs after exposure, Clin Infect Dis 2020; 71:1768",
+        "Borrelia miyamotoi.",
+        "First identified in Japan, prevalent in Russia; Increasing incidence in the U.S Northeast and northern Midwest",
+        "Clinically non-specific: fever, headache, and thrombocytopenia common. A few \"relapses\" can occur.",
+        "Diagnosis: reference lab serum PCR.",
+        "Susceptible to doxycycline, azithromycin and ceftriaxone (Ann Intern Med 163: 91, 2015; Ann Intern Med 163:141, 2015).",
+        "References: Am J Medicine 2019; 132:130. Pathogens Apr 3,12(4):553,2025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "documentMetadata": {
+        "title": "Mastitis, Non-Puerperal",
+        "sourceFile": "Mastitis, Non-Puerperal.pdf",
+        "lastUpdated": "2024-09-16"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Non-puerperal mastitis is uncommon in non-lactating women.",
+                "Inflammatory breast cancer can mimic non-puerperal mastitis.",
+                "Mycobacterium tuberculosis a consideration in chronic infections.",
+                "Granulomatous mastitis (Breast J. 2024 Jan 25:2024:6693720) is an idiopathic inflammatory disease that can mimic inflammatory breast cancer or infection."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Staph. aureus",
+                "Bacteroides sp. (less often)",
+                "Peptoniphilus sp. (formerly Peptostreptococcus)",
+                "Coagulase-negative staphylococci (selected)",
+                "Corynebacterium sp. (rare)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "If MRSA is not present:",
+                "Outpatient: Dicloxacillin 500 mg po qid or Cephalexin 500 mg po qid",
+                "Inpatient: Nafcillin 2 gm IV q4h or Oxacillin 2 gm IV q4h",
+                "If MRSA is present or possible:",
+                "Outpatient: TMP-SMX-DS 1-2 tabs po bid or, if susceptible, Clindamycin 300 mg po qid",
+                "Inpatient: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 \u00b5g/mL)",
+                "If subareolar & odoriferous, most likely anaerobes; add Metronidazole 500 mg IV/po tid"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "For granulomatous mastitis due to Corynebacterium species: Doxycycline 100 mg po bid for 3-4 weeks"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Rarely a chronic mastitis can occur due to a Corynebacterium species. Distinctive granulomatous inflammation. Beta-lactams fail despite in vitro activity (J Clin Micro 53:2895, 2015; Clin Infect Dis 59:410, 2014; Clin Infect Dis 74:1494, 2022).",
+                "Consider inflammatory carcinoma in older women without clear abscess, especially if microcalcification, or a breast mass is detected radiographically.",
+                "Drainage, either by ultrasound guided needle aspiration or surgical, indicated for abscess (Radiographics 31:1683, 2011)."
+            ]
+        }
+    ]
+}

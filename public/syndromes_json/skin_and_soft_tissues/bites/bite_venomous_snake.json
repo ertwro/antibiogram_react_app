@@ -1,0 +1,80 @@
+{
+    "documentMetadata": {
+        "title": "Bite Venomous Snake",
+        "sourceFile": "Bite_ Venomous Snake.pdf",
+        "lastUpdated": "2022-01-21"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Bite wound from venomous snake (pit viper).",
+                "Antivenom is the primary therapy for the bite itself.",
+                "Obtain culture."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Enterobacteriaceae",
+                "Pseudomonas sp.",
+                "Staphylococcus epidermidis",
+                "Clostridium sp.",
+                "See comment for more potential pathogens"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Antivenom",
+                "Antibiotic:",
+                "In the past, Amoxicillin-clavulanate + Ciprofloxacin was recommended as prophylactic antibiotic therapy",
+                "In an analysis of 2748 rattlesnake bites, prophylactic antibiotics were given to 120 patients. The overall infection rate was 27 (0.98%) over 18 yrs. Not clear how many had received prophylactic antibiotics but the low rate is impressive (Am J Med. 2018;131:1367). Reviewers concluded that prophylactic antibiotics are not warranted given low rate of infection.",
+                "Piperacillin-tazobactam for empiric therapy of infected wound"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Adjust above regimens based on culture results"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Anti-tetanus prophylaxis is indicated.",
+                "Reference on clinical management of venomous bites, Clin Infect Dis 43:1309, 2006.",
+                "Snake bites in North America, Emerg Med Clin North Amer 35: 339, 2017.",
+                "Marine snakes, Emerg Med Clin No Amer 35: 321, 2018.",
+                "General Reference, N Engl J Med 2022;386:68",
+                "Approximately two-thirds of infected cobra bites contained enteric bacteria, approx one-quarter had coagulase-negative staphylococci or enterococci; uncommonly peptostreptococcus (now Peptoniphilus spp) or B fragilis (J Microbiol Immunol Infect 44: 456, 2011).",
+                "Other organisms including Shewanella spp (Int J Infect Dis 20:11, 2014), Mycobacterium spp., or Bacillus spp. have been identified from infected snake bites."
+            ]
+        }
+    ]
+}

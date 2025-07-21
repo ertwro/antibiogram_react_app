@@ -1,0 +1,40 @@
+
+{
+  "documentMetadata": {
+    "title": "M. tuberculosis, Overview",
+    "lastUpdated": "2024-05-24",
+    "sourceFile": "M. tuberculosis, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Topics Links"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Diagnosis",
+        "Diagnostic testing (TST and newer diagnostic tests)",
+        "Prophylaxis",
+        "Exposure, negative TST (post-exposure prophylaxis of household members and close contacts)",
+        "Treatment",
+        "Latent infection, high-risk groups/factors",
+        "Latent infection, positive TST",
+        "Pulmonary",
+        "Susceptible organism",
+        "Mono-resistant organism",
+        "Multi-resistant (MDR-TB)",
+        "Extensively-resistant (XDR-TB)",
+        "Extrapulmonary",
+        "Tuberculosis of bone or joint",
+        "Tuberculous meningitis",
+        "Pregnancy considerations",
+        "Treatment failure, relapse",
+        "HIV/AIDS",
+        "Prevention",
+        "See BCG, Vaccine for indications, available products, dosing, and vaccine characteristics for pre-exposure prevention."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "documentMetadata": {
+    "title": "Yaws",
+    "lastUpdated": "2020-11-30",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Yaws.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Yaws is a chronic bacterial infection of primarily the skin caused by Treponema pallidum subspecies pertenue. The organism is closely related to Treponema pallidum subspecies pallidum, the etiology of syphilis, and shares similar biologic properties. However, Yaws is not a venereal disease (New Engl J Med 372: 693, 2015).",
+        "Yaws is acquired by direct contact; the inoculation site is often a site of mild skin trauma (abrasion, laceration, insect bite).",
+        "Yaws is a disease of developing nations of sub-Saharan Africa, SE Asia and the Pacific Islands (Lancet Glob Health 3: e324, 2015).",
+        "The majority of cases are in children.",
+        "Primary Yaws is a skin nodule that proceeds to ulceration and then spontaneously heals over several months; regional adenopathy may occur.",
+        "Secondary lesions can occur as a consequence of haematogenous dissemination primarily to the skin and less often to cartilage or bone. Spontaneously healing occurs and the organism enters a latent state.",
+        "Only 10% of patients develop late lesions manifest as hyperkeratotic plaques that can erode and destroy skin, cartilage, or bone much like the gummas of tertiary syphilis.",
+        "Diagnosis: Darkfield examination or fluorescent microscopy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum, subspecies pertenue"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Benzathine Penicillin G (Bicillin L-A)"
+          }
+        ],
+        "appliesTo": {
+          "description": "Age < 10 years: 600,000 units IM in a single dose. Age \u2265 10 years: 1,200,000 units IM in a single dose"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "30 mg/kg (maximum 2 gm)",
+            "route": "po",
+            "frequency": "x one dose"
+          }
+        ],
+        "notes": "see Comment"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penicillin V-K",
+            "dose": "12.5 mg/kg (max. 300 mg)",
+            "route": "po",
+            "frequency": "q6h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-10 days"
+        },
+        "notes": "compliance a problem"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Age > 8 years"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "15 days"
+        },
+        "notes": "compliance a problem"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Some experts recommend higher dose Benzathine Penicillin G: age < 10 years: 1,200,000 units IM in a single dose, age \u2265 10 years: 2,400,000 based on observed success rates",
+        "RPR/VDRL titers elevated in untreated and fall with successful treatment.",
+        "Reference: Clin Infect Dis 55:406, 2012.",
+        "In an endemic area, a single oral dose of Azithromycin decreased the prevalence of active infectious yaws from 2.4% to 0.3% (New Engl J Med 372: 703, 2015)."
+      ]
+    }
+  ]
+}

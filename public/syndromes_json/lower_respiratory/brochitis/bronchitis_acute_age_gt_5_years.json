@@ -1,0 +1,87 @@
+
+{
+  "documentMetadata": {
+    "title": "Bronchitis, Acute, Age > 5 years",
+    "lastUpdated": "2024-05-28",
+    "sourceFile": "Bronchitis, Acute, Age > 5 years.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute bronchitis in adolescents and adults is defined as self-limited inflammation of the upper airways due to infection or irritants. It should be differentiated from small airway disease by the presence of airway obstruction.",
+        "Pertussis should be considered in all patients with prolonged cough.",
+        "Purulent sputum alone is not an indication for antibiotic therapy.",
+        "Patients should be counseled that cough may persist for 2-3 weeks.",
+        "If fever/rigors, get chest x-ray. See also, Mycoplasma pneumonia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viral (usually)",
+        "M. pneumoniae (5%)",
+        "C. pneumoniae (5%)",
+        "Bordetella pertussis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics are minimally effective and are not indicated",
+        "Pertussis is the exception",
+        "Antitussive (limited evidence) ± inhaled bronchodilators",
+        "Inhaled corticosteroids are sometimes used but efficacy has not been systematically evaluated"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotics are not useful for acute bronchitis in patients without COPD.",
+        "Antibiotic use for acute bronchitis is one of the most common inappropriate uses of antibiotics. Reducing antibiotics in acute bronchitis is an excellent target for stewardship and quality improvement activities."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "References, N Engl J Med 355:2125, 2006 and JAMA 312:2678, 2014."
+      ]
+    }
+  ]
+}

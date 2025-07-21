@@ -1,0 +1,91 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from pig or other swine",
+    "sourceFile": "Bite_ Pig, Swine.pdf",
+    "lastUpdated": "2025-01-23"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bite wound from pig or other swine."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Polymicrobic:",
+        "Gram positive cocci",
+        "Gram negative bacilli",
+        "Anaerobes",
+        "Pasteurella sp.",
+        "Actinobacillus suis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Parenteral Cephalosporin (3rd Gen)"
+          },
+          {
+            "connector": "or",
+            "drug": "Ampicillin-sulbactam"
+          },
+          {
+            "connector": "or",
+            "drug": "Imipenem-cilastatin"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "Information on swine bites is limited but infection is common and serious, Lancet 348:888, 1996.",
+        "Pigs may be colonized with MRSA (Clin Microbiol Rev 24: 231, 2011).",
+        "Potential pathogens include Streptococcus suis leading to meningitis (N Engl J Med 354: 1325, 2006; Rinsho Shinkeigaku 53:732, 2013)"
+      ]
+    }
+  ]
+}

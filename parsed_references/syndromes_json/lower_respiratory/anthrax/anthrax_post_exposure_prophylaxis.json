@@ -1,0 +1,105 @@
+
+{
+  "documentMetadata": {
+    "title": "Anthrax, Post-Exposure Prophylaxis",
+    "lastUpdated": "2025-04-23",
+    "sourceFile": "Anthrax, Post-Exposure Prophylaxis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Immunocompetent unvaccinated persons who have been exposed or potentially exposed to aerosolized B. anthracis should receive Anthrax Vaccine Adsorbed (AVA) (adjuvanted) (Cyfendus; Emergent Biosolutions) 2 doses: 0, 14d, plus concurrent prophylactic antimicrobial therapy x 42 days (see below).",
+        "See Anthrax, Vaccine for details of vaccine administration.",
+        "For PEP, Cyfendus eliminates the need for a third dose at 4 wks indicated for the older AVA (unadjuvanted) Biothrax.",
+        "Cyfendus is FDA approved for PEP only and not PrEP.",
+        "Biothrax stockpiled as sole agent in many countries for both PrEP and PEP."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacillus anthracis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric regimens for post-exposure prophylaxis if an aerosol exposure might have occurred.",
+        "Healthy, nonpregnant adults age > 18 yrs.",
+        "Ciprofloxacin 500 mg po q12h or Doxycycline 100 mg po q12h",
+        "Duration of antimicrobial therapy (age 18-65 yrs)",
+        "42 days after the first dose or 2 weeks after the last dose of AVA, whichever occurs later.",
+        "Day 14 is last dose of Cyfendus; Day 28 is last dose of Biothrax",
+        "60 days if antimicrobial therapy is administered without post-exposure vaccination.",
+        "Older adults (age ≥66 yrs) and immunocompromised.",
+        "Ciprofloxacin 500 mg po q12h or Doxycycline 100 mg po q12h",
+        "Duration of antimicrobial therapy: 60 days with or without vaccination",
+        "Pediatric regimen, age > 1 month to < 18 years",
+        "Ciprofloxacin 15 mg/kg (max dose 500 mg) po q12h or Doxycycline 2.2 mg/kg (max dose 100 mg) po q12h",
+        "Duration of therapy: 60 days. Use of AVA would be guided by data available at the time of an anthrax event.",
+        "Preterm and full-term newborns, one of the following:",
+        "Ciprofloxacin",
+        "32 to < 34 weeks gestational age, 0 to < 1 week, 7.5 mg/kg po q12h",
+        "All others, 12.5 mg/kg po q12h",
+        "Doxycycline",
+        "32 to < 37 weeks gestational age, 5 mg/kg po q12h",
+        "Full-term, 5 mg/kg po x1 then 2.5 mg/kg po q12h",
+        "Duration of therapy: 60 days. Use of AVA would be guided by data available at the time of an anthrax event.",
+        "Pregnant or lactating persons",
+        "Ciprofloxacin 500 mg po q12h or Doxycycline 100 mg po q12h.",
+        "Duration of therapy 60 days. Use of AVA would be guided by data available at the time of an anthrax event.",
+        "Empiric regimens for adults age 18–65 yrs with nonaerosol (i.e., cutaneous or ingestion) exposures, PEP antibiotics should continue for 7 days and vaccine is not needed."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See 2023 CDC guidelines for full recommendations and specific dosing",
+        "First line agents",
+        "Levofloxacin, Clindamycin (age < 18 years, preterm and full-term newborns)",
+        "Penicillin susceptible strains only: Penicillin VK or Amoxicillin",
+        "Alternative agents",
+        "Moxifloxacin, Linezolid, Omadacycline, Dalbavancin, Clindamycin (adults), Minocycline (nonpregnant adult age > 18 years or child age > 1 month or older)",
+        "Antitoxin only to be used as post-exposure prophylaxis if antimicrobial drugs are not available or not appropriate.",
+        "Data indicates that the polyclonal antitoxin AIGIV should not be coadministered with AVA.",
+        "Noninterference was demonstrated between raxibacumab and AVA, allowing their coadministration.",
+        "No data is available on coadministration of Obiltoxaximab and AVA.",
+        "Anthrax immune globulin intravenous can be used for preterm and full-term newborns.",
+        "Any antitoxin can be used as a sole agent but unlikely an antitoxin would be available when no vaccine or antibiotics are available."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2023 CDC guidelines",
+        "American Academy of Pediatrics recommendations for children: Pediatrics 133:e1411, 2014."
+      ]
+    }
+  ]
+}

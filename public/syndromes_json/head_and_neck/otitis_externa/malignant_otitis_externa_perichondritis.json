@@ -1,0 +1,215 @@
+{
+  "documentMetadata": {
+    "title": "Malignant Otitis Externa, Perichondritis",
+    "sourceFile": "Malignant Otitis Externa, Perichondritis.pdf",
+    "lastUpdated": "2025-01-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Malignant external otitis (J Antimicrob Chemother 2022, 77:2532) presents as painful inflammation of the external ear canal with necrosis of cartilage, which may extend to external ear lobe (pinna).",
+        "Necrotizing \"malignant\" otitis externa may have an acute presentation with severe ear pain and swelling, but fever is unusual.",
+        "Inflammatory markers (CRP, ESR) typically very elevated.",
+        "Bony involvement common: can progress to osteomyelitis of the base of the skull and temporomandibular joint.",
+        "Risk groups: primarily elderly patients with diabetes mellitus; immunocompromised, e.g., AIDS, chemotherapy",
+        "Risk factors: diabetic microangiopathy; maybe increased pH of cerumen in diabetic patients",
+        "Obtain cultures from ear canal or from surgical debridement specimen.",
+        "Rule out osteomyelitis by CT or MRI scan.",
+        "Perichondritis of the pinna (Stat Pearls 2023 Jan. 2023 Jan 2) presents as inflammation of the perichondrial layer surrounding the cartilage of the ear.",
+        "Most commonly due to transcartilagenous ear piercing or trauma.",
+        "May also occur as an extension of untreated middle or external ear infections.",
+        "Microbiology and treatment are similar to that for malignant external otitis.",
+        "Obtain cultures to confirm microbiology.",
+        "Differential diagnosis includes otitis externa, cellulitis, relapsing polychondritis (in association with inflammation of both pinnae, nose, other joints, tracheobronchial abnormalities), leprosy (rare but consider in the appropriate epidemiological setting if findings are bilateral, chronic, with minimal inflammation).",
+        "Imaging unnecessary unless there is abscess, suspected intracranial or bony extension."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pseudomonas aeruginosa",
+        "Aspergillus species",
+        "Staph. aureus and a variety of other gram-negative bacilli are uncommon etiologies (e.g. non-tuberculous mycobacteria).",
+        "Consider Mycobacterium tuberculosis in cases of chronic otitis external"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Surgical debridement and antibacterial therapy"
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For Pseudomonas aeruginosa"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "First choice",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "400 mg",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "or if very early infection, 750 mg po q8-12h"
+              }
+            ],
+            "appliesTo": {
+              "description": "Adults"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "First choice",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "20-30 mg/kg/day",
+                "route": "IV",
+                "frequency": "divided q12h",
+                "notes": "max 800 mg/day"
+              }
+            ],
+            "appliesTo": {
+              "description": "Children"
+            }
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Other choices",
+            "components": [
+              {
+                "drug": "Imipenem",
+                "dose": "0.5 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              },
+              {
+                "drug": "Meropenem",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Other choices",
+            "components": [
+              {
+                "drug": "Ceftazidime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q12h",
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Other choices",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "(over 4 hr) q8h"
+              },
+              {
+                "drug": "Tobramycin",
+                "dose": "5.1 mg/kg",
+                "frequency": "q24h",
+                "connector": "+",
+                "notes": "see drug page for comment on pip-tazo loading dose"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+        "type": "list",
+        "items": [
+            "Consider adding MRSA coverage for severely ill patients or if Gram stain shows gram-positive cocci: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL",
+            "Other etiologies: treatment should be guided by in vitro susceptibility results of recovered organism(s)."
+        ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "bid",
+            "notes": "for early disease"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ciprofloxacin: if given po, avoid concomitant multivalent cations (calcium in dairy products and antacids, magnesium, iron)",
+        "Two additional cephalosporins with activity vs Ps. aeruginosa: Ceftolozane-tazobactam and Ceftazidime-avibactam are stable in the presence of ESBLs. In addition, ceftazidime-avibactam is not hydrolyzed by serine-based carbapenemases",
+        "Recommendations based on known in vitro susceptibility.",
+        "If bone involved, treat for 4-6 weeks.",
+        "There is no role for topical therapy."
+      ]
+    }
+  ]
+}

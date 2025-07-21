@@ -1,0 +1,73 @@
+
+{
+  "documentMetadata": {
+    "title": "Folliculitis",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Superficial/Folliculitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infection of the hair follicle with purulent exudate in the epidermis.",
+        "Need to distinguish from non-infectious etiologies, e.g., pseudofolliculitis barbae (foreign reaction to ingrown hair in beard)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus (most common)",
+        "P. aeruginosa (from exposure to inadequately chlorinated swimming pools, whirlpools and hot tubs)",
+        "Aeromonas hydrophila (following water exposure)",
+        "C. albicans (after antibiotic exposure, glucocorticoid therapy or diabetes mellitus)",
+        "Reports of folliculitis and subcutaneous abscesses from rapid growing atypical mycobacteria after exposure in nail salons, foot whirlpool baths. Etiology: M. chelonae, M. fortuitum",
+        "Malassezia furfur"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usually self-limiting. Hot packs for comfort. Topical therapy sometimes needed.",
+        "Avoid shaving involved area.",
+        "See specific therapy for M. fortuitum and M. chelonae."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Could use Mupirocin ointment if staphylococcal etiology.",
+        "Could use antifungal topical cream/ointment if Candida suspected or proven."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In AIDS patients, consider eosinophilic folliculitis."
+      ]
+    }
+  ]
+}

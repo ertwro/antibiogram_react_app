@@ -1,0 +1,85 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Sternal",
+    "lastUpdated": "2024-04-12",
+    "sourceFile": "Osteomyelitis, Sternal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Osteomyelitis of the sternum, post-operative."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Less commonly, Gram-negative bacteria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sternal debridement is indicated for bone culture and for removal of necrotic bone.",
+        "Empiric therapy: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) + Cefepime 1-2 gm IV q8h",
+        "Confirmed methicillin-resistant staphylococcal strain: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)",
+        "Confirmed methicillin-susceptible staphylococcal strain:",
+        "Nafcillin 2 gm IV q4h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Linezolid NAI 600 mg IV/po bid or Daptomycin 10 mg/kg IV q24h for confirmed methicillin-resistant staphylococcal strain (See Comments)",
+        "Cefazolin 2 gm IV q8h for confirmed methicillin-susceptible staphylococcal stain"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy not well defined, but a prolonged course of therapy, e.g., 6-8 weeks, is recommended."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For gram negative infections, select an agent based on local factors: species prevalence in surgical infections and susceptibility profiles (e.g., expanded-spectrum cephalosporins, Piperacillin-tazobactam, carbapenems)",
+        "Linezolid less attractive for prolonged therapy (> 2 weeks) because of potential toxicity.",
+        "A fluoroquinolone is an alternative for gram-negatives but use may be limited if there is high prevalence of resistance among Enterobacteriaceae and Pseudomonas aeruginosa.",
+        "Systematic review of vacuum-assisted wound closure: J Plast Reconstr Aesthet Surg. 2023 Oct 17: S1748-6815(23)00628-9."
+      ]
+    }
+  ]
+}

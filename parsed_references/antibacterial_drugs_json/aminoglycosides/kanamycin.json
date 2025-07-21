@@ -1,0 +1,133 @@
+{
+  "drug_name": "Kanamycin",
+  "tradename": "Kantrex",
+  "usage_and_dosing": {
+    "description": "Kanamycin is an aminoglycoside used primarily as second-line therapy for treatment of M. tuberculosis. Kanamycin is also active against Gram-negative bacilli, but is rarely used, having been replaced largely by Amikacin. Potential risk of renal, cochlear and vestibular toxicity, the latter two being most common. Mitochondrial DNA polymorphisms (e.g., 12S A1555G ribosomal RNA mutation) are associated with increased susceptibility to ototoxicity.",
+    "adult_dose": [
+      {
+        "route": "Conventional dosing",
+        "dose": "7.5 mg/kg q12h IV or IM",
+        "target_peak": "15-30 µg/mL (avoid > 35 µg/mL)",
+        "target_trough": "5-10 µg/mL (avoid > 10 µg/mL)"
+      },
+      {
+        "route": "Extended interval dosing",
+        "dose": "15 mg/kg q24h IV or IM",
+        "target_trough": "<1 µg/mL"
+      },
+      {
+        "route": "M. tuberculosis Dose",
+        "dose_age_<59": "1 gm (15 mg/kg) IM/IV q24h or 3-5x/week. Target trough <1 µg/mL",
+        "dose_age_>59": "750 mg (10 mg/kg) IM/IV q24h or 3-5x/week. Target trough <1 µg/mL"
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "15-30 mg/kg/day (once daily)",
+        "max_day": "1 gm"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "2-3 hrs",
+    "half_life_esrd": "30-70 hrs",
+    "dose_renal_function_normal": "7.5 mg/kg IM/IV q12h",
+    "crcl_or_egfr": {
+      "crcl_>50": "No dosage adjustment",
+      "crcl_10_50": "7.5 mg/kg q24h",
+      "crcl_<10": "7.5 mg/kg q48h"
+    },
+    "hemodialysis": "7.5 mg/kg q48h (+ extra 3.25 mg/kg AD)",
+    "capd": "15-20 mg lost per L of dialysate/day",
+    "crrt": "7.5 mg/kg q24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "obesity": "See Obesity Dosing Adjustments table"
+  },
+  "adverse_effects": [
+    "Tubular necrosis and renal failure, deafness due to cochlear toxicity, vertigo due to damage to vestibular organs, and rarely neuromuscular blockade.",
+    "Risk of nephrotoxicity increases with concomitant administration of cyclosporine, Vancomycin, ampho B, radiocontrast.",
+    "Risk of nephrotoxicity may be less with once daily dosing (especially if baseline renal function normal).",
+    "In general, same factors influence risk of ototoxicity.",
+    "Other adverse effects: rash, ↑ BUN/creatinine (5-25%), vestibular (4-6%).",
+    "NOTE: There is no known method to eliminate risk of aminoglycoside toxicity. Proper dosing attempts to ↓ the % risk. Serum levels: monitor trough serum concentrations, rising concentration is an early sign of nephrotoxicity.",
+    "One in 500 patients (Europe) have mitochondrial mutation that predicts cochlear toxicity (New Engl J Med 360:640, 2009 & New Engl J Med 360:642, 2009). Aspirin supplement (3 gm/day) attenuated risk of cochlear injury from Gentamicin (New Engl J Med 354:1856, 2006)."
+  ],
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Mycobacterium tuberculosis"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "25-50 (15 mg/kg IM, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "0-10%",
+    "volume_of_distribution": "0.26 L/kg",
+    "avg_serum_t1_2": "2-3 hr",
+    "elimination": "Renal",
+    "bile_penetration": "10-60%",
+    "csf_blood": "0-30%",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "No data"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Amphotericin B",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Cisplatin",
+      "effect": "↑ nephrotoxicity, ↑ ototoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Furosemide",
+      "effect": "↑ ototoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Neuromuscular blocking agents",
+      "effect": "↑ apnea or respiratory paralysis",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "NSAIDS",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Piperacillin-tazobactam",
+      "effect": "Possible kanamycin inactivation",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Radiographic contrast",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Vancomycin",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid"
+    }
+  ],
+  "comments": "Potential for cross-resistance between Kanamycin and Amikacin in M. tuberculosis (PloS One 7:e33275, 2012)."
+}

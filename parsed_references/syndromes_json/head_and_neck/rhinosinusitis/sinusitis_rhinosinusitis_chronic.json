@@ -1,0 +1,224 @@
+{
+  "documentMetadata": {
+    "title": "Sinusitis, Rhinosinusitis, Chronic",
+    "sourceFile": "Sinusitis, Rhinosinusitis, Chronic.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Definition: Chronic rhinosinusitis in adults is a complex poorly understood inflammatory disease of the paranasal sinuses and nasal passages of 12 weeks or longer duration despite medical management.",
+        "Pathogenesis is poorly understood, participating factors include: allergens, host immunodeficiency, obstruction (with or without nasal polyps), and uncommonly infection.",
+        "Symptoms: Anterior or posterior mucopurulent sinus drainage, a sense of blockage (due to polyps or mucosal edema), facial pain and decreased sense of smell. There is direct evidence of mucosal swelling by either sinus endoscopy or CT scan of the sinuses.",
+        "Comprehensive Update: European Position Paper on Rhinosinusitis and Nasal Polyps 2020: Rhinology 2020; 58 (Suppl S29): 1-464",
+        "The guidance on this page focuses only on role of antibiotics in management. See general reference above for other facets of treatment:",
+        "Polyps",
+        "Sinus irrigation",
+        "Glucocorticoids",
+        "Leukotrienes",
+        "Antibiotics may be useful for:",
+        "Acute bacterial exacerbations of chronic rhinosinusitis (ABECRS)",
+        "For example: Contiguous spread from maxillary dental peri-apical abscess to maxillary sinus (10-12% of maxillary sinusitis)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For management of suspect Acute Bacterial Exacerbation of Chronic Rhino Sinusitis (ABECRS):",
+        "Concomitant with, or prior to, empiric therapy, try to obtain direct sinus cultures to guide future specific therapy.",
+        "Suggest nasal swab PCR for S. aureus detection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mixture of aerobic and anaerobic bacteria",
+        "Common pathogens found in direct sinus cultures of patients with (ABECRS):",
+        "Aerobic bacteria: S. pneumoniae, M. catarrhalis, H. influenzae, S. aureus (less often)",
+        "Anaerobic bacteria: Prevotella sp., Porphyromonas sp., Peptostreptococcus sp. (Peptoniphilus sp.), Fusobacterium sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral therapy is usually adequate:"
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Empiric"
+        },
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If PCR detects MRSA",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "connector": "+"
+          },
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "notes": "If doxycycline used, warn patient about risk of serious photosensitivity. Years ago theoretic concern that the doxycycline inhibition of cell wall synthesis would decrease synthesis of cell wall targets of beta-lactam antibiotics. Clinical relevance debatable."
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Other possible specific therapy regimens depend on culture results."
+      ]
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If immunocompromised and worried about P. aeruginosa",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "once daily",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration is usually 7-10 days but is adjusted for clinical response; there are no clinical trials for guidance"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Empiric"
+        },
+        "components": [
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "once daily"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If MRSA detected",
+        "components": [
+          {
+            "drug": "TMP/SMX",
+            "dose": "160/800 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "If no MRSA detected",
+        "components": [
+          {
+            "drug": "Cefdinir",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefuroxime axetil",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefpodoxime proxetil",
+            "connector": "+"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "tid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If Immunocompromised (neutropenia, diabetes (ketoacidosis), HIV): etiologies include: P. aeruginosa, fungi (mucormycosis) and others",
+        "No role for topical therapy",
+        "Reference pertinent to antibiotics for AECRS: Cochrane Database Systemic Review. 2016;4: CD011994"
+      ]
+    }
+  ]
+}

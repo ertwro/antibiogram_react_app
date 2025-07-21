@@ -1,0 +1,90 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, Late Latent",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, Late Latent.pdf",
+    "lastUpdated": "2022-08-31"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Latent infection (>1 year) or of indeterminate duration, cardiovascular involvement, late benign gumma.",
+        "Neurosyphilis is considered separately owing to treatment differences.",
+        "Not sexually transmissible, treatment is to prevent late consequences of infection."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Benzathine Penicillin G (Bicillin L-A)",
+            "dose": "2.4 million units",
+            "route": "IM",
+            "frequency": "q week x 3 weeks = 7.2 million units total dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Interval of 10–14 days between doses of benzathine penicillin for latent syphilis might be acceptable, otherwise start over.",
+        "Pregnant women who have delays in any therapy dose >9 days between doses should repeat the full course of therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There is no published data on efficacy of alternatives.",
+        "European 2020 Syphilis Guidelines: Procaine penicillin 600 000 units IM daily during 17-21 days, if benzathine is not available",
+        "Penicillin allergy or parenteral treatment refused: unclear, can consider Doxycycline 100 mg BID, but evidence is weak and many experts would recommend desensitization.",
+        "Pregnant women should be desensitized."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Test all patients with syphilis for HIV and all HIV patients for syphilis.",
+        "Treat HIV patients with syphilis the same as non-HIV patients.",
+        "Quantitative nontreponemal serologic tests should be repeated at 6, 12, and 24 months. If does not fall 4-fold after 24 months, will need yearly follow-up of titers and clinical status. Consider retreatment with benzathine penicillin G 2.4 million units IM for 3 weeks if follow-up unlikely or initial titer >1:32 without response.",
+        "If neurologic symptoms or signs are identified, a CSF evaluation is recommended, with the findings guiding management. Routine lumbar puncture in asymptomatic late syphilis is being questioned in the US. Clin Infect Dis 2015 61:S818 and no longer recommended in 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021. If CSF exam negative, retreatment benzathine penicillin G 2.4 million units IM for 3 weeks.",
+        "Syphilis references: Lancet 2017 389:1550 and N Engl J Med. 2020;382:845",
+        "2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021; European 2020 Syphilis Guidelines",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+
+{
+  "drug_name": "Pristinamycin",
+  "tradename": "Pyostacine",
+  "usage_and_dosing": {
+    "description": "Pristinamycin is a mixture of pristinamycin IA and pristinamycin IIA.",
+    "notes": [
+      "Pristinamycin IA (PIA) is a group B streptogramin, pristinamycin IIA (PIIA) is a group A streptogramin.",
+      "Group A and B streptogramins bind to the 50S subunit of the bacterial ribosome. Individually they are bacteriostatic, but in combination may be bactericidal.",
+      "Available in Europe (France, Belgium), but not marketed in the U.S."
+    ],
+    "adult_dose": "2-4 gm/day (divided q8-12h).",
+    "pediatric_dose": {
+      "dose": "50-100 mg/kg/day (divided q8h)"
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": {
+      "pia": 4.03,
+      "piia": 2.83
+    },
+    "half_life_esrd": {
+      "pia": "Unchanged",
+      "piia": "Unchanged"
+    },
+    "dose_renal_function_normal": "2-4 gm/day po (divided q8-12h)",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "GI (nausea, vomiting)",
+    "Hypersensitivity reactions (uncommon)",
+    "Pseudomembranous colitis"
+  ],
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (250, 500 mg)",
+    "food_recs": "Tab + food",
+    "oral_absorption": "No data",
+    "tmax_hr": {
+      "pia": 3.25,
+      "piia": 3.08
+    },
+    "peak_serum_conc": {
+      "pia": "0.76 (2 gm po, SD)",
+      "piia": "0.58 (2 gm po, SD)"
+    },
+    "peak_urine_conc": "No data",
+    "protein_binding": "No data",
+    "volume_of_distribution": "No data",
+    "avg_serum_t1_2": {
+      "pia": 4.03,
+      "piia": 2.83
+    },
+    "elimination": "Biliary",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": {
+      "pia": "2.2 (2 gm po, 0-inf)",
+      "piia": "1.21 (2 gm po, 0-inf)"
+    }
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_inhibited": [
+      "CYP3A4"
+    ],
+    "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ cyclosporine",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Tacrolimus",
+      "effect": "↑ tacrolimus",
+      "management": "Monitor, adjust dosage"
+    }
+  ],
+  "comments": [
+    "Reference for PK data: J Antimicrob Chemother 25:651, 1990.",
+    "Reported effective in treating macrolide and quinolone-resistant strains of Mycoplasma genitalium (Clin Infect Dis 60:1228, 2015; Emerg Infect Dis 24:328, 2018)."
+  ]
+}

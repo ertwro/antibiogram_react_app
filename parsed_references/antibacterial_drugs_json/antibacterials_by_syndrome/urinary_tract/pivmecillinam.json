@@ -1,0 +1,123 @@
+{
+  "drug_name": "Pivmecillinam",
+  "tradename": "Pivya, Selexid",
+  "usage_and_dosing": {
+    "description": [
+      "Pivmecillinam is the pivalate ester prodrug of mecillinam (amdinocillin).",
+      "FDA approved 04/24/2024 for uncomplicated UTI caused by susceptible E. coli, P. mirabilis, and S. saprophyticus.",
+      "S. saprophyticus MICs a bit higher but, presumably due to high urine concentrations, reported cure rates of 73-92%.",
+      "Enterobacterales producing ESBLs are susceptible, but P. aeruginosa, E. faecalis, and S. aureus are resistant.",
+      "The pivalate ester enhances bioavailability. Following absorption, pivmecillinam is hydrolyzed to mecillinam plus pivalate by nonspecific esterases in the blood, Gl tract, and elsewhere. The pivalate is converted to pivaloylcarnitine through pivaloyl-CoA and is excreted in the urine; therefore, prolonged administration can result in carnitine deficiency and defects in fatty acid oxidation.",
+      "Unlike most beta-lactams, mecillinam preferentially targets PBP-2 in the bacterial cell wall.",
+      "Advantages include low resistance rates and minimal propensity for collateral damage, but efficacy for uncomplicated UTI may be inferior to other options.",
+      "Not effective for pyelonephritis (inadequate concentrations in renal tissue).",
+      "US product: pivmecillinam 185 mg is equivalent to pivmecillinam hydrochloride 200 mg."
+    ],
+    "adult_dose": {
+      "uncomplicated_cystitis": [
+        "US dosing: 185 mg po q8h x3-7 days (as pivmecillinam).",
+        "Variable dosing recommendations outside US. For example, in Canada: 400 mg po q8h x3-7 days (as pivmecillinam hydrochloride)."
+      ]
+    },
+    "pediatric_dose": {
+      "per_us_fda": "Safety and efficacy not established",
+      "outside_us": "Age >6 yrs, wt >40 kg: 20-40 mg/kg/day (div q8h) x3-7 days",
+      "max_day": "1200 mg"
+    }
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "1",
+    "half_life_hrs_esrd": "No data",
+    "dose_renal_function_normal": "US: 185 mg po q8h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Gl (nausea, vomiting, diarrhea, C. difficile colitis)",
+    "Rash, urticaria, anaphylaxis, SCARS",
+    "Headache, dizziness",
+    "Carnitine depletion",
+    "Acute porphyria",
+    "Systematic review establishing the benign safety and tolerability profile of pivmecillinam amassed during 40+ years of clinical experience: Clin Infect Dis 2025;80:280."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for Gl toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "None"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "US: Tab (185 mg)",
+    "food_rec_po_drugs": "Tab \u00b1 food",
+    "oral_absorption_percent": "25-35",
+    "tmax_hr": "1.5",
+    "peak_serum_conc_ug_ml": "1.7 (185 mg po, SD)",
+    "peak_urine_conc_ug_ml": ">200 (400 mg HCl salt, SD)",
+    "protein_binding_percent": "<25",
+    "volume_of_distribution_vd": "51 L",
+    "avg_serum_t1_2_hr": "1",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "214 \u00b5g*min/mL (185 mg po, 0-8 hr)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cy_p450s_that_drug_is_a_substrate_for": null,
+    "transporters_that_drug_is_a_substrate_for": "OAT3, MATE1, MATE2-K",
+    "ug_ts_that_drug_is_a_substrate_for": null,
+    "cy_p450s_inhibited_by_drug": null,
+    "transporters_inhibited_by_drug": null,
+    "ug_ts_inhibited_by_drug": null,
+    "cy_p450s_induced_by_drug": null,
+    "transporters_induced_by_drug": null,
+    "ug_ts_induced_by_drug": null,
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Methotrexate",
+      "effect_on_concentration": "\u2191 methotrexate",
+      "suggested_management": "Avoid co"
+    },
+    {
+      "drug": "Nitrofurantoin",
+      "effect_on_concentration": "Antibacterial antagonism",
+      "suggested_management": "Avoid co"
+    },
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "\u2191 mecillinam",
+      "suggested_management": "Avoid co"
+    },
+    {
+      "drug": "Valproic acid",
+      "effect_on_concentration": "Carnitine depletion",
+      "suggested_management": "Avoid co"
+    }
+  ],
+  "comments": [
+    "Useful references: J Infect Public Health 2019;12:843; Int J Clin Prac 2019;73:1."
+  ]
+}

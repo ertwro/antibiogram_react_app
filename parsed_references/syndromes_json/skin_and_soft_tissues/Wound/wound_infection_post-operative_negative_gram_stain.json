@@ -1,0 +1,68 @@
+{
+  "name": "Wound Infection, Post-operative, Negative Gram Stain",
+  "updates": [
+    {
+      "date": "2022-04-07",
+      "content": {}
+    }
+  ],
+  "clinical_setting": "Divided into Non-GI tract and GI tract surgery. Empiric therapy, negative Gram stain, with culture results pending\nNon-GI Tract, Non-GU Tract surgery, e.g., \"Clean\" surgery.\nPost-operative wound infection, negative Gram stain, culture result pending.\nSurgery not involving the gastrointestinal tract or female genito-urinary tract.\nTreatment regimen determined by severity of infection: e.g., may be mild in afebrile patient or severe in febrile patient.\nGI Tract or GU Tract surgery, e.g., potential contamination by bowel or vaginal flora.\nPost-operative wound infection, negative Gram stain, culture result pending.\nSurgery involving the gastrointestinal tract (including oropharyngeal and esophageal) or female genito-urinary tract.\nPatient is febrile, with neutrophilia.",
+  "etiologies": [
+    "Non-GI Tract, Non-GU Tract surgery: skin flora",
+    "Staph. aureus",
+    "Streptococcus sp. (Group A, B, C, G)",
+    "GI Tract or GU Tract surgery: skin flora, GI and vaginal flora",
+    "Staph. aureus (MSSA, MRSA)",
+    "Coliform species: e.g., E. coli",
+    "Bacteroides species: e.g., B. fragilis",
+    "Other anaerobic bacteria"
+  ],
+  "primary_regimens": [
+    {
+      "drug": "TMP-SMX-double strength",
+      "dosage": "1-2 tabs po bid",
+      "notes": "If skin incision, usually remove sutures to drain wound, obtain culture and sensitivity, and pack wound (see Comment)\nNon-GI Tract, Non-GU Tract Surgery:\nMild infection (without sepsis; afebrile), if antimicrobial needed:"
+    },
+    {
+      "drug": "Clindamycin",
+      "dosage": "300-450 mg po tid (See Commen)"
+    },
+    {
+      "drug": "Vancomycin",
+      "dosage": "15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL",
+      "notes": "Severe infection (sepsis; febrile patient):"
+    },
+    {
+      "drug": "Amoxicillin-clavulanate",
+      "dosage": "875/125 mg po bid",
+      "notes": "GI Tract or GU Tract Surgery:\nMild infection:\nIf Staph. aureus suspected: add TMP-SMX double strength 1-2 tabs po bid"
+    },
+    {
+      "drug": "[Piperacillin-tazobactam or (P Ceph 3 + Metronidazole) or (Doripenem or Ertapenem or imipenem or Meropenem)] + [ Vancomycin (as above) or Daptomycin 6 mg/kg IV q24h]",
+      "notes": "Severe infection:"
+    }
+  ],
+  "alternative_regimens": [
+    {
+      "drug": "Clindamycin",
+      "dosage": "300-450 mg po tid",
+      "notes": "Non-GI Tract, Non-GU Tract Surgery:\nMild infection (without sepsis; afebrile patient):"
+    },
+    {
+      "drug": "(Daptomycin 6 mg per kg IV q24h or Telavancin 10 mg/kg IV q24h or Delafloxacin 300mg IV q 12h) + [(Ciprofloxacin or Levofloxacin) + Metronidazole]",
+      "notes": "Severe infection (sepsis; febrile patient):"
+    },
+    {
+      "drug": "Linezolid",
+      "notes": "GI Tract or GU Tract Surgery: Can substitute Linezolid for Vancomycin"
+    }
+  ],
+  "antimicrobial_stewardship": [
+    "In randomized trial of TMP-SMX and Clindamycin both regimens efficacious, but fewer recurrences with Clindamycin: Clin Infect Dis 62:1505, 2016"
+  ],
+  "comments": [
+    "See IDSA Guidelines (Clin Infect Dis 59:147, 2014) for assessment and management of infected surgical wounds. In the absence of systemic response, wounds with < 5 cm erythema and no induration or necrosis may be treated with opening and dressing changes only.",
+    "Omadacycline 100mg IV/300mg po daily following loading doses FDA approved for ABSSSI and may be considered as an option.",
+    "See also, Wound Infection, Positive Gram Stain."
+  ]
+}

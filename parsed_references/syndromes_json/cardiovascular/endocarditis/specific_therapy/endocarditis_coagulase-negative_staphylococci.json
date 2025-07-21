@@ -1,0 +1,127 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Coagulase-Negative Staphylococci",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Endocarditis, Coagulase-Negative Staphylococci.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for coagulase-negative Staphylococcal endocarditis.",
+        "Prosthetic valve.",
+        "Signs and symptoms of endocarditis. Positive blood cultures for Staph. epidermidis, other coagulase-negative species of staphylococci."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus epidermidis",
+        "Coagulase-negative staphylococci"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MRSE",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)",
+            "connector": "+"
+          },
+          {
+            "drug": "Rifampin",
+            "dose": "600-900 mg/day",
+            "route": "po/IV",
+            "notes": "(see Antimicrobial Stewardship) in 2-3 divided doses",
+            "connector": "+"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "1 mg/kg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6 weeks and 2 weeks"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MSSE",
+        "components": [
+          {
+            "drug": "Nafcillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h",
+            "connector": "or"
+          },
+          {
+            "drug": "Oxacillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "notes": "can be substituted for Vancomycin"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Wait 3-5 days after starting vancomycin/gentamicin before starting rifampin, to decrease bacterial density and thus minimize risk of selecting for rifampin resistance."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Monitor renal function carefully on Vancomycin/Gentamicin-containing regimens.",
+        "AHA endocarditis treatment guidelines: Circulation 132: 1435, 2015."
+      ]
+    }
+  ]
+}

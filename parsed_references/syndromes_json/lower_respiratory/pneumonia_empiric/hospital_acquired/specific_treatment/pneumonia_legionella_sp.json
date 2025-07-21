@@ -1,0 +1,142 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Legionella sp.",
+    "lastUpdated": "2025-02-10",
+    "sourceFile": "Pneumonia, Legionella sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Legionella sp. cause both community-acquired pneumonia (CAP) and hospital-acquired pneumonia (HAP).",
+        "Despite cough, many patients produce small amounts of mucoid non-purulent sputum",
+        "Risk factors: Immunocompromised patient, smoking, co-morbidities.",
+        "Associated clinical findings (although somewhat nonspecific):",
+        "Diarrhea, other gastrointestinal symptoms",
+        "Confusion",
+        "Relative bradycardia",
+        "Hyponatremia",
+        "Elevated hepatic enzymes",
+        "Elevated BUN and creatinine",
+        "Elevated ferritin levels. Range of peak levels: 591-5990 (Clin Infect Dis 46:1789, 2008)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Difficult to detect in culture (need special media). Patient's often do not produce much sputum",
+        "Legionella urinary antigen reliable (100% specific) in detection of L. pneumophila, serotype 1, which causes ~80% of the cases in the USA.",
+        "Sensitivity 70-80%, hence if urine antigen is negative and clinical suspicion is high, suggest Legionella PCR of respiratory specimen",
+        "Legionella PCR of respiratory specimen detects all clinically relevant Legionella species and serotypes",
+        "Sensitivity of 0.83-0.98 and specificity of 0.90-0.94 (positive likelihood ratios of 8.3-15, negative likelihood ratios of 0.02-0.2) (J Med Microbiol 2017; 66:485).",
+        "Best to test sputum or bronchoalveolar lavage; can use nasopharyngeal swabs but the sensitivity is lower."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Legionella pneumophilia",
+        "Other Legionella sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "500 mg",
+            "route": "IV/po",
+            "frequency": "q24h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "IV/po",
+            "frequency": "q24h"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "IV/po",
+            "frequency": "q24",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV/po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Initial intravenous therapy in hospitalized patient with switch to oral once patient has stabilized.",
+        "Duration of therapy 7-10 days for immunocompetent host; longer duration (14-21 days) in patients with severe disease or immunocompromised (Clin Chest Med 2017; 38:45-58).",
+        "No proven benefit of Rifampin combination therapy (and drug interactions are a major issue in many patients) or combination of Azithromycin + fluoroquinolone"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Macrolides and fluoroquinolones are probably equally effective (Clin Infect Dis 2021;72:1979).",
+        "Reference on diagnosis and treatment: Infect Dis Ther. 2022; 11:973-986."
+      ]
+    }
+  ]
+}

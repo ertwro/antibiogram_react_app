@@ -1,0 +1,82 @@
+{
+  "documentMetadata": {
+    "title": "Sepsis, Neonatal",
+    "sourceFile": "Sepsis, Neonatal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Neonatal Sepsis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neonatal sepsis is a clinical syndrome of bacteremia with systemic signs and symptoms of infection in the first month of life. It is divided into early-onset (≤72 hours of life) and late-onset (>72 hours of life) sepsis."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Early-Onset Sepsis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Common pathogens include Group B Streptococcus (GBS), Escherichia coli, and other enteric gram-negative bacilli."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Neonates with suspected early-onset sepsis"
+        },
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "100-200 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided every 8-12 hours"
+          },
+          {
+            "drug": "Gentamicin",
+            "dose": "4-5 mg/kg/dose",
+            "route": "IV",
+            "frequency": "every 24-48 hours depending on gestational age",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Late-Onset Sepsis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pathogens include those causing early-onset sepsis as well as coagulase-negative staphylococci, Staphylococcus aureus, and Candida species."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Neonates with suspected late-onset sepsis"
+        },
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "40-60 mg/kg/day",
+            "route": "IV",
+            "frequency": "divided every 6-8 hours"
+          },
+          {
+            "drug": "Gentamicin or Cefotaxime",
+            "connector": "+"
+          }
+        ]
+      }
+    }
+  ]
+}

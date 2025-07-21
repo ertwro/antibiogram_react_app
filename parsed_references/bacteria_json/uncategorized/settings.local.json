@@ -1,0 +1,89 @@
+{
+  "_originalData": {
+    "permissions": {
+      "allow": [
+        "Bash(find:*)",
+        "Bash(cat:*)",
+        "Bash(mkdir:*)",
+        "Bash(mv:*)",
+        "Bash(node:*)"
+      ],
+      "deny": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "permissions"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.241Z",
+    "sourceFormat": "mixed"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "mixed"
+      },
+      "standardizedRegimens": [],
+      "preservedData": {
+        "permissions": {
+          "allow": [
+            "Bash(find:*)",
+            "Bash(cat:*)",
+            "Bash(mkdir:*)",
+            "Bash(mv:*)",
+            "Bash(node:*)"
+          ],
+          "deny": []
+        }
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "permissions": {
+        "allow": [
+          "Bash(find:*)",
+          "Bash(cat:*)",
+          "Bash(mkdir:*)",
+          "Bash(mv:*)",
+          "Bash(node:*)"
+        ],
+        "deny": []
+      }
+    }
+  }
+}

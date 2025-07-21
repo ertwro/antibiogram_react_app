@@ -1,0 +1,87 @@
+{
+  "drug_name": "Retapamulin",
+  "tradename": "Altabax",
+  "usage_and_dosing": {
+    "description": [
+      "Member of pleuromutilin class; a topical antibacterial.",
+      "For therapy of impetigo due to Strep. pyogenes or Staph. aureus.",
+      "Microbiologic success in 90% of Staph. aureus infections and 97% of Strep. pyogenes infections (J Am Acad Derm 55:1003, 2006).",
+      "Package insert says do not use for MRSA (not enough patients in clinical trials). Retapamulin active in vitro vs MRSA.",
+      "Reference: Clin Infect Dis 49:1541, 2009, Clin Micro Rev 30(3): 827, 2017."
+    ],
+    "adult_dose": "1% ointment; apply to affected area bid x 5 days",
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Age \u22659 mon: apply q12h x5 days (max area up to 2% BSA)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "No data",
+    "half_life_hrs_esrd": "No data",
+    "dose_renal_function_normal": "Apply q12h x5 days",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Pruritis, at application site, 2%.",
+    "Local irritation."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "B",
+    "use_during_lactation": "Safety not established, avoid use"
+  },
+  "antimicrobial_spectrum": [
+    "Staph. aureus",
+    "Strep. pyogenes",
+    "Active vs. some Staph. aureus strains resistant to Mupirocin"
+  ],
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "1% ointment",
+    "food_rec_po_drugs": "",
+    "oral_absorption_percent": "-",
+    "tmax_hr": "-",
+    "peak_serum_conc_ug_ml": "Low, not always measurable",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "94",
+    "volume_of_distribution_vd": "No data",
+    "avg_serum_t1_2_hr": "No data",
+    "elimination": "Metabolized",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cy_p450s_that_drug_is_a_substrate_for": "CYP3A4",
+    "transporters_that_drug_is_a_substrate_for": "-",
+    "ug_ts_that_drug_is_a_substrate_for": "-",
+    "cy_p450s_inhibited_by_drug": "-",
+    "transporters_inhibited_by_drug": "-",
+    "ug_ts_inhibited_by_drug": "-",
+    "cy_p450s_induced_by_drug": "-",
+    "transporters_induced_by_drug": "-",
+    "ug_ts_induced_by_drug": "-",
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "Avoid coadministration with strong CYP3A4 inhibitors in children <24 months old."
+  ],
+  "comments": [
+    "Not for intranasal, intravaginal, oral or ophthalmic use."
+  ]
+}

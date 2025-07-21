@@ -1,0 +1,185 @@
+{
+  "documentMetadata": {
+    "title": "Human Bite Wound",
+    "sourceFile": "Bite_ Human.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cleaning, irrigation and debridement are most important.",
+        "For clenched fist or hand injuries, x-rays should be obtained.",
+        "For bites inflicted by hospitalized patients, consider aerobic Gram-negative bacilli.",
+        "X-ray to evaluate for fracture or foreign body.",
+        "Potential risk of transmitting blood-borne pathogens if injury contaminated with another's blood.",
+        "Review tetanus status."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococci",
+        "Staphylococcus aureus",
+        "Eikenella corrodens",
+        "Fusobacterium sp.",
+        "Peptostreptococcus sp. (Peptoniphilus sp.)",
+        "Prevotella sp.",
+        "Porphyromonas sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Early (wound not yet infected):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "5 days"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Later (signs of infection, usually 3-24 hours):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Ampicillin-sulbactam",
+                "dose": "3 gm",
+                "route": "IV",
+                "frequency": "q6h"
+              },
+              {
+                "connector": "or",
+                "drug": "Cefoxitin",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              },
+              {
+                "connector": "OR",
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 4 hr"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "For serious infections, until MRSA is excluded",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q12h",
+                "notes": "or 1.5 gm q12h if wt >100 kg"
+              },
+              {
+                "connector": "or",
+                "drug": "Daptomycin",
+                "dose": "6 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A carbapenem can be used in place of Ampicillin-sulbactam, Cefoxitin, or Piperacillin-tazobactam if parenteral therapy is required"
+      ]
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "condition": "If patient is Penicillin allergic",
+        "components": [
+          {
+            "drug": "Clindamycin"
+          },
+          {
+            "connector": "+",
+            "drug": "(Ciprofloxacin or Levofloxacin or Moxifloxacin)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "notes": "non-US",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "1000 mg-200 mg",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For a review of bacteriology of human bite wounds, see Clin Infect Dis 37:1481, 2003; treatment see https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/.",
+        "Eikenella spp.\nSusceptible to: Fluoroquinolones and Beta-Lactam / Beta-lactamase inhibitor combinations: e.g., Ampicillin-sulbactam.\nResistant to: Clindamycin, Nafcillin/Oxacillin, Metronidazole, Cephalexin/Cefazolin, TMP/SMX, Aminoglycosides and Erythromycin.",
+        "Recommend treatment with Amoxicillin-clavulanate, Ampicillin-sulbactam, or Ertapenem; if allergic/intolerant to B-lactam, treat with Fluoroquinolone monotherapy",
+        "Clenched fist (and other hand) bite wounds pose risk for deep infections (e.g., bone, joint, tendon sheath) and require careful evaluation."
+      ]
+    }
+  ]
+}

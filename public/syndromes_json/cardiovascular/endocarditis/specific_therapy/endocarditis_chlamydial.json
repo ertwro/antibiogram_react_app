@@ -1,0 +1,68 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Chlamydial",
+    "lastUpdated": "2022-01-25",
+    "sourceFile": "Endocarditis, Chlamydial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for culture-negative endocarditis with positive serologies for chlamydial infection and/or positive PCR at valve surgery.",
+        "Relatively rare compared to other etiologies.",
+        "History of bird exposure usually present."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chlamydophila psittaci",
+        "Chlamydophila pneumoniae (J Clin Microbiol 40:718, 2002)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Medical and surgical therapies for this infection are not well defined; several reported cases have had valve surgery.",
+        "Chlamydia are susceptible to tetracyclines and macrolides and these agents have been used; rifampin has been added in some cases."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In some serological assays, cross-reactivity may misidentify Bartonella as Chlamydia (Clin Microbiol Rev 14:177, 2001).",
+        "Prolonged course of therapy (months to years), which may be oral but exact duration not well-defined.",
+        "Reference: Infect Dis Clin North Am 24:7, 2010."
+      ]
+    }
+  ]
+}

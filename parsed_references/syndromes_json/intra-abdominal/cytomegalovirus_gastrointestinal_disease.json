@@ -1,0 +1,136 @@
+
+{
+  "documentMetadata": {
+    "title": "Cytomegalovirus, Gastrointestinal Disease",
+    "lastUpdated": "2024-02-29",
+    "sourceFile": "syndromes/intra-abdominal/Cytomegalovirus, Gastrointestinal Disease.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cytomegalovirus (CMV) gastrointestinal disease can include esophagitis, enteritis, and colitis and occurs in ~5% of patients with severe, untreated HIV infection and CD4 count of <50 cells/mL (J Infect Dis 166:1223, 1992);",
+        "Also common in solid organ transplant (SOT) and hematopoietic stem cell transplant recipients (HSCT).",
+        "Severe bouts of Inflammatory Bowel Disease (IBD) colitis may be complicated by CMV;",
+        "Treatment of CMV in this setting is recommended (European J Clin Micro & Inf Dis 34:13, 2015).",
+        "Diagnosis of CMV in less severe bouts of IBD colitis is unclear.",
+        "Clinical manifestations can include odynophagia (esophagitis), diarrhea and abdominal pain (enteritis and colitis), and is often associated with fever and constitutional symptoms. Patients may suffer concomitant active CMV disease in other organ systems, e.g., pneumonia, retinitis. See CMV Overview.",
+        "For prophylaxis of CMV in transplant recipients, see CMV Prevention in Solid Organ Transplants; CMV Prevention in Stem Cell Transplants."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Endoscopy often reveals ulcers and erosions. Diagnosis is confirmed by biopsy of ulcer base/edge (Clin Gastro Hepatol 2:564, 2004) with demonstration of CMV inclusions.",
+        "Serum CMV PCR and/or antigenemia is often positive."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cytomegalovirus (CMV)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Ganciclovir", "dose": "5 mg/kg", "route": "IV", "frequency": "q12h" }
+        ],
+        "notes": "with transition to Valganciclovir 900 mg po q12h following clinical improvement. For duration of therapy, see Comment."
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Maribavir", "dose": "400 mg", "route": "po", "frequency": "q12" }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Foscarnet", "dose": "90 mg/kg", "route": "IV", "frequency": "q12h" }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Cidofovir", "dose": "5 mg/kg", "route": "IV", "frequency": "once weekly" }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "paragraph",
+      "text": "Duration of therapy should be individualized. Continue treatment until:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "CMV PCR or antigenemia has become undetectable,",
+        "Clinical evidence of disease has resolved, and",
+        "At least 3 weeks of treatment (often 3-6 weeks)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "paragraph",
+      "text": "When to give secondary prophylaxis, i.e., maintenance therapy?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In SOT recipients, a 1-3 month course of secondary prophylaxis (Valganciclovir 900 mg daily) can be considered however patients who are likely to have relapse may have it even after the end of secondary prophylaxis",
+        "Consider in patients recently treated with high-dose immunosuppression (lymphocyte depleting antibodies)",
+        "Those who, suffered from severe CMV disease",
+        "Any person (SOT, HSCT, HIV/AIDS) who have had more than one episode of CMV disease.",
+        "HIV/AIDS",
+        "Dilated eye exam is recommended to rule out associated CMV Retinitis.",
+        "Antiretroviral therapy (ART) is essential in long term suppression in HIV patients.",
+        "Quantiferon CMV assay may be helpful in predicting recurrent GI CMV disease (Ann Lab Med 37(3):277-281, 2017)"
+      ]
+    }
+  ]
+}

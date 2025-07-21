@@ -1,0 +1,321 @@
+{
+  "documentMetadata": {
+    "title": "Cystic Fibrosis",
+    "lastUpdated": "2025-01-08",
+    "sourceFile": "Cystic Fibrosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute worsening of pulmonary symptoms in a patient with cystic fibrosis which include new or worsening cough and/or sputum production, increasing shortness of breath at rest or with exertion, fever, loss of appetite, fatigability.",
+        "Choice of therapy should be based on results of respiratory cultures and susceptibility testing.",
+        "Perform respiratory cultures every 3 months as a guide to empirical therapy as microbial flora tends to be stable.",
+        "Obtain sputum culture at onset of treatment but use most recent culture to guide initial therapy.",
+        "In addition to Primary and Alternative Regimens, see Comments for inhalation therapy options.",
+        "Recommendations below are for antibacterial therapy are based on expert opinion and usual clinical practice rather than data from high-quality studies, which are largely unavailable.",
+        "Non-antimicrobial measures (e.g., mucolytics, physiotherapy, corticosteroids, bronchodilators) may be of benefit, but are not addressed."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (Early disease)",
+        "Hemophilus influenzae (Early disease)",
+        "Pseudomonas aeruginosa (Later disease)",
+        "Burkholderia cepacia complex (formerly Pseudomonas)",
+        "Atypical mycobacteria",
+        "Stenotrophomonas maltophilia"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral agents, if possible, are preferred for mild exacerbations",
+        "Intravenous therapy is indicated for treatment of severe exacerbations, infections caused by resistant organisms for which there is no oral option, unsatisfactory response to oral therapy, allergy or intolerance to oral agents."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "P. aeruginosa"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pediatric: Tobramycin 10 mg/kg IV q24h (adjust dose to achieve an 18-hour post-dose serum concentration of < 0.5-1 µg/mL) + Ceftazidime 50 mg/kg IV q8h (to max of 6 gm/day).",
+            "Adult: Tobramycin 5-7 mg/kg IV q24h (adjust dose to achieve an 18-hour post-dose serum concentration of < 0.5-1 µg/mL) + Ceftazidime 2 gm q8h IV.",
+            "Some authorities also recommend inhaled therapy (see below), but practice is variable",
+            "Persistent presence of P. aeruginosa in respiratory cultures in patients > 6 years of age: Chronic Azithromycin 250 mg po qd (weight < 40 kg) or 500 mg po qd (weight > 40 kg)",
+            "Baseline and follow-up respiratory cultures every 6-12 months are recommended to exclude presence of non-tuberculous mycobacteria; monotherapy should be withheld in those who are culture-positive."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Staph. aureus."
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "MSSA"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pediatric: Nafcillin or Oxacillin 75 mg/kg IV q6h (Age >28 days)",
+                "Adult: Nafcillin or Oxacillin 2 gm IV q4h"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "MRSA"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pediatric: Vancomycin 60-80 mg/kg/day IV divided 3-4 times a day (Age >28 days) to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 10-15 µg/mL but AUC targeting is preferred).",
+                "Adult: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Mild exacerbation"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Methicillin sensitive (MSSA) (based on susceptibility)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pediatric",
+                "TMP-SMX 10 mg/kg/day of TMP component in 2-3 divided doses",
+                "Clindamycin 30 mg/kg/day (max dose 1.8 gm/d) po in 3-4 divided doses",
+                "Age > 8 years: Doxycycline 2-4 mg/kg/day po in two divided doses (max dose 200 mg/d)",
+                "Amoxicillin-clavulanate:",
+                "7:1 suspension or chewable tablet 45 mg/kg/day in 2 divided doses",
+                "Tablet 25-45 mg/kg/day of amoxicillin component (max dose 1750 mg) in 2 divided doses",
+                "Adult",
+                "TMP-SMX 10 mg/kg/day of TMP component in 2-3 divided doses",
+                "Clindamycin 450 mg po q8h",
+                "Doxycycline 100 mg po q12h",
+                "Amoxicillin-clavulanate 875/125 mg po q12h"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "Methicillin resistant (MRSA) (based on susceptibility)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pediatric",
+                "TMP-SMX 10 mg/kg/day of TMP component in 2-3 divided doses",
+                "Clindamycin 30 mg/kg/day (max dose 1.8 gm/d) po in 3-4 divided doses",
+                "Age > 8 years: Doxycycline 2-4 mg/kg/day po in two divided doses (max dose 200 mg/d)",
+                "Adult",
+                "TMP-SMX 10 mg/kg/day of TMP component in 2-3 divided doses",
+                "Clindamycin 450 mg po tid",
+                "Doxycycline 100 mg po q12h"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "More severe exacerbation"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "header",
+              "level": 3,
+              "text": "B. cepacia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "TMP-SMX 15 mg/kg/day (TMP component) IV in 3 divided doses"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "10 days is non-inferior to 14 day regimen for those with early response; for those with a slower response 21 days is not superior to 14 days\nAm J Respir Crit Care Med. 2021 Dec 1;204(11):1295"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "P. aeruginosa:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tobramycin + Aztreonam (Pediatric 100 mg/kg/day IV in 3 divided doses, max 6 gm/day; Adult 2 gm q8h)",
+            "Tobramycin + Meropenem (Pediatric 120 mg/kg/day IV in 3 divided doses, max 6 gm/day; Adult 2 gm IV q8h)",
+            "Tobramycin + Cefepime (Pediatric 150 mg/kg/day in 3 divided doses, max 6 gm/day; Adult 2 gm IV q8h)",
+            "Tobramycin + Piperacillin-tazobactam (Pediatric 300-400 mg/kg/day of Piperacillin component in 4 divided doses, max 16 gm/day; Adult 4.5 gm IV [over 4 hr] q6h)",
+            "If Tobramycin-resistant can substitute one of the following agents if the strain is susceptible",
+            "Amikacin 30-35 mg/kg once daily IV OR",
+            "Ciprofloxacin 40 mg/kg/day in two divided doses po (pediatric dose), 750 mg bid po (adult dose); or 30 mg/kg/day in three divided doses IV (pediatric dose), 400 mg q8h IV (adult dose)",
+            "Levofloxacin 16-20 mg/kg/day in two divided doses po/IV (age 6 mo to 4 years), 8-10 mg/kg/day once daily po/IV (age 5-16 years). 750 mg once daily po/IV (adult dose)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "MSSA"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pediatric",
+            "Cefazolin 50-150 mg/kg/day IV in 3-4 divided doses (max 6 gm/day)",
+            "Adult",
+            "Cefazolin 2 gm IV q8h"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "MRSA"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pediatric",
+            "Linezolid",
+            "< age 12 years: 30 mg/kg/day po/IV in 3 divided doses",
+            "> age 12 years: 600 mg po/IV q12h",
+            "Adult",
+            "Linezolid 600 mg po/IV q12h"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "B. cepacia: Ceftazidime or Doxycycline or Meropenem, if susceptible; consider use of two or more agents if no one agent is active"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Note that higher doses are needed for CF patients because of more rapid drug clearance.",
+        "Vancomycin: traditional dosing of 45-60 mg/kg/day of vancomycin frequently does not achieve target AUC in term infants and older children with normal renal function. Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections. Clin Infect Dis Jul 13 2020",
+        "Cystic Fibrosis Foundation Guidelines:",
+        "Combination therapy for P. aeruginosa infection.",
+        "Once-daily dosing for aminoglycosides.",
+        "Routine use of steroids is not recommended.",
+        "Inhalation Therapy (See Inhalation antibiotics).",
+        "Tobramycin (3 products)",
+        "For chronic suppression of P. aeruginosa: nebulization of phenol-free Tobramycin (Tobi-Novartis) 300 mg bid x 28 days, followed by no therapy for 28 days, then repeat cycle. In pilot study, 300 mg either once daily or bid for 60 days was safe and effective: J Antimicrob Chemother 71: 711, 2016.",
+        "Tobramycin hand held inhaler (TOBI podhaler, Novartis). Dose is 4 capsules (28 mg each) bid x 28 days; no treatment for 28 days, and then repeat (Med Lett Drugs Ther 56:51, 2014).",
+        "Bethkis (Cornerstone) nebulized 300 mg q12h for 28 days.",
+        "Aztreonam lysine (Cayston, Gilead) after bronchodilator: dose is 75 mg tid x 28 days. Must use the supplied Altera Nebulizer.",
+        "B. cepacia has become a major pathogen:",
+        "Patients develop progressive respiratory failure, 62% mortality at 1 year.",
+        "Often multiple drug resistant",
+        "Patients with B. cepacia should be isolated from other cystic fibrosis patients.",
+        "Nontuberculous mycobacteria emerging as an important pathogen (Semin Respir Crit Care Med 34:124, 2013). Treatment recommendations: Thorax. 2016 Jan;71 Suppl 1 (Suppl 1):i1-22",
+        "General references: Am J Respir Crit Care Med 180:802, 2009 (most recent published guidelines); recent review\nCurr Opin Pulm Med. 2020 Nov;26(6):679; Eur Respir Rev 2013; 22: 205-216; Chest 2013; 143:207; Am J Respir Crit Care Med 2014; 189:1181; Pediatrics. 2016;137. pii: e20151784."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "documentMetadata": {
+    "title": "Sinusitis, Intubation Associated",
+    "sourceFile": "Sinusitis, Intubation Associated.pdf",
+    "lastUpdated": "2025-04-22"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sinusitis in hospitalized patients as a complication of nasotracheal intubation or nasogastric tube.",
+        "Remove nasotracheal tube and if fever persists, recommend sinus aspiration (by ENT if available) for culture/sensitivity and nasal PCR for MRSA prior to empiric therapy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Gram-negative bacilli (47%) (Pseudomonas sp., Acinetobacter sp., E. coli are commonly encountered)",
+        "Gram positives (Staph. aureus) (35%)",
+        "Yeasts (18%)",
+        "Polymicrobial (80%)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Imipenem-cilastatin",
+            "dose": "0.5 gm",
+            "route": "IV",
+            "frequency": "q6h",
+            "connector": "or"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "MRSA suggestive on gram-stain",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftazidime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Data supports obstructing tube leading to accumulation of sinus fluid that may ultimately harbor invasive bacteria and/or serve as reservoir of bacteria that are aspirated and cause pneumonia (J Intensive Care Med 2019;34:844)",
+        "After 7 days of nasotracheal or gastric tubes, 95% of patients have x-ray \"sinusitis\" (fluid in sinuses), but on transnasal puncture only 38% are culture positive, Am J Respir Crit Care Med 150:776, 1994.",
+        "For patients requiring mechanical ventilation with nasotracheal tube for ",
+        "1 week, bacterial sinusitis occurs in <10%, Clin Infect Dis 27:851, 1998.",
+        "May need Fluconazole if yeast on Gram stain of sinus aspirate.",
+        "Review: Clin Infect Dis 27:463, 1998."
+      ]
+    }
+  ]
+}

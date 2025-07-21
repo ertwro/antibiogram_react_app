@@ -1,0 +1,122 @@
+{
+  "drug_name": "Chloramphenicol",
+  "tradename": "Chloromycetin",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2023-10-09",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Chloramphenicol is available in IV or po form, but no oral preparation is distributed in the US.",
+      "Used as an alternative antibiotic when less toxic agents are not effective.",
+      "Alternative to Doxycycline for rickettsial infections.",
+      "Alternative therapy for tularemia.",
+      "Possible alternative for N. meningitidis or S. pneumoniae meningitis in patient with severe penicillin allergy.",
+      "In extensive systematic review and meta-analysis of controlled trials, authors conclude that chloramphenicol cannot be recommended as preferred therapy for the treatment of respiratory tract infections, meningitis, or enteric fever (J Antimicrob Chemother 70: 979, 2015)"
+    ],
+    "adult_dose": {
+      "usual_dose": "50-100 mg/kg/day po/IV, divided q6h (maximum of 4 gm/day)"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "50-100 mg/kg/day IV (divided q6h)",
+      "max_day": "2-4 gm"
+    }
+  },
+  "renal_adjustment": {
+    "notes": [
+        "Body weight and Creatinine Clearance calculations",
+        "CrCl = Creatinine clearance (mL/min)",
+        "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+        "CRRT = Continuous Renal Replacement Therapy",
+        "AD = after hemodialysis",
+        "SLED = sustained low efficiency dialysis",
+        "Dosage adjustment may be required in hepatic disease."
+    ],
+    "half_life_normal": "4.1",
+    "half_life_esrd": "Unchanged",
+    "dose_normal_function": "50-100 mg/kg/day po/IV (divided q6h)",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "Monitor serum concentrations in hepatic dysfunction, if possible.",
+    "mild_impairment_child_pugh_a": "Consider dosage adjustment",
+    "moderate_impairment_child_pugh_b": "Consider dosage adjustment",
+    "severe_impairment_child_pugh_c": "Consider dosage adjustment"
+  },
+  "adverse_effects": [
+    "Fever, rash, neutropenia, thrombocytopenia, diarrhea, headache, confusion.",
+    "Hematologic (↓ RBC ~1/3 patients; aplastic anemia 1:21,600 courses but may be fatal).",
+    "Gray baby syndrome in premature infants (circulatory collapse).",
+    "Other: anaphylactoid reactions, optic atrophy or neuropathy (very rare), digital paresthesias, minor disulfiram-like reactions."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "C",
+    "lactation": "Avoid use",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Injection (no po in US)",
+    "food_recommendation": "Cap ± food",
+    "oral_absorption_percent": "High",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "18 (1 gm po q6h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "25-50",
+    "volume_of_distribution_vd_l_kg": "0.8 L/kg",
+    "avg_serum_half_life_hr": "4.1",
+    "elimination": "Metabolized",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "45-89",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_interactions": {
+    "cyp450_substrate": [],
+    "transporter_substrate": [],
+    "ugt_substrate": [],
+    "cyp450_inhibited": ["CYP2C19", "CYP3A4"],
+    "transporters_inhibited": [],
+    "ugts_inhibited": [],
+    "cyp450_induced": [],
+    "transporters_induced": [],
+    "ugts_induced": [],
+    "serum_drug_concentration_impact": "↑"
+  },
+  "drug_interactions": [
+    {
+      "drug": "Iron salts",
+      "effect": "↓ response to iron salts",
+      "management": "Monitor"
+    },
+    {
+      "drug": "Phenytoin",
+      "effect": "↑ phenytoin",
+      "management": "Monitor, adjust dosage"
+    },
+    {
+      "drug": "Protease inhibitors (HIV)",
+      "effect": "↑ chloramphenicol, ↑ protease inhibitor",
+      "management": "Avoid co-administration"
+    },
+    {
+      "drug": "Vitamin B12",
+      "effect": "↓ response to vitamin B12",
+      "management": "Monitor"
+    }
+  ],
+  "comments": [
+    "Used for severe infections when other alternatives are not available."
+  ]
+}

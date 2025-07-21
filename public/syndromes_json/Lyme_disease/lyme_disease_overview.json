@@ -1,0 +1,100 @@
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Overview",
+    "sourceFile": "Lyme_disease/Lyme Disease, Overview.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Overview"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Lyme Disease: tick borne spirochetal disease caused most commonly by Borrelia burgdorferi.",
+        "In the U.S., rare cases are caused by Borrelia mayonii (Int J Syst Evol Microbiol 2016; 66:4878).",
+        "Important to avoid laboratory pitfalls in laboratory diagnosis. Diagnostic testing & serologic guidelines and emerging methods (Emerging Infect Dis 22:1169, 2016)."
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Lyme Disease references"
+        },
+        {
+          "type": "list",
+          "items": [
+            "2020 Clinical practice guidelines for the prevention, diagnosis, and treatment of Lyme disease, from the Infectious Diseases Society of America, American Academy of Neurology, and American Academy of Rheumatology (Neurology 96:262, 2021)",
+            "Lyme Disease Review Panel: Clin Infect Dis 73:1-48, 2021.",
+            "CDC surveillance and statistical data"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Tick-borne Illness, Overview (differential diagnosis and images)",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Tick-borne Illness, Overview"
+      }
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Potential co-infections include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Babesia microti",
+            "Anaplasma phagocytophilum",
+            "Deer tick virus",
+            "Borrelia miyamotoi",
+            "Ehrlichia species Wisconsin"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Specific Topics"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For details on diagnostic methods: Lyme Disease, Diagnosis",
+        "Lyme Disease, Post-Exposure Prophylaxis (Tick Bite in endemic area)"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Links to Lyme Disease clinical syndromes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Arthritis",
+            "Early, Erythema migrans",
+            "Carditis",
+            "Encephalitis, Meningitis",
+            "Facial Nerve Paralysis (Bell's Palsy)",
+            "Post-Lyme Syndrome"
+          ]
+        }
+      ]
+    }
+  ]
+}

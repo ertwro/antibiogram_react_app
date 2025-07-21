@@ -1,0 +1,557 @@
+{
+  "documentMetadata": {
+    "title": "Toxoplasmosis, HIV/AIDS",
+    "lastUpdated": "2022-07-24",
+    "sourceFile": "Toxoplasmosis, HIV_AIDS.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cerebral toxoplasmosis in HIV-positive or AIDS patients, usually seen as ring-enhancing lesions on CT or MRI",
+        "Toxoplasmosis can also present as disseminated infection, though much less common.",
+        "Most individuals (>95%) will have IgG evidence of preexisting latent infection, but acute new infection also reported.",
+        "Antibody titers often very low, borderline positive.",
+        "Regimens for:",
+        "Treatment",
+        "Primary prophylaxis in AIDS patients who are IgG toxoplasma antibody positive and who have CD4 count <100/mL",
+        "Chronic suppression after treatment",
+        "See guidelines: clinicalinfo.HIV.gov"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Toxoplasma gondii"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Treat for minimum of 6 weeks after resolution of signs/symptoms, followed by suppressive therapy (see below)"
+          ]
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Pyrimethamine",
+                "dose": "200 mg x 1 po, then (75 mg po daily for those weighing \u226560 kg) or (50 mg po daily for those weighing <60 kg)"
+              },
+              {
+                "drug": "Sulfadiazine",
+                "dose": "(1.5 gm if \u226560 kg or 1 gm if <60 kg)",
+                "route": "po",
+                "frequency": "q6h",
+                "connector": "+"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10-25 mg",
+                "route": "po",
+                "frequency": "daily",
+                "connector": "+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Primary Prophylaxis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Can discontinue if CD4 count >200 for 3 months"
+          ]
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "components": [
+              {
+                "drug": "TMP-SMX-DS",
+                "dose": "1 tab",
+                "route": "po",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Chronic Suppression (secondary prophylaxis):"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "suppression",
+            "components": [
+              {
+                "drug": "Sulfadiazine",
+                "dose": "2-4 gm",
+                "route": "po",
+                "frequency": "divided in 2-4 doses/day"
+              },
+              {
+                "drug": "Pyrimethamine",
+                "dose": "25-50 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10-25 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "suppression",
+            "components": [
+              {
+                "drug": "TMP-SMX-DS",
+                "dose": "1 tab",
+                "route": "po",
+                "frequency": "BID (preferred) or q24h"
+              }
+            ],
+            "notes": "--less clinical experience but may be used to reduce pills or if pyrimethamine not available."
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Can discontinue suppression if CD4 count >200 for 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Treat 4-6 weeks after resolution of signs/symptoms, then suppression."
+          ]
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Pyrimethamine",
+                "dose": "75 mg po daily (Wt \u226560 kg) or 50 mg po daily (Wt <60 kg)"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10-25 mg/day po",
+                "connector": "+"
+              },
+              {
+                "drug": "Clindamycin",
+                "dose": "600 mg",
+                "route": "po or IV",
+                "frequency": "q6h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "TMP-SMX",
+                "dose": "5/25 mg/kg",
+                "frequency": "q12h",
+                "route": "po or IV"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Pyrimethamine",
+                "dose": "75 mg po daily (Wt \u226560 kg) or 50 mg po daily (Wt <60 kg)"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10-25 mg/day po",
+                "connector": "+"
+              },
+              {
+                "drug": "Atovaquone",
+                "dose": "1,500 mg",
+                "route": "po",
+                "frequency": "bid with food",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Atovaquone",
+                "dose": "1,500 mg",
+                "route": "po",
+                "frequency": "bid with food"
+              },
+              {
+                "drug": "Sulfadiazine",
+                "dose": "1.5 gm (Wt \u226560 kg) or 1 gm (Wt <60 kg",
+                "frequency": "q6h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Atovaquone",
+                "dose": "1,500 mg",
+                "route": "po",
+                "frequency": "bid with food"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Pyrimethamine",
+                "dose": "75 mg po daily (Wt \u226560 kg) or 50 mg po daily (Wt <60 kg)"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10-25 mg/day po",
+                "connector": "+"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "900-1,200 mg",
+                "route": "po",
+                "frequency": "once daily",
+                "connector": "+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Primary Prophylaxis:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "components": [
+              {
+                "drug": "TMP-SMX-DS",
+                "dose": "1 tab",
+                "route": "po",
+                "frequency": "3x/week"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "components": [
+              {
+                "drug": "TMP-SMX-SS",
+                "dose": "1 tab",
+                "route": "po",
+                "frequency": "daily"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "components": [
+              {
+                "drug": "Dapsone",
+                "dose": "50 mg",
+                "route": "po",
+                "frequency": "q24h"
+              },
+              {
+                "drug": "Pyrimethamine",
+                "dose": "50 mg",
+                "route": "po",
+                "frequency": "once weekly",
+                "connector": "+"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "25 mg",
+                "route": "po",
+                "frequency": "once weekly",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "components": [
+              {
+                "drug": "Atovaquone",
+                "dose": "1500 mg",
+                "route": "po",
+                "frequency": "q24h"
+              },
+              {
+                "drug": "Pyrimethamine",
+                "dose": "25 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "folinic acid",
+                "dose": "10 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "components": [
+              {
+                "drug": "Dapsone",
+                "dose": "200 mg"
+              },
+              {
+                "drug": "Pyrimethamine",
+                "dose": "75 mg",
+                "connector": "+"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "25 mg",
+                "route": "po",
+                "frequency": "once weekly",
+                "connector": "+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Chronic Suppression:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "suppression",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "600 mg",
+                "route": "po",
+                "frequency": "q8h"
+              },
+              {
+                "drug": "Pyrimethamine",
+                "dose": "25-50 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10-25 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "suppression",
+            "components": [
+              {
+                "drug": "Atovaquone",
+                "dose": "750 mg",
+                "route": "po",
+                "frequency": "q6-12h"
+              },
+              {
+                "drug": "Pyrimethamine",
+                "dose": "25 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "Folinic acid",
+                "dose": "10 mg",
+                "route": "po",
+                "frequency": "q24h",
+                "connector": "+"
+              },
+              {
+                "drug": "Sulfadiazine",
+                "dose": "2 to 4 gm",
+                "route": "po",
+                "frequency": "daily",
+                "connector": "or"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Use alternative (non-sulfa) regimen for patients with severe sulfa allergy.",
+            "If multiple ring-enhancing brain lesions (CT or MRI), >85% of patients respond to 7-10 days of empiric therapy; if no response in 14 days or clinical worsening in first week, suggest brain biopsy.",
+            "Pyrimethamine penetrates brain even if no inflammation",
+            "Folinic acid prevents pyrimethamine hematologic toxicity",
+            "Most experts prefer and guidelines recommend pyrimethamine regimens, but now VERY expensive in the US. Meta analysis suggests TMP-SMX is a reasonable alternative HIV Med 2016"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Primary Prophylaxis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prophylaxis for pneumocystis pneumonia (PJP) (Pneumocystis jiroveci) also effective against toxoplasmosis. See guidelines: clinicalinfo.HIV.gov."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Chronic Suppression:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "(Pyrimethamine + sulfadiazine) prevents PCP and toxoplasmosis.",
+            "(Clindamycin + Pyrimethamine) prevents toxoplasmosis only.",
+            "If PJP is present or a concern, drugs must cover both organisms"
+          ]
+        }
+      ]
+    }
+  ]
+}

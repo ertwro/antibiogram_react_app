@@ -1,0 +1,123 @@
+{
+  "documentMetadata": {
+    "title": "Necrotizing Fasciitis, Clostridia sp.",
+    "lastUpdated": "2023-04-22",
+    "sourceFile": "Necrotizing Fasciitis, Clostridia sp..pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clostridial necrotizing fasciitis is usually preceded by a traumatic wound or surgery with contamination by Clostridial spores, that, if oxygen tension is low, germinate with subsequent necrotizing fasciitis (skin, subcutaneous fat, and fascial plane); there may be associated myonecrosis (gas gangrene).",
+            "Clostridium perfringens is most common etiology; causes 80% (N Engl J Med 377(23): 2253, 2017).",
+            "Clostridial spores can be present in material (e.g. dirt) used to cut \"black tar\" heroin. If Clostridium botulinum, the result is botulism. If Clostridium perfringens, histolyticum, sordellii, or novyi, the result is necrotizing fasciitis (Clin Infect Dis 61:1840, 2015).",
+            "Clostridium septicum frequent cause of nontraumatic gas gangrene, including in occult gastrointestinal malignancy",
+            "Typically gas is present in the involved tissue.",
+            "Diagnosis is easily made by gram stain of necrotic tissue."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clostridia sp.",
+            "Clostridium perfringens (most common)",
+            "Clostridium septicum (contaminated musculoskeletal allografts, occult gastrointestinal malignancy)",
+            "Clostridium tertium (reported in spontaneous fasciitis/myonecrosis)",
+            "Clostridium sordellii (post-partum and post gynecological procedures, including abortion)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Early exploratory surgery to establish diagnosis (include aerobic and anaerobic cultures), determine extent of infection, and resect all non-viable tissue."
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Penicillin G",
+                "dose": "3-4 million units",
+                "route": "IV q4h",
+                "connector": "+"
+              },
+              {
+                "drug": "Clindamycin",
+                "dose": "900 mg",
+                "route": "IV q8h",
+                "notes": "(to block toxin production)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Susceptibility of C. tertium to penicillin and metronidazole is variable in published studies; resistance to clindamycin and third generation cephalosporins is common: Vancomycin, Imipenem or Meropenem expected to have activity in vitro."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "X-ray, CT scan may show gas in involved tissue.",
+            "Urgent surgical debridement and antibiotics are the mainstay of therapy.",
+            "Hyperbaric oxygen (HBO), if available, is, at best, a therapeutic adjunct. Do not delay debridement for HBO. References, Emerg Med Clin North Am 26:571, 2008; Clin Infect Dis 17:231, 1993.",
+            "Current IDSA Guidelines do not recommend HBO (Clin Infect Dis 59:e10, 2014).",
+            "See Necrotizing Fasciitis, Overview for further discussion and links to other etiologies.",
+            "Review: N Engl J Med 377(23): 2253, 2017"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Infants, Age 1-3 months",
+    "sourceFile": "Pneumonia, Infants, Age 1-3 months.pdf",
+    "lastUpdated": "2023-09-11"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pneumonia in infants, age 1-3 months is most often viral but other syndromes including bacterial pneumonia and chlamydia need to be considered.",
+        "Children < 90 days with fever and signs of pneumonia should be evaluated as for other febrile infants with blood culture, CBC and consider LP.",
+        "Empiric antibiotics should be started while awaiting blood culture and alternative diagnosis.",
+        "Children with RSV, influenza, adenovirus, parainfluenza virus and human metapneumovirus unlikely to have serious bacterial infection. Antibiotics usually can be stopped in these children if blood cultures are negative at 24 hours.",
+        "Chlamydia trachomatis pneumonia is most often afebrile with diffuse infiltrates and tachypnea and dyspnea. Conjuctivitis and eosinophilia may be present. Risk of C. trachomatis pneumonia decreased if mother screened during pregnancy."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Respiratory syncytial virus (RSV)",
+        "Influenza virus",
+        "Parainfluenza virus 3",
+        "Human metapneumovirus",
+        "Adenovirus",
+        "Bordetella sp.",
+        "Strep. pneumoniae",
+        "Staph. aureus (rare)",
+        "Chlamydia trachomatis (rare)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Outpatient:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Amoxicillin",
+                "dose": "90-100 mg/kg/day",
+                "frequency": "div q 8-12 hours"
+              },
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg",
+                "route": "po",
+                "notes": "x 1 dose (maximum 500 mg), then 5 mg/kg (maximum 250 mg) po x 4 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Inpatient:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "If febrile",
+            "components": [
+              {
+                "drug": "Cefotaxime",
+                "dose": "50 mg/kg",
+                "route": "IV",
+                "frequency": "q6-8h",
+                "notes": "(where available outside the US)",
+                "connector": "or"
+              },
+              {
+                "drug": "Ceftriaxone",
+                "dose": "75-100 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "condition": "If afebrile",
+            "components": [
+              {
+                "drug": "Azithromycin",
+                "dose": "10 mg/kg",
+                "route": "IV",
+                "notes": "(maximum 500 mg/day) day 1 then 5 mg/kg (maximum 250 mg)",
+                "connector": "or"
+              },
+              {
+                "drug": "Erythromycin",
+                "dose": "10 mg/kg",
+                "route": "IV",
+                "frequency": "q6h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Optimal duration of treatment unknown. Shorter courses (e.g. no more than 5 days) are likely adequate based on studies in low and middle income countries N Engl J Med 2020; 383:77"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "paragraph",
+      "text": "None"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viral etiologies dominate in this age group. Antibiotics should primarily be used for more severe illness or when there is evidence of bacterial infection (e.g. elevated WBC, CRP, procalcitonin, lobar consolidation, effusion) and no viral pathogen detected.",
+        "If proven Strep. pneumoniae infection, switch to Ampicillin and can complete therapy with Amoxicillin 80-90 mg/kg/d divided q8h (Clin Infect Dis 53:617, 2011)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Large etiology of pneumonia in children study confirmed importance of viruses N Engl J Med 372(9):835, 2015.",
+        "Reports of hypertrophic pyloric stenosis after Erythromycin in infants age <6 weeks. Azithromycin (bid) might reduce risk of hypertrophic pyloric stenosis, but there is no data.",
+        "If lobar pneumonia, treat as bacterial pneumonia covering Strep. pneumoniae.",
+        "No empiric coverage for Staph. aureus, as it is rare etiology in this age group.",
+        "If unusual etiology such as CMV or PJP identified, immune workup is indicated."
+      ]
+    }
+  ]
+}

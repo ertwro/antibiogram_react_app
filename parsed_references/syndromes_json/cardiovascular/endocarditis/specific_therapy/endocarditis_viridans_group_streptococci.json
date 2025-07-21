@@ -1,0 +1,481 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Viridans Group Streptococci",
+    "lastUpdated": "2025-04-22",
+    "sourceFile": "Endocarditis, Viridans Group Streptococci.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Endocarditis due to viridans group streptococcci and S. gallolyticus",
+        "Signs and symptoms of endocarditis; positive blood or valve culture",
+        "Susceptibility results are available: choice of therapy is based on MIC results."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Viridans streptococci",
+        "S. gallolyticus (formerly S. bovis)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pen G MIC \u2264 0.12 µg/mL"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Native valve"
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Penicillin G",
+                    "dose": "12-18 million units/day",
+                    "route": "IV",
+                    "frequency": "divided q4h"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                }
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q24h"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Prosthetic valve"
+            },
+            {
+              "type": "list",
+              "items": [
+                "One of the above administered 6 weeks"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pen G MIC > 0.12 to < 0.5 µg/mL"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Native valve"
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q24h"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                },
+                "notes": "For Ceftriaxone MIC < 0.5 µg/mL (EUCAST breakpoint, see Comments)"
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Penicillin G",
+                    "dose": "24 million units/day",
+                    "route": "IV",
+                    "frequency": "divided q4h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                },
+                "notes": "for the first 2 weeks"
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q24h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                },
+                "notes": "for the first 2 weeks"
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Prosthetic valve"
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Penicillin G",
+                    "dose": "24 million units/day",
+                    "route": "IV",
+                    "frequency": "divided q4h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "6 weeks"
+                },
+                "notes": "for > 2 weeks"
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q24h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "6 weeks"
+                },
+                "notes": "for > 2 weeks"
+              }
+            },
+            {
+              "type": "list",
+              "items": [
+                "Note: American Heart Association guidelines recommend 6 weeks of gentamcin, European Society of Cardiology guidelines recommend at least 2 weeks"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pen G MIC \u2265 0.5 µg/mL"
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Native valve:"
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Penicillin G",
+                    "dose": "24 million units/24h",
+                    "route": "IV",
+                    "frequency": "divided q4h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                },
+                "notes": "for 2 weeks"
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q24h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "4 weeks"
+                },
+                "notes": "For Ceftriaxone MIC \u2264 0.5 µg/mL (EUCAST breakpoint, see Comments) for 2 weeks."
+              }
+            }
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If prosthetic valve, one of above regimens administered for 6 weeks"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Note: American Heart Association guidelines recommend 6 weeks of Gentamcin, European Society of Cardiology guidelines recommend at least 2 weeks."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimen"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pen G MIC \u2264 0.12 µg/mL"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For patients intolerant or allergic to beta-lactam: Vancomycin 15 mg/kg IV q12h.",
+            "Dose to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL",
+            "Administer for 4 weeks for native valve, 6 weeks for prosthetic valve"
+          ]
+        },
+        {
+          "type": "nestedContent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Native valve only, uncomplicated disease (see Comments)"
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Penicillin G",
+                    "dose": "12-18 million units/day",
+                    "route": "IV",
+                    "frequency": "divided q4h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "2 weeks"
+                }
+              }
+            },
+            {
+              "type": "regimen",
+              "regimenData": {
+                "intent": "treatment",
+                "components": [
+                  {
+                    "drug": "Ceftriaxone",
+                    "dose": "2 gm",
+                    "route": "IV",
+                    "frequency": "q24h"
+                  },
+                  {
+                    "drug": "Gentamicin",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "frequency": "q24h",
+                    "connector": "+"
+                  }
+                ],
+                "durationDetail": {
+                  "fixedDuration": "2 weeks"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pen G MIC > 0.12 to < 0.5 µg/mL"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For patients intolerant or allergic to beta-lactam, presence or risk of Gentamicin toxicity: Vancomycin 15 mg/kg IV q12h.",
+            "Dose to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL",
+            "Administer for 4 weeks for native valve, 6 weeks for prosthetic valve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pen G MIC \u2265 0.5 µg/mL"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For patients intolerant or allergic to beta-lactam, presence or risk of Gentamicin toxicity: Vancomycin 15 mg/kg IV q12h.",
+            "Dose to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL",
+            "Administer for 4 weeks for native valve, 6 weeks for prosthetic valve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Infectious diseases consultation recommended",
+        "If the infected valve has been removed and the valve culture is negative, 2 weeks of antibiotic therapy post-op is sufficient (Clin Infect Dis 41:187, 2005)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "CLSI breakpoint for Ceftriaxone susceptibility is \u2264 1.0 µg/mL; the EUCAST breakpoint of \u2264 0.5 µg/mL is more conservative and favored by the authors given paucity of data correlating MIC with efficacy of Ceftriaxone against strains of viridans streptococci or S. gallolyticus with penicillin MICs > 0.12 µg/mL.",
+        "4-week regimens preferred for most patients with viridans streptococci or S. gallolyticus and Pen MIC \u2264 0.12 µg/mL; avoid 2-wk regimen for patients age > 65 years, those with cardiac or extracardiac abscess, creatinine clearance of <50 mL/min, impaired eighth cranial nerve function, or Abiotrophia, Granulicatella, or Gemella spp infection.",
+        "S. gallolyticus suggests occult bowel pathology:",
+        "Evaluation for gastrointestinal malignancy may be indicated (Clin Infect Dis 53:870, 2011).",
+        "Increased risk of occult colorectal cancer with bacteremia by other organisms as well: i.e., Bacteroides sp., Clostridium species, and Fusobacterium sp. (Gastroenterology doi: 10.1053/j.gastro.2018.04.028)",
+        "Guidelines: American Heart Association (AHA): Circulation 132:1435, 2015; European Society of Cardiology: Eur Heart J. 2015; 36:3075 and Eur Heart J 2023; 44:3948."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Arthritis",
+    "lastUpdated": "2024-07-12",
+    "sourceFile": "Lyme Disease, Arthritis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Arthritis occurs as a late manifestation of Lyme Disease.",
+        "The reported frequency varies from <10% to up to 60% of untreated patients.",
+        "Most commonly presents as monoarticular or oligo-articular arthritis of the knees.",
+        "Synovial fluid: 500 to >100,000 cells/µL; neutrophil predominate.",
+        "For details on diagnostic methods see: Lyme Disease, Diagnosis, and IDSA Lyme Disease Guidelines (Clin Infect Dis 72:e1, 2020)",
+        "May be able to detect organism in joint fluid by PCR; although antibody tests are preferred method of diagnosis with PCR of joint fluid serving as confirmatory test when uncertain"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Borrelia burgdorferi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Doxycycline 100 mg po bid x 28 days",
+            "Amoxicillin 500 mg po tid x 28 days",
+            "Cefuroxime axetil 500 mg po bid x 28 days."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pediatric:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Doxycycline 4.4 mg/kg/day po divided bid x 28 days (max 100 mg bid)",
+            "Amoxicillin 50 mg/kg/d po divided tid x 28 days",
+            "Cefuroxime axetil 30 mg/kg/day po divided bid x 28 days",
+            "Note: Cefuroxime susp not available in the US, may be available in other markets."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Add NSAIDs for symptom relief",
+        "If only partial response, treat for an additional 2 -4 weeks with IV therapy (Ceftriaxone preferred); if this fails, refer to rheumatologist"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Adult:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ceftriaxone 2 gm IV q24h x 14-28 days",
+            "Penicillin G 20-24 million units IV/day x 14-28 days"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Child (Age ≥ 8 yrs): Ceftriaxone 50-75 mg/kg/d IV x 14-28 days"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If only partial response, treat for an additional 30 days"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pediatrics: Doxycycline safe for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Response to treatment of late Lyme Disease may require weeks to months for improvement.",
+        "2020 Clinical practice guidelines (Neurology 96:262, 2021).",
+        "Review: JAMA 315:1767 & 2461, 2016",
+        "Summary: Med Lett 58:57, 2016"
+      ]
+    }
+  ]
+}

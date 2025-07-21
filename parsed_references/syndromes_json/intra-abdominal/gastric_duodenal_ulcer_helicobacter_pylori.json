@@ -1,0 +1,202 @@
+
+{
+  "documentMetadata": {
+    "title": "Gastric/Duodenal Ulcer, Helicobacter pylori",
+    "lastUpdated": "2022-08-31",
+    "sourceFile": "syndromes/intra-abdominal/Gastric_Duodenal Ulcer, Helicobacter pylori.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duodenal ulcer or gastric ulcer.",
+        "Associated with gastric cancer, MALT lymphoma; not secondary to NSAIDs.",
+        "Treatment guidelines all moving to quadruple therapy due to increasing resistance: AGA guidelines: Am J Gastroenterol 112:212 2017; Maastricht Consensus Report Gut 66:6 2017; Toronto Guidelines Gastroenterology 151:51, 2016"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Helicobacter pylori"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Stool antigen-monoclonal enzyme immunoassay (EIA) >90% sensitive & 92% specific (Am J Gastroenterol 101:1921, 2006).",
+        "Antibiotics, proton pump inhibitors (PPIs) and bismuth subsalicylate (Pepto-Bismol) can interfere with the accuracy of these tests.",
+        "Test 2-4 weeks after stopping antibiotics, 2 weeks after stopping PPI or bismuth.",
+        "PCR for H. pylori is available in some centers. J Clin Micro.59:e03040 2021",
+        "PCR typing (predicting resistance to clarithromycin) [J Clin Micro.59:e03040 2021] or culture with susceptibilities also available in some centers",
+        "Other tests:",
+        "If endoscoped, rapid urease + histology + culture",
+        "Urea breath test, but some office-based tests underperform (Clin Infect Dis 48:1385, 2009).",
+        "Test of cure: Repeat stool antigen and/or urea breath test >8 weeks post-treatment",
+        "Antibody tests (H. pylori serology) are positive in both active and distant infection and will remain positive even if cure successful."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment should be guided by susceptibility testing, where available. PCR typing of clarithromycin resistance now available in some centers; J Clin Micro.59:e03040 2021.",
+        "All regimens are po",
+        "Duration of therapy for all regimens: 14 days"
+      ]
+    },
+    {
+        "type": "nestedContent",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Options for first line therapy:"
+            },
+            {
+                "type": "nestedContent",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Bismuth quadruple (PBMT) 4-drug regimen (administer all):"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "Proton pump inhibitor (multiple options, see Comments below)",
+                            "Bismuth subsalicylate 262-525 mg qid or bismuth subcitrate 120-300 mg qid",
+                            "Metronidazole 250 qid or 500 mg tid-qid",
+                            "Tetracycline 500 mg qid (Note: do not substitute doxycycline; ref Dig Dis Sci 2019;64:2893)"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "nestedContent",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "Non-Bismuth quadruple (PAMC) 4-drug regimen (administer all):"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "Proton pump inhibitor (multiple options, see Comments below)",
+                            "Amoxicillin 1000 mg bid",
+                            "Metronidazole 500 mg bid (could substitute Tinidazole 500 mg bid)",
+                            "Clarithromycin 500 mg bid (Note: do not substitute azithromycin)"
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "nestedContent",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "text": "New single tablet combination formulations:"
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Talicia (Delayed release capsules containing: omeprazole magnesium 10 mg + amoxicillin 250 mg + rifabutin 12.5 mg)"}
+                            ],
+                            "durationDetail": {
+                                "fixedDuration": "14 days"
+                            },
+                            "notes": "Dosage: 4 caps with food q8h x 14 days"
+                        }
+                    },
+                    {
+                        "type": "regimen",
+                        "regimenData": {
+                            "intent": "treatment",
+                            "components": [
+                                {"drug": "Pylera (bismuth subcitrate potassium 140 mg + metronidazole 125 mg + tetracycline 125 mg)"}
+                            ],
+                            "notes": "Dosage: 3 capsules po after meals and h.s. plus omeprazole 20 mg after breakfast and h.s."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For patients that fail above regimens",
+        "Recommended options (all po):",
+        "Bismuth quadruple (PBMT) as above under Primary Regimens",
+        "Levofloxacin containing therapy which is usually PAL:",
+        "Proton pump inhibitor (multiple options, see Comments below)",
+        "Amoxicillin 1000 mg bid",
+        "Levofloxacin 500 mg once daily",
+        "Option restricted to patients that have failed at least 3 recommended options:",
+        "Proton pump inhibitor (multiple options, see Comments below)",
+        "Amoxicillin 1000 mg bid",
+        "Duration of therapy for all is 14 days.",
+        "Evolving alternative using new potent potassium competitive acid blocker: Vonoprazan",
+        "Vonoprazan available in Japan and elsewhere, but not in the U.S.",
+        "Vonoprazan combined with clarithromycin + amoxicillin is reported to eradicate H. pylori in over 90% of the patients (Intern Med. 2020; 59: 153)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Choice of treatment regimen should be guided by resistance patterns and prior history of antibiotic usage.",
+        "Options not recommended as first line therapy due to emerging resistance and low rates of clinical success:",
+        "Sequential non-bismuth quadruple therapy: PPI + Amoxicillin followed by triple therapy with PPI, Metronidazole and Clarithromycin",
+        "Triple therapy: PPI + amoxicillin + either Metronidazole or Clarithromycin"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Talicia: Rifabutin-based triple therapy (RCT) (Ann Intern Med 2020;172: 795)",
+        "Proton pump inhibitors (PPIs). Any of these PPIs may be used. Each considered therapeutically equivalent:",
+        "Omeprazole 20 mg bid",
+        "Lansoprazole 30 mg bid",
+        "Esomeprazole 20 mg bid",
+        "Pantoprazole 40 mg bid",
+        "Rabeprazole 20 mg bid",
+        "Prevalence of pretreatment resistance is increasing, especially to Clarithromycin (Antimicrob Agts Chemother 61: e02530 2017).",
+        "Comparative reviews of treatment options (Postgrad Med 128:152,2016; Medical Letter 2018;60:13--includes estimated expense).",
+        "All regimens primarily based on H. pylori. Treatment Guideline from the American College of Gastroenterology (Amer J Gastroenterol 2017; 112:212)."
+      ]
+    }
+  ]
+}

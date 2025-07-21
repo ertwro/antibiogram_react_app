@@ -1,0 +1,44 @@
+
+{
+  "drug_name": "Fecal Microbiota, Rebyota",
+  "tradename": "Rebyota",
+  "usage_and_dosing": {
+    "description": "Fecal microbiota, live-jslm (Rebyota, RBL), the first live biotherapeutic product (LBP) to be approved by the US FDA, is an opaque fecal microbiota suspension for administration as a retention enema by a healthcare professional. RBL is manufactured from human fecal matter sourced from qualified donors. The human fecal matter is tested for a panel of transmissible pathogens. Donors do not have dietary restrictions with respect to potential food allergens. Each RBL dose (150 mL) is derived from a single stool donor. Minimal counts of key bacteria include at least 10^7 (CFU) of live organisms/mL and specifically 10^5 CFU/mL of Bacteroides species. Indicated for the prevention of recurrence of C. difficile infection (CDI) in individuals ≥18 years of age following antibiotic treatment for recurrent CDI. Not indicated for treatment of CDI. Good review: Clin Infect Dis 2023;77(Suppl 6):S487.",
+    "adult_dose": {
+      "dose": "A single dose of 150 mL, administered as a retention enema.",
+      "administration_timing": "Administer 24 to 72 hours after the last dose of antibiotics for CDI.",
+      "thawing_instructions": "Prior to use, thaw completely by placing the carton in a refrigerator, 2°C to 8°C, for approximately 24 hours. May be stored in the refrigerator at 2°C to 8°C and used within 5 days, including thawing time. DO NOT thaw using a heat source such as a microwave oven or hot water."
+    },
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "dose_renal_function_normal": "150 mL x1 (enema)",
+    "crcl_or_egfr": "No adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment",
+    "capd": "No dosage adjustment",
+    "crrt": "No dosage adjustment",
+    "sled": "No dosage adjustment"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Gastrointestinal (abdominal pain, abdominal distension, nausea, diarrhea, flatulence).",
+    "As with traditional microbiota-based therapies, there is the potential for pathogen transmission. Thus far, there have been no reports of infections caused by a pathogen traceable to RBL.",
+    "Theoretical concern for the transmission of food allergens, as stool donors did not have dietary restrictions and patients with food allergies were excluded from clinical trials. The risk of this occurring is unknown."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No fetal exposure is expected",
+    "use_during_lactation": "No exposure of the infant is expected"
+  },
+  "pharmacology": {
+    "pharmaceutical_preparations": "Suspension (rectal use)"
+  }
+}

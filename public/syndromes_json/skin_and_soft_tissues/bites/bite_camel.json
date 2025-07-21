@@ -1,0 +1,100 @@
+{
+  "documentMetadata": {
+    "title": "Bite wound from camel",
+    "sourceFile": "Bite_ Camel.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite wound from camel",
+        "Upper extremity most frequent site, osteomyelitis reported as late complication"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus",
+        "Streptococcus pyogenes",
+        "Bacillus spp.",
+        "P. aeruginosa",
+        "Other gram-negative bacilli, including Aeromonas sp., Pasteurella aerogenes, and Actinobacillus sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "notes": "over 4 hr"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cephalexin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "qid"
+          },
+          {
+            "connector": "+",
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "Consider rabies as appropriate, rabies can occur in camels (PLoS Negl Trop Dis 10: e0004890, 2016).",
+        "Bites caused by livestock, uncommonly require initiation of PEP.",
+        "Consultation with local public health is advised.",
+        "See Rabies, Vaccines and PEP for detailed evaluation procedure and recommendations",
+        "See Wilderness & Environmental Med 29: 380, 2018",
+        "Eur J Clin Micro Infect Dis 18:918, 1999. Same publication lists organisms recovered from buccal swabs of recently slaughtered camels in Nigeria, including: S. aureus, group A streptococci, coagulase-negative staphylococci, Bacillus spp, Moraxella catarrhalis, Klebsiella pneumoniae and Pseudomonas aeruginosa.",
+        "MERS-CoV has been isolated from dromedary camels (Lancet Infect Dis 14:140, 2014)."
+      ]
+    }
+  ]
+}

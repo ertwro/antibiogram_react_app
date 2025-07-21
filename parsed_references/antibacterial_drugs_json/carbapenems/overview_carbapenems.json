@@ -1,0 +1,48 @@
+{
+  "drug_name": "Carbapenems, Overview",
+  "spectrum_of_activity": {
+    "general": [
+      "Carbapenems have the broadest spectrum of activity of any of the beta-lactam antibiotics.",
+      "Try to reserve for critically ill patients.",
+      "Drugs of choice for ESBL-producing aerobic gram-negative bacilli."
+    ],
+    "resistance": {
+      "major_mechanism": "Carbapenemases are the major mechanism of resistance.",
+      "types": [
+        "Serine carbapenemases: e.g., Klebsiella pneumoniae carbapenemase (KPC)",
+        "Metallo-beta-lactamases",
+        "Oxacillinases: e.g., OXA-48"
+      ],
+      "details": "For details on resistance see Resistant Gram-Negative Bacilli, Overview"
+    }
+  },
+  "allergy_considerations": {
+    "overall_incidence": "0.3-3.7%",
+    "cross_resistance": "Clinical cross-resistance between carbapenems and other beta-lactams is low (<1%).",
+    "penicillin_cephalosporin_allergy": "A patient with a history of penicillin or cephalosporin allergy, as long as it is not a severe delayed cutaneous or organ-involved reaction, can receive a carbapenem without testing or additional precautions (J Allergy Clin Immunol 2022;150:1333)."
+  },
+  "seizures": {
+    "general": "All beta-lactams (penicillins, cephalosporins, monobactams and carbapenems) in high concentration can cause seizures (J Antimicrob Chemother 2000;45:5).",
+    "risk": "Risk of seizure with carbapenems greater than with non-carbapenem beta-lactam antibiotics.",
+    "mechanism": "Postulated mechanism: Drug binding to GABA receptor. Imipenem binds with greater affinity than meropenem. However, no statistical difference in seizure risk in studies that directly compare imipenem and meropenem (J Antimicrob Chemother 2014;69:2043).",
+    "imipenem_risk": "Risk with Imipenem reduced with careful attention to dosage (Epilepsia 2001;42:1590).",
+    "percent_seizures": "Percent seizures in product labeling: ertapenem 0.5%, imipenem 0.4%, meropenem 0.7%. However, in 3 clinical trials of meropenem for bacterial meningitis, no drug-related seizures reported (Scand J Infect Dis 1999;31:3; Drug Saf 2000;22:191)."
+  },
+  "carbapenems_and_valproic_acid": {
+    "interaction": "The drug interaction between carbapenems and valproic acid (VPA) is well documented. Concomitant carbapenem administration has been associated with a 50-80% reduction in VPA concentrations.",
+    "vpa_overdose_therapy": "The use of carbapenems to reduce VPA concentrations has emerged as a reasonable therapy for VPA overdose, along with activated charcoal, carnitine, and hemodialysis (Br J Clin Pharmacol 2025;91:648).",
+    "mechanism": "The mechanism is thought to be interference with enterohepatic recycling of VPA. Normally, VPA is conjugated with glucuronic acid in the liver to form VPA glucuronide. VPA glucuronide is an inactive metabolite that is eliminated in bile and urine, but some of it is hydrolyzed back to VPA by acylpeptide hydrolase (an enzyme primarily localized to the hepatic cytosol). By inhibiting acylpeptide hydrolase, carbapenems prevent VPA regeneration (and more of it is eliminated as the glucuronide)."
+  },
+  "specific_agents": [
+    "Doripenem",
+    "Ertapenem",
+    "Imipenem-cilastatin",
+    "Imipenem-cilastatin-relebactam",
+    "Meropenem",
+    "Meropenem-vaborbactam",
+    "Sulopenem etzadroxil-probenecid (a thiopenem ester prodrug)"
+  ],
+  "related_topics_links": [
+    "Drug Allergy: Penicillins, Cephalosporins, Overview"
+  ]
+}

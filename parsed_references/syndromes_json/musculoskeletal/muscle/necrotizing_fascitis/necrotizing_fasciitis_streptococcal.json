@@ -1,0 +1,153 @@
+{
+  "documentMetadata": {
+    "title": "Necrotizing Fasciitis, Streptococcal",
+    "lastUpdated": "2024-05-28",
+    "sourceFile": "Necrotizing Fasciitis, Streptococcal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute onset of pain followed by fever and defined area of inflamed erythematous skin. Usually on an extremity.",
+        "Looks like erysipelas but rapidly progresses in size with evidence of necrosis of the skin (e.g., blood-filled ischemic bullae on the skin).",
+        "Necrosis manifests by decrease in pain and dusky, cyanotic skin, often with the blood-filled bullae. Diagnosis by demonstrating necrosis in fascial plane between the subcutaneous tissue and muscle.",
+        "May have associated toxic shock syndrome as defined by hypotension, nausea, vomiting, diarrhea, renal failure, respiratory failure, and maybe erythroderma."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus sp.",
+        "Group A Strep. pyogenes (most common)",
+        "Also occurs with Strep. Groups B, C, & G"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Surgical debridement",
+        "notes": "is of greatest importance"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Empiric therapy",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "4 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Clindamycin",
+            "dose": "900 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "+"
+          }
+        ],
+        "notes": "See Comments below for discussion of increased clindamycin dose. 50% of patients have associated streptococcal toxic shock syndrome; combination therapy to include clindamycin recommended to block local S. pyogenes toxin production whether or not patient manifests toxic shock syndrome. Note: Increasing prevalence of in vitro resistance to clindamycin. Check in vitro susceptibility. If resistant, linezolid or tedizolid are reasonable alternatives. See Comments"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "IVIG",
+            "dose": "0.5 gm/kg on day 1, then 25 gms on days 2 and 3"
+          }
+        ],
+        "notes": "Consider early use of. Regimen shown to provide a high degree of plasma superantigen neutralization (Clin Infect Dis 2020;71:1772) (See Comments)."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Surgical debridement"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Empiric therapy",
+        "appliesTo": {
+          "description": "patient has penicillin allergy"
+        },
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h"
+          }
+        ],
+        "notes": "can substitute. to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator); alternative is trough of 15-20 µg/mL"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Linezolid or Tedizolid can be used if needed to substitute for Clindamycin in clinda-allergic patient"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clindamycin resistance is an increasing problem: Up to 15% in the USA and 95.5% in China; hence do not use Clindamycin monotherapy unless in vitro susceptibility is confirmed. Resistance can be constitutive or inducible."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Clindamycin is used to stop production of toxins and other virulence factors.",
+        "In a murine model of necrotizing fasciitis, Clindamycin inhibited important virulence factors even if the streptococcal isolate was resistant to Clindamycin: J Infect Dis 2017;215:269",
+        "Further, sub-inhibitory concentrations of Clindamycin stimulated group A strep virulence factors.",
+        "Hence the recommendation for high dose to ensure adequate drug concentration in necrotic tissue: Clindamycin 900 mg IV q6h",
+        "In retrospective cohort study, adjunctive clindamycin decreased in hospital mortality. Lancet Infect Dis 2021;21:697",
+        "Administration of IVIG has been associated with improved mortality (Clin Infect Dis 2018; 67:1434, Clin Infect Dis. 2021;72:293).",
+        "Overall, treatment requires early exploratory surgery to establish diagnosis, aggressive debridement of necrotic tissue and antibiotic therapy.",
+        "Penicillin active vs rapidly growing bacteria but less effective vs stationary phase organisms",
+        "Clindamycin at therapeutic concentrations inhibits protein synthesis and toxin production in growing and stationary phase bacteria.",
+        "Hyperbaric oxygen (HBO) is not a standard part of therapy. Do not delay surgical debridement to arrange or implement HBO.",
+        "Patients may Present with associated rhabdomyolysis.",
+        "References: New Engl J Med 2017;377: 2253.",
+        "See Necrotizing Fasciitis, Overview for further discussion and links to other etiologies of necrotizing fasciitis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+
+{
+  "drug_name": "Rifamycin SV",
+  "tradename": "Aemcolo",
+  "usage_and_dosing": {
+    "description": "Rifamycin SV, FDA-approved in 2018, is indicated for traveler's diarrhea caused by non-invasive strains of E. coli in adults.",
+    "notes": [
+      "Rifamycin SV is a poorly absorbed member of the rifamycin (technically ansamycin) class of antibiotics that was actually the first to be used in clinical practice (1963). In theory the product's MMX (multimatrix) technology allows for release of active antibiotic only after it reaches pH levels of ≥7 in the distal small bowel and colon, with an additional 1 hour delay upon reaching this pH.",
+      "Mechanism of action: inhibition of the beta-subunit of bacterial DNA-dependent RNA polymerase, blocking one of the steps in DNA transcription."
+    ],
+    "adult_dose": {
+      "dosage": "388 mg (2 tablets) po bid x3 days.",
+      "instructions": [
+        "Tablets should be swallowed whole (NOT crushed, chewed, or broken) with 6-8 oz of liquid.",
+        "Tablets may be taken with or without food, but NOT concomitantly with alcohol."
+      ]
+    },
+    "pediatric_dose": {
+      "dosage": "Safety and efficacy not established",
+      "max_day": ""
+    }
+  },
+  "renal_adjustment": {
+    "body_weight_and_creatinine_clearance_calculations": true,
+    "half_life_normal": "No data",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "388 mg po q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": {
+    "contraindications": "Contraindicated in patients with a hypersensitivity to rifamycin, any members of the rifamycin class, or any of the components in rifamycin SV.",
+    "warnings_and_precautions": [
+      "Not effective in patients with diarrhea accompanied by fever or bloody stools, or due to pathogens other than non-invasive strains of E. coli.",
+      "Possibility of C. difficile-associated diarrhea."
+    ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data, toxic in animals at supratherapeutic exposures. Due to negligible oral absorption, fetal exposure is unlikely. Advise women of potential fetal risk. 10",
+    "lactation": "Probably safe with monitoring, but no data available. 9"
+  },
+  "antimicrobial_spectrum": {
+    "activity": [
+      "E. coli (enterotoxigenic, enteroaggregative isolates).",
+      "Shigella species and some Salmonella species."
+    ],
+    "no_activity": [
+      "Campylobacter species."
+    ]
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Tab (194 mg)",
+    "food_recs": "Tab ± food (no alcohol)",
+    "oral_absorption": "Negligible",
+    "tmax_hr": "",
+    "peak_serum_conc": "Negligible",
+    "peak_urine_conc": "No data",
+    "protein_binding": "80",
+    "volume_of_distribution": "No data",
+    "avg_serum_t1_2": "No data",
+    "elimination": "Fecal",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "No data"
+  },
+  "major_drug_interactions": {
+    "note": "Because of minimal systemic concentrations, clinically relevant drug interactions are not expected."
+  },
+  "comments": [
+    "Product availability: delayed-release tablet, containing 194 mg of rifamycin (equivalent to 200 mg of rifamycin sodium).",
+    "Review: Med Lett Drugs Ther 2019;61:39."
+  ]
+}

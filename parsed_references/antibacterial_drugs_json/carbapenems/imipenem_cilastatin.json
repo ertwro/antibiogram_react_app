@@ -1,0 +1,146 @@
+{
+  "drug_name": "Imipenem-cilastatin",
+  "tradename": "Primaxin, Tienam",
+  "usage_and_dosing": {
+    "general": [
+      "Imipenem-cilastatin is a carbapenem with a broad spectrum of activity that includes:",
+      "Aerobic and anaerobic gram-negative bacilli.",
+      "Aerobic gram-negative bacilli that produce extended-spectrum beta-lactamases (ESBL).",
+      "Notable absence of activity vs. MRSA, E. faecium, vancomycin-resistant enterococci, and Stenotrophomonas spp.",
+      "Cilastatin blocks enzymatic degradation of imipenem by renal dehydropeptidase on brush border of proximal convoluted tubule, decreasing risk of proximal tubule toxicity.",
+      "Wide variety of FDA-approved indications.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Because of its relative instability in solution, imipenem-cilastatin is not suitable for outpatient prolonged infusion therapy.",
+      "For infection due to P. aeruginosa, increase dose to 3-4 gm/day (divided q6-8h). Extended infusion of carbapenems may be more efficacious (there are stability issues; see Continuous, Extended Infusion Dosing).",
+      "Allergy",
+      "For allergy considerations, see Carbapenems, Overview.",
+      "See protocol for desensitization."
+    ]
+  },
+  "antimicrobial_stewardship": {
+    "enterobacterales_susceptibility": "The current Enterobacterales susceptibility breakpoint of ≤1 µg/mL for carbapenems significantly reduces rates of susceptibility for certain species to imipenem-cilastatin compared to other carbapenems, for which susceptibility rates are largely unaffected (Can J Infect Dis Med Microbiol 2014;25:285; J Antimicrob Chemother 2011;66:2671). The mechanism of this differential susceptibility is unknown but may be due to differences in binding affinity to target penicillin binding proteins.",
+    "affected_organisms": {
+      "proteus_spp": "100% vs. 65-85%",
+      "morganella_morganii": "100% vs. 20-40%",
+      "providencia_spp": "100% vs. 70%",
+      "serratia_spp": "99% vs. 93%"
+    },
+    "meropenem_surrogate": "Meropenem susceptibility should not be relied upon as a surrogate to predict susceptibility to Imipenem."
+  },
+  "adult_dose": {
+    "usual_dose": "500 mg IV q6h, OR 1 gm IV q8h",
+    "intermediate_susceptibility": "1 gm IV q6h"
+  },
+  "pediatric_dose": {
+    "age_lt_1_wk_wt_ge_1_5_kg": "25 mg/kg q12h",
+    "age_1_wk_to_4_wks_wt_ge_1_5_kg": "25 mg/kg q8h",
+    "age_4_wks_to_3_mon_wt_ge_1_5_kg": "25 mg/kg q6h",
+    "age_ge_3_mon": "15-25 mg/kg q6h",
+    "max_day": "4 gm"
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1",
+    "half_life_esrd": "4",
+    "dose_renal_function_normal": "Variable",
+    "crcl_or_egfr": {
+      "target_500mg_q6h": "CrCl ≥90: No dosage adjustment. CrCl 60 to <90: 400 mg q6h. CrCl 30 to <60: 300 mg q6h. CrCl 15 to <30: 200 mg q6h",
+      "target_1gm_q8h": "CrCl ≥90: No dosage adjustment. CrCl 60 to <90: 500 mg q6h. CrCl 30 to <60: 500 mg q8h. CrCl 15 to <30: 500 mg q12h",
+      "target_1gm_q6h": "CrCl ≥90: No dosage adjustment. CrCl 60 to <90: 750 mg q8h. CrCl 30 to <60: 500 mg q6h. CrCl 15 to <30: 500 mg q12h"
+    },
+    "hemodialysis": {
+        "target_500mg_q6h": "200 mg q6h (dose AD)",
+        "target_1gm_q8h": "500 mg q12h (dose AD)",
+        "target_1gm_q6h": "500 mg q12h (dose AD)"
+    },
+    "capd": "No data",
+    "crrt": "0.5-1 gm q6h (varies w/MIC, effluent rate) 47"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments.",
+    "ECMO: See ECMO Drug Dosing Adjustment."
+  ],
+  "adverse_effects": [
+    "GI (nausea, vomiting, diarrhea, C. difficile infection).",
+    "In patients who develop nausea during the infusion, the rate of infusion may be slowed.",
+    "Hypersensitivity (rash, urticaria, anaphylaxis)",
+    "Local phlebitis",
+    "Hematologic: neutropenia, eosinophilia, thrombocytopenia",
+    "Increased LFTs",
+    "Seizure risk, see Carbapenems, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans; some evidence of maternal and fetal toxicity in animals. Considered safe for use in pregnant patients.",
+    "lactation": "Safe, monitor infant for GI toxicity",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Bacteroides fragilis",
+      "E. coli, extended spectrum beta lactamase producer (ESBL)",
+      "Nocardia sp.",
+      "Resistant (ESBL) oxytoca, pneumoniae, variicola"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "40 (500 mg IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "15-25",
+    "volume_of_distribution_vd_l_kg": "0.23-0.31 L/kg",
+    "avg_serum_half_life_hr": "1",
+    "elimination": "Renal",
+    "bile_penetration_percent": "Minimal",
+    "csf_blood_percent": "8.5",
+    "therapeutic_levels_in_csf": "Possibly 9",
+    "auc_ug_hr_ml": "42.2 (500 mg IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": "Imipenem: OAT1, OAT3, Cilastatin: OAT1, OAT3",
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "BCG",
+          "effect": "↓ effectiveness of BCG",
+          "management": "Avoid co-administration"
+      },
+      {
+          "drug": "Ganciclovir",
+          "effect": "↑ seizure risk",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Probenecid",
+          "effect": "↑ imipenem",
+          "management": "Monitor, adjust dosage"
+      },
+      {
+          "drug": "Valganciclovir",
+          "effect": "↑ seizure risk",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Valproic acid",
+          "effect": "↓ valproic acid",
+          "management": "Monitor, adjust dosage"
+      }
+  ]
+}

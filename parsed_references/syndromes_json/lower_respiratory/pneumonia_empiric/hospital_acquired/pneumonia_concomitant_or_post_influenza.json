@@ -1,0 +1,96 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Concomitant or Post Influenza",
+    "sourceFile": "Pneumonia, Concomitant or Post Influenza.pdf",
+    "lastUpdated": "2024-03-27"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Signs or symptoms of pneumonia or sepsis concomitant with or following influenza.",
+        "Sputum gram stain useful for identifying Staph. aureus pneumonia post-influenza.",
+        "Complicates 0.5 to 2.5% of influenza cases."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staph. aureus",
+        "Strep. pneumoniae",
+        "Haemophilus influenzae",
+        "Strep. pyogenes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "notes": "In addition to coverage for both influenza and community-acquired pneumonia cover for MRSA",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)",
+            "connector": "or"
+          },
+          {
+            "drug": "Linezolid",
+            "dose": "600 mg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "For patients with MRSA risk factor (e.g., IVDU, prior positive culture for MRSA, inpatient parenteral antimicrobial therapy within 90 days) or with evidence of necrotizing pneumonia, hemoptysis, severe disease.",
+        "Obtain sputum and blood cultures, which if negative MRSA coverage can be stopped."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "CDC surveillance data during the 2009 H1N1 influenza outbreak showed that pediatric deaths were associated with a documented bacterial infection in about a third of cases, 33% of which were Staph. aureus (both MSSA and MRSA) and 22% Strep. pneumoniae.",
+        "About a third of patients admitted to the ICU and requiring mechanical ventilation had microbiological evidence of a concomitant bacterial pneumonia, predominantly due to Gram-positive cocci (Am J Respir Crit Care Med. 2021; 204:546)."
+      ]
+    }
+  ]
+}

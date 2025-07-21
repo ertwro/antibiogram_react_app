@@ -1,0 +1,244 @@
+{
+  "documentMetadata": {
+    "title": "Acute Bacterial Prostatitis",
+    "sourceFile": "Prostatitis, Bacterial, Acute.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Etiologies and treatment of acute prostatitis vary based on patient's age.",
+        "Acute prostatitis typically presents with fever, chills, malaise, myalgia, dysuria, pelvic/perineal pain, and cloudy urine (review Clin Infect Dis 50:1641, 2010).",
+        "2015 Guidelines: BJU Int 2015, 116:509.",
+        "Complications include: bacteremia, epididymitis, prostatic abscess, extension or metastasis to other locations (e.g., joints), and conversion to chronic prostatitis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Age < 35 years"
+        },
+        {
+          "type": "list",
+          "items": [
+            "N. gonorrheae",
+            "C. trachomatis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Age ≥35 years"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Enterobacteriaceae",
+            "Coliforms",
+            "Enterococcus sp."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Uncomplicated, with risk of STD (Age < 35 years):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "500 mg",
+                "route": "IM",
+                "duration": "1 dose"
+              },
+              {
+                "drug": "Cefixime",
+                "dose": "400 mg",
+                "route": "po",
+                "duration": "1 dose",
+                "connector": "or"
+              },
+              {
+                "drug": "Doxycycline",
+                "dose": "100 mg",
+                "route": "po",
+                "frequency": "bid",
+                "duration": "10 days",
+                "connector": "+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Uncomplicated with low risk of STD:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "500-750 mg",
+                "route": "IV/po",
+                "frequency": "once daily"
+              },
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "500-750 mg po or 400 mg IV",
+                "frequency": "twice daily",
+                "connector": "or"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days (minimum)"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "TMP-SMX",
+                "dose": "1 DS tablet (160 mg TMP component)",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days (minimum)"
+            }
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Some authorities recommend 4 to 6 weeks of therapy, though this is typically used in Chronic Prostatitis",
+            "Use of adjunctive uroselective alpha-adrenergicantagonists (e.g. tamsulosin, alfuzosin and silodosin) should be considered to reduce symptomatology (e.g., poor urinary stream, hesitancy)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "proven Chlamydial prostatitis",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1 gm",
+            "frequency": "q week",
+            "duration": "4 weeks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "resistant enterobacteriaceae",
+        "components": [
+          {
+            "drug": "Ertapenem",
+            "dose": "1 gm",
+            "route": "IV",
+            "frequency": "qd"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "at least 2 weeks (4 weeks may be required)"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "resistant pseudomonas",
+        "components": [
+          {
+            "drug": "Imipenem",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6h"
+          },
+          {
+            "drug": "Meropenem",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks"
+        }
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fluoroquinolones are no longer recommended for gonococcal infections, because of significant rates of resistance.",
+        "Levofloxacin: usual suggested dose is 500 mg; some prefer 750 mg dose because of higher drug levels and reports of treatment failures at the lower dose",
+        "Use antimicrobials with ability to penetrate the prostate, such as fluoroquinolones (non-gonococcal) or TMP/SMX (high degree of lipid solubility, low degree of ionization, high dissociation constant, low protein binding, and small molecular size).",
+        "In AIDS patients, prostate may be focus of Cryptococcus neoformans.",
+        "Treat as an acute urinary infection for 14 days (not single dose regimen; may need 4-6 weeks of therapy).",
+        "If uncertain about C. trachomatis and/or N. gonorrhoeae do urine test."
+      ]
+    }
+  ]
+}

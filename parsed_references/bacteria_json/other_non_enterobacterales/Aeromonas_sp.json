@@ -1,0 +1,617 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Aeromonas sp.",
+      "aliases": [
+        "Aeromonas hydrophila",
+        "Aeromonas veronii",
+        "Aeromonas shubertii"
+      ],
+      "lastUpdated": "2024-03-26",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli",
+        "respiration": "Aerobic",
+        "notes": []
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Aeromonas hydrophila",
+          "notes": "Most common species"
+        },
+        {
+          "type": "Species",
+          "value": "Aeromonas veronii",
+          "notes": ""
+        },
+        {
+          "type": "Species",
+          "value": "Aeromonas shubertii",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-negative rod, oxidase +, motile (single polar flagellum), ferments glucose, indole +, resistant to vibriostatic agent O/129."
+    },
+    "clinicalProfile": {
+      "summary": "Aeromonas species are gram-negative bacilli found in aquatic environments that can cause gastroenteritis, wound infections, and bacteremia, particularly after exposure to contaminated water or medicinal leeches.",
+      "pathophysiologyPearls": [
+        "Infections are often linked to exposure to fresh, brackish, or marine water.",
+        "Can be part of the oral flora of leeches, leading to infections after their use.",
+        "Several species exist with variable antimicrobial susceptibility, necessitating culture and susceptibility testing."
+      ],
+      "keySignsAndSymptoms": [
+        "Diarrhea (can be watery or bloody)",
+        "Wound inflammation, pain, and purulent discharge",
+        "Fever and signs of sepsis in bacteremic cases"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "The most common clinical presentation. It is a recognized cause of Traveler's diarrhea."
+        },
+        {
+          "syndromeName": "Wound Infections",
+          "description": "Occur post-trauma or after exposure to contaminated water or leeches."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur, often secondary to wound infections or gastroenteritis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Travelers",
+        "Individuals with traumatic water-exposure injuries",
+        "Patients undergoing leech therapy"
+      ],
+      "transmissionVectors": [
+        "Contaminated water (fresh, brackish, marine)",
+        "Leeches"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [
+        {
+          "drugOrClass": "Ampicillin",
+          "notes": "Uniformly resistant."
+        },
+        {
+          "drugOrClass": "Penicillin",
+          "notes": "Uniformly resistant."
+        },
+        {
+          "drugOrClass": "Cefazolin",
+          "notes": "Uniformly resistant."
+        }
+      ],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Aeromonas species can produce a variety of beta-lactamases, including ESBLs, AmpC cephalosporinases, and carbapenemases (including metallo-carbapenemases), conferring resistance to a broad range of beta-lactam antibiotics."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Geographic Resistance Variation",
+          "details": "Resistance to beta-lactams and fluoroquinolones has been recognized in selected areas of the world."
+        },
+        {
+          "alertTitle": "Ciprofloxacin Resistance Post-Leech Therapy",
+          "details": "Ciprofloxacin-resistant Aeromonas has been reported following leech therapy."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Empiric therapy should be guided by the severity of infection and local resistance patterns, pending culture and susceptibility results.",
+        "Most strains are susceptible to antipseudomonal aminoglycosides, carbapenems, and tetracyclines."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Severe Wound Infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies with wound severity and clinical response",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400mg IV or 750mg PO",
+                      "route": "IV/PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": "Differences in susceptibility by species and by geography."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies with wound severity and clinical response",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "8-10 mg/kg/day",
+                      "route": "IV",
+                      "frequency": "divided q6h or q8h",
+                      "comments": "Based on trimethoprim component."
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Cefepime",
+                      "dose": "2",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Gastroenteritis (Traveler's Diarrhea)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Oral fluoroquinolones are chelated by multi-valent cations: avoid concomitant oral calcium (dairy products), iron, magnesium or other multivalent cations an hour before or for one hour after dosing."
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX DS",
+                      "dose": "1 tab",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Culture and susceptibility testing of infected wound, stool, and blood is necessary due to variable antimicrobial susceptibility among species."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "If in vitro resistance to one or more of the above regimens is found, another alternative is combining doxycycline with either a fluoroquinolone or an extended-spectrum cephalosporin."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "The Lancet",
+          "citation": "Lancet 381:1686, 2013",
+          "summaryOrNote": "Article on leech-associated infections."
+        },
+        {
+          "source": "Journal of Clinical Microbiology",
+          "citation": "J Clin Micro 51:1324, 2013",
+          "summaryOrNote": "Report on ciprofloxacin-resistant Aeromonas following leech therapy."
+        },
+        {
+          "source": "Antimicrobial Agents and Chemotherapy",
+          "citation": "Antimicrob Agents Chemother 56:1110, 2012",
+          "summaryOrNote": "Information on susceptibility to aminoglycosides, carbapenems, and tetracyclines."
+        },
+        {
+          "source": "Clinics in Laboratory Medicine",
+          "citation": "Clinics in Lab Med 35:313, 2015",
+          "summaryOrNote": "Information on beta-lactamase production in Aeromonas species."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.322Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Aeromonas sp."
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Aeromonas hydrophila",
+        "Aeromonas veronii",
+        "Aeromonas shubertii"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-03-26"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli",
+        "respiration": "Aerobic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Aeromonas species are gram-negative bacilli found in aquatic environments that can cause gastroenteritis, wound infections, and bacteremia, particularly after exposure to contaminated water or medicinal leeches.",
+      "pathophysiologyPearls": [
+        "Infections are often linked to exposure to fresh, brackish, or marine water.",
+        "Can be part of the oral flora of leeches, leading to infections after their use.",
+        "Several species exist with variable antimicrobial susceptibility, necessitating culture and susceptibility testing."
+      ],
+      "keySignsAndSymptoms": [
+        "Diarrhea (can be watery or bloody)",
+        "Wound inflammation, pain, and purulent discharge",
+        "Fever and signs of sepsis in bacteremic cases"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "The most common clinical presentation. It is a recognized cause of Traveler's diarrhea."
+        },
+        {
+          "syndromeName": "Wound Infections",
+          "description": "Occur post-trauma or after exposure to contaminated water or leeches."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Can occur, often secondary to wound infections or gastroenteritis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Travelers",
+        "Individuals with traumatic water-exposure injuries",
+        "Patients undergoing leech therapy"
+      ],
+      "transmissionVectors": [
+        "Contaminated water (fresh, brackish, marine)",
+        "Leeches"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [
+        {
+          "drugOrClass": "Ampicillin",
+          "notes": "Uniformly resistant."
+        },
+        {
+          "drugOrClass": "Penicillin",
+          "notes": "Uniformly resistant."
+        },
+        {
+          "drugOrClass": "Cefazolin",
+          "notes": "Uniformly resistant."
+        }
+      ],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Aeromonas species can produce a variety of beta-lactamases, including ESBLs, AmpC cephalosporinases, and carbapenemases (including metallo-carbapenemases), conferring resistance to a broad range of beta-lactam antibiotics."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Geographic Resistance Variation",
+          "details": "Resistance to beta-lactams and fluoroquinolones has been recognized in selected areas of the world."
+        },
+        {
+          "alertTitle": "Ciprofloxacin Resistance Post-Leech Therapy",
+          "details": "Ciprofloxacin-resistant Aeromonas has been reported following leech therapy."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Severe Wound Infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400mg IV or 750mg PO",
+              "route": "IV/PO",
+              "frequency": "BID",
+              "duration": "Varies with wound severity and clinical response",
+              "comments": "",
+              "originalText": "Ciprofloxacin 400mg IV or 750mg PO IV/PO BID"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "Varies with wound severity and clinical response",
+              "comments": "Differences in susceptibility by species and by geography.",
+              "originalText": "Levofloxacin 750 IV daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Severe Wound Infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "8-10 mg/kg/day",
+              "route": "IV",
+              "frequency": "divided q6h or q8h",
+              "duration": "Varies with wound severity and clinical response",
+              "comments": "Based on trimethoprim component.",
+              "originalText": "TMP-SMX 8-10 mg/kg/day IV divided q6h or q8h"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "Varies with wound severity and clinical response",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 IV daily"
+            },
+            {
+              "drugName": "Cefepime",
+              "dose": "2",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Varies with wound severity and clinical response",
+              "comments": "",
+              "originalText": "Cefepime 2 IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Gastroenteritis (Traveler's Diarrhea)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 500 PO BID"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Levofloxacin 500 PO daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Gastroenteritis (Traveler's Diarrhea)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX DS",
+              "dose": "1 tab",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "TMP-SMX DS 1 tab PO BID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Culture and susceptibility testing of infected wound, stool, and blood is necessary due to variable antimicrobial susceptibility among species."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

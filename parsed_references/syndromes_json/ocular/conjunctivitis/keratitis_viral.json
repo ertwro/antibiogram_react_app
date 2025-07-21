@@ -1,0 +1,188 @@
+
+{
+  "documentMetadata": {
+    "title": "Viral Keratitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Keratitis, Viral.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Herpes Simplex Virus (HSV) Keratitis"
+    },
+    {
+      "type": "paragraph",
+      "text": "HSV keratitis is a common cause of infectious corneal blindness in the developed world. It is typically caused by HSV-1. After a primary infection (often asymptomatic), the virus establishes latency in the trigeminal ganglion. Reactivation can be triggered by factors like fever, stress, sunlight, or immunosuppression, leading to recurrent ocular disease."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations of HSV Keratitis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Epithelial Keratitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the most common form, caused by active viral replication in the corneal epithelium. The classic sign is a dendritic ulcer, a linear branching lesion that stains with fluorescein. Patients often experience pain, photophobia, and blurred vision. Corneal sensation is typically reduced."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Stromal Keratitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is an immune-mediated response to viral antigens in the corneal stroma, not active viral replication. It can present as necrotizing stromal keratitis (with inflammation and tissue destruction) or non-necrotizing (interstitial) keratitis (with stromal haze and ghost vessels). It can lead to significant scarring."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Endotheliitis (Disciform Keratitis)"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is an inflammatory reaction in the corneal endothelium. It presents as a disc-shaped area of corneal edema, often with keratic precipitates (inflammatory cells on the endothelium). It is an immunologic reaction, not an active infection."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management of HSV Keratitis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Standard of Care",
+            "condition": "Epithelial Keratitis (Dendritic Ulcer)",
+            "appliesTo": {
+              "description": "Patients with active HSV epithelial disease"
+            },
+            "components": [
+              {
+                "drug": "Trifluridine 1% drops",
+                "route": "topical",
+                "frequency": "9 times daily"
+              },
+              {
+                "drug": "Ganciclovir 0.15% gel",
+                "route": "topical",
+                "frequency": "5 times daily",
+                "connector": "or"
+              },
+              {
+                "drug": "Acyclovir 400 mg",
+                "route": "PO",
+                "frequency": "5 times daily",
+                "connector": "or"
+              }
+            ],
+            "notes": "Topical antivirals are the mainstay. Oral acyclovir is equally effective and often better tolerated. Topical steroids are contraindicated."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Specialist-Managed",
+            "condition": "Stromal or Endothelial Keratitis",
+            "appliesTo": {
+              "description": "Patients with immune-mediated HSV keratitis"
+            },
+            "components": [
+              {
+                "drug": "Prednisolone acetate 1% drops",
+                "route": "topical",
+                "frequency": "Varies, tapered slowly"
+              },
+              {
+                "drug": "Oral Acyclovir (or Valacyclovir/Famciclovir)",
+                "route": "PO",
+                "frequency": "Prophylactic dose",
+                "connector": "+"
+              }
+            ],
+            "notes": "This is treated with topical corticosteroids to control the inflammation, always under the cover of a prophylactic oral antiviral to prevent epithelial recurrence. This must be managed by an ophthalmologist."
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "prophylaxis",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "Recurrent HSV Keratitis",
+            "appliesTo": {
+              "description": "Patients with a history of stromal keratitis or multiple recurrences"
+            },
+            "components": [
+              {
+                "drug": "Acyclovir 400 mg",
+                "route": "PO",
+                "frequency": "twice daily"
+              }
+            ],
+            "durationDetail": {
+              "criteriaBasedDuration": {
+                "description": "Long-term, often for at least 1 year."
+              }
+            },
+            "notes": "Long-term oral antiviral prophylaxis has been shown by the Herpetic Eye Disease Study (HEDS) to reduce the rate of recurrence of all forms of ocular HSV disease."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Varicella-Zoster Virus (VZV) Ophthalmicus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Also known as Herpes Zoster Ophthalmicus (HZO), this occurs when VZV reactivates in the ophthalmic division of the trigeminal nerve. Hutchinson's sign (a rash on the tip of the nose) indicates a high likelihood of ocular involvement. Ocular manifestations are similar to HSV, including conjunctivitis, keratitis (pseudodendrites), stromal keratitis, and uveitis."
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Standard of Care",
+        "condition": "Herpes Zoster Ophthalmicus",
+        "appliesTo": {
+          "description": "Patients with HZO"
+        },
+        "components": [
+          {
+            "drug": "Acyclovir 800 mg",
+            "route": "PO",
+            "frequency": "5 times daily"
+          },
+          {
+            "drug": "Valacyclovir 1 g",
+            "route": "PO",
+            "frequency": "3 times daily",
+            "connector": "or"
+          },
+          {
+            "drug": "Famciclovir 500 mg",
+            "route": "PO",
+            "frequency": "3 times daily",
+            "connector": "or"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-10 days"
+        },
+        "notes": "High-dose oral antivirals should be started within 72 hours of rash onset to reduce the severity and duration of the rash and to decrease the risk and severity of ocular complications and postherpetic neuralgia."
+      }
+    }
+  ]
+}

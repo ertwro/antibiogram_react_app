@@ -1,0 +1,78 @@
+{
+  "drug_name": "Gemifloxacin",
+  "tradename": "Factive",
+  "usage_and_dosing": {
+    "general": [
+      "Gemifloxacin is a fluoroquinolone FDA-approved for oral therapy of acute exacerbation of chronic bronchitis and mild-to-moderate community acquired pneumonia (CAP).",
+      "No longer available in the US.",
+      "For additional class-wide information, see Fluoroquinolones, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "320 mg po q24h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "Safety and efficacy not established",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "7",
+    "half_life_esrd": ">7",
+    "dose_renal_function_normal": "320 mg po q24h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 160 mg q24h. CrCl <10: 160 mg q24h",
+    "hemodialysis": "160 mg q24h (give dialysis day dose AD)",
+    "capd": "160 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Peculiar duration-dependent skin rash. After 14 days of therapy in patients under age 40 years, rash developed in 7.7% of men and 22.6% of women. Incidence of rash with ≤ 5 days of therapy is only 1.5%. Mechanism is unclear.",
+    "Treatment stopped due to adverse effects (2.2%), rash (1-22%), photosensitivity (rare), anaphylaxis (rare), nausea/vomiting (2.7%), diarrhea (3.6%), C. difficile colitis (rare), hepatic failure, dizziness/lightheadedness (3%), headache (6%), confusion (rare), seizures (rare), dysrhythmias.",
+    "Myasthenia gravis: any FQ may exacerbate muscle weakness in patients with myasthenia gravis.",
+    "For class-wide adverse effects, including QTc prolongation, see QTc Interval Prolongation."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Avoid in pregnancy due to possible renal, cardiac, and CNS toxicity in the fetus. Consider use if no alternatives exist, and if benefit outweighs risk.",
+    "lactation": "Short-term use safe, monitor infant for GI toxicity; avoid if possible.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Tab (320 mg)",
+    "food_recommendation": "Tab ± food",
+    "oral_absorption_percent": "71",
+    "tmax_hr": "0.5-2.0",
+    "peak_serum_conc_ug_ml": "1.6 (320 mg po q24h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "55-73",
+    "volume_of_distribution_vd_l_kg_vss_f": "1.7-12.1 L/kg (Vss/F)",
+    "avg_serum_half_life_hr": "7",
+    "elimination": "Fecal, some renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "9.9 (320 mg po q24h, 0-24 hr)"
+  },
+  "major_drug_interactions": [
+      {"drug": "Antacids (Al, Ca, Mg)", "effect": "↓ gemifloxacin", "management": "Separate admin by 2-3 hours"},
+      {"drug": "Calcium supplements", "effect": "↓ gemifloxacin", "management": "Separate admin by 2-3 hours"},
+      {"drug": "Didanosine", "effect": "↓ gemifloxacin", "management": "Separate admin by 2-3 hours"},
+      {"drug": "Iron supplements", "effect": "↓ gemifloxacin", "management": "Separate admin by 2-3 hours"},
+      {"drug": "NSAIDS", "effect": "↑ risk of CNS stimulation/seizures", "management": "Monitor or avoid"},
+      {"drug": "Probenecid", "effect": "↑ gemifloxacin", "management": "Monitor or avoid"},
+      {"drug": "Sucralfate", "effect": "↓ gemifloxacin", "management": "Separate admin by 2 hours"},
+      {"drug": "Zinc", "effect": "↓ gemifloxacin", "management": "Separate admin by 2-3 hours"}
+  ],
+  "comments": [
+      "Regimen of Azithromycin 2 gm po once + gemifloxacin 320 mg po once is considered a possible alternative for treatment of gonorrhea in persons highly allergic to ceftriaxone (MMWR 64 (RR-3): 1, 2015)."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "documentMetadata": {
+    "title": "Bacillary Angiomatosis, Peliosis",
+    "lastUpdated": "2024-10-16",
+    "sourceFile": "Bacillary Angiomatosis, Peliosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Immunocompromised:",
+        "  - HIV-positive patients with AIDS (CD4 count < 100 cells/µL)",
+        "  - Cancer and/or organ transplant patients.",
+        "For Bartonella infection in immunocompetent patient, see Cat Scratch Disease.",
+        "Presentation:",
+        "  - Uncomplicated: Fever, skin lesions (often mistaken for Kaposi's Sarcoma) with variety of forms (papules, nodules, pedunculated) but always vascular.",
+        "  - Complicated: Disseminated disease can manifest as bone, mucosal, or central nervous system infection. Can present as an FUO or endocarditis.",
+        "Bacillary peliosis: cystic vascular lesions in liver (in differential diagnosis of liver abscesses) or spleen containing colonies of bacteria.",
+        "Diagnosis:",
+        "  - Elevated antibody titer",
+        "  - Histopathology or PCR of affected tissue / biopsy. Histopathology: use a modified silver stain (such as Warthin-Starry stain) numerous bacilli are typically seen. Tissue Gram staining and acid-fast staining are negative",
+        "Brief Review (StatPearls)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella henselae",
+        "Bartonella quintana"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Uncomplicated (not disseminated) infection:",
+        "  - Doxycycline 100 mg IV/po bid x 3 months or more",
+        "  - Erythromycin 500 mg po q6h x 3 months or more",
+        "  - Azithromycin 500 mg po daily x 3 months or more",
+        "Complicated (Dissemminated) infection, e.g., CNS involvement:",
+        "  - (Doxycycline 100 mg IV/po bid + Rifampin 300 mg po bid) x minimum of 4 months",
+        "See Comment for relapsing disease and possible chronic suppressive therapy if CD4 count < 200 cells/µL."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For uncomplicated (not disseminated) infection: Clarithromycin 500 mg po twice daily for 3 months or more",
+        "See Comment regarding relapsing disease."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Note drugs that should not be used: TMP-SMX, Ciprofloxacin, penicillins, cephalosporins."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jarisch-Herxheimer reaction may occur in the first 48 hrs of therapy.",
+        "After the initial 3-4 months of therapy, regardless of CD4 count, discontinue therapy and observe the patient for relapse. If no relapse, no need for suppressive therapy.",
+        "If the patient relapses, re-institute therapy with Erythromycin or Doxycycline as above. Treat for at least 3 months and then, if CD4 count <200, continue as suppressive therapy. Safe to stop suppression when CD4 count >200 for 6 months.",
+        "Guidelines at clinicalinfo.HIV.gov.",
+        "Reference: Intl J Antimicrob Agents 44:16, 2014."
+      ]
+    }
+  ]
+}

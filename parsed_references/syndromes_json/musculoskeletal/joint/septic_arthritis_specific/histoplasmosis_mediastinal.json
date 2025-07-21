@@ -1,0 +1,164 @@
+{
+  "documentMetadata": {
+    "title": "Histoplasmosis, Mediastinal",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Histoplasmosis, Mediastinal.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "These complications of histoplasmosis infection are due to an exuberant immune response to the infection and not associated with a high burden of organisms. Patients are often culture and antigen negative.",
+        "Mediastinal lymphadenitis often presents as chest pain, dysphagia and/or cough due to bronchial or esophageal compression.",
+        "Mediastinal granulomas are often asymptomatic but may present with compressive symptoms.",
+        "Mediastinal fibrosis may present as occlusion of airways or vessels."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Histoplasma capsulatum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Mediastinal lymphadenitis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Asymptomatic or mild symptoms < 1 month: no treatment"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Mild symptoms > 1 month"
+            },
+            "components": [
+              {
+                "drug": "Itraconazole",
+                "dose": "200 mg",
+                "frequency": "tid for 3 days then bid"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "6-12 weeks"
+            }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Severe cases with obstruction or compression of vital structures"
+            },
+            "components": [
+              {
+                "drug": "Itraconazole",
+                "notes": "(dosing and duration as above)"
+              },
+              {
+                "drug": "Prednisone",
+                "dose": "0.5-1 mg/kg/day",
+                "connector": "+"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "tapered over 1-2 weeks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Mediastinal granuloma:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Asymptomatic: no treatment"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "appliesTo": {
+              "description": "Symptomatic"
+            },
+            "components": [
+              {
+                "drug": "Itraconazole",
+                "notes": "(dosing and duration as above)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Mediastinal fibrosis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Many experts believe that neither antifungal therapy nor steroids are helpful",
+            "Consider stenting of affected structures (Medicine (Baltimore) 90:412, 2011)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If itraconazole is not an option for the patient as above, may consider Posaconazole"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IDSA treatment guidelines: Clin Infect Dis 45:807, 2007."
+      ]
+    }
+  ]
+}

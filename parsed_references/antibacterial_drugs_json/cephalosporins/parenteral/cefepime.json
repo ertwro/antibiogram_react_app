@@ -1,0 +1,97 @@
+{
+  "drug_name": "Cefepime",
+  "tradename": "Maxipime",
+  "usage_and_dosing": {
+    "general": [
+      "Cefepime, FDA-approved in 1996, is a 4th generation cephalosporin with a structure that allows better and more rapid penetration through the cell wall of aerobic gram-negative bacilli.",
+      "It is able to avoid destruction by some chromosomal beta-lactamases.",
+      "Cefepime has in vitro activity against MSSA, Neisseria sp., H. influenzae and a broad range of gram-negative bacilli, including P. aeruginosa (Lancet Infect Dis 2007;7:338).",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Cefepime may be active vs. ESBL-producing aerobic gram-negative bacilli if administered in high doses: 2 gm IV q8h. However, the drug of choice for ESBL-producing Gram-negative bacilli is a carbapenem, not Cefepime.",
+      "More active against Staph. aureus (MSSA) than 3rd generation cephalosporins."
+    ],
+    "adult_dose": {
+      "usual_dose": "1-2 gm IV q8-12h",
+      "other_dosing": "See Continuous, Extended Infusion Dosing"
+    },
+    "pediatric_dose": {
+      "usual": "100 mg/kg/day (div q8h)",
+      "pseudomonas": "150 mg/kg/day (div q8h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "2",
+    "half_life_esrd": "18",
+    "dose_renal_function_normal": "2 gm IV q8h",
+    "crcl_or_egfr": "CrCl >60: No dosage adjustment. CrCl 30-60: 2 gm q12h. CrCl 11-29: 2 gm q24h. CrCl <10: 1 gm q24h",
+    "hemodialysis": {
+        "fda_approved": "1 gm q24h (AD on dialysis days)",
+        "alternative": "2 gm AD (3x/wk HD) 45"
+    },
+    "capd": "2 gm q48h",
+    "crrt": "Dose per effluent rate, all modalities: 1 L/hr: 1 gm q8h, ≥2 L/hr: 1 gm q6h. EI, CVVH/CVVHD, UFR 30.1: 2 gm (over 4 hr) q8h 42, 43",
+    "sled": "2 gm load, then 1 gm q6h OR 2 gm pre-, 3 gm post-SLED 49"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity: See Obesity Dosing Adjustments.",
+    "ECMO: See ECMO Drug Dosing Adjustment."
+  ],
+  "adverse_effects": [
+    "Hypersensitivity (rash)",
+    "GI (nausea/vomiting, diarrhea, C. difficile infection)",
+    "Local phlebitis",
+    "Hematologic: Positive Coombs, neutropenia, eosinophilia, thrombocytopenia, increased INR.",
+    "Cross-reactivity discussion: See Drug Allergy: Penicillins, Cephalosporins, Overview.",
+    "Flushing reaction (similar to vancomycin histamine release syndrome) reported: Antimicrob Agents Chemother 2012;56:6387.",
+    "Neurotoxicity:",
+    "FDA safety warning: Risk of non-convulsive status epilepticus (see Comment).",
+    "Cefepime can competitively inhibit the major CNS inhibitory neurotransmitter, GABA.",
+    "Toxicity is concentration dependent.",
+    "Impaired renal function is risk factor.",
+    "Manifestations can include any or all of: confusion, loss of attention, disorientation, abnormal behavior, agitation, hallucinations, myoclonic jerks, mutism, impaired consciousness, coma.",
+    "Diagnosis: EEG.",
+    "Review: J Antimicrob Chemother 2022;77: 2908."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Citrobacter freundii",
+        "Citrobacter koseri, diversus",
+        "Pseudomonas aeruginosa"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "164 (2 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "20",
+    "volume_of_distribution_vd_l_vss": "18 L (Vss)",
+    "avg_serum_half_life_hr": "2",
+    "elimination": "Renal",
+    "bile_penetration_percent": "10-20",
+    "csf_blood_percent": "4-34 16",
+    "therapeutic_levels_in_csf": "Yes",
+    "auc_ug_hr_ml": "284.8 (2 gm IV, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ],
+  "comments": [
+      "In a June 2012 FDA safety update, clinicians are warned about nonconvulsive status epilepticus occurring in cefepime-treated patients with renal insufficiency, most of whom did not receive appropriately adjusted doses. Seizure activity resolved after drug discontinuation and/or hemodialysis in the majority of patients. The FDA recommends dose adjustment in patients with CrCl ≤ 60 mL/min."
+  ]
+}

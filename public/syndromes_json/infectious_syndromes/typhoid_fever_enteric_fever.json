@@ -1,0 +1,146 @@
+{
+  "documentMetadata": {
+    "title": "Typhoid Fever, Enteric Fever",
+    "lastUpdated": "2025-05-06",
+    "sourceFile": "Typhoid Fever, Enteric Fever.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Severe systemic febrile illness due to Salmonella species usually acquired from ingestion of food or water contaminated with fecal flora of another infected human.",
+        "The incidence of diarrhea ranges from 50-78%; constipation in 30% of patients.",
+        "Because of the dramatic fever, and the intestinal source, the general term \"enteric fever\" is often used.",
+        "Choice of regimen dictated by geographic region or country where infection was acquired. Isolates from South and Southeast Asia are often resistant to:",
+        "  - Trimethoprim-sulfamethoxazole, third generation cephalosporins, ampicillin and chloramphenicol",
+        "  - Most isolates now resistant to the fluoroquinolones",
+        "Large XDR outbreak reported in Pakistan in 2016, resistant to ampicillin, ceftriaxone, chloramphenicol, ciprofloxacin, and trimethoprim-sulfamethoxazole",
+        "Independent XDR outbreak in Iraq MMWR Morb Mortal Wkly Rep.69: 618 2020",
+        "XDR Typhi has been reported in US individuals without international travel history."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Salmonella enterica serovar Typhi (formerly S. typhi)",
+        "Salmonella enterica serovar Paratyphi A, B, and C (S. paratyphi)",
+        "Salmonella enterica serovar Choleraesuis (S. choleraesuis)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Infection associated with international travel NOT acquired in Pakistan or Iraq:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ceftriaxone 2 gm IV q24h x 7-14 days for uncomplicated infection."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Infection acquired in Pakistan or Iraq or Typhi in the US with no international travel:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Avoid empiric treatment with fluoroquinolones because of high levels of resistance",
+            "Uncomplicated (GI manifestations only)",
+            "  - Azithromycin 1 gm po x 1 dose, then 500 mg po q24h x 5-7 days (see Comments)",
+            "Complicated (e.g., bowel perforation, mycotic aneurysm, shock) or severe infection",
+            "  - Meropenem 1-2 gm IV q8h (or other carbapenem)",
+            "  - Meropenem 1-2 gm IV q8h + Azithromycin 1 gm po x 1 dose, then 500 mg po q24h x 5-7 days",
+            "Consider use of dexamethasone for severely ill (see Comments)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Guided by susceptibility testing",
+        "Azithromycin 1 gm po x 1 dose, then 500 mg po q24h x 5-7 days",
+        "Ceftriaxone 2 gm IV q24h x 7-14 days for uncomplicated infection.",
+        "Cefotaxime 1-2 gm q6-8h x 7-14 days (limited availability in US).",
+        "Ciprofloxacin 400 mg IV or 500 mg po bid OR Levofloxacin 750 mg IV/po once daily for 7-14 days.",
+        "Can be considered if other alternatives not available: Chloramphenicol 500 mg IV/po q6h x 14 days but probably inferior to other agents J Antimicrob Chemother 70:979, 2015"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Increasing prevalence of antibiotic resistant strains creates challenge for effective therapy.",
+        "Fluoroquinolone resistance:",
+        "  - Test for nalidixic acid resistance; if present, poor response to fluoroquinolones.",
+        "  - Most isolates in US now resistant organism so treat with Azithromycin or Ceftriaxone for empiric therapy (Clin Infect Dis 50:241, 2010).",
+        "  - FQs can be used for susceptible strains (Ann N Y Acad Sci 2014 Sep:1323:76-90).",
+        "ESBL-producing strains of S. enterica serovar Typhi spreading (Emerg Infect Dis 2014; 20:1918). Usual therapy is with Meropenem.",
+        "Monotherapy with Azithromycin may predispose to resistance; consider Azithromycin + Ceftriaxone for hospitalized patients or Azithromycin + Meropenem."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Prevention"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Typhoid, Vaccines for indications, available products, dosing, and vaccine characteristics for pre-exposure prevention.",
+        "Little to no protection against S. paratyphi or non-typhoidal Salmonella sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "CDC notice on extensively drug-resistant typhoid fever in Pakistan.",
+        "Current surveillance results as monitored by CDC National Antimicrobial Resistance System (NARMS)",
+        "Review of treatment options: Cochrane Database Syst Rev 2022 Nov 24;11(11):CD010452",
+        "Relapses can occur after clinical improvement.",
+        "In critically ill patient dexamethasone is indicated in severe disease (encephalopathy or shock) at an initial dose of 3 mg/kg followed by 1 mg/kg q6h hours for 48 hours: N Engl J Med 1984:310:82.",
+        "Look for complications: e.g., mycotic aneurysm (occurs in approximately 10% of patients over age 50 years), osteomyelitis, septic arthritis, haematogenous pneumonia; necrosis of the bowel wall can lead to late perforation.",
+        "Chronically positive stool culture (>12 months duration) is not a threat to the patient but presents a public health concern. Attempted eradication is a reasonable course: If susceptible, Ciprofloxacin 500-750 mg po bid x 14-28 days (eradicated carriage in 90-93% of patients).",
+        "Locations for chronic carriage (typically with underlying structural lesions: gall bladder, hepatobiliary tract, and urinary tract) (PLoS Negl Trop Dis 17:e0011168 2023).",
+        "References: Lancet 385:1136, 2015. N Engl J Med 2018;379:1493."
+      ]
+    }
+  ]
+}

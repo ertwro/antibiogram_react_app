@@ -1,0 +1,479 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Capnocytophaga species",
+      "aliases": [
+        "C. canimorsus",
+        "C. cynodegmi",
+        "C. gingivalis",
+        "C. ochracea",
+        "C. sputigena"
+      ],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli (long, thin, fusiform)",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Capnophilic (requires CO2 for growth)",
+          "Exhibits gliding motility"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative fusiform rod, facultative anaerobe requiring CO2, gliding motility (no flagella), oxidase –, catalase –, ferments glucose, sucrose, maltose."
+    },
+    "clinicalProfile": {
+      "summary": "Capnocytophaga species are fastidious, gram-negative bacilli found in the oral flora of humans and animals. They can cause serious infections, particularly sepsis in immunocompromised hosts (especially asplenic patients) and wound infections following dog or cat bites (C. canimorsus).",
+      "pathophysiologyPearls": [
+        "Virulence is significantly enhanced in asplenic patients, potentially leading to overwhelming post-splenectomy infection (OPSI).",
+        "C. canimorsus is the species most commonly associated with severe infections after dog bites."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cellulitis or purulent discharge at bite site",
+        "Petechial or purpuric rash",
+        "Signs of sepsis (hypotension, tachycardia)",
+        "Meningitis symptoms in some cases"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Sepsis and Septic Shock",
+          "description": "A classic presentation, especially in asplenic or alcoholic patients, often following a dog bite."
+        },
+        {
+          "syndromeName": "Wound Infections",
+          "description": "Localized infection at the site of an animal bite."
+        },
+        {
+          "syndromeName": "Periodontitis",
+          "description": "Human oral species (e.g., C. gingivalis) are associated with periodontal disease."
+        },
+        {
+          "syndromeName": "Infections in Neutropenic Patients",
+          "description": "Can cause bacteremia and sepsis in neutropenic patients, often associated with oral mucositis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Asplenic individuals",
+        "Immunocompromised patients (especially neutropenic)",
+        "Patients with alcohol use disorder",
+        "Individuals who have received dog or cat bites"
+      ],
+      "transmissionVectors": [
+        "Dog bites",
+        "Cat bites",
+        "Endogenous oral flora"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Some strains produce beta-lactamases, which can confer resistance to penicillins."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Macrolide Resistance",
+          "details": "Resistance to macrolides is common."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "For serious infections, consider combination therapy with a beta-lactam and a fluoroquinolone or clindamycin."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Macrolides",
+          "condition": "All infections",
+          "reason": "Resistance is common."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Serious infections (e.g., sepsis, severe wound infection)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, wound"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Dependent on clinical syndrome and response",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin-sulbactam",
+                      "dose": "3",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Amoxicillin-clavulanate",
+                      "dose": "875/125",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "Suitable for step-down therapy."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Dependent on clinical syndrome and response",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "1-2",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Meropenem",
+                      "dose": "1",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Good choice for severe or resistant infections."
+                    },
+                    {
+                      "drugName": "Moxifloxacin",
+                      "dose": "400",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Clindamycin",
+                      "dose": "600mg IV q8h or 300-450mg PO",
+                      "route": "IV/PO",
+                      "frequency": "q6-8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Blood cultures are crucial in suspected sepsis.",
+        "Wound cultures should be obtained from bite wounds."
+      ],
+      "methodologyNotes": [
+        "Capnocytophaga are fastidious and require a CO2-enriched atmosphere (capnophilic) for growth.",
+        "Cultures may need to be incubated for a longer period (up to 14 days)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Microbiology Reviews",
+          "citation": "Clin Microb Rev 28:738, 2015",
+          "summaryOrNote": "A comprehensive review of Capnocytophaga species."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.327Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Capnocytophaga species"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "C. canimorsus",
+        "C. cynodegmi",
+        "C. gingivalis",
+        "C. ochracea",
+        "C. sputigena"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli (long, thin, fusiform)",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Capnophilic (requires CO2 for growth)",
+          "Exhibits gliding motility"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Capnocytophaga species are fastidious, gram-negative bacilli found in the oral flora of humans and animals. They can cause serious infections, particularly sepsis in immunocompromised hosts (especially asplenic patients) and wound infections following dog or cat bites (C. canimorsus).",
+      "pathophysiologyPearls": [
+        "Virulence is significantly enhanced in asplenic patients, potentially leading to overwhelming post-splenectomy infection (OPSI).",
+        "C. canimorsus is the species most commonly associated with severe infections after dog bites."
+      ],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Cellulitis or purulent discharge at bite site",
+        "Petechial or purpuric rash",
+        "Signs of sepsis (hypotension, tachycardia)",
+        "Meningitis symptoms in some cases"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Sepsis and Septic Shock",
+          "description": "A classic presentation, especially in asplenic or alcoholic patients, often following a dog bite."
+        },
+        {
+          "syndromeName": "Wound Infections",
+          "description": "Localized infection at the site of an animal bite."
+        },
+        {
+          "syndromeName": "Periodontitis",
+          "description": "Human oral species (e.g., C. gingivalis) are associated with periodontal disease."
+        },
+        {
+          "syndromeName": "Infections in Neutropenic Patients",
+          "description": "Can cause bacteremia and sepsis in neutropenic patients, often associated with oral mucositis."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Asplenic individuals",
+        "Immunocompromised patients (especially neutropenic)",
+        "Patients with alcohol use disorder",
+        "Individuals who have received dog or cat bites"
+      ],
+      "transmissionVectors": [
+        "Dog bites",
+        "Cat bites",
+        "Endogenous oral flora"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [
+        {
+          "mechanismName": "Beta-lactamase Production",
+          "mechanismType": "Enzymatic Inactivation",
+          "description": "Some strains produce beta-lactamases, which can confer resistance to penicillins."
+        }
+      ],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Macrolide Resistance",
+          "details": "Resistance to macrolides is common."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infections (e.g., sepsis, severe wound infection)",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, wound"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ampicillin-sulbactam",
+              "dose": "3",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Dependent on clinical syndrome and response",
+              "comments": "",
+              "originalText": "Ampicillin-sulbactam 3 IV q6h"
+            },
+            {
+              "drugName": "Amoxicillin-clavulanate",
+              "dose": "875/125",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "Dependent on clinical syndrome and response",
+              "comments": "Suitable for step-down therapy.",
+              "originalText": "Amoxicillin-clavulanate 875/125 PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious infections (e.g., sepsis, severe wound infection)",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, wound"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "1-2",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "Dependent on clinical syndrome and response",
+              "comments": "",
+              "originalText": "Ceftriaxone 1-2 IV q24h"
+            },
+            {
+              "drugName": "Meropenem",
+              "dose": "1",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "Dependent on clinical syndrome and response",
+              "comments": "Good choice for severe or resistant infections.",
+              "originalText": "Meropenem 1 IV q8h"
+            },
+            {
+              "drugName": "Moxifloxacin",
+              "dose": "400",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "Dependent on clinical syndrome and response",
+              "comments": "",
+              "originalText": "Moxifloxacin 400 IV/PO q24h"
+            },
+            {
+              "drugName": "Clindamycin",
+              "dose": "600mg IV q8h or 300-450mg PO",
+              "route": "IV/PO",
+              "frequency": "q6-8h",
+              "duration": "Dependent on clinical syndrome and response",
+              "comments": "",
+              "originalText": "Clindamycin 600mg IV q8h or 300-450mg PO IV/PO q6-8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Blood cultures are crucial in suspected sepsis.",
+        "Wound cultures should be obtained from bite wounds."
+      ],
+      "methodologyNotes": [
+        "Capnocytophaga are fastidious and require a CO2-enriched atmosphere (capnophilic) for growth.",
+        "Cultures may need to be incubated for a longer period (up to 14 days)."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

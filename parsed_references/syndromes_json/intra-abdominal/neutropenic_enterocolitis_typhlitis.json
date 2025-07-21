@@ -1,0 +1,68 @@
+{
+  "documentMetadata": {
+    "title": "Neutropenic Enterocolitis, Typhlitis",
+    "sourceFile": "Neutropenic Enterocolitis, Typhlitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Neutropenic Enterocolitis (Typhlitis)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neutropenic enterocolitis, also known as typhlitis, is a life-threatening condition characterized by inflammation of the cecum, appendix, and/or ileum. It typically occurs in severely neutropenic patients, particularly those undergoing chemotherapy for hematologic malignancies."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever",
+        "Abdominal pain, often in the right lower quadrant",
+        "Nausea, vomiting, and diarrhea",
+        "Abdominal distension"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is often made based on clinical suspicion in a neutropenic patient. CT scan of the abdomen is the imaging modality of choice and may show bowel wall thickening, pneumatosis intestinalis, or perforation."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Initial management is typically conservative and includes bowel rest, intravenous fluids, and broad-spectrum antibiotics. Surgery is reserved for patients with complications such as perforation, uncontrolled bleeding, or clinical deterioration despite medical management."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Patients with neutropenic enterocolitis"
+        },
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 g",
+            "route": "IV",
+            "frequency": "every 6 hours"
+          }
+        ],
+        "notes": "Antibiotic coverage should be broad and cover gram-negative, gram-positive, and anaerobic organisms. Consider adding antifungal coverage if the patient remains febrile."
+      }
+    }
+  ]
+}

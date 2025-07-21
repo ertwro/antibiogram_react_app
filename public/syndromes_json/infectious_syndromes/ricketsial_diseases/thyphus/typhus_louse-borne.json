@@ -1,0 +1,82 @@
+{
+  "documentMetadata": {
+    "title": "Typhus, Louse-borne",
+    "sourceFile": "Typhus, Louse-borne.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Louse-borne (Epidemic) Typhus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Louse-borne typhus is a severe disease caused by Rickettsia prowazekii and transmitted by the human body louse. It has historically occurred in epidemics during times of war and famine."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Manifestations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Symptoms include abrupt onset of high fever, headache, and a maculopapular rash that begins on the trunk and spreads to the extremities, sparing the face, palms, and soles. Brill-Zinsser disease is a relapsing form of epidemic typhus that can occur years after the primary infection."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is based on clinical findings and serological tests (IFA)."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Treatment"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Adults and children with louse-borne typhus"
+        },
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "PO or IV",
+            "frequency": "twice daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-10 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "appliesTo": {
+          "description": "Pregnant women"
+        },
+        "components": [
+          {
+            "drug": "Chloramphenicol",
+            "dose": "50 mg/kg/day",
+            "route": "PO or IV",
+            "frequency": "in 4 divided doses"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7-10 days"
+        }
+      }
+    }
+  ]
+}

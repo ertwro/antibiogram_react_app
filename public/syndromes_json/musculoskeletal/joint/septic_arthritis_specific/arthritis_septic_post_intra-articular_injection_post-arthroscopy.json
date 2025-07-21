@@ -1,0 +1,71 @@
+{
+  "documentMetadata": {
+    "title": "Septic Arthritis Following Intra-articular Injections",
+    "lastUpdated": "2024-06-06",
+    "sourceFile": "Arthritis, Septic, Post Intra-articular Injection, Post-arthroscopy.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Septic joint infection following intra-articular injections."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "S. epidermidis (MSSE/MRSE) (40%)",
+        "Staph. aureus (MSSA/MRSA) (20%)",
+        "P. aeruginosa",
+        "Cutibacterium acnes (formerly Propionibacterium acnes)",
+        "Mycobacteria sp.",
+        "Fungi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Septic Arthritis, Adult or Septic Arthritis, Child or Septic Arthritis, Infant",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Septic Arthritis, Adult"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Not applicable."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "None"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "drug_name": "Aztreonam",
+  "tradename": "Azactam",
+  "usage_and_dosing": {
+    "general": [
+      "Aztreonam is a monobactam beta-lactam antibiotic that is active in vitro against many isolates of Enterobacterales, Pseudomonas aeruginosa and other gram-negative organisms.",
+      "The drug has no useful activity against gram-positive organisms or anaerobes.",
+      "Stable in presence of Ambler class B metallo-beta-lactamases (carbapenemases) produced by multidrug resistant gram-negative bacteria. Unfortunately, the same bacteria usually also produce extended-spectrum beta-lactamases that do inactivate aztreonam.",
+      "Aztreonam can be used in many patients who are allergic to other beta-lactam antibiotics, as cross-hypersensitivity is rare.",
+      "Exception: Aztreonam has an R-1 side chain that is identical to that of ceftazidime and cefiderocol, so in those with allergy to that side chain, there may be cross-sensitivity.",
+      "Cross allergenicity between aztreonam and ceftazidime reported in 1 of 26 patients in a case series: J Antimicrob Chemother 2021; 76: 2741.",
+      "See Drug Allergy: Penicillins, Cephalosporins, Overview page for more detail",
+      "Useful penicillin allergy references: JAMA 2019;321:188; N Engl J Med 2019;381:2338; Lancet 2019;393:183.",
+      "An inhaled version is available for use with a specific nebulizer for treatment of Pseudomonas aeruginosa in patients with cystic fibrosis.",
+      "Used in combination with ceftazidime-avibactam vs. metallo-beta-lactamase-producing Enterobacterales: Clin Infect Dis. 2021;72:1871.",
+      "See also: Aztreonam-avibactam page."
+    ],
+    "adult_dose": {
+      "urinary_tract_infection": "0.5-1 gm IV q8-12h",
+      "systemic_infection_moderate_severity": "1-2 gm IV q8-12h",
+      "systemic_infection_severe_or_life_threatening": "2 gm IV q6-8h",
+      "other_dosing": "Nebulized, CF: see Inhalation Dosing & Therapy"
+    },
+    "pediatric_dose": {
+        "amr_gram_negative_guidance": "J Pediatric Infect Dis Soc 2025;14:piaf004",
+        "ceftazidime_avibactam": "Ceftazidime-avibactam (using mg/kg/day dose recommended, divided q6h) administered simultaneously via Y-site administration with aztreonam.",
+        "per_red_book": "Per Red Book (2024-2027): 90-120 mg/kg/day (divided q6-8h)",
+        "per_amr_guidance": "Per AMR gram-negative guidance: Neonates, infants, children, adolescents: 120 mg/kg/day (div q6h, doses infused over 3 hr). For CNS infection: 2 hr infusions suggested",
+        "max_day": "8 gm"
+    }
+  },
+  "renal_adjustment": {
+    "note": "CrCl units are mL/min/1.73m²",
+    "half_life_normal": "2",
+    "half_life_esrd": "6-8",
+    "dose_renal_function_normal": "Varies with indication",
+    "crcl_or_egfr": "CrCl ≥30: No dosage adjustment. CrCl 10 to <30: 50% dosage reduction. CrCl <10: 1-2 gm q24h 44",
+    "hemodialysis": "1-2 gm q24h (AD on dialysis days) 44",
+    "capd": "2 gm q24h",
+    "crrt": "2 gm load (all modalities). CVVH: 1-2 gm q12h. CVVHD: 2 gm q12h. CVVHDF: 2 gm q12h 40",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Hypersensitivity (fever, rash, serum sickness, anaphylaxis)",
+    "Local phlebitis",
+    "Hematologic (positive Coombs test, neutropenia, eosinophilia, thrombocytopenia)",
+    "Gastrointestinal (nausea/vomiting, diarrhea, C. difficile colitis)",
+    "Increased LFTs",
+    "Headache, confusion, seizures",
+    "The safety and efficacy of nebulized aztreonam is not known if FEV1 < 25%. Cough, wheezing and bronchospasm can occur (Chest 2009;135:1223)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "90 (1 gm IV, SD)",
+    "peak_urine_conc_ug_ml": "Avg: 3500-6600 (1-2 gm IV, SD)",
+    "protein_binding_percent": "56",
+    "volume_of_distribution_vd_l_vss": "12.6 L (Vss)",
+    "avg_serum_half_life_hr": "2.0",
+    "elimination": "Renal",
+    "bile_penetration_percent": "115-405",
+    "csf_blood_percent": "3-52",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "271 (1 gm IV, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": ["OAT1", "OAT3"],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": [],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Probenecid",
+          "effect": "↑ aztreonam",
+          "management": "Monitor"
+      }
+  ]
+}

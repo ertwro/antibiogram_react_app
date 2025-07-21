@@ -1,0 +1,82 @@
+{
+  "documentMetadata": {
+    "title": "Balanitis",
+    "lastUpdated": "2024-04-01",
+    "sourceFile": "Balanitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "There are several categories of balanitis. Only two will be mentioned here:",
+        "Inflammation of the glans penis in uncircumsized men",
+        "One of several extra-genital manifestations of reactive arthritis (formerly Reiter's syndrome). The balanitis of reactive arthritis takes a distinctive geographic appearance: i.e., circinate balanitis (N Engl J Med 2017;376:157)",
+        "Reactive arthritis is typified by arthritis, conjunctivitis, urethritis, and other genitourinary manifestations to include circinate balanitis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under the foreskin inflammed glans penis (balanitis):",
+        "Candida sp. (40%)",
+        "Streptococcus sp.",
+        "Gardnerella sp.",
+        "Other bacteria (e.g., anaerobes)",
+        "Reactive Arthritis: Circinate balanitis after infection with:",
+        "Most often: Chlamydia trachomatis",
+        "Others include: Yersinia, Campylobacter, Shigella, Salmonella, C.pneumoniae",
+        "Presence of HLA B27 genotype predisposes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For Candidal balanitis, a topical azole is frequently effective in mild cases.",
+        "Over the counter preparations include: clotrimazole, butoconazole, miconazole, or tioconazole",
+        "Otherwise: Fluconazole 150 mg po x 1 dose or Itraconazole 200 mg po bid x 1 day",
+        "For anaerobes: Metronidazole 2 gm po x 1 dose",
+        "For circinate balantis: topical glucocorticoid; treat C. trachomatis if present"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treatment of infection due to other etiologies is directed towards organisms recovered."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Primary syphilis can present as erosive balanitis without discrete chancre (Acta Derm Venereol 91:191, 2011).",
+        "Group A streptococcal balanitis reported after oral sex (Int J STD AIDS 16:644, 2005).",
+        "Review of infectious balanoposthitis in Int J Dermatol 48:121, 2009.",
+        "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021"
+      ]
+    }
+  ]
+}

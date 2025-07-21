@@ -1,0 +1,95 @@
+{
+  "drug_name": "Secnidazole",
+  "tradename": "Solosec",
+  "usage_and_dosing": {
+    "general": [
+      "Secnidazole is a nitroimidazole indicated for treatment of:",
+      "Bacterial vaginosis in female patients ≥12 years of age.",
+      "Trichomoniasis in patients ≥12 years of age.",
+      "Because trichomoniasis is sexually transmitted, treat partners with the same dose and at the same time.",
+      "Concurrent use of ethanol:",
+      "No effect of secnidazole on aldehyde dehydrogenase activity in vitro.",
+      "However, postmarketing observations of nausea, vomiting diarrhea, abdominal pain, dizziness, and headache with concomitant use of secnidazole and alcohol have been reported.",
+      "Recommendation: avoid consumption of alcoholic beverages during treatment and for at least two days after completing therapy."
+    ],
+    "adult_dose": {
+      "dose": "2 gm packet (granules) once orally, without regard to the timing of meals.",
+      "same_dose": "Same dose for bacterial vaginosis and trichomoniasis.",
+      "administration": [
+          "Sprinkle packet contents on applesauce, yogurt or pudding. The granules will not dissolve. Consume all of the mixture within 30 minutes without chewing or crunching the granules.",
+          "Do not dissolve granules in liquid. May follow with glass of water to aid swallowing."
+      ]
+    },
+    "pediatric_dose": {
+      "dose_age_gt_12_yrs": "2 gm po x1",
+      "max_day": "2 gm"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "17",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "2 gm single-dose",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": {
+      "contraindications": [
+          "Known hypersensitivity to other nitroimidazoles (metronidazole, tinidazole).",
+          "Use in patients with Cockayne syndrome. Severe, irreversible hepatotoxicity with fatal outcomes have been reported after initiation of metronidazole (also a nitroimidazole) in patients with Cockayne syndrome."
+      ],
+      "warnings": [
+          "Vulvovaginal candidiasis may develop during use, requiring antifungal therapy.",
+          "Potential carcinogenicity seen in rodent studies. Avoid chronic use."
+      ],
+      "other": [
+          "Vulvovaginal pruritus.",
+          "GI: nausea, dysgeusia, vomiting, diarrhea, abdominal pain.",
+          "Headache."
+      ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No human data, safe in animals",
+    "lactation": "Safety not established, avoid breastfeeding for 96 hours after dose",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": [
+    "Bacteroides spp.",
+    "Gardnerella vaginalis",
+    "Prevotella spp.",
+    "Mobiluncus spp.",
+    "Megasphaera-like type I/II",
+    "Trichomonas vaginalis"
+  ],
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "preparations": "Oral granules (2 gm packets)",
+    "food_recommendation": "Granules ± food",
+    "oral_absorption_percent": "No data",
+    "tmax_hr": "4",
+    "peak_serum_conc_ug_ml": "45.4 (2 gm po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "<5",
+    "volume_of_distribution_vd_l": "42 L",
+    "avg_serum_half_life_hr": "17",
+    "elimination": "Metabolized",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "1331.6 (2 gm po, 0-inf)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Ethanol",
+          "effect": "GI symptoms, dizziness, headache",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

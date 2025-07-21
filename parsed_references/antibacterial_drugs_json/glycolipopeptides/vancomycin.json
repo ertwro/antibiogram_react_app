@@ -1,0 +1,144 @@
+{
+  "drug_name": "Vancomycin",
+  "tradename": "Vancocin",
+  "drug_shortage": [
+    {
+      "preparation": "Injection",
+      "start_date": "2015-06-01",
+      "notes": ""
+    }
+  ],
+  "usage_and_dosing": {
+    "general": [
+      "Vancomycin is a glycopeptide antibiotic most often used in parenteral form for empiric or specific treatment of methicillin-resistant Staphylococcus aureus (MRSA) and Staphylococcus epidermidis (MRSE) infections. In the case of penicillin-allergy, it can also be used for susceptible Staphylococcus. The oral formulation is the preferred therapy for C. difficile infection.",
+      "Vancomycin was isolated in 1957 from Streptomyces orientalis by an organic chemist with Eli Lilly working in the deep jungles in Borneo. Its name was derived from \"vanquish” because of its ability to eradicate S. aureus. The original 1950s product contained considerable amounts (up to 70%) of impurities and had a brown color, thus earning the nickname \"Mississippi Mud.”",
+      "Mechanism of action: Vancomycin binds (via hydrogen bonding) to the terminal D-alanyl-D-alanine residues of the N-acetylmuramic acid (NAM) peptides within the bacterial cell wall, preventing subsequent cross-linking and thereby interrupting cell wall synthesis. It is considered a slowly bactericidal drug."
+    ],
+    "monitoring_guidelines": {
+        "multi_society": "Multi-society (ASHP, IDSA, PIDS, SIDP) guidelines recommend AUC24 monitoring (area under the serum concentration vs. time curve for 24 hours) for serious MRSA infections (Am J Health Sys Pharm 2020;77:835).",
+        "see_also": "See also Clin Infect Dis 2020;70:1536; Clin Infect Dis 2020;70:1546.",
+        "pro_con_discussion": "Comprehensive \"pro\" and \"con\" discussion: Clin Infect Dis 2021;72:1497 and Clin Infect Dis 2021;72:1502.",
+        "mic_assumption": "Hard to be sure of the MIC, as in vitro susceptibility varies with the method used (J Clin Microbiol 2011;49:269). For now, an MIC of 1 µg/mL is assumed (allowing us to simply target the AUC).",
+        "outcomes": "Improved outcomes with AUC24 monitoring in complicated skin and soft tissue infections due to MRSA (Clin Infect Dis 2021;73:e4560).",
+        "trough_monitoring": "Trough concentration monitoring (10-20 µg/mL) is still widely employed.",
+        "trough_preferred_for": "Preferred for meningitis, CNS infections; unstable renal function; diseases with target trough 10-15 µg/mL.",
+        "trough_poor_proxy": "Poor proxy for AUC24; target may be achieved with trough concentrations <15 µg/mL.",
+        "auc_validation": "There are currently no convincing data that validate AUC monitoring for MSSA, CONS, streptococci, or enterococci.",
+        "pediatrics": "Pediatrics: Use of AUC24 closer to 400 µg/mL adequate for most non-CNS infections in infants and older children with normal renal function."
+    },
+    "auc24_calculation_methods": [
+        {
+            "method": "Trapezoidal equations (see Vancomycin AUC Calculator)",
+            "pro": "Log-linear equations used to calculate true peak and trough based on measured peak and trough levels.",
+            "con": "Steady state must be achieved. Two measurements are required (peak and trough).",
+            "comments": "Once AUC24 for particular dose and interval is determined, adjustment of dose and interval for subsequent doses is proportional ratio. See Vancomycin AUC Dosing Fundamentals and Calculations."
+        },
+        {
+            "method": "Bayesian",
+            "pro": "Calculation may be based on single level, including pre-steady state. Adaptive to physiologic changes.",
+            "con": "Software tends to be expensive",
+            "comments": "Can work with single level, but better results with peak and trough measurements."
+        }
+    ]
+  },
+  "adult_dose": {
+      "intermittent_dosing": {
+          "loading_dose": "25-30 mg/kg IV (maximum 3 gm). Use actual body weight, infusion rate 10-15 mg/min",
+          "maintenance_dose": "15-20 mg/kg IV q8-12h. Use actual body weight, infusion rate 10-15 mg/min",
+          "auc_monitoring": "AUC monitoring (serious MRSA infection only). Target: 400-600 µg/mL x hr. Use Vancomycin AUC Calculator to determine AUC24 (requires a peak and trough concentration obtained at steady state). For explanatory notes and formulas, see Vancomycin AUC Dosing Fundamentals and Calculations."
+      },
+      "continuous_infusion": "See Continuous, Extended Infusion Dosing page.",
+      "intrathecal_dosing": "Adult: 10-20 mg/day. Target CSF concentration is 10-20 µg/mL",
+      "oral_dosing": "125-500 mg po q6h"
+  },
+  "pediatric_dose": {
+      "iv": "60-80 mg/kg/day (divided q6-8h). Target AUC 400-600 µg/mL⚫hr, or trough 10-15 µg/mL",
+      "po_c_difficile": "40 mg/kg/day (divided q6h)"
+  },
+  "renal_adjustment": {
+    "hemodialysis_recommendations": "Hemodialysis recommendations assume HD 3x/week. HD/CRRT/SLED recommendations: Am J Health Sys Pharm 2020;77:835",
+    "half_life_normal": "6",
+    "half_life_esrd": "200-250",
+    "dose_renal_function_normal": "15-20 mg/kg IV q8-12h",
+    "crcl_or_egfr": "CrCl >100: No dosage adjustment. CrCl >50-100: 15-20 mg/kg q12h. CrCl 20-50: 15-20 mg/kg q24h. CrCl <20: 15-20 mg/kg q48h",
+    "hemodialysis": {
+        "post_hd_dosing": {
+            "low_permeability_membrane": "Load: 25 mg/kg, Maintenance: 7.5 mg/kg AD",
+            "high_permeability_membrane": "Load: 25 mg/kg, Maintenance: 10 mg/kg AD"
+        },
+        "intradialytic_dosing": {
+            "low_permeability_membrane": "Load: 30 mg/kg, Maintenance: 7.5-10 mg/kg",
+            "high_permeability_membrane": "Load: 35 mg/kg, Maintenance: 10-15 mg/kg"
+        }
+    },
+    "capd": "7.5 mg/kg q48-96h",
+    "crrt": "7.5-10 mg/kg q12h (effluent 20-25 mL/kg/hr)",
+    "sled": "Load: 20-25 mg/kg, Maint: 15 mg/kg AD (or during final 60-90 min of dialysis). TDM suggested."
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": [
+    "Obesity Dosing: See Obesity Dosing Adjustments page.",
+    "ECMO: See ECMO Drug Dosing Adjustment page."
+  ],
+  "adverse_effects": {
+      "vancomycin_histamine_release_syndrome": "Acute onset of erythematous edematous skin due to non-specific histamine release from mast cells. Not a sign of allergy, but rather, associated with rapid infusion of vancomycin. Discussion of changes in descriptive nomenclature: See N Engl J Med 2021;384:1283, Hosp Pediatr 2020;10:623.",
+      "dress": "DRESS: Drug Reaction with Eosinophilia and Systemic Symptoms. Similar to Stevens-Johnson syndrome except no involvement of mucous membranes. Of 314 patients receiving multiple weeks of vancomycin IV as outpatients, 95 (30%) developed eosinophilia for a hazards ratio of 1.66. Compared to other antibiotics causing eosinophilia, only vancomycin use was a harbinger of skin rash, renal injury, or liver injury (J Allergy Clin Immunol 2015;136:1288-94.e.1). Persons positive for HLA-A*32:01 are at increased risk. Analysis suggest 20% incidence of DRESS at 4 weeks of therapy in HLA-A*32:01 positive patients. Given the prevalence of HLA-A*32:01 of 6.8% in European populations, we can estimate that 1 of 70 patients given vancomycin for >2 weeks will develop DRESS (J Allergy Clin Immunol 2019;144:183).",
+      "leukocytoclastic_vasculitis": "rare, managed with vancomycin discontinuation ± steroids, other immunosuppressants (Daru 2025;33:13).",
+      "drug_fever": "Drug fever",
+      "immune_thrombocytopenia": "Immune thrombocytopenia (J Thromb Haemost 2013;11:169). Intriguing report of a linear exposure-response relationship between the highest vancomycin trough concentration in the first 7 days of therapy and a ≥ 50% decrease from baseline in the platelet count. Confirmation needed (J Antimicrob Chemother 2012;67:727).",
+      "neutropenia": "Neutropenia",
+      "linear_iga_bullous_dermatosis": "Linear IgA bullous dermatosis (Clin Infect Dis 2004;38:398-9, 442-3).",
+      "ototoxicity": "Ototoxicity: 19% of patients over age 53 suffered high frequency hearing loss with high dose vancomycin therapy after an average of 27 days of therapy (Antimicrob Agents Chemother 2009;53:483).",
+      "dose_dependent_nephrotoxicity": "Dose-dependent nephrotoxicity. Risk of reversible acute kidney injury increases with dose, duration, AUC (meta-analysis: Clin Infect Dis 2019; 69:1881). Does concomitant piperacillin-tazobactam augment the nephrotoxic potential of vancomycin? Nearly 50 observational studies report an association of acute kidney injury in patients administered the combination of vancomycin and piperacillin-tazobactam. In virtually all the studies, the serum creatinine was used as a surrogate marker for the glomerular filtration rate. However, 10-40% or more of serum creatinine is cleared by tubular secretion. Both piperacillin and tazobactam compete with creatinine (via OAT1 and OAT3) for tubular secretion. In addition, there is experimental evidence that vancomycin decreases the expression of OAT1 and OAT3. Thus, it is possible that the synergy of these two mechanisms results in an increase in the serum creatinine that could be misinterpreted as a fall in the glomerular filtration rate. Cystatin C is another surrogate marker for GFR. Cystatin C has no tubular secretion. In a prospective cohort study, patients receiving piperacillin-tazobactam plus vancomycin had no increases in their serum cystatin C levels, while serum creatinine levels increased to meet criteria for a designation of acute kidney injury (Intensive Care Med 2022;48:1144). In short, current evidence supports a pseudotoxicity risk due to a misinterpretation of increased serum creatinine levels as reflecting impaired GFR as opposed to interference with tubular secretion of creatinine."
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "C",
+    "lactation": "Safe with monitoring",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+        "Arcanobacterium sp.",
+        "Corynebacterium jeikeium",
+        "Enterococcus faecalis, susceptible to vancomycin",
+        "Staphylococcus aureus, methicillin-resistant, (MRSA)",
+        "Staphylococcus epidermidis, methicillin-resistant (MRSE)",
+        "Staphylococcus sp., coagulase-negative (Methicillin resistant); S. hominis, S. capitis, others",
+        "Viridans group streptococci"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection, Cap (125, 250 mg), Oral soln (25 mg/mL, 50 mg/mL)",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "Target trough: 10-20",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "55",
+    "volume_of_distribution_vd_l_kg": "0.7 L/kg",
+    "avg_serum_half_life_hr": "4-6",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "7-14",
+    "therapeutic_levels_in_csf": "High doses required",
+    "auc_ug_hr_ml": "Target: 400-600 (0-24h)"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Other nephrotoxic agents",
+          "effect": "↑ risk of AKI",
+          "management": "Monitor"
+      },
+      {
+          "drug": "Piperacillin-tazobactam",
+          "effect": "↑ risk of AKI",
+          "management": "Moi"
+      }
+  ]
+}

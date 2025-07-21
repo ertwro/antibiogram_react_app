@@ -1,0 +1,47 @@
+{
+  "drug_name": "Fluoroquinolones, Overview",
+  "overview": {
+    "general": [
+      "Fluoroquinolones (FQs) are direct inhibitors of DNA synthesis as a result of inhibition of DNA gyrase and/or topoisomerase IV. These enzymes have four subunits (DNA gyrase: GyrA and GyrB, two each; topoisomerase IV: ParC and ParE, two each).",
+      "FQs target Gram-negative organisms mainly by binding to DNA gyrase, and Gram-positive organisms mainly by binding to topoisomerase IV. There are exceptions, however.",
+      "Most potent activity is against aerobic Gram-negative bacilli. Fluoroquinolones (FQs) are also active against respiratory pathogens, e.g., Strep. pneumoniae, Haemophilus sp., Moraxella catarrhalis, Legionella sp., Chlamydophila, and Mycoplasma.",
+      "Levofloxacin and Moxifloxacin are more active against respiratory pathogens than Ciprofloxacin.",
+      "Delafloxacin is indicated for acute bacterial skin and skin structure infections caused by gram positives (including MRSA) and gram negatives.",
+      "Resistance results from mutations in chromosomal genes that can alter the gyrase and topoisomerase drug target and/or upgrade efflux pumps and/or alter the outer membrane diffusion channels. In addition, plasmid-mediated resistance can occur. Plasmid-borne genes can express proteins that protect drug target (low level resistance). A second plasmid mechanism is production of an enzyme that can acetylate Ciprofloxacin.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Many drug-drug interactions, see each agent."
+    ]
+  },
+  "class_wide_adverse_effects": {
+    "black_box_warning": "The serious side effects associated with FQs generally outweigh the benefits for patients with acute sinusitis, acute bronchitis, and uncomplicated UTI who have other treatment options. A safety review has shown that systemic FQs are associated with disabling and potentially permanent serious side effects involving the tendons, muscles, joints, nerves, perhaps the aorta, and CNS that can occur together. Avoid FQs in patients with myasthenia gravis.",
+    "use_in_children": {
+        "general": "FQs are generally not approved for use in children age <16 years based on joint cartilage injury in immature animals. Articular side effects in children estimated at 2-3% (Lancet Inf Dis 2003;3:537). The exceptions are anthrax (Ciprofloxacin, Levofloxacin) and complicated UTI and pyelonephritis (Ciprofloxacin).",
+        "pathogenesis": "Pathogenesis believed to involve FQ chelation of magnesium, damaging chondrocyte interactions (Antimicrob Agents Chemother 2007;51:1022; Int J Antimicrob Agents 2009;33:194)."
+    },
+    "dysglycemia": "Hypoglycemia/hyperglycemia (dysglycemia). Gatifloxacin removed from US market for this reason. Increased risk, especially of hypoglycemia, found in diabetic patients in Taiwan. All marketed FQs implicated but hypoglycemia most commonly associated with Moxifloxacin (Clin Infect Dis 2013;57:971).",
+    "cns_toxicity": "CNS toxicity: poorly understood. Varies from mild (lightheadedness, agitation, nervousness, difficulty concentrating, impaired memory) to moderate (confusion) to severe (seizures) or even psychosis (Antimicrob Agents Chemother 2013;57:4079). May be aggravated by NSAIDs. May be due to interference with GABA receptors (Drug Safety 2011;34:465). See: Myasthenia gravis and Pseudotumor cerebri below.",
+    "aortic_aneurysm": "Aortic Aneurysm: In an observational study, using a propensity score matched cohort, patients given a FQ had a hazard ratio for the association with FQ use and developing an aortic aneurysm of 1.9 (1.22-2.96) (BMJ 2018; 360:k678). US FDA issued a safety warning in December 2018 regarding risk of aortic aneurysm or dissection. In a larger observational cohort, increased rate of aortic aneurysm/aortic dissection in pneumonia patients treated with a FQ vs those receiving azithromycin (0.03% vs 0.01%). No difference between FQ vs TMP/SMX in UTI patients. Ref: JAMA Int Med 2020;180:1596. In a recent retrospective cohort study in patients who had been diagnosed with aortic dissection or aortic aneurysm (n=31,570), exposure to FQs was associated with a higher risk of all-cause death (adjusted hazard ratio 1.61), aortic-related death (aHR 1.80), and later aortic surgery. Amoxicillin exposure was not associated with any of these outcomes (J Am Coll Cardiol 2021;77:1875).",
+    "pseudotumor_cerebri": "Pseudotumor cerebri: Increased intracranial pressure in the absence of mass lesions or venous thrombosis. Manifest as severe headaches and papilledema. \"Primary\" is idiopathic. Usually obese women between puberty and menopause. \"Secondary\" pseudotumor cerebri associated with tetracyclines and, more recently, fluoroquinolones. Significant risk ratio (4-6) reported (Neurology 2017; 89:792).",
+    "myasthenia_gravis": "Myasthenia gravis: Any of the FQs may unmask or exacerbate muscle weakness in patients with myasthenia gravis. Other antibiotics to avoid in myasthenia gravis patients: aminoglycosides, polymyxins, and macrolides/ketolides (Erythromycin, Telithromycin).",
+    "tendinopathy": "Tendinopathy: Over age 60, approximately 2-6% of all Achilles tendon ruptures attributable to use of FQ (Arch Intern Med 2003;163:1801). Increased risk with concomitant steroid, renal disease or post transplant (heart, lung, kidney) (Clin Infect Dis 2003;36:1404). Overall incidence is low (Eur J Clin Pharm 2007;63:499).",
+    "opiate_screen_false_positives": "Opiate screen false-positives: FQs can cause false-positive urine assay for opiates (JAMA 2001;286:3115); Ann Pharmacother 2004;38:1525).",
+    "qtc_interval_prolongation": "EKG QTc (corrected QT) interval prolongation: Increased QTc (>500 msec or >60 msec from baseline) is abnormal for either males or females and can occur with any FQ. Incidence reported at 4.7/10,000 person years (Clin Infect Dis 2012;55:1457). Increased QTc can lead to torsades de pointes and ventricular fibrillation. Risk low with current marketed drugs. Risk increased in women, decreased K+, decreased Mg++, bradycardia (Clin Infect Dis 2006;43:1603). Major problem is increased risk with concomitant drugs or electrolyte abnormalities that also have potential to increase the QTc. Elevated risk of serious arrhythmia documented in large population-based study (Clin Infect Dis 2012;55:1457); rate ratios higher for Moxifloxacin and Ciprofloxacin, as compared to Levofloxacin, at least for the doses employed. Study dates were 1990 to 2005; the higher doses of Levofloxacin used in more recent years could influence risk ratios. In short, risk of arrhythmia appears to be a class effect.",
+    "gi_distress": "GI distress: Nausea, vomiting occurs in 2-8% of patients taking an oral FQ.",
+    "c_difficile_colitis": "Toxin-mediated C. difficile colitis: FQs (po or IV) are one of the more common precipitants.",
+    "chelation": "Chelation is a problem when given orally. FQs subject to chelation blocking absorption by multivalent cations in dairy products, multivitamins, antacids: e.g., Ca++, Mg++, Al+3, Fe++, Zn++.",
+    "retinal_detachment": "\"Associated\" risks of retinal detachment reported from Canada (JAMA 2012;307:1414) and Taiwan (Clin Infect Dis 2014;58:197); studies from Denmark and Hong Kong unable to identify any association (JAMA 2013;310:2151; JAMA 2013;310:2184; J Antimicrob Chemother 2015;70:971). Association with bilateral uveitis reported (Cutan Ocul Toxicol 2012;31:111); no proven causality, low frequency.",
+    "thrombocytopenia": "Thrombocytopenia: In randomized study of critically ill patients, compared to Cefuroxime, increased RR (2.08) of thrombocytopenia with ciprofloxacin. Association with decreases in absolute platelet count highly significant, p=0.0005 (PLoS One 2013;8:e81477).",
+    "hypersensitivity_reactions": "Hypersensitivity Reactions are reported with all the fluoroquinolones, albeit at a low frequency. Cross-reactivity occurs but also at low frequency. In a multicenter retrospective review, 161 patients identified with a fluoroquinolone associated hypersensitivity reaction (rash in 84%) were subsequently challenged with a different fluoroquinolone. Rechallenge with moxifloxacin was associated with a rash in 9.5%. Rechallenge with ciprofloxacin was associated with a rash in 6.3%. Rechallenge with levofloxacin was associated with a rash in 2.2%. Ref.: Antimicrob Agents Chemother 2023;67:e0037423."
+  },
+  "specific_agents": [
+    "Ciprofloxacin (Cipro)",
+    "Delafloxacin (Baxdela)",
+    "Gatifloxacin (Tequin; only eyedrops available in US)",
+    "Gemifloxacin (Factive; marketed in Europe primarily, not available in US)",
+    "Levofloxacin (Levaquin)",
+    "Moxifloxacin (Avelox)",
+    "Norfloxacin (Norflox, not available in US)",
+    "Ofloxacin (Floxin)",
+    "Prulifloxacin (marketed in Europe, Japan primarily; not available in US)"
+  ]
+}

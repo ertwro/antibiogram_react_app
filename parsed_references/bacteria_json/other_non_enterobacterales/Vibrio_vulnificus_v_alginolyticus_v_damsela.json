@@ -1,0 +1,613 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Vibrio vulnificus",
+      "aliases": [],
+      "lastUpdated": "2025-02-06",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Lives in salt water marine environments"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Related Species",
+          "value": "Vibrio alginolyticus",
+          "notes": ""
+        },
+        {
+          "type": "Related Species",
+          "value": "Vibrio damsela (Photobacterium damselae)",
+          "notes": ""
+        }
+      ],
+      "biochemicalTests": "Gram-negative curved rod, oxidase +, motile, lactose fermenter (a key differentiator from other vibrios), indole +, requires NaCl for growth (halophilic)."
+    },
+    "clinicalProfile": {
+      "summary": "Vibrio vulnificus is a gram-negative bacillus that can cause diarrhea, wound infections, and bacteremia. It is the number one cause of shellfish-associated deaths in the U.S. Wound infections result from exposure to seawater or brackish water and can progress to necrotizing fasciitis. Due to the potential severity, empiric therapy is often warranted in patients with appropriate risk factors.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea",
+        "Wound infection",
+        "Hemorrhagic bullae (in ~75% of patients)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Wound Infection",
+          "description": "Can be severe and progress to necrotizing fasciitis. Occurs after exposure of a wound to contaminated water or seafood."
+        },
+        {
+          "syndromeName": "Bacteremia / Sepsis",
+          "description": "Can occur after wound infection or ingestion of contaminated seafood, especially in high-risk individuals."
+        },
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Diarrhea resulting from ingestion of the organism."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Cirrhosis (due to alcohol or chronic viral hepatitis)",
+        "Alcoholism",
+        "Hemochromatosis",
+        "Diabetes mellitus",
+        "Thalassemia major",
+        "Chronic renal disease",
+        "Use of TNF inhibitors",
+        "Lymphoma",
+        "Hematological disease",
+        "Malignancy",
+        "Liver disease"
+      ],
+      "transmissionVectors": [
+        "Seawater exposure",
+        "Brackish water exposure",
+        "Oyster shucking",
+        "Sea urchin harvesting",
+        "Fish fin punctures",
+        "Handling seafood",
+        "Ingestion of raw seafood"
+      ],
+      "prognosisNotes": [
+        "A retrospective surveillance study found higher mortality with β-lactam alone compared to fluoroquinolone alone or a combination of a fluoroquinolone or a tetracycline plus a β-lactam (BMC Infect Dis. 5:226, 2015)."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Duration of therapy is based on clinical response.",
+        "Minor infections can be treated with a single agent."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Surgical Debridement",
+          "condition": "Severe soft tissue infections / Necrotizing fasciitis",
+          "details": "May be required for severe infections (Am J Surg 206: 32, 2013)."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric/Directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Wound, Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Minocycline",
+                      "dose": "100 mg",
+                      "route": "IV/PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Ceftazidime",
+                      "dose": "1 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy or Combination",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "IV/PO",
+                      "frequency": "once daily",
+                      "comments": "Can be substituted for Doxycycline or Minocycline."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy or Combination",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "750 mg PO or 400 mg IV",
+                      "route": "IV/PO",
+                      "frequency": "bid",
+                      "comments": "Can be substituted for Doxycycline or Minocycline."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Empiric/Directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "patientPopulation": [
+              "Children"
+            ],
+            "isolateSource": "Wound, Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "4.4 mg/kg/day div bid (max 200 mg/day)",
+                      "route": "IV/PO",
+                      "frequency": "bid",
+                      "comments": "Can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015)."
+                    },
+                    {
+                      "drugName": "Ceftazidime",
+                      "dose": "150-200 mg/kg/d divided q8h",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "European Journal of Clinical Microbiology & Infectious Diseases",
+          "citation": "Eur J Clin Microbiol Infect Dis 2019;38:1999",
+          "summaryOrNote": "General reference on V. vulnificus."
+        },
+        {
+          "source": "Journal of Antimicrobial Chemotherapy",
+          "citation": "J Antimicrob Chemother 67:488, 2012",
+          "summaryOrNote": "Information on progression to necrotizing fasciitis."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 46:970, 2008",
+          "summaryOrNote": "Details on high-risk patient populations."
+        },
+        {
+          "source": "New England Journal of Medicine",
+          "citation": "N Engl J Med 2018;379:375",
+          "summaryOrNote": "Image of hemorrhagic bullae."
+        },
+        {
+          "source": "New England Journal of Medicine",
+          "citation": "N Engl J Med 2016;375:1780",
+          "summaryOrNote": "General clinical case/image."
+        },
+        {
+          "source": "Nature Reviews Disease Primers",
+          "citation": "Nat Rev Dis Primers 4:8 2018",
+          "summaryOrNote": "Review comparing different Vibrio infections."
+        },
+        {
+          "source": "StatPearls",
+          "citation": "StatPearls; 2023 Jan. 2023 Jan 10.",
+          "summaryOrNote": "General reference."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.339Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Vibrio vulnificus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-02-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacillus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Lives in salt water marine environments"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Vibrio vulnificus is a gram-negative bacillus that can cause diarrhea, wound infections, and bacteremia. It is the number one cause of shellfish-associated deaths in the U.S. Wound infections result from exposure to seawater or brackish water and can progress to necrotizing fasciitis. Due to the potential severity, empiric therapy is often warranted in patients with appropriate risk factors.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Diarrhea",
+        "Wound infection",
+        "Hemorrhagic bullae (in ~75% of patients)"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Wound Infection",
+          "description": "Can be severe and progress to necrotizing fasciitis. Occurs after exposure of a wound to contaminated water or seafood."
+        },
+        {
+          "syndromeName": "Bacteremia / Sepsis",
+          "description": "Can occur after wound infection or ingestion of contaminated seafood, especially in high-risk individuals."
+        },
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "Diarrhea resulting from ingestion of the organism."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Cirrhosis (due to alcohol or chronic viral hepatitis)",
+        "Alcoholism",
+        "Hemochromatosis",
+        "Diabetes mellitus",
+        "Thalassemia major",
+        "Chronic renal disease",
+        "Use of TNF inhibitors",
+        "Lymphoma",
+        "Hematological disease",
+        "Malignancy",
+        "Liver disease"
+      ],
+      "transmissionVectors": [
+        "Seawater exposure",
+        "Brackish water exposure",
+        "Oyster shucking",
+        "Sea urchin harvesting",
+        "Fish fin punctures",
+        "Handling seafood",
+        "Ingestion of raw seafood"
+      ],
+      "prognosisNotes": [
+        "A retrospective surveillance study found higher mortality with β-lactam alone compared to fluoroquinolone alone or a combination of a fluoroquinolone or a tetracycline plus a β-lactam (BMC Infect Dis. 5:226, 2015)."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "bid",
+              "duration": "",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg IV/PO bid"
+            },
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "once daily",
+              "duration": "",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm IV once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Minocycline",
+              "dose": "100 mg",
+              "route": "IV/PO",
+              "frequency": "bid",
+              "duration": "",
+              "comments": "",
+              "originalText": "Minocycline 100 mg IV/PO bid"
+            },
+            {
+              "drugName": "Ceftazidime",
+              "dose": "1 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "",
+              "originalText": "Ceftazidime 1 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "IV/PO",
+              "frequency": "once daily",
+              "duration": "",
+              "comments": "Can be substituted for Doxycycline or Minocycline.",
+              "originalText": "Levofloxacin 750 mg IV/PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Wound, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "750 mg PO or 400 mg IV",
+              "route": "IV/PO",
+              "frequency": "bid",
+              "duration": "",
+              "comments": "Can be substituted for Doxycycline or Minocycline.",
+              "originalText": "Ciprofloxacin 750 mg PO or 400 mg IV IV/PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Severe soft tissue infection and sepsis",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Children"
+              ],
+              "labFindings": "Wound, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "4.4 mg/kg/day div bid (max 200 mg/day)",
+              "route": "IV/PO",
+              "frequency": "bid",
+              "duration": "",
+              "comments": "Can be safely administered for up to 21 days regardless of age (AAP Red Book 2018, Section 4; J Pediatr 166:1246, 2015).",
+              "originalText": "Doxycycline 4.4 mg/kg/day div bid (max 200 mg/day) IV/PO bid"
+            },
+            {
+              "drugName": "Ceftazidime",
+              "dose": "150-200 mg/kg/d divided q8h",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "",
+              "originalText": "Ceftazidime 150-200 mg/kg/d divided q8h IV q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

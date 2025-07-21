@@ -1,0 +1,135 @@
+{
+  "documentMetadata": {
+    "title": "Syphilis, Secondary",
+    "sourceFile": "syndromes/genitourinary/syphilis/Syphilis, Secondary.pdf",
+    "lastUpdated": "2023-05-08"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fever, papulosquamous rash often involving palms of hands and soles of feet, aseptic meningitis.",
+        "References: JAMA 312:1905, 2014; Clin Infect Dis 2015 61:S818.; Lancet 2017 389:1550 and N Engl J Med. 2020;382:845"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treponema pallidum"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Benzathine Penicillin G (Bicillin L-A)",
+            "dose": "2.4 million units",
+            "route": "IM",
+            "frequency": "x 1 dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "connector": "or"
+          },
+          {
+            "drug": "Tetracycline",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "qid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "1 gm",
+            "route": "IM/IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "10-14 days"
+        },
+        "notes": "though exact duration and dose unclear"
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "European 2020 Syphilis Guidelines recommend Procaine Penicillin 600,000 units IM daily for 10–14 days, if benzathine Penicillin G not available.",
+        "Azithromycin 2 gm po single dose no longer recommended due to increasing resistance.",
+        "Follow-up is mandatory.",
+        "Pregnancy: all should be treated with Penicillin; If penicillin-allergic, the patient should be desensitized. See Methods for Penicillin Desensitization."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In some countries, benzathine Penicillin G is not available and shortages are increasingly common."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Consider high dose Amoxicillin 3 gm/day with probenecid (750 mg/day) po given tid in divided doses x 2 weeks (early syphilis) x 4 weeks (late latent or unknown duration) based on Japanese experience in HIV-infected individuals (efficacy 95.5%, 273/286 patients; Clin Infect Dis 61:177, 2015).",
+        "Another alternative is Amoxicillin 1.5 g/day is better tolerated than above Amoxicillin/Probenicid combination with similar efficacy (94.9%) Sex Transm Infect 98:173 2022"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Test all patients with syphilis for HIV and all HIV patients for syphilis.",
+        "Perform quantitative nontreptonemal test (VDRL or RPR) at 0, 3, 6, 12 and 24 months after treatment.",
+        "If primary or secondary syphilis, VDRL should decrease 2 tubes (i.e. 4 fold) at 6 months, 3 tubes at 12 months and 4 tubes in 24 months.",
+        "Current 2021 CDC recommendations no longer recommend to examine CSF if titers fail to fall 4-fold, rather to follow titers and neurological exam.",
+        "Secondary syphilis as the great imitator: e.g., cervical lymphadenitis Clin Infect Dis 58: 1577, 2014.",
+        "Reviews: 2021 CDC STD guidelines MMWR Recomm Rep 70 (RR-4):1 2021; European 2020 Syphilis Guidelines and N Engl J Med. 2020;382:845",
+        "Review of evidence for CDC guidelines: Clin Infect Dis 74:S127 2022"
+      ]
+    }
+  ]
+}

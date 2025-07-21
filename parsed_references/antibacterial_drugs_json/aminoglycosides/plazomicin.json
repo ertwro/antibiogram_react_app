@@ -1,0 +1,89 @@
+{
+  "drug_name": "Plazomicin",
+  "tradename": "Zemdri",
+  "usage_and_dosing": {
+    "description": "Plazomicin, approved in 2018, is a semisynthetic aminoglycoside derived from sisomicin. FDA approved for treatment of adults, age ≥18 years, with complicated urinary tract infections (cUTIs), including pyelonephritis, caused by E. coli, K. pneumoniae, P. mirabilis, and E. cloacae. Clinical significance of in vitro data for other GNB is unknown. May be active against Enterobacteriaceae resistant to beta-lactams and other classes of antibacterials. Stable in the presence of many clinically relevant aminoglycoside modifying enzymes. Inactive vs isolates that produce 16S rRNA methyltransferases. May have reduced activity vs Enterobacteriaceae that express efflux pumps or have impaired cell wall permeability due to porin closure. Activity against Pseudomonas aeruginosa is variable. No activity against Acinetobacter baumannii, Stenotrophomonas maltophilia, or anaerobes. Safety and efficacy data are limited, hence, plazomicin should be used only when there are limited or no alternative treatment options. Ideally, susceptibility results should be obtained first.",
+    "adult_dose": [
+      {
+        "dose": "15 mg/kg IV q24h x4-7 days.",
+        "infusion": "Infuse in 50 mL NS over 30 minutes.",
+        "tdm": "Product labeling recommends TDM to maintain plasma troughs <3 µg/mL. Check trough 30 min before 2nd dose; extend dosing interval by 1.5x (i.e., from q24h to q36h, or from q48h to q72h) if trough ≥3 µg/mL.",
+        "hartford_nomogram": "Study suggests application of the Hartford nomogram may result in fewer patients with troughs ≥3 µg/mL. Prospective validation required (Antimicrob Agents Chemother 2019;63:e00148-19)."
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "3.5 hrs",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "15 mg/kg IV q24h",
+    "crcl_or_egfr": {
+      "crcl_>60": "No dosage adjustment",
+      "crcl_30_to_<60": "10 mg/kg q24h",
+      "crcl_15_to_<30": "10 mg/kg q48h",
+      "crcl_<15": "No data"
+    },
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "ecmo": "See ECMO Drug Dosing Adjustment.",
+    "obesity": "See Obesity Dosing Adjustments."
+  },
+  "adverse_effects": [
+    "Nephrotoxicity (acute tubular necrosis)",
+    "Ototoxicity (cochlear and vestibular).",
+    "Enhancement of neuromuscular blockade (rare)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Aminoglycosides are associated with fetal harm, especially 1st TM use. No specific data for plazomicin. Avoid in pregnancy, although short-term use may be acceptable if benefit outweighs risk.",
+    "use_during_lactation": "Probably safe, monitor infant for GI toxicity"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "51-74 (15 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "20%",
+    "volume_of_distribution": "18-31 L",
+    "avg_serum_t1_2": "3.5 hr",
+    "elimination": "Renal",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "226-257 (15 mg/kg, 0-inf)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_substrate": null,
+    "transporters_substrate": null,
+    "ugts_substrate": null,
+    "cyp450s_inhibited": null,
+    "transporters_inhibited": "MATE1, MATE2-K",
+    "ugts_inhibited": null,
+    "cyp450s_induced": null,
+    "transporters_induced": null,
+    "ugts_induced": null,
+    "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+    "None reported"
+  ]
+}

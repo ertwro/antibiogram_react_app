@@ -1,0 +1,171 @@
+{
+  "documentMetadata": {
+    "title": "Lymphogranuloma Venereum",
+    "sourceFile": "Lymphogranuloma venereum.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Transient painless genital ulcer with painful inguinal lymphadenopathy with unilateral \"groove sign\" (Clin Infect Dis 2015; 61:S865)",
+        "Rectal exposure (men, women) can result in proctocolitis (fever, pain, discharge, rectal ulcer, bleeding) (Dis Colon Rectum 52:507, 2009)",
+        "Infection may be asymptomatic in up to 25% (Sex Transm Infect 89:548, 2013)",
+        "Most case series reported in MSM with clinical findings that may be confused with inflammatory bowel disease.",
+        "Treat presumptively while awaiting diagnosis with NAAT."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Chlamydia trachomatis (Serovars L1, L2, L3)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Definitive diagnosis only with LGV-specific molecular testing (e.g., PCR-based genotyping), but not widely available",
+        "Nucleic acid amplification tests (NAAT) of rectal sample for C. trachomatis will be positive.",
+        "Chlamydia serology (complement fixation or microimmunofluorescence) should not be used routinely but may be helpful in NAAT negative cases.",
+        "Biopsy is contraindicated because sinus tracts develop."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "21 days"
+        }
+      }
+    },
+    {
+        "type": "partnerManagement",
+        "partnerManagementData": {
+            "lookBackPeriod": "60 days",
+            "action": "Evaluate sexual partners with contact within 60 days before onset of symptoms and treat presumptively for Chlamydia trachomatis",
+            "partnerRegimen": {
+                "components": [
+                    {
+                        "drug": "Azithromycin",
+                        "dose": "1 gm",
+                        "route": "po",
+                        "frequency": "single dose"
+                    },
+                    {
+                        "drug": "Doxycycline",
+                        "dose": "100 mg",
+                        "route": "po",
+                        "frequency": "bid",
+                        "connector": "or"
+                    }
+                ],
+                "durationDetail": {
+                    "fixedDuration": "7 days"
+                }
+            }
+        }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "once weekly"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "3 weeks"
+        },
+        "evidence": {
+            "references": ["Clin Infect Dis 2021 73:614"]
+        }
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Erythromycin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "qid"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "21 days"
+        }
+      }
+    },
+    {
+        "type": "paragraph",
+        "text": "For alternative regimens, test for cure with NAAT (4 weeks after diagnosis)"
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "HIV, Syphilis and other STI testing should be performed on all patients who present with Lymphogranuloma venereum (LGV).",
+        "All patients treated for LGV should be retested at 3 mo for Chlamydia.",
+        "Those whose HIV test results are negative should be offered HIV PrEP.",
+        "LGV proctitis, if not treated promptly, can result in colorectal fistulas and strictures.",
+        "Longer treatment (3 weeks) needed because infection is more invasive and more difficult to eradicate than most genital infections.",
+        "Follow clinically until all signs and symptoms resolved.",
+        "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021"
+      ]
+    },
+    {
+        "type": "crossReference",
+        "referenceData": {
+            "text": "Review non syphilis non HSV genital ulcers: Infect Dis Clin North Am 37:369 2023",
+            "targetType": "externalURL",
+            "targetIdentifier": "Infect Dis Clin North Am 37:369 2023"
+        }
+    }
+  ]
+}

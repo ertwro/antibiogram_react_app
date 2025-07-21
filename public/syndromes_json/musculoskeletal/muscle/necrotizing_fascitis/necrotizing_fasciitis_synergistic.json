@@ -1,0 +1,169 @@
+{
+  "documentMetadata": {
+    "title": "Necrotizing Fasciitis, Synergistic",
+    "lastUpdated": "2020-08-07",
+    "sourceFile": "Necrotizing Fasciitis, Synergistic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Synergistic necrotizing fasciitis occurs in a variety of settings that allow combination of aerobic and anaerobic pathogens access to the fascial plane between subcutaneous fat and the underlying musculature.",
+        "A rare example is Meleney's synergistic gangrene (Staph.aureus + microaerophilic Strep.) on the abdominal wall.",
+        "Can complicate Gl surgery with any combination of Enterobacteriaceae and anaerobic gram-negative rod bowel flora.",
+        "Penetration of Gl organisms into skin can spread in fascial plane into scrotum, penis and inferior abdominal wall (Fournier's gangrene).",
+        "Inciting events: Post-coital trauma, UTI, genital piercing, penile implants and rectal foreign body",
+        "Note: Package insert warning for Sodium glucose co-transporter-2 inhibitor (SGLT2) drugs:",
+        "Reports of necrotizing fasciitis of the perineum (Fournier's gangrene), a rare but serious and life threatening necrotizing infection requiring urgent surgical intervention, have been identified in post-marketing surveillance in patients with diabetes mellitus receiving SGLT2 inhibitors (Ann Intern Med 2019; 170:764)",
+        "See Staphylococcal necrotizing fasciitis for further discussion.",
+        "Review: New Engl J Med 2017;377:2253"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mixture of aerobic and anaerobic bacteria spreading in fascial plane"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Early exploratory surgery",
+        "indication": "to establish diagnosis and resect necrotic tissue"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Imipenem-cilastatin"
+          },
+          {
+            "drug": "Meropenem",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Add Vancomycin or Daptomycin if Staph. aureus suspected"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "procedure",
+      "procedureData": {
+        "name": "Early exploratory surgery",
+        "indication": "to establish diagnosis and resect necrotic tissue"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Penicillin allergy manifest as skin rash only and unable to tolerate carbapenem"
+        },
+        "components": [
+          {
+            "drug": "Cefepime"
+          },
+          {
+            "drug": "Metronidazole",
+            "connector": "+"
+          },
+          {
+            "drug": "Vancomycin",
+            "connector": "+"
+          },
+          {
+            "drug": "Daptomycin",
+            "connector": "or"
+          }
+        ],
+        "notes": "if Staph. aureus suspected"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "appliesTo": {
+          "description": "Penicillin allergy manifest as anaphylaxis or angioneurotic edema"
+        },
+        "components": [
+          {
+            "drug": "Ciprofloxacin"
+          },
+          {
+            "drug": "Metronidazole",
+            "connector": "+"
+          },
+          {
+            "drug": "Vancomycin",
+            "connector": "+"
+          },
+          {
+            "drug": "Daptomycin",
+            "connector": "or"
+          }
+        ],
+        "notes": "if Staph. aureus suspected"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Antibiotic therapy should be adjusted based on culture results.",
+        "Duration of treatment is not predictable; treat until evidence of healthy granulation tissue at all debridement sites."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use of hyperbaric oxygen (HBO) for necrotizing soft tissue infection has been debated, see Arch Surgery 139:1339, 2004. Recent study limited to centers which have on-site HBO found survival benefit for those in the most extremely ill category (Surg Infect (Larchmt) 15:328, 2014).",
+        "See Necrotizing Fasciitis, Overview for further discussion and links to other etiologies."
+      ]
+    }
+  ]
+}

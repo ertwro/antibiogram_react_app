@@ -1,0 +1,409 @@
+{
+  "documentMetadata": {
+    "title": "Genital Herpes Simplex Infection",
+    "lastUpdated": "2021-11-22",
+    "sourceFile": "Herpes simplex, Genital.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Genital herpes simplex infection: Initial and recurrent episodes.",
+        "Review: N Engl J Med 2016;375: 666; 2021 CDC STI Guidelines MMWR Recomm Rep 70 (RR-4):1 2021"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Pregnancy considerations:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acyclovir is safe even in the first trimester.",
+        "No proof that Acyclovir at delivery reduces risk/severity of neonatal herpes.",
+        "In contrast, C-section in women with active lesions reduces risk of transmission. See Obstet Gynecol 106:845, 2005.",
+        "Increased risk of dissemination to include severe, and even fatal, hepatitis: N Engl J Med 370: 2211, 2014.",
+        "For recalcitrant pseudotumoral anogenital herpes, type 2, in HIV patients, see Comment."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Herpes simplex virus (HSV) (Types 1, 2)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Primary (initial episode)"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Acyclovir",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "tid",
+            "duration": "x 7-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Valacyclovir",
+            "dose": "1000 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 7-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Famciclovir",
+            "dose": "250 mg",
+            "route": "po",
+            "frequency": "tid",
+            "duration": "x 7-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Subsequent recurrent episodes"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Immunocompetent"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Acyclovir",
+            "dose": "800 mg",
+            "route": "po",
+            "frequency": "tid",
+            "duration": "x 2 days"
+          },
+          {
+            "drug": "Acyclovir",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "tid",
+            "duration": "x 5 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Famciclovir",
+            "dose": "1000 mg",
+            "frequency": "bid",
+            "duration": "x 1 day"
+          },
+          {
+            "drug": "Famciclovir",
+            "dose": "125 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 5 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Valacyclovir",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 3 days"
+          },
+          {
+            "drug": "Valacyclovir",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "once daily",
+            "duration": "x 5 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Immunocompromised, HIV"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Acyclovir",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "tid",
+            "duration": "x 5-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Famciclovir",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 5-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Valacyclovir",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "x 5-10 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "For severe cases only"
+        },
+        "components": [
+          {
+            "drug": "Acyclovir",
+            "dose": "5 mg/kg",
+            "route": "IV",
+            "frequency": "q8h",
+            "duration": "x 5-7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Acyclovir-resistant HSV"
+        },
+        "components": [
+          {
+            "drug": "Foscarnet",
+            "dose": "80-120 mg/kg/day",
+            "frequency": "in 2-3 divided doses",
+            "duration": "x 7 days",
+            "connector": "OR"
+          },
+          {
+            "drug": "Cidofovir",
+            "dose": "5 mg/kg",
+            "route": "IV",
+            "frequency": "q wk until clinical response"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Chronic suppression (daily)"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Immunocompetent"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "suppression",
+        "components": [
+          {
+            "drug": "Acyclovir",
+            "dose": "400 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "suppression",
+        "components": [
+          {
+            "drug": "Famciclovir",
+            "dose": "250 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "suppression",
+        "components": [
+          {
+            "drug": "Valacyclovir",
+            "dose": "1 gm",
+            "route": "po",
+            "frequency": "q24h"
+          }
+        ],
+        "notes": "Patients with < 9 recurrences per year could use 500 mg po q24h and then 1 gm po q24h if breakthrough at 500 mg."
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "In Cochrane review, above regimens equally efficacious. Number of recurrences reduced by 40-60% (Cochrane Database Syst Rev 8:CD009036, 2014)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Immunocompromised, HIV"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "suppression",
+        "components": [
+          {
+            "drug": "Acyclovir",
+            "dose": "400-800 mg",
+            "route": "po",
+            "frequency": "bid or tid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "suppression",
+        "components": [
+          {
+            "drug": "Famciclovir",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "suppression",
+        "components": [
+          {
+            "drug": "Valacyclovir",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "bid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acyclovir reduced by 2 days time to resolution of signs and symptoms, reduced by 4 days time to healing of lesions, reduced by 7 days duration of viral shedding. Does not prevent recurrences once discontinued.",
+        "Valacyclovir is an ester of acyclovir, which is well absorbed, bioavailability 3-5 > acyclovir.",
+        "Famciclovir is metabolized to penciclovir, which is active component. Side effects and activity similar to acyclovir. Famciclovir 250 mg po tid equal to Acyclovir 200 mg 5x/day.",
+        "Suppressive therapy reduces the frequency of genital herpes recurrences by 70-80% among patients who have frequent recurrences (i.e., >6 recurrences per year) and many report no symptomatic outbreaks.",
+        "References: 2021 CDC STI Guidelines MMWR Recomm Rep 70 (RR-4):1 2021 and N Engl J Med 2016;375, 666"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Atypical hypertrophic, ulcerative or pseudotumor forms reported in HIV patients"
+    },
+    {
+      "type": "list",
+      "items": [
+        "CD4 count maybe normal and HIV viral \"load\" undetectable",
+        "Frequent failure to respond to acyclovir",
+        "In one report only 2 of 10 patients responded to acyclovir/valacyclovir, foscarnet, or cidofovir; 5 of 10 responded to imiquimod and/or thalidomide",
+        "See Clin Infect Dis 57:1648, 2013."
+      ]
+    }
+  ]
+}

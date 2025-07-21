@@ -1,0 +1,76 @@
+{
+  "drug_name": "Cefoperazone",
+  "tradename": "Cefobid, Magnamycin",
+  "usage_and_dosing": {
+    "general": [
+      "Cefoperazone is a 3rd-generation parenteral extended-spectrum cephalosporin.",
+      "Originally FDA-approved in the early 1980s but now discontinued from the US market."
+    ],
+    "adult_dose": {
+      "usual_dose": "1-2 gm IV q12h",
+      "severe_infections": "Up to 4 gm IV q12h in severe infections",
+      "uncomplicated_gonococcal_urethritis": "500 mg IM as a single dose"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "50-200 mg/kg/day (divided q8-12h) (divided q12h if age <8 days)",
+      "max_day": "12 gm"
+    }
+  },
+  "renal_adjustment": {
+    "notes": "Dosage adjustment may be required in hepatic disease.",
+    "half_life_normal": "1.7-2.0",
+    "half_life_esrd": "No change",
+    "dose_renal_function_normal": "1-2 gm IV q12h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment (if GFR <18, do not exceed 4 gm/day)",
+    "hemodialysis": "No dosage adjustment (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "note": "Limit dosage to 2 gm/day in patients with concomitant hepatic and renal dysfunction.",
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "Limit dosage to 2 gm/day"
+  },
+  "adverse_effects": [
+    "Hypersensitivity reactions",
+    "Anaphylaxis",
+    "Stevens-Johnson syndrome, toxic epidermal necrolysis",
+    "C. difficile-associated diarrhea",
+    "Increased LFTs",
+    "Hematologic: anemia, neutropenia, thrombocytopenia",
+    "May increase INR and cause bleeding, possibly related to the MTT side chain.",
+    "See Cephalosporins, Overview"
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {},
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "252 (2 gm over 15 min, SD)",
+    "peak_urine_conc_ug_ml": ">2200 (2 gm IV over 15 min, SD)",
+    "protein_binding_percent": "87-90",
+    "volume_of_distribution_vd_l": "10.2-11.3 L",
+    "avg_serum_half_life_hr": "1.7-2.0",
+    "elimination": "Biliary",
+    "bile_penetration_percent": "Up to 100x serum conc",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "major_drug_interactions": [
+      {
+          "drug": "Ethanol",
+          "effect": "Possible disulfiram-type reaction",
+          "management": "Avoid co-administration"
+      }
+  ]
+}

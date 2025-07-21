@@ -1,0 +1,161 @@
+
+{
+  "documentMetadata": {
+    "title": "Anthrax, Systemic",
+    "lastUpdated": "2025-04-25",
+    "sourceFile": "Anthrax, Systemic.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Zoonotic disease:",
+        "Animal reservoir: sheep, goats, cattle.",
+        "Rarely, infection occurs secondary to use of illicit drugs.",
+        "Inhalation or ingestion of Bacillus anthracis spores during exposure to contaminated animal wool, hair, hides or other animal products.",
+        "Agent of bioterrorism.",
+        "Vegetative form produces necrotizing toxins.",
+        "Clinical syndrome varies with the route of inoculation:",
+        "Systemic anthrax includes the following, with or without meningitis.",
+        "Inhalational: chest x-ray shows mediastinal widening and/or pleural effusions.",
+        "Oral.",
+        "Gastrointestinal.",
+        "See Cutaneous anthrax for treatment of this infection.",
+        "Incubation period of 1-7 days, but up to 6 weeks or longer reported.",
+        "Prodrome of fever, myalgias, and lethargy followed abrupt onset of respiratory failure and severe sepsis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacillus anthracis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy for systemic anthrax, without or without meningitis, based on 2023 CDC guidelines",
+        "Treatment consists of an antibacterial regimen + antitoxin.",
+        "Preferred antibacterial regimen is a three-drug combination regimen of two bactericidal drugs + a protein synthesis inhibitor or + RNA synthesis inhibitor (Rifampin), if possible.",
+        "Second line antibacterial regimen: one bactericidal drug + a protein synthesis inhibitor.",
+        "See 2023 CDC guidelines for two-drug and single drug alternatives to 3 drug regimen.",
+        "Continue or switch antimicrobial drugs based on susceptibility test results.",
+        "Can transition to an oral two-drug regimen (e.g., Ciprofloxacin + Doxycycline) to complete therapy based on patient improvement and clinical judgement.",
+        "Non-pregnant adults age > 18 years",
+        "Antibacterial regimen:",
+        "Ciprofloxacin 400 mg IV q8h + Meropenem 2 gm q8h + (Minocycline 200 mg x 1 then 100 mg IV q12h or Doxycycline 200 mg IV x1 then 100 mg IV q12h)",
+        "Duration of therapy 2 weeks or longer depending on clinical response",
+        "Prolonged therapy no longer recommended for aerosol exposure for immunocompetent patients who will have developed natural immunity",
+        "Immunocompromised patients with aerosol exposure should be transitioned to an oral post-exposure prophylaxis regimen to complete 60 days of therapy",
+        "Antitoxin, administer one of the following:",
+        "Raxibacumab (Abthrax)",
+        "Premedicate with 25-50 mg of diphenhydramine IV or po",
+        "40 mg/kg, one time dose",
+        "Obiltoxaximab (Anthim)",
+        "Premedicate with 25 mg of diphenhydramine IV or po",
+        "16 mg/kg, one time dose",
+        "Anthrax immune globulin intravenous",
+        "420 units IV one time dose",
+        "Pediatric regimen, age > 1 month to < 18 years (see Pediatrics 133:e1411, 2014):",
+        "Antibacterial regimen:",
+        "Ciprofloxacin 10 mg/kg (max dose 400 mg) IV q8h + Meropenem 40 mg/kg (max dose 2 gm) IV q8h + [Minocycline 4 mg/kg (max dose 200 mg) IV x1 then 2 mg/kg (max dose 100 mg) IV q12h or Doxycycline 4.4 mg/kg (max dose 200 mg) IV x1 then 2.2 mg/kg (max dose 100 mg) IV q12h]",
+        "Duration of therapy 2 weeks or longer depending on clinical response",
+        "Prolonged therapy no longer recommended for aerosol exposure for immunocompetent patients who will have developed natural immunity",
+        "Immunocompromised patients with aerosol exposure should be transitioned to an oral post-exposure prophylaxis regimen to complete 60 days of therapy",
+        "Antitoxin, administer one of the following:",
+        "Raxibacumab (Abthrax)",
+        "Premedicate with 25-50 mg of diphenhydramine IV or po",
+        "≤10 kg: 80 mg/kg as a single dose IV",
+        ">10 to 40 kg: 60 mg/kg as a single dose IV",
+        ">40 kg: 40 mg/kg as a single dose IV",
+        "Obiltoxaximab (Anthim)",
+        "Premedicate with 25 mg of diphenhydramine IV or po",
+        "≤15 kg: 32 mg/kg as a single dose IV",
+        ">15 to 40 kg: 24 mg/kg as a single dose IV",
+        ">40 kg: 16 mg/kg as a single dose IV",
+        "Anthrax immune globulin intravenous",
+        ">10 kg: 1 vial (approximately 60 units) IV",
+        "10 to <18 kg: 2 vials (approximately 120 units) IV",
+        "18 to <25 kg: 3 vials (approximately 180 units) IV",
+        "25 to <35 kg: 4 vials (approximately 240 units) IV",
+        "35 to <50 kg: 5 vials (approximately 300 units) IV",
+        "50 to <60 kg: 6 vials (approximately 360 units) IV",
+        "≥60 kg: 7 vials (approximately 420 units) IV",
+        "Preterm and full-term newborns",
+        "Antibacterial regimen:",
+        "Meropenem + Ciprofloxacin + (Clindamycin or Doxycycline)",
+        "Meropenem dosing: 32 to < 34 weeks gestational age, 0 to < 1 week, 13.3 mg/kg IV q8h; all others, 20 mg/kg IV q8h",
+        "Ciprofloxacin dosing: 32 to < 34 weeks gestational age, 0 to < 1 week, 7.5 mg/kg IV q12h; all others, 12.5 mg/kg IV q12h",
+        "Clindamycin dosing: 32 to < 37 weeks gestational age, 7 mg/kg IV/IM q8h; full-term, 9 mg/kg IV/IM q8h",
+        "Doxycycline dosing: 32 to < 37 weeks gestational age, 5 mg/kg IV a12h: full-term, 5 mg/kg IV x1 then 2.5 mg/kg IV q12h",
+        "Duration of therapy 2 weeks or or longer depending on clinical response then transition to an oral post-exposure prophylaxis regimen to complete a 60 day course of therapy if an aerosol exposure might have occurred as preterm and full-term newborns are considered immunocompromised; post-exposure prophylaxis not needed for non-aerosol exposures.",
+        "Antitoxin, administer one of the following:",
+        "Raxibacumab (Abthrax)",
+        "Premedicate with 25-50 mg of diphenhydramine IV or po",
+        "55 mg/kg as a single dose IV",
+        "Obiltoxaximab (Anthim)",
+        "Premedicate with 25 mg of diphenhydramine IV or po",
+        "16 mg/kg as a single dose IV",
+        "Anthrax immune globulin intravenous",
+        "60 units IV",
+        "Pregnant and lactating adults",
+        "Antibacterial regimen:",
+        "Ciprofloxacin 400 mg IV q8h + Meropenem 2 gm q8h + Doxycycline 200 mg x1 then 100 mg IV q12h",
+        "Duration of therapy 2 weeks or longer depending on clinical response",
+        "Prolonged therapy no longer recommended for aerosol exposure for immunocompetent patients who will have developed natural immunity.",
+        "Immunocompromised patients, pre-term and full-term newborns with aerosol exposure should be transitioned to an oral post-exposure prophylaxis regimen to complete 60 days of therapy",
+        "Antitoxin: same as for non-pregnant adults"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See 2023 CDC guidance for alternative two-drug combination or single drug regimens and specific recommendations for dosing",
+        "Alternative bactericidal drugs",
+        "Alternatives to Ciprofloxacin: Levofloxacin or Moxifloxacin",
+        "Alternatives to Meropenem: Imipenem (avoid in meningitis) or Vancomycin",
+        "Piperacillin-tazobactam or Ampicillin-sulbactam are possible alternatives but activity against penicillin-resistant strains not established",
+        "For penicillin-susceptible strains only: Penicillin G or Ampicillin",
+        "Oral alternatives for penicillin-susceptible strains: Amoxicillin or Penicillin VK",
+        "Alternative protein-synthesis inhibitors or RNA synthesis inhibitors",
+        "Alternatives to Doxycycline or Minocycline: Linezolid, Rifampin, Clindamcyin, Omadacycline, Eravacycline, or Chloramphenicol"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "To report a possible bioterrorism event to CDC: (+1) 770-488-7100.",
+        "Recent References:",
+        "2023 CDC Guidelines",
+        "Clinical features (Clin Infect Dis 2022, 75: S341)",
+        "Treatment outcomes (Clin Infect Dis 2022, 75: S392)",
+        "Antitoxin (Clin Infect Dis 2022, 75: S432)"
+      ]
+    }
+  ]
+}

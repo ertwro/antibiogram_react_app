@@ -1,0 +1,120 @@
+{
+  "documentMetadata": {
+    "title": "Bite from iguana",
+    "sourceFile": "Bite_ Lizard, Iguana.pdf",
+    "lastUpdated": "2025-01-06"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bite from iguana",
+        "Often involves upper extremities or face"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Microbiology of iguana oral flora poorly characterized",
+        "Salmonella sp. has been transmitted by handling iguanas and lizards",
+        "Infections reported due to Staphylococcus aureus and Serratia marcescens",
+        "Case report of bullous cellulitis due to S. marcescens."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Optimal regimens not defined. Would choose agent that covers possible skin flora of victim (Staph and Strep) and well as Gram-negative bacteria, including Salmonella sp. from lizard:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "875/125 mg",
+                "route": "po",
+                "frequency": "twice daily"
+              },
+              {
+                "connector": "+",
+                "drug": "Ciprofloxacin",
+                "dose": "750 mg",
+                "route": "po",
+                "frequency": "twice daily"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Piperacillin-tazobactam",
+            "dose": "4.5 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "notes": "(over 4 hr)"
+          },
+          {
+            "connector": "or",
+            "drug": "Imipenem"
+          },
+          {
+            "connector": "or",
+            "drug": "Meropenem"
+          },
+          {
+            "connector": "or",
+            "drug": "Cefepime"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Anti-staphylococcal agent + agent likely to be active against Serratia and other Enterobacteriaceae such as Gentamicin.",
+        "Trimethoprim-sulfamethoxazole possible alternative to a fluoroquinolone"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Administer tetanus toxoid or Tdap (preferred) if > 10 years since last dose",
+        "Review of animal bite wounds (Clin Microbiol Rev 24: 231, 2011)"
+      ]
+    }
+  ]
+}

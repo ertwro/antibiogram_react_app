@@ -1,0 +1,579 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Vibrio cholerae",
+      "aliases": [],
+      "lastUpdated": "2025-04-22",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli (comma shaped)",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative curved rod, oxidase +, motile (single polar flagellum), ferments sucrose (yellow colonies on TCBS agar), positive string test, indole +, lysine and ornithine decarboxylase +."
+    },
+    "clinicalProfile": {
+      "summary": "Vibrio cholerae is the causative agent of cholera, a severe diarrheal illness characterized by profuse watery diarrhea ('rice-water stools'), leading to rapid dehydration, electrolyte imbalance, and potentially high mortality if left untreated. It is endemic in many parts of the world.",
+      "pathophysiologyPearls": [
+        "The disease is mediated by cholera toxin, which causes massive secretion of fluid and electrolytes from the small intestine."
+      ],
+      "keySignsAndSymptoms": [
+        "Painless, voluminous watery diarrhea ('rice-water stools')",
+        "Vomiting",
+        "Signs of severe dehydration (e.g., sunken eyes, loss of skin turgor, hypotension, tachycardia)",
+        "Muscle cramps"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Cholera",
+          "description": "An acute, severe gastroenteritis that can rapidly lead to life-threatening dehydration and shock."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals in endemic areas with poor sanitation and lack of access to clean water",
+        "Travelers to endemic regions"
+      ],
+      "transmissionVectors": [
+        "Contaminated water",
+        "Contaminated food"
+      ],
+      "prognosisNotes": [
+        "With prompt and adequate rehydration, mortality is less than 1%. Without treatment, mortality can be 50-75%."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Fluoroquinolone Resistance",
+          "details": "Ciprofloxacin efficacy is poor against nalidixic acid-resistant strains."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Antimicrobial therapy is an adjunct to hydration and is recommended for patients with severe or moderate dehydration to decrease the duration and volume of diarrhea and the period of fecal excretion."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [
+        {
+          "therapy": "Hydration",
+          "condition": "All cases of cholera",
+          "details": "Primary treatment is aggressive fluid and electrolyte replacement. Use Ringer's lactate for IV hydration. Oral Rehydration Salts (ORS) solution should be started as soon as the patient can tolerate oral intake."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Cholera",
+            "patientPopulation": [
+              "Adults",
+              "Children > 12 years",
+              "Pregnant women"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "300",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "1",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "1",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Erythromycin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "QID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Cholera",
+            "patientPopulation": [
+              "Children < 12 years"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "2-4 mg/kg",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "20 mg/kg (max 1 gm)",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Single dose",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "20 mg/kg (max 1 gm)",
+                      "route": "PO",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Erythromycin",
+                      "dose": "12.5 mg/kg (max 500 mg)",
+                      "route": "PO",
+                      "frequency": "QID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Stool culture on selective media (e.g., TCBS agar) is the gold standard for diagnosis."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Vaccination",
+          "details": "A vaccine is available for pre-exposure prevention in travelers.",
+          "targetPopulation": "Travelers to endemic areas"
+        }
+      ],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "The Lancet",
+          "citation": "Lancet. 2022; 399:1429-1440",
+          "summaryOrNote": "Review of cholera."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.337Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Vibrio cholerae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-22"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Bacilli (comma shaped)",
+        "respiration": "Facultative anaerobe",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Vibrio cholerae is the causative agent of cholera, a severe diarrheal illness characterized by profuse watery diarrhea ('rice-water stools'), leading to rapid dehydration, electrolyte imbalance, and potentially high mortality if left untreated. It is endemic in many parts of the world.",
+      "pathophysiologyPearls": [
+        "The disease is mediated by cholera toxin, which causes massive secretion of fluid and electrolytes from the small intestine."
+      ],
+      "keySignsAndSymptoms": [
+        "Painless, voluminous watery diarrhea ('rice-water stools')",
+        "Vomiting",
+        "Signs of severe dehydration (e.g., sunken eyes, loss of skin turgor, hypotension, tachycardia)",
+        "Muscle cramps"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Cholera",
+          "description": "An acute, severe gastroenteritis that can rapidly lead to life-threatening dehydration and shock."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Individuals in endemic areas with poor sanitation and lack of access to clean water",
+        "Travelers to endemic regions"
+      ],
+      "transmissionVectors": [
+        "Contaminated water",
+        "Contaminated food"
+      ],
+      "prognosisNotes": [
+        "With prompt and adequate rehydration, mortality is less than 1%. Without treatment, mortality can be 50-75%."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Fluoroquinolone Resistance",
+          "details": "Ciprofloxacin efficacy is poor against nalidixic acid-resistant strains."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cholera",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children > 12 years",
+                "Pregnant women"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "300",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Doxycycline 300 PO once"
+            },
+            {
+              "drugName": "Azithromycin",
+              "dose": "1",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 1 PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cholera",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children > 12 years",
+                "Pregnant women"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "1",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Ciprofloxacin 1 PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Cholera",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Children > 12 years",
+                "Pregnant women"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Erythromycin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "QID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Erythromycin 500 PO QID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cholera",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 12 years"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "2-4 mg/kg",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Doxycycline 2-4 mg/kg PO once"
+            },
+            {
+              "drugName": "Azithromycin",
+              "dose": "20 mg/kg (max 1 gm)",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Azithromycin 20 mg/kg (max 1 gm) PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Cholera",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 12 years"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "20 mg/kg (max 1 gm)",
+              "route": "PO",
+              "frequency": "once",
+              "duration": "Single dose",
+              "comments": "",
+              "originalText": "Ciprofloxacin 20 mg/kg (max 1 gm) PO once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-1",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Cholera",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Children < 12 years"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Erythromycin",
+              "dose": "12.5 mg/kg (max 500 mg)",
+              "route": "PO",
+              "frequency": "QID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Erythromycin 12.5 mg/kg (max 500 mg) PO QID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Stool culture on selective media (e.g., TCBS agar) is the gold standard for diagnosis."
+      ],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

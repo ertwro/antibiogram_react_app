@@ -1,0 +1,110 @@
+{
+  "documentMetadata": {
+    "title": "Bacteremia, Salmonella sp.",
+    "lastUpdated": "2021-11-15",
+    "sourceFile": "Bacteremia, Salmonella sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacteremia is an extra-intestinal manifestation of Salmonella-related diarrheal disease. Referred to as \"enteric fever\" when diarrhea is absent.",
+        "Generally acquired by ingestion of contaminated water or food.",
+        "Classically enteric fever is caused by Salmonella Serotype Typhi or Salmonella Serotype Paratyphi (often abbreviated as Salmonella Typhi or Salmonella Paratyphi).",
+        "Bacteremia risk groups include:",
+        "  Very young children and very old adults",
+        "  Immunosuppressed patients",
+        "  HIV/AIDS",
+        "  Liver disease",
+        "  Sickle cell disease",
+        "  Gastric acid suppression",
+        "  Recent use of antibiotics (within 30 days)",
+        "  In the developing world, children with malaria, anemia or malnutrition",
+        "Manifestations in Children ([Adv Pediatr 62:29, 2015](https://www.advances.theclinics.com/article/S0065-3101(15)00029-7/fulltext)).",
+        "Non typhoidal Salmonella non-diarrheal illness, including sepsis and other invasive disease, seen in patients with malignancies ([BMJ Inf Dis 21:1021 2021](https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-021-06720-5)).",
+        "See also: Typhoid Fever"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Salmonella enterica a variety of serotypes including Typhi, Paratyphi, Enteriditis, Typhimurium and Choleraesuis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ciprofloxacin 400 mg IV q12h or 750 mg po q12h",
+        "Levofloxacin 750 mg po/IV q24h",
+        "Duration of therapy depends on the presence or absence of extra-intestinal infection:",
+        "  If no extra-intestinal infection, treat for 14 days",
+        "  If extra-intestinal infection (e.g., mycotic aneursym, osteomyelitis) or if immunosuppressed, may need up to 4-6 weeks of therapy"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ceftriaxone 2 gm IV q24h for 14 days if no extra-intestinal infection; up to 6 weeks if mycotic aneurysm",
+        "Other less commonly used drugs: TMP-SMX 8-10 mg/kg/day of TMP component divided q8h; duration as above",
+        "If highly resistant organism or empiric therapy of severe infection in a patient from Pakistan, Southeast Asia, Africa: Meropenem 1-2 gm IV q8h x 14 days, longer for mycotic aneurysm."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Patient can be transitioned to an oral regimen once afebrile and clinically stable.",
+        "Emerging resistance in the developing world (particularly Pakistan and Southeast Asia), so treatment should be based upon the likely geographic origin of isolate.",
+        "In vitro resistance to nalidixic acid is a surrogate marker for relative resistance to fluoroquinolones and an alternative regimen should be used.",
+        "Treatment should be guided by direct antimicrobial testing.",
+        "If Salmonella Serotype Typhi in a non traveller, assume XDR https://emergency.cdc.gov/han/2021/han00439.asp and treat with a carbapenem."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Increasing resistance to first-line agents among US non-typhoidal isolates from blood for 2003-13: approximately 6% for Ceftriaxone, 6% for Ciprofloxacin, 22% for TMP/SMX, 3% resistant to all three ([J Infect Dis 214:1565, 2016](https://academic.oup.com/jid/article/214/10/1565/2529310)).",
+        "Parallel increases in resistance in food (esp poultry) and environmental isolates for NTS [Transbound Emerg Dis 2021 doi: 10.1111/tbed.14362](https://onlinelibrary.wiley.com/doi/10.1111/tbed.14362)",
+        "CDC advisory for outbreak of extensively drug-resistant typhoid fever in Pakistan: https://wwwnc.cdc.gov/travel/notices/alert/xdr-typhoid-fever-pakistan and a second XDR outbreak in Iraq [MMWR Morb Mortal Wkly Rep.69: 618 2020](https://www.cdc.gov/mmwr/volumes/69/wr/mm6921a4.htm)",
+        "Fluoroquinolone resistance",
+        "  CLSI has established new interpretive breakpoints for susceptibility to Ciprofloxacin ([Clin Infect Dis 55:1107, 2012](https://academic.oup.com/cid/article/55/8/1107/289539))",
+        "  Susceptible strains: MIC < 0.06 µg/mL",
+        "  Higher MICs (0.12-1.0, intermediate and > 2.0, resistant) correlate with presence of mutations in gyrA, gyrB, or plasmid-mediated fluoroquinolone resistance",
+        "  For commercial antimicrobial susceptibility test systems that have not incorporated lower dilutions into test panels either Ciprofloxacin Etest or disk diffusion testing with both ciprofloxacin (zone diameter > 31 mm indicates susceptible) and nalidixic acid are recommended to detect decreased Ciprofloxacin susceptibility and high level resistance",
+        "Bacteremia can result in infection of lungs, urinary tract, joints, CNS, cardiac valves, and elsewhere.",
+        "Increased risk of seeding atherosclerotic plaques in the aorta or older patients.",
+        "Increased risk of osteomyelitis in sickle cell patients.",
+        "Reference of clinical presentation: [Am J Emerg Med 32:1241, 2014](https://www.ajemjournal.com/article/S0735-6757(14)00493-X/fulltext)."
+      ]
+    }
+  ]
+}

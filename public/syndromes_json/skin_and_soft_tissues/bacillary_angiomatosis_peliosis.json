@@ -1,0 +1,163 @@
+
+{
+  "documentMetadata": {
+    "title": "Bacillary Angiomatosis, Peliosis",
+    "lastUpdated": "2024-10-16",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Bacillary Angiomatosis, Peliosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Immunocompromised:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "HIV-positive patients with AIDS (CD4 count < 100 cells/µL)",
+            "Cancer and/or organ transplant patients."
+          ]
+        },
+        {
+          "type": "crossReference",
+          "referenceData": {
+            "text": "For Bartonella infection in immunocompetent patient, see Cat Scratch Disease.",
+            "targetType": "internalDocument",
+            "targetIdentifier": "Cat Scratch Disease"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Presentation:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Uncomplicated: Fever, skin lesions (often mistaken for Kaposi's Sarcoma) with variety of forms (papules, nodules, pedunculated) but always vascular.",
+            "Complicated: Disseminated disease can manifest as bone, mucosal, or central nervous system infection. Can present as an FUO or endocarditis."
+          ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Bacillary peliosis: cystic vascular lesions in liver (in differential diagnosis of liver abscesses) or spleen containing colonies of bacteria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diagnosis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Elevated antibody titer",
+            "Histopathology or PCR of affected tissue / biopsy. Histopathology: use a modified silver stain (such as Warthin-Starry stain) numerous bacilli are typically seen. Tissue Gram staining and acid-fast staining are negative"
+          ]
+        },
+        {
+          "type": "crossReference",
+          "referenceData": {
+            "text": "Brief Review (StatPearls)",
+            "targetType": "externalURL",
+            "targetIdentifier": "https://www.statpearls.com/ArticleLibrary/viewarticle/291"
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bartonella henselae",
+        "Bartonella quintana"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Uncomplicated (not disseminated) infection"
+        },
+        "components": [
+          { "drug": "Doxycycline", "dose": "100 mg", "route": "IV/po", "frequency": "bid", "connector": "or" },
+          { "drug": "Erythromycin", "dose": "500 mg", "route": "po", "frequency": "q6h", "connector": "or" },
+          { "drug": "Azithromycin", "dose": "500 mg", "route": "po", "frequency": "daily" }
+        ],
+        "durationDetail": { "fixedDuration": "3 months or more" }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Complicated (Disseminated) infection, e.g., CNS involvement"
+        },
+        "components": [
+          { "drug": "Doxycycline", "dose": "100 mg", "route": "IV/po", "frequency": "bid", "connector": "+" },
+          { "drug": "Rifampin", "dose": "300 mg", "route": "po", "frequency": "bid" }
+        ],
+        "durationDetail": { "fixedDuration": "minimum of 4 months" },
+        "notes": "See Comment for relapsing disease and possible chronic suppressive therapy if CD4 count < 200 cells/µL."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "appliesTo": {
+          "description": "Uncomplicated (not disseminated) infection"
+        },
+        "components": [
+          { "drug": "Clarithromycin", "dose": "500 mg", "route": "po", "frequency": "twice daily" }
+        ],
+        "durationDetail": { "fixedDuration": "3 months or more" },
+        "notes": "See Comment regarding relapsing disease."
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "paragraph",
+      "text": "Note drugs that should not be used: TMP-SMX, Ciprofloxacin, penicillins, cephalosporins."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Jarisch-Herxheimer reaction may occur in the first 48 hrs of therapy.",
+        "After the initial 3-4 months of therapy, regardless of CD4 count, discontinue therapy and observe the patient for relapse. If no relapse, no need for suppressive therapy.",
+        "If the patient relapses, re-institute therapy with Erythromycin or Doxycycline as above. Treat for at least 3 months and then, if CD4 count <200, continue as suppressive therapy. Safe to stop suppression when CD4 count >200 for 6 months.",
+        "Guidelines at clinicalinfo.HIV.gov.",
+        "Reference: Intl J Antimicrob Agents 44:16, 2014."
+      ]
+    }
+  ]
+}

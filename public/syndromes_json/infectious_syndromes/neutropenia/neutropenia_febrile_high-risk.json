@@ -1,0 +1,94 @@
+{
+  "documentMetadata": {
+    "title": "Neutropenia, Febrile, High-Risk",
+    "lastUpdated": "2025-03-24",
+    "sourceFile": "Neutropenia, Febrile, High-Risk.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Febrile neutropenia: Post-cancer chemotherapy or post-allogeneic bone marrow transplant patient with fever (≥38.3°C x 1 hr of sustained over 38°C) AND neutropenic (absolute neutrophil count range from <500-<1000 cells/µL)",
+        "High risk: Inpatient status at time of development of fever, significant medical comorbidity or clinically unstable, anticipated neutropenia of ≤100 cells/µL and ≥ 7 days, hepatic or renal insufficiency, uncontrolled/progressive cancer, pneumonia or other complex infections, mucositis grade 3-4, calculate MASCC (Multinational Association of Supportive Care in Cancer) Risk Index score of < 21, Alemtuzumab."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bacteria: aerobic gram-negative bacilli (Enterobacteriaceae, Pseudomonas), aerobic gram-positive cocci (includes staphylococci and streptococci)",
+        "Fungi: Candida sp > molds (Aspergillus, Fusarium, etc.)",
+        "Viral: respiratory viruses most common; HSV and VZV"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Initial therapy for fever:",
+        "  - Cefepime 2 gm IV q8h or (Meropenem 1-2 gm IV q8h or Imipenem 500 IV q6h or Doripenem 500 mg IV q8h)",
+        "For enhanced gram+ coverage (suspected central line associated blood stream infection, severe mucositis, skin and soft tissue infection, pneumonia, or hemodynamic instability): Vancomycin 15-20 mg/kg IV q8-12h",
+        "If hemodynamic instability is present: Consider addition of (Tobramycin 5.1 mg/kg IV q24h + Vancomycin 15-20 mg/kg IV q8-12h + Echinocandin) (see below)",
+        "See Stewardship for duration of therapy",
+        "Continued fever, no source identified, day 2-4 empiric therapy",
+        "  - Clinically stable: continue work-up for infection sites, consider chest and sinus CT, symptom based imaging, fungal serology",
+        "Continued fever, no source identified, day 4-7 empiric therapy",
+        "  - Continue work-up for infection sites",
+        "  - No anti-candidal prophylaxis: Consider addition of Caspofungin 70 mg IV day 1 and then 50 mg IV q24h or Micafungin 100 mg IV q24h or Anidulafungin 200 mg IV x 1 dose and then 100 mg IV q24h",
+        "  - On anti-candidal prophylaxis: Consider addition of Voriconazole 6 mg/kg IV/po q12h x 2 doses, then 4 mg/kg IV/po q12h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Initial therapy for fever: Ceftazidime 2 gm IV q8-12h; see comment for duration",
+        "Enhanced Gram+ coverage: Linezolid 600 mg IV/po q12h or Daptomycin 6 mg/kg IV q24h (if not concerned for pneumonia)",
+        "Empiric antifungal therapy active against candida and mold: Liposomal Amphotericin B 3-5 mg/kg IV q24h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Antimicrobial stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of empiric therapy: when clinically recovered and afebrile for 72 hrs.",
+        "  - In a multicenter randomized study, control patients continued empiric antibiotic therapy until the absolute neutrophil count was ≥ 0.5 x 10⁹ cells /L; the experimental group discontinued empiric antibiotics if clinically recovered and afebrile for 72 hrs. Early discontinuation was as safe as continuing empiric antibiotics until the marrow had recovered (Lancet Hematol 2017;4:e573).",
+        "  - A retrospective study supported the recommendations of the Fourth European Conference on Infections in Leukaemia which includes a strategy of stopping empiric antibacterials within 48-72h after resolution of fever (Open Forum Infect Dis 2021).",
+        "Non-infectious causes of fever in a patient with neutropenia should be considered in cases where there is no clear evidence of infection. The differential diagnosis includes drug fever, tumor fever, transfusion reactions, engraftment syndrome, and Sweet syndrome among others. A complete differential diagnosis can be found at Clin Infect Dis 2024;79: 1333."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The addition of granulocyte colony-stimulating factors during neutropenic fever can be considered in patients at high risk for infectious complications.",
+        "Recommendations above are based on the IDSA Practice Guidelines (Clin Infect Dis 52:427, 2011) and National Comprehensive Cancer Network Guidelines on Prevention and Treatment of Cancer-Related Infections, Version. 2024"
+      ]
+    }
+  ]
+}

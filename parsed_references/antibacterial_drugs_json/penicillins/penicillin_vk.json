@@ -1,0 +1,115 @@
+{
+  "drug_name": "Penicillin VK",
+  "drug_shortage_information": [
+    {
+      "prep": "250 mg, 500 mg tabs",
+      "started_at": "2023-05-17",
+      "notes": null
+    },
+    {
+      "prep": "250 mg/5 mL oral solution",
+      "started_at": "2023-05-17",
+      "notes": null
+    }
+  ],
+  "usage_and_dosing": {
+    "description": [
+      "Penicillin VK is the preferred form of penicillin for oral use. It is the potassium salt of phenoxymethylpenicillin.",
+      "Allergic reactions are a major issue. 10% of all hospital admissions give history of Penicillin allergy, but only 10% have allergic reaction if given Penicillin VK. Why? Possible reasons: inaccurate history, waning immunity with age, aberrant response during viral illness.",
+      "See Oral Penicillin Desensitization.",
+      "Note regarding Penicillin skin testing for evaluation of Penicillin allergy:",
+      "Testing with major determinant (benzyl Penicillin polylysine) and minor determinants has negative predictive value of 97-99%. Risk of systemic reaction to skin testing < 1%. See Ann Allergy, Asthma & Immunol 106:1, 2011.",
+      "Allergy references: Am J Med 121:572, 2008; N Engl J Med 354:601, 2006.",
+      "See also Beta-lactams, Drug Allergy, Overview.",
+      "Conversion: 250 mg = 400,000 units"
+    ]
+  },
+  "adult_dose": {
+    "usual_dose": "250-500 mg po tid-qid before meals and at bedtime"
+  },
+  "pediatric_dose": {
+    "dose_age_gt_28_days": "25-75 mg/kg/day (divided q6-8h)",
+    "max_day": null
+  },
+  "renal_adjustment": {
+    "guidance": [
+      "Body weight and Creatinine Clearance calculations",
+      "CrCl = Creatinine clearance (mL/min)",
+      "CAPD = Continuous Ambulatory Peritoneal Dialysis",
+      "CRRT = Continuous Renal Replacement Therapy",
+      "AD = after hemodialysis",
+      "SLED = sustained low efficiency dialysis"
+    ],
+    "half_life_hrs_renal_function_normal": "0.5",
+    "half_life_hrs_esrd": "4.1",
+    "dose_renal_function_normal": "250-500 mg po q6-8h",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No dosage adjustment (give one or more doses AD)",
+    "capd": "No dosage adjustment",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_class_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_class_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_class_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Most serious reaction is immediate IgE-mediated anaphylaxis; incidence only 0.05% but 5-10% fatal. Other IgE-mediated reactions: urticaria, angioedema, laryngeal edema, bronchospasm. Morbilliform rash after 72 hours is not IgE-mediated and not serious.",
+    "Serious late allergic reactions: Coombs-positive hemolytic anemia, neutropenia, thrombocytopenia, serum sickness, interstitial nephritis, hepatitis, eosinophilia, drug fever."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "use_during_lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for Gl toxicity."
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Actinomyces sp.",
+      "Corynebacterium diphtheriae",
+      "Pasteurella multocida",
+      "Peptostreptococci",
+      "Streptococcus agalactiae, beta hemolytic, Group B Strep.",
+      "Streptococcus anginosus (S. milleri) group, includes S. anginosis, S. constellatus, S. intermedius",
+      "Streptococcus pneumoniae",
+      "Streptococcus pyogenes, beta hemolytic, Group A Strep.",
+      "Streptococcus, beta-hemolytic, Groups C, F, G"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "pharmaceutical_preparations": "Tab (250, 500 mg), oral soln (125 mg/5 mL, 250 mg/5 mL)",
+    "food_rec_po_drugs": "All preps no food",
+    "oral_absorption_percent": "60-73",
+    "tmax_hr": "No data",
+    "peak_serum_conc_ug_ml": "5-6 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "65",
+    "volume_of_distribution_vd": "No data",
+    "avg_serum_t1_2_hr": "0.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cy_p450s_that_drug_is_a_substrate_for": null,
+    "transporters_that_drug_is_a_substrate_for": "OAT1, OAT3",
+    "ug_ts_that_drug_is_a_substrate_for": null,
+    "cy_p450s_inhibited_by_drug": null,
+    "transporters_inhibited_by_drug": null,
+    "ug_ts_inhibited_by_drug": null,
+    "cy_p450s_induced_by_drug": null,
+    "transporters_induced_by_drug": null,
+    "ug_ts_induced_by_drug": null,
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Probenecid",
+      "effect_on_concentration": "\u2191 penicillin",
+      "suggested_management": "Monitor, adjust dosage"
+    }
+  ]
+}

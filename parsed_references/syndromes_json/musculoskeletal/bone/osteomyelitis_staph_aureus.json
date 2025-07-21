@@ -1,0 +1,157 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Staph. aureus",
+    "lastUpdated": "2024-04-12",
+    "sourceFile": "Osteomyelitis, Staph. aureus.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for Staphylococcus aureus osteomyelitis. Culture and in vitro susceptibility results are known.",
+        "Also see vertebral osteomyelitis."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Methicillin-susceptible Staphylococcus aureus (MSSA)",
+        "Methicillin-resistant Staphylococcus aureus (MRSA)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MSSA:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nafcillin 2 gm IV q4h OR Oxacillin 2 gm IV q4h OR Cefazolin 2 gm IV q8h (consider adding Rifampin 300-450 mg IV/po bid to lessen relapse rate [Open Forum Infect Dis. 2022 Jul 27;9(8):ofac366])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MRSA (see Antimicrobial Stewardship concerning duration):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) ± Rifampin 300-450 mg IV/po bid (editors prefer the combination whenever possible to lessen relapse rate)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MSSA (beta-lactam hypersensitivity or adverse events)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) ± Rifampin 300-450 mg IV/po bid",
+            "Daptomycin 8-10 mg/kg IV q24h"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MRSA (see Antimicrobial Stewardship concerning duration):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Daptomycin 8-10 mg/kg IV q24h ± Rifampin 300-450 mg IV/po bid (editors prefer the combination whenever possible to lessen relapse rate)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Oral step-down regimens (in vitro sensitivity known)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "TMP-SMX 8-10 mg/kg/d po div q8h + Rifampin 600 mg once daily po (Antimicrob Agents Chemother 53:2672, 2009)",
+            "(Ciprofloxacin 750 mg po bid or Levofloxacin 750 mg po q24h) + Rifampin 300-450 mg po bid"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy is ill-defined but 6-8 weeks seems effective for acute infection",
+        "IDSA treatment guidelines: Clin Infect Dis 2015;61:e26.",
+        "Verterbral osteomyelitis caused by MRSA, associated with undrained pyogenic complications and extension, or end-stage renal disease has a higher recurrence rate if treated for < 8 weeks (Clin Infect Dis 2016; 62:1262) and > 8 weeks of therapy is recommended.",
+        "Longer duration of symptoms before diagnosis and infection with S. aureus also are risk factors for treatment failure (Open Forum Infect Dis 2014; 1:ofu107).",
+        "6 weeks of IV/po therapy as efficacious as 12 weeks (see Lancet 385:875, 2015 for details) provided that epidural or paravertebral abscesses can be drained; consider longer course in those with extensive infection or abscess particularly if not amenable to drainage because of increased risk of treatment failure.",
+        "> 8 weeks in patients undergoing device implantation (Clin Infect Dis 60:1330, 2015)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "References",
+        "General reviews: Infect Dis Clin North Am. 2017;31:325 and Clin Microbiol Rev. 2018;14;31.",
+        "Review of drug penetration into bone: J Clin Pharm Ther 38:89, 2013.",
+        "Review of oral therapy: Antibiotics (Basel). 2024; 13:4.",
+        "Surgical drainage of associated soft tissue abscesses and debridement of necrotic bone is the mainstay of therapy.",
+        "Other treatment options when in vitro susceptibility is known but patient has allergy or toxicity issues:",
+        "Clindamycin 600–900 mg IV q8h or 300-450 mg po q6-8h",
+        "Linezolid 600 mg po/IV bid (issues with hematologic or neurotoxicity for durations of therapy > 2-3 weeks)",
+        "Fusidic acidNUS 500 mg IV q8h + Rifampin 300 mg po bid",
+        "Ceftriaxone 2 gm IV q24h for an average duration of therapy of 42 days (range 27-132 days) showed similar efficacy as oxacillin for MSSA in one small series (Clin Infect Dis 54:585, 2012).",
+        "Observational data suggest that Dalbavancin administered as two 1500 mg IV doses one week apart may be effective (Open Forum Infect Dis. 2021; 9:ofab589; J Antimicrob Chemother. 2020;75:2717)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Staph. aureus",
+    "lastUpdated": "2024-05-24",
+    "sourceFile": "Pneumonia, Staph. aureus.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcal pneumonia: healthcare associated, hospital-acquired, ventilator-associated or community-acquired pneumonia.",
+        "Influenza-associated pneumonia.",
+        "Injection drug users (suspect tricuspid valve endocarditis).",
+        "Blood culture or sputum culture and gram stain positive for Staph. aureus.",
+        "Can use nasal swab PCR for Staph. aureus to exclude possibility of Staph. aureus as the etiology of pneumonia; negative predictive value > 95% (Antimicrob Agents Chemother 2014; 58:859; Clin Infect Dis. 2018; 67:1)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Staphylococcus aureus (MSSA or MRSA)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "MSSA: Nafcillin 2 gm IV q4h or Oxacillin 2 gm IV q4h",
+        "MRSA: Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) or Linezolid 600 mg po/IV q12h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "MSSA",
+        "Cefazolin 2 gm IV q8h",
+        "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) OR Linezolid 600 mg po/IV q12h (consider only if the patient is intolerant of or has a significant allergy to beta-lactams)",
+        "MRSA",
+        "Ceftaroline 600 mg IV q8h (not FDA approved)",
+        "Telavancin 10 mg/kg IV q24h (see Comments)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy 7-14 days unless accompanied by bacteremia in which case 4 weeks of therapy is recommended."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Suspect tricuspid valve endocarditis in injection drug users with staphylococcal pneumonia and positive blood cultures.",
+        "Daptomycin is NOT an option for primary pneumonia (Clin Infect Dis 49:1286, 2009). It is FDA approved for right-sided endocarditis with hematogenous pneumonia secondary to septic embolization.",
+        "Ceftobiprole 500 mg (as active drug) IV infused over 2h q6h on days 1-8, then q8h thereafter FDA approved for treatment of bacteremia due to right-sided endocarditis including septic pulmonary embolization; its role in treatment of primary pneumonia has not been established.",
+        "Community-acquired MRSA pneumonia is uncommon, ~2% of cases of CAP in one study (Clin Infect Dis 54:1126. 2012).",
+        "A prospective trial comparing Linezolid to Vancomycin for MRSA pneumonia, including ventilator-associated pneumonia, showed higher cure rate (p=0.042) for Linezolid (95/165, 57.6%) than for Vancomycin (81/174, 46.6%) but no difference in 60-day all-cause mortality (15.7% for Linezolid vs. 17% for Vancomycin) (Clin Infect Dis 54:621, 2012).",
+        "Telavancin should be reserved in cases where alternative treatments are not suitable.",
+        "Increased mortality in patients with HABP/VABP and pre-existing moderate to severe renal impairment (CrCl ≤ 50 mL/min); use of Telavancin should be considered only when the anticipated benefit to the patient outweighs the potential risk.",
+        "Tedizolid may be an option if drug-drug interactions preclude use of Linezolid, although in a phase 3 randomized double-blind trial of gram-positive ventilated HABP/VABP, Tedizolid was not non-inferior to Linezolid for investigator-assessed clinical response at test-of-cure yet was noninferior to linezolid for day 28 all-cause mortality (Clin Infect Dis 2021;73:e710)."
+      ]
+    }
+  ]
+}

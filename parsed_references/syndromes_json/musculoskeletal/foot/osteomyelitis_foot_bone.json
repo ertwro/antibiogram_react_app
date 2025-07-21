@@ -1,0 +1,71 @@
+{
+  "documentMetadata": {
+    "title": "Osteomyelitis, Foot Bone",
+    "lastUpdated": "2025-02-09",
+    "sourceFile": "Osteomyelitis, Foot Bone.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Foot bone osteomyelitis caused by a puncture wound.",
+        "For diabetic patient also see Diabetic Foot."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "P. aeruginosa (non-diabetics, children)",
+        "S. aureus and mixed infection (diabetics)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy not recommended: definitive therapy depends on results of bone culture."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "As above."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Case series of microbiology of puncture wound soft-tissue and bone infections of the foot found that Pseudomonas aeruginosa was the predominant pathogen in non-diabetics versus S. aureus in diabetics. Polymicrobial infections were common, 83% in diabetics and 53% in non-diabetics (J Am Podiatr Med Assoc. 2020 Nov 2;20-206)",
+        "Debridement may be needed to remove foreign body if infection is trauma or puncture-wound related.",
+        "Duration of therapy ill-defined but 6-8 weeks has been typically recommended.",
+        "Limited data suggest that outcomes in diabetic foot infection with 3 weeks of therapy following surgical debridement are comparable to the more traditional 6-week duration (Clin Infect Dis. 2021; 73:e1539-e1545).",
+        "Check patient's tetanus prophylaxis status.",
+        "See also: puncture wounds."
+      ]
+    }
+  ]
+}

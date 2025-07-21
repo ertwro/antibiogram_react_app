@@ -1,0 +1,223 @@
+
+{
+  "documentMetadata": {
+    "title": "Urinary Tract Infection, Adult, Male",
+    "sourceFile": "UTI, Adult, Male.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Urinary tract infection (UTI); cystitis.",
+        "Diagnosis: dysuria, frequency, urgency +/- suprapubic pain",
+        "If sexually active, rule out gonococcal cystitis and chlamydia infection (evaluate with NAAT).",
+        "If recurrent infection, evaluate for prostatitis.",
+        "Cystitis plus symptoms of bladder outlet obstruction = concomitant acute bacterial prostatitis.",
+        "Any hint of obstruction, evaluate via imaging ASAP."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E. coli (75% - 95%)",
+        "Other Enterobacteriaceae"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "If local prevalence of resistance to TMP/SMX is < 20%",
+        "components": [
+          {
+            "drug": "TMP-SMX DS",
+            "dose": "1 tab",
+            "frequency": "bid",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "500 mg",
+            "route": "po",
+            "frequency": "twice daily",
+            "duration": "5-7 days"
+          },
+          {
+            "drug": "Ciprofloxacin extended release",
+            "dose": "1000 mg",
+            "route": "po",
+            "frequency": "once daily",
+            "duration": "5-7 days",
+            "connector": "or"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "once daily",
+            "duration": "5-7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Nitrofurantoin (Macrobid)",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Amoxicillin-clavulanate",
+            "dose": "875/125 mg",
+            "frequency": "bid",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cephalexin",
+            "dose": "500 mg",
+            "frequency": "qid",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Cefdinir",
+            "dose": "300 mg",
+            "frequency": "bid",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "condition": "where available",
+        "components": [
+          {
+            "drug": "Pivmecillinam",
+            "dose": "400 mg",
+            "frequency": "bid",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "notes": "1st line recommendation per 2011 IDSA guidelines but less effective than nitrofurantoin in a RCT (JAMA 2018;319:1781)",
+        "components": [
+          {
+            "drug": "Fosfomycin",
+            "dose": "3 gm",
+            "route": "po",
+            "frequency": "every other day",
+            "duration": "1-3 doses"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Duration of therapy:",
+        "Non-febrile UTI: > 7 days of treatment was not associated with fewer relapses but was associated with higher rates of C. difficile infection (JAMA Intern Med 2013; 173:1153).",
+        "Febrile UTI: 14 days of treatment was superior to 7 days of treatment in a study whose primary end point was a combined end point of negative urine culture and the absence of fever and of subsequent antibiotic treatment between the end of treatment and 6 weeks after day 1. While most of the benefit in the 14 day arm was driven by fewer positive cultures at the end of treatment there was significance in clinical outcomes as well. (Clin Infect Dis 2023; 26: 2154)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Drugs without prostatic penetration: Nitrofurantoin, beta-lactams, and fosfomycin do not get penetration into the prostate, significance in persons with cystitis is unclear.",
+        "Other important considerations: For recurrent UTIs, evaluate for BPH or other causes of obstruction. If recurrent UTI with the same pathogen, consider chronic prostatitis.",
+        "One RCT of patients with complicated UTIs (35% men) showed that 5 days of therapy was as effective as 10 days. (Urology 2008; 71:17)"
+      ]
+    }
+  ]
+}

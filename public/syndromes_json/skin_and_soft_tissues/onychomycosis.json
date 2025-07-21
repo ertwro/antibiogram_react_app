@@ -1,0 +1,266 @@
+
+{
+  "documentMetadata": {
+    "title": "Onychomycosis",
+    "lastUpdated": "2024-03-27",
+    "sourceFile": "syndromes/skin_and_soft_tissues/Onychomycosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Fungal infection of the fingernail or toenail.",
+        "Main patterns of onychomycosis include distolateral subungual, proximal subungual (associated with immunosuppressive condition, HIV), superficial and total dystrophic.",
+        "Diagnosis confirmed by microscopic evaluation and culture of nail clippings."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dermatophytes (Trichophyton rubrum and T. mentagrophytes) account for most of cases",
+        "Rarely candida and molds can cause disease"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fingernail, adult:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Terbinafine", "dose": "250 mg", "route": "po", "frequency": "q24h" }
+            ],
+            "durationDetail": { "fixedDuration": "6 weeks" },
+            "efficacy": "79% effective"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              { "drug": "Itraconazole", "dose": "200 mg", "route": "po", "frequency": "q24h", "durationDetail": { "fixedDuration": "3 months" }, "connector": "or" },
+              { "drug": "Itraconazole", "dose": "200 mg", "route": "po", "frequency": "bid", "durationDetail": { "fixedDuration": "1 week/month x 2 months" } }
+            ],
+            "efficacy": "~ 60-70% effective"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fingernail, pediatric:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": { "description": "10-20 kg" },
+            "components": [
+              { "drug": "Terbinafine", "dose": "62.5 mg", "route": "po", "frequency": "q24h" }
+            ],
+            "durationDetail": { "fixedDuration": "6 weeks" }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": { "description": "20-40 kg" },
+            "components": [
+              { "drug": "Terbinafine", "dose": "125 mg", "route": "po", "frequency": "q24h" }
+            ],
+            "durationDetail": { "fixedDuration": "6 weeks" }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": { "description": ">40 kg" },
+            "components": [
+              { "drug": "Terbinafine", "dose": "adult dose" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toenail, adult:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Terbinafine", "dose": "250 mg", "route": "po", "frequency": "q24h" }
+            ],
+            "durationDetail": { "fixedDuration": "12 weeks" },
+            "efficacy": "66-76% effective"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              { "drug": "Itraconazole", "dose": "200 mg", "route": "po", "frequency": "q24h", "durationDetail": { "fixedDuration": "3 months" }, "connector": "or" },
+              { "drug": "Itraconazole", "dose": "200 mg", "route": "po", "frequency": "bid", "durationDetail": { "fixedDuration": "1 wk/mo x 3-4 months" } }
+            ],
+            "efficacy": "~ 60% effective"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toenail, pediatric:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": { "description": "10-20 kg" },
+            "components": [
+              { "drug": "Terbinafine", "dose": "62.5 mg", "route": "po", "frequency": "q24h" }
+            ],
+            "durationDetail": { "fixedDuration": "12 weeks" }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": { "description": "20-40 kg" },
+            "components": [
+              { "drug": "Terbinafine", "dose": "125 mg", "route": "po", "frequency": "q24h" }
+            ],
+            "durationDetail": { "fixedDuration": "12 weeks" }
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "appliesTo": { "description": ">40 kg" },
+            "components": [
+              { "drug": "Terbinafine", "dose": "adult dose" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fingernail:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Fluconazole", "dose": "150-300 mg", "route": "po", "frequency": "q wk" }
+            ],
+            "durationDetail": { "fixedDuration": "3-6 months" },
+            "efficacy": "~50% effective"
+          }
+        }
+      ]
+    },
+    {
+      "type": 'nestedContent',
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Toenail:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Fluconazole", "dose": "150-300 mg", "route": "po", "frequency": "q wk" }
+            ],
+            "durationDetail": { "fixedDuration": "6-12 months" },
+            "efficacy": "~50% effective"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Efinaconazole (Jublia)", "dose": "10% solution", "route": "topical", "frequency": "applied once daily" }
+            ],
+            "durationDetail": { "fixedDuration": "48 weeks" },
+            "notes": "for the topical treatment of toenail onychomycosis due to T. rubrum and T. mentagrophytes. Complete or almost complete cure, 23-26% (package insert)."
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              { "drug": "Tavaborole (Kerydin)", "dose": "5% solution", "route": "topical", "frequency": "applied once daily" }
+            ],
+            "durationDetail": { "fixedDuration": "48 weeks" },
+            "notes": "Complete or almost complete cure rates of 15-18%. Ref.: Med Lett Drugs Ther 57:35, 2015."
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Terbinafine was associated with a higher cure rate for toenail fungal infections than azoles in a meta-analysis (JAMA 319: 397, 2018). Terbinafine: serious but rare cases of hepatic failure have been reported; avoid in those with chronic or active liver disease.",
+        "The role of nail removal in treatment is unclear and may add benefit in cases due to drug-resistant fungi.",
+        "FDA has approved laser therapy that is temporarily effective. Reported expense of each treatment: $300 - $1000 (Med Lett Drugs Ther 55:15, 2013)."
+      ]
+    }
+  ]
+}

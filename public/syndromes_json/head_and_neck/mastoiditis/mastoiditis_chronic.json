@@ -1,0 +1,100 @@
+{
+  "documentMetadata": {
+    "title": "Mastoiditis, Chronic",
+    "sourceFile": "Mastoiditis, Chronic.pdf",
+    "lastUpdated": "2025-02-10"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic mastoiditis is usually the result of chronic otitis media with perforation of the tympanic membrane."
+    },
+    {
+      "type": "list",
+      "items": [
+        "There is often associated formation of a cholesteatoma (keratoma)",
+        "Ideally, management is a collaboration with otolaryngology",
+        "Complications can include impaired hearing, osteomyelitis, spread to central nervous system with the potential for: meningitis, brain abscess, and suppurative (septic) thrombophlebitis of the lateral dural sinus"
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See Acute mastoiditis",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Mastoiditis, Acute"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Diagnosis by physical examination and imaging by CT scan or MRI"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Often polymicrobic",
+        "Staphylococcus aureus",
+        "Pseudomonas aeruginosa",
+        "Anaerobes",
+        "Rarely fungi and other pathogens"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Good care of the external auditory canal; ear toilet, e.g., patient self-care irrigation. Warm ear drops and irrigant before use to avoid cold induced vertigo.",
+        "Culture ear drainage",
+        "Topical antibiotic is first line therapy (Cochrane Database Syst Rev 2006; CD005608)",
+        "Ideally, specific topical agent dictated by culture results.",
+        "If empiric therapy, Ciprofloxacin or Levofloxacin ear drops twice a day x 2 weeks",
+        "Surgical evaluation for management of cholesteatoma and/or consideration for mastoidectomy.",
+        "Should an elective mastoidectomy be deemed necessary, brief course of a parenteral antibiotic is suggested. Specific drug(s) determined by culture results."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Systemic antimicrobial therapy indicated in those with lack of clinical response or progression of disease with topical therapy or presence of signs and symptoms of systemic infection. Choice of antibiotics should be based on results of prior cultures. If prior culture results are not available, cover for methicillin-resistant Staphylococcus aureus, Pseudomonas aeruginosa, and anearobes will awaiting cultures."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mastoidectomy indications: chronic drainage and evidence of osteomyelitis by MRI or CT, evidence of spread to CNS (epidural abscess, suppurative phlebitis, brain abscess).",
+        "Cochrane reviews: Topical antimicrobial therapy: Cochrane Database Syst Rev. 2020 Aug 27;8(8):CD013054; systemic antimicrobial therapy: Cochrane Database Syst Rev. 2021 Feb 4;2(2):CD013052."
+      ]
+    }
+  ]
+}

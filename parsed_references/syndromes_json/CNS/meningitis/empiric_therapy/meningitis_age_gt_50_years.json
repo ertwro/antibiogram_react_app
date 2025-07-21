@@ -1,0 +1,48 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Age > 50 years",
+    "sourceFile": "Meningitis, Age > 50 years.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Age > 50 years"
+    },
+    {
+      "type": "paragraph",
+      "text": "Empiric treatment of bacterial meningitis in adults over 50 years of age must cover Streptococcus pneumoniae, Neisseria meningitidis, Listeria monocytogenes, and aerobic gram-negative bacilli."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "q8-12h"
+          },
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h",
+            "connector": "+"
+          },
+          {
+            "drug": "Ampicillin",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q4h",
+            "connector": "+"
+          }
+        ],
+        "notes": "Dexamethasone 0.15 mg/kg IV q6h for 4 days should be given before or with the first dose of antibiotics."
+      }
+    }
+  ]
+}

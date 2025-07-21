@@ -1,0 +1,580 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Neisseria meningitidis",
+      "aliases": [
+        "Meningococcus"
+      ],
+      "lastUpdated": "2025-02-25",
+      "clsiCategory": "Neisseria meningitidis",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Diplococcus",
+        "respiration": "Aerobic",
+        "notes": []
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative diplococcus, oxidase +, catalase +, utilizes both glucose and maltose."
+    },
+    "clinicalProfile": {
+      "summary": "Neisseria meningitidis is a leading cause of bacterial meningitis and sepsis. It can be isolated from CSF, blood, and other sterile sites. Treatment regimens provided are primarily for meningitis.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Headache",
+        "Stiff neck",
+        "Nausea and vomiting",
+        "Photophobia",
+        "Altered mental status",
+        "Petechial or purpuric rash"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Meningitis",
+          "description": "Inflammation of the membranes surrounding the brain and spinal cord."
+        },
+        {
+          "syndromeName": "Meningococcemia",
+          "description": "A life-threatening sepsis that can cause widespread bleeding into the skin and organs."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Infection of the lungs."
+        },
+        {
+          "syndromeName": "Septic Arthritis",
+          "description": "Infection of a joint."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Infants and young children",
+        "Adolescents and young adults",
+        "Individuals with complement deficiencies",
+        "Travelers to endemic areas"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Penicillin and Ciprofloxacin Resistance",
+          "details": "Increased incidence of intermediate susceptibility and resistance to penicillin and/or ciprofloxacin has been reported. Susceptibility testing is recommended before switching from empiric third-generation cephalosporins."
+        },
+        {
+          "alertTitle": "Chloramphenicol Resistance",
+          "details": "There is increasing worldwide resistance to chloramphenicol. Other regimens are preferred due to higher mortality rates associated with chloramphenicol."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "A penicillin (if susceptibility is confirmed) or a third-generation cephalosporin is the treatment of choice."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric/Directed",
+            "condition": "Meningitis",
+            "patientPopulation": [
+              "Adults",
+              "Pediatrics"
+            ],
+            "isolateSource": "CSF, Blood"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "2 gm (Adults) or 50 mg/kg (Pediatrics, max 2 gm)",
+                      "route": "IV",
+                      "frequency": "q12h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Cefotaxime",
+                      "dose": "2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": "Where available."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Penicillin G",
+                      "dose": "4 million units (Adults) or 100,000 units/kg/day (Pediatrics)",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": "Confirm susceptibility (MIC <0.1 mcg/ml) if used."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Ampicillin",
+                      "dose": "2 gm (Adults) or 50-200 mg/kg/day (Pediatrics)",
+                      "route": "IV",
+                      "frequency": "q4h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Variable",
+                  "drugs": [
+                    {
+                      "drugName": "Chloramphenicol",
+                      "dose": "12.5 mg/kg (max 4 gm/day)",
+                      "route": "IV",
+                      "frequency": "q6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "400 mg",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": "Reserved for patients with severe penicillin and beta-lactam allergy. Efficacy not well established."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [
+        {
+          "type": "Vaccination",
+          "details": "Vaccines are available for serogroups A, C, W, Y, and B. See specific vaccine recommendations for details on indications, products, and dosing.",
+          "targetPopulation": "Infants, adolescents, and other high-risk groups."
+        },
+        {
+          "type": "Prophylaxis",
+          "details": "Post-exposure prophylaxis is recommended for close contacts of individuals with invasive meningococcal disease. Ciprofloxacin is a first-line agent for prophylaxis.",
+          "targetPopulation": "Close contacts of infected individuals."
+        }
+      ],
+      "treatmentLifecycle": [
+        {
+          "topic": "Eradication of Nasal Carriage",
+          "details": "If an agent other than Ceftriaxone is used for treatment, it is recommended to administer Ceftriaxone, Rifampin, or Ciprofloxacin to eradicate nasal carriage. Doses are the same as those used for post-exposure prophylaxis."
+        }
+      ],
+      "antimicrobialStewardship": [
+        "Susceptibility testing is recommended before switching from empiric ceftriaxone or cefotaxime to penicillin or ampicillin for meningitis treatment due to increased incidence of intermediate susceptibility and resistance to penicillin and/or ciprofloxacin."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "CDC",
+          "citation": "",
+          "summaryOrNote": "Clinical guidance document on meningococcal disease."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.320Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Neisseria meningitidis"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Meningococcus"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-02-25"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Diplococcus",
+        "respiration": "Aerobic",
+        "notes": []
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Neisseria meningitidis is a leading cause of bacterial meningitis and sepsis. It can be isolated from CSF, blood, and other sterile sites. Treatment regimens provided are primarily for meningitis.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [
+        "Fever",
+        "Headache",
+        "Stiff neck",
+        "Nausea and vomiting",
+        "Photophobia",
+        "Altered mental status",
+        "Petechial or purpuric rash"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Meningitis",
+          "description": "Inflammation of the membranes surrounding the brain and spinal cord."
+        },
+        {
+          "syndromeName": "Meningococcemia",
+          "description": "A life-threatening sepsis that can cause widespread bleeding into the skin and organs."
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": "Infection of the lungs."
+        },
+        {
+          "syndromeName": "Septic Arthritis",
+          "description": "Infection of a joint."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Infants and young children",
+        "Adolescents and young adults",
+        "Individuals with complement deficiencies",
+        "Travelers to endemic areas"
+      ],
+      "transmissionVectors": [
+        "Respiratory droplets"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Penicillin and Ciprofloxacin Resistance",
+          "details": "Increased incidence of intermediate susceptibility and resistance to penicillin and/or ciprofloxacin has been reported. Susceptibility testing is recommended before switching from empiric third-generation cephalosporins."
+        },
+        {
+          "alertTitle": "Chloramphenicol Resistance",
+          "details": "There is increasing worldwide resistance to chloramphenicol. Other regimens are preferred due to higher mortality rates associated with chloramphenicol."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Meningitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "2 gm (Adults) or 50 mg/kg (Pediatrics, max 2 gm)",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ceftriaxone 2 gm (Adults) or 50 mg/kg (Pediatrics, max 2 gm) IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Meningitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefotaxime",
+              "dose": "2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "Variable",
+              "comments": "Where available.",
+              "originalText": "Cefotaxime 2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Meningitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Penicillin G",
+              "dose": "4 million units (Adults) or 100,000 units/kg/day (Pediatrics)",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "Variable",
+              "comments": "Confirm susceptibility (MIC <0.1 mcg/ml) if used.",
+              "originalText": "Penicillin G 4 million units (Adults) or 100,000 units/kg/day (Pediatrics) IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Meningitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ampicillin",
+              "dose": "2 gm (Adults) or 50-200 mg/kg/day (Pediatrics)",
+              "route": "IV",
+              "frequency": "q4h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Ampicillin 2 gm (Adults) or 50-200 mg/kg/day (Pediatrics) IV q4h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Meningitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Chloramphenicol",
+              "dose": "12.5 mg/kg (max 4 gm/day)",
+              "route": "IV",
+              "frequency": "q6h",
+              "duration": "Variable",
+              "comments": "",
+              "originalText": "Chloramphenicol 12.5 mg/kg (max 4 gm/day) IV q6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "empiric/directed",
+            "condition": "Meningitis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults",
+                "Pediatrics"
+              ],
+              "labFindings": "CSF, Blood"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "400 mg",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "7 days",
+              "comments": "Reserved for patients with severe penicillin and beta-lactam allergy. Efficacy not well established.",
+              "originalText": "Ciprofloxacin 400 mg IV q8h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

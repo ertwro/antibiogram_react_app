@@ -1,0 +1,1097 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Enteroaggregative E. coli",
+      "aliases": [
+        "EAEC",
+        "EaggEC",
+        "E coli Enteroaggregative"
+      ],
+      "lastUpdated": "2025-07-10",
+      "clsiCategory": "Enterobacterales (excluding Salmonella/Shigella)",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Gold standard for diagnosis is HEp-2 adherence assay, which is not generally available.",
+          "May be diagnosed by PCR detection of virulence genes aatA and aggR."
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Biochemically indistinguishable from typical E. coli by routine tests. Identification requires molecular detection of aggregative adherence fimbriae (AAF) and other specific virulence factors."
+    },
+    "clinicalProfile": {
+      "summary": "Enteroaggregative E. coli (EAEC) is a significant cause of acute and persistent watery diarrhea. It affects children and adults in developing nations, travelers to these areas, and has also been identified in patients with acute diarrhea in developed countries like the U.S. It is also associated with prolonged diarrhea in HIV-infected individuals.",
+      "pathophysiologyPearls": [
+        "While EAEC is consistently detected more frequently in patients with diarrhea than controls in various populations, it can also be detected in asymptomatic persons.",
+        "Molecular detection of EAEC virulence genes may not always correlate with symptomatic infection."
+      ],
+      "keySignsAndSymptoms": [
+        "Watery diarrhea",
+        "Abdominal pain",
+        "Low-grade fever",
+        "Occasional mucous or blood in stool"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Acute Diarrhea",
+          "description": "A cause of acute, watery diarrhea in children and adults, particularly in less-developed countries and among travelers."
+        },
+        {
+          "syndromeName": "Persistent Diarrhea",
+          "description": "Can cause persistent diarrhea, especially in infants and HIV-infected patients."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Children and adults in less-developed countries",
+        "Travelers to less-developed countries",
+        "Infants (risk for persistent diarrhea)",
+        "HIV-infected patients"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": [
+        "The infection is often self-limited, but treatment may be indicated for immunocompromised patients or those with prolonged illness."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Diagnostic Uncertainty",
+          "details": "EAEC can be detected in asymptomatic individuals, and molecular detection (PCR) may not always correlate with symptomatic infection."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Often self-limited, so antibiotics are not always necessary.",
+        "Treatment is probably indicated in immunocompromised patients and for prolonged illness.",
+        "Studies have shown response to antibiotics in general and specifically in HIV-infected patients.",
+        "Rifaximin appeared to improve the duration of symptoms in one study."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Diarrhea",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "As needed",
+                  "drugs": [
+                    {
+                      "drugName": "Hydration",
+                      "dose": "N/A",
+                      "route": "Oral or IV",
+                      "frequency": "N/A",
+                      "comments": "Supportive care is the mainstay of treatment."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "750 mg",
+                      "route": "PO",
+                      "frequency": "once daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Rifaximin",
+                      "dose": "200 mg",
+                      "route": "PO",
+                      "frequency": "tid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Rifaximin appeared to improve duration of symptoms. (Clin Gastroenterol Hepatol 2004;2(2):135)"
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Diarrhea",
+            "patientPopulation": [
+              "AIDS patients"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "Antibiotics were effective in HIV infected patients with EAEC. (J Infect Dis 178:1369, 1998)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Patients with acute or persistent diarrhea, especially in high-risk populations (travelers, infants, immunocompromised)."
+      ],
+      "methodologyNotes": [
+        "The gold standard for diagnosis is the HEp-2 adherence assay, but it is a research tool and not generally available in clinical labs.",
+        "Commercial and research molecular assays (PCR) are used to detect specific virulence genes such as aatA and aggR."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "PCR for EAEC virulence genes",
+          "trigger": "Clinical suspicion of EAEC diarrhea, particularly in cases of persistent or severe illness, or in at-risk populations.",
+          "purpose": "To detect key virulence genes (e.g., aatA, aggR) for the diagnosis of EAEC infection."
+        },
+        {
+          "testName": "HEp-2 Adherence Assay",
+          "trigger": "Research settings or reference laboratories.",
+          "purpose": "To definitively identify the 'stacked-brick' adherence pattern characteristic of EAEC, considered the gold standard for identification."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": [
+        {
+          "tier": 1,
+          "tierDescription": "Appropriate for routine, primary testing and reporting",
+          "agents": [
+            {
+              "agentName": "Ampicillin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥ 17 mm",
+                    "i_breakpoint": "14–16 mm",
+                    "r_breakpoint": "≤ 13 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8 µg/mL",
+                    "i_breakpoint": "16 µg/mL",
+                    "r_breakpoint": "≥ 32 µg/mL"
+                  },
+                  "comments": [
+                    "Ampicillin test results can predict amoxicillin results."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Cefazolin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine Only - Uncomplicated UTI",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 15 mm",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤ 14 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 16 µg/mL",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥ 32 µg/mL"
+                  },
+                  "comments": [
+                    "Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Amoxicillin-clavulanate",
+              "breakpointSets": [
+                {
+                  "condition": "Uncomplicated UTI only",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥ 18 mm",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤ 17 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8/4 µg/mL",
+                    "i_breakpoint": "16/4 µg/mL",
+                    "r_breakpoint": "≥ 32/4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Piperacillin-tazobactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "100/10 µg",
+                    "s_breakpoint": "≥ 25 mm",
+                    "i_breakpoint": "21–24 mm",
+                    "r_breakpoint": "≤ 20 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8/4 µg/mL",
+                    "i_breakpoint": "16/4 µg/mL",
+                    "r_breakpoint": "≥ 32/4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules",
+          "agents": [
+            {
+              "agentName": "Cefepime",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 25 mm",
+                    "i_breakpoint": "19–24 mm",
+                    "r_breakpoint": "≤ 18 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 4 µg/mL",
+                    "i_breakpoint": "8 µg/mL",
+                    "r_breakpoint": "≥ 16 µg/mL"
+                  },
+                  "comments": [
+                    "Cefepime S/SDD results should be suppressed or reported as resistant for isolates demonstrating carbapenemase production."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ertapenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥ 22 mm",
+                    "i_breakpoint": "19–21 mm",
+                    "r_breakpoint": "≤ 18 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 0.5 µg/mL",
+                    "i_breakpoint": "1 µg/mL",
+                    "r_breakpoint": "≥ 2 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥ 23 mm",
+                    "i_breakpoint": "20–22 mm",
+                    "r_breakpoint": "≤ 19 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 1 µg/mL",
+                    "i_breakpoint": "2 µg/mL",
+                    "r_breakpoint": "≥ 4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting",
+          "agents": [
+            {
+              "agentName": "Ceftazidime-avibactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30/20 µg",
+                    "s_breakpoint": "≥ 21 mm",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤ 20 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8/4 µg/mL",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥ 16/4 µg/mL"
+                  },
+                  "comments": [
+                    "Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem-vaborbactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥ 18 mm",
+                    "i_breakpoint": "15–17 mm",
+                    "r_breakpoint": "≤ 14 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 4/8 µg/mL",
+                    "i_breakpoint": "8/8 µg/mL",
+                    "r_breakpoint": "≥ 16/8 µg/mL"
+                  },
+                  "comments": [
+                    "If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available",
+          "agents": [
+            {
+              "agentName": "Aztreonam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 21 mm",
+                    "i_breakpoint": "18–20 mm",
+                    "r_breakpoint": "≤ 17 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 4 µg/mL",
+                    "i_breakpoint": "8 µg/mL",
+                    "r_breakpoint": "≥ 16 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftriaxone",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 26 mm",
+                    "i_breakpoint": "20–22 mm",
+                    "r_breakpoint": "≤ 19 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 1 µg/mL",
+                    "i_breakpoint": "2 µg/mL",
+                    "r_breakpoint": "≥ 4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Colistin or Polymyxin B",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": null,
+                    "s_breakpoint": null,
+                    "i_breakpoint": null,
+                    "r_breakpoint": null
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 2 µg/mL",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥ 4 µg/mL"
+                  },
+                  "comments": [
+                    "Disk diffusion and gradient diffusion methods should not be performed."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Gold standard is HEp-2 adherence which is not generally available. May be diagnosed by PCR detection of virulence genes aatA and aggR in some commercial and research assays.",
+        "biosafetyWarning": null,
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [
+        "Often self limited, so antibiotics not always necessary.",
+        "Treatment probably indicated in immunocompromised patients and prolonged illness.",
+        "One small study showed response to antibiotics (Clin Infect Dis 29:335, 1999) and antibiotics were effective in HIV infected patients with EAEC (J Infect Dis 178:1369, 1998). Rifaximin appeared to improve duration of symptoms Clin Gastroenterol Hepatol 2004;2(2):135."
+      ],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 2019;69:473",
+          "summaryOrNote": "Study detected EAEC frequently in Minnesota patients of all ages with acute diarrhea."
+        },
+        {
+          "source": "Clinical Infectious Diseases",
+          "citation": "Clin Infect Dis 29:335, 1999",
+          "summaryOrNote": "A small study showed a response to antibiotics for EAEC infection."
+        },
+        {
+          "source": "Journal of Infectious Diseases",
+          "citation": "J Infect Dis 178:1369, 1998",
+          "summaryOrNote": "Study showed antibiotics were effective in HIV-infected patients with EAEC."
+        },
+        {
+          "source": "Clinical Gastroenterology and Hepatology",
+          "citation": "Clin Gastroenterol Hepatol 2004;2(2):135",
+          "summaryOrNote": "Study suggests Rifaximin appeared to improve the duration of symptoms."
+        },
+        {
+          "source": "Clinical Microbiology Reviews",
+          "citation": "Clin Microbiol Rev 2014;27(3):614",
+          "summaryOrNote": "General review of EAEC."
+        },
+        {
+          "source": "Current Opinion in Gastroenterology",
+          "citation": "Current Opinion Gastroenterol 25:8, 2009",
+          "summaryOrNote": "General review of EAEC."
+        },
+        {
+          "source": "The Lancet Infectious Diseases",
+          "citation": "Lancet Infect Dis 1:304, 2001",
+          "summaryOrNote": "General review of EAEC."
+        },
+        {
+          "source": "JAMA",
+          "citation": "JAMA 2016 28;315(24):2712",
+          "summaryOrNote": "Review of persistent diarrhea, including EAEC."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.273Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Enteroaggregative E. coli"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "EAEC",
+        "EaggEC",
+        "E coli Enteroaggregative"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-07-10"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Gold standard for diagnosis is HEp-2 adherence assay, which is not generally available.",
+          "May be diagnosed by PCR detection of virulence genes aatA and aggR."
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Enteroaggregative E. coli (EAEC) is a significant cause of acute and persistent watery diarrhea. It affects children and adults in developing nations, travelers to these areas, and has also been identified in patients with acute diarrhea in developed countries like the U.S. It is also associated with prolonged diarrhea in HIV-infected individuals.",
+      "pathophysiologyPearls": [
+        "While EAEC is consistently detected more frequently in patients with diarrhea than controls in various populations, it can also be detected in asymptomatic persons.",
+        "Molecular detection of EAEC virulence genes may not always correlate with symptomatic infection."
+      ],
+      "keySignsAndSymptoms": [
+        "Watery diarrhea",
+        "Abdominal pain",
+        "Low-grade fever",
+        "Occasional mucous or blood in stool"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Acute Diarrhea",
+          "description": "A cause of acute, watery diarrhea in children and adults, particularly in less-developed countries and among travelers."
+        },
+        {
+          "syndromeName": "Persistent Diarrhea",
+          "description": "Can cause persistent diarrhea, especially in infants and HIV-infected patients."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Children and adults in less-developed countries",
+        "Travelers to less-developed countries",
+        "Infants (risk for persistent diarrhea)",
+        "HIV-infected patients"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": [
+        "The infection is often self-limited, but treatment may be indicated for immunocompromised patients or those with prolonged illness."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Diagnostic Uncertainty",
+          "details": "EAEC can be detected in asymptomatic individuals, and molecular detection (PCR) may not always correlate with symptomatic infection."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Diarrhea",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Hydration",
+              "dose": "N/A",
+              "route": "Oral or IV",
+              "frequency": "N/A",
+              "duration": "As needed",
+              "comments": "Supportive care is the mainstay of treatment.",
+              "originalText": "Hydration N/A Oral or IV N/A"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Diarrhea",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "750 mg",
+              "route": "PO",
+              "frequency": "once daily",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 750 mg PO once daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Diarrhea",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Rifaximin",
+              "dose": "200 mg",
+              "route": "PO",
+              "frequency": "tid",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Rifaximin 200 mg PO tid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Diarrhea",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "AIDS patients"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "7 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 500 mg PO bid"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Patients with acute or persistent diarrhea, especially in high-risk populations (travelers, infants, immunocompromised)."
+      ],
+      "methodologyNotes": [
+        "The gold standard for diagnosis is the HEp-2 adherence assay, but it is a research tool and not generally available in clinical labs.",
+        "Commercial and research molecular assays (PCR) are used to detect specific virulence genes such as aatA and aggR."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "PCR for EAEC virulence genes",
+          "trigger": "Clinical suspicion of EAEC diarrhea, particularly in cases of persistent or severe illness, or in at-risk populations.",
+          "purpose": "To detect key virulence genes (e.g., aatA, aggR) for the diagnosis of EAEC infection."
+        },
+        {
+          "testName": "HEp-2 Adherence Assay",
+          "trigger": "Research settings or reference laboratories.",
+          "purpose": "To definitively identify the 'stacked-brick' adherence pattern characteristic of EAEC, considered the gold standard for identification."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": [
+        {
+          "tier": 1,
+          "tierDescription": "Appropriate for routine, primary testing and reporting",
+          "agents": [
+            {
+              "agentName": "Ampicillin",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥ 17 mm",
+                    "i_breakpoint": "14–16 mm",
+                    "r_breakpoint": "≤ 13 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8 µg/mL",
+                    "i_breakpoint": "16 µg/mL",
+                    "r_breakpoint": "≥ 32 µg/mL"
+                  },
+                  "comments": [
+                    "Ampicillin test results can predict amoxicillin results."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Cefazolin",
+              "breakpointSets": [
+                {
+                  "condition": "Urine Only - Uncomplicated UTI",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 15 mm",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤ 14 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 16 µg/mL",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥ 32 µg/mL"
+                  },
+                  "comments": [
+                    "Serves as a surrogate for oral cephalosporins for E. coli, K. pneumoniae, and P. mirabilis."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Amoxicillin-clavulanate",
+              "breakpointSets": [
+                {
+                  "condition": "Uncomplicated UTI only",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥ 18 mm",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤ 17 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8/4 µg/mL",
+                    "i_breakpoint": "16/4 µg/mL",
+                    "r_breakpoint": "≥ 32/4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Piperacillin-tazobactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "100/10 µg",
+                    "s_breakpoint": "≥ 25 mm",
+                    "i_breakpoint": "21–24 mm",
+                    "r_breakpoint": "≤ 20 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8/4 µg/mL",
+                    "i_breakpoint": "16/4 µg/mL",
+                    "r_breakpoint": "≥ 32/4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "tierDescription": "Appropriate for routine, primary testing, may be reported following cascade reporting rules",
+          "agents": [
+            {
+              "agentName": "Cefepime",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 25 mm",
+                    "i_breakpoint": "19–24 mm",
+                    "r_breakpoint": "≤ 18 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 4 µg/mL",
+                    "i_breakpoint": "8 µg/mL",
+                    "r_breakpoint": "≥ 16 µg/mL"
+                  },
+                  "comments": [
+                    "Cefepime S/SDD results should be suppressed or reported as resistant for isolates demonstrating carbapenemase production."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Ertapenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥ 22 mm",
+                    "i_breakpoint": "19–21 mm",
+                    "r_breakpoint": "≤ 18 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 0.5 µg/mL",
+                    "i_breakpoint": "1 µg/mL",
+                    "r_breakpoint": "≥ 2 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "10 µg",
+                    "s_breakpoint": "≥ 23 mm",
+                    "i_breakpoint": "20–22 mm",
+                    "r_breakpoint": "≤ 19 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 1 µg/mL",
+                    "i_breakpoint": "2 µg/mL",
+                    "r_breakpoint": "≥ 4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "tierDescription": "Appropriate for high-risk MDRO patients, subject to cascade reporting",
+          "agents": [
+            {
+              "agentName": "Ceftazidime-avibactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30/20 µg",
+                    "s_breakpoint": "≥ 21 mm",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≤ 20 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 8/4 µg/mL",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥ 16/4 µg/mL"
+                  },
+                  "comments": [
+                    "Confirmatory MIC testing is indicated for isolates with zones of 20–22 mm."
+                  ]
+                }
+              ]
+            },
+            {
+              "agentName": "Meropenem-vaborbactam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "20/10 µg",
+                    "s_breakpoint": "≥ 18 mm",
+                    "i_breakpoint": "15–17 mm",
+                    "r_breakpoint": "≤ 14 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 4/8 µg/mL",
+                    "i_breakpoint": "8/8 µg/mL",
+                    "r_breakpoint": "≥ 16/8 µg/mL"
+                  },
+                  "comments": [
+                    "If an OXA-48-like gene or enzyme is detected, suppress or report as resistant."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "tierDescription": "May warrant testing and reporting by clinician request if optimal agents in other tiers are not available",
+          "agents": [
+            {
+              "agentName": "Aztreonam",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 21 mm",
+                    "i_breakpoint": "18–20 mm",
+                    "r_breakpoint": "≤ 17 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 4 µg/mL",
+                    "i_breakpoint": "8 µg/mL",
+                    "r_breakpoint": "≥ 16 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Ceftriaxone",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": "30 µg",
+                    "s_breakpoint": "≥ 26 mm",
+                    "i_breakpoint": "20–22 mm",
+                    "r_breakpoint": "≤ 19 mm"
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 1 µg/mL",
+                    "i_breakpoint": "2 µg/mL",
+                    "r_breakpoint": "≥ 4 µg/mL"
+                  },
+                  "comments": []
+                }
+              ]
+            },
+            {
+              "agentName": "Colistin or Polymyxin B",
+              "breakpointSets": [
+                {
+                  "condition": "Standard",
+                  "diskDiffusion": {
+                    "diskContent": null,
+                    "s_breakpoint": null,
+                    "i_breakpoint": null,
+                    "r_breakpoint": null
+                  },
+                  "mic": {
+                    "s_breakpoint": "≤ 2 µg/mL",
+                    "i_breakpoint": null,
+                    "r_breakpoint": "≥ 4 µg/mL"
+                  },
+                  "comments": [
+                    "Disk diffusion and gradient diffusion methods should not be performed."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

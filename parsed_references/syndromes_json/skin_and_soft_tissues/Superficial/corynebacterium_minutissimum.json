@@ -1,0 +1,144 @@
+{
+  "documentMetadata": {
+    "title": "Corynebacterium minutissimum",
+    "lastUpdated": "2025-01-31",
+    "sourceFile": "Corynebacterium minutissimum.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Corynebacterium minutissimum is an aerobic gram-positive rod that causes the clinical skin condition called erythrasma.",
+            "Erythrasma presents as scaly skin plaques between the toes and/or thin brownish plaques in intertriginous areas like the upper inner thighs or axilla.",
+            "As such erythrasma is often mistaken for Tinea pedis, Tinea cruris, or Tinea versicolor.",
+            "Diagnosis is made by coral-red appearance of the skin when exposed to a Wood's lamp (UV wavelength 365nm)."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Classification"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aerobic gram positive rod"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Topical therapy for mild localized disease"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Clindamycin",
+                "dose": "1% lotion",
+                "route": "apply bid or tid",
+                "frequency": "x 14 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Concomitant use of antibacterial soap may decrease number of recurrences"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For widespread infection, systemic therapy is indicated"
+          ]
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Clarithromycin",
+                "dose": "500 mg",
+                "route": "po bid",
+                "connector": "or"
+              },
+              {
+                "drug": "Erythromycin",
+                "dose": "250 mg",
+                "route": "po bid",
+                "frequency": "x 14 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Single dose Clarithromycin 1,000 mg po has been reported to be effective (Intern J Dermatol 52: 516, 2013; J Dermatol Treat 24: 70, 2013)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "May be the presenting sign of diabetes mellitus.",
+            "Skin lesions may be asymptomatic.",
+            "If frequent recurrences, use of antibacterial soap or topical benzoyl peroxide washes may help.",
+            "Very rare cause of systemic infection including bacteremia, endocarditis, meningitis (J Infect 56: 77, 2008)",
+            "In vitro susceptibilities: low MICs of vancomycin; strains with high MICs identified for ampicillin, erythromycin, clindamycin, ciprofloxacin and others (Antimicrob Agents Chemother 39: 208, 1995).",
+            "Report of frequent erythromycin resistance from Turkey (J Am Acad Dermatol 65: 1230; 2011)",
+            "Successful treatment of 9 men with topical 2% mupirocin bid x 2-4 weeks (Dermatol Online J 23(5): 10, 2017)"
+          ]
+        }
+      ]
+    }
+  ]
+}

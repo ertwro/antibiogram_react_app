@@ -1,0 +1,98 @@
+{
+  "documentMetadata": {
+    "title": "Pneumonia, Anaerobic or Aspiration",
+    "lastUpdated": "2025-01-05",
+    "sourceFile": "Pneumonia, Anaerobic or Aspiration.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Empiric therapy for community-acquired anaerobic/mixed lung infection, often referred to (imprecisely) as \"aspiration pneumonia.\"",
+        "Gram-stain of sputum shows numerous polys and mixed \"oral\" flora.",
+        "A continuum of acute to subacute to chronic (typically oral flora) infection, necrotizing pneumonia, lung abscess, and empyema.",
+        "Predisposing conditions: neurologic deficits, reduced level of consciousness, esophageal motility disorders, endotracheal intubation, endoscopy, protracted or large volume vomiting, intoxication.",
+        "Distinct from an acute aspiration event (i.e., aspiration pneumonitis)",
+        "Aspiration pneumonitis is an acute chemical lung injury caused by aspiration and/or inhalation of sterile acidic gastric content.",
+        "Can proceed to severe lung injury and respiratory failure; At risk of secondary bacterial infection (estimated at 25%)",
+        "In retrospective study, no improved outcome for patients who received prophylactic antimicrobial therapy compared to those who did not; more frequent escalation of therapy in prophylaxis group (Clin Infect Dis 2018;67:513)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Oral anaerobes, other oral flora",
+        "Gram-positive cocci",
+        "Streptococcus anginosis group (Formerly Streptococcus milleri)",
+        "Gram-negative bacteria"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Parenteral regimens (see Comments)",
+        "Ceftriaxone 1-2 gm IV q24h + Metronidazole (500 mg IV q6h or 1 gm IV q12h)",
+        "Ampicillin-sulbactam 3 gm IV q6h",
+        "Oral regimens",
+        "Clindamycin 300-450 mg po tid",
+        "Moxifloxacin 400 mg once daily"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Parenteral regimens",
+        "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h",
+        "Ertapenem 1 gm IV q24h",
+        "Oral regimens",
+        "Amoxicillin-clavulanate 875/125 mg po bid"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Coverage for anaerobes not routinely recommended unless lung abscess or emypema is suspected (ATS/IDSA Guidelines: Am J Respir Crit Care Med. 2019; 200:e45-e67), although reasonable if anaerobic infection is suspected on clinical grounds, e.g., a subacute to chronic clinical course, presence of periodontal disease, foul smelling sputum, high quality sputum Gram stain that shows numerous polys and mixed or oral-type flora.",
+        "Can switch to oral therapy once the patient has responded clinically",
+        "Optimal duration of therapy unknown but 7-10 days in patients with pneumonia without empyema or lung abscess; 4-6 weeks for empyema or lung abscess, guided by radiographic resolution of the abscess and adequacy of drainage.",
+        "Patients who defervesce rapidly should get repeat imaging. If infiltrates and signs and symptoms have resolved, antibiotics should be discontinued as it is likely aspiration pneumonitis and not aspiration pneumonia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For excellent review see N Engl J Medicine 2019;380:651.",
+        "See also: IDSA/ATS community-acquired pneumonia treatment guidelines, Am J Respir Crit Care Med. 2019; 200:e45-e67."
+      ]
+    }
+  ]
+}

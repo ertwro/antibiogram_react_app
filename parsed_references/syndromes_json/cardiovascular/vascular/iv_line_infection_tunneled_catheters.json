@@ -1,0 +1,302 @@
+{
+  "documentMetadata": {
+    "title": "IV Line Infection, Tunneled Catheters",
+    "lastUpdated": "2024-06-06",
+    "sourceFile": "IV Line Infection, Tunneled Catheters.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Unexplained fever in patient with IV access via a tunneled catheter.",
+        "Evidence of infected IV line with one of the following types of \"tunneled\" access:",
+        "Subclavian tunneled catheter (Broviac, Hickman, Groshong, Quinton)",
+        "Chest-wall port",
+        "Dual lumen hemodialysis access catheter: e.g. Permacath",
+        "Special populations (impaired host) with infected IV line:",
+        "Burn patient, neutropenic patient",
+        "Chronic hyperalimentation",
+        "Use of IV lipid emulsions",
+        "Beware of occult infection in clotted hemodialysis grafts.",
+        "May be Detected by indium scan",
+        "For review of arteriovenous access for hemodialysis: JAMA 2024; 331:1307"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Diagnosis based on positive blood cultures and/or culture of the tip of the catheter if it is removed.",
+        "Blood culture drawn through the line is positive 2 or more hours sooner than blood cultures from a peripheral vein.",
+        "Semi-quantitative culture (roll-tube method) of the tip of a removed catheter grows >15 colonies of a putative pathogen."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tunneled IV Line:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Staphylococcus aureus",
+            "Staphylococcus epidermidis",
+            "Leuconostoc or Lactobacillus",
+            "Other pathogens possible: e.g., gram-negative bacilli, Candida sp."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Burn or neutropenic patient, etiologies expand to include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pseudomonas sp.",
+            "Enterobacteriaceae",
+            "Corynebacterium jeikeium"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Long-term alimentation:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Candida sp."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Non-neutropenic and not a burn patient",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Neutropenic or a burn patient",
+            "components": [
+              {
+                "drug": "Vancomycin"
+              },
+              {
+                "drug": "high dose Piperacillin-tazobactam",
+                "connector": "+"
+              }
+            ],
+            "notes": "for possible P. aeruginosa infection"
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Specific therapy (positive blood and /or catheter culture):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If Staph. aureus in blood or subcutaneous tunnel is infected, generally must remove the line plus antimicrobial therapy to achieve cure"
+          ]
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "condition": "Staph. aureus or Staph. epidermidis",
+            "components": [
+              {
+                "drug": "Vancomycin",
+                "dose": "15-20 mg/kg",
+                "route": "IV",
+                "frequency": "q8-12h"
+              }
+            ],
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)."
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lactobacillus or Leuconostoc are intrinsically resistant to vancomycin; use Penicillin G, Ampicillin or Clindamycin"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: Burn or neutropenic patient:"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin"
+              },
+              {
+                "drug": "Cefepime",
+                "connector": "+"
+              },
+              {
+                "drug": "Ceftazidime",
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin"
+              },
+              {
+                "drug": "Piperacillin-tazobactam",
+                "connector": "+"
+              }
+            ]
+          }
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Vancomycin"
+              },
+              {
+                "drug": "Imipenem",
+                "connector": "+"
+              },
+              {
+                "drug": "Meropenem",
+                "connector": "or"
+              },
+              {
+                "drug": "Doripenem",
+                "connector": "or"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: Patients requiring long-term alimentation (Candida infection a potential problem):"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "components": [
+              {
+                "drug": "Anidulafungin"
+              },
+              {
+                "drug": "Micafungin",
+                "connector": "or"
+              },
+              {
+                "drug": "Caspofungin",
+                "connector": "or"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Usually must remove the line."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "In burn patients, suppurative phlebitis often necessitates surgical excision of the vein.",
+        "Ophthalmologic consult recommended for patients with Candidemia.",
+        "IV lipid emulsions (Intralipid) are prone to infection with Staph. epidermidis and occasionally Malassezia furfur (responds to azoles).",
+        "IDSA Practice Guidelines: Clin Infect Dis 49:1, 2009."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+
+{
+  "documentMetadata": {
+    "title": "Acanthamoeba Keratitis",
+    "sourceFile": "syndromes/ocular/conjunctivitis/Keratitis, Acanthamoeba.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acanthamoeba keratitis is a rare but severe, sight-threatening corneal infection caused by the free-living amoeba Acanthamoeba. It is most commonly associated with contact lens wear, particularly with poor hygiene practices such as rinsing/storing lenses in tap water, swimming/showering with lenses, or using contaminated lens cases. The organism can also cause infection following corneal trauma with exposure to contaminated soil or water."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Hallmark Symptom",
+          "value": "Severe eye pain that is disproportionately greater than the clinical signs."
+        },
+        {
+          "key": "Other Symptoms",
+          "value": "Photophobia, blurred vision, foreign body sensation, and tearing."
+        },
+        {
+          "key": "Early Signs",
+          "value": "Pseudodendrites (resembling herpetic keratitis), epithelial irregularity, and limbitis."
+        },
+        {
+          "key": "Late/Classic Sign",
+          "value": "Radial keratoneuritis (inflammation of corneal nerves), which is pathognomonic. A ring infiltrate may form in the corneal stroma as the infection progresses."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Early diagnosis is critical for a favorable outcome but is often delayed due to misdiagnosis as herpetic or bacterial keratitis. An ophthalmology consultation is mandatory."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Corneal Scraping/Biopsy",
+          "sampleType": "Corneal tissue",
+          "interpretation": "Staining with calcofluor white or Giemsa can reveal the characteristic cysts or trophozoites of Acanthamoeba.",
+          "notes": "Culture on non-nutrient agar with an E. coli overlay can also be performed."
+        },
+        {
+          "type": "diagnosticTest",
+          "name": "Confocal Microscopy",
+          "sampleType": "In vivo imaging of the cornea",
+          "interpretation": "Allows for direct visualization of Acanthamoeba cysts and trophozoites in the cornea, providing a rapid, non-invasive diagnosis."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment is prolonged, often lasting for 6-12 months, and requires intensive topical anti-amoebic therapy. It should be managed by an ophthalmologist with experience in treating this condition."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Anti-amoebic Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "appliesTo": {
+              "description": "Patients with confirmed Acanthamoeba keratitis"
+            },
+            "components": [
+              {
+                "drug": "Polyhexamethylene biguanide (PHMB) 0.02% - 0.08%",
+                "route": "topical",
+                "frequency": "hourly, then tapered over months"
+              },
+              {
+                "drug": "Chlorhexidine 0.02% - 0.2%",
+                "route": "topical",
+                "frequency": "hourly, then tapered over months",
+                "connector": "+"
+              },
+              {
+                "drug": "Propamidine isethionate 0.1% (Brolene)",
+                "route": "topical",
+                "frequency": "often used in combination",
+                "connector": "or"
+              }
+            ],
+            "notes": "Dual therapy with a biguanide (PHMB or chlorhexidine) and a diamidine (propamidine) is the standard of care. Treatment must be continued for several months to eradicate both trophozoites and the highly resistant cysts."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Adjunctive Therapy"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oral NSAIDs or other analgesics for pain control.",
+            "Cycloplegic agents to prevent ciliary spasm and posterior synechiae.",
+            "Topical steroids are controversial and should only be used by an expert to control severe inflammation once the infection is under control, as they can worsen the infection if used improperly.",
+            "Therapeutic penetrating keratoplasty (corneal transplant) may be required for medically refractory cases or corneal perforation."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Keratitis, Overview",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Keratitis, Overview"
+      }
+    }
+  ]
+}

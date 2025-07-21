@@ -1,0 +1,188 @@
+{
+  "_originalData": {
+    "aliases": [
+      "Clostridium tetani"
+    ],
+    "updated": "2023-07-22",
+    "clinical_setting": [
+      "Cause of tetanus, a toxin mediated disease.",
+      "The diagnosis is usually clinical based on the typical features of persistent tonic muscle spasms, trismus (\"lockjaw\") in the setting of inadequate or absent vaccination.",
+      "Cultures, which are frequently negative, are not useful in confirming or excluding the diagnosis.",
+      "Serum and urine should be submitted for toxin assay in suspected cases.",
+      "Preventable by immunzation. Survivors are not immune: Vaccinate. See www.immunize:org/askexperts",
+      "Review of maternal and neonatal tetanus: Lancet 385:362, 2015; Ped in Review 2018; 39:430"
+    ],
+    "classification": [
+      "Anaerobic Gram positive spore forming bacilli"
+    ],
+    "primary_regimens": [
+      "Steps in management and treatment of tetanus:",
+      "Urgent endotracheal intubation to protect the airway. Laryngeal spasm is common. Early tracheostomy.",
+      "Eliminate reflex spasms with diazepam, 20 mg/kg/day IV or midazolam. Reports of benefit combining diazepam with magnesium sulfate (Lancet 368:1436, 2006). Worst cases: need neuromuscular blockade with vecuronium.",
+      "Neutralize toxin: Human hyperimmune globulin 500 units IM at a different site than tetanus toxoid with part of the dose infiltrated around the wound; start tetanus toxoid immunization-no immunity from clinical tetanus.",
+      "Surgically debride infected source tissue.",
+      "Start antibiotic and treat for 7-10 days (See Comment)",
+      "Metronidazole 500 mg IV q6h or 1000 mg IV q12h",
+      "Aqueous Penicillin G 3 million units IV q4h",
+      "Avoid light as may precipitate muscle spasms.",
+      "Use beta blockers, e.g., short acting esmolol, to control sympathetic hyperactivity."
+    ],
+    "alternative_regimens": [
+      "Doxycycline 100 mg IV q12h x 7-10 days"
+    ],
+    "comments": [
+      "Review: Lancet 393; 1657; 2019",
+      "Metronidazole for 10-14 days (Ann Intern Med 154:329, 2011)",
+      "Note: Clinical tetanus does not confer immunity; an immunization series should be completed in all cases of tetanus.",
+      "Penicillin, metronidazole, tetracyclines, macrolides, are all active but the role of, or whether there is benefit from, antimicrobial therapy is controversial."
+    ]
+  },
+  "_metadata": {
+    "originalKeys": [
+      "aliases",
+      "updated",
+      "clinical_setting",
+      "classification",
+      "primary_regimens",
+      "alternative_regimens",
+      "comments"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.257Z",
+    "sourceFormat": "legacy_cdiff"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "title",
+        "bacteriumName",
+        "name"
+      ],
+      "value": "Unknown"
+    },
+    "aliases": {
+      "sources": [
+        "aliases"
+      ],
+      "value": [
+        "Clostridium tetani"
+      ]
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinical_setting"
+    ],
+    "value": [
+      "Cause of tetanus, a toxin mediated disease.",
+      "The diagnosis is usually clinical based on the typical features of persistent tonic muscle spasms, trismus (\"lockjaw\") in the setting of inadequate or absent vaccination.",
+      "Cultures, which are frequently negative, are not useful in confirming or excluding the diagnosis.",
+      "Serum and urine should be submitted for toxin assay in suspected cases.",
+      "Preventable by immunzation. Survivors are not immune: Vaccinate. See www.immunize:org/askexperts",
+      "Review of maternal and neonatal tetanus: Lancet 385:362, 2015; Ped in Review 2018; 39:430"
+    ]
+  },
+  "treatmentData": {
+    "_treatmentMetadata": {
+      "originalFormat": "legacy_cdiff",
+      "hasMixedContent": true,
+      "hasTaperingRegimens": false
+    },
+    "standardizedRegimens": [
+      {
+        "regimenId": "primary-6",
+        "extractedFrom": "primary_regimens[6]",
+        "context": {
+          "type": "directed",
+          "condition": "Steps in management and treatment of tetanus:"
+        },
+        "preference": "primary",
+        "drugs": [
+          {
+            "drugName": "Metronidazole",
+            "dose": "500 mg",
+            "originalText": "Metronidazole 500 mg"
+          },
+          {
+            "drugName": "h or",
+            "dose": "1000 mg",
+            "originalText": "h or 1000 mg"
+          }
+        ]
+      },
+      {
+        "regimenId": "alternative-0",
+        "extractedFrom": "alternative_regimens[0]",
+        "context": {
+          "type": "directed",
+          "condition": null
+        },
+        "preference": "alternative",
+        "drugs": [
+          {
+            "drugName": "Doxycycline",
+            "dose": "100 mg",
+            "originalText": "Doxycycline 100 mg"
+          }
+        ]
+      }
+    ],
+    "narrativeTreatments": {
+      "primaryRegimens": {
+        "sources": [
+          "primary_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Steps in management and treatment of tetanus:",
+          "Urgent endotracheal intubation to protect the airway. Laryngeal spasm is common. Early tracheostomy.",
+          "Eliminate reflex spasms with diazepam, 20 mg/kg/day IV or midazolam. Reports of benefit combining diazepam with magnesium sulfate (Lancet 368:1436, 2006). Worst cases: need neuromuscular blockade with vecuronium.",
+          "Neutralize toxin: Human hyperimmune globulin 500 units IM at a different site than tetanus toxoid with part of the dose infiltrated around the wound; start tetanus toxoid immunization-no immunity from clinical tetanus.",
+          "Surgically debride infected source tissue.",
+          "Start antibiotic and treat for 7-10 days (See Comment)",
+          "Metronidazole 500 mg IV q6h or 1000 mg IV q12h",
+          "Aqueous Penicillin G 3 million units IV q4h",
+          "Avoid light as may precipitate muscle spasms.",
+          "Use beta blockers, e.g., short acting esmolol, to control sympathetic hyperactivity."
+        ]
+      },
+      "alternativeRegimens": {
+        "sources": [
+          "alternative_regimens"
+        ],
+        "originalFormat": "array",
+        "content": [
+          "Doxycycline 100 mg IV q12h x 7-10 days"
+        ]
+      }
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "array",
+        "content": [
+          "Review: Lancet 393; 1657; 2019",
+          "Metronidazole for 10-14 days (Ann Intern Med 154:329, 2011)",
+          "Note: Clinical tetanus does not confer immunity; an immunization series should be completed in all cases of tetanus.",
+          "Penicillin, metronidazole, tetracyclines, macrolides, are all active but the role of, or whether there is benefit from, antimicrobial therapy is controversial."
+        ]
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {
+      "updated": "2023-07-22"
+    }
+  }
+}

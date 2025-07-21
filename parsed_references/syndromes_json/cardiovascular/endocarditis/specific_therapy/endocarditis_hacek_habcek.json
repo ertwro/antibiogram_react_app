@@ -1,0 +1,163 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, HACEK, HABCEK",
+    "lastUpdated": "2025-05-15",
+    "sourceFile": "Endocarditis_ HACEK, HABCEK.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific/directed therapy for endocarditis caused by slow-growing, fastidious Gram-negative bacilli",
+        "HACEK group of organisms (HABCEK if Bartonella included). For Bartonella, see Endocarditis, Bartonella."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Haemophilus parainfluenzae",
+        "Aggregatibacter actinomycetemcomitans (formerly Actinobacillus)",
+        "Aggregatibacter aphrophilus (formerly Haemophilus)",
+        "Cardiobacterium hominis",
+        "Eikenella corrodens",
+        "Kingella species",
+        "Also, Bartonella sp.",
+        "NOTE: Suggested treatment regimens are not predictably active vs Bartonella sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q24h",
+            "connector": "OR"
+          },
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "400 mg",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks"
+        }
+      }
+    },
+    {
+        "type": "paragraph",
+        "text": "Treat for 6 weeks if prosthetic valve infection."
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ampicillin-sulbactam",
+            "dose": "3 gm",
+            "route": "IV",
+            "frequency": "q6h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "condition": "if growth is sufficient to permit susceptibility testing",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Levofloxacin",
+            "dose": "750 mg",
+            "route": "po/IV",
+            "frequency": "q24h",
+            "connector": "OR"
+          },
+          {
+            "drug": "Moxifloxacin",
+            "dose": "400 mg",
+            "route": "po/IV",
+            "frequency": "q24h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4 weeks"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "notes": "option for oral step-down in selected patients who have responded to IV therapy and are clinically stable, but clinical experience is limited",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "750 mg",
+            "route": "po",
+            "frequency": "q12h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Avoid combination therapy with gentamicin due to nephrotoxicity",
+        "Guideline references for HACEK/HABCEK endocarditis:",
+        "American Heart Assn (Circulation 132:1435, 2015).",
+        "British Society for Antimicrobial Therapy (J Antimicrob Chemother 67:269, 2012)",
+        "European Heart Journal 25: 267, 2004"
+      ]
+    }
+  ]
+}

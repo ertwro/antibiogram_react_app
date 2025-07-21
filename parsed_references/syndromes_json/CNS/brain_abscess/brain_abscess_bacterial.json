@@ -1,0 +1,164 @@
+{
+  "documentMetadata": {
+    "title": "Brain Abscess, Bacterial",
+    "lastUpdated": "2024-04-24",
+    "sourceFile": "Brain Abscess, Bacterial.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Recommendations are for empiric therapy for bacterial brain abscess.",
+        "Surgical drainage recommended in most cases unless the abscess is small or in a vital area of the brain (see Comments).",
+        "Presence of fever (but only in 50%), headache, altered mental status, focal neurologic signs and symptoms, seizures.",
+        "Contiguous, anaerobic site of infection, such as dental abscess, sinusitis, mastoiditis may be present.",
+        "Bacteremic seeding from a distant site.",
+        "Strep. anginosis group is especially prone to produce abscesses.",
+        "Review: New Engl J Med 371:447, 2014."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus sp. (60-70%)",
+        "Bacteroides sp. (20-40%)",
+        "Enterobacteriaceae (25-33%)",
+        "Staphylococcus aureus (10-15%) (usually post-trauma, post-neurosurgery, or in bacteremic patients)",
+        "Streptococcus anginosis group (formerly Streptococcus milleri). Reference: Clin Infect Dis. 2024;78:544",
+        "Nocardia spp. (immunocompromised host)",
+        "Listeria moncytogenes"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q12h"
+          },
+          {
+            "drug": "Cefotaxime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q4h",
+            "connector": "or"
+          },
+          {
+            "drug": "Cefepime",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h",
+            "connector": "or"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6-8h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If suspect Staph. aureus (e.g., post-trauma, post-neurosurgery, suspected hematogenous spread), add Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) to cover MRSA until culture results are available"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Penicillin G",
+            "dose": "3-4 million units",
+            "route": "IV",
+            "frequency": "q4h"
+          },
+          {
+            "drug": "Metronidazole",
+            "dose": "500 mg",
+            "route": "IV",
+            "frequency": "q6-8h",
+            "connector": "+"
+          }
+        ]
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Meropenem",
+            "dose": "2 gm",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "If suspect Staph. aureus, add Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 µg/mL x hr (see vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL) or Linezolid 600 mg IV/po q12h to the regimen"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "De-escalate and tailor regimen based antimicrobial susceptibility of the pathogen(s) isolated from aerobic and anaerobic cultures of blood or the abscess, if available",
+        "If the infection is from a contiguous site (e.g., oral, odontogenic, sinuses, mastoid) and cultures of the abscess were not obtained or are deemed unreliable because of prior antimicrobial therapy, continue the empirical regimen including anaerobic coverage",
+        "Duration of therapy: Typically 6-8 weeks, with the shorter duration for those with cerebritis only or drained abscess, longer for undrained or encapsulated abscesses, multiple or loculated abscesses, abscess in an immunocompromised host"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Obtain cultures whenever possible, ideally before starting antibiotics if the patient is stable and the procedure can be performed within a few hours.",
+        "If CT scan suggests cerebritis or abscesses <2.5 cm and patient is neurologically stable and conscious, medical therapy may be successful without surgery if causative organism(s) are identified by blood or other cultures; in that case, can start antibiotics and observe. Otherwise, aspiration may be necessary to identify the pathogen or for therapy (larger abscesses) or both.",
+        "Role of oral therapy not defined and is the subject of an on-going randomized trial (ClinicalTrials.gov NCT04140903).",
+        "Brain abscess may occur as a rare complication of Lemierre's syndrome (Lancet Infect Dis 12:808, 2012).",
+        "For transplant patients add Voriconazole and TMP/SMX.",
+        "Other considerations, depending on the clinical setting, include CNS tuberculosis, toxoplasmosis (e.g., an immunocompromised host, AIDS patient) of granulomatous amebic encephaliitis."
+      ]
+    }
+  ]
+}

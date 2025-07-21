@@ -1,0 +1,54 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Gram-negative Bacilli",
+    "sourceFile": "Meningitis, Gram-negative Bacilli.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Gram-negative Bacilli"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treatment of meningitis caused by gram-negative bacilli should be guided by susceptibility testing."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Cefepime",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "21 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Meropenem",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q8h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "21 days"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Plesiomonas shigelloides",
+      "aliases": [],
+      "lastUpdated": "2024-07-30",
+      "clsiCategory": "Other Non-Enterobacterales",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Motile with polar flagella"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-negative rod, motile (polar flagella), oxidase +, ferments glucose, differentiates from Aeromonas by being sensitive to O/129 and from Vibrio by not requiring NaCl. Lysine, ornithine, arginine decarboxylase +."
+    },
+    "clinicalProfile": {
+      "summary": "Plesiomonas shigelloides is a gram-negative bacillus that causes gastroenteritis, typically associated with travel to tropical/subtropical regions or consumption of raw seafood, especially oysters. It can also lead to extra-intestinal infections like bacteremia, meningitis, and cellulitis, particularly in immunocompromised individuals or those with liver disease.",
+      "pathophysiologyPearls": [
+        "Infection is acquired through ingestion of contaminated food or water."
+      ],
+      "keySignsAndSymptoms": [
+        "Watery or secretory diarrhea (can be bloody)",
+        "Abdominal cramps",
+        "Fever",
+        "Nausea and vomiting"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "The most common clinical presentation, ranging from mild, self-limited diarrhea to a more severe, dysenteric illness."
+        },
+        {
+          "syndromeName": "Extra-intestinal Infections",
+          "description": "Includes bacteremia, meningitis, and cellulitis, occurring more frequently in immunocompromised patients, neonates, and individuals with hepatobiliary disease."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Travelers to tropical or subtropical areas",
+        "Immunocompromised individuals",
+        "Patients with liver disease",
+        "Neonates"
+      ],
+      "transmissionVectors": [
+        "Consumption of raw or undercooked seafood (especially oysters)",
+        "Contaminated water"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Ampicillin",
+          "notes": "Resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Susceptible to most fluoroquinolones, cephalosporins, carbapenems, and TMP-SMX."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Gastroenteritis",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Stool"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "Ciprofloxacin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "500",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "3 days",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX DS",
+                      "dose": "1 tab",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Severe or Extra-intestinal Infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, CSF, etc."
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Varies by syndrome",
+                  "drugs": [
+                    {
+                      "drugName": "Ceftriaxone",
+                      "dose": "1-2",
+                      "route": "IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Stool culture for patients with gastroenteritis.",
+        "Blood or other sterile site cultures for patients with systemic illness."
+      ],
+      "methodologyNotes": [
+        "Grows on standard laboratory media, including MacConkey agar."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.336Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Plesiomonas shigelloides"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-07-30"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Rod",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Motile with polar flagella"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Plesiomonas shigelloides is a gram-negative bacillus that causes gastroenteritis, typically associated with travel to tropical/subtropical regions or consumption of raw seafood, especially oysters. It can also lead to extra-intestinal infections like bacteremia, meningitis, and cellulitis, particularly in immunocompromised individuals or those with liver disease.",
+      "pathophysiologyPearls": [
+        "Infection is acquired through ingestion of contaminated food or water."
+      ],
+      "keySignsAndSymptoms": [
+        "Watery or secretory diarrhea (can be bloody)",
+        "Abdominal cramps",
+        "Fever",
+        "Nausea and vomiting"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Gastroenteritis",
+          "description": "The most common clinical presentation, ranging from mild, self-limited diarrhea to a more severe, dysenteric illness."
+        },
+        {
+          "syndromeName": "Extra-intestinal Infections",
+          "description": "Includes bacteremia, meningitis, and cellulitis, occurring more frequently in immunocompromised patients, neonates, and individuals with hepatobiliary disease."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Travelers to tropical or subtropical areas",
+        "Immunocompromised individuals",
+        "Patients with liver disease",
+        "Neonates"
+      ],
+      "transmissionVectors": [
+        "Consumption of raw or undercooked seafood (especially oysters)",
+        "Contaminated water"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [
+        {
+          "drugOrClass": "Ampicillin",
+          "notes": "Resistant."
+        }
+      ],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ciprofloxacin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Ciprofloxacin 500 PO BID"
+            },
+            {
+              "drugName": "Levofloxacin",
+              "dose": "500",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "Levofloxacin 500 PO daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Gastroenteritis",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Stool"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX DS",
+              "dose": "1 tab",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "3 days",
+              "comments": "",
+              "originalText": "TMP-SMX DS 1 tab PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Severe or Extra-intestinal Infection",
+            "severity": "severe",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, CSF, etc."
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Ceftriaxone",
+              "dose": "1-2",
+              "route": "IV",
+              "frequency": "daily",
+              "duration": "Varies by syndrome",
+              "comments": "",
+              "originalText": "Ceftriaxone 1-2 IV daily"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Stool culture for patients with gastroenteritis.",
+        "Blood or other sterile site cultures for patients with systemic illness."
+      ],
+      "methodologyNotes": [
+        "Grows on standard laboratory media, including MacConkey agar."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

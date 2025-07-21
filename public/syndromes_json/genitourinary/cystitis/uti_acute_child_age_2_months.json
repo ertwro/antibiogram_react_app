@@ -1,0 +1,241 @@
+{
+  "documentMetadata": {
+    "title": "Acute Urinary Tract Infection in Children Age >= 2 Months",
+    "sourceFile": "UTI, Acute, Child, Age &ge_ 2 months.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acute urinary tract infection (UTI) in children age ≥ 2 months.",
+        "Diagnosis should be based on abnormal UA (WBC, leukocyte esterase or nitrite) AND >50,000 cfu/mL of a urinary pathogen)",
+        "Culture of bagged urine specimens are not reliable and should not be used. Bagged specimens can be used for UA",
+        "Clean catch mid void specimen in older children and adolescents may be acceptable if it can be reliably obtained",
+        "Blood cultures should be obtained in toxic appearing young children",
+        "Flank pain, persistent fevers, and other systemic symptoms may suggest upper tract disease"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enteric bacteria (E. coli, Klebsiella, Enterobacter, Citrobacter), Enterococcus sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IV therapy may be preferred for seriously ill children or those who cannot take oral therapy. Oral therapy generally equally effective",
+        "Empiric therapy should be based on local susceptibility patterns"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "IV therapy options for empiric use:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "75-100 mg/kg",
+                "route": "IV",
+                "frequency": "once daily"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ceftazidime",
+                "dose": "50 mg/kg",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "where available",
+            "components": [
+              {
+                "drug": "Cefotaxime",
+                "dose": "50 mg/kg",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Oral options:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Amoxicillin-clavulanate",
+                "dose": "10-15 mg/kg",
+                "route": "po",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cephalexin",
+                "dose": "50-100 mg/kg/day",
+                "route": "po",
+                "frequency": "divided q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "TMP-SMX",
+                "dose": "6-12 mg/kg/day TMP component",
+                "route": "po",
+                "frequency": "divided q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefixime",
+                "dose": "8 mg/kg",
+                "route": "po",
+                "frequency": "once daily"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Cefpodoxime",
+                "dose": "10 mg/kg/day",
+                "frequency": "divided q12h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "20-30 mg/kg in 2 divided doses to maximum dose of 1500 mg per day"
+          }
+        ]
+      }
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "For ESBL and other resistant organisms, see Overview of Resistant Gram Negative Organisms",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Overview of Resistant Gram Negative Organisms"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Normal urinalysis of fresh urine specimen reasonably excludes UTI",
+        "Do not treat asymptomatic bacteriuria",
+        "Narrow therapy once susceptibility is known",
+        "5 day course non-inferior to 10 day course although trial may not be fully applicable to pyelonephritis (Pediatrics an 1;153(1):e2023062598 2024)",
+        "Switch to oral therapy when improving and able to tolerate oral therapy. Post pubertal girls can be treated as for adult women"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Obtain renal ultrasound within 6 weeks for first UTI in children < 24 months old. Obtain immediately if severely ill",
+        "For children >24 months, obtain renal ultrasound if recurrent or atypical UTI",
+        "Voiding cystourethrogram (VCUG) is no longer routinely recommended unless ultrasound shows hydronephrosis, evidence suggesting severe reflux or obstruction",
+        "Ciprofloxacin is not FDA-approved for uncomplicated UTIs in persons age < 18 years (it is approved for complicated UTIs in that age group).",
+        "See Pediatrics 128:595, 2011 for discussion of management guidelines and when to consider prophylaxis for recurrent UTI."
+      ]
+    }
+  ]
+}

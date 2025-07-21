@@ -1,0 +1,134 @@
+{
+  "documentMetadata": {
+    "title": "Actinomycosis",
+    "lastUpdated": "2025-02-06",
+    "sourceFile": "syndromes/intra-abdominal/Actinomycosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Abdominal: mass with or without fistula tract after abdominal surgery, e.g., a late complication of a ruptured appendix.",
+        "Cervicofacial: \"lumpy jaw\", most common form of actinomycosis with lumps and sinus tracts after dental or jaw trauma.",
+        "Pelvic: tubo-ovarian abscess, complication of intrauterine device (IUD), which should be removed.",
+        "Pulmonary: chronic disease, mass lesion, dense infiltrate and can mimic lung cancer, tuberculosis, community-acquired pneumonia."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Actinomyces israelii (most common)",
+        "Actinomyces meyeri",
+        "Actinomyces turicensis",
+        "Actinomyces europaeus",
+        "Other Actinomyces species (see: J Antimicrob Chemother. 2016;71: 422-427)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Ampicillin", "dose": "200 mg/kg/day", "route": "IV", "frequency": "divided in 3-4 doses" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-6 weeks"
+        }
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Penicillin G", "dose": "10-20 million units/day", "route": "IV", "frequency": "divided q4-6h" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "4-6 weeks"
+        },
+        "notes": "Followed by Penicillin VK 2-4 gm/day po."
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Amoxicillin", "dose": "2 gm", "route": "po", "frequency": "bid" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6-12 months"
+        },
+        "notes": "See Comments."
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Doxycycline", "dose": "100 mg", "route": "IV", "frequency": "bid" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-6 weeks"
+        },
+        "notes": "Then po for 6-12 months."
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Ceftriaxone", "dose": "2 gm", "route": "IV", "frequency": "once daily" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-6 weeks"
+        },
+        "notes": "Then one of the oral regimens for 6-12 months."
+      }
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          { "drug": "Clindamycin", "dose": "600-900 mg", "route": "IV", "frequency": "q8h" }
+        ],
+        "durationDetail": {
+          "fixedDuration": "2-6 weeks"
+        },
+        "notes": "Then 300 mg tid po for 6-12 months."
+      }
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Comments"
+    },
+    {
+      "type": "paragraph",
+      "text": "The recommendations for a 2-6 week run-in with intravenous therapy prior to oral therapy are traditional and empirical. There are case reports of successful treatment with oral therapy preceded by much shorter durations of IV therapy, as little as 3 days, or no IV therapy at all (Chest 2005 Oct;128(4):2211-7), particularly for less severe disease. Durations shorter than 3 months may also be effective in less bulky disease.\nNOTE: Metronidazole is not active.\nIf co-pathogens are present, select regimen that will cover these as well as Actinomyces.\nReference: StatPearls; 2023 Jan. 2023 Feb 19."
+    }
+  ]
+}

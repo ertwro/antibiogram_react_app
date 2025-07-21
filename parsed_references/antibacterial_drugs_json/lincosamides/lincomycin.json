@@ -1,0 +1,70 @@
+{
+  "drug_name": "Lincomycin",
+  "usage_and_dosing": {
+    "general": [
+      "Protein synthesis inhibitor antibiotic found in a soil organism from Lincoln, Nebraska.",
+      "Infrequently used; use supplanted by Clindamycin.",
+      "Indicated for serious infections due to susceptible strains of streptococci, pneumococci, and staphylococci when penicillin is deemed inappropriate.",
+      "Route: IV, IM and subconjunctival injection.",
+      "In vitro activity vs. Corynebacterium diphtheriae, Streptococcus pyogenes, Viridans group streptococci, Clostridium tetani and Clostridium perfringens."
+    ],
+    "adult_dose": {
+      "intravenous": "0.6-1 gm IV q8-12h (max 8 gm/day). Maximum concentration 10 mg/mL (D5W or NS), infuse over at least one hour.",
+      "intramuscular": "600 mg/2 mL IM q12-24h.",
+      "subconjunctival": "75 mg/0.25 mL x1 produces sufficient ocular fluid levels (for most susceptible pathogens) for at least five hours."
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "10-20 mg/kg/day (divided q8-12h)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "5.4",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "0.6-1 gm IV q8-12h",
+    "crcl_or_egfr": "CrCl ≥30: No dosage adjustment. CrCl <30: 25-30% of usual dose",
+    "hemodialysis": "Not removed by dialysis",
+    "capd": "Not removed by dialysis",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "Use with caution"
+  },
+  "adverse_effects": [
+    "Black Box Warning: Risk of C. difficile toxin-mediated diarrhea.",
+    "Other gastrointestinal reactions.",
+    "Hypersensitivity reactions.",
+    "Rare: neutropenia, pancytopenia, tinnitus, vertigo",
+    "Contains benzyl alcohol as a preservative, which has been associated with serious adverse events, including the \"gasping syndrome\", and death in pediatric patients."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "C",
+    "lactation": "Safety not established, avoid use",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {},
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "15.9 (600 mg IV over 2 hr, SD), 11.6 (600 mg IM, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "70-75",
+    "volume_of_distribution_vd": "No data",
+    "avg_serum_half_life_hr": "5.4",
+    "elimination": "Metabolized",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "Poor",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "No data"
+  },
+  "major_drug_interactions": [
+      {"drug": "Erythromycin", "effect": "Antagonism", "management": "Avoid co-administr"},
+      {"drug": "Neuromuscular blocking agents", "effect": "↑ neuromuscular blockade", "management": "Avoid co-administr"}
+  ]
+}

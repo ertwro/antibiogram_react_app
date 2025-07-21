@@ -1,0 +1,95 @@
+{
+  "documentMetadata": {
+    "title": "Orf, Ecthyma contagiosum",
+    "lastUpdated": "2025-01-08",
+    "sourceFile": "Orf, Ecthyma contagiosum.pdf"
+  },
+  "content": [
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Clinical Setting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Also known as contagious pustular dermatitis virus, infectious labial dermatitis, thistle disease, and scabby mouth",
+            "Ecthyma refers to a deeply ulcerated form of viral impetigo",
+            "Localized cutaneous nodules at site of viral inoculation, typically fingertips, hands, forearms, or face.",
+            "Initial lesion is a firm, red to blue papule that evolves to a nodule, which ulcerates and is covered by a crust.",
+            "Acquired by animal exposure, typically goats and sheep. Other animals (e.g., dogs, cats, horses, camels and cattle) can be infected."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Etiologies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Orf Virus (ORFV; Parapoxvirus)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Primary Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Self-limited disease, no treatment necessary",
+            "Immunocompromised patients may require topical therapy (below). Liquid nitrogen can be effective"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Alternative Regimens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Anecdotal reports of treatment with topical cidofovir or topical imiquimod"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Comments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "References: MMWR 61:245, 2012, Vet Dermatol 2014; 25: 341-342.. Review Res Reports Trop Med 12: 153, 2021.",
+            "Nice review of Pox viruses: Infect, Genetics, and Evolution 21:15, 2014"
+          ]
+        }
+      ]
+    }
+  ]
+}

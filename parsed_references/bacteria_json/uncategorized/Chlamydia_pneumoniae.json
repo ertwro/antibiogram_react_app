@@ -1,0 +1,564 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Chlamydia pneumoniae",
+      "aliases": [
+        "Chlamydophila pneumoniae"
+      ],
+      "lastUpdated": "2024-05-13",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Not applicable (does not Gram stain)",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacterium"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Obligate intracellular bacterium; cannot be Gram-stained or cultured on standard media. Identification is by serology or nucleic acid amplification tests (NAATs)."
+    },
+    "clinicalProfile": {
+      "summary": "Chlamydia pneumoniae is a common cause of atypical community-acquired pneumonia. The illness is often mild, characterized by a non-productive cough and sore throat.",
+      "pathophysiologyPearls": [
+        "Infection occurs via respiratory droplets and the organism replicates within host cells, leading to inflammation of the respiratory tract."
+      ],
+      "keySignsAndSymptoms": [
+        "Non-productive cough",
+        "Sore throat",
+        "Hoarseness",
+        "Low-grade fever",
+        "Headache"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Atypical Pneumonia",
+          "description": "A form of community-acquired pneumonia with a subacute onset and often milder symptoms than typical bacterial pneumonia."
+        },
+        {
+          "syndromeName": "Bronchitis",
+          "description": "Inflammation of the bronchial tubes, leading to cough."
+        },
+        {
+          "syndromeName": "Pharyngitis",
+          "description": "Inflammation of the pharynx, causing a sore throat."
+        }
+      ],
+      "highRiskPopulations": [],
+      "transmissionVectors": [
+        "Respiratory droplets"
+      ],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "The following regimens are for microbiologically confirmed infections."
+      ],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Atypical Pneumonia",
+            "patientPopulation": [
+              "General"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO/IV",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "1 day",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "500 mg",
+                      "route": "PO/IV",
+                      "frequency": "once",
+                      "comments": ""
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "duration": "4 days",
+                  "drugs": [
+                    {
+                      "drugName": "Azithromycin",
+                      "dose": "250 mg",
+                      "route": "PO",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "5-7 days",
+                  "drugs": [
+                    {
+                      "drugName": "Levofloxacin",
+                      "dose": "750 mg",
+                      "route": "PO/IV",
+                      "frequency": "daily",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "10 days",
+                  "drugs": [
+                    {
+                      "drugName": "Clarithromycin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "7-14 days",
+                  "drugs": [
+                    {
+                      "drugName": "Omadacycline",
+                      "dose": "See comments",
+                      "route": "IV/PO",
+                      "frequency": "q24h",
+                      "comments": "IV: 200 mg IV loading dose then 100 mg q24h, OR 100 mg IV BID on day 1 then 100 mg IV q24h. PO: 450 mg PO q24h on days 1-2 then 300 mg PO q24h."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Patients with community-acquired pneumonia, particularly with atypical features."
+      ],
+      "methodologyNotes": [
+        "Serological tests are cross-reactive between C. psittaci and C. pneumoniae."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Nucleic Acid Amplification Test (NAAT)",
+          "trigger": "Suspicion of Chlamydia pneumoniae infection",
+          "purpose": "To detect C. pneumoniae genetic material in respiratory specimens. The FilmArray Respiratory Panel is an FDA-approved example."
+        },
+        {
+          "testName": "Serology",
+          "trigger": "Suspicion of Chlamydia pneumoniae infection",
+          "purpose": "To detect antibodies to C. pneumoniae. Paired acute and convalescent sera are recommended."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis is typically made by NAAT on respiratory samples. Serology can be used but has limitations.",
+        "biosafetyWarning": "Standard precautions are sufficient for handling clinical specimens.",
+        "methods": [
+          {
+            "methodName": "NAAT",
+            "details": "Highly sensitive and specific for the detection of C. pneumoniae."
+          },
+          {
+            "methodName": "Serology",
+            "details": "Can be used for diagnosis, but cross-reactivity with other Chlamydia species is a concern."
+          }
+        ]
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "N Engl J Med",
+          "citation": "2019 Feb 7; 380(6):517-527",
+          "summaryOrNote": "Review of community-acquired pneumonia."
+        },
+        {
+          "source": "StatPearls",
+          "citation": "2022 Jan. 2022 Aug 8",
+          "summaryOrNote": "Review of Chlamydia pneumoniae infection."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.367Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Chlamydia pneumoniae"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Chlamydophila pneumoniae"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-05-13"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Not applicable (does not Gram stain)",
+        "morphology": "Coccobacillus",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular bacterium"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Chlamydia pneumoniae is a common cause of atypical community-acquired pneumonia. The illness is often mild, characterized by a non-productive cough and sore throat.",
+      "pathophysiologyPearls": [
+        "Infection occurs via respiratory droplets and the organism replicates within host cells, leading to inflammation of the respiratory tract."
+      ],
+      "keySignsAndSymptoms": [
+        "Non-productive cough",
+        "Sore throat",
+        "Hoarseness",
+        "Low-grade fever",
+        "Headache"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Atypical Pneumonia",
+          "description": "A form of community-acquired pneumonia with a subacute onset and often milder symptoms than typical bacterial pneumonia."
+        },
+        {
+          "syndromeName": "Bronchitis",
+          "description": "Inflammation of the bronchial tubes, leading to cough."
+        },
+        {
+          "syndromeName": "Pharyngitis",
+          "description": "Inflammation of the pharynx, causing a sore throat."
+        }
+      ],
+      "highRiskPopulations": [],
+      "transmissionVectors": [
+        "Respiratory droplets"
+      ],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO/IV",
+              "frequency": "BID",
+              "duration": "14 days",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg PO/IV BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "500 mg",
+              "route": "PO/IV",
+              "frequency": "once",
+              "duration": "1 day",
+              "comments": "",
+              "originalText": "Azithromycin 500 mg PO/IV once"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[1]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Azithromycin",
+              "dose": "250 mg",
+              "route": "PO",
+              "frequency": "daily",
+              "duration": "4 days",
+              "comments": "",
+              "originalText": "Azithromycin 250 mg PO daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Levofloxacin",
+              "dose": "750 mg",
+              "route": "PO/IV",
+              "frequency": "daily",
+              "duration": "5-7 days",
+              "comments": "",
+              "originalText": "Levofloxacin 750 mg PO/IV daily"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Clarithromycin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "10 days",
+              "comments": "",
+              "originalText": "Clarithromycin 500 mg PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Atypical Pneumonia",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "General"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Omadacycline",
+              "dose": "See comments",
+              "route": "IV/PO",
+              "frequency": "q24h",
+              "duration": "7-14 days",
+              "comments": "IV: 200 mg IV loading dose then 100 mg q24h, OR 100 mg IV BID on day 1 then 100 mg IV q24h. PO: 450 mg PO q24h on days 1-2 then 300 mg PO q24h.",
+              "originalText": "Omadacycline See comments IV/PO q24h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Patients with community-acquired pneumonia, particularly with atypical features."
+      ],
+      "methodologyNotes": [
+        "Serological tests are cross-reactive between C. psittaci and C. pneumoniae."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Nucleic Acid Amplification Test (NAAT)",
+          "trigger": "Suspicion of Chlamydia pneumoniae infection",
+          "purpose": "To detect C. pneumoniae genetic material in respiratory specimens. The FilmArray Respiratory Panel is an FDA-approved example."
+        },
+        {
+          "testName": "Serology",
+          "trigger": "Suspicion of Chlamydia pneumoniae infection",
+          "purpose": "To detect antibodies to C. pneumoniae. Paired acute and convalescent sera are recommended."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

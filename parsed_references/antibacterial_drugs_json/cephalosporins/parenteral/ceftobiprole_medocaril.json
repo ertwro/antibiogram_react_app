@@ -1,0 +1,126 @@
+{
+  "drug_name": "Ceftobiprole medocaril",
+  "tradename": "Zevtera",
+  "usage_and_dosing": {
+    "general": [
+      "Ceftobiprole medocaril is an advanced generation parenteral cephalosporin with activity against some gram positive and gram negative bacteria, including methicillin-resistant Staphylococcus aureus (MRSA). It is a prodrug that is rapidly converted to ceftobiprole presumably by plasma esterases.",
+      "In vitro spectrum of activity is similar to Ceftaroline.",
+      "Approved by the US FDA in April 2024 for these indications:",
+      "Adults with S. aureus bacteremia, including those with right-sided IE, caused by MSSA and MRSA.",
+      "Adults with acute bacterial skin and skin structure infections (ABSSSI) caused by MSSA, MRSA, S. pyogenes, and K. pneumoniae.",
+      "Adult and pediatric patients with CAP caused by MSSA, S. pneumoniae, H. influenzae, H. parainfluenzae, E. coli, and K. pneumoniae.",
+      "Not approved in the US for ventilator-associated pneumonia (VAP).",
+      "Approved in the EU, Switzerland and Canada for community-acquired pneumonia (CAP) and hospital-acquired pneumonia (HAP), but not VAP.",
+      "An alternative antibiotic for drug resistant genotypes.",
+      "Susceptible to hydrolysis by ESBLs and AmpC cephalosporinases.",
+      "Non-inferior to daptomycin based on overall treatment success in patients with complicated S. aureus bacteremia: N Engl J Med 2023; 389:1390"
+    ],
+    "adult_dose": {
+      "s_aureus_bacteremia": "667 mg IV q6h on day 1-8, then 667 mg IV q8h from day 9 on (up to 42 days).",
+      "absssi_cap": "667 mg IV q8h x5-14 days.",
+      "equivalence": "667 mg of ceftobiprole medocaril is equivalent to 500 mg of ceftobiprole.",
+      "infusion": "Infuse doses over 2 hours. Compatible with D5W or NS. Do not co-administer with calcium-containing solutions."
+    },
+    "pediatric_dose": {
+        "cap_egfr_ge_50": {
+            "age_3_mon_to_lt_12_yrs": "20 mg/kg (max 667 mg) q8h x7-14 days",
+            "age_12_yrs_to_lt_18_yrs": "13.3 mg/kg (max 667 mg) q8h x7-14 days"
+        },
+        "cap_egfr_lt_50": {
+            "age_2_yrs_to_lt_6_yrs_by_egfr": {
+                "30_to_lt_50": "13.3 mg/kg q12h (max 667 mg)",
+                "15_to_lt_30": "13.3 mg/kg q24h (max 333 mg)"
+            },
+            "age_6_yrs_to_lt_12_yrs_by_egfr": {
+                "30_to_lt_50": "10 mg/kg (max 667 mg) q12h",
+                "15_to_lt_30": "10 mg/kg (max 333 mg) q24h"
+            },
+            "age_12_yrs_to_lt_18_yrs_by_egfr": {
+                "30_to_lt_50": "10 mg/kg (max 667 mg) q12h",
+                "15_to_lt_30": "10 mg/kg (max 333 mg) q12h"
+            },
+            "lt_15": "No data"
+        },
+        "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "3.3",
+    "half_life_esrd": "21",
+    "dose_renal_function_normal": "667 mg IV q8h",
+    "crcl_or_egfr": {
+        "gt_150": "667 mg q6h",
+        "ge_50_to_150": "No dosage adjustment",
+        "30_to_lt_50": "SAB: 667 mg q8h days 1-8, then q12h. ABSSSI, CAP: 667 mg q12h",
+        "15_to_lt_30": "SAB: 333 mg q8h days 1-8, then q12h. ABSSSI, CAP: 333 mg q12h",
+        "lt_15": "333 mg q24h"
+    },
+    "hemodialysis": "333 mg q24h (AD on dialysis days)",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "other_adjustment": {
+      "ecmo": "No dose adjustment likely required. See Table for more information."
+  },
+  "adverse_effects": {
+      "most_common": [
+          "Nausea, vomiting, diarrhea",
+          "Hypersensitivity (urticaria, rash)",
+          "Infusion site reactions",
+          "Dysgeusia"
+      ],
+      "less_common": [
+          "Thrombocytopenia, agranulocytosis",
+          "Anaphylaxis",
+          "C. difficile colitis",
+          "Agitation (anxiety, panic attack, nightmares), seizures"
+      ]
+  },
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans; evidence of minor maternal adverse effects in animals (↓ body weight, ↓ appetite).",
+    "lactation": "No data, but adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Injection",
+    "food_recommendation": null,
+    "oral_absorption_percent": null,
+    "tmax_hr": null,
+    "peak_serum_conc_ug_ml": "33.0 (667 mg IV q8h, SS)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "16",
+    "volume_of_distribution_vd_l_vss": "18 L (Vss)",
+    "avg_serum_half_life_hr": "3.3",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "12% (conc 1.2 µg/mL) (Heliyon 2024;10:e27285)",
+    "therapeutic_levels_in_csf": "Possibly",
+    "auc_ug_hr_ml": "102 (667 mg IV q8h, 0-8h)"
+  },
+  "enzyme_transporter_mediated_interactions": {
+      "cyp450s_substrate": [],
+      "transporters_substrate": [],
+      "ugts_substrate": [],
+      "cyp450s_inhibited": [],
+      "transporters_inhibited": ["OATP1B1/3"],
+      "ugts_inhibited": [],
+      "cyp450s_induced": [],
+      "transporters_induced": [],
+      "ugts_induced": [],
+      "impact_on_serum_drug_concentrations": "↑"
+  },
+  "major_drug_interactions": [
+    "No clinically relevant drug interactions known"
+  ]
+}

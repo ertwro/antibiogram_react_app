@@ -1,0 +1,161 @@
+{
+  "documentMetadata": {
+    "title": "Chancroid",
+    "sourceFile": "Chancroid.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sexually transmitted painful genital ulcers.",
+        "Prevalence declining world-wide.",
+        "A cause of chronic skin ulceration in children from developing countries. (Emerg Infect Dis 22:1, 2016)"
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Genital ulcers:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Painful: HSV, Chancroid (Curr Opin Infect Dis 29:52, 2016) or Mpox (monkeypox)",
+            "Painless: syphilis, LGV (though painful lymphadenopathy), and Granuloma inguinale (Klebsiella granulomatis or Donovanosis)"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "All patients with genital ulcers should be evaluated for syphilis (Darkfield; serology), HSV (culture or PCR) and culture for H. ducreyi (PCR not FDA approved but available in some labs). Granuloma inguinale needs biopsy.",
+            "On occasion, more than one pathogen is present.",
+            "Evaluate after 7 days, ulcer should objectively improve."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Haemophilus ducreyi culture though need special media, not widely available",
+        "NAAT, more sensitive than culture, but not widely available.",
+        "Probable diagnosis if all of below:",
+        "1) One or more painful genital ulcers",
+        "2) Typical clinical presentation with genital ulcers +/- regional lymphadenopathy",
+        "3) no evidence of T. pallidum infection (darkfield examination or NAAT or by serology) 7-14 days after onset of ulcers",
+        "4) HSV-1 or HSV-2 NAAT or HSV culture on the ulcer exudate or fluid negative."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Haemophilus ducreyi"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "250 mg",
+            "route": "IM",
+            "duration": "single dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Azithromycin",
+            "dose": "1 gm",
+            "route": "po",
+            "duration": "single dose"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Ciprofloxacin",
+            "dose": "500 mg",
+            "route": "bid po",
+            "duration": "3 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Erythromycin base",
+            "dose": "500 mg",
+            "route": "tid po",
+            "duration": "7 days"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "As with all STDs, all patients diagnosed with chancroid should be tested for HIV.",
+        "In HIV+ patients, failures reported with single dose Azithromycin (Clin Infect Dis 21:409, 1995).",
+        "People with HIV or uncircumcised males may respond less well to treatment.",
+        "Reports of Ciprofloxacin and Erythromycin resistance but few reliable reports of antimicrobial susceptibilities.",
+        "Relatively little high quality data as to most efficacious treatment (Cochrane Database Syst Rev 2017 12:CD012492)",
+        "All sex partners of patients with chancroid should be examined and treated if they have evidence of disease or have had sex with index patient within the last 60 days.",
+        "See 2021 CDC STD Guidelines: MMWR Recomm Rep 70 (RR-4):1 2021",
+        "Review non syphilis non HSV genital ulcers: Infect Dis Clin North Am 37:369 2023."
+      ]
+    }
+  ]
+}

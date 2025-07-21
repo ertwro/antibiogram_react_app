@@ -1,0 +1,68 @@
+{
+  "drug_name": "Cefprozil",
+  "tradename": "Cefzil",
+  "usage_and_dosing": {
+    "general": [
+      "Cefprozil is a 2nd-generation oral cephalosporin with better activity against H. influenzae than 1st generation oral cephalosporins.",
+      "FDA approved for acute bacterial exacerbations of chronic bronchitis, otitis media, pharyngitis/tonsillitis and skin and skin structure infections",
+      "Amoxicillin and Cefadroxil share the same R1 side chain, hence cross-allergenicity may occur.",
+      "For class-wide adverse effects, see Cephalosporins, Overview."
+    ],
+    "adult_dose": {
+      "usual_dose": "250-500 mg po q12h"
+    },
+    "pediatric_dose": {
+      "dose_age_gt_28_days": "15-30 mg/kg/day (divided q12h) (use 30 for AOM)",
+      "max_day": "-"
+    }
+  },
+  "renal_adjustment": {
+    "half_life_normal": "1.5",
+    "half_life_esrd": "5-6",
+    "dose_renal_function_normal": "500 mg po q12h",
+    "crcl_or_egfr": "CrCl >50: No dosage adjustment. CrCl 10-50: 500 mg q24h. CrCl <10: 250 mg q12h",
+    "hemodialysis": "250 mg q12h (give one of the dialysis day doses AD)",
+    "capd": "250 mg q24h",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment_child_pugh_a": "No dosage adjustment",
+    "moderate_impairment_child_pugh_b": "No dosage adjustment",
+    "severe_impairment_child_pugh_c": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Treatment stopped due to adverse effects (2%), fever, rash (1%), neutropenia (rare), eosinophilia (2%), thrombocytopenia, nausea/vomiting (4%), diarrhea (3), C. difficile colitis, increased LFTs (2%), increased BUN/Creatinine (rare), confusion (rare).",
+    "For cross-allergenicity and other class-wide adverse effects, see Cephalosporins, Overview."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "No evidence of toxicity in humans or animals",
+    "lactation": "Milk concentrations low, adverse effects not expected. Monitor infant for GI toxicity.",
+    "footnote": "Capital letter = Old FDA risk category; Text = New FDA risk category"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "T>MIC",
+    "preparations": "Tab (250, 500 mg), oral susp (125 mg/5 mL, 250 mg/5 mL)",
+    "food_recommendation": "All preps ± food",
+    "oral_absorption_percent": "95",
+    "tmax_hr": "1.5",
+    "peak_serum_conc_ug_ml": "10.5 (500 mg po, SD)",
+    "peak_urine_conc_ug_ml": "No data",
+    "protein_binding_percent": "36",
+    "volume_of_distribution_vd_l_kg_vss_f": "0.23 L/kg (Vss/F)",
+    "avg_serum_half_life_hr": "1.5",
+    "elimination": "Renal",
+    "bile_penetration_percent": "No data",
+    "csf_blood_percent": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc_ug_hr_ml": "25.7 (500 mg po, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "No significant interactions"
+  ],
+  "comments": []
+}

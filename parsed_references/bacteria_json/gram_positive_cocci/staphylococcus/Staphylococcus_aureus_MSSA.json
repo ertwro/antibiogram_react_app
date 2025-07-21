@@ -1,0 +1,749 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus aureus",
+      "aliases": [
+        "MSSA"
+      ],
+      "lastUpdated": "2024-07-24",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-positive"
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Resistance Phenotype",
+          "value": "MSSA (Methicillin-Susceptible Staphylococcus aureus)",
+          "notes": "Susceptible to semi-synthetic anti-staphylococcal penicillins like nafcillin and oxacillin."
+        }
+      ],
+      "biochemicalTests": "Gram-positive cocci in clusters, catalase +, coagulase +, ferments mannitol (yellow on mannitol salt agar), typically beta-hemolytic, DNase +. MRSA/MSSA distinction is by antibiotic susceptibility testing, not routine biochemicals."
+    },
+    "clinicalProfile": {
+      "summary": "MSSA is a strain of Staphylococcus aureus that is susceptible to methicillin and other beta-lactam antibiotics. Definitive therapy depends on the severity and site of infection.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Furuncles, skin abscess, boils",
+          "description": ""
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Prosthetic joint infection",
+          "description": ""
+        },
+        {
+          "syndromeName": "Septic arthritis",
+          "description": ""
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Cefazolin Inoculum Effect (CzIE)",
+          "details": "The Cefazolin inoculum effect (CzIE), where the MIC increases with a higher inoculum, may be associated with clinical failure. However, it may be a marker for strain-dependent virulence rather than a direct cause of cefazolin-specific treatment failure."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "A beta-lactam is the preferred agent for treating MSSA infections. Vancomycin is less effective and should be reserved for patients who cannot tolerate a beta-lactam.",
+        "Nafcillin and cefazolin appear to be equally effective clinically, with cefazolin being better tolerated.",
+        "Empiric vancomycin for suspected S. aureus bacteremia appears comparable to an empiric beta-lactam, as long as a beta-lactam is used for definitive therapy. Empiric beta-lactam-vancomycin combination therapy is not recommended."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Other Beta-lactams (e.g., Ceftriaxone)",
+          "condition": "Invasive S. aureus infections",
+          "reason": "Not generally recommended for parenteral therapy due to unproven efficacy compared to Nafcillin, Oxacillin, or Cefazolin."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Invasive infections",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, Deep tissue"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Nafcillin",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Oxacillin",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q4-6h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "1-2 gm",
+                      "route": "IV",
+                      "frequency": "q8h",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "For severe beta-lactam allergy. Target AUC24 400-600 µg/mLx hr or trough of 15-20 µg/mL."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "6-10 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "For severe beta-lactam allergy. Consider higher dose for bacteremia."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Mild to moderate infections (oral step-down)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Skin, Soft tissue"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Dicloxacillin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "qid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cephalexin",
+                      "dose": "500 mg",
+                      "route": "PO",
+                      "frequency": "qid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Clindamycin",
+                      "dose": "300-450 mg",
+                      "route": "PO",
+                      "frequency": "tid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "1-2 tabs",
+                      "route": "PO",
+                      "frequency": "bid",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Linezolid",
+                      "dose": "600 mg",
+                      "route": "PO",
+                      "frequency": "q12h",
+                      "comments": "For patients without bacteremia or selected patients with uncomplicated bacteremia."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": []
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.346Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus aureus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "MSSA"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-07-24"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-positive"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "MSSA is a strain of Staphylococcus aureus that is susceptible to methicillin and other beta-lactam antibiotics. Definitive therapy depends on the severity and site of infection.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Bacteremia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Endocarditis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Furuncles, skin abscess, boils",
+          "description": ""
+        },
+        {
+          "syndromeName": "Osteomyelitis",
+          "description": ""
+        },
+        {
+          "syndromeName": "Pneumonia",
+          "description": ""
+        },
+        {
+          "syndromeName": "Prosthetic joint infection",
+          "description": ""
+        },
+        {
+          "syndromeName": "Septic arthritis",
+          "description": ""
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "Cefazolin Inoculum Effect (CzIE)",
+          "details": "The Cefazolin inoculum effect (CzIE), where the MIC increases with a higher inoculum, may be associated with clinical failure. However, it may be a marker for strain-dependent virulence rather than a direct cause of cefazolin-specific treatment failure."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Invasive infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Deep tissue"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Nafcillin",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "",
+              "comments": "",
+              "originalText": "Nafcillin 1-2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Invasive infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Deep tissue"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Oxacillin",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q4-6h",
+              "duration": "",
+              "comments": "",
+              "originalText": "Oxacillin 1-2 gm IV q4-6h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Invasive infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Deep tissue"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "1-2 gm",
+              "route": "IV",
+              "frequency": "q8h",
+              "duration": "",
+              "comments": "",
+              "originalText": "Cefazolin 1-2 gm IV q8h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Invasive infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Deep tissue"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "",
+              "comments": "For severe beta-lactam allergy. Target AUC24 400-600 µg/mLx hr or trough of 15-20 µg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Invasive infections",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Deep tissue"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "6-10 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "",
+              "comments": "For severe beta-lactam allergy. Consider higher dose for bacteremia.",
+              "originalText": "Daptomycin 6-10 mg/kg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild to moderate infections (oral step-down)",
+            "severity": "moderate",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin, Soft tissue"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Dicloxacillin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "qid",
+              "duration": "",
+              "comments": "",
+              "originalText": "Dicloxacillin 500 mg PO qid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-1-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild to moderate infections (oral step-down)",
+            "severity": "moderate",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin, Soft tissue"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Cephalexin",
+              "dose": "500 mg",
+              "route": "PO",
+              "frequency": "qid",
+              "duration": "",
+              "comments": "",
+              "originalText": "Cephalexin 500 mg PO qid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-2-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild to moderate infections (oral step-down)",
+            "severity": "moderate",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin, Soft tissue"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Clindamycin",
+              "dose": "300-450 mg",
+              "route": "PO",
+              "frequency": "tid",
+              "duration": "",
+              "comments": "",
+              "originalText": "Clindamycin 300-450 mg PO tid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-3-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild to moderate infections (oral step-down)",
+            "severity": "moderate",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin, Soft tissue"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "1-2 tabs",
+              "route": "PO",
+              "frequency": "bid",
+              "duration": "",
+              "comments": "",
+              "originalText": "TMP-SMX 1-2 tabs PO bid"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-4-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Mild to moderate infections (oral step-down)",
+            "severity": "moderate",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Skin, Soft tissue"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Linezolid",
+              "dose": "600 mg",
+              "route": "PO",
+              "frequency": "q12h",
+              "duration": "",
+              "comments": "For patients without bacteremia or selected patients with uncomplicated bacteremia.",
+              "originalText": "Linezolid 600 mg PO q12h"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

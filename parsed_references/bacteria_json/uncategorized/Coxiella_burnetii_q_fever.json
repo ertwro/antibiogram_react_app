@@ -1,0 +1,529 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Coxiella burnetii",
+      "aliases": [
+        "Q Fever"
+      ],
+      "lastUpdated": "2025-04-23",
+      "clsiCategory": "Not classified by CLSI",
+      "classification": {
+        "gramStain": "Gram-negative",
+        "morphology": "Pleomorphic (coccobacillus)",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular organism"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Obligate intracellular Gram-negative pleomorphic coccobacillus. Does not grow on standard bacteriological media. Diagnosis is primarily through serology or PCR."
+    },
+    "clinicalProfile": {
+      "summary": "Coxiella burnetii is the causative agent of Q fever, a worldwide zoonosis. Humans are typically infected by inhaling aerosols from infected animals, primarily cattle, sheep, and goats. The clinical presentation ranges from a self-limiting flu-like illness (acute Q fever) to a life-threatening chronic infection, most commonly endocarditis.",
+      "pathophysiologyPearls": [
+        "C. burnetii exists in two antigenic phases: phase I (highly infectious, found in nature) and phase II (less infectious, found in vitro). The antibody response to these phases is key to distinguishing acute from chronic infection.",
+        "The organism replicates within host macrophages, leading to granulomatous inflammation."
+      ],
+      "keySignsAndSymptoms": [
+        "High fever, chills, night sweats",
+        "Severe headache (often retro-orbital)",
+        "Myalgias",
+        "Non-productive cough, atypical pneumonia",
+        "Hepatitis (often anicteric)",
+        "Thrombocytopenia followed by thrombocytosis"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Acute Q Fever",
+          "description": "An abrupt onset, self-limiting febrile illness, often with pneumonia or hepatitis. Occurs 2-3 weeks after exposure."
+        },
+        {
+          "syndromeName": "Chronic Q Fever",
+          "description": "Occurs in <5% of patients, months to years after acute infection. The most common manifestation is culture-negative endocarditis. Other forms include vascular, bone, and chronic liver infections. It is 100% fatal if untreated."
+        }
+      ],
+      "stagesOfIllness": [
+        {
+          "stageName": "Acute Infection",
+          "duration": "~2 weeks",
+          "details": "Characterized by a predominant antibody response to the phase II antigen."
+        },
+        {
+          "stageName": "Chronic Infection",
+          "duration": "Months to years",
+          "details": "Characterized by a high-titer antibody response to the phase I antigen."
+        }
+      ],
+      "highRiskPopulations": [
+        "Farmers, veterinarians, abattoir workers, and others with livestock exposure.",
+        "Individuals with pre-existing valvular heart disease, aortic aneurysm, or vascular grafts (risk for chronic Q fever).",
+        "Pregnant women",
+        "Immunocompromised individuals"
+      ],
+      "transmissionVectors": [
+        "Aerosolization of infected animal birth products, milk, or excreta."
+      ],
+      "prognosisNotes": [
+        "Acute Q fever is usually mild and self-resolving.",
+        "Chronic Q fever, especially endocarditis, is fatal if not treated."
+      ]
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    },
+    "treatment": {
+      "generalNotes": [
+        "Treatment should be initiated as soon as Q fever is suspected."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Doxycycline, Fluoroquinolones",
+          "condition": "Pregnancy",
+          "reason": "Contraindicated in pregnancy."
+        }
+      ],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Acute Q Fever",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "2 weeks",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Acute Q Fever in Pregnancy",
+            "patientPopulation": [
+              "Pregnant women"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Duration of pregnancy",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "1 double strength tablet",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": "To prevent premature labor. Discontinue prior to delivery."
+                    }
+                  ]
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Chronic Q Fever (Endocarditis, Vascular Infection)",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": null
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Concurrent",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "At least 18 months",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "100 mg",
+                      "route": "PO",
+                      "frequency": "BID",
+                      "comments": ""
+                    },
+                    {
+                      "drugName": "Hydroxychloroquine",
+                      "dose": "200 mg",
+                      "route": "PO",
+                      "frequency": "TID",
+                      "comments": "Requires ophthalmologic monitoring."
+                    }
+                  ]
+                }
+              ],
+              "notes": [
+                "See Endocarditis, Q fever for more details."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [
+        "Febrile illness in a person with exposure to livestock.",
+        "Atypical pneumonia or culture-negative endocarditis."
+      ],
+      "methodologyNotes": [
+        "Serology is the cornerstone of diagnosis. PCR is useful in early infection.",
+        "Standard blood cultures will not grow C. burnetii."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Serology (IFA)",
+          "trigger": "Suspicion of Q fever",
+          "purpose": "To detect IgG and IgM antibodies to phase I and phase II antigens. A fourfold rise in phase II IgG is diagnostic of acute infection. A high phase I IgG titer (>=1:1024) is diagnostic of chronic infection."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "Early acute infection (first 2 weeks)",
+          "purpose": "To detect C. burnetii DNA in whole blood or serum. Sensitivity decreases rapidly after antibiotic initiation."
+        },
+        {
+          "testName": "Immunohistochemistry",
+          "trigger": "Tissue biopsy (e.g., heart valve)",
+          "purpose": "To detect C. burnetii antigens in infected tissue."
+        },
+        {
+          "testName": "PET-CT",
+          "trigger": "Suspected chronic Q fever",
+          "purpose": "To detect persistent focal infections, such as vascular graft infections or osteomyelitis."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "Diagnosis relies on a combination of clinical suspicion, epidemiological links, and specific laboratory tests, primarily serology (IFA) and PCR.",
+        "biosafetyWarning": "Culture of Coxiella burnetii requires Biosafety Level 3 (BSL-3) facilities and is rarely performed for diagnosis.",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "MMWR",
+          "citation": "62(RR-03):1-28, 2013",
+          "summaryOrNote": "CDC recommendations for diagnosis and management of Q fever."
+        },
+        {
+          "source": "Clin Infect Dis",
+          "citation": "2023; 77:518",
+          "summaryOrNote": "2023 Duke-ISCVID International Criteria for Infective Endocarditis."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.373Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Coxiella burnetii"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Q Fever"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2025-04-23"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-negative",
+        "morphology": "Pleomorphic (coccobacillus)",
+        "respiration": "Aerobic",
+        "notes": [
+          "Obligate intracellular organism"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Coxiella burnetii is the causative agent of Q fever, a worldwide zoonosis. Humans are typically infected by inhaling aerosols from infected animals, primarily cattle, sheep, and goats. The clinical presentation ranges from a self-limiting flu-like illness (acute Q fever) to a life-threatening chronic infection, most commonly endocarditis.",
+      "pathophysiologyPearls": [
+        "C. burnetii exists in two antigenic phases: phase I (highly infectious, found in nature) and phase II (less infectious, found in vitro). The antibody response to these phases is key to distinguishing acute from chronic infection.",
+        "The organism replicates within host macrophages, leading to granulomatous inflammation."
+      ],
+      "keySignsAndSymptoms": [
+        "High fever, chills, night sweats",
+        "Severe headache (often retro-orbital)",
+        "Myalgias",
+        "Non-productive cough, atypical pneumonia",
+        "Hepatitis (often anicteric)",
+        "Thrombocytopenia followed by thrombocytosis"
+      ],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Acute Q Fever",
+          "description": "An abrupt onset, self-limiting febrile illness, often with pneumonia or hepatitis. Occurs 2-3 weeks after exposure."
+        },
+        {
+          "syndromeName": "Chronic Q Fever",
+          "description": "Occurs in <5% of patients, months to years after acute infection. The most common manifestation is culture-negative endocarditis. Other forms include vascular, bone, and chronic liver infections. It is 100% fatal if untreated."
+        }
+      ],
+      "stagesOfIllness": [
+        {
+          "stageName": "Acute Infection",
+          "duration": "~2 weeks",
+          "details": "Characterized by a predominant antibody response to the phase II antigen."
+        },
+        {
+          "stageName": "Chronic Infection",
+          "duration": "Months to years",
+          "details": "Characterized by a high-titer antibody response to the phase I antigen."
+        }
+      ],
+      "highRiskPopulations": [
+        "Farmers, veterinarians, abattoir workers, and others with livestock exposure.",
+        "Individuals with pre-existing valvular heart disease, aortic aneurysm, or vascular grafts (risk for chronic Q fever).",
+        "Pregnant women",
+        "Immunocompromised individuals"
+      ],
+      "transmissionVectors": [
+        "Aerosolization of infected animal birth products, milk, or excreta."
+      ],
+      "prognosisNotes": [
+        "Acute Q fever is usually mild and self-resolving.",
+        "Chronic Q fever, especially endocarditis, is fatal if not treated."
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": []
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Acute Q Fever",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "2 weeks",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-1-0-0",
+          "extractedFrom": "treatment.regimens[1].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Acute Q Fever in Pregnancy",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Pregnant women"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "1 double strength tablet",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "Duration of pregnancy",
+              "comments": "To prevent premature labor. Discontinue prior to delivery.",
+              "originalText": "TMP-SMX 1 double strength tablet PO BID"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-2-0-0",
+          "extractedFrom": "treatment.regimens[2].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Chronic Q Fever (Endocarditis, Vascular Infection)",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": null
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "100 mg",
+              "route": "PO",
+              "frequency": "BID",
+              "duration": "At least 18 months",
+              "comments": "",
+              "originalText": "Doxycycline 100 mg PO BID"
+            },
+            {
+              "drugName": "Hydroxychloroquine",
+              "dose": "200 mg",
+              "route": "PO",
+              "frequency": "TID",
+              "duration": "At least 18 months",
+              "comments": "Requires ophthalmologic monitoring.",
+              "originalText": "Hydroxychloroquine 200 mg PO TID"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [
+        "Febrile illness in a person with exposure to livestock.",
+        "Atypical pneumonia or culture-negative endocarditis."
+      ],
+      "methodologyNotes": [
+        "Serology is the cornerstone of diagnosis. PCR is useful in early infection.",
+        "Standard blood cultures will not grow C. burnetii."
+      ],
+      "recommendedPanel": [],
+      "specialTests": [
+        {
+          "testName": "Serology (IFA)",
+          "trigger": "Suspicion of Q fever",
+          "purpose": "To detect IgG and IgM antibodies to phase I and phase II antigens. A fourfold rise in phase II IgG is diagnostic of acute infection. A high phase I IgG titer (>=1:1024) is diagnostic of chronic infection."
+        },
+        {
+          "testName": "PCR",
+          "trigger": "Early acute infection (first 2 weeks)",
+          "purpose": "To detect C. burnetii DNA in whole blood or serum. Sensitivity decreases rapidly after antibiotic initiation."
+        },
+        {
+          "testName": "Immunohistochemistry",
+          "trigger": "Tissue biopsy (e.g., heart valve)",
+          "purpose": "To detect C. burnetii antigens in infected tissue."
+        },
+        {
+          "testName": "PET-CT",
+          "trigger": "Suspected chronic Q fever",
+          "purpose": "To detect persistent focal infections, such as vascular graft infections or osteomyelitis."
+        }
+      ],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

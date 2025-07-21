@@ -1,0 +1,70 @@
+{
+  "documentMetadata": {
+    "title": "Shock, Post-splenectomy",
+    "sourceFile": "Shock, Post-splenectomy.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Post-splenectomy Sepsis/Shock"
+    },
+    {
+      "type": "paragraph",
+      "text": "Overwhelming post-splenectomy infection (OPSI) is a rare but life-threatening condition characterized by a fulminant sepsis, most commonly caused by encapsulated bacteria. Individuals without a functioning spleen are at a lifelong increased risk for OPSI."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Common Pathogens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Streptococcus pneumoniae",
+        "Haemophilus influenzae type b (Hib)",
+        "Neisseria meningitidis"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Prevention"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention is key and includes patient education, vaccinations against common encapsulated organisms, and consideration of prophylactic antibiotics."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Empiric Treatment"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "appliesTo": {
+          "description": "Asplenic patients with suspected sepsis"
+        },
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "every 12-24 hours"
+          },
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg/dose",
+            "route": "IV",
+            "frequency": "every 8-12 hours",
+            "connector": "+"
+          }
+        ],
+        "notes": "Empiric therapy should be initiated immediately after blood cultures are obtained."
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "documentMetadata": {
+        "title": "Mastitis, Overview",
+        "sourceFile": "Mastitis, Overview.pdf",
+        "lastUpdated": "2024-07-24"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Overview"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Staphylococcus aureus is the most common cause of mastitis.",
+                "Cultures of expressed breast milk should be obtained in more severe cases, e.g., in those not responding to empirical antibiotics after two days of therapy; and, if MRSA is a consideration.",
+                "For a review with definitions, see Am Fam Physician 78:727, 2008.and StatPearls; 2021 Jan - 2021 Mar 12."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Specific Topics"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Postpartum mastitis",
+                "Non-puerperal mastitis",
+                "Idiopathic granulomatous mastitis",
+                "Breast implant infection"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+
+{
+  "documentMetadata": {
+    "title": "Acute Retinal Necrosis (ARN)",
+    "sourceFile": "syndromes/ocular/retinitis/Acute Retinal Necrosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Background"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acute Retinal Necrosis (ARN) is a rare, aggressive, and potentially blinding form of necrotizing retinitis. It is caused by members of the herpesvirus family, most commonly Varicella-Zoster Virus (VZV) and Herpes Simplex Virus (HSV). It can affect individuals of any age but is most common in immunocompetent adults. The condition is characterized by a triad of clinical signs."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Clinical Presentation and Diagnostic Criteria"
+    },
+    {
+      "type": "keyValuePairs",
+      "pairs": [
+        {
+          "key": "Symptoms",
+          "value": "Acute onset of blurred vision, floaters, and often pain and photophobia. It is typically unilateral, but the second eye can become involved in about one-third of untreated cases."
+        },
+        {
+          "key": "Classic Triad",
+          "value": "1) Peripheral necrotizing retinitis (one or more discrete foci of necrosis in the peripheral retina), 2) Occlusive vasculopathy (affecting both arteries and veins), and 3) A prominent inflammatory reaction in the vitreous and anterior chamber."
+        },
+        {
+          "key": "Progression",
+          "value": "The retinal necrosis spreads rapidly and circumferentially. Without treatment, it can progress to involve the entire retina, leading to widespread scarring and a high rate of rhegmatogenous retinal detachment."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "diagnosticTest",
+      "name": "Clinical Diagnosis and PCR",
+      "sampleType": "Aqueous or vitreous fluid",
+      "interpretation": "Diagnosis is primarily clinical based on the characteristic fundus findings. However, an intraocular fluid sample for Polymerase Chain Reaction (PCR) analysis is the gold standard to confirm the causative virus (VZV, HSV-1, HSV-2).",
+      "notes": "An immediate ophthalmology consultation is mandatory."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Management"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment is aimed at stopping viral replication, controlling inflammation, and preventing retinal detachment. It requires a multi-faceted approach."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Antiviral Therapy"
+        },
+        {
+          "type": "regimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Standard of Care",
+            "appliesTo": {
+              "description": "Patients with diagnosed or strongly suspected ARN"
+            },
+            "components": [
+              {
+                "drug": "High-dose intravenous Acyclovir",
+                "dose": "10-15 mg/kg",
+                "route": "IV",
+                "frequency": "every 8 hours"
+              }
+            ],
+            "durationDetail": {
+              "fixedDuration": "10-14 days"
+            },
+            "notes": "This initial phase of IV therapy is followed by a long-term course of oral antiviral medication (e.g., Valacyclovir 1g three times daily) for several months to prevent recurrence and involvement of the other eye."
+          }
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Anti-inflammatory Therapy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Systemic corticosteroids are typically started 24-48 hours after the initiation of antiviral therapy to control the severe intraocular inflammation. They should not be started before antivirals. Topical steroids and cycloplegics are also used."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Anticoagulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low-dose aspirin may be used to help manage the occlusive vasculopathy, although its benefit is not definitively proven."
+        },
+        {
+          "type": "header",
+          "level": 3,
+          "text": "Retinal Detachment Prophylaxis and Repair"
+        },
+        {
+          "type": "procedure",
+          "procedureData": {
+            "name": "Prophylactic Laser Retinopexy",
+            "indication": "Laser is often applied to create a barrier posterior to the areas of necrosis to wall it off and reduce the risk of retinal detachment."
+          },
+          "procedureData": {
+            "name": "Vitrectomy with Silicone Oil",
+            "indication": "If a retinal detachment occurs, complex retinal surgery is required. The prognosis for vision is often poor even after successful reattachment."
+          }
+        }
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "See also: Retinitis, Cytomegalovirus",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Retinitis, Cytomegalovirus"
+      }
+    }
+  ]
+}

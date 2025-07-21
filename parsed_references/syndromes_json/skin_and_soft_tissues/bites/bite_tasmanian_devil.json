@@ -1,0 +1,66 @@
+{
+    "documentMetadata": {
+        "title": "Bite Tasmanian Devil",
+        "sourceFile": "Bite_ Tasmanian Devil.pdf",
+        "lastUpdated": "2024-03-27"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Bite wound from Tasmanian devil."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Pasteurella multocida (Clin Infect Dis 14:1266, 1992)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Treat as for Cat bite."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "None"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "15% of P. multocida from devils were TMP-SMX resistant (Lett Appl Microbiol 62: 237, 2016)",
+                "Administer tetanus toxoid/Tdap if > 10 years since last dose",
+                "See: Clin Infect Dis 2014;59(2):e10-52"
+            ]
+        }
+    ]
+}

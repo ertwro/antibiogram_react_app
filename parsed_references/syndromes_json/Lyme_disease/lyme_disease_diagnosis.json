@@ -1,0 +1,144 @@
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Diagnosis",
+    "sourceFile": "Lyme_disease/Lyme Disease, Diagnosis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Two-tiered Serologic Testing"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Sensitivity:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Low, 30-40% in early infection; it takes a while for antibody formation.",
+            "70%-100% disseminated Lyme disease, 95-99% for late disseminated disease.",
+            "IgG seronegativity in an untreated patient with months to years of symptoms essentially rules out the diagnosis of Lyme disease, barring laboratory error or rare humoral immunodeficiency state."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "header",
+          "level": 2,
+          "text": "Specificity: 95% in all stages of disease"
+        },
+        {
+          "type": "paragraph",
+          "text": "In patient with compatible symptoms for < 30 days and initial negative test, consider testing convalescent serum"
+        }
+      ]
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "First Tier: FDA-approved Enzyme-linked immunoassay (EIA or ELISA) or immunofluorescence assay (IFA)",
+        "description": "Measures overall antibody response, IgM and IgG, to B. burgdorferi antigens. This is a screening test that is very sensitive but not specific for disseminated disease. If the test is equivocal or positive a confirmatory test should be done."
+      }
+    },
+    {
+      "type": "diagnosticTest",
+      "diagnosticTestData": {
+        "name": "Second Tier: Western immunoblot",
+        "description": "Detects antibodies against preselected B. burgdorferi antigens. This confirmatory test is very sensitive and specific for disseminated disease. Both the EIA/ELISA and Western immunoblot test should be positive in all patients with disseminated disease. IgM and IgG Western immunoblot as the second tier test for patients with signs and symptoms lasting <30 days. Only IgG Western immunoblot as the second-tier test for signs and symptoms > 30 days. IgM Western immunoblot not recommended in late disseminated because of false-positive results. Positive IgM Western immunoblot: presence of >2 of 3 bands (21-24, 39, and 41 kDa). An isolated positive Western immunoblot is almost always a false-positive in disseminated disease. Positive IgG Western immunoblot: presence of >5 of 10 bands (18, 21-24, 28, 30, 39, 41, 45, 58, 66, and 93 kDa). NOTE: presence of fewer bands is non-specific and should not be interpreted as positive result. On July 29, 2019, the Food and Drug Administration (FDA) cleared several Lyme disease serologic assays with new indications for use, allowing for an EIA rather than western immunoblot assay as the second test in a Lyme disease testing algorithm: link to CDC webpage here."
+      }
+    },
+    {
+      "type": "image",
+      "imageData": {
+        "src": "",
+        "caption": "Two-Tiered Testing for Lyme Disease"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Interpretation of Test Results"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": [
+          "Presentation",
+          "Exposure in Lyme Endemic Area",
+          "Two tier testing",
+          "Comment"
+        ],
+        "rows": [
+          [
+            "Early Lyme: lesion consistent with erythema migrans (EM)",
+            "Yes",
+            "No",
+            "High clinical pretest probability, antibody test insensitive in early disease"
+          ],
+          [
+            "",
+            "No",
+            "No",
+            "Low pretest probability, insensitive test, high false positive rate; consider alternative diagnosis"
+          ],
+          [
+            "Early disseminated Lyme: multiple EM lesions, facial nerve palsy, meningitis, carditis",
+            "Yes",
+            "Yes",
+            "Good test sensitivity and specificity"
+          ],
+          [
+            "",
+            "No",
+            "Maybe",
+            "Low pre-test clinical probability; Hence, higher false-positive rate. Good negative predictive value; consider alternative diagnosis"
+          ],
+          [
+            "Late disseminated Lyme: recurrent large joint arthritis",
+            "Yes",
+            "Yes",
+            "Good test sensitivity and specificity"
+          ],
+          [
+            "",
+            "No",
+            "Maybe",
+            "Low pre-test probability, high false-positive rate, but good negative predictive value; consider alternative diagnosis"
+          ],
+          [
+            "Late neurologic Lyme: Peripheral neuropathy, encephalopathy, encephalomyelitis",
+            "Yes",
+            "Maybe",
+            "Late neurologic Lyme uncommon in the U S: consider alternative diagnosis"
+          ],
+          [
+            "",
+            "No",
+            "No",
+            "High likelihood of false positive result; pursue alternative diagnosis"
+          ],
+          [
+            "Nonspecific symptoms: headaches, depression, fatigue, arthralgia or myalgia",
+            "Yes",
+            "Maybe",
+            "Consider alternative diagnosis but if symptoms persist, consider 2-tier testing, recognizing high probability of false positive result"
+          ],
+          [
+            "",
+            "No",
+            "No",
+            "Very low pre-test probability, high likelihood of false positive result; pursue alternative diagnosis"
+          ]
+        ]
+      }
+    }
+  ]
+}

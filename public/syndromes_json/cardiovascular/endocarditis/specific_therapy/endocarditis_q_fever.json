@@ -1,0 +1,127 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Q Fever",
+    "lastUpdated": "2025-05-06",
+    "sourceFile": "Endocarditis, Q Fever.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for Coxiella burnetii endocarditis, Q fever.",
+        "Signs and symptoms of subacute/chronic endocarditis: e.g., fever, night sweats, weight loss.",
+        "Evidence of valvular disease in 69%.",
+        "Can be long latent period between acute infection and recognition of endocarditis.",
+        "Cardiac vegetations are small and are detected by echocardiography in only 12%; other imaging (PET-CT, cardiac MRI) may improve sensitivity.",
+        "Coxiella can infect other intravascular sites: e.g., vascular grafts, arterial aneursyms.",
+        "Exposure history to aerosol of dessicated animal birth products or excreta may, or may not, be positive. Sheep, cattle, and goats are common among many possible animal reservoirs.y.",
+        "Even with treatment, the 10 year mortality is 19%.",
+        "For information on acute infection and chronic Q fever other than endocarditis, see Coxiella burnetii."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Diagnosis"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Microbiologic diagnosis of infective endocarditis (See revised 2023 Duke-ISCVD criteria)",
+        "Positive polymerase chain reaction (PCR) or other nucleic acid-based technique from blood or Coxiella burnetii antiphase I immunoglobulin G (IgG) antibody titer >1:800, or organism isolated from a single blood culture.",
+        "Dutch consensus criteria for chronic Q fever (J Clin Micro 2014; 52:1637)",
+        "Proven chronic Q fever:",
+        "Positive C. burnettii PCR in blood or tissue",
+        "IgG antibody titer \u2265 800 against phase 1 antigen",
+        "Either positive Duke criteria for endocarditis or proven large vessel or prosthetic infection by Imaging (FDG-PET, CT, MRI, or Ultrasound).",
+        "US criteria are similar (Clin Infect Dis 2017;65:1872)(results of passive surveillance)",
+        "Most frequently reported symptoms: Fever, malaise, cough, and myalgia"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Coxiella burnetii"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "IV/po",
+            "frequency": "bid"
+          },
+          {
+            "drug": "Hydroxychloroquine",
+            "dose": "600 mg/day (i.e., 200 mg po three times per day)",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "at least 18 months"
+        },
+        "notes": "See Comments"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "regimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100 mg",
+            "route": "po",
+            "frequency": "bid"
+          },
+          {
+            "drug": "a fluoroquinolone (e.g., Levofloxacin 500 mg po qd)",
+            "connector": "+"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "36 months"
+        },
+        "notes": "(Clin Infect Dis 2018;66:719)"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Use of tetracyclines in pediatric patients has historically been limited because of reports of permanent tooth discoloration in children <8 years of age caused by incorporation of the drugs and their colored degradation products in enamel. Doxycycline binds less readily to calcium compared with other members of the tetracycline class, and recent comparative data suggest that doxycycline is not likely to cause visible teeth staining or enamel hypoplasia in children <8 years of age. Doxycycline can safely be administered for short durations (\u226421 days) regardless of patient age (AAP Red Book 2018, Section 4; J Pediatr 2015; 166:1246).",
+        "Monotherapy associated with a high relapse rate (~50%).",
+        "For outcome in patients with endocarditis see Lancet Infect Dis 2010: 10:527.",
+        "Comprehensive diagnosis and management, MMWR 2013; 62(RR-03):1."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Staphylococcus haemolyticus",
+      "aliases": [
+        "Coagulase-negative staphylococcus"
+      ],
+      "lastUpdated": "2024-04-01",
+      "clsiCategory": "Staphylococcus spp.",
+      "classification": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      },
+      "strainDetails": [],
+      "biochemicalTests": "Gram-positive cocci in clusters, catalase +, coagulase –, known for broad antimicrobial resistance, particularly to vancomycin."
+    },
+    "clinicalProfile": {
+      "summary": "A coagulase-negative species that is a common cause of intravascular catheter infections. It may cause other infections similar to those caused by Staph. epidermidis. It is known for its resistance to multiple antibiotics.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Intravascular Catheter Infection",
+          "description": "Infection associated with central or peripheral venous catheters."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with indwelling catheters"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    },
+    "resistanceProfile": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "High Resistance Potential",
+          "details": "Usually resistant to methicillin and may also be glycopeptide resistant."
+        }
+      ]
+    },
+    "treatment": {
+      "generalNotes": [],
+      "drugsToAvoid": [],
+      "adjunctiveTherapies": [],
+      "regimens": [
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "Serious Infection",
+            "patientPopulation": [
+              "Adults"
+            ],
+            "isolateSource": "Blood, Catheter"
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15-20 mg/kg",
+                      "route": "IV",
+                      "frequency": "q8-12h",
+                      "comments": "For glycopeptide-susceptible strains. Target AUC24 400-600 µg/mLx hr or trough of 15-20 µg/mL."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Daptomycin",
+                      "dose": "6 mg/kg",
+                      "route": "IV",
+                      "frequency": "q24h",
+                      "comments": "For glycopeptide-non-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Primary",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Linezolid",
+                      "dose": "600 mg",
+                      "route": "PO/IV",
+                      "frequency": "q12h",
+                      "comments": "For glycopeptide-non-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Nafcillin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": "For methicillin-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Oxacillin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": "For methicillin-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Cefazolin",
+                      "dose": "",
+                      "route": "IV",
+                      "frequency": "",
+                      "comments": "For methicillin-susceptible strains."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "TMP-SMX",
+                      "dose": "",
+                      "route": "PO/IV",
+                      "frequency": "",
+                      "comments": "Use once susceptibility is confirmed."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "preference": "Alternative",
+              "strategy": "Monotherapy",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "",
+                  "drugs": [
+                    {
+                      "drugName": "Doxycycline",
+                      "dose": "",
+                      "route": "PO/IV",
+                      "frequency": "",
+                      "comments": "Use once susceptibility is confirmed."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "laboratoryProfile": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    },
+    "additionalInformation": {
+      "diagnosticNotes": {
+        "summary": "",
+        "biosafetyWarning": "",
+        "methods": []
+      },
+      "preventionAndScreening": [],
+      "treatmentLifecycle": [],
+      "antimicrobialStewardship": [],
+      "drugSpecificPearls": [],
+      "guidelineReferences": [
+        {
+          "source": "Microbiology Research",
+          "citation": "Microbiol Res. 2024; 282:127652",
+          "summaryOrNote": "Review article."
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "resistanceProfile",
+      "treatment",
+      "laboratoryProfile",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.349Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Staphylococcus haemolyticus"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases"
+      ],
+      "value": [
+        "Coagulase-negative staphylococcus"
+      ]
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-04-01"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram-positive",
+        "morphology": "Coccus",
+        "respiration": "Facultative anaerobe",
+        "notes": [
+          "Coagulase-negative",
+          "Forms clusters"
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "A coagulase-negative species that is a common cause of intravascular catheter infections. It may cause other infections similar to those caused by Staph. epidermidis. It is known for its resistance to multiple antibiotics.",
+      "pathophysiologyPearls": [],
+      "keySignsAndSymptoms": [],
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Intravascular Catheter Infection",
+          "description": "Infection associated with central or peripheral venous catheters."
+        },
+        {
+          "syndromeName": "Bacteremia",
+          "description": "Presence of bacteria in the bloodstream."
+        }
+      ],
+      "stagesOfIllness": [],
+      "highRiskPopulations": [
+        "Patients with indwelling catheters"
+      ],
+      "transmissionVectors": [],
+      "prognosisNotes": []
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile"
+    ],
+    "value": {
+      "groupIntrinsicResistance": [],
+      "intrinsicResistance": [],
+      "majorMechanisms": [],
+      "clinicalAlerts": [
+        {
+          "alertTitle": "High Resistance Potential",
+          "details": "Usually resistant to methicillin and may also be glycopeptide resistant."
+        }
+      ]
+    }
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "frequency": "q8-12h",
+              "duration": "",
+              "comments": "For glycopeptide-susceptible strains. Target AUC24 400-600 µg/mLx hr or trough of 15-20 µg/mL.",
+              "originalText": "Vancomycin 15-20 mg/kg IV q8-12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-1-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[1].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Daptomycin",
+              "dose": "6 mg/kg",
+              "route": "IV",
+              "frequency": "q24h",
+              "duration": "",
+              "comments": "For glycopeptide-non-susceptible strains.",
+              "originalText": "Daptomycin 6 mg/kg IV q24h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-2-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[2].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Linezolid",
+              "dose": "600 mg",
+              "route": "PO/IV",
+              "frequency": "q12h",
+              "duration": "",
+              "comments": "For glycopeptide-non-susceptible strains.",
+              "originalText": "Linezolid 600 mg PO/IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-3-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[3].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Nafcillin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "For methicillin-susceptible strains.",
+              "originalText": "Nafcillin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-4-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[4].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Oxacillin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "For methicillin-susceptible strains.",
+              "originalText": "Oxacillin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-5-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[5].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Cefazolin",
+              "dose": "",
+              "route": "IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "For methicillin-susceptible strains.",
+              "originalText": "Cefazolin  IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-6-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[6].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "TMP-SMX",
+              "dose": "",
+              "route": "PO/IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "Use once susceptibility is confirmed.",
+              "originalText": "TMP-SMX  PO/IV "
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-7-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[7].steps[0]",
+          "context": {
+            "type": "directed",
+            "condition": "Serious Infection",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": [
+                "Adults"
+              ],
+              "labFindings": "Blood, Catheter"
+            }
+          },
+          "preference": "alternative",
+          "drugs": [
+            {
+              "drugName": "Doxycycline",
+              "dose": "",
+              "route": "PO/IV",
+              "frequency": "",
+              "duration": "",
+              "comments": "Use once susceptibility is confirmed.",
+              "originalText": "Doxycycline  PO/IV "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile"
+    ],
+    "value": {
+      "testingIndications": [],
+      "methodologyNotes": [],
+      "recommendedPanel": [],
+      "specialTests": [],
+      "reportingRules": [],
+      "antimicrobialBreakpoints": []
+    }
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

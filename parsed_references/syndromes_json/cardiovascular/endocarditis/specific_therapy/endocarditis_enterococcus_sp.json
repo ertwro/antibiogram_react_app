@@ -1,0 +1,138 @@
+{
+  "documentMetadata": {
+    "title": "Endocarditis, Enterococcus sp.",
+    "lastUpdated": "2025-03-24",
+    "sourceFile": "Endocarditis, Enterococcus sp..pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Specific therapy for enterococcal endocarditis: culture positive for E. faecalis or E. faecium.",
+        "Gram positive cocci, normal flora of the gastrointestinal tract.",
+        "It is important to obtain speciation of enterococcl",
+        "If Streptomycin or Gentamicin combination therapy is used document that MICs of Streptomycin or Gentamicin in the range that is predictive of in vitro synergy and monitor serum concentrations.",
+        "Infectious disease consultation advised if available.",
+        "Review of dual beta-lactam therapy: Clin Infect Dis 2018;67: 303"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "E. faecalis",
+        "E. faecium"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "table",
+      "tableData": {
+        "headers": ["Setting", "Regimens", "Comments"],
+        "rows": [
+          [
+            "Penicillin susceptible and synergy with Gentamicin positive",
+            "Ampicillin 12 gm/day IV divided q4h + Ceftriaxone 2 gm IV q12h) x 6 weeks (E. faecalis only, efficacy against E. faecium not established)",
+            "Optimal dosing and duration of Gentamicin not well defined. 2015 American Heart Association (AHA) guidelines (Circ. 132:1435, 2015) recommend Gentamicin 3 mg/kg/d in 2-3 divided doses for 4-6 weeks. 2023 European Society of Cardiology (ECS) guidelines (Eur Heart J. 2023;44:3948) recommend 3 mg/kg once daily and for the first two weeks only and treating for a total of 6 weeks. Limited data suggest 2 of Gentamicin weeks is similar in efficacy to 4 to 6 weeks and is less toxic (Circ. 2013;127:1810)."
+          ],
+          [
+            "",
+            "Ampicillin 12 gm/day IV, divided q4h + Gentamicin 3 mg/kg/d IV x 4-6 weeks (6-weeks for patients with > 3 months of symptoms or for prosthetic valve infection)",
+            "AHA guidelines recommend Penicillin G 24 million units divided q4h as a alternative to Ampicillin in combination with Gentamicin"
+          ],
+          [
+            "Penicillin-resistant (MIC > 16 µg/mL) or patient is penicillin allergic but synergy with aminoglycoside (gentamicin) is positive (MIC ≤ 500 µg/mL):",
+            "Vancomycin 15-20 mg/kg IV q8-12h + Gentamicin 3 mg/kg/d x 6 weeks",
+            "Significant toxicity with this regimen: consider using a Daptomycin combination regimen (see Penicillin, vancomycin, and aminoglycoside resistance below) 2015 AHA guidelines recommend administration of Gentamicin in 3 divided doses; 2023 guidelines recommend once daily dosing. See Stewardship for monitoring of Gentamicin serum concentrations,"
+          ],
+          [
+            "High-level gentamicin resistance (MIC > 500 µg/mL), E. faecalis",
+            "Ampicillin 12 gm/day IV divided q4h + Ceftriaxone 2 gm IV q12h) x 6 weeks (Ann Intern Med 146:574, 2007; Clin Infect Dis 56:1261, 2013)",
+            "Efficacy of Ampicillin + Ceftriaxone not established for E. faecium and this combinatoin should not be used. See Stewardship for monitoring of Streptomycin serum concentrations."
+          ],
+          [
+            "",
+            "Less desirable but another option if susceptible to Streptomycin (MIC ≤ 1500 µg/mL) Ampicillin 12 gm/day IV divided q4h + Streptomycin 15 mg/kg IV/IM in two divided doses x 4-6 weeks ((6-weeks for patients with > 3 months of symptoms or for prosthetic valve infection) OR Penicillin G 24 million units/day IV divided q4h x 4-6 weeks + Streptomycin 15 mg/kg IV/IM in two divided doses x 4-6 weeks (6-weeks for patients with > 3 months of symptoms or for prosthetic valve infection)",
+            ""
+          ],
+          [
+            "High-level gentamicin resistance (MIC > 500 µg/mL), E. faecium",
+            "If Ampicillin susceptible: Ampicillin 2 gm IV q4h or Penicillin G 4 million units IV q4h x 8-12 weeks. Cure rate only 50%.",
+            "Reports of single patients successfully treated with combination of Daptomycin and Ampicillin: Antimicrob Ag Chemother 56:6064, 2012; Eur J Clin Micro Infect Dis 30:807, 2011"
+          ],
+          [
+            "",
+            "If Ampicillin susceptible and susceptible to Streptomycin (MIC ≤ 1500 µg/mL): Ampicillin 12 gm/day IV divided q4h + Streptomycin 15 mg/kg IV/IM in two divided doses x 4-6 weeks ((6-weeks for patients with > 3 months of symptoms or for prosthetic",
+            "See Stewardship for monitoring of Streptomycin serum concentrations,"
+          ],
+          [
+            "Penicillin, vancomycin, and aminoglycoside resistance",
+            "Daptomycin 10-12 mg/kg IV q24h + (Ampicillin 2 gm IV q4h or Ceftaroline 600 mg IV q8h) (Curr Inf Dis Rep 16:431, 2014).",
+            "Linezolid is bacteriostatic with high relapse rate. Avoid unless no other choice. Recommend addition of another active agent if possible."
+          ],
+          [
+            "",
+            "If no other alternative: Linezolid 600 mg IV/po q12h ≥ 8 weeks.",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "For either E. faecalis or E. faecium, if unable to use penicillin or vancomycin:",
+        "Daptomycin 10-12 mg/kg IV q24h",
+        "Best combination is with a beta-lactam. If severe allergy precludes use of a beta-lactam, can try combination therapy with either rifampin or gentamicin"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If Gentamcin or Streptomycin is used confirm that the MIC is within the range (Gentamcin MIC < 500 µg/m; Streptomycin MIC ≤ 1500 µg/mL) that predicts in vitro synergistic activity when combined with penicillin or ampicillin (and presumably with vancomycin or daptomycin as well).",
+        "Gentamicin dosing recommendations (monitor at least weekly).",
+        "If Gentamicin is administered every q8 to q12h then the dose should be adjusted to achieve a peak serum concentration (peak defined as 30-60 minutes after a dose) of 3-4 µg/mL and a trough concentration (trough defined as just before the next dose) of < 1 µg/mL.",
+        "If Gentamicin is administered as a once daily dose then the dose should be adjusted to achieve a peak serum concentration 10-12 µg/mL and a trough concentration of < 1 µg/mL.",
+        "Streptomycin dose should be adjusted to obtain a serum peak concentration of 20 to 35 µg/mL and a trough concentration of <10 µg/mL; monitor at least weekly."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "See Clin Infect Dis 2023;76:281 for review of outcomes and risk of relapse for E. faecalis endocarditis with various treatment. Relapses after treatment are frequent, often asymptomatic, and may occur more than 6 months after the initial episode.",
+        "Review of treatment options for vancomycin-resistant enterococci: Infect Dis Clin North Am. 2020; 34:751.",
+        "In national retrospective study, daptomycin doses ≥ 10 mg/kg associated improved survival and microbiologic cures without muscle toxicity (Clin Infect Dis 2017;64:605)",
+        "Consider valve replacement if the strain is resistant to penicillin, vancomcyin, and aminoglycoside.",
+        "See American Heart Association guidelines (Circulation 132:1435, 2015) and European Society of Cardiology guidelines (Eur Heart J. 2023;44:3948)."
+      ]
+    }
+  ]
+}

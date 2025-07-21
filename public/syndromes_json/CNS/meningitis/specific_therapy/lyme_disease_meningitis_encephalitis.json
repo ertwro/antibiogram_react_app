@@ -1,0 +1,55 @@
+
+{
+  "documentMetadata": {
+    "title": "Lyme Disease, Meningitis, Encephalitis",
+    "sourceFile": "Lyme Disease, Meningitis, Encephalitis.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Lyme Disease, Meningitis, Encephalitis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neurologic manifestations of Lyme disease, including meningitis and encephalitis, require specific antibiotic therapy."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "daily"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14-21 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Alternative",
+        "components": [
+          {
+            "drug": "Doxycycline",
+            "dose": "100-200 mg",
+            "route": "PO",
+            "frequency": "BID"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "14-21 days"
+        },
+        "notes": "Oral doxycycline is an alternative for patients who can tolerate oral medications and do not have parenchymal brain or spinal cord involvement."
+      }
+    }
+  ]
+}

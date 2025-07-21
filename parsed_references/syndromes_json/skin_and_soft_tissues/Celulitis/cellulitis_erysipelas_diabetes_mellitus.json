@@ -1,0 +1,86 @@
+{
+    "documentMetadata": {
+        "title": "Cellulitis, Erysipelas_ Diabetes mellitus",
+        "sourceFile": "Cellulitis, Erysipelas_ Diabetes mellitus.pdf",
+        "lastUpdated": "2022-04-07"
+    },
+    "content": [
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Clinical Setting"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Patient with diabetes mellitus peripheral neuropathy, suffers inflammation of the skin and subcutaneous tissue.",
+                "May have contiguous skin ulceration and/or atherosclerotic peripheral vascular disease."
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Etiologies"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Streptococcus sp. (Group A, B, C, G)",
+                "Staph. aureus",
+                "Enterobacterales",
+                "Anaerobes (bad prognosis if present)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Primary Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Assess adequacy of arterial blood supply.",
+                "May need surgical debridement for cultures to determine or assess for contiguous osteomyelitis and for presence of necrotizing fasciitis.",
+                "Early or mild infection:",
+                "TMP-SMX double strength 1-2 tabs po bid + (Penicillin VK 500 mg po qid or Cephalexin 500 mg po qid)"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Alternative Regimens"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Early or mild infection:",
+                "Omadacycline",
+                "200 mg IV (over 60 min) loading dose and then 100 mg (over 30 min) q24 h OR",
+                "100 mg IV over 30 min BID on day one and then 100 mg iv over 30 min q24h OR",
+                "450 mg PO q24h on days 1 and 2 and then 300 mg PO q24h",
+                "Do not use an older tetracycline for reason of resistance and/or clinical failures.",
+                "For hospitalized patient with severe disease, forced to use broad spectrum therapy that targets both Staph. aureus and Enterobacterales:",
+                "(Imipenem 0.5 gm IV q6h) PLUS either",
+                "Vancomycin 15-20 mg/kg IV q8-12h to achieve preferred target AUC24 400-600 \u00b5g/mL x hr (see vancomycin AUC dosing calculator); alternative target is trough of 15-20 \u00b5g/mL",
+                "Daptomycin 4 mg/kg IV q24h",
+                "Linezolid 600 mg IV/po bid",
+                "Can substitute another Carbapenem for Imipenem: Ertapenem 1 gm IV q24h or Doripenem 500 mg IV q8h or Meropenem 1 gm IV q8h"
+            ]
+        },
+        {
+            "type": "header",
+            "level": 1,
+            "text": "Comments"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Other alternatives to the Carbapenem: Levofloxacin, Piperacillin-tazobactam",
+                "Caution re hyperkalemia with TMP-SMX in those with reduced renal function or concomitant drugs causing hyperkalemia",
+                "Likelihood of Contiguous Osteomyelitis is increased if you can probe to the bone. Low likelihood of contiguous osteomyelitis if probe is negative. Clin Infect Dis 47:510, 2008.",
+                "Pai MP, et al. J Antimicrob Chemother. 2021;76:1315-1322.",
+                "Duane TM, et al. Surgical Infection Society 2020 Updated Guidelines; Surg Infect 2021; May 22(4):383-399."
+            ]
+        }
+    ]
+}

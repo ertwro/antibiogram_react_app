@@ -1,0 +1,121 @@
+{
+  "documentMetadata": {
+    "title": "Arthritis, Septic, Candida",
+    "lastUpdated": "2024-08-26",
+    "sourceFile": "Arthritis, Septic, Candida.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Synovial fluid culture positive for Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "C. albicans",
+        "Other Candida sp."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Fluconazole",
+            "dose": "400 mg (6 mg/kg)",
+            "route": "IV/po",
+            "frequency": "qd"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "6 weeks"
+        },
+        "notes": "for susceptible species"
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Caspofungin",
+            "dose": "70 mg IV loading dose then 50 mg daily",
+            "route": "IV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Micafungin",
+            "dose": "100 mg",
+            "route": "IV",
+            "frequency": "daily"
+          }
+        ]
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Anidulafungin",
+            "dose": "200 mg IV loading dose then 100 mg daily",
+            "route": "IV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "components": [
+          {
+            "drug": "Lipid-based Amphotericin B",
+            "dose": "3-5 mg/kg",
+            "route": "IV",
+            "frequency": "qd"
+          }
+        ]
+      }
+    },
+    {
+      "type": 'header',
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Surgical debridement is indicated in all cases; removal of prosthetic joints whenever possible (Scand J Infect Dis 42:890, 2010); treat for at least 6-8 weeks and indefinitely if retained hardware.",
+        "Osteomyelitis should be treated for up to 6 months. See IDSA treatment guidelines: Clin Infect Dis 62:409, 2016."
+      ]
+    }
+  ]
+}

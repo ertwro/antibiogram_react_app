@@ -1,0 +1,122 @@
+
+{
+  "documentMetadata": {
+    "title": "Orbital cellulitis, periorbital cellulitis",
+    "sourceFile": "Orbital cellulitis, periorbital cellulitis.pdf",
+    "lastUpdated": "2025-01-07"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Regimens below are for empiric therapy of orbital cellulitis, pending microbiologic diagnosis (see Comments for periorbital cellulitis)",
+        "Orbital vs. Periorbital cellulitis",
+        "Orbital cellulitis is a serious, potentially life-threatening, infection involving the fat and ocular muscles of the orbit but not the orbit itself. Cardinal features include ophthalmoplegia, pain with eye movements, visual changes, proptosis and characteristic findings on imaging such as inflammation of extraocular tissues muscles, fat stranding, and anterior displacement of the globe. See StatPearls Publishing; 2022.",
+        "Periorbital cellulitis (also called preseptal cellulitis) is infection of the eyelid and surrounding skin and tissues anterior to the orbital septum. It is typically milder than orbital cellulitis, which it may be confused but vision is normal and there is no pain with eye movement.",
+        "Clinicians should treat patients for orbital cellulitis if the exact diagnosis is uncertain.",
+        "CT or MRI imaging of orbit recommended to rule out orbital cellulitis and to determine extent of disease.",
+        "Urgent surgical consultation indicated for orbital cellulitis."
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Facial erysipelas",
+        "targetType": "internalDocument",
+        "targetIdentifier": "Facial erysipelas"
+      }
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Strep. pneumoniae",
+        "H. influenzae",
+        "M. catarrhalis",
+        "Staph. aureus",
+        "Also: Anaerobes (odontogenic source), Streptococcus sp. (Group A), Gram-negative bacilli (post-trauma)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "components": [
+          {
+            "drug": "Vancomycin",
+            "dose": "15-20 mg/kg",
+            "route": "IV",
+            "frequency": "q8-12h",
+            "notes": "to achieve preferred target AUC24 400-600 µg/mL x hr (see Vancomycin AUC dosing calculator; alternative is trough of 15-20 µg/mL)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "items": [
+        "Ceftriaxone 2 gm IV q24h + Metronidazole 1 gm IV q12h",
+        "Piperacillin-tazobactam 4.5 gm IV (over 4 hr) q8h",
+        "Ampicillin-sulbactam 3 gm q6h IV"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "list",
+      "items": [
+        "If penicillin/cephalosporin allergy: Vancomycin, as above + Moxifloxacin 400 mg IV q24h",
+        "Options for MRSA: Daptomycin 6 mg/kg IV q24h or Linezolid 600 mg IV q12h"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Modify regimen based on microbiologic diagnosis",
+        "May transition to oral regimen once patient is stable and infection controlled",
+        "Duration of therapy 7-14 days depending on clinical response."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mild cases of periorbital cellulitis in whom orbital cellulitis has been ruled out and without signs of systemic toxicity can be treated as outpatients with therapy directed to likely pathogens (see Etiologies): Amoxicillin-clavulanate or Cefpodoxime or Cefdinir (or TMP-SMX or Linezolid if MRSA is a concern)"
+      ]
+    },
+    {
+      "type": "crossReference",
+      "referenceData": {
+        "text": "Review of periorbital cellulitis: StatPearls Publishing; 2022",
+        "targetType": "externalURL",
+        "targetIdentifier": "https://www.statpearls.com/ArticleLibrary/viewarticle/2022"
+      }
+    }
+  ]
+}

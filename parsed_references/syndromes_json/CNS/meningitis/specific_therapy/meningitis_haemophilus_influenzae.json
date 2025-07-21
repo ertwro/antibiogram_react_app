@@ -1,0 +1,56 @@
+
+{
+  "documentMetadata": {
+    "title": "Meningitis, Haemophilus influenzae",
+    "sourceFile": "Meningitis, Haemophilus influenzae.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Meningitis, Haemophilus influenzae"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treatment of meningitis caused by Haemophilus influenzae depends on whether the strain is beta-lactamase positive or negative."
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Beta-lactamase negative",
+        "components": [
+          {
+            "drug": "Ampicillin",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q4h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        }
+      }
+    },
+    {
+      "type": "drugRegimen",
+      "regimenData": {
+        "intent": "treatment",
+        "strengthOfRecommendation": "Recommended",
+        "condition": "Beta-lactamase positive",
+        "components": [
+          {
+            "drug": "Ceftriaxone",
+            "dose": "2 g",
+            "route": "IV",
+            "frequency": "q12h"
+          }
+        ],
+        "durationDetail": {
+          "fixedDuration": "7 days"
+        }
+      }
+    }
+  ]
+}

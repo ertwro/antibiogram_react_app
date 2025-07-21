@@ -1,0 +1,95 @@
+
+{
+  "drug_name": "Anthrasil",
+  "usage_and_dosing": {
+    "description": "Anthrax Immune Globulin Intravenous. Indicated as part of combination therapy for treatment of inhalational anthrax in adults and children. Anthrasil is human IgG containing polyclonal antibodies that bind the protective antigen of Bacillus anthracis toxin. 1 vial has a minimum potency of 60 units",
+    "contraindications": [
+      "History of anaphylaxis or severe systemic reaction of human immune globulins",
+      "IgA deficiency with anti-IgA antibodies and a history of IgA hypersensitivity"
+    ],
+    "adult_dose": {
+      "usual_dose": "420 units (7 vials) IV administered at a starting infusion rate of 0.5 ml/min for first 30 min, then 1 ml/min as tolerated for next 30 min up to a maximum rate of 2 ml/min"
+    },
+    "pediatric_dose": [
+      {
+        "weight": "<10 kg",
+        "dose": "60 units (1 vial)"
+      },
+      {
+        "weight": "10 to <18 kg",
+        "dose": "120 units (2 vials)"
+      },
+      {
+        "weight": "18 to <25 kg",
+        "dose": "180 units (3 vials)"
+      },
+      {
+        "weight": "25 to <35 kg",
+        "dose": "240 units (4 vials)"
+      },
+      {
+        "weight": "35 to <50 kg",
+        "dose": "300 units (5 vials)"
+      },
+      {
+        "weight": "50 to <60 kg",
+        "dose": "360 units (6 vials)"
+      },
+      {
+        "weight": "≥60 kg",
+        "dose": "420 units (7 vials)"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "24-28 days",
+    "half_life_esrd": "No data",
+    "dose_renal_function_normal": "420 units IV x1",
+    "crcl_or_egfr": "No dosage adjustment for renal impairment",
+    "hemodialysis": "No data",
+    "capd": "No data",
+    "crrt": "No data",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Most common: Headache, infusion site pain or swelling, nausea, back pain",
+    "Hypersensitivity reactions",
+    "Interference with blood and urine glucose testing",
+    "Thrombosis",
+    "Acute renal dysfunction",
+    "Aseptic meningitis",
+    "Transfusion-related acute lung injury",
+    "Transmission of blood-borne pathogens"
+  ],
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Toxin of Bacillus anthracis (no direct antibacterial activity)"
+    ],
+    "alternative": []
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "156.4 mU/mL (420 U IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "No data",
+    "volume_of_distribution": "6.84 L",
+    "avg_serum_t1_2": "24-28 days",
+    "elimination": "Catabolized",
+    "bile_penetration": "No data",
+    "csf_blood": "No data",
+    "therapeutic_levels_in_csf": "No data",
+    "auc": "2537 (420 U IV, 0-inf)"
+  },
+  "major_drug_interactions": [
+    "May falsely elevate glucose measured in some point-of-care glucose testing systems",
+    "For patients at risk of thrombosis administer at minimum practical infusion rate, ensure adequate hydration, monitor for signs and symptoms of thrombosis"
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "documentMetadata": {
+    "title": "Acute Pyelonephritis",
+    "sourceFile": "Pyelonephritis, Acute.pdf"
+  },
+  "content": [
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Clinical Setting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usually presents in women age 18-40 years, temperature >102°F, definite costovertebral tenderness.",
+        "Obtain culture of urine and blood prior to therapy for speciation and antibiotic susceptibility testing",
+        "Complicated pyelonephritis connoted by presence of obstruction, underlying renal disease, male sex, immunosuppression, stone disease, anatomic or functional urinary tract abnormality.",
+        "Indications for hospitalizations: Severe illness/sepsis, unreliable oral intake, elevated serum creatinine, severe pain.",
+        "Obtain imaging (US or CT) to evaluate in patients with critical illness, new renal failure, history of nephrolithiasis, ureteral colic, obstructive uropathy (e.g. BPH), urine pH ≥ 7.0, or fail to respond to appropriate antibiotic therapy,"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Etiologies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Enterobacterales (E. coli, Klebsiella, Proteus, etc.)",
+        "Enterococci (elderly patients, prior antibiotics)",
+        "Pseudomonas aeruginosa (patients with prior antibiotics, manipulation of urinary tract)"
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Primary Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: low-risk for resistant bacteria (most common situation):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "uncomplicated infection",
+            "components": [
+              {
+                "drug": "Ciprofloxacin",
+                "dose": "500 mg po bid or extended release 1000 mg po q24h or 400 mg IV q12h",
+                "duration": "5-7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "uncomplicated infection",
+            "components": [
+              {
+                "drug": "Levofloxacin",
+                "dose": "750 mg",
+                "route": "po/IV",
+                "frequency": "q24h",
+                "duration": "5-7 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "condition": "consider first-line in areas where local E. coli fluoroquinolone resistance is > 10%",
+            "components": [
+              {
+                "drug": "Ceftriaxone",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "daily",
+                "duration": "10 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "If susceptible to fluoroquinolone, transition to oral therapy as above",
+            "If need to transition to oral regimen other than fluoroquinolones see Alternative Regimens"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: high-risk for resistant bacteria (i.e. prior highly-resistant bacteria in urine, recent inpatient health-care facility stay, obstructive uropathy, recent fluoroquinolone or B-lactam exposure, recent travel to Asia, Middle East or Africa in past 3 months):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Ertapenem",
+                "dose": "1gm",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: high-risk for resistant bacteria AND critical illness (e.g. suspected urosepsis) OR prior Pseudomonas infection:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Recommended",
+            "components": [
+              {
+                "drug": "Meropenem",
+                "dose": "1 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Alternative Regimens"
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: low-risk for resistant bacteria (most common situation):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ertapenem",
+                "dose": "1gm",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Gentamicin",
+                "dose": "5 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Transitioning to oral therapy when oral fluoroquinolone is not an option:"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "condition": "if known to be susceptible to complete 10-14 days total of therapy",
+            "components": [
+              {
+                "drug": "TMP-SMX",
+                "dose": "1 DS",
+                "route": "po",
+                "frequency": "bid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beta-lactams can be used when bacteria are susceptible and neither fluoroquinolone nor TMP-SMX are an option. Success rates may be lower with oral beta-lactam therapy. Duration is a total of 14 days.",
+            "Cefixime 400 mg po once daily (Emerg Med J 2002; 19:19)",
+            "Amoxicillin-clavulanate 875/125 mg po bid"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nestedContent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Empiric therapy: high-risk for resistant bacteria (prior highly-resistant bacteria in urine, recent inpatient health-care facility stay, obstructive uropathy, recent fluoroquinolone or B-lactam exposure, recent travel to Asia, Middle East or Africa in past 3 months):"
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Piperacillin-tazobactam",
+                "dose": "4.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 4 hr"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Cefepime",
+                "dose": "2 gm",
+                "route": "IV",
+                "frequency": "q12h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ceftazidime-avibactam",
+                "dose": "2.5 gm",
+                "route": "IV",
+                "frequency": "q8h"
+              }
+            ]
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Plazomicin",
+                "dose": "15 mg/kg",
+                "route": "IV",
+                "frequency": "q24h"
+              }
+            ],
+            "notes": "(Clin Infect Dis. 2020;70: 704)"
+          }
+        },
+        {
+          "type": "drugRegimen",
+          "regimenData": {
+            "intent": "treatment",
+            "strengthOfRecommendation": "Alternative",
+            "components": [
+              {
+                "drug": "Ceftolozane-tazobactam",
+                "dose": "1.5 gm",
+                "route": "IV",
+                "frequency": "q8h",
+                "notes": "over 1 hr"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Antimicrobial Stewardship"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Increasing prevalence of resistance to fluoroquinolones, TMP/SMX, and even cephalosporins.",
+        "Duration of therapy:",
+        "Uncomplicated pyelonephritis (none of the factors below) can be treated with a fluoroquinolone for 5-7 days",
+        "Febrile UTI in men: 14 days of treatment was superior to 7 days of treatment in a study whose primary end point was a combined end point of negative urine culture and the absence of fever and of subsequent antibiotic treatment between the end of treatment and 6 weeks after day 1. While most of the benefit in the 14 day arm was driven by fewer positive cultures at the end of treatment there was significance in clinical outcomes as well. (Clin Infect Dis 2023; 26: 2154)",
+        "Complicated pyelonephritis (presence of obstruction, underlying renal disease, male sex, immunosuppression, stone disease, anatomic or functional urinary tract abnormality) should be treated for 14 days",
+        "Ciprofloxacin 500 mg bid x 14 days no more effective than x 7 days (Lancet 380:484, 2012).",
+        "If using a beta-lactam, general recommendation is to treat for 10-14 days",
+        "IDSA guidelines recommend 14 day course of therapy if TMP-SMX is used, but one study in women age 16 years and older suggested that 7 days may be efficacious as well (see Am J Med 2017;130:842)."
+      ]
+    },
+    {
+      "type": "header",
+      "level": 1,
+      "text": "Comments"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Imaging: obtain US or CT to evaluate in patients with critical illness, new renal failure, history of nephrolithiasis, urine pH ≥ 7.0, or fail to respond to appropriate antibiotic therapy",
+        "Bacteremia: 7 days of antibiotic therapy may be as effective as 14 days in patients with gram negative bacteremia. Therefore, one may not need to extend course of antibiotic if only 7 days are recommended for the pyelonephritis alone (Clin Infect Dis 2018). Follow-up blood cultures are unlikely helpful in cases of Gram negative bacteremia (Clin Infect Dis 2017; 65:1776).",
+        "Risk factors for ESBL E. coli. include prior highly-resistant bacteria in urine, recent inpatient health-care facility stay, obstructive uropathy, recent fluoroquinolone or beta-lactam exposure, recent travel to Asia, Middle East or Africa in past 3 months (PLoS One 2013; 8, e69531, Clin Infect Dis 2016; 63:960, Emerg Inf Dis 2016;22:1594).",
+        "Special consideration in men: Evaluate for BPH and other causes of obstruction. If recurrent UTIs with same organisms consider chronic prostatitis.",
+        "Special considerations in pregnancy: Pregnant patients with pyelonephritis are at high risk for relapsed infection during pregnancy, which can have significant consequences. Strategies to consider to prevent recurrent infection include frequent screening for bacteriuria and treatment vs. chronic suppressive antibiotic therapy with cephalexin or nitrofurantoin, depending on the susceptibility of the organism. It is not clear which strategy is most effective (ACOG guidelines on UTIs in pregnancy).",
+        "Other important notes: when considering directed therapy against antibiotics for pyelonephritis: Enterococci are intrinsically resistant to cephalosporins and ertapenem; Pseudomonas is intrinsically resistant to Ertapenem",
+        "References:",
+        "IDSA guidelines for treatment of acute, uncomplicated cystitis and pyelonephritis: Clin Infect Dis 52:e103, 2011.",
+        "Review of pyelonephritis N Engl J Med 2018;378:48",
+        "Medical Letter recommendations: JAMA 311:855, 2014."
+      ]
+    }
+  ]
+}

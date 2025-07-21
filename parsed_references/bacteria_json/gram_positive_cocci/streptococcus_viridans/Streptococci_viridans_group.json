@@ -1,0 +1,318 @@
+{
+  "_originalData": {
+    "identity": {
+      "bacteriumName": "Streptococci - viridans group",
+      "lastUpdated": "2024-06-06",
+      "clsiCategory": "Streptococcus spp. Viridans Group",
+      "classification": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci in chains",
+        "notes": [
+          "Part of the normal oral, gastrointestinal, and vaginal flora."
+        ]
+      },
+      "strainDetails": [
+        {
+          "type": "Species",
+          "value": "Streptococcus mitis"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus sanguis"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus mutans"
+        },
+        {
+          "type": "Group",
+          "value": "Streptococcus anginosus group",
+          "notes": "Includes Streptococcus anginosus, Streptococcus constellatus, Streptococcus intermedius"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus gordonii"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus parasanguinis"
+        },
+        {
+          "type": "Species",
+          "value": "Streptococcus thermophilus"
+        }
+      ],
+      "biochemicalTests": "Gram-positive cocci in chains, catalase –, typically alpha-hemolytic (greenish discoloration), Optochin resistant, bile insoluble, PYR –."
+    },
+    "clinicalProfile": {
+      "summary": "Common clinical manifestations are infective endocarditis, brain abscess, empyema, and neutropenic sepsis (associated with mucositis). The Streptococcus anginosus group is frequently associated with abscesses, such as in the brain and liver. In neutropenic patients, these species can cause bacteremia or neutropenic enterocolitis (Typhlitis).",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Infective endocarditis"
+        },
+        {
+          "syndromeName": "Brain abscess"
+        },
+        {
+          "syndromeName": "Empyema"
+        },
+        {
+          "syndromeName": "Neutropenic sepsis"
+        },
+        {
+          "syndromeName": "Liver abscess"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Neutropenic enterocolitis (Typhlitis)"
+        }
+      ],
+      "highRiskPopulations": [
+        "Neutropenic patients"
+      ]
+    },
+    "treatment": {
+      "generalNotes": [
+        "Preferred agents are Penicillin, Ceftriaxone, or Vancomycin."
+      ],
+      "drugsToAvoid": [
+        {
+          "drugOrClass": "Daptomycin",
+          "reason": "Not recommended because resistance emerges rapidly."
+        },
+        {
+          "drugOrClass": "Beta-lactams",
+          "condition": "Empiric therapy in neutropenic patients with viridans streptococcal bacteremia",
+          "reason": "High rates of beta-lactam resistance."
+        }
+      ],
+      "regimens": [
+        {
+          "context": {
+            "type": "Empiric",
+            "condition": "Neutropenic host",
+            "patientPopulation": []
+          },
+          "recommendations": [
+            {
+              "preference": "Primary",
+              "strategy": "Sequential",
+              "steps": [
+                {
+                  "step": 1,
+                  "duration": "Treat for 14 days.",
+                  "drugs": [
+                    {
+                      "drugName": "Vancomycin",
+                      "dose": "15 mg/kg",
+                      "route": "IV",
+                      "frequency": "q12h"
+                    }
+                  ]
+                },
+                {
+                  "step": 2,
+                  "notes": [
+                    "Can de-escalate to a beta-lactam like Penicillin or Ceftriaxone once in vitro susceptibility is confirmed."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": {
+            "type": "Directed",
+            "condition": "In vitro susceptibility confirmed"
+          },
+          "recommendations": [
+            {
+              "preference": "Alternative",
+              "drugs": [
+                {
+                  "drugName": "Clindamycin"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "additionalInformation": {
+      "antimicrobialStewardship": [
+        "Duration for neutropenic bacteremia should be at least 14 days and continue through the recovery of neutropenia.",
+        "A penicillin, first-generation cephalosporin, or Ceftriaxone is preferred for definitive therapy unless the isolate is resistant."
+      ],
+      "guidelineReferences": [
+        {
+          "source": "Internal Link",
+          "summaryOrNote": "See Endocarditis, Streptococcal"
+        },
+        {
+          "source": "Internal Link",
+          "summaryOrNote": "See Brain Abscess, Bacterial"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "originalKeys": [
+      "identity",
+      "clinicalProfile",
+      "treatment",
+      "additionalInformation"
+    ],
+    "conversionTimestamp": "2025-07-15T03:16:49.358Z",
+    "sourceFormat": "modern"
+  },
+  "identity": {
+    "bacteriumName": {
+      "sources": [
+        "identity.bacteriumName"
+      ],
+      "value": "Streptococci - viridans group"
+    },
+    "aliases": {
+      "sources": [
+        "identity.aliases",
+        "aliases"
+      ],
+      "value": []
+    },
+    "lastUpdated": {
+      "sources": [
+        "identity.lastUpdated"
+      ],
+      "value": "2024-06-06"
+    },
+    "classification": {
+      "sources": [
+        "identity.classification"
+      ],
+      "value": {
+        "gramStain": "Gram positive",
+        "morphology": "cocci in chains",
+        "notes": [
+          "Part of the normal oral, gastrointestinal, and vaginal flora."
+        ]
+      }
+    }
+  },
+  "clinicalInformation": {
+    "sources": [
+      "clinicalProfile"
+    ],
+    "value": {
+      "summary": "Common clinical manifestations are infective endocarditis, brain abscess, empyema, and neutropenic sepsis (associated with mucositis). The Streptococcus anginosus group is frequently associated with abscesses, such as in the brain and liver. In neutropenic patients, these species can cause bacteremia or neutropenic enterocolitis (Typhlitis).",
+      "clinicalSyndromes": [
+        {
+          "syndromeName": "Infective endocarditis"
+        },
+        {
+          "syndromeName": "Brain abscess"
+        },
+        {
+          "syndromeName": "Empyema"
+        },
+        {
+          "syndromeName": "Neutropenic sepsis"
+        },
+        {
+          "syndromeName": "Liver abscess"
+        },
+        {
+          "syndromeName": "Bacteremia"
+        },
+        {
+          "syndromeName": "Neutropenic enterocolitis (Typhlitis)"
+        }
+      ],
+      "highRiskPopulations": [
+        "Neutropenic patients"
+      ]
+    }
+  },
+  "resistanceInformation": {
+    "sources": [
+      "resistanceProfile",
+      "resistance"
+    ],
+    "value": {}
+  },
+  "treatmentData": {
+    "treatmentData": {
+      "_treatmentMetadata": {
+        "originalFormat": "modern"
+      },
+      "standardizedRegimens": [
+        {
+          "regimenId": "modern-0-0-0",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[0]",
+          "context": {
+            "type": "empiric",
+            "condition": "Neutropenic host",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": []
+            }
+          },
+          "preference": "primary",
+          "drugs": [
+            {
+              "drugName": "Vancomycin",
+              "dose": "15 mg/kg",
+              "route": "IV",
+              "frequency": "q12h",
+              "duration": "Treat for 14 days.",
+              "originalText": "Vancomycin 15 mg/kg IV q12h"
+            }
+          ]
+        },
+        {
+          "regimenId": "modern-0-0-1",
+          "extractedFrom": "treatment.regimens[0].recommendations[0].steps[1]",
+          "context": {
+            "type": "empiric",
+            "condition": "Neutropenic host",
+            "severity": "unknown",
+            "patientFactors": {
+              "population": []
+            }
+          },
+          "preference": "primary",
+          "drugs": []
+        }
+      ]
+    }
+  },
+  "laboratoryData": {
+    "sources": [
+      "laboratoryProfile",
+      "laboratory"
+    ],
+    "value": {}
+  },
+  "additionalData": {
+    "antimicrobialStewardship": {
+      "sources": [
+        "antimicrobial_stewardship",
+        "antimicrobialStewardship"
+      ],
+      "value": []
+    },
+    "comments": {
+      "preservedStructure": {
+        "originalFormat": "object"
+      }
+    },
+    "diagnosis": {
+      "sources": [
+        "diagnosis"
+      ],
+      "value": []
+    },
+    "allOtherKeys": {}
+  }
+}

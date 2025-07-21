@@ -1,0 +1,63 @@
+{
+  "drug_name": "Retapamulin",
+  "tradename": "Altabax",
+  "usage_and_dosing": {
+    "general_info": [
+      "Member of pleuromutilin class; a topical antibacterial.",
+      "For therapy of impetigo due to Strep. pyogenes or Staph. aureus.",
+      "Microbiologic success in 90% of Staph. aureus infections and 97% of Strep. pyogenes infections (J Am Acad Derm 55:1003, 2006).",
+      "Package insert says do not use for MRSA (not enough patients in clinical trials). Retapamulin active in vitro vs MRSA.",
+      "Reference: Clin Infect Dis 49:1541, 2009, Clin Micro Rev 30(3): 827, 2017."
+    ],
+    "adult_dose": "1% ointment; apply to affected area bid x 5 days",
+    "pediatric_dose": {
+      "age": "≥9 mon",
+      "dose": "apply q12h x5 days (max area up to 2% BSA)"
+    },
+    "renal_adjustment": {
+      "half_life_hrs_renal_function_normal": "No data",
+      "half_life_hrs_esrd": "No data",
+      "dose_renal_function_normal": "Apply q12h x5 days",
+      "crcl_or_egfr": "No dosage adjustment for renal impairment",
+      "hemodialysis": "No data",
+      "capd": "No data",
+      "crrt": "No data",
+      "sled": "No data"
+    },
+    "hepatic_adjustment": "No dosage adjustment"
+  },
+  "adverse_effects": [
+    "Pruritis, at application site, 2%.",
+    "Local irritation."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "B",
+    "use_during_lactation": "Safety not established, avoid use"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [
+      "Staph. aureus",
+      "Strep. pyogenes"
+    ],
+    "alternative": [
+      "Active vs. some Staph. aureus strains resistant to Mupirocin"
+    ]
+  },
+  "pharmacology": {
+    "pk_pd_index": "No data",
+    "pharmaceutical_preparations": "1% ointment",
+    "peak_serum_conc_mcg_ml": "Low, not always measurable",
+    "protein_binding_percent": 94,
+    "elimination": "Metabolized"
+  },
+  "enzyme_transporter_mediated_interactions": {
+    "cyp450s_that_drug_is_a_substrate_for": "CYP3A4",
+    "impact_on_serum_drug_concentrations": "None expected"
+  },
+  "major_drug_interactions": [
+    "Avoid coadministration with strong CYP3A4 inhibitors in children <24 months old."
+  ],
+  "comments": [
+    "Not for intranasal, intravaginal, oral or ophthalmic use."
+  ]
+}

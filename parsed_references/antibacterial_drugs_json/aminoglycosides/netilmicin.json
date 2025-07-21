@@ -1,0 +1,122 @@
+{
+  "drug_name": "Netilmicin",
+  "usage_and_dosing": {
+    "description": "Netilmicin is an aminoglycoside active against aerobic gram-negative bacilli. Potential for cochlear, vestibular and nephrotoxicity. Netilmicin is not available in the U.S.",
+    "adult_dose": [
+      {
+        "route": "Usual dose",
+        "dose": "1.7-2 mg/kg IV q8h"
+      },
+      {
+        "route": "CAPD-related peritonitis",
+        "dose": "See Intraperitoneal Drug Dosing, CAPD"
+      }
+    ],
+    "pediatric_dose": [
+      {
+        "age": ">28 Days",
+        "dose": "Safety and efficacy not established"
+      }
+    ]
+  },
+  "renal_adjustment": {
+    "half_life_normal_function": "2-3 hrs",
+    "half_life_esrd": "30-70 hrs",
+    "dose_renal_function_normal": "1.7-2.0 mg/kg IM/IV q8h",
+    "crcl_or_egfr": {
+      "crcl_>50": "No dosage adjustment",
+      "crcl_10_50": "1.7-2.0 mg/kg q12-24h",
+      "crcl_<10": "1.7-2.0 mg/kg q48h"
+    },
+    "hemodialysis": "1.7-2.0 mg/kg q48h (+ extra 0.85-1.0 mg/kg AD)",
+    "capd": "For peritonitis only: 0.6 mg/kg IP once daily",
+    "crrt": "1.7-2.0 mg/kg q24h",
+    "sled": "No data"
+  },
+  "hepatic_adjustment": {
+    "mild_impairment": "No dosage adjustment",
+    "moderate_impairment": "No dosage adjustment",
+    "severe_impairment": "No dosage adjustment"
+  },
+  "other_adjustment": {
+    "ecmo": "See ECMO Drug Dosing Adjustment.",
+    "obesity": "See Obesity Dosing Adjustments."
+  },
+  "adverse_effects": [
+    "Nephrotoxicity (acute tubular necrosis)",
+    "Ototoxicity (cochlear and vestibular).",
+    "Enhancement of neuromuscular blockade (rare)."
+  ],
+  "pregnancy_risk": {
+    "fda_risk_category": "Associated with fetal harm, especially 1st TM use. Avoid in pregnancy, although short-term use may be acceptable if benefit outweighs risk.",
+    "use_during_lactation": "Safety not established, avoid use"
+  },
+  "antimicrobial_spectrum": {
+    "preferred": [],
+    "alternative": [],
+    "full_spectrum_link": "Full comparative spectrum of activity"
+  },
+  "pharmacology": {
+    "pk_pd_index": "24-hr AUC/MIC",
+    "pharmaceutical_preparations": "Injection",
+    "oral_absorption": null,
+    "tmax": null,
+    "peak_serum_conc": "4-8 (2 mg/kg IV, SD)",
+    "peak_urine_conc": "No data",
+    "protein_binding": "0-10%",
+    "volume_of_distribution": "0.26 L/kg",
+    "avg_serum_t1_2": "2-3 hr",
+    "elimination": "Renal",
+    "bile_penetration": "10-60%",
+    "csf_blood": "0-30%",
+    "therapeutic_levels_in_csf": "No",
+    "auc": "No data"
+  },
+  "major_drug_interactions": [
+    {
+      "drug": "Amphotericin B",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Cisplatin",
+      "effect": "↑ nephrotoxicity, ↑ ototoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Cyclosporine",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Furosemide",
+      "effect": "↑ ototoxicity",
+      "suggestion": "Avoid"
+    },
+    {
+      "drug": "Neuromuscular blocking agents",
+      "effect": "↑ apnea or respiratory paralysis",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "NSAIDS",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Piperacillin-tazobactam",
+      "effect": "Possible netilmicin inactivation",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Radiographic contrast",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Monitor"
+    },
+    {
+      "drug": "Vancomycin",
+      "effect": "↑ nephrotoxicity",
+      "suggestion": "Avoid"
+    }
+  ]
+}
