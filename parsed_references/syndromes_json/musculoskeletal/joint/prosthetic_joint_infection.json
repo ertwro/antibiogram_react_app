@@ -56,16 +56,8 @@
       ]
     },
     {
-      "type": "header",
-      "level": 2,
-      "text": "Radiologic and Diagnostic Findings"
-    },
-    {
       "type": "list",
       "items": [
-        "Radiographs may show periprosthetic radiolucency (>2 mm), rapidly progressive osteolysis, or periosteal reaction, but can be normal in early infection.",
-        "CT and MRI can better define bone changes, soft tissue abscesses, and sinus tracts, though metal artifact can be a limitation.",
-        "When other imaging is inconclusive, labeled leukocyte scintigraphy or FDG-PET/CT can help identify sites of inflammation and infection."
       ]
     },
     {
@@ -77,7 +69,9 @@
       "type": "list",
       "items": [
         "Synovial fluid WBCs >3000cells/mm³ or >95% PMNs.",
-        "Can present with or without radiographic evidence of osteomyelitis.",
+        "Radiographs may show periprosthetic radiolucency (>2 mm), rapidly progressive osteolysis, or periosteal reaction, but can be normal in early infection.",
+        "CT and MRI can better define bone changes, soft tissue abscesses, and sinus tracts, though metal artifact can be a limitation.",
+        "When other imaging is inconclusive, labeled leukocyte scintigraphy or FDG-PET/CT can help identify sites of inflammation and infection.",
         "Synovial culture yield increased by injecting fluid into blood culture bottles",
         "Cultures should be held, especially in infections of the shoulder, for 10 days with blind subculture to maximize recovery of Cutibacterium (formerly Propionibacterium) acnes (J Clin Microbiol 54:3043, 2016)."
       ]
