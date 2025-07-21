@@ -1,4 +1,7 @@
-/* Import Tailwind CSS from CDN is handled in HTML */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Base styles and iframe-specific styles */
 html, body {
   font-family: "Inter", sans-serif;

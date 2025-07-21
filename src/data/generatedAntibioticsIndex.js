@@ -24251,7 +24251,7 @@ export const databaseStats = {
   STREPTOGRAMIN: 2,
   TETRACYCLINE: 6
   },
-  lastGenerated: '2025-07-21T01:33:59.061Z'
+  lastGenerated: '2025-07-21T01:44:30.631Z'
 };
 
 // Helper functions
