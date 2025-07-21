@@ -60,7 +60,7 @@
         "rows": [
           ["Asymptomatic", "No symptoms"],
           ["Mild disease", "Fever, cough, sore throat, N/V, diarrhea, loss of taste or smell but no dyspnea; normal O2 saturation and normal chest X-ray"],
-          ["Moderate disease", "Symptoms of mild disease plus evidence of lower respiratory tract infection (exam and/or imaging), O2 saturation ","94% on room air"],
+          ["Moderate disease", "Symptoms of mild disease plus evidence of lower respiratory tract infection (exam and/or imaging), O2 saturation 94% on room air"],
           ["Severe disease", "Symptoms of moderate disease but O2 saturation <94%, PaO2/FiO2 <300 mmHg, respiratory frequency >30 breaths per minute, or lung infiltrates >50%"],
           ["Critical disease", "Symptoms of severe disease but intubated with respiratory failure, septic shock, and/or multiorgan dysfunction"]
         ]

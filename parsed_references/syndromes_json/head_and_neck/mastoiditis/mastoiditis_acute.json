@@ -187,7 +187,8 @@
       "text": "Antimicrobial Stewardship"
     },
     {
-      "type": "list",n      "items": [
+      "type": "list",
+      "items": [
         "Duration of therapy",
         "Guided by severity of disease, longer courses for more complicated disease",
         "7-10 days IV, then transition to oral therapy based on results of culture and susceptibility data to complete a 4-week course",

@@ -96,7 +96,7 @@
       ]
     },
     {
-      "type": 'header',
+      "type": "header",
       "level": 2,
       "text": "Primary Regimens"
     },
