@@ -33,9 +33,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate import indexes
-        run: npm run generate-imports
-
       - name: Build
         run: npm run build
 
