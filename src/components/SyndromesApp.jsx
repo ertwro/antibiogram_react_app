@@ -1,695 +1,1453 @@
-import React, { useState, useEffect } from 'react';
+// src/components/SyndromesApp.jsx
+// --- Professional Medical Syndromes Interface ---
+// Advanced clinical decision support with copy functionality
+
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { 
+  getSyndromesDatabase, 
+  getSyndromeCategories, 
+  getSyndromesByCategory, 
+  searchSyndromes, 
+  getCategoryDisplayName 
+} from '../data/generatedSyndromesIndex.js';
 
 const SyndromesApp = ({ onBackToLanding }) => {
-    const [currentView, setCurrentView] = useState('resumen');
-    const [selectedPathogen, setSelectedPathogen] = useState('p_aeruginosa');
-    const [resistanceChart, setResistanceChart] = useState(null);
-    const [topPathogensChart, setTopPathogensChart] = useState(null);
+  const [currentView, setCurrentView] = useState('browse'); // browse or syndrome
+  const [selectedSyndrome, setSelectedSyndrome] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [allSyndromes, setAllSyndromes] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [copiedSection, setCopiedSection] = useState(null);
+  const [copyTimeout, setCopyTimeout] = useState(null);
+  
+  // Browse mode state
+  const [folderStructure, setFolderStructure] = useState({});
+  const [expandedFolders, setExpandedFolders] = useState(new Set());
+  const [currentPath, setCurrentPath] = useState([]);
 
-    // Complete data from antibiogram.html
-    const appData = {
-        topPathogens: {
-            labels: ["E. coli", "S. aureus", "K. pneumoniae", "P. aeruginosa", "A. baumannii"],
-            data: [4000, 3100, 2600, 2000, 1500],
-        },
-        pathogens: {
-            p_aeruginosa: {
-                name: "Pseudomonas aeruginosa",
-                burden: "4ta causa de muerte por RAM en Colombia (2,000 muertes en 2019). Prevalencia en UCI aumentó de 8% a 11% (2018-2021). 2do agente en Neumonía Asociada a Ventilador (20.7%) y Bacteriemia (10.5%) en UCI de adultos (2023).",
-                resistance: {
-                    labels: ["Pip/Tazo", "Ceftazidima", "Cefepime", "Imipenem", "Meropenem", "Ciprofloxacina", "Amikacina"],
-                    datasets: [{
-                        label: "% Resistencia",
-                        data: [35, 30, 30, 28, 28, 30, 30],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["GREBO 2018-21 (aumento sig.)", "GREBO 2001-03 (>30%)", "GREBO 2001-03 (>30%)", "INS 2022 (23.9-27.9%)", "INS 2022 (23.9-27.9%)", "GREBO 2001-03 (>30%)", "GREBO 2001-03 (>30%)"],
-                    }],
-                },
-                intrinsic: ["Ampicilina", "Amoxi/Clav", "Cefalosp. 1ra/2da gen", "Tetraciclinas", "TMP/SMX", "Cloranfenicol"],
-                considerations: "TENDENCIA CRÍTICA: Se ha demostrado un aumento estadísticamente significativo en la resistencia a Piperacilina-Tazobactam y Carbapenems a nivel nacional (2018-2021). La eficacia de estas terapias clave está disminuyendo activamente.",
-            },
-            e_coli: {
-                name: "Escherichia coli",
-                burden: "1ra causa de muerte por RAM en Colombia (4,000 muertes en 2019). Constituye 26-28% de todos los aislados bacterianos. Principal agente en ITU asociada a catéter en UCI (25.6% en 2023).",
-                resistance: {
-                    labels: ["Cefalosp. 3ra Gen", "Ciprofloxacina"],
-                    datasets: [{
-                        label: "% Resistencia",
-                        data: [28.6, 25],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["INS 2022 (28.6%)", "GREBO 2001-03 (>20%)"],
-                    }],
-                },
-                intrinsic: [],
-                considerations: "La resistencia a Cefalosporinas de 3ra Gen es un marcador de producción de BLEE. Datos de diferentes fuentes muestran tasas entre 20-28.6%, indicando una alta prevalencia de BLEE.",
-            },
-            k_pneumoniae: {
-                name: "Klebsiella pneumoniae",
-                burden: "3ra causa de muerte por RAM en Colombia (2,600 muertes en 2019). Prevalencia en UCI aumentó de 15% a 18% (2018-2021). Agente predominante en Bacteriemia (19.9%) y NAV (29.8%) en UCI de adultos (2023).",
-                resistance: {
-                    labels: ["Ceftriaxona", "Carbapenems"],
-                    datasets: [{
-                        label: "% Resistencia",
-                        data: [31, 15],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["Expertos 2022 (31%) / GREBO 2001-03 (>30%)", "INS/GREBO (variable, creciente)"],
-                    }],
-                },
-                intrinsic: ["Ampicilina"],
-                considerations: "La resistencia a carbapenems es una amenaza crítica y creciente a nivel nacional, a menudo mediada por carbapenemasas como KPC, cuya diseminación en Bogotá fue documentada desde 2008.",
-            },
-            e_cloacae: {
-                name: "Enterobacter cloacae complex",
-                burden: "Causa frecuente de infecciones nosocomiales, especialmente en inmunocomprometidos. No está en el top 5 de mortalidad, pero es un patógeno de alta preocupación por su resistencia.",
-                resistance: {
-                    labels: ["Ceftriaxona", "Cefepime", "Pip/Tazo", "Meropenem", "Ciprofloxacina"],
-                    datasets: [{
-                        label: "% Resistencia (GREBO 2023)",
-                        data: [38, 28.6, 35.7, 11.9, 30.8],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["GREBO 2023", "GREBO 2023", "GREBO 2023", "GREBO 2023", "GREBO 2023"],
-                    }],
-                },
-                intrinsic: ["Ampicilina", "Amoxi/Clav", "Cefalosp. 1ra Gen", "Cefoxitina"],
-                considerations: "La principal característica es la presencia de una β-lactamasa AmpC cromosómica inducible. La exposición a cefalosporinas de 1ra/2da/3ra gen puede seleccionar mutantes hiperproductoras, causando fracaso terapéutico. Cefepime es el agente de elección si es susceptible.",
-            },
-            a_baumannii: {
-                name: "Acinetobacter baumannii",
-                burden: "5ta causa de muerte por RAM en Colombia (1,500 muertes en 2019). Patógeno formidable casi exclusivo de entornos de UCI.",
-                resistance: {
-                    labels: ["Carbapenems"],
-                    datasets: [{
-                        label: "% Resistencia",
-                        data: [45],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["INS 2022 (UCI Adultos)"],
-                    }],
-                },
-                intrinsic: ["Ampicilina", "Cefalosp. 1ra/2da gen", "Ertapenem"],
-                considerations: "Patógeno nosocomial con tasas de resistencia a carbapenémicos extremadamente altas (>45%), lo que limita severamente las opciones terapéuticas y lo convierte en una amenaza crítica.",
-            },
-            s_aureus: {
-                name: "Staphylococcus aureus",
-                burden: "2da causa de muerte por RAM en Colombia (3,100 muertes en 2019). Constituye 10-11% de todos los aislados bacterianos.",
-                resistance: {
-                    labels: ["Infección Clínica", "UCI Bogotá", "Portadores Sanos"],
-                    datasets: [{
-                        label: "% Resistencia SARM",
-                        data: [43, 62, 20],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["Infección Clínica (Expertos 2022)", "UCI Bogotá (GREBO 2001-03)", "Portadores Sanos (Expertos 2022)"],
-                    }],
-                },
-                intrinsic: ["Aztreonam", "Polimixinas"],
-                considerations: "La prevalencia de SARM es alta y depende del contexto: 43% en infecciones clínicas, pero puede superar el 60% en UCI. Esto requiere el uso empírico de terapias alternativas como vancomicina en pacientes críticos.",
-            },
-            e_faecium: {
-                name: "Enterococcus faecium",
-                burden: "Patógeno de alta preocupación en UCI, especialmente por VRE.",
-                resistance: {
-                    labels: ["Vancomicina (ERV)", "Vancomicina (ERV)"],
-                    datasets: [{
-                        label: "% Resistencia",
-                        data: [40.1, 54.5],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["UCI Adultos (INS 2022)", "UCI Neonatal (INS 2022)"],
-                    }],
-                },
-                intrinsic: ["Cefalosporinas", "Clindamicina", "TMP/SMX"],
-                considerations: "La resistencia a vancomicina (ERV) es muy preocupante, especialmente en E. faecium, superando el 40% en UCI de adultos y un alarmante 54% en UCI neonatales.",
-            },
-            s_pneumoniae: {
-                name: "Streptococcus pneumoniae",
-                burden: "Principal causa de Neumonía Adquirida en la Comunidad, meningitis y bacteriemia. La resistencia complica el tratamiento de la enfermedad invasiva.",
-                resistance: {
-                    labels: ["Penicilina (Meningeo)", "Ceftriaxona (Meningeo)", "Penicilina (No Meningeo)", "Ceftriaxona (No Meningeo)"],
-                    datasets: [{
-                        label: "% Resistencia o Susc. Disminuida",
-                        data: [41.3, 21.7, 28.2, 24.2],
-                        backgroundColor: "rgba(13, 148, 136, 0.6)",
-                        borderColor: "rgba(13, 148, 136, 1)",
-                        borderWidth: 1,
-                        sources: ["IPD Pediátrica 2017-22", "IPD Pediátrica 2017-22", "IPD Pediátrica 2017-22", "IPD Pediátrica 2017-22"],
-                    }],
-                },
-                intrinsic: ["Aminoglucósidos (bajo nivel)"],
-                considerations: "La resistencia está fuertemente ligada al serotipo 19A, no cubierto por la vacuna PCV10. Estos datos de vigilancia impulsaron el cambio de política nacional a la vacuna PCV13 para mejorar la cobertura.",
-            },
-        },
-        crossResistanceData: [
-            {
-                title: "Producción de BLEE (ESBL)",
-                content: "<strong>En:</strong> E. coli, K. pneumoniae, P. mirabilis.<br><strong>Implica Resistencia a:</strong> Todas las penicilinas, todas las cefalosporinas (1ra-4ta gen), y aztreonam, sin importar el resultado in vitro.<br><strong>Nota Clínica:</strong> Reportar estos agentes como resistentes. Los carbapenems permanecen activos. La susceptibilidad a combinaciones con inhibidores (ej. Pip/Tazo) es variable.",
-            },
-            {
-                title: "Producción de Carbapenemasa (ej. KPC)",
-                content: "<strong>En:</strong> Enterobacterales, P. aeruginosa, A. baumannii.<br><strong>Implica Resistencia a:</strong> Todos los beta-lactámicos (penicilinas, cefalosporinas, carbapenems).<br><strong>Nota Clínica:</strong> Hallazgo de salud pública crítico. El tratamiento requiere agentes noveles (ej. ceftazidima-avibactam) o terapia combinada.",
-            },
-            {
-                title: "S. aureus Meticilino-Resistente (SARM)",
-                content: "<strong>En:</strong> S. aureus.<br><strong>Implica Resistencia a:</strong> Todos los beta-lactámicos (excepto ceftarolina).<br><strong>Nota Clínica:</strong> Usar Cefoxitin como marcador. Reportar como resistente a todos los beta-lactámicos. Opciones terapéuticas incluyen vancomicina, daptomicina, linezolid.",
-            },
-            {
-                title: "Resistencia a Fluoroquinolonas de Alto Nivel",
-                content: "<strong>En:</strong> Enterobacterales, P. aeruginosa.<br><strong>Implica Resistencia a:</strong> Alta probabilidad de resistencia a todas las fluoroquinolonas (ciprofloxacina, levofloxacina, etc.).<br><strong>Nota Clínica:</strong> No se recomienda probar una segunda fluoroquinolona; la resistencia a una predice la resistencia de clase.",
-            },
-            {
-                title: "Resistencia Inducible a Clindamicina (Test D+)",
-                content: "<strong>En:</strong> Estafilococos, S. pyogenes.<br><strong>Implica Resistencia a:</strong> Falla terapéutica con clindamicina in vivo a pesar de parecer susceptible in vitro.<br><strong>Nota Clínica:</strong> Si el test de aproximación de discos (D-test) es positivo, reportar clindamicina como resistente.",
-            },
-        ],
+  // Build folder structure from file paths
+  const buildFolderStructure = (syndromes) => {
+    const structure = {};
+    
+    syndromes.forEach(syndrome => {
+      if (!syndrome.filePath) return;
+      
+      // Extract path parts from filePath: /antibiogram_react_app/syndromes_json/category/subcategory/file.json
+      const pathParts = syndrome.filePath
+        .replace('/antibiogram_react_app/syndromes_json/', '')
+        .split('/')
+        .filter(part => part && !part.endsWith('.json'));
+      
+      let current = structure;
+      pathParts.forEach((part, index) => {
+        if (!current[part]) {
+          current[part] = {
+            folders: {},
+            files: [],
+            path: pathParts.slice(0, index + 1),
+            displayName: getCategoryDisplayName(part)
+          };
+        }
+        if (index === pathParts.length - 1) {
+          // This is the final folder containing the file
+          current[part].files.push(syndrome);
+        }
+        current = current[part].folders;
+      });
+      
+      // If no subfolders, add to root category
+      if (pathParts.length === 1) {
+        const category = pathParts[0];
+        if (!structure[category]) {
+          structure[category] = {
+            folders: {},
+            files: [],
+            path: [category],
+            displayName: getCategoryDisplayName(category)
+          };
+        }
+        structure[category].files.push(syndrome);
+      }
+    });
+    
+    return structure;
+  };
+
+  // Load all syndromes for search and browse
+  useEffect(() => {
+    async function loadAllSyndromes() {
+      try {
+        const db = await getSyndromesDatabase();
+        const all = Object.values(db).filter(syndrome => syndrome.title);
+        setAllSyndromes(all);
+        // Don't show any results by default - only when searching
+        
+        // Build folder structure for browse mode
+        const structure = buildFolderStructure(all);
+        setFolderStructure(structure);
+        
+        // Start with all folders collapsed for cleaner view
+        setExpandedFolders(new Set());
+      } catch (error) {
+        console.error('Failed to load syndromes:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadAllSyndromes();
+  }, []);
+
+  // Fast local search
+  const performSearch = useCallback((term) => {
+    if (term.trim().length === 0) {
+      setSearchResults([]); // Clear results when no search term
+      return;
+    }
+
+    const searchTerm = term.toLowerCase();
+    const filtered = allSyndromes.filter(syndrome => {
+      const title = syndrome.title?.toLowerCase() || '';
+      const category = getCategoryDisplayName(syndrome.category).toLowerCase();
+      return title.includes(searchTerm) || category.includes(searchTerm);
+    }).slice(0, 15); // Limit to 15 results
+    
+    setSearchResults(filtered);
+  }, [allSyndromes]);
+
+  // Instant search
+  useEffect(() => {
+    performSearch(searchTerm);
+  }, [searchTerm, performSearch]);
+
+  const handleSyndromeSelect = (syndrome) => {
+    setSelectedSyndrome(syndrome);
+    setCurrentView('syndrome');
+  };
+
+  // Folder navigation functions
+  const toggleFolder = (folderKey) => {
+    const newExpanded = new Set(expandedFolders);
+    if (newExpanded.has(folderKey)) {
+      newExpanded.delete(folderKey);
+    } else {
+      newExpanded.add(folderKey);
+    }
+    setExpandedFolders(newExpanded);
+  };
+
+  const clearSearch = () => {
+    setSearchTerm('');
+    setSearchResults([]);
+  };
+
+  // Copy functionality
+  const copyToClipboard = async (text, sectionId) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopiedSection(sectionId);
+      
+      // Clear any existing timeout
+      if (copyTimeout) {
+        clearTimeout(copyTimeout);
+      }
+      
+      // Set new timeout to clear the copied state
+      const timeout = setTimeout(() => {
+        setCopiedSection(null);
+      }, 2000);
+      setCopyTimeout(timeout);
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+    }
+  };
+
+  // Format content for copying
+  const formatContentForCopy = (section) => {
+    switch (section.type) {
+      case 'header':
+        return `${section.text}\n${'='.repeat(section.text.length)}\n`;
+      case 'list':
+        return section.items.map(item => `• ${item}`).join('\n') + '\n';
+      case 'paragraph':
+        return `${section.text}\n`;
+      case 'regimen':
+        let regimenText = 'Treatment Regimen:\n';
+        if (section.regimenData?.strengthOfRecommendation) {
+          regimenText += `Recommendation: ${section.regimenData.strengthOfRecommendation}\n`;
+        }
+        if (section.regimenData?.appliesTo?.description) {
+          regimenText += `Applies to: ${section.regimenData.appliesTo.description}\n`;
+        }
+        if (section.regimenData?.condition) {
+          regimenText += `Condition: ${section.regimenData.condition}\n`;
+        }
+        section.regimenData?.components?.forEach((component, index) => {
+          if (component.connector && index > 0) {
+            regimenText += `${component.connector.toUpperCase()} `;
+          }
+          regimenText += `${component.drug}`;
+          if (component.dose) regimenText += ` ${component.dose}`;
+          if (component.route) regimenText += ` ${component.route}`;
+          if (component.frequency) regimenText += ` ${component.frequency}`;
+          regimenText += '\n';
+        });
+        if (section.regimenData?.durationDetail?.fixedDuration) {
+          regimenText += `Duration: ${section.regimenData.durationDetail.fixedDuration}\n`;
+        }
+        if (section.regimenData?.notes) {
+          regimenText += `Notes: ${section.regimenData.notes}\n`;
+        }
+        return regimenText;
+      case 'drugRegimen':
+        let drugText = 'Drug Regimen:\n';
+        if (section.regimenData?.strengthOfRecommendation) {
+          drugText += `Recommendation: ${section.regimenData.strengthOfRecommendation}\n`;
+        }
+        if (section.regimenData?.appliesTo?.description) {
+          drugText += `Applies to: ${section.regimenData.appliesTo.description}\n`;
+        }
+        if (section.regimenData?.condition) {
+          drugText += `Condition: ${section.regimenData.condition}\n`;
+        }
+        section.regimenData?.components?.forEach((component, index) => {
+          if (component.connector && index > 0) {
+            drugText += `${component.connector.toUpperCase()} `;
+          }
+          drugText += `${component.drug}`;
+          if (component.dose) drugText += ` ${component.dose}`;
+          if (component.route) drugText += ` ${component.route}`;
+          if (component.frequency) drugText += ` ${component.frequency}`;
+          drugText += '\n';
+        });
+        if (section.regimenData?.durationDetail?.fixedDuration) {
+          drugText += `Duration: ${section.regimenData.durationDetail.fixedDuration}\n`;
+        }
+        if (section.regimenData?.notes) {
+          drugText += `Notes: ${section.regimenData.notes}\n`;
+        }
+        return drugText;
+      case 'table':
+        let tableText = '';
+        if (section.headers) {
+          tableText += section.headers.join(' | ') + '\n';
+          tableText += section.headers.map(() => '---').join(' | ') + '\n';
+        }
+        section.rows?.forEach(row => {
+          tableText += row.join(' | ') + '\n';
+        });
+        return tableText;
+      case 'keyValuePairs':
+        let kvText = 'Clinical Information:\n';
+        section.pairs?.forEach(pair => {
+          kvText += `${pair.key}: ${pair.value}\n\n`;
+        });
+        return kvText;
+      case 'nestedContent':
+        let nestedText = `${section.title || 'Detailed Information'}:\n`;
+        if (section.content) {
+          section.content.forEach(item => {
+            nestedText += formatContentForCopy(item) + '\n';
+          });
+        }
+        return nestedText;
+      case 'differentialDiagnosis':
+        let diffText = 'Differential Diagnosis:\n';
+        section.differentialData?.conditions?.forEach(condition => {
+          diffText += `• ${condition.conditionName}`;
+          if (condition.differentiatingFeatures) {
+            diffText += `: ${condition.differentiatingFeatures}`;
+          }
+          diffText += '\n';
+        });
+        return diffText;
+      case 'partnerManagement':
+        let partnerText = 'Partner Management:\n';
+        if (section.partnerManagementData?.lookBackPeriod) {
+          partnerText += `Look-back Period: ${section.partnerManagementData.lookBackPeriod}\n`;
+        }
+        if (section.partnerManagementData?.action) {
+          partnerText += `Action: ${section.partnerManagementData.action}\n`;
+        }
+        return partnerText;
+      case 'publicHealthStrategy':
+        let pubHealthText = `Public Health Strategy: ${section.publicHealthData?.name || ''}\n`;
+        section.publicHealthData?.components?.forEach(component => {
+          pubHealthText += `${component.componentName}: ${component.description}\n`;
+        });
+        return pubHealthText;
+      case 'procedure':
+        let procText = `${section.procedureData?.name || 'Medical Procedure'}:\n`;
+        if (section.procedureData?.indication) {
+          procText += `Indication: ${section.procedureData.indication}\n`;
+        }
+        if (section.procedureData?.timing) {
+          procText += `Timing: ${section.procedureData.timing}\n`;
+        }
+        if (section.procedureData?.notes) {
+          procText += `Notes: ${section.procedureData.notes}\n`;
+        }
+        return procText;
+      case 'image':
+        let imageText = 'Clinical Image:\n';
+        if (section.imageData?.caption) {
+          imageText += `Caption: ${section.imageData.caption}\n`;
+        }
+        if (section.imageData?.src) {
+          imageText += `Source: ${section.imageData.src}\n`;
+        }
+        return imageText;
+      case 'crossReference':
+        return `${section.referenceData?.text || 'See also'}: ${section.referenceData?.targetIdentifier}\n`;
+      case 'diagnosticTest':
+        let diagText = `Diagnostic Test: ${section.diagnosticTestData?.name || ''}\n`;
+        if (section.diagnosticTestData?.analyte) {
+          diagText += `Analyte: ${section.diagnosticTestData.analyte}\n`;
+        }
+        if (section.diagnosticTestData?.sampleType) {
+          diagText += `Sample Type: ${section.diagnosticTestData.sampleType}\n`;
+        }
+        if (section.diagnosticTestData?.interpretation) {
+          diagText += `Interpretation: ${section.diagnosticTestData.interpretation}\n`;
+        }
+        if (section.diagnosticTestData?.notes) {
+          diagText += `Notes: ${section.diagnosticTestData.notes}\n`;
+        }
+        return diagText;
+      default:
+        return JSON.stringify(section, null, 2);
+    }
+  };
+
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (copyTimeout) {
+        clearTimeout(copyTimeout);
+      }
     };
+  }, [copyTimeout]);
 
-    // Chart initialization
-    useEffect(() => {
-        if (typeof window !== 'undefined' && window.Chart) {
-            initializeCharts();
-        }
-        
-        // Handle URL hash navigation
-        const handleHashChange = () => {
-            const hash = window.location.hash.replace('#', '');
-            if (['resumen', 'patogenos', 'principios'].includes(hash)) {
-                setCurrentView(hash);
-            }
-        };
-        
-        window.addEventListener('hashchange', handleHashChange);
-        
-        // Handle initial load
-        handleHashChange();
-        
-        return () => {
-            window.removeEventListener('hashchange', handleHashChange);
-        };
-    }, [currentView]);
+  // Render compact folder tree
+  const renderFolderTree = (folders, level = 0) => {
+    return Object.entries(folders).map(([key, folder]) => {
+      const fullPath = folder.path.join('/');
+      const isExpanded = expandedFolders.has(fullPath);
+      const hasSubfolders = Object.keys(folder.folders).length > 0;
+      const fileCount = folder.files.length;
+      const totalCount = fileCount + Object.values(folder.folders).reduce((sum, subfolder) => 
+        sum + subfolder.files.length + Object.values(subfolder.folders).reduce((subSum, subSubfolder) => 
+          subSum + subSubfolder.files.length, 0), 0);
 
-    const initializeCharts = () => {
-        // Top Pathogens Chart
-        if (currentView === 'resumen') {
-            const topCtx = document.getElementById('topPathogensChart');
-            if (topCtx && !topPathogensChart) {
-                const chart = new window.Chart(topCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: appData.topPathogens.labels,
-                        datasets: [{
-                            label: 'Muertes Asociadas',
-                            data: appData.topPathogens.data,
-                            backgroundColor: 'rgba(13, 148, 136, 0.6)',
-                            borderColor: 'rgba(13, 148, 136, 1)',
-                            borderWidth: 1,
-                        }],
-                    },
-                    options: {
-                        indexAxis: 'y',
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: { display: false },
-                            tooltip: {
-                                callbacks: {
-                                    label: (c) => ` ${c.raw.toLocaleString()} muertes`,
-                                },
-                            },
-                        },
-                        scales: {
-                            x: {
-                                beginAtZero: true,
-                                title: {
-                                    display: true,
-                                    text: 'Número de Muertes (Estimado 2019)',
-                                },
-                            },
-                        },
-                    },
-                });
-                setTopPathogensChart(chart);
-            }
-        }
-
-        // Resistance Chart
-        if (currentView === 'patogenos') {
-            updateResistanceChart();
-        }
-    };
-
-    const updateResistanceChart = () => {
-        const pathogenData = appData.pathogens[selectedPathogen];
-        if (!pathogenData) return;
-
-        const ctx = document.getElementById('resistanceChart');
-        if (ctx) {
-            if (resistanceChart) {
-                resistanceChart.destroy();
-            }
-
-            const chart = new window.Chart(ctx, {
-                type: 'bar',
-                data: pathogenData.resistance,
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 100,
-                            title: { display: true, text: '% Resistencia' },
-                        },
-                    },
-                    plugins: {
-                        legend: { display: pathogenData.resistance.datasets.length > 1 },
-                        tooltip: {
-                            callbacks: {
-                                label: (c) => ` ${c.dataset.label || ""}: ${c.raw}%`,
-                                afterLabel: (c) => `Fuente: ${c.dataset.sources ? c.dataset.sources[c.dataIndex] : ''}`,
-                            },
-                        },
-                    },
-                },
-            });
-            setResistanceChart(chart);
-        }
-    };
-
-    useEffect(() => {
-        if (currentView === 'patogenos' && selectedPathogen) {
-            updateResistanceChart();
-        }
-        
-        // Cleanup charts on unmount
-        return () => {
-            if (resistanceChart) {
-                resistanceChart.destroy();
-            }
-            if (topPathogensChart) {
-                topPathogensChart.destroy();
-            }
-        };
-    }, [selectedPathogen]);
-
-    const renderResumenView = () => (
-        <div className="space-y-8">
-            <header className="mb-8">
-                <h2 className="text-3xl font-bold text-slate-900">
-                    Panorama de la Resistencia Antimicrobiana en Colombia
-                </h2>
-                <p className="mt-2 text-slate-600">
-                    Un resumen del impacto, los patógenos clave y los sistemas de vigilancia que definen el desafío de la RAM en el país.
-                </p>
-            </header>
-
-            {/* Mortality Statistics */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                    Carga de Mortalidad por RAM en Colombia (Datos 2019)
-                </h3>
-                <p className="text-slate-600 mb-6">
-                    La resistencia antimicrobiana es una de las principales causas de muerte en Colombia, superando la mortalidad combinada de varias enfermedades crónicas. Los datos del IHME de 2019 revelan la escala del problema.
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-                        <h4 className="font-semibold text-red-800 mb-2">Mortalidad Asociada a la RAM</h4>
-                        <p className="text-4xl font-bold text-red-600">18,200</p>
-                        <p className="text-red-700">muertes en las que una infección resistente fue un factor contribuyente.</p>
-                    </div>
-                    <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-                        <h4 className="font-semibold text-red-800 mb-2">Mortalidad Atribuible a la RAM</h4>
-                        <p className="text-4xl font-bold text-red-700">4,700</p>
-                        <p className="text-red-700">muertes directamente causadas por la infección resistente.</p>
-                    </div>
-                </div>
-            </div>
-
-            {/* Top Pathogens Chart */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                    Patógenos con Mayor Mortalidad Asociada en Colombia (2019)
-                </h3>
-                <div className="chart-container" style={{ position: 'relative', height: '350px', maxHeight: '40vh' }}>
-                    <canvas id="topPathogensChart"></canvas>
-                </div>
-                <p className="text-xs text-center text-slate-500 mt-2">
-                    Fuente: IHME 2019. Pase el cursor sobre las barras para ver el número de muertes.
-                </p>
-            </div>
-
-            {/* Surveillance Architecture */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                    Arquitectura de la Vigilancia de la RAM en Colombia
-                </h3>
-                <p className="text-slate-600 mb-6">
-                    Colombia utiliza un enfoque de "Una Salud" y triangulación de datos, integrando información de múltiples niveles. Para un antibiograma local, es crucial priorizar datos locales (propios o de redes como GREBO), contextualizarlos con datos nacionales (INS/SIVIGILA) y compararlos con benchmarks regionales (PAHO/ReLAVRA+).
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
-                    <div className="p-4 bg-teal-50 border border-teal-200 rounded-lg">
-                        <h4 className="font-semibold text-teal-800">Local (GREBO)</h4>
-                        <p className="text-sm text-teal-700">
-                            Red de hospitales en Bogotá. Provee datos de alta granularidad, especialmente de UCI, que suelen mostrar tasas de resistencia más altas que el promedio nacional.
-                        </p>
-                    </div>
-                    <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                        <h4 className="font-semibold text-blue-800">Nacional (INS/SIVIGILA)</h4>
-                        <p className="text-sm text-blue-700">
-                            Sistema de reporte obligatorio nacional. Provee la data oficial del país.
-                            <strong className="text-blue-900"> Nota:</strong> Sufrió una brecha de reportes en 2020 durante la pandemia.
-                        </p>
-                    </div>
-                    <div className="p-4 bg-indigo-50 border border-indigo-200 rounded-lg">
-                        <h4 className="font-semibold text-indigo-800">Regional (PAHO/ReLAVRA+)</h4>
-                        <p className="text-sm text-indigo-700">
-                            Red latinoamericana que agrega datos de 20 países. Permite la comparación y el benchmarking regional. Usa CLSI como estándar.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-
-    const renderPatogenosView = () => (
-        <div className="space-y-6">
-            <header className="mb-8">
-                <h2 className="text-3xl font-bold text-slate-900">
-                    Perfiles de Resistencia por Patógeno
-                </h2>
-                <p className="mt-2 text-slate-600">
-                    Seleccione un patógeno para visualizar su perfil de resistencia, carga epidemiológica y consideraciones clave, basado en la triangulación de datos de vigilancia colombianos.
-                </p>
-            </header>
-
-            {/* Pathogen Selector */}
-            <div className="mb-6 bg-white p-4 rounded-lg shadow-sm border border-slate-200">
-                <label htmlFor="pathogen-select" className="block text-sm font-medium text-slate-700 mb-2">
-                    Seleccionar Patógeno:
-                </label>
-                <select
-                    id="pathogen-select"
-                    value={selectedPathogen}
-                    onChange={(e) => setSelectedPathogen(e.target.value)}
-                    className="w-full md:w-1/2 p-2 border border-slate-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+      return (
+        <div key={fullPath}>
+          {/* Folder Header - Ultra Compact */}
+          <div
+            className={`flex items-center py-0.5 px-1 hover:bg-gray-100 cursor-pointer text-xs ${
+              level > 0 ? `ml-${level * 3}` : ''
+            }`}
+            onClick={() => toggleFolder(fullPath)}
+          >
+            {/* Expand/Collapse Icon - Minimal */}
+            <div className="w-3 h-3 flex items-center justify-center mr-1 flex-shrink-0">
+              {hasSubfolders ? (
+                <svg
+                  className={`w-2 h-2 text-gray-500 transition-transform ${
+                    isExpanded ? 'rotate-90' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-                    <option value="p_aeruginosa">Pseudomonas aeruginosa</option>
-                    <option value="e_coli">Escherichia coli</option>
-                    <option value="k_pneumoniae">Klebsiella pneumoniae</option>
-                    <option value="e_cloacae">Enterobacter cloacae complex</option>
-                    <option value="a_baumannii">Acinetobacter baumannii</option>
-                    <option value="s_aureus">Staphylococcus aureus</option>
-                    <option value="e_faecium">Enterococcus faecium</option>
-                    <option value="s_pneumoniae">Streptococcus pneumoniae</option>
-                </select>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
+                </svg>
+              ) : (
+                <div className="w-1 h-1 bg-blue-500 rounded-full"></div>
+              )}
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                {/* Resistance Chart */}
-                <div className="lg:col-span-2 bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                    <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                        Perfil de Resistencia para {appData.pathogens[selectedPathogen]?.name}
-                    </h3>
-                    <div className="chart-container" style={{ position: 'relative', height: '400px' }}>
-                        <canvas id="resistanceChart"></canvas>
-                    </div>
-                    <p className="text-xs text-center text-slate-500 mt-2">
-                        Pase el cursor sobre las barras para ver el porcentaje y la fuente del dato.
-                    </p>
-                </div>
+            {/* Folder Icon - Minimal */}
+            <svg className="w-3 h-3 text-blue-600 mr-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-5l-2-2H5a2 2 0 00-2 2z" />
+            </svg>
 
-                {/* Pathogen Info */}
-                <div className="space-y-6">
-                    <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                        <h4 className="font-semibold text-slate-900 mb-2">Carga Epidemiológica</h4>
-                        <p className="text-sm text-slate-600">
-                            {appData.pathogens[selectedPathogen]?.burden}
-                        </p>
-                    </div>
+            {/* Folder Name - Compact */}
+            <span className="text-gray-700 truncate flex-1 text-xs font-medium">
+              {folder.displayName}
+            </span>
+            
+            {/* Count Badge - Super Compact */}
+            <span className="text-gray-400 text-xs ml-1 bg-gray-100 px-1 rounded-sm font-mono">
+              {totalCount}
+            </span>
+          </div>
 
-                    <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                        <h4 className="font-semibold text-slate-900 mb-2">Consideraciones Clave y Tendencias</h4>
-                        <p className="text-sm text-slate-600">
-                            {appData.pathogens[selectedPathogen]?.considerations}
-                        </p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                        <h4 className="font-semibold text-slate-900 mb-2">Resistencia Intrínseca</h4>
-                        <p className="text-sm text-slate-600 mb-2">
-                            Este patógeno es naturalmente resistente a los siguientes agentes. No deben ser usados.
-                        </p>
-                        <ul className="list-disc list-inside text-sm text-slate-600 space-y-1">
-                            {appData.pathogens[selectedPathogen]?.intrinsic?.length > 0 ? (
-                                appData.pathogens[selectedPathogen].intrinsic.map((drug, index) => (
-                                    <li key={index}>{drug}</li>
-                                ))
-                            ) : (
-                                <li>Ninguna resistencia intrínseca común a destacar.</li>
-                            )}
-                        </ul>
-                    </div>
-                </div>
+          {/* Files in this folder - Ultra Compact */}
+          {isExpanded && fileCount > 0 && (
+            <div className={`${level > 0 ? `ml-${level * 3 + 3}` : 'ml-3'}`}>
+              {folder.files.map((syndrome) => (
+                <button
+                  key={syndrome.id}
+                  onClick={() => handleSyndromeSelect(syndrome)}
+                  className="flex items-center w-full py-0.5 px-1 hover:bg-blue-50 text-left text-xs group rounded-sm"
+                >
+                  <div className="w-1 h-1 bg-green-500 rounded-full mr-2 flex-shrink-0"></div>
+                  <span className="text-gray-600 group-hover:text-blue-700 truncate text-xs">
+                    {syndrome.title}
+                  </span>
+                </button>
+              ))}
             </div>
+          )}
+
+          {/* Subfolders */}
+          {isExpanded && hasSubfolders && (
+            <div>
+              {renderFolderTree(folder.folders, level + 1)}
+            </div>
+          )}
         </div>
-    );
+      );
+    });
+  };
 
-    const renderPrincipiosView = () => (
-        <div className="space-y-8">
-            <header className="mb-8">
-                <h2 className="text-3xl font-bold text-slate-900">
-                    Principios Clave y Hallazgos del Informe
-                </h2>
-                <p className="mt-2 text-slate-600">
-                    Conceptos y conclusiones fundamentales del análisis de la resistencia en Colombia para la interpretación y uso adecuado de los datos.
-                </p>
-            </header>
+  const renderSyndromeContent = (content) => {
+    if (!content || !Array.isArray(content)) return null;
 
-            {/* Critical Findings */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                    Hallazgos y Tendencias Críticas del Informe
-                </h3>
-                <p className="text-slate-600 mb-6">
-                    El análisis de los datos de vigilancia colombianos revela varias tendencias y conclusiones que son cruciales para la práctica clínica y la salud pública.
-                </p>
-                <div className="space-y-4">
-                    <div className="flex items-start gap-4 p-4 bg-amber-50 border-l-4 border-amber-500 rounded-r-lg">
-                        <span className="text-2xl mt-1">📈</span>
-                        <div>
-                            <h4 className="font-bold text-amber-800">
-                                Tendencia de Alarma: Resistencia Creciente en P. aeruginosa
-                            </h4>
-                            <p className="text-sm text-amber-700">
-                                El hallazgo más consistente y estadísticamente significativo del período 2018-2021 fue el aumento de la resistencia de P. aeruginosa a <strong>Piperacilina-Tazobactam y Carbapenems</strong>. La eficacia de estas terapias de primera línea está disminuyendo activamente a nivel nacional.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="flex items-start gap-4 p-4 bg-sky-50 border-l-4 border-sky-500 rounded-r-lg">
-                        <span className="text-2xl mt-1">💉</span>
-                        <div>
-                            <h4 className="font-bold text-sky-800">
-                                Impacto de la Vigilancia en Políticas Públicas: Caso S. pneumoniae
-                            </h4>
-                            <p className="text-sm text-sky-700">
-                                La vigilancia demostró que la alta resistencia a penicilina y ceftriaxona en niños estaba ligada al serotipo 19A, no cubierto por la vacuna PCV10. Este dato fue fundamental para impulsar el cambio de la política nacional de vacunación a la PCV13, que sí cubre este serotipo.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="flex items-start gap-4 p-4 bg-violet-50 border-l-4 border-violet-500 rounded-r-lg">
-                        <span className="text-2xl mt-1">🧩</span>
-                        <div>
-                            <h4 className="font-bold text-violet-800">
-                                El Imperativo de la Triangulación de Datos
-                            </h4>
-                            <p className="text-sm text-violet-700">
-                                Un antibiograma local preciso no puede basarse en una sola fuente. Es esencial triangular la información: priorizar los <strong>datos locales</strong> (del propio hospital o de redes como GREBO), contextualizarlos con los <strong>datos nacionales</strong> (INS), y compararlos con los <strong>benchmarks regionales</strong> (PAHO/ReLAVRA+).
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    return content.map((section, index) => {
+      const sectionId = `section-${index}`;
+      const isCopied = copiedSection === sectionId;
+      const copyText = formatContentForCopy(section);
+
+      const CopyButton = () => (
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            copyToClipboard(copyText, sectionId);
+          }}
+          className={`opacity-0 group-hover:opacity-100 transition-all duration-200 p-1.5 rounded-md text-xs font-medium ${
+            isCopied 
+              ? 'bg-green-100 text-green-700 border border-green-300' 
+              : 'bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 border border-gray-300'
+          }`}
+          title={isCopied ? 'Copied!' : 'Copy to clipboard'}
+        >
+          {isCopied ? (
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+          ) : (
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          )}
+        </button>
+      );
+
+      try {
+        switch (section.type) {
+        case 'header':
+          const HeaderTag = `h${Math.min(section.level + 1, 6)}`;
+          const headerClass = section.level === 1 
+            ? "text-2xl font-bold text-slate-900 border-b-2 border-blue-500 pb-2"
+            : section.level === 2
+            ? "text-xl font-semibold text-slate-800 border-b border-gray-300 pb-1"
+            : "text-lg font-medium text-slate-700";
+          
+          return (
+            <div key={index} className="group relative mb-6 mt-8 first:mt-0">
+              <div className="flex items-center justify-between">
+                <HeaderTag className={headerClass}>
+                  {section.text}
+                </HeaderTag>
+                <CopyButton />
+              </div>
             </div>
+          );
 
-            {/* Cross-Resistance */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                    Resistencia Cruzada: Interpretando Fenotipos Complejos
-                </h3>
-                <p className="text-slate-600 mb-4">
-                    Un único mecanismo de resistencia puede conferir insensibilidad a múltiples fármacos. Reconocer estos fenotipos es clave para la interpretación. Haga clic en cada fenotipo para ver los detalles.
-                </p>
-                <div className="space-y-2">
-                    {appData.crossResistanceData.map((item, index) => (
-                        <AccordionItem key={index} title={item.title} content={item.content} />
+        case 'list':
+          return (
+            <div key={index} className="group relative mb-6 p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-3 right-3">
+                <CopyButton />
+              </div>
+              <ul className="space-y-2">
+                {section.items.map((item, itemIndex) => (
+                  <li key={itemIndex} className="flex items-start">
+                    <span className="inline-block w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="text-gray-700 leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+
+        case 'paragraph':
+          return (
+            <div key={index} className="group relative mb-6 p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-3 right-3">
+                <CopyButton />
+              </div>
+              <p className="text-gray-700 leading-relaxed">{section.text}</p>
+            </div>
+          );
+
+        case 'regimen':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.415-3.414l5-5A2 2 0 009 8.172V5L8 4z" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-blue-900">Treatment Regimen</h4>
+                  {section.regimenData?.strengthOfRecommendation && (
+                    <span className={`text-sm px-2 py-1 rounded-full ${
+                      section.regimenData.strengthOfRecommendation === 'Recommended' 
+                        ? 'bg-green-100 text-green-800' 
+                        : 'bg-yellow-100 text-yellow-800'
+                    }`}>
+                      {section.regimenData.strengthOfRecommendation}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* Patient Population */}
+              {section.regimenData?.appliesTo && (
+                <div className="mb-3 p-3 bg-blue-100 rounded-lg">
+                  <span className="font-medium text-blue-900">Applies to: </span>
+                  <span className="text-blue-800">{section.regimenData.appliesTo.description}</span>
+                </div>
+              )}
+
+              {/* Condition */}
+              {section.regimenData?.condition && (
+                <div className="mb-3 p-3 bg-blue-100 rounded-lg">
+                  <span className="font-medium text-blue-900">Condition: </span>
+                  <span className="text-blue-800">{section.regimenData.condition}</span>
+                </div>
+              )}
+
+              {/* Drug Components */}
+              {section.regimenData?.components && section.regimenData.components.length > 0 ? (
+                <div className="space-y-3">
+                  {section.regimenData.components.map((component, compIndex) => (
+                    <div key={compIndex} className="bg-white/70 rounded-lg p-3 border border-blue-200">
+                      <div className="flex flex-wrap items-center gap-2">
+                        {component.connector && compIndex > 0 && (
+                          <span className="px-2 py-1 text-xs font-bold text-blue-700 bg-blue-200 rounded-full">
+                            {component.connector.toUpperCase()}
+                          </span>
+                        )}
+                        <span className="font-semibold text-blue-900 text-base">{component.drug}</span>
+                        {component.dose && <span className="px-2 py-1 text-sm bg-gray-100 rounded-md text-gray-700">{component.dose}</span>}
+                        {component.route && <span className="px-2 py-1 text-sm bg-gray-100 rounded-md text-gray-600">{component.route}</span>}
+                        {component.frequency && <span className="px-2 py-1 text-sm bg-gray-100 rounded-md text-gray-600">{component.frequency}</span>}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="bg-white/70 rounded-lg p-3 border border-blue-200">
+                  <span className="text-blue-800 italic">Regimen details as referenced above</span>
+                </div>
+              )}
+
+              {/* Duration Detail */}
+              {section.regimenData?.durationDetail && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-blue-200">
+                  <span className="font-medium text-blue-900">Duration: </span>
+                  {section.regimenData.durationDetail.fixedDuration && (
+                    <span className="text-blue-800">{section.regimenData.durationDetail.fixedDuration}</span>
+                  )}
+                  {section.regimenData.durationDetail.criteriaBasedDuration && (
+                    <span className="text-blue-800">{section.regimenData.durationDetail.criteriaBasedDuration.description}</span>
+                  )}
+                  {section.regimenData.durationDetail.comparativeDurations && (
+                    <div className="space-y-1 mt-2">
+                      {section.regimenData.durationDetail.comparativeDurations.map((dur, durIndex) => (
+                        <div key={durIndex} className="text-blue-800">
+                          {dur.duration} {dur.comparator && `(${dur.comparator})`}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Evidence */}
+              {section.regimenData?.evidence && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-blue-200">
+                  <span className="font-medium text-blue-900">Evidence: </span>
+                  <span className="text-blue-800">
+                    {section.regimenData.evidence.studyCount && `${section.regimenData.evidence.studyCount} `}
+                    {section.regimenData.evidence.studyType}
+                    {section.regimenData.evidence.outcomeSummary && ` - ${section.regimenData.evidence.outcomeSummary}`}
+                  </span>
+                </div>
+              )}
+
+              {/* Efficacy */}
+              {section.regimenData?.efficacy && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-blue-200">
+                  <span className="font-medium text-blue-900">Efficacy: </span>
+                  <span className="text-blue-800">{section.regimenData.efficacy}</span>
+                </div>
+              )}
+
+              {/* Notes */}
+              {section.regimenData?.notes && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-blue-200">
+                  <span className="font-medium text-blue-900">Notes: </span>
+                  <span className="text-blue-800">{section.regimenData.notes}</span>
+                </div>
+              )}
+            </div>
+          );
+
+        case 'drugRegimen':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-4 border-emerald-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.415-3.414l5-5A2 2 0 009 8.172V5L8 4z" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-emerald-900">Drug Regimen</h4>
+                  {section.regimenData?.strengthOfRecommendation && (
+                    <span className={`text-sm px-2 py-1 rounded-full ${
+                      section.regimenData.strengthOfRecommendation === 'Recommended' 
+                        ? 'bg-green-100 text-green-800' 
+                        : 'bg-yellow-100 text-yellow-800'
+                    }`}>
+                      {section.regimenData.strengthOfRecommendation}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* Patient Population */}
+              {section.regimenData?.appliesTo && (
+                <div className="mb-3 p-3 bg-emerald-100 rounded-lg">
+                  <span className="font-medium text-emerald-900">Applies to: </span>
+                  <span className="text-emerald-800">{section.regimenData.appliesTo.description}</span>
+                </div>
+              )}
+
+              {/* Condition */}
+              {section.regimenData?.condition && (
+                <div className="mb-3 p-3 bg-emerald-100 rounded-lg">
+                  <span className="font-medium text-emerald-900">Condition: </span>
+                  <span className="text-emerald-800">{section.regimenData.condition}</span>
+                </div>
+              )}
+
+              {/* Drug Components */}
+              {section.regimenData?.components && section.regimenData.components.length > 0 ? (
+                <div className="space-y-3">
+                  {section.regimenData.components.map((component, compIndex) => (
+                    <div key={compIndex} className="bg-white/70 rounded-lg p-3 border border-emerald-200">
+                      <div className="flex flex-wrap items-center gap-2">
+                        {component.connector && compIndex > 0 && (
+                          <span className="px-2 py-1 text-xs font-bold text-emerald-700 bg-emerald-200 rounded-full">
+                            {component.connector.toUpperCase()}
+                          </span>
+                        )}
+                        <span className="font-semibold text-emerald-900 text-base">{component.drug}</span>
+                        {component.dose && <span className="px-2 py-1 text-sm bg-gray-100 rounded-md text-gray-700">{component.dose}</span>}
+                        {component.route && <span className="px-2 py-1 text-sm bg-gray-100 rounded-md text-gray-600">{component.route}</span>}
+                        {component.frequency && <span className="px-2 py-1 text-sm bg-gray-100 rounded-md text-gray-600">{component.frequency}</span>}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="bg-white/70 rounded-lg p-3 border border-emerald-200">
+                  <span className="text-emerald-800 italic">Regimen details as referenced above</span>
+                </div>
+              )}
+
+              {/* Duration Detail */}
+              {section.regimenData?.durationDetail && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-emerald-200">
+                  <span className="font-medium text-emerald-900">Duration: </span>
+                  {section.regimenData.durationDetail.fixedDuration && (
+                    <span className="text-emerald-800">{section.regimenData.durationDetail.fixedDuration}</span>
+                  )}
+                  {section.regimenData.durationDetail.criteriaBasedDuration && (
+                    <span className="text-emerald-800">{section.regimenData.durationDetail.criteriaBasedDuration.description}</span>
+                  )}
+                  {section.regimenData.durationDetail.comparativeDurations && (
+                    <div className="space-y-1 mt-2">
+                      {section.regimenData.durationDetail.comparativeDurations.map((dur, durIndex) => (
+                        <div key={durIndex} className="text-emerald-800">
+                          {dur.duration} {dur.comparator && `(${dur.comparator})`}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Evidence */}
+              {section.regimenData?.evidence && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-emerald-200">
+                  <span className="font-medium text-emerald-900">Evidence: </span>
+                  <span className="text-emerald-800">
+                    {section.regimenData.evidence.studyCount && `${section.regimenData.evidence.studyCount} `}
+                    {section.regimenData.evidence.studyType}
+                    {section.regimenData.evidence.outcomeSummary && ` - ${section.regimenData.evidence.outcomeSummary}`}
+                  </span>
+                </div>
+              )}
+
+              {/* Efficacy */}
+              {section.regimenData?.efficacy && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-emerald-200">
+                  <span className="font-medium text-emerald-900">Efficacy: </span>
+                  <span className="text-emerald-800">{section.regimenData.efficacy}</span>
+                </div>
+              )}
+
+              {/* Notes */}
+              {section.regimenData?.notes && (
+                <div className="mt-4 p-3 bg-white/70 rounded-lg border border-emerald-200">
+                  <span className="font-medium text-emerald-900">Notes: </span>
+                  <span className="text-emerald-800">{section.regimenData.notes}</span>
+                </div>
+              )}
+            </div>
+          );
+
+        case 'table':
+          return (
+            <div key={index} className="group relative mb-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+              <div className="absolute top-4 right-4 z-10">
+                <CopyButton />
+              </div>
+              <div className="overflow-x-auto">
+                <table className="min-w-full">
+                  {section.headers && (
+                    <thead>
+                      <tr className="bg-gradient-to-r from-gray-50 to-gray-100 border-b border-gray-200">
+                        {section.headers.map((header, headerIndex) => (
+                          <th key={headerIndex} className="px-4 py-3 text-left text-sm font-semibold text-gray-900 border-r border-gray-200 last:border-r-0">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                  )}
+                  <tbody>
+                    {section.rows?.map((row, rowIndex) => (
+                      <tr key={rowIndex} className="border-b border-gray-100 hover:bg-gray-50">
+                        {row.map((cell, cellIndex) => (
+                          <td key={cellIndex} className="px-4 py-3 text-sm text-gray-700 border-r border-gray-100 last:border-r-0">
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
                     ))}
-                </div>
+                  </tbody>
+                </table>
+              </div>
             </div>
+          );
 
-            {/* Stewardship Strategies */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                    Estrategias de Reporte Avanzadas (Stewardship)
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 className="font-semibold text-slate-800">Reporte en Cascada</h4>
-                        <p className="text-slate-600 text-sm">
-                            Práctica de suprimir los resultados de antibióticos de amplio espectro cuando un aislado es susceptible a un agente de espectro más estrecho y terapéuticamente equivalente. Esto guía al clínico a usar el fármaco más dirigido, preservando los de amplio espectro.
-                        </p>
-                    </div>
-                    <div>
-                        <h4 className="font-semibold text-slate-800">Reporte Selectivo</h4>
-                        <p className="text-slate-600 text-sm">
-                            Consiste en suprimir el resultado de un antibiótico que es clínicamente ineficaz para un tipo de infección específico, sin importar el resultado in vitro. Ejemplo: suprimir el resultado de daptomicina para un S. aureus de origen respiratorio, ya que es inactivado por el surfactante pulmonar.
-                        </p>
-                    </div>
+        case 'diagnosticTest':
+          const testData = section.diagnosticTestData || {};
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-indigo-50 to-indigo-100 border-l-4 border-indigo-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-3 right-3">
+                <CopyButton />
+              </div>
+              <div className="flex items-start">
+                <div className="w-6 h-6 bg-indigo-500 rounded-full flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-indigo-800 mb-2">{testData.name || 'Diagnostic Test'}</h4>
+                  {testData.description && (
+                    <p className="text-gray-700 leading-relaxed mb-2">{testData.description}</p>
+                  )}
+                  {testData.notes && (
+                    <div className="mt-3 p-3 bg-indigo-100 rounded-lg border border-indigo-200">
+                      <p className="text-sm text-indigo-700 font-medium">Notes:</p>
+                      <p className="text-sm text-indigo-600 mt-1">{testData.notes}</p>
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
-        </div>
-    );
+          );
 
-    return (
-        <div className="min-h-full bg-slate-50 text-slate-800">
-            {/* Header */}
-            <div className="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-10">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-                    <div className="flex items-center justify-between">
-                        <button 
-                            onClick={onBackToLanding}
-                            className="flex items-center text-gray-600 hover:text-gray-800 transition-colors"
-                        >
-                            <span className="mr-2">←</span>
-                            <span className="text-sm">Volver al Inicio</span>
-                        </button>
-                        <div className="text-center">
-                            <h1 className="text-2xl font-bold text-teal-700">Guía RAM - Colombia</h1>
-                            <p className="text-sm text-slate-600">Atlas Epidemiológico Nacional</p>
+        case 'crossReference':
+          return (
+            <div key={index} className="group relative mb-6 p-4 bg-gradient-to-r from-amber-50 to-amber-100 border-l-4 border-amber-400 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-3 right-3">
+                <CopyButton />
+              </div>
+              <div className="flex items-center">
+                <div className="w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <span className="text-sm text-amber-900">
+                    <strong>{section.referenceData?.text || 'See also:'}</strong>
+                  </span>
+                  {section.referenceData?.targetType === 'externalURL' ? (
+                    <a 
+                      href={section.referenceData.targetIdentifier} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-amber-700 hover:text-amber-900 underline ml-2"
+                    >
+                      {section.referenceData.targetIdentifier}
+                    </a>
+                  ) : (
+                    <span className="text-amber-800 ml-2">{section.referenceData?.targetIdentifier}</span>
+                  )}
+                </div>
+              </div>
+            </div>
+          );
+
+        case 'diagnosticTest':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-purple-50 to-purple-100 border-l-4 border-purple-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-3">
+                <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h5 className="text-lg font-semibold text-purple-900">{section.diagnosticTestData?.name || 'Diagnostic Test'}</h5>
+                  {section.diagnosticTestData?.strengthOfRecommendation && (
+                    <span className="text-sm px-2 py-1 bg-purple-100 text-purple-800 rounded-full">
+                      {section.diagnosticTestData.strengthOfRecommendation}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* Patient Population */}
+              {section.diagnosticTestData?.appliesTo && (
+                <div className="mb-3 p-3 bg-purple-100 rounded-lg">
+                  <span className="font-medium text-purple-900">Applies to: </span>
+                  <span className="text-purple-800">{section.diagnosticTestData.appliesTo.description}</span>
+                </div>
+              )}
+
+              {/* Test Details */}
+              <div className="space-y-3">
+                {section.diagnosticTestData?.analyte && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-purple-200">
+                    <span className="font-medium text-purple-900">Analyte: </span>
+                    <span className="text-gray-700">{section.diagnosticTestData.analyte}</span>
+                  </div>
+                )}
+                
+                {section.diagnosticTestData?.sampleType && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-purple-200">
+                    <span className="font-medium text-purple-900">Sample Type: </span>
+                    <span className="text-gray-700">{section.diagnosticTestData.sampleType}</span>
+                  </div>
+                )}
+
+                {section.diagnosticTestData?.interpretation && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-purple-200">
+                    <span className="font-medium text-purple-900">Interpretation: </span>
+                    <span className="text-gray-700">{section.diagnosticTestData.interpretation}</span>
+                  </div>
+                )}
+
+                {(section.diagnosticTestData?.sensitivity || section.diagnosticTestData?.specificity) && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-purple-200">
+                    {section.diagnosticTestData.sensitivity && (
+                      <div>
+                        <span className="font-medium text-purple-900">Sensitivity: </span>
+                        <span className="text-gray-700">{(section.diagnosticTestData.sensitivity * 100).toFixed(1)}%</span>
+                      </div>
+                    )}
+                    {section.diagnosticTestData.specificity && (
+                      <div>
+                        <span className="font-medium text-purple-900">Specificity: </span>
+                        <span className="text-gray-700">{(section.diagnosticTestData.specificity * 100).toFixed(1)}%</span>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {section.diagnosticTestData?.notes && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-purple-200">
+                    <span className="font-medium text-purple-900">Notes: </span>
+                    <span className="text-gray-700">{section.diagnosticTestData.notes}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+
+        case 'keyValuePairs':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-indigo-50 to-indigo-100 border-l-4 border-indigo-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 10v-6a3 3 0 116 0v6m-9 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h4 className="text-lg font-semibold text-indigo-900">Clinical Information</h4>
+              </div>
+              <div className="space-y-3">
+                {section.pairs?.map((pair, pairIndex) => (
+                  <div key={pairIndex} className="bg-white/70 rounded-lg p-4 border border-indigo-200">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="flex-1">
+                        <h6 className="font-semibold text-indigo-900 mb-2">{pair.key}</h6>
+                        <p className="text-gray-700 leading-relaxed">{pair.value}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+
+        case 'nestedContent':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-teal-50 to-teal-100 border-l-4 border-teal-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14-4H5m14 8H5m14 4H5" />
+                  </svg>
+                </div>
+                <h4 className="text-lg font-semibold text-teal-900">{section.title || 'Detailed Information'}</h4>
+              </div>
+              <div className="pl-4 border-l-2 border-teal-300">
+                {section.content && renderSyndromeContent(section.content)}
+              </div>
+            </div>
+          );
+
+        case 'differentialDiagnosis':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-orange-50 to-orange-100 border-l-4 border-orange-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h4 className="text-lg font-semibold text-orange-900">Differential Diagnosis</h4>
+              </div>
+              {section.differentialData?.conditions?.map((condition, condIndex) => (
+                <div key={condIndex} className="bg-white/70 rounded-lg p-3 border border-orange-200 mb-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="flex-1">
+                      <h6 className="font-medium text-orange-900 mb-1">{condition.conditionName}</h6>
+                      {condition.differentiatingFeatures && (
+                        <p className="text-gray-700 text-sm">{condition.differentiatingFeatures}</p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          );
+
+        case 'partnerManagement':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-pink-50 to-pink-100 border-l-4 border-pink-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <h4 className="text-lg font-semibold text-pink-900">Partner Management</h4>
+              </div>
+              <div className="space-y-3">
+                {section.partnerManagementData?.lookBackPeriod && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-pink-200">
+                    <span className="font-medium text-pink-900">Look-back Period: </span>
+                    <span className="text-gray-700">{section.partnerManagementData.lookBackPeriod}</span>
+                  </div>
+                )}
+                
+                {section.partnerManagementData?.action && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-pink-200">
+                    <span className="font-medium text-pink-900">Action: </span>
+                    <span className="text-gray-700">{section.partnerManagementData.action}</span>
+                  </div>
+                )}
+
+                {section.partnerManagementData?.partnerRegimen && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-pink-200">
+                    <span className="font-medium text-pink-900 block mb-2">Partner Regimen:</span>
+                    <div className="space-y-2">
+                      {section.partnerManagementData.partnerRegimen.components?.map((component, compIndex) => (
+                        <div key={compIndex} className="text-gray-700">
+                          <span className="font-medium">{component.drug}</span>
+                          {component.dose && ` ${component.dose}`}
+                          {component.route && ` ${component.route}`}
+                          {component.frequency && ` ${component.frequency}`}
                         </div>
-                        <div className="w-24"></div>
+                      ))}
                     </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+
+        case 'publicHealthStrategy':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-cyan-50 to-cyan-100 border-l-4 border-cyan-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
                 </div>
+                <h4 className="text-lg font-semibold text-cyan-900">{section.publicHealthData?.name || 'Public Health Strategy'}</h4>
+              </div>
+              <div className="space-y-3">
+                {section.publicHealthData?.components?.map((component, compIndex) => (
+                  <div key={compIndex} className="bg-white/70 rounded-lg p-3 border border-cyan-200">
+                    <h6 className="font-medium text-cyan-900 mb-2">{component.componentName}</h6>
+                    <p className="text-gray-700 text-sm">{component.description}</p>
+                  </div>
+                ))}
+              </div>
             </div>
+          );
 
-            <div className="flex flex-col md:flex-row">
-                {/* Sidebar Navigation */}
-                <aside className="w-full md:w-64 bg-white md:border-r border-slate-200 p-4">
-                    <nav className="flex flex-row md:flex-col gap-2">
-                        <button
-                            onClick={() => {
-                                setCurrentView('resumen');
-                                window.history.pushState(null, '', '#resumen');
-                            }}
-                            className={`nav-link flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all ${
-                                currentView === 'resumen' 
-                                    ? 'bg-teal-600 text-white' 
-                                    : 'text-slate-600 hover:bg-slate-100'
-                            }`}
-                        >
-                            <span className="text-xl">🏠</span>
-                            <span>Resumen Nacional</span>
-                        </button>
-                        <button
-                            onClick={() => {
-                                setCurrentView('patogenos');
-                                window.history.pushState(null, '', '#patogenos');
-                            }}
-                            className={`nav-link flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all ${
-                                currentView === 'patogenos' 
-                                    ? 'bg-teal-600 text-white' 
-                                    : 'text-slate-600 hover:bg-slate-100'
-                            }`}
-                        >
-                            <span className="text-xl">🦠</span>
-                            <span>Perfiles de Patógenos</span>
-                        </button>
-                        <button
-                            onClick={() => {
-                                setCurrentView('principios');
-                                window.history.pushState(null, '', '#principios');
-                            }}
-                            className={`nav-link flex items-center gap-3 p-3 rounded-lg text-sm font-medium transition-all ${
-                                currentView === 'principios' 
-                                    ? 'bg-teal-600 text-white' 
-                                    : 'text-slate-600 hover:bg-slate-100'
-                            }`}
-                        >
-                            <span className="text-xl">🔬</span>
-                            <span>Principios Clave</span>
-                        </button>
-                    </nav>
-                </aside>
+        case 'procedure':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-violet-50 to-violet-100 border-l-4 border-violet-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-violet-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-violet-900">{section.procedureData?.name || 'Medical Procedure'}</h4>
+                  {section.procedureData?.strengthOfRecommendation && (
+                    <span className="text-sm px-2 py-1 bg-violet-100 text-violet-800 rounded-full">
+                      {section.procedureData.strengthOfRecommendation}
+                    </span>
+                  )}
+                </div>
+              </div>
 
-                {/* Main Content */}
-                <main className="flex-1 p-4 sm:p-6 lg:p-8">
-                    <div className={`view ${currentView === 'resumen' ? 'active' : ''}`} style={{
-                        display: currentView === 'resumen' ? 'block' : 'none',
-                        animation: currentView === 'resumen' ? 'fadeIn 0.5s' : 'none'
-                    }}>
-                        {currentView === 'resumen' && renderResumenView()}
-                    </div>
-                    <div className={`view ${currentView === 'patogenos' ? 'active' : ''}`} style={{
-                        display: currentView === 'patogenos' ? 'block' : 'none',
-                        animation: currentView === 'patogenos' ? 'fadeIn 0.5s' : 'none'
-                    }}>
-                        {currentView === 'patogenos' && renderPatogenosView()}
-                    </div>
-                    <div className={`view ${currentView === 'principios' ? 'active' : ''}`} style={{
-                        display: currentView === 'principios' ? 'block' : 'none',
-                        animation: currentView === 'principios' ? 'fadeIn 0.5s' : 'none'
-                    }}>
-                        {currentView === 'principios' && renderPrincipiosView()}
-                    </div>
-                </main>
+              {/* Patient Population */}
+              {section.procedureData?.appliesTo && (
+                <div className="mb-3 p-3 bg-violet-100 rounded-lg">
+                  <span className="font-medium text-violet-900">Applies to: </span>
+                  <span className="text-violet-800">{section.procedureData.appliesTo.description}</span>
+                </div>
+              )}
+
+              <div className="space-y-3">
+                {section.procedureData?.indication && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-violet-200">
+                    <span className="font-medium text-violet-900">Indication: </span>
+                    <span className="text-gray-700">{section.procedureData.indication}</span>
+                  </div>
+                )}
+
+                {section.procedureData?.timing && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-violet-200">
+                    <span className="font-medium text-violet-900">Timing: </span>
+                    <span className="text-gray-700">{section.procedureData.timing}</span>
+                  </div>
+                )}
+
+                {section.procedureData?.notes && (
+                  <div className="bg-white/70 rounded-lg p-3 border border-violet-200">
+                    <span className="font-medium text-violet-900">Notes: </span>
+                    <span className="text-gray-700">{section.procedureData.notes}</span>
+                  </div>
+                )}
+              </div>
             </div>
-        </div>
-    );
-};
+          );
 
-// Accordion component for cross-resistance
-const AccordionItem = ({ title, content }) => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [maxHeight, setMaxHeight] = useState('0');
+        case 'image':
+          return (
+            <div key={index} className="group relative mb-6 p-5 bg-gradient-to-br from-slate-50 to-slate-100 border-l-4 border-slate-500 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="absolute top-4 right-4">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-slate-500 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h4 className="text-lg font-semibold text-slate-900">Clinical Image</h4>
+              </div>
+              <div className="bg-white/70 rounded-lg p-4 border border-slate-200">
+                {section.imageData?.caption && (
+                  <p className="text-gray-700 mb-3">{section.imageData.caption}</p>
+                )}
+                <div className="bg-gray-100 rounded-lg p-4 text-center">
+                  {section.imageData?.src ? (
+                    <img 
+                      src={section.imageData.src} 
+                      alt={section.imageData.caption || 'Clinical image'} 
+                      className="max-w-full h-auto rounded-lg mx-auto"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.nextSibling.style.display = 'block';
+                      }}
+                    />
+                  ) : null}
+                  <div className="text-center" style={{display: section.imageData?.src ? 'none' : 'block'}}>
+                    <svg className="w-16 h-16 text-gray-400 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <p className="text-gray-500 text-sm">Clinical image reference</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
 
-    const toggleAccordion = () => {
-        setIsOpen(!isOpen);
-        if (!isOpen) {
-            setMaxHeight('200px'); // Adjust based on content
-        } else {
-            setMaxHeight('0');
+        default:
+          // Fallback for unknown content types
+          return (
+            <div key={index} className="group relative mb-6 p-4 bg-gray-50 border border-gray-300 rounded-xl shadow-sm">
+              <div className="absolute top-3 right-3">
+                <CopyButton />
+              </div>
+              <div className="flex items-center mb-3">
+                <div className="w-6 h-6 bg-gray-400 rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <span className="text-sm font-medium text-gray-600">Content type: {section.type}</span>
+              </div>
+              <pre className="text-sm text-gray-700 overflow-x-auto bg-white rounded-lg p-3 border">
+                {JSON.stringify(section, null, 2)}
+              </pre>
+            </div>
+          );
         }
-    };
-
-    return (
-        <div className="border border-slate-200 rounded-lg">
-            <button
-                onClick={toggleAccordion}
-                className="w-full text-left p-4 bg-slate-100 hover:bg-slate-200 rounded-lg font-semibold flex justify-between items-center"
-            >
-                <span>{title}</span>
-                <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
-                    ▼
-                </span>
-            </button>
-            <div 
-                className="accordion-content bg-white border-t border-slate-200 rounded-b-lg overflow-hidden"
-                style={{ maxHeight: maxHeight }}
-            >
-                <div className="p-4">
-                    <div className="text-sm text-slate-700" dangerouslySetInnerHTML={{ __html: content }} />
-                </div>
+      } catch (error) {
+        console.error('Error rendering section:', error, section);
+        return (
+          <div key={index} className="group relative mb-6 p-4 bg-red-50 border border-red-300 rounded-xl shadow-sm">
+            <div className="text-red-700">
+              <strong>Error rendering section:</strong> {error.message}
+              <br />
+              <strong>Section type:</strong> {section.type}
             </div>
+          </div>
+        );
+      }
+    });
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 flex items-center justify-center">
+        <div className="text-center p-8 bg-white rounded-2xl shadow-lg border border-blue-100">
+          <div className="relative">
+            <div className="animate-spin w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full mx-auto mb-4"></div>
+            <div className="absolute top-3 left-1/2 transform -translate-x-1/2">
+              <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.415-3.414l5-5A2 2 0 009 8.172V5L8 4z" />
+              </svg>
+            </div>
+          </div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-2">Loading Clinical Database</h3>
+          <p className="text-gray-600">Preparing 453 syndrome protocols...</p>
         </div>
+      </div>
     );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      {/* Professional Medical Header */}
+      <div className="bg-white/90 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-20 shadow-sm">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center justify-between px-6 py-4">
+            <button 
+              onClick={onBackToLanding}
+              className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors duration-200 group"
+            >
+              <div className="w-8 h-8 rounded-full bg-gray-100 group-hover:bg-blue-100 flex items-center justify-center transition-colors">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </div>
+              <span className="font-medium">Dashboard</span>
+            </button>
+            
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.415-3.414l5-5A2 2 0 009 8.172V5L8 4z" />
+                </svg>
+              </div>
+              <div>
+                <h1 className="text-xl font-bold text-gray-900">Clinical Syndromes</h1>
+                <p className="text-xs text-gray-500">Evidence-Based Treatment Protocols</p>
+              </div>
+            </div>
+            
+            {selectedSyndrome && (
+              <button 
+                onClick={() => {
+                  setSelectedSyndrome(null);
+                  setCurrentView('browse');
+                }}
+                className="flex items-center space-x-2 px-4 py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg transition-colors duration-200 border border-blue-200"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="font-medium">Back to Browse</span>
+              </button>
+            )}
+            {!selectedSyndrome && <div className="w-32"></div>}
+          </div>
+        </div>
+      </div>
+
+      {/* Unified Browse & Search Interface */}
+      {currentView !== 'syndrome' && (
+        <div className="max-w-7xl mx-auto px-6 py-8">
+          {/* Header */}
+          <div className="text-center mb-6">
+            <h2 className="text-3xl font-bold text-gray-900 mb-2">Clinical Protocols Database</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Browse by category or search across 453 evidence-based treatment protocols
+            </p>
+          </div>
+
+          {/* Compact Search Bar */}
+          <div className="max-w-lg mx-auto mb-6">
+            <div className="relative">
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <input
+                type="text"
+                placeholder="Quick search protocols..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-10 pr-10 py-3 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm transition-all duration-200"
+              />
+              {searchTerm && (
+                <button
+                  onClick={clearSearch}
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-gray-600 transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Folder Browser with Integrated Search */}
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-xl border border-gray-200 shadow-sm">
+              <div className="px-4 py-3 border-b border-gray-200 bg-gray-50 rounded-t-xl">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center space-x-2 text-sm font-medium text-gray-700">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-5l-2-2H5a2 2 0 00-2 2z" />
+                    </svg>
+                    <span>Browse by Clinical Category</span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-xs text-gray-500">
+                    {searchTerm && (
+                      <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded">
+                        {searchResults.length} found for "{searchTerm}"
+                      </span>
+                    )}
+                    <span>{allSyndromes.length} total protocols</span>
+                  </div>
+                </div>
+              </div>
+              <div className="p-2 max-h-96 overflow-y-auto">
+                {/* Search Results - Compact List Format */}
+                {searchTerm && searchResults.length > 0 && (
+                  <div className="mb-4 pb-4 border-b border-gray-200">
+                    <div className="space-y-1">
+                      {searchResults.map((syndrome) => (
+                        <button
+                          key={syndrome.id}
+                          onClick={() => handleSyndromeSelect(syndrome)}
+                          className="w-full flex items-center py-2 px-3 hover:bg-blue-50 text-left text-sm group rounded-md transition-colors"
+                        >
+                          <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 flex-shrink-0"></div>
+                          <div className="flex-1 min-w-0">
+                            <div className="font-medium text-gray-900 group-hover:text-blue-700 truncate">
+                              {syndrome.title}
+                            </div>
+                            <div className="text-xs text-gray-500 truncate">
+                              {getCategoryDisplayName(syndrome.category)}
+                            </div>
+                          </div>
+                          <svg className="w-4 h-4 text-gray-400 group-hover:text-blue-500 ml-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* No Search Results Message */}
+                {searchTerm && searchResults.length === 0 && (
+                  <div className="mb-4 pb-4 border-b border-gray-200">
+                    <div className="text-center py-4 text-gray-500">
+                      <svg className="w-8 h-8 text-gray-400 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.08-2.33" />
+                      </svg>
+                      <p className="text-sm">No protocols found for "{searchTerm}"</p>
+                    </div>
+                  </div>
+                )}
+
+                {/* Folder Tree */}
+                {Object.keys(folderStructure).length > 0 ? (
+                  renderFolderTree(folderStructure)
+                ) : (
+                  <div className="text-center py-8 text-gray-500">
+                    <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-5l-2-2H5a2 2 0 00-2 2z" />
+                      </svg>
+                    </div>
+                    <p className="text-sm">Building folder structure...</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Enhanced Syndrome Detail View */}
+      {currentView === 'syndrome' && selectedSyndrome && (
+        <div className="max-w-7xl mx-auto px-6 py-8">
+          {/* Protocol Header */}
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8 mb-8">
+            <div className="flex items-start justify-between mb-6">
+              <div className="flex items-start space-x-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.415-3.414l5-5A2 2 0 009 8.172V5L8 4z" />
+                  </svg>
+                </div>
+                <div>
+                  <h1 className="text-3xl font-bold text-gray-900 mb-2">
+                    {selectedSyndrome.title || 'Untitled Protocol'}
+                  </h1>
+                  <div className="flex items-center space-x-4 text-sm text-gray-600">
+                    <span className="flex items-center space-x-1">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                      </svg>
+                      <span>{getCategoryDisplayName(selectedSyndrome.category)}</span>
+                    </span>
+                    {selectedSyndrome.data?.documentMetadata?.lastUpdated && (
+                      <span className="flex items-center space-x-1">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Updated {selectedSyndrome.data.documentMetadata.lastUpdated}</span>
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+              
+              {/* Quick Actions */}
+              <div className="flex items-center space-x-3">
+                <button
+                  onClick={() => {
+                    const fullText = selectedSyndrome.data?.content?.map(section => formatContentForCopy(section)).join('\n\n') || '';
+                    copyToClipboard(`${selectedSyndrome.title}\n${'='.repeat(selectedSyndrome.title.length)}\n\n${fullText}`, 'full-protocol');
+                  }}
+                  className="flex items-center space-x-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-200"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  </svg>
+                  <span>Copy Full Protocol</span>
+                </button>
+              </div>
+            </div>
+            
+            <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+              <p className="text-blue-800 text-sm leading-relaxed">
+                <strong>Clinical Decision Support:</strong> This evidence-based protocol provides standardized treatment guidelines. 
+                Always consider patient-specific factors, local resistance patterns, and institutional guidelines when making treatment decisions.
+              </p>
+            </div>
+          </div>
+            
+          {/* Protocol Content */}
+          <div className="space-y-6">
+            {renderSyndromeContent(selectedSyndrome.data?.content)}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default SyndromesApp;
